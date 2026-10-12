@@ -1,0 +1,379 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>遛娃周报</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Noto+Sans+SC:wght@400;500;700&family=Noto+Serif+SC:wght@600;700&display=swap">
+<style>
+html{color-scheme:light}[hidden]{display:none!important}img{max-width:100%}
+/* Layout: one calm column. Masthead, city bar, filters, then event cards ranked Chinese/Asian first. */
+:root{
+  --bg:#F4F6F3; --surface:#FFFFFF; --ink:#17211E; --muted:#5A6762; --line:#DCE2DD;
+  --accent:#0D6A5A; --accent-ink:#FFFFFF; --a-bg:#E1F0EA; --b:#35569F; --b-bg:#E5ECF8;
+  --chip:#EBEFEA; --focus:#1B7FD6; --shadow:0 1px 2px rgba(23,33,30,.05);
+  --display:'Noto Serif SC','Songti SC',Georgia,serif;
+  --body:'DM Sans','Noto Sans SC','PingFang SC','Microsoft YaHei',system-ui,sans-serif;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#0F1614; --surface:#162120; --ink:#E7EEEA; --muted:#93A29B; --line:#263431;
+  --accent:#4DC2A6; --accent-ink:#06201A; --a-bg:#17352E; --b:#92ABE9; --b-bg:#1B2641;
+  --chip:#1E2C29; --focus:#6FB4F0; --shadow:none; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#0F1614; --surface:#162120; --ink:#E7EEEA; --muted:#93A29B; --line:#263431;
+  --accent:#4DC2A6; --accent-ink:#06201A; --a-bg:#17352E; --b:#92ABE9; --b-bg:#1B2641;
+  --chip:#1E2C29; --focus:#6FB4F0; --shadow:none; color-scheme:dark}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font:15px/1.55 var(--body);padding-inline:16px;padding-block:0 48px;-webkit-text-size-adjust:100%}
+.wrap{max-width:780px;margin:0 auto}
+a{color:inherit}
+button,input{font:inherit;color:inherit}
+:focus-visible{outline:2px solid var(--focus);outline-offset:2px;border-radius:6px}
+
+.top{display:flex;justify-content:space-between;align-items:center;gap:12px;padding-block:18px 8px}
+.brand{font-family:var(--display);font-weight:700;font-size:20px;letter-spacing:.02em}
+.brand small{font-family:var(--body);font-weight:500;font-size:12px;color:var(--muted);letter-spacing:.06em;margin-left:8px;text-transform:uppercase}
+.seg{display:inline-flex;border:1px solid var(--line);border-radius:999px;padding:2px;background:var(--surface)}
+.seg button{border:0;background:none;padding:4px 12px;border-radius:999px;cursor:pointer;color:var(--muted);font-size:13px;font-weight:500}
+.seg button[aria-pressed="true"]{background:var(--ink);color:var(--bg)}
+
+.hero{padding-block:20px 8px;display:grid;gap:6px}
+.eyebrow{font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);font-weight:600}
+h1{font-family:var(--display);font-size:clamp(30px,6vw,44px);line-height:1.15;margin:0;font-weight:700;text-wrap:balance}
+.sub{color:var(--muted);margin:0}
+
+.citybar{margin-top:18px;background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:14px;display:grid;gap:12px;box-shadow:var(--shadow)}
+.finder{display:flex;gap:8px;flex-wrap:wrap}
+.finder input{flex:1 1 220px;min-width:0;border:1px solid var(--line);background:var(--bg);border-radius:10px;padding:9px 12px}
+.finder input::placeholder{color:var(--muted)}
+.btn{border:1px solid var(--line);background:var(--surface);border-radius:10px;padding:8px 14px;cursor:pointer;font-weight:500;text-decoration:none;display:inline-flex;align-items:center;gap:6px;font-size:14px}
+.btn:hover{border-color:var(--muted)}
+.btn.primary{background:var(--accent);border-color:var(--accent);color:var(--accent-ink)}
+.hint{font-size:13px;color:var(--muted);margin:0;min-height:1.4em}
+.cities{display:flex;flex-wrap:wrap;gap:6px}
+.city{border:1px solid var(--line);background:var(--bg);border-radius:999px;padding:5px 12px;cursor:pointer;font-size:14px}
+.city[aria-pressed="true"]{background:var(--accent);border-color:var(--accent);color:var(--accent-ink);font-weight:600}
+
+.weekend{display:flex;flex-wrap:wrap;gap:10px 18px;align-items:center;justify-content:space-between;margin-top:26px;padding-bottom:12px;border-bottom:1px solid var(--line)}
+.weekend h2{font-family:var(--display);font-size:22px;margin:0}
+.wx{display:flex;gap:16px;flex-wrap:wrap;color:var(--muted);font-size:14px}
+.wx span{display:inline-flex;gap:6px;align-items:center}
+.wx svg{width:18px;height:18px;stroke:currentColor;fill:none;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round}
+
+.filters{display:flex;flex-wrap:wrap;gap:8px;margin-top:14px}
+.chip{border:1px solid var(--line);background:var(--surface);border-radius:999px;padding:5px 13px;cursor:pointer;font-size:14px}
+.chip[aria-pressed="true"]{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+.filters .gap{flex:1}
+.count{font-size:13px;color:var(--muted);margin:14px 0 0}
+.note{margin:14px 0 0;padding:12px 14px;border-radius:12px;background:var(--b-bg);font-size:14px}
+
+.list{display:grid;gap:12px;margin-top:14px}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:16px;display:grid;grid-template-columns:76px minmax(0,1fr);gap:4px 16px;box-shadow:var(--shadow)}
+.when{display:grid;align-content:start;gap:2px;font-variant-numeric:tabular-nums}
+.when .d{font-family:var(--display);font-weight:700;font-size:24px;line-height:1}
+.when .w{font-size:12px;color:var(--muted);letter-spacing:.04em}
+.when .t{font-size:13px;margin-top:6px;font-weight:500}
+.body{min-width:0;display:grid;gap:8px}
+.badges{display:flex;gap:6px;flex-wrap:wrap;min-height:0}
+.badge{font-size:12px;font-weight:600;padding:2px 9px;border-radius:999px}
+.badge.A{background:var(--a-bg);color:var(--accent)}
+.badge.B{background:var(--b-bg);color:var(--b)}
+h3{margin:0;font-size:18px;line-height:1.3;font-weight:600;text-wrap:balance}
+.where{font-size:14px;color:var(--muted);margin:0}
+.where a{text-underline-offset:3px}
+.meta{display:flex;flex-wrap:wrap;gap:6px}
+.meta span{background:var(--chip);border-radius:6px;padding:2px 8px;font-size:12.5px}
+.meta .free{background:var(--a-bg);color:var(--accent);font-weight:600}
+.desc{margin:0;font-size:14.5px}
+.actions{display:flex;flex-wrap:wrap;gap:8px;margin-top:4px;align-items:center}
+details.cal{position:relative}
+details.cal summary{list-style:none;cursor:pointer}
+details.cal summary::-webkit-details-marker{display:none}
+.menu{position:absolute;z-index:5;left:0;top:calc(100% + 6px);min-width:210px;background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:6px;display:grid;box-shadow:0 8px 24px rgba(0,0,0,.14)}
+.menu a,.menu button{display:block;text-align:left;border:0;background:none;padding:9px 10px;border-radius:8px;cursor:pointer;text-decoration:none;font-size:14px}
+.menu a:hover,.menu button:hover{background:var(--chip)}
+.link{font-size:14px;color:var(--muted)}
+
+.empty{padding:32px 8px;text-align:center;color:var(--muted)}
+.foot{margin-top:36px;padding-top:16px;border-top:1px solid var(--line);font-size:13px;color:var(--muted);display:grid;gap:4px}
+.toast{position:fixed;left:50%;bottom:calc(20px + env(safe-area-inset-bottom,0px));transform:translateX(-50%);background:var(--ink);color:var(--bg);padding:9px 16px;border-radius:999px;font-size:14px;opacity:0;pointer-events:none;transition:opacity .2s}
+.toast.on{opacity:1}
+@media (max-width:480px){
+  .card{grid-template-columns:1fr}
+  .when{grid-template-columns:auto auto 1fr;align-items:baseline;gap:8px}
+  .when .t{margin:0;justify-self:end}
+}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+
+</head><body>
+<div class="wrap">
+  <header class="top">
+    <div class="brand">遛娃周报<small>Weekend Kids</small></div>
+    <div class="seg" role="group" aria-label="Language">
+      <button id="lang-zh" type="button" aria-pressed="true">中文</button>
+      <button id="lang-en" type="button" aria-pressed="false">EN</button>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="eyebrow" id="eyebrow"></div>
+    <h1 id="headline"></h1>
+    <p class="sub" id="sub"></p>
+  </section>
+
+  <section class="citybar" aria-label="City">
+    <form class="finder" id="finder">
+      <input id="addr" type="text" inputmode="text" autocomplete="postal-code" aria-label="Address or ZIP">
+      <button class="btn primary" type="submit" id="go"></button>
+    </form>
+    <p class="hint" id="hint" aria-live="polite"></p>
+    <div class="cities" id="cities"></div>
+  </section>
+
+  <section class="weekend">
+    <h2 id="weekend-title"></h2>
+    <div class="wx" id="wx"></div>
+  </section>
+
+  <div class="filters" id="filters"></div>
+  <p class="count" id="count"></p>
+  <div id="notes"></div>
+  <div class="list" id="list"></div>
+
+  <footer class="foot" id="foot"></footer>
+</div>
+<div class="toast" id="toast" role="status"></div>
+
+<script>
+(function(){
+"use strict";
+var T={
+ zh:{eyebrow:"每周五更新",headline:"这个周末,带娃去哪儿",sub:"按你所在的城市整理,华人与亚裔社区活动排在最前。",
+  addrPh:"输入邮编、地址或城市,例如 11354 或 Edison, NJ",go:"切换城市",
+  hintTz:"已按你的时区先选了 {c}。输入邮编或地址,可以切换到最近的城市。",
+  hintSaved:"已记住你上次选的城市:{c}。",hintFound:"已切换到 {c}。",
+  hintNone:"暂时只覆盖下面 10 个城市,没有找到匹配,请从下面选一个最近的。",
+  weekend:"{s}–{e} 周末",wxPending:"天气预报在周五更新时补上",sat:"周六",sun:"周日",fri:"周五",
+  all:"全部",asian:"华人 / 亚裔",free:"免费",indoor:"室内",
+  count:"共 {n} 个活动,其中华人 / 亚裔 {a} 个",empty:"这个筛选下没有活动,换一个条件试试。",
+  tierA:"华人社区",tierB:"亚裔文化",freeL:"免费",signup:"需报名 / 购票",indoorL:"室内",outdoorL:"户外",
+  addCal:"加入日历",gcal:"Google 日历",outlook:"Outlook 日历",ics:"下载 .ics(Apple 日历)",copy:"复制活动信息",
+  copied:"已复制,粘贴到日历的新建事件里即可",copyFail:"复制失败,请手动选择文字",
+  site:"活动官网",map:"地图",ages:"适合",
+  foot1:"更新于 {u}。活动时间、价格和是否需要报名可能变动,出发前请以主办方官网为准。",
+  foot2:"天气来自公开预报,仅供安排行程参考。",
+  eventsFail:"活动数据加载失败,请刷新页面重试。"},
+ en:{eyebrow:"Updated every Friday",headline:"Where to take the kids this weekend",sub:"Sorted for your city, with Chinese and Asian community events first.",
+  addrPh:"ZIP, address or city, e.g. 11354 or Edison, NJ",go:"Switch city",
+  hintTz:"Picked {c} from your time zone. Enter a ZIP or address to switch to the nearest city.",
+  hintSaved:"Remembered your last city: {c}.",hintFound:"Switched to {c}.",
+  hintNone:"We cover the 10 cities below for now and found no match. Pick the closest one.",
+  weekend:"Weekend of {s}–{e}",wxPending:"Forecast is added on Friday's update",sat:"Sat",sun:"Sun",fri:"Fri",
+  all:"All",asian:"Chinese / Asian",free:"Free",indoor:"Indoor",
+  count:"{n} events, {a} Chinese / Asian community",empty:"Nothing matches these filters. Try another.",
+  tierA:"Chinese community",tierB:"Asian culture",freeL:"Free",signup:"Sign-up / tickets",indoorL:"Indoor",outdoorL:"Outdoor",
+  addCal:"Add to calendar",gcal:"Google Calendar",outlook:"Outlook Calendar",ics:"Download .ics (Apple Calendar)",copy:"Copy details",
+  copied:"Copied. Paste it into a new calendar event.",copyFail:"Copy failed. Select the text manually.",
+  site:"Event site",map:"Map",ages:"Ages",
+  foot1:"Updated {u}. Times, prices and sign-up rules can change. Check the organizer's site before you go.",
+  foot2:"Weather comes from public forecasts and is a planning aid only.",
+  eventsFail:"Could not load events. Please refresh."}
+};
+var WD={zh:["周日","周一","周二","周三","周四","周五","周六"],en:["Sun","Mon","Tue","Wed","Thu","Fri","Sat"]};
+var ICON={
+ sun:'<circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/>',
+ cloud:'<path d="M7 18a4 4 0 0 1-.6-7.96A6 6 0 0 1 18 9.5 4.3 4.3 0 0 1 17.5 18z"/>',
+ rain:'<path d="M7 14a4 4 0 0 1-.6-7.96A6 6 0 0 1 18 5.5 4.3 4.3 0 0 1 17.5 14z"/><path d="M8 17l-1 3M12 17l-1 3M16 17l-1 3"/>',
+ storm:'<path d="M7 13a4 4 0 0 1-.6-7.96A6 6 0 0 1 18 4.5 4.3 4.3 0 0 1 17.5 13z"/><path d="M12 13l-2 4h3l-2 4"/>',
+ snow:'<path d="M12 3v18M4.2 7.5l15.6 9M19.8 7.5l-15.6 9"/>',
+ wind:'<path d="M3 9h11a3 3 0 1 0-3-3M3 15h15a3 3 0 1 1-3 3"/>'
+};
+var ALIAS={
+ nyc:["new york","manhattan","brooklyn","queens","flushing","bronx","staten island","ny","纽约","曼哈顿","布鲁克林","法拉盛","皇后区","布朗克斯"],
+ nj:["new jersey","edison","parsippany","jersey city","princeton","hoboken","newark","nj","新泽西","泽西","爱迪生"],
+ la:["los angeles","pasadena","arcadia","monterey park","san gabriel","alhambra","irvine","la","洛杉矶","圣盖博","阿卡迪亚","蒙市"],
+ sf:["san francisco","oakland","san jose","fremont","cupertino","milpitas","palo alto","berkeley","sunnyvale","bay area","旧金山","湾区","硅谷","奥克兰","圣何塞"],
+ sea:["seattle","bellevue","redmond","kirkland","sammamish","西雅图","贝尔维尤"],
+ bos:["boston","cambridge","quincy","malden","波士顿","剑桥"],
+ chi:["chicago","evanston","naperville","芝加哥"],
+ hou:["houston","sugar land","katy","bellaire","休斯顿","糖城"],
+ dal:["dallas","plano","richardson","fort worth","irving","frisco","达拉斯","普莱诺"],
+ dc:["washington","dc","arlington","fairfax","rockville","bethesda","华盛顿","罗克维尔"]
+};
+var ZIP3=[ // [from,to,city]
+ [100,104,"nyc"],[110,114,"nyc"],[116,116,"nyc"],[70,89,"nj"],
+ [900,918,"la"],[940,951,"sf"],[980,984,"sea"],[20,27,"bos"],
+ [600,608,"chi"],[770,775,"hou"],[750,753,"dal"],[760,762,"dal"],
+ [200,205,"dc"],[208,209,"dc"],[220,223,"dc"]];
+var TZ_DEFAULT={"America/New_York":"nyc","America/Detroit":"nyc","America/Chicago":"chi","America/Los_Angeles":"la","America/Denver":"chi","America/Phoenix":"la"};
+
+var S={lang:"zh",city:"nyc",day:"all",asian:false,free:false,indoor:false,data:null,hint:["tz"]};
+var $=function(id){return document.getElementById(id)};
+function esc(s){return String(s==null?"":s).replace(/[&<>"']/g,function(c){return {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]})}
+function fmt(s,o){return s.replace(/\{(\w+)\}/g,function(_,k){return o[k]})}
+function t(k){return T[S.lang][k]}
+function store(k,v){try{if(v===undefined)return localStorage.getItem(k);localStorage.setItem(k,v)}catch(e){return null}}
+
+/* ---------- dates ---------- */
+function parts(d){var p=d.split("-");return {y:+p[0],m:+p[1],d:+p[2]}}
+function dow(d){var p=parts(d);return new Date(Date.UTC(p.y,p.m-1,p.d)).getUTCDay()}
+function dateLabel(d){var p=parts(d);return S.lang==="zh"?p.m+"月"+p.d+"日":["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"][p.m-1]+" "+p.d}
+function hm(s){var a=s.split(":");return {h:+a[0],m:+a[1]}}
+function timeLabel(s){var x=hm(s);if(S.lang==="zh")return (x.h<10?"0":"")+x.h+":"+(x.m<10?"0":"")+x.m;var h=x.h%12||12;return h+":"+(x.m<10?"0":"")+x.m+" "+(x.h<12?"AM":"PM")}
+function pad(n){return (n<10?"0":"")+n}
+function addMinutes(date,time,mins){var p=parts(date),x=hm(time);var d=new Date(Date.UTC(p.y,p.m-1,p.d,x.h,x.m+mins));return {date:d.getUTCFullYear()+"-"+pad(d.getUTCMonth()+1)+"-"+pad(d.getUTCDate()),time:pad(d.getUTCHours())+":"+pad(d.getUTCMinutes())}}
+function endOf(e){return e.end?{date:e.date,time:e.end}:addMinutes(e.date,e.start,120)}
+function localToUtc(date,time,tz){
+  var p=parts(date),x=hm(time),guess=Date.UTC(p.y,p.m-1,p.d,x.h,x.m);
+  function off(ms){var f=new Intl.DateTimeFormat("en-US",{timeZone:tz,hourCycle:"h23",year:"numeric",month:"2-digit",day:"2-digit",hour:"2-digit",minute:"2-digit",second:"2-digit"}).formatToParts(new Date(ms)),o={};
+    f.forEach(function(q){o[q.type]=q.value});return Date.UTC(+o.year,+o.month-1,+o.day,+o.hour,+o.minute,+o.second)-ms}
+  var u=guess-off(guess);u=guess-off(u);return new Date(u)
+}
+function iso(d){return d.getUTCFullYear()+pad(d.getUTCMonth()+1)+pad(d.getUTCDate())+"T"+pad(d.getUTCHours())+pad(d.getUTCMinutes())+"00Z"}
+function compact(date,time){return date.replace(/-/g,"")+"T"+time.replace(":","")+"00"}
+
+/* ---------- calendar ---------- */
+function ev_text(e,lang){return {title:lang==="zh"?e.title_zh:e.title_en,desc:lang==="zh"?e.desc_zh:e.desc_en,cost:lang==="zh"?e.cost_zh:e.cost_en,ages:lang==="zh"?e.ages_zh:e.ages_en}}
+function location(e){return e.venue+", "+e.address}
+function details(e){var x=ev_text(e,S.lang);return x.desc+"\n"+(S.lang==="zh"?"费用:":"Cost: ")+x.cost+"\n"+(S.lang==="zh"?"适合:":"Ages: ")+x.ages+"\n"+e.url}
+function gcalUrl(e,tz){var en=endOf(e);
+  return "https://calendar.google.com/calendar/render?action=TEMPLATE&text="+encodeURIComponent(ev_text(e,S.lang).title)+
+   "&dates="+compact(e.date,e.start)+"/"+compact(en.date,en.time)+"&ctz="+encodeURIComponent(tz)+
+   "&location="+encodeURIComponent(location(e))+"&details="+encodeURIComponent(details(e))}
+function outlookUrl(e,tz){var en=endOf(e),s=localToUtc(e.date,e.start,tz),f=localToUtc(en.date,en.time,tz);
+  function z(d){return d.toISOString().replace(/\.\d+Z$/,"Z")}
+  return "https://outlook.live.com/calendar/0/deeplink/compose?path=%2Fcalendar%2Faction%2Fcompose&rru=addevent&subject="+encodeURIComponent(ev_text(e,S.lang).title)+
+   "&startdt="+encodeURIComponent(z(s))+"&enddt="+encodeURIComponent(z(f))+"&location="+encodeURIComponent(location(e))+"&body="+encodeURIComponent(details(e))}
+function icsEsc(x){return String(x).replace(/\\/g,"\\\\").replace(/;/g,"\\;").replace(/,/g,"\\,").replace(/\n/g,"\\n")}
+function icsText(e,tz){var en=endOf(e),x=ev_text(e,S.lang);
+  return ["BEGIN:VCALENDAR","VERSION:2.0","PRODID:-//Weekend Kids//EN","CALSCALE:GREGORIAN","BEGIN:VEVENT",
+   "UID:"+e.id+"-"+e.date+"@weekend-kids","DTSTAMP:"+iso(new Date()),
+   "DTSTART:"+iso(localToUtc(e.date,e.start,tz)),"DTEND:"+iso(localToUtc(en.date,en.time,tz)),
+   "SUMMARY:"+icsEsc(x.title),"LOCATION:"+icsEsc(location(e)),"DESCRIPTION:"+icsEsc(details(e)),"URL:"+e.url,
+   "BEGIN:VALARM","TRIGGER:-PT60M","ACTION:DISPLAY","DESCRIPTION:"+icsEsc(x.title),"END:VALARM",
+   "END:VEVENT","END:VCALENDAR"].join("\r\n")}
+function plainText(e){var en=endOf(e);
+  return ev_text(e,S.lang).title+"\n"+dateLabel(e.date)+" "+timeLabel(e.start)+" – "+timeLabel(en.time)+"\n"+location(e)+"\n"+details(e)}
+
+/* ---------- city ---------- */
+function cityName(id){var c=S.data.cities[id];return S.lang==="zh"?c.zh:c.en}
+function resolveCity(q){
+  q=q.trim().toLowerCase();if(!q)return null;
+  var m=q.match(/\b(\d{5})(?:-\d{4})?\b/);
+  if(m){var z=+m[1].slice(0,3);for(var i=0;i<ZIP3.length;i++){if(z>=ZIP3[i][0]&&z<=ZIP3[i][1])return ZIP3[i][2]}
+    var z3=m[1].slice(0,3);if(+z3>=70&&+z3<=89)return "nj"}
+  var best=null,bl=0;
+  Object.keys(ALIAS).forEach(function(id){ALIAS[id].forEach(function(a){
+    var hit=/^[\x00-\x7f]+$/.test(a)?new RegExp("(^|[^a-z])"+a.replace(/ /g,"\\s+")+"([^a-z]|$)").test(q):q.indexOf(a)>-1;
+    if(hit&&a.length>bl){best=id;bl=a.length}})});
+  return best
+}
+function setCity(id,hint){S.city=id;S.hint=hint;store("kids.city",id);render()}
+
+/* ---------- render ---------- */
+function icon(k){return '<svg viewBox="0 0 24 24" aria-hidden="true">'+(ICON[k]||ICON.cloud)+'</svg>'}
+function wxHtml(c){
+  var w=c.weather;if(!w)return '<span>'+esc(t("wxPending"))+'</span>';
+  return ["sat","sun"].map(function(d){var x=w[d];if(!x)return "";
+    return '<span>'+icon(x.kind)+esc(t(d)+" "+(S.lang==="zh"?x.zh:x.en)+(x.hi!=null?" "+x.hi+"°F":""))+'</span>'}).join("")
+}
+function visible(c){
+  return c.events.filter(function(e){
+    if(S.day!=="all"&&dow(e.date)!==({fri:5,sat:6,sun:0})[S.day])return false;
+    if(S.asian&&e.tier==="C")return false;
+    if(S.free&&!e.free)return false;
+    if(S.indoor&&!e.indoor)return false;return true})
+  .sort(function(a,b){return (a.tier>b.tier?1:a.tier<b.tier?-1:0)||a.date.localeCompare(b.date)||a.start.localeCompare(b.start)})
+}
+function card(e,tz){
+  var x=ev_text(e,S.lang),en=endOf(e),wd=WD[S.lang][dow(e.date)],p=parts(e.date);
+  var badge=e.tier==="A"?'<span class="badge A">'+esc(t("tierA"))+'</span>':e.tier==="B"?'<span class="badge B">'+esc(t("tierB"))+'</span>':'';
+  var meta=[];
+  meta.push(e.free?'<span class="free">'+esc(t("freeL"))+'</span>':'<span>'+esc(x.cost)+'</span>');
+  meta.push('<span>'+esc(t("ages"))+" "+esc(x.ages)+'</span>');
+  meta.push('<span>'+esc(e.indoor?t("indoorL"):t("outdoorL"))+'</span>');
+  if(e.signup)meta.push('<span>'+esc(t("signup"))+'</span>');
+  var map="https://www.google.com/maps/search/?api=1&query="+encodeURIComponent(e.venue+" "+e.address);
+  return '<article class="card" data-id="'+esc(e.id)+'">'+
+   '<div class="when"><span class="d">'+(S.lang==="zh"?p.m+"/"+p.d:p.d)+'</span><span class="w">'+esc(S.lang==="zh"?wd:wd+" · "+dateLabel(e.date).split(" ")[0])+'</span>'+
+   '<span class="t">'+esc(timeLabel(e.start))+(e.end?'<br>'+esc(timeLabel(e.end)):'')+'</span></div>'+
+   '<div class="body">'+(badge?'<div class="badges">'+badge+'</div>':'')+
+   '<h3>'+esc(x.title)+'</h3>'+
+   '<p class="where">'+esc(e.venue)+' · <a href="'+map+'" target="_blank" rel="noopener">'+esc(e.address)+'</a></p>'+
+   '<div class="meta">'+meta.join("")+'</div>'+
+   '<p class="desc">'+esc(x.desc)+'</p>'+
+   '<div class="actions">'+
+    '<details class="cal"><summary class="btn primary">'+esc(t("addCal"))+'</summary><div class="menu">'+
+     '<a href="'+esc(gcalUrl(e,tz))+'" target="_blank" rel="noopener">'+esc(t("gcal"))+'</a>'+
+     '<a href="'+esc(outlookUrl(e,tz))+'" target="_blank" rel="noopener">'+esc(t("outlook"))+'</a>'+
+     '<button type="button" data-ics="'+esc(e.id)+'">'+esc(t("ics"))+'</button>'+
+     '<button type="button" data-copy="'+esc(e.id)+'">'+esc(t("copy"))+'</button></div></details>'+
+    '<a class="link" href="'+esc(e.url)+'" target="_blank" rel="noopener">'+esc(t("site"))+' ↗</a>'+
+   '</div></div></article>'
+}
+function render(){
+  document.documentElement.lang=S.lang==="zh"?"zh-CN":"en";
+  $("lang-zh").setAttribute("aria-pressed",S.lang==="zh");$("lang-en").setAttribute("aria-pressed",S.lang==="en");
+  $("eyebrow").textContent=t("eyebrow");$("headline").textContent=t("headline");$("sub").textContent=t("sub");
+  $("addr").placeholder=t("addrPh");$("go").textContent=t("go");
+  if(!S.data){return}
+  var cs=S.data.cities,c=cs[S.city];
+  var h=S.hint;$("hint").textContent=h[0]==="none"?t("hintNone"):fmt(t(h[0]==="tz"?"hintTz":h[0]==="saved"?"hintSaved":"hintFound"),{c:cityName(S.city)});
+  $("cities").innerHTML=Object.keys(cs).map(function(id){return '<button type="button" class="city" data-city="'+id+'" aria-pressed="'+(id===S.city)+'">'+esc(S.lang==="zh"?cs[id].zh:cs[id].en)+'</button>'}).join("");
+  var wk=S.data.weekend;
+  $("weekend-title").textContent=cityName(S.city)+" · "+fmt(t("weekend"),{s:dateLabel(wk.start),e:dateLabel(wk.end)});
+  $("wx").innerHTML=wxHtml(c);
+  var days=[["all",t("all")],["fri",t("fri")],["sat",t("sat")],["sun",t("sun")]];
+  $("filters").innerHTML=days.map(function(d){return '<button type="button" class="chip" data-day="'+d[0]+'" aria-pressed="'+(S.day===d[0])+'">'+esc(d[1])+'</button>'}).join("")+'<span class="gap"></span>'+
+   [["asian",t("asian")],["free",t("free")],["indoor",t("indoor")]].map(function(f){return '<button type="button" class="chip" data-flag="'+f[0]+'" aria-pressed="'+S[f[0]]+'">'+esc(f[1])+'</button>'}).join("");
+  var all=c.events,as=all.filter(function(e){return e.tier!=="C"}).length,list=visible(c);
+  $("count").textContent=fmt(t("count"),{n:all.length,a:as});
+  var note=S.lang==="zh"?c.notes_zh:c.notes_en;
+  $("notes").innerHTML=note?'<p class="note">'+esc(note)+'</p>':"";
+  $("list").innerHTML=list.length?list.map(function(e){return card(e,c.tz)}).join(""):'<p class="empty">'+esc(t("empty"))+'</p>';
+  $("foot").innerHTML='<span>'+esc(fmt(t("foot1"),{u:S.data.updated}))+'</span><span>'+esc(t("foot2"))+'</span>'
+}
+function toast(msg){var el=$("toast");el.textContent=msg;el.classList.add("on");clearTimeout(toast.t);toast.t=setTimeout(function(){el.classList.remove("on")},2400)}
+
+/* ---------- events ---------- */
+document.addEventListener("click",function(ev){
+  var b=ev.target.closest("[data-city],[data-day],[data-flag],[data-copy],[data-ics]"),open=document.querySelectorAll("details.cal[open]");
+  if(!ev.target.closest("details.cal"))open.forEach(function(d){d.removeAttribute("open")});
+  else open.forEach(function(d){if(!d.contains(ev.target))d.removeAttribute("open")});
+  if(!b)return;
+  if(b.dataset.city){setCity(b.dataset.city,["found"])}
+  else if(b.dataset.day){S.day=b.dataset.day;render()}
+  else if(b.dataset.flag){S[b.dataset.flag]=!S[b.dataset.flag];render()}
+  else if(b.dataset.ics){
+    var e2=S.data.cities[S.city].events.filter(function(x){return x.id===b.dataset.ics})[0];
+    var blob=new Blob([icsText(e2,S.data.cities[S.city].tz)],{type:"text/calendar;charset=utf-8"}),a=document.createElement("a");
+    a.href=URL.createObjectURL(blob);a.download=e2.id+".ics";document.body.appendChild(a);a.click();a.remove();
+    setTimeout(function(){URL.revokeObjectURL(a.href)},2000);b.closest("details").removeAttribute("open")}
+  else if(b.dataset.copy){
+    var e=S.data.cities[S.city].events.filter(function(x){return x.id===b.dataset.copy})[0],txt=plainText(e);
+    (navigator.clipboard&&navigator.clipboard.writeText?navigator.clipboard.writeText(txt):Promise.reject()).then(function(){toast(t("copied"))},function(){toast(t("copyFail"))});
+    b.closest("details").removeAttribute("open")
+  }
+});
+$("lang-zh").onclick=function(){S.lang="zh";store("kids.lang","zh");render()};
+$("lang-en").onclick=function(){S.lang="en";store("kids.lang","en");render()};
+$("finder").addEventListener("submit",function(ev){ev.preventDefault();
+  var id=resolveCity($("addr").value);
+  if(id)setCity(id,["found"]);else{S.hint=["none"];render()}
+});
+
+/* ---------- boot ---------- */
+var saved=store("kids.lang");
+S.lang=saved==="en"||saved==="zh"?saved:((navigator.language||"").toLowerCase().indexOf("zh")===0?"zh":"en");
+render();
+fetch("events.json",{cache:"no-cache"}).then(function(r){if(!r.ok)throw 0;return r.json()}).then(function(d){
+  S.data=d;
+  var sc=store("kids.city"),tz="";try{tz=Intl.DateTimeFormat().resolvedOptions().timeZone}catch(e){}
+  if(sc&&d.cities[sc]){S.city=sc;S.hint=["saved"]}
+  else{S.city=TZ_DEFAULT[tz]||"nyc";S.hint=["tz"]}
+  render()
+}).catch(function(){$("list").innerHTML='<p class="empty">'+esc(t("eventsFail"))+'</p>'});
+})();
+</script>
+
+</body></html>
