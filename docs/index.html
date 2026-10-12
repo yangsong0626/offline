@@ -66,7 +66,6 @@ h1{font-family:var(--display);font-size:clamp(30px,6vw,44px);line-height:1.15;ma
 .chip[aria-pressed="true"]{background:var(--ink);color:var(--bg);border-color:var(--ink)}
 .filters .gap{flex:1}
 .count{font-size:13px;color:var(--muted);margin:14px 0 0}
-.note{margin:14px 0 0;padding:12px 14px;border-radius:12px;background:var(--b-bg);font-size:14px}
 
 .list{display:grid;gap:12px;margin-top:14px}
 .card{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:16px;display:grid;grid-template-columns:76px minmax(0,1fr);gap:4px 16px;box-shadow:var(--shadow)}
@@ -141,7 +140,6 @@ details.cal summary::-webkit-details-marker{display:none}
   <div class="seg aud" id="aud" role="group" aria-label="Audience"></div>
   <div class="filters" id="filters"></div>
   <p class="count" id="count"></p>
-  <div id="notes"></div>
   <div class="list" id="list"></div>
 
   <footer class="foot" id="foot"></footer>
@@ -351,9 +349,7 @@ function render(){
   $("aud").innerHTML=[["all","audAll"],["family","audFamily"],["adult","audAdult"]].map(function(a){return '<button type="button" data-aud="'+a[0]+'" aria-pressed="'+(S.aud===a[0])+'">'+esc(t(a[1]))+'</button>'}).join("");
   var all=c.events,base=all.filter(forAud),as=base.filter(function(e){return e.tier!=="C"}).length,list=visible(c);
   $("count").textContent=base.length?fmt(t("count"),{n:base.length,a:as}):"";
-  var note=S.lang==="zh"?c.notes_zh:c.notes_en;
-  $("notes").innerHTML=note?'<p class="note">'+esc(note)+'</p>':"";
-  $("list").innerHTML=list.length?list.map(function(e){return card(e,c.tz)}).join(""):all.length?'<p class="empty">'+esc(t("empty"))+'</p>':(note?"":'<p class="empty">'+esc(t("comingSoon"))+'</p>');
+  $("list").innerHTML=list.length?list.map(function(e){return card(e,c.tz)}).join(""):all.length?'<p class="empty">'+esc(t("empty"))+'</p>':'<p class="empty">'+esc(t("comingSoon"))+'</p>';
   $("foot").innerHTML='<span>'+esc(fmt(t("foot1"),{u:S.data.updated}))+'</span><span>'+esc(t("foot2"))+'</span>'
 }
 function toast(msg){var el=$("toast");el.textContent=msg;el.classList.add("on");clearTimeout(toast.t);toast.t=setTimeout(function(){el.classList.remove("on")},2400)}
