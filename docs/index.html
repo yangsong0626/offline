@@ -152,7 +152,7 @@ var T={
   addrPh:"输入邮编、地址或城市,例如 11354 或 Edison, NJ",go:"切换城市",
   hintTz:"已按你的时区先选了 {c}。输入邮编或地址,可以切换到最近的城市。",
   hintSaved:"已记住你上次选的城市:{c}。",hintFound:"已切换到 {c}。",
-  hintNone:"暂时只覆盖下面 10 个城市,没有找到匹配,请从下面选一个最近的。",
+  hintNone:"暂时只覆盖下面 {n} 个城市,没有找到匹配,请从下面选一个最近的。",comingSoon:"这个城市本周的活动还在整理中,周五更新时补上。",
   weekend:"{s}–{e} 周末",wxPending:"天气预报在周五更新时补上",sat:"周六",sun:"周日",fri:"周五",
   all:"全部",asian:"华人 / 亚裔",free:"免费",indoor:"室内",
   count:"共 {n} 个活动,其中华人 / 亚裔 {a} 个",empty:"这个筛选下没有活动,换一个条件试试。",
@@ -167,7 +167,7 @@ var T={
   addrPh:"ZIP, address or city, e.g. 11354 or Edison, NJ",go:"Switch city",
   hintTz:"Picked {c} from your time zone. Enter a ZIP or address to switch to the nearest city.",
   hintSaved:"Remembered your last city: {c}.",hintFound:"Switched to {c}.",
-  hintNone:"We cover the 10 cities below for now and found no match. Pick the closest one.",
+  hintNone:"We cover the {n} cities below for now and found no match. Pick the closest one.",comingSoon:"Events for this city are still being compiled. Check back after Friday's update.",
   weekend:"Weekend of {s}–{e}",wxPending:"Forecast is added on Friday's update",sat:"Sat",sun:"Sun",fri:"Fri",
   all:"All",asian:"Chinese / Asian",free:"Free",indoor:"Indoor",
   count:"{n} events, {a} Chinese / Asian community",empty:"Nothing matches these filters. Try another.",
@@ -191,21 +191,28 @@ var ICON={
 var ALIAS={
  nyc:["new york","manhattan","brooklyn","queens","flushing","bronx","staten island","ny","纽约","曼哈顿","布鲁克林","法拉盛","皇后区","布朗克斯"],
  nj:["new jersey","edison","parsippany","jersey city","princeton","hoboken","newark","nj","新泽西","泽西","爱迪生"],
- la:["los angeles","pasadena","arcadia","monterey park","san gabriel","alhambra","irvine","la","洛杉矶","圣盖博","阿卡迪亚","蒙市"],
+ la:["los angeles","pasadena","arcadia","monterey park","san gabriel","alhambra","la","洛杉矶","圣盖博","阿卡迪亚","蒙市"],
  sf:["san francisco","oakland","san jose","fremont","cupertino","milpitas","palo alto","berkeley","sunnyvale","bay area","旧金山","湾区","硅谷","奥克兰","圣何塞"],
  sea:["seattle","bellevue","redmond","kirkland","sammamish","西雅图","贝尔维尤"],
  bos:["boston","cambridge","quincy","malden","波士顿","剑桥"],
  chi:["chicago","evanston","naperville","芝加哥"],
  hou:["houston","sugar land","katy","bellaire","休斯顿","糖城"],
  dal:["dallas","plano","richardson","fort worth","irving","frisco","达拉斯","普莱诺"],
+ oc:["orange county","irvine","tustin","costa mesa","anaheim","fullerton","newport beach","huntington beach","santa ana","mission viejo","尔湾","橙县","橘郡"],
+ sd:["san diego","la jolla","carmel valley","rancho bernardo","del mar","chula vista","poway","圣地亚哥","圣迭戈"],
+ atl:["atlanta","duluth","johns creek","alpharetta","suwanee","lawrenceville","marietta","亚特兰大","德鲁斯","约翰斯溪"],
+ tor:["toronto","markham","richmond hill","scarborough","north york","mississauga","vaughan","多伦多","万锦","列治文山","士嘉堡","北约克","密西沙加"],
+ van:["vancouver","burnaby","coquitlam","surrey","british columbia","bc","温哥华","列治文","本拿比","高贵林","素里"],
  dc:["washington","dc","arlington","fairfax","rockville","bethesda","华盛顿","罗克维尔"]
 };
 var ZIP3=[ // [from,to,city]
  [100,104,"nyc"],[110,114,"nyc"],[116,116,"nyc"],[70,89,"nj"],
  [900,918,"la"],[940,951,"sf"],[980,984,"sea"],[20,27,"bos"],
  [600,608,"chi"],[770,775,"hou"],[750,753,"dal"],[760,762,"dal"],
- [200,205,"dc"],[208,209,"dc"],[220,223,"dc"]];
-var TZ_DEFAULT={"America/New_York":"nyc","America/Detroit":"nyc","America/Chicago":"chi","America/Los_Angeles":"la","America/Denver":"chi","America/Phoenix":"la"};
+ [200,205,"dc"],[208,209,"dc"],[220,223,"dc"],
+ [926,928,"oc"],[919,921,"sd"],[300,303,"atl"]];
+var FSA={v:"van",m:"tor",l:"tor"}; // Canadian postal code first letter
+var TZ_DEFAULT={"America/New_York":"nyc","America/Detroit":"nyc","America/Chicago":"chi","America/Los_Angeles":"la","America/Denver":"chi","America/Phoenix":"la","America/Toronto":"tor","America/Vancouver":"van"};
 
 var S={lang:"zh",city:"nyc",day:"all",asian:false,free:false,indoor:false,data:null,hint:["tz"]};
 var $=function(id){return document.getElementById(id)};
@@ -259,6 +266,7 @@ function plainText(e){var en=endOf(e);
 function cityName(id){var c=S.data.cities[id];return S.lang==="zh"?c.zh:c.en}
 function resolveCity(q){
   q=q.trim().toLowerCase();if(!q)return null;
+  var ca=q.match(/\b([a-z])\d[a-z]\s?\d[a-z]\d\b/);if(ca&&FSA[ca[1]])return FSA[ca[1]];
   var m=q.match(/\b(\d{5})(?:-\d{4})?\b/);
   if(m){var z=+m[1].slice(0,3);for(var i=0;i<ZIP3.length;i++){if(z>=ZIP3[i][0]&&z<=ZIP3[i][1])return ZIP3[i][2]}
     var z3=m[1].slice(0,3);if(+z3>=70&&+z3<=89)return "nj"}
@@ -318,7 +326,7 @@ function render(){
   $("addr").placeholder=t("addrPh");$("go").textContent=t("go");
   if(!S.data){return}
   var cs=S.data.cities,c=cs[S.city];
-  var h=S.hint;$("hint").textContent=h[0]==="none"?t("hintNone"):fmt(t(h[0]==="tz"?"hintTz":h[0]==="saved"?"hintSaved":"hintFound"),{c:cityName(S.city)});
+  var h=S.hint;$("hint").textContent=h[0]==="none"?fmt(t("hintNone"),{n:Object.keys(cs).length}):fmt(t(h[0]==="tz"?"hintTz":h[0]==="saved"?"hintSaved":"hintFound"),{c:cityName(S.city)});
   $("cities").innerHTML=Object.keys(cs).map(function(id){return '<button type="button" class="city" data-city="'+id+'" aria-pressed="'+(id===S.city)+'">'+esc(S.lang==="zh"?cs[id].zh:cs[id].en)+'</button>'}).join("");
   var wk=S.data.weekend;
   $("weekend-title").textContent=cityName(S.city)+" · "+fmt(t("weekend"),{s:dateLabel(wk.start),e:dateLabel(wk.end)});
@@ -327,10 +335,10 @@ function render(){
   $("filters").innerHTML=days.map(function(d){return '<button type="button" class="chip" data-day="'+d[0]+'" aria-pressed="'+(S.day===d[0])+'">'+esc(d[1])+'</button>'}).join("")+'<span class="gap"></span>'+
    [["asian",t("asian")],["free",t("free")],["indoor",t("indoor")]].map(function(f){return '<button type="button" class="chip" data-flag="'+f[0]+'" aria-pressed="'+S[f[0]]+'">'+esc(f[1])+'</button>'}).join("");
   var all=c.events,as=all.filter(function(e){return e.tier!=="C"}).length,list=visible(c);
-  $("count").textContent=fmt(t("count"),{n:all.length,a:as});
+  $("count").textContent=all.length?fmt(t("count"),{n:all.length,a:as}):"";
   var note=S.lang==="zh"?c.notes_zh:c.notes_en;
   $("notes").innerHTML=note?'<p class="note">'+esc(note)+'</p>':"";
-  $("list").innerHTML=list.length?list.map(function(e){return card(e,c.tz)}).join(""):'<p class="empty">'+esc(t("empty"))+'</p>';
+  $("list").innerHTML=list.length?list.map(function(e){return card(e,c.tz)}).join(""):all.length?'<p class="empty">'+esc(t("empty"))+'</p>':(note?"":'<p class="empty">'+esc(t("comingSoon"))+'</p>');
   $("foot").innerHTML='<span>'+esc(fmt(t("foot1"),{u:S.data.updated}))+'</span><span>'+esc(t("foot2"))+'</span>'
 }
 function toast(msg){var el=$("toast");el.textContent=msg;el.classList.add("on");clearTimeout(toast.t);toast.t=setTimeout(function(){el.classList.remove("on")},2400)}
