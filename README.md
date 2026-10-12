@@ -1,3 +1,4 @@
 # 遛娃周报 Weekend Kids
-Static site: `index.html` + `events.json`. Update `events.json` every Friday.
-Hosting: GitHub Pages (Settings → Pages → Deploy from branch → main / root).
+Static site: `docs/index.html` + `docs/events.json`. Update `docs/events.json` every Friday.
+Hosting: GitHub Pages (Settings → Pages → Deploy from branch → main / `/docs`).
+Live at https://yangsong0626.github.io/offline/
