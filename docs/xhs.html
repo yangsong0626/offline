@@ -1,0 +1,242 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex">
+<title>小红书出图</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;700&family=Noto+Serif+SC:wght@700;900&display=swap">
+<script src="sky.js"></script>
+<style>
+/* Editor tool: renders this week's events as 3:4 Xiaohongshu carousel images plus copy-ready caption text. */
+:root{--bg:#F4F6F3;--surface:#fff;--ink:#17211E;--muted:#5A6762;--line:#DCE2DD;--accent:#0D6A5A;--accent-ink:#fff;--chip:#EBEFEA}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0F1614;--surface:#162120;--ink:#E7EEEA;--muted:#93A29B;--line:#263431;--accent:#4DC2A6;--accent-ink:#06201A;--chip:#1E2C29;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#0F1614;--surface:#162120;--ink:#E7EEEA;--muted:#93A29B;--line:#263431;--accent:#4DC2A6;--accent-ink:#06201A;--chip:#1E2C29;color-scheme:dark}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.55 'Noto Sans SC','PingFang SC','Microsoft YaHei',system-ui,sans-serif;padding:0 16px 48px}
+.wrap{max-width:980px;margin:0 auto}
+h1{font:700 24px/1.3 'Noto Serif SC',serif;margin:24px 0 4px}
+.muted{color:var(--muted);margin:0}
+.bar{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin:18px 0;padding:14px;background:var(--surface);border:1px solid var(--line);border-radius:14px}
+select,button,input,textarea{font:inherit;color:inherit}
+select,input{border:1px solid var(--line);background:var(--bg);border-radius:10px;padding:8px 10px}
+.btn{border:1px solid var(--line);background:var(--surface);border-radius:10px;padding:8px 14px;cursor:pointer;font-weight:500}
+.btn.primary{background:var(--accent);border-color:var(--accent);color:var(--accent-ink)}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:14px}
+.shot{display:grid;gap:6px}
+.shot img{width:100%;aspect-ratio:3/4;border-radius:10px;border:1px solid var(--line);background:#fff}
+.shot a{font-size:13px;color:var(--muted)}
+h2{font:700 18px/1.3 'Noto Serif SC',serif;margin:28px 0 10px}
+.copyrow{display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+.copyrow input{flex:1 1 260px;min-width:0}
+textarea{width:100%;min-height:340px;border:1px solid var(--line);background:var(--surface);border-radius:12px;padding:12px;line-height:1.6}
+.count{font-size:13px;color:var(--muted)}
+.count.over{color:#C0392B;font-weight:600}
+.tip{font-size:13px;color:var(--muted);margin:8px 0 0}
+.toast{position:fixed;left:50%;bottom:20px;transform:translateX(-50%);background:var(--ink);color:var(--bg);padding:8px 16px;border-radius:999px;opacity:0;transition:opacity .2s;pointer-events:none}
+.toast.on{opacity:1}
+</style>
+</head><body>
+<div class="wrap">
+  <h1>小红书出图</h1>
+  <p class="muted">从本周活动数据生成 3:4 轮播图（1080×1440）和笔记正文。手机上点「保存全部」可直接存到相册；也可以长按单张图片保存。</p>
+
+  <div class="bar">
+    <label>城市 <select id="city"></select></label>
+    <label>人群 <select id="aud"><option value="all">全部活动</option><option value="family">亲子</option><option value="adult">大人</option></select></label>
+    <label>每页 <select id="per"><option value="2">2 个活动</option><option value="1">1 个活动</option></select></label>
+    <span style="flex:1"></span>
+    <button class="btn primary" id="saveAll" type="button">保存全部图片</button>
+  </div>
+
+  <div class="grid" id="grid"></div>
+
+  <h2>标题</h2>
+  <div class="copyrow"><input id="title"><span class="count" id="tcount"></span><button class="btn" data-copy="title" type="button">复制标题</button></div>
+  <p class="tip">小红书标题最多 20 个字。</p>
+
+  <h2>正文</h2>
+  <textarea id="body"></textarea>
+  <div class="copyrow" style="margin-top:8px"><span class="count" id="bcount"></span><span style="flex:1"></span><button class="btn" data-copy="body" type="button">复制正文</button></div>
+  <p class="tip">正文里不放网址和微信号，避免被限流；完整清单请写在账号简介里。</p>
+</div>
+<div class="toast" id="toast"></div>
+
+<script>
+(function(){
+"use strict";
+var W=1080,H=1440,PAD=72;
+var C={bg:"#F4F6F3",surface:"#FFFFFF",ink:"#17211E",muted:"#5A6762",line:"#DCE2DD",accent:"#0D6A5A",aBg:"#E1F0EA",b:"#35569F",bBg:"#E5ECF8",chip:"#EBEFEA",far:"#DCE6E1",near:"#AFC9BF"};
+var SERIF="'Noto Serif SC','Songti SC','STSong',serif",SANS="'Noto Sans SC','PingFang SC','Microsoft YaHei',sans-serif";
+var WD=["周日","周一","周二","周三","周四","周五","周六"];
+var TAGS={
+ nyc:["纽约","纽约遛娃","纽约周末","纽约生活","法拉盛"],nj:["新泽西","新泽西遛娃","新泽西生活","新泽西周末"],
+ la:["洛杉矶","洛杉矶遛娃","洛杉矶周末","洛杉矶生活"],sf:["湾区","湾区遛娃","湾区周末去哪儿","旧金山"],
+ sea:["西雅图","西雅图遛娃","西雅图周末","西雅图生活"],bos:["波士顿","波士顿遛娃","波士顿周末","波士顿生活"],
+ chi:["芝加哥","芝加哥遛娃","芝加哥周末","芝加哥生活"],hou:["休斯顿","休斯顿遛娃","休斯顿周末","休斯顿生活"],
+ dal:["达拉斯","达拉斯遛娃","达拉斯周末","达拉斯生活"],dc:["华盛顿","DC遛娃","DMV周末","华盛顿生活"],
+ oc:["尔湾","橙县","尔湾遛娃","尔湾周末"],sd:["圣地亚哥","圣地亚哥遛娃","圣地亚哥周末","圣地亚哥生活"],
+ atl:["亚特兰大","亚特兰大遛娃","亚特兰大周末","亚特兰大生活"],tor:["多伦多","多伦多遛娃","多伦多周末","多伦多生活"],
+ van:["温哥华","温哥华遛娃","温哥华周末","温哥华生活"]};
+var BASE_TAGS=["周末去哪儿","北美华人","海外生活","周末不无聊"];
+var $=function(id){return document.getElementById(id)};
+var D=null,shots=[];
+
+/* ---------- helpers ---------- */
+function parts(d){var p=d.split("-");return {y:+p[0],m:+p[1],d:+p[2]}}
+function dow(d){var p=parts(d);return new Date(Date.UTC(p.y,p.m-1,p.d)).getUTCDay()}
+function md(d){var p=parts(d);return p.m+"/"+p.d}
+function aud(e){return e.audience||"family"}
+function events(cityId,a){
+  return D.cities[cityId].events.filter(function(e){return a==="all"||aud(e)==="all"||aud(e)===a})
+   .sort(function(x,y){return (x.tier>y.tier?1:x.tier<y.tier?-1:0)||x.date.localeCompare(y.date)||x.start.localeCompare(y.start)})
+}
+function timeText(e){return e.start?(e.start+(e.end?"–"+e.end:"")):"时间见官网"}
+function costText(e){return e.free?"免费":e.cost_zh}
+function audText(e){return {family:"亲子",adult:"大人",all:"大人小孩都合适"}[aud(e)]}
+function font(w,s,f){return w+" "+s+"px "+f}
+// Break text into lines that fit maxW; keeps Latin words together.
+function wrap(ctx,text,maxW,maxLines){
+  var out=[];String(text).split("\n").forEach(function(para){
+    var toks=para.match(/[A-Za-z0-9$.,'’&:+\-\/()]+\s*|\s+|./gu)||[""],line="";
+    toks.forEach(function(t){
+      if(ctx.measureText(line+t).width<=maxW||!line){line+=t}else{out.push(line.trimEnd());line=t.trimStart()}
+      while(ctx.measureText(line).width>maxW&&line.length>1){var i=line.length-1;while(i>1&&ctx.measureText(line.slice(0,i)).width>maxW)i--;out.push(line.slice(0,i));line=line.slice(i)}
+    });out.push(line.trimEnd());
+  });
+  if(maxLines&&out.length>maxLines){out=out.slice(0,maxLines);var l=out[maxLines-1];while(l&&ctx.measureText(l+"…").width>maxW)l=l.slice(0,-1);out[maxLines-1]=l+"…"}
+  return out
+}
+function lines(ctx,arr,x,y,lh){arr.forEach(function(l,i){ctx.fillText(l,x,y+i*lh)});return y+arr.length*lh}
+function rr(ctx,x,y,w,h,r){ctx.beginPath();ctx.moveTo(x+r,y);ctx.arcTo(x+w,y,x+w,y+h,r);ctx.arcTo(x+w,y+h,x,y+h,r);ctx.arcTo(x,y+h,x,y,r);ctx.arcTo(x,y,x+w,y,r);ctx.closePath()}
+function pill(ctx,x,y,text,bg,fg,size,bold){
+  ctx.font=font(bold?"700":"500",size,SANS);var w=ctx.measureText(text).width+size*1.1,h=size*1.75;
+  rr(ctx,x,y,w,h,h/2);ctx.fillStyle=bg;ctx.fill();ctx.fillStyle=fg;ctx.textBaseline="middle";ctx.fillText(text,x+size*0.55,y+h/2+1);ctx.textBaseline="alphabetic";return w
+}
+function pills(ctx,x,y,maxW,items,size){
+  var cx=x,cy=y,h=size*1.75;
+  items.forEach(function(it){ctx.font=font(it[3]?"700":"500",size,SANS);var w=ctx.measureText(it[0]).width+size*1.1;if(cx+w>x+maxW&&cx>x){cx=x;cy+=h+12}cx+=pill(ctx,cx,cy,it[0],it[1],it[2],size,it[3])+12});
+  return cy+h
+}
+function skyImage(id){
+  var s=window.SKY&&SKY[id];if(!s)return Promise.resolve(null);
+  var svg='<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 220"><g fill="'+C.far+'" stroke="'+C.far+'">'+s.far+'</g><g fill="'+C.near+'" stroke="'+C.near+'">'+s.near+'</g></svg>';
+  return new Promise(function(res){var im=new Image();im.onload=function(){res(im)};im.onerror=function(){res(null)};im.src="data:image/svg+xml;charset=utf-8,"+encodeURIComponent(svg)})
+}
+function canvas(){var c=document.createElement("canvas");c.width=W;c.height=H;var x=c.getContext("2d");x.fillStyle=C.bg;x.fillRect(0,0,W,H);return [c,x]}
+function brand(ctx,right){
+  ctx.font=font("700",30,SERIF);ctx.fillStyle=C.ink;ctx.fillText("周末不无聊",PAD,PAD+28);
+  ctx.font=font("500",22,SANS);ctx.fillStyle=C.muted;ctx.fillText("NO BORING WEEKENDS",PAD+168,PAD+26);
+  if(right){ctx.font=font("500",26,SANS);ctx.textAlign="right";ctx.fillText(right,W-PAD,PAD+27);ctx.textAlign="left"}
+}
+function drawSky(ctx,img,h){if(img)ctx.drawImage(img,0,H-h,W,h)}
+
+/* ---------- pages ---------- */
+function cover(id,list,sky){
+  var cv=canvas(),c=cv[0],ctx=cv[1],city=D.cities[id],wk=D.weekend;
+  drawSky(ctx,sky,W*220/1200);
+  brand(ctx,"每周四更新");
+  ctx.fillStyle=C.accent;ctx.font=font("700",44,SANS);ctx.fillText(md(wk.start)+" – "+md(wk.end)+" 周末",PAD,300);
+  ctx.fillStyle=C.ink;ctx.font=font("900",city.zh.length>4?120:150,SERIF);ctx.fillText(city.zh,PAD,470);
+  ctx.font=font("900",120,SERIF);ctx.fillText("周末去哪儿",PAD,620);
+  var free=list.filter(function(e){return e.free}).length,asian=list.filter(function(e){return e.tier!=="C"}).length;
+  var stats=[["精选 "+list.length+" 个活动",C.accent,"#fff",true]];
+  if(free)stats.push(["免费 "+free+" 个",C.aBg,C.accent,true]);
+  if(asian)stats.push(["华人 / 亚裔 "+asian+" 个",C.bBg,C.b,true]);
+  var y=pills(ctx,PAD,680,W-2*PAD,stats,34)+60;
+  ctx.font=font("500",38,SANS);
+  list.slice(0,4).forEach(function(e){ctx.fillStyle=C.accent;ctx.fillText("✦",PAD,y);ctx.fillStyle=C.ink;var t=wrap(ctx,e.title_zh,W-2*PAD-60,1)[0];ctx.fillText(t,PAD+56,y);y+=64});
+  if(list.length>4){ctx.fillStyle=C.muted;ctx.fillText("…还有 "+(list.length-4)+" 个，往后翻 👉",PAD+56,y)}
+  if(window.SKY&&SKY[id]){ctx.font=font("500",24,SANS);ctx.fillStyle=C.muted;ctx.fillText("📍 "+SKY[id].zh,PAD,H-W*220/1200-24)}
+  return c
+}
+function card(ctx,e,x,y,w,h){
+  ctx.save();ctx.shadowColor="rgba(23,33,30,.06)";ctx.shadowBlur=24;ctx.shadowOffsetY=6;rr(ctx,x,y,w,h,36);ctx.fillStyle=C.surface;ctx.fill();ctx.restore();
+  rr(ctx,x,y,w,h,36);ctx.strokeStyle=C.line;ctx.lineWidth=2;ctx.stroke();
+  var ix=x+48,iw=w-96,cy=y+78,p=parts(e.date);
+  ctx.fillStyle=C.accent;ctx.font=font("900",56,SERIF);ctx.fillText(p.m+"/"+p.d,ix,cy);
+  var dw=ctx.measureText(p.m+"/"+p.d).width;ctx.font=font("700",32,SANS);ctx.fillText(WD[dow(e.date)]+"  ·  "+timeText(e),ix+dw+24,cy-6);
+  var tags=[];if(e.tier==="A")tags.push(["华人社区",C.aBg,C.accent,true]);else if(e.tier==="B")tags.push(["亚裔文化",C.bBg,C.b,true]);
+  tags.push([audText(e),C.chip,C.muted,false]);
+  cy=pills(ctx,ix,cy+28,iw,tags,26)+62;
+  ctx.fillStyle=C.ink;ctx.font=font("700",48,SANS);cy=lines(ctx,wrap(ctx,e.title_zh,iw,2),ix,cy,64);
+  ctx.fillStyle=C.muted;ctx.font=font("500",30,SANS);cy=lines(ctx,wrap(ctx,"📍 "+e.venue+(e.area?" · "+e.area:""),iw,1),ix,cy+4,42);
+  cy=pills(ctx,ix,cy+4,iw,[[costText(e),e.free?C.aBg:C.chip,e.free?C.accent:C.ink,e.free],["适合 "+e.ages_zh,C.chip,C.ink,false],[e.indoor?"室内":"户外",C.chip,C.ink,false]].concat(e.signup?[["需报名 / 购票",C.chip,C.ink,false]]:[]),26)+52;
+  var room=Math.floor((y+h-36-cy)/44)+1;
+  if(room>0){ctx.fillStyle=C.ink;ctx.font=font("400",31,SANS);lines(ctx,wrap(ctx,e.desc_zh,iw,room),ix,cy,44)}
+}
+function page(id,chunk,idx,total){
+  var cv=canvas(),c=cv[0],ctx=cv[1];
+  brand(ctx,D.cities[id].zh+"  "+idx+"/"+total);
+  var top=PAD+80,gap=36,ch=(H-top-PAD-gap*(chunk.length-1))/chunk.length;
+  chunk.forEach(function(e,i){card(ctx,e,PAD,top+i*(ch+gap),W-2*PAD,ch)});
+  return c
+}
+function outro(id,sky){
+  var cv=canvas(),c=cv[0],ctx=cv[1];
+  drawSky(ctx,sky,W*220/1200);brand(ctx);
+  ctx.fillStyle=C.ink;ctx.font=font("900",96,SERIF);ctx.fillText("完整清单",PAD,360);ctx.fillText("一键加日历",PAD,480);
+  ctx.fillStyle=C.accent;ctx.font=font("700",46,SANS);ctx.fillText("👉 在主页简介里",PAD,580);
+  ctx.fillStyle=C.ink;ctx.font=font("500",38,SANS);
+  ["⏰ 每周四更新，关注不迷路","💬 你在哪个城市？评论区告诉我","⚠️ 时间、价格以活动官网为准"].forEach(function(t,i){ctx.fillText(t,PAD,720+i*76)});
+  return c
+}
+
+/* ---------- caption ---------- */
+function captions(id,list){
+  var city=D.cities[id].zh,wk=D.weekend,s=parts(wk.start),e=parts(wk.end);
+  var range=s.m+"/"+s.d+"-"+(s.m===e.m?e.d:e.m+"/"+e.d);
+  var free=list.filter(function(x){return x.free}).length;
+  var t=city+"周末去哪儿｜"+range+"共"+list.length+"个";
+  if([...t].length>20)t=city+"周末去哪儿｜"+list.length+"个活动";
+  var b=[];
+  b.push("这个周末（"+md(wk.start)+"–"+md(wk.end)+"）"+city+"有什么好玩的？帮大家整理好了👇");
+  b.push("一共 "+list.length+" 个活动"+(free?"，其中 "+free+" 个免费":"")+"，华人 / 亚裔活动排在最前～");b.push("");
+  list.slice().sort(function(p,q){return p.date.localeCompare(q.date)||p.start.localeCompare(q.start)}).forEach(function(x){b.push("▫️ "+WD[dow(x.date)]+" "+md(x.date)+(x.start?" "+x.start:"")+"｜"+x.title_zh+"｜"+costText(x))});
+  b.push("");b.push("⚠️ 时间、价格可能变动，出发前请看活动官网");b.push("📌 完整清单和一键加日历在主页简介");b.push("⏰ 每周四更新，收藏关注不迷路～");b.push("");
+  b.push((TAGS[id]||[]).concat(BASE_TAGS).map(function(x){return "#"+x}).join(" "));
+  return {title:t,body:b.join("\n")}
+}
+
+/* ---------- UI ---------- */
+function toast(m){var el=$("toast");el.textContent=m;el.classList.add("on");clearTimeout(toast.t);toast.t=setTimeout(function(){el.classList.remove("on")},2200)}
+function counts(){
+  var tl=[...$("title").value].length,bl=[...$("body").value].length;
+  $("tcount").textContent=tl+" / 20";$("tcount").classList.toggle("over",tl>20);
+  $("bcount").textContent=bl+" / 1000";$("bcount").classList.toggle("over",bl>1000);
+}
+function build(){
+  var id=$("city").value,list=events(id,$("aud").value),per=+$("per").value;
+  try{history.replaceState(null,"","?city="+id)}catch(e){}
+  return Promise.all([skyImage(id),document.fonts?document.fonts.ready:null]).then(function(r){
+    var sky=r[0],pages=[cover(id,list,sky)],chunks=[];
+    for(var i=0;i<list.length;i+=per)chunks.push(list.slice(i,i+per));
+    chunks.forEach(function(ch,i){pages.push(page(id,ch,i+1,chunks.length))});
+    pages.push(outro(id,sky));
+    shots=pages.map(function(c,i){return {name:id+"-"+D.weekend.start+"-"+String(i+1).padStart(2,"0")+".png",url:c.toDataURL("image/png"),canvas:c}});
+    $("grid").innerHTML=shots.map(function(s,i){return '<div class="shot"><img src="'+s.url+'" alt="第 '+(i+1)+' 张"><a href="'+s.url+'" download="'+s.name+'">下载第 '+(i+1)+' 张</a></div>'}).join("");
+    if(shots.length>18)toast("共 "+shots.length+" 张，超过小红书 18 张上限，可改成每页 2 个活动");
+    var cap=captions(id,list);$("title").value=cap.title;$("body").value=cap.body;counts();
+  })
+}
+function blobOf(s){return new Promise(function(res){s.canvas.toBlob(res,"image/png")})}
+$("saveAll").onclick=function(){
+  Promise.all(shots.map(blobOf)).then(function(blobs){
+    var files=blobs.map(function(b,i){return new File([b],shots[i].name,{type:"image/png"})});
+    if(navigator.canShare&&navigator.canShare({files:files})){return navigator.share({files:files}).catch(function(){})}
+    shots.forEach(function(s,i){setTimeout(function(){var a=document.createElement("a");a.href=s.url;a.download=s.name;document.body.appendChild(a);a.click();a.remove()},i*300)});
+    toast("正在下载 "+shots.length+" 张图片");
+  })
+};
+document.addEventListener("click",function(ev){var b=ev.target.closest("[data-copy]");if(!b)return;var v=$(b.dataset.copy).value;
+  (navigator.clipboard&&navigator.clipboard.writeText?navigator.clipboard.writeText(v):Promise.reject()).then(function(){toast("已复制")},function(){$(b.dataset.copy).select();toast("请手动复制")})});
+["title","body"].forEach(function(k){$(k).addEventListener("input",counts)});
+["city","aud","per"].forEach(function(k){$(k).addEventListener("change",build)});
+
+fetch("events.json",{cache:"no-cache"}).then(function(r){return r.json()}).then(function(d){
+  D=d;var want=(location.search.match(/city=(\w+)/)||[])[1];
+  $("city").innerHTML=Object.keys(d.cities).map(function(k){return '<option value="'+k+'"'+(k===want?" selected":"")+'>'+d.cities[k].zh+'</option>'}).join("");
+  return build();
+}).catch(function(e){$("grid").textContent="活动数据加载失败："+e});
+})();
+</script>
+</body></html>
