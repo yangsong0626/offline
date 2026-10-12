@@ -1,6 +1,6 @@
 <!doctype html>
 <html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<title>遛娃周报</title>
+<title>周末不无聊</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Noto+Sans+SC:wght@400;500;700&family=Noto+Serif+SC:wght@600;700&display=swap">
@@ -32,8 +32,8 @@ button,input{font:inherit;color:inherit}
 .top{display:flex;justify-content:space-between;align-items:center;gap:12px;padding-block:18px 8px}
 .brand{font-family:var(--display);font-weight:700;font-size:20px;letter-spacing:.02em}
 .brand small{font-family:var(--body);font-weight:500;font-size:12px;color:var(--muted);letter-spacing:.06em;margin-left:8px;text-transform:uppercase}
-.seg{display:inline-flex;border:1px solid var(--line);border-radius:999px;padding:2px;background:var(--surface)}
-.seg button{border:0;background:none;padding:4px 12px;border-radius:999px;cursor:pointer;color:var(--muted);font-size:13px;font-weight:500}
+.seg{flex:none;display:inline-flex;border:1px solid var(--line);border-radius:999px;padding:2px;background:var(--surface)}
+.seg button{white-space:nowrap;border:0;background:none;padding:4px 12px;border-radius:999px;cursor:pointer;color:var(--muted);font-size:13px;font-weight:500}
 .seg button[aria-pressed="true"]{background:var(--ink);color:var(--bg)}
 
 .hero{padding-block:20px 8px;display:grid;gap:6px}
@@ -59,6 +59,8 @@ h1{font-family:var(--display);font-size:clamp(30px,6vw,44px);line-height:1.15;ma
 .wx span{display:inline-flex;gap:6px;align-items:center}
 .wx svg{width:18px;height:18px;stroke:currentColor;fill:none;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round}
 
+.aud{margin-top:14px}
+.badge.aud{background:var(--chip);color:var(--muted)}
 .filters{display:flex;flex-wrap:wrap;gap:8px;margin-top:14px}
 .chip{border:1px solid var(--line);background:var(--surface);border-radius:999px;padding:5px 13px;cursor:pointer;font-size:14px}
 .chip[aria-pressed="true"]{background:var(--ink);color:var(--bg);border-color:var(--ink)}
@@ -98,6 +100,7 @@ details.cal summary::-webkit-details-marker{display:none}
 .toast{position:fixed;left:50%;bottom:calc(20px + env(safe-area-inset-bottom,0px));transform:translateX(-50%);background:var(--ink);color:var(--bg);padding:9px 16px;border-radius:999px;font-size:14px;opacity:0;pointer-events:none;transition:opacity .2s}
 .toast.on{opacity:1}
 @media (max-width:480px){
+  .brand small{display:block;margin:2px 0 0}
   .card{grid-template-columns:1fr}
   .when{grid-template-columns:auto auto 1fr;align-items:baseline;gap:8px}
   .when .t{margin:0;justify-self:end}
@@ -108,7 +111,7 @@ details.cal summary::-webkit-details-marker{display:none}
 </head><body>
 <div class="wrap">
   <header class="top">
-    <div class="brand">遛娃周报<small>Weekend Kids</small></div>
+    <div class="brand">周末不无聊<small>No Boring Weekends</small></div>
     <div class="seg" role="group" aria-label="Language">
       <button id="lang-zh" type="button" aria-pressed="true">中文</button>
       <button id="lang-en" type="button" aria-pressed="false">EN</button>
@@ -135,6 +138,7 @@ details.cal summary::-webkit-details-marker{display:none}
     <div class="wx" id="wx"></div>
   </section>
 
+  <div class="seg aud" id="aud" role="group" aria-label="Audience"></div>
   <div class="filters" id="filters"></div>
   <p class="count" id="count"></p>
   <div id="notes"></div>
@@ -148,7 +152,8 @@ details.cal summary::-webkit-details-marker{display:none}
 (function(){
 "use strict";
 var T={
- zh:{eyebrow:"每周五更新",headline:"这个周末,带娃去哪儿",sub:"按你所在的城市整理,华人与亚裔社区活动排在最前。",
+ zh:{eyebrow:"每周五更新",headline:"这个周末,去哪儿玩",sub:"按你所在的城市整理亲子和大人活动,华人与亚裔社区活动排在最前。",
+  audAll:"全部活动",audFamily:"亲子",audAdult:"大人",badgeFamily:"亲子",badgeAdult:"大人",badgeAll:"大人小孩都合适",tbd:"时间见官网",
   addrPh:"输入邮编、地址或城市,例如 11354 或 Edison, NJ",go:"切换城市",
   hintTz:"已按你的时区先选了 {c}。输入邮编或地址,可以切换到最近的城市。",
   hintSaved:"已记住你上次选的城市:{c}。",hintFound:"已切换到 {c}。",
@@ -163,7 +168,8 @@ var T={
   foot1:"更新于 {u}。活动时间、价格和是否需要报名可能变动,出发前请以主办方官网为准。",
   foot2:"天气来自公开预报,仅供安排行程参考。",
   eventsFail:"活动数据加载失败,请刷新页面重试。"},
- en:{eyebrow:"Updated every Friday",headline:"Where to take the kids this weekend",sub:"Sorted for your city, with Chinese and Asian community events first.",
+ en:{eyebrow:"Updated every Friday",headline:"Where to go this weekend",sub:"Family and grown-up picks for your city, with Chinese and Asian community events first.",
+  audAll:"Everything",audFamily:"Family",audAdult:"Grown-ups",badgeFamily:"Family",badgeAdult:"Grown-ups",badgeAll:"All ages",tbd:"See site for times",
   addrPh:"ZIP, address or city, e.g. 11354 or Edison, NJ",go:"Switch city",
   hintTz:"Picked {c} from your time zone. Enter a ZIP or address to switch to the nearest city.",
   hintSaved:"Remembered your last city: {c}.",hintFound:"Switched to {c}.",
@@ -214,7 +220,7 @@ var ZIP3=[ // [from,to,city]
 var FSA={v:"van",m:"tor",l:"tor"}; // Canadian postal code first letter
 var TZ_DEFAULT={"America/New_York":"nyc","America/Detroit":"nyc","America/Chicago":"chi","America/Los_Angeles":"la","America/Denver":"chi","America/Phoenix":"la","America/Toronto":"tor","America/Vancouver":"van"};
 
-var S={lang:"zh",city:"nyc",day:"all",asian:false,free:false,indoor:false,data:null,hint:["tz"]};
+var S={lang:"zh",city:"nyc",aud:"all",day:"all",asian:false,free:false,indoor:false,data:null,hint:["tz"]};
 var $=function(id){return document.getElementById(id)};
 function esc(s){return String(s==null?"":s).replace(/[&<>"']/g,function(c){return {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]})}
 function fmt(s,o){return s.replace(/\{(\w+)\}/g,function(_,k){return o[k]})}
@@ -226,7 +232,7 @@ function parts(d){var p=d.split("-");return {y:+p[0],m:+p[1],d:+p[2]}}
 function dow(d){var p=parts(d);return new Date(Date.UTC(p.y,p.m-1,p.d)).getUTCDay()}
 function dateLabel(d){var p=parts(d);return S.lang==="zh"?p.m+"月"+p.d+"日":["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"][p.m-1]+" "+p.d}
 function hm(s){var a=s.split(":");return {h:+a[0],m:+a[1]}}
-function timeLabel(s){var x=hm(s);if(S.lang==="zh")return (x.h<10?"0":"")+x.h+":"+(x.m<10?"0":"")+x.m;var h=x.h%12||12;return h+":"+(x.m<10?"0":"")+x.m+" "+(x.h<12?"AM":"PM")}
+function timeLabel(s){if(!s)return t("tbd");var x=hm(s);if(S.lang==="zh")return (x.h<10?"0":"")+x.h+":"+(x.m<10?"0":"")+x.m;var h=x.h%12||12;return h+":"+(x.m<10?"0":"")+x.m+" "+(x.h<12?"AM":"PM")}
 function pad(n){return (n<10?"0":"")+n}
 function addMinutes(date,time,mins){var p=parts(date),x=hm(time);var d=new Date(Date.UTC(p.y,p.m-1,p.d,x.h,x.m+mins));return {date:d.getUTCFullYear()+"-"+pad(d.getUTCMonth()+1)+"-"+pad(d.getUTCDate()),time:pad(d.getUTCHours())+":"+pad(d.getUTCMinutes())}}
 function endOf(e){return e.end?{date:e.date,time:e.end}:addMinutes(e.date,e.start,120)}
@@ -238,29 +244,33 @@ function localToUtc(date,time,tz){
 }
 function iso(d){return d.getUTCFullYear()+pad(d.getUTCMonth()+1)+pad(d.getUTCDate())+"T"+pad(d.getUTCHours())+pad(d.getUTCMinutes())+"00Z"}
 function compact(date,time){return date.replace(/-/g,"")+"T"+time.replace(":","")+"00"}
+function nextDay(date){return addMinutes(date,"00:00",1440).date}
 
 /* ---------- calendar ---------- */
 function ev_text(e,lang){return {title:lang==="zh"?e.title_zh:e.title_en,desc:lang==="zh"?e.desc_zh:e.desc_en,cost:lang==="zh"?e.cost_zh:e.cost_en,ages:lang==="zh"?e.ages_zh:e.ages_en}}
 function location(e){return e.venue+", "+e.address}
 function details(e){var x=ev_text(e,S.lang);return x.desc+"\n"+(S.lang==="zh"?"费用:":"Cost: ")+x.cost+"\n"+(S.lang==="zh"?"适合:":"Ages: ")+x.ages+"\n"+e.url}
-function gcalUrl(e,tz){var en=endOf(e);
+function gcalUrl(e,tz){var en=e.start?endOf(e):null;
   return "https://calendar.google.com/calendar/render?action=TEMPLATE&text="+encodeURIComponent(ev_text(e,S.lang).title)+
-   "&dates="+compact(e.date,e.start)+"/"+compact(en.date,en.time)+"&ctz="+encodeURIComponent(tz)+
+   "&dates="+(en?compact(e.date,e.start)+"/"+compact(en.date,en.time):e.date.replace(/-/g,"")+"/"+nextDay(e.date).replace(/-/g,""))+"&ctz="+encodeURIComponent(tz)+
    "&location="+encodeURIComponent(location(e))+"&details="+encodeURIComponent(details(e))}
-function outlookUrl(e,tz){var en=endOf(e),s=localToUtc(e.date,e.start,tz),f=localToUtc(en.date,en.time,tz);
+function outlookUrl(e,tz){
   function z(d){return d.toISOString().replace(/\.\d+Z$/,"Z")}
+  var when;if(e.start){var en=endOf(e);when="&startdt="+encodeURIComponent(z(localToUtc(e.date,e.start,tz)))+"&enddt="+encodeURIComponent(z(localToUtc(en.date,en.time,tz)))}
+  else when="&allday=true&startdt="+e.date+"&enddt="+nextDay(e.date);
   return "https://outlook.live.com/calendar/0/deeplink/compose?path=%2Fcalendar%2Faction%2Fcompose&rru=addevent&subject="+encodeURIComponent(ev_text(e,S.lang).title)+
-   "&startdt="+encodeURIComponent(z(s))+"&enddt="+encodeURIComponent(z(f))+"&location="+encodeURIComponent(location(e))+"&body="+encodeURIComponent(details(e))}
+   when+"&location="+encodeURIComponent(location(e))+"&body="+encodeURIComponent(details(e))}
 function icsEsc(x){return String(x).replace(/\\/g,"\\\\").replace(/;/g,"\\;").replace(/,/g,"\\,").replace(/\n/g,"\\n")}
-function icsText(e,tz){var en=endOf(e),x=ev_text(e,S.lang);
-  return ["BEGIN:VCALENDAR","VERSION:2.0","PRODID:-//Weekend Kids//EN","CALSCALE:GREGORIAN","BEGIN:VEVENT",
-   "UID:"+e.id+"-"+e.date+"@weekend-kids","DTSTAMP:"+iso(new Date()),
-   "DTSTART:"+iso(localToUtc(e.date,e.start,tz)),"DTEND:"+iso(localToUtc(en.date,en.time,tz)),
+function icsText(e,tz){var x=ev_text(e,S.lang),en=e.start?endOf(e):null;
+  return ["BEGIN:VCALENDAR","VERSION:2.0","PRODID:-//No Boring Weekends//EN","CALSCALE:GREGORIAN","BEGIN:VEVENT",
+   "UID:"+e.id+"-"+e.date+"@no-boring-weekends","DTSTAMP:"+iso(new Date()),
+   en?"DTSTART:"+iso(localToUtc(e.date,e.start,tz)):"DTSTART;VALUE=DATE:"+e.date.replace(/-/g,""),
+   en?"DTEND:"+iso(localToUtc(en.date,en.time,tz)):"DTEND;VALUE=DATE:"+nextDay(e.date).replace(/-/g,""),
    "SUMMARY:"+icsEsc(x.title),"LOCATION:"+icsEsc(location(e)),"DESCRIPTION:"+icsEsc(details(e)),"URL:"+e.url,
    "BEGIN:VALARM","TRIGGER:-PT60M","ACTION:DISPLAY","DESCRIPTION:"+icsEsc(x.title),"END:VALARM",
    "END:VEVENT","END:VCALENDAR"].join("\r\n")}
-function plainText(e){var en=endOf(e);
-  return ev_text(e,S.lang).title+"\n"+dateLabel(e.date)+" "+timeLabel(e.start)+" – "+timeLabel(en.time)+"\n"+location(e)+"\n"+details(e)}
+function plainText(e){
+  return ev_text(e,S.lang).title+"\n"+dateLabel(e.date)+" "+(e.start?timeLabel(e.start)+" – "+timeLabel(endOf(e).time):t("tbd"))+"\n"+location(e)+"\n"+details(e)}
 
 /* ---------- city ---------- */
 function cityName(id){var c=S.data.cities[id];return S.lang==="zh"?c.zh:c.en}
@@ -285,8 +295,11 @@ function wxHtml(c){
   return ["sat","sun"].map(function(d){var x=w[d];if(!x)return "";
     return '<span>'+icon(x.kind)+esc(t(d)+" "+(S.lang==="zh"?x.zh:x.en)+(x.hi!=null?" "+x.hi+"°F":""))+'</span>'}).join("")
 }
+function aud(e){return e.audience||"family"}
+function forAud(e){return S.aud==="all"||aud(e)==="all"||aud(e)===S.aud}
 function visible(c){
   return c.events.filter(function(e){
+    if(!forAud(e))return false;
     if(S.day!=="all"&&dow(e.date)!==({fri:5,sat:6,sun:0})[S.day])return false;
     if(S.asian&&e.tier==="C")return false;
     if(S.free&&!e.free)return false;
@@ -295,7 +308,8 @@ function visible(c){
 }
 function card(e,tz){
   var x=ev_text(e,S.lang),en=endOf(e),wd=WD[S.lang][dow(e.date)],p=parts(e.date);
-  var badge=e.tier==="A"?'<span class="badge A">'+esc(t("tierA"))+'</span>':e.tier==="B"?'<span class="badge B">'+esc(t("tierB"))+'</span>':'';
+  var badge=(e.tier==="A"?'<span class="badge A">'+esc(t("tierA"))+'</span>':e.tier==="B"?'<span class="badge B">'+esc(t("tierB"))+'</span>':'')+
+   '<span class="badge aud">'+esc(t({family:"badgeFamily",adult:"badgeAdult",all:"badgeAll"}[aud(e)]))+'</span>';
   var meta=[];
   meta.push(e.free?'<span class="free">'+esc(t("freeL"))+'</span>':'<span>'+esc(x.cost)+'</span>');
   meta.push('<span>'+esc(t("ages"))+" "+esc(x.ages)+'</span>');
@@ -334,8 +348,9 @@ function render(){
   var days=[["all",t("all")],["fri",t("fri")],["sat",t("sat")],["sun",t("sun")]];
   $("filters").innerHTML=days.map(function(d){return '<button type="button" class="chip" data-day="'+d[0]+'" aria-pressed="'+(S.day===d[0])+'">'+esc(d[1])+'</button>'}).join("")+'<span class="gap"></span>'+
    [["asian",t("asian")],["free",t("free")],["indoor",t("indoor")]].map(function(f){return '<button type="button" class="chip" data-flag="'+f[0]+'" aria-pressed="'+S[f[0]]+'">'+esc(f[1])+'</button>'}).join("");
-  var all=c.events,as=all.filter(function(e){return e.tier!=="C"}).length,list=visible(c);
-  $("count").textContent=all.length?fmt(t("count"),{n:all.length,a:as}):"";
+  $("aud").innerHTML=[["all","audAll"],["family","audFamily"],["adult","audAdult"]].map(function(a){return '<button type="button" data-aud="'+a[0]+'" aria-pressed="'+(S.aud===a[0])+'">'+esc(t(a[1]))+'</button>'}).join("");
+  var all=c.events,base=all.filter(forAud),as=base.filter(function(e){return e.tier!=="C"}).length,list=visible(c);
+  $("count").textContent=base.length?fmt(t("count"),{n:base.length,a:as}):"";
   var note=S.lang==="zh"?c.notes_zh:c.notes_en;
   $("notes").innerHTML=note?'<p class="note">'+esc(note)+'</p>':"";
   $("list").innerHTML=list.length?list.map(function(e){return card(e,c.tz)}).join(""):all.length?'<p class="empty">'+esc(t("empty"))+'</p>':(note?"":'<p class="empty">'+esc(t("comingSoon"))+'</p>');
@@ -345,11 +360,12 @@ function toast(msg){var el=$("toast");el.textContent=msg;el.classList.add("on");
 
 /* ---------- events ---------- */
 document.addEventListener("click",function(ev){
-  var b=ev.target.closest("[data-city],[data-day],[data-flag],[data-copy],[data-ics]"),open=document.querySelectorAll("details.cal[open]");
+  var b=ev.target.closest("[data-city],[data-aud],[data-day],[data-flag],[data-copy],[data-ics]"),open=document.querySelectorAll("details.cal[open]");
   if(!ev.target.closest("details.cal"))open.forEach(function(d){d.removeAttribute("open")});
   else open.forEach(function(d){if(!d.contains(ev.target))d.removeAttribute("open")});
   if(!b)return;
   if(b.dataset.city){setCity(b.dataset.city,["found"])}
+  else if(b.dataset.aud){S.aud=b.dataset.aud;store("kids.aud",S.aud);render()}
   else if(b.dataset.day){S.day=b.dataset.day;render()}
   else if(b.dataset.flag){S[b.dataset.flag]=!S[b.dataset.flag];render()}
   else if(b.dataset.ics){
@@ -371,7 +387,7 @@ $("finder").addEventListener("submit",function(ev){ev.preventDefault();
 });
 
 /* ---------- boot ---------- */
-var saved=store("kids.lang");
+var saved=store("kids.lang"),sa=store("kids.aud");if(sa==="family"||sa==="adult")S.aud=sa;
 S.lang=saved==="en"||saved==="zh"?saved:((navigator.language||"").toLowerCase().indexOf("zh")===0?"zh":"en");
 render();
 fetch("events.json",{cache:"no-cache"}).then(function(r){if(!r.ok)throw 0;return r.json()}).then(function(d){
