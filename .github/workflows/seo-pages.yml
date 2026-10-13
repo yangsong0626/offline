@@ -1,0 +1,28 @@
+name: Build search pages
+
+# events.json 一更新，就重新生成给搜索引擎和 AI 搜索看的静态页、sitemap、robots.txt、llms.txt
+on:
+  push:
+    branches: [main]
+    paths: ["docs/events.json", "scripts/build_seo.py", "site.json"]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: python scripts/build_seo.py
+      - name: Commit if changed
+        run: |
+          git config user.name "seo-bot"
+          git config user.email "seo-bot@users.noreply.github.com"
+          git add docs
+          git diff --cached --quiet || git commit -m "Rebuild search pages $(date -u +%Y-%m-%d)"
+          git push
