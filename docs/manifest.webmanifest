@@ -1,0 +1,16 @@
+{
+  "name": "周末不无聊 · No Boring Weekends",
+  "short_name": "周末不无聊",
+  "description": "北美华人周末活动指南：亲子和大人活动，华人与亚裔社区活动优先。",
+  "lang": "zh-CN",
+  "start_url": "./?source=app",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#F4F6F3",
+  "theme_color": "#0D6A5A",
+  "icons": [
+    {"src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any"},
+    {"src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any"},
+    {"src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable"}
+  ]
+}
