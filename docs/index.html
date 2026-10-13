@@ -1,6 +1,16 @@
 <!doctype html>
 <html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <title>周末不无聊</title>
+<meta name="description" content="北美华人周末活动指南：亲子和大人活动，华人与亚裔社区活动优先。">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" type="image/png" sizes="192x192" href="icons/icon-192.png">
+<link rel="apple-touch-icon" href="icons/icon-180.png">
+<meta name="theme-color" content="#F4F6F3" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0F1614" media="(prefers-color-scheme: dark)">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="周末不无聊">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Noto+Sans+SC:wght@400;500;700&family=Noto+Serif+SC:wght@600;700&display=swap">
@@ -29,7 +39,7 @@ a{color:inherit}
 button,input{font:inherit;color:inherit}
 :focus-visible{outline:2px solid var(--focus);outline-offset:2px;border-radius:6px}
 
-.top{display:flex;justify-content:space-between;align-items:center;gap:12px;padding-block:18px 8px}
+.top{display:flex;justify-content:space-between;align-items:center;gap:12px;padding-block:calc(18px + env(safe-area-inset-top,0px)) 8px}
 .brand{font-family:var(--display);font-weight:700;font-size:20px;letter-spacing:.02em}
 .brand small{font-family:var(--body);font-weight:500;font-size:12px;color:var(--muted);letter-spacing:.06em;margin-left:8px;text-transform:uppercase}
 .seg{flex:none;display:inline-flex;border:1px solid var(--line);border-radius:999px;padding:2px;background:var(--surface)}
@@ -104,6 +114,11 @@ details.cal summary::-webkit-details-marker{display:none}
 
 .empty{padding:32px 8px;text-align:center;color:var(--muted)}
 .foot{margin-top:36px;padding-top:16px;border-top:1px solid var(--line);font-size:13px;color:var(--muted);display:grid;gap:4px}
+.install{position:fixed;left:12px;right:12px;bottom:calc(12px + env(safe-area-inset-bottom,0px));z-index:10;max-width:560px;margin:0 auto;background:var(--surface);border:1px solid var(--line);border-radius:16px;box-shadow:0 8px 28px rgba(0,0,0,.14);padding:12px 12px 12px 14px;display:flex;gap:12px;align-items:center}
+.install img{width:44px;height:44px;border-radius:10px;flex:none}
+.install p{margin:0;flex:1;font-size:14px;line-height:1.4}
+.install p b{display:block;font-size:15px}
+.install .x{border:0;background:none;color:var(--muted);font-size:20px;line-height:1;padding:6px;cursor:pointer}
 .toast{position:fixed;left:50%;bottom:calc(20px + env(safe-area-inset-bottom,0px));transform:translateX(-50%);background:var(--ink);color:var(--bg);padding:9px 16px;border-radius:999px;font-size:14px;opacity:0;pointer-events:none;transition:opacity .2s}
 .toast.on{opacity:1}
 @media (max-width:480px){
@@ -157,6 +172,12 @@ details.cal summary::-webkit-details-marker{display:none}
 
   <footer class="foot" id="foot"></footer>
 </div>
+<div class="install" id="install" hidden>
+  <img src="icons/icon-192.png" alt="">
+  <p><b id="inst-title"></b><span id="inst-text"></span></p>
+  <button class="btn primary" type="button" id="inst-go" hidden></button>
+  <button class="x" type="button" id="inst-x" aria-label="Close">×</button>
+</div>
 <div class="toast" id="toast" role="status"></div>
 
 <script>
@@ -178,7 +199,8 @@ var T={
   site:"活动官网",map:"地图",ages:"适合",
   foot1:"更新于 {u}。活动时间、价格和是否需要报名可能变动,出发前请以主办方官网为准。",
   foot2:"天气来自公开预报,仅供安排行程参考。",
-  eventsFail:"活动数据加载失败,请刷新页面重试。"},
+  eventsFail:"活动数据加载失败,请刷新页面重试。",
+  instTitle:"把「周末不无聊」装到手机上",instText:"像 App 一样从主屏幕打开,没网也能看。",instIos:"点 Safari 底部的分享按钮 ⬆️,再选「添加到主屏幕」。",instGo:"安装"},
  en:{eyebrow:"Updated every Friday",headline:"Where to go this weekend",sub:"Family and grown-up picks for your city, with Chinese and Asian community events first.",
   audAll:"Everything",audFamily:"Family",audAdult:"Grown-ups",badgeFamily:"Family",badgeAdult:"Grown-ups",badgeAll:"All ages",tbd:"See site for times",
   addrPh:"ZIP, address or city, e.g. 11354 or Edison, NJ",go:"Switch city",
@@ -194,7 +216,8 @@ var T={
   site:"Event site",map:"Map",ages:"Ages",
   foot1:"Updated {u}. Times, prices and sign-up rules can change. Check the organizer's site before you go.",
   foot2:"Weather comes from public forecasts and is a planning aid only.",
-  eventsFail:"Could not load events. Please refresh."}
+  eventsFail:"Could not load events. Please refresh.",
+  instTitle:"Get No Boring Weekends on your phone",instText:"Open it from your home screen like an app, even offline.",instIos:"Tap Safari's Share button ⬆️, then \"Add to Home Screen\".",instGo:"Install"}
 };
 var WD={zh:["周日","周一","周二","周三","周四","周五","周六"],en:["Sun","Mon","Tue","Wed","Thu","Fri","Sat"]};
 var ICON={
@@ -410,6 +433,23 @@ $("finder").addEventListener("submit",function(ev){ev.preventDefault();
 var saved=store("kids.lang"),sa=store("kids.aud");if(sa==="family"||sa==="adult")S.aud=sa;
 S.lang=saved==="en"||saved==="zh"?saved:((navigator.language||"").toLowerCase().indexOf("zh")===0?"zh":"en");
 render();
+/* ---------- install as app ---------- */
+var deferredInstall=null;
+function standalone(){return (window.matchMedia&&matchMedia("(display-mode: standalone)").matches)||navigator.standalone===true}
+function isIos(){return /iphone|ipad|ipod/i.test(navigator.userAgent)||(navigator.platform==="MacIntel"&&navigator.maxTouchPoints>1)}
+function showInstall(){
+  if(standalone()||store("kids.installHidden"))return;
+  var ios=isIos();if(!ios&&!deferredInstall)return;
+  $("inst-title").textContent=t("instTitle");$("inst-text").textContent=ios?t("instIos"):t("instText");
+  $("inst-go").textContent=t("instGo");$("inst-go").hidden=ios;$("install").hidden=false;
+}
+window.addEventListener("beforeinstallprompt",function(e){e.preventDefault();deferredInstall=e;showInstall()});
+window.addEventListener("appinstalled",function(){$("install").hidden=true});
+$("inst-go").onclick=function(){if(!deferredInstall)return;deferredInstall.prompt();deferredInstall.userChoice.then(function(){deferredInstall=null;$("install").hidden=true})};
+$("inst-x").onclick=function(){$("install").hidden=true;store("kids.installHidden","1")};
+if("serviceWorker" in navigator)window.addEventListener("load",function(){navigator.serviceWorker.register("sw.js").catch(function(){})});
+setTimeout(showInstall,4000);
+
 fetch("events.json",{cache:"no-cache"}).then(function(r){if(!r.ok)throw 0;return r.json()}).then(function(d){
   S.data=d;
   var sc=store("kids.city"),tz="";try{tz=Intl.DateTimeFormat().resolvedOptions().timeZone}catch(e){}
