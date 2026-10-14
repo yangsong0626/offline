@@ -42,7 +42,20 @@ Each city has a fixed weekend page that is replaced weekly, plus a subscribable 
 
 ## 免费 / 优惠攻略 Free-day guides
 - [纽约免费博物馆日 & 优惠 / Free museum days in New York](https://noboringweekends.pages.dev/nyc/guides/free/)
+- [新泽西免费博物馆日 & 优惠 / Free museum days in New Jersey](https://noboringweekends.pages.dev/nj/guides/free/)
+- [洛杉矶免费博物馆日 & 优惠 / Free museum days in Los Angeles](https://noboringweekends.pages.dev/la/guides/free/)
 - [旧金山湾区免费博物馆日 & 优惠 / Free museum days in SF Bay Area](https://noboringweekends.pages.dev/sf/guides/free/)
+- [西雅图免费博物馆日 & 优惠 / Free museum days in Seattle](https://noboringweekends.pages.dev/sea/guides/free/)
+- [波士顿免费博物馆日 & 优惠 / Free museum days in Boston](https://noboringweekends.pages.dev/bos/guides/free/)
+- [芝加哥免费博物馆日 & 优惠 / Free museum days in Chicago](https://noboringweekends.pages.dev/chi/guides/free/)
+- [休斯顿免费博物馆日 & 优惠 / Free museum days in Houston](https://noboringweekends.pages.dev/hou/guides/free/)
+- [达拉斯免费博物馆日 & 优惠 / Free museum days in Dallas](https://noboringweekends.pages.dev/dal/guides/free/)
+- [华盛顿 DC免费博物馆日 & 优惠 / Free museum days in Washington DC](https://noboringweekends.pages.dev/dc/guides/free/)
+- [橙县 / 尔湾免费博物馆日 & 优惠 / Free museum days in Orange County](https://noboringweekends.pages.dev/oc/guides/free/)
+- [圣地亚哥免费博物馆日 & 优惠 / Free museum days in San Diego](https://noboringweekends.pages.dev/sd/guides/free/)
+- [亚特兰大免费博物馆日 & 优惠 / Free museum days in Atlanta](https://noboringweekends.pages.dev/atl/guides/free/)
+- [多伦多免费博物馆日 & 优惠 / Free museum days in Toronto](https://noboringweekends.pages.dev/tor/guides/free/)
+- [温哥华免费博物馆日 & 优惠 / Free museum days in Vancouver](https://noboringweekends.pages.dev/van/guides/free/)
 
 ## Calendar feeds
 - [New York (.ics)](https://noboringweekends.pages.dev/cal/nyc.ics)

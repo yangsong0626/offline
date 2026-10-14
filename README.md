@@ -29,4 +29,6 @@ Recurring rules instead of dated events, so one entry keeps working every week. 
 - `{"type":"first_full_weekend"}` — first Saturday of the month and the Sunday after (Bank of America Museums on Us)
 - `{"type":"always"}` — any day the eligibility applies (residents, students, library cards)
 
+Optional fields: `"months":[11,12,1]` limits a rule to a season, `"skip":["YYYY-MM-DD"]` drops a date the venue cancelled or moved, `"extra":["YYYY-MM-DD"]` adds a one-off date, and `nth` can be a list (`[1,2]` = first and second Sunday).
+
 City pages show a "💸 本周末能用的免费 / 优惠" box computed from these rules, and the build writes a guide per city at `/<city>/guides/free/` and `/en/<city>/guides/free/` with a 5-week free-day calendar. Re-check rules every few months and update `verified`. The rule logic is in `tools/deals.py` and mirrored in `docs/index.html` (`dealOn`); keep them in sync.

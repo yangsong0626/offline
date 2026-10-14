@@ -2,30 +2,50 @@
 
 Rule types (weekday numbers follow JavaScript: 0 = Sunday ... 6 = Saturday):
   weekly             {"days": [5]}            every listed weekday
-  monthly            {"nth": 2, "day": 0}     nth given weekday of the month (2nd Sunday)
+  monthly            {"nth": 2, "day": 0}     nth given weekday of the month (2nd Sunday); nth may be a list ([1, 2])
   first_full_weekend {}                       first Saturday of the month and the Sunday after it
   always             {}                       any day the eligibility applies
-The same logic lives in docs/index.html (dealOn) so the page and the build agree.
+Optional per deal:
+  "months": [11, 12, 1]   only in these months (seasonal programs)
+  "skip":  ["2026-10-11"] dates the rule would match but the venue cancelled or moved
+  "extra": ["2026-10-18"] one-off dates outside the rule
+The same logic lives in docs/index.html (dealOn / dealDated / dealAnytime) so the page and the build agree.
 """
 import html, json
 from datetime import date, timedelta
 
 WD_ZH = ["周日", "周一", "周二", "周三", "周四", "周五", "周六"]
 WD_EN = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"]
-NTH_ZH = {1: "第一个", 2: "第二个", 3: "第三个", 4: "第四个"}
-NTH_EN = {1: "first", 2: "second", 3: "third", 4: "fourth"}
-KIND_ORDER = ["first_full_weekend", "monthly", "weekly", "always"]
+NTH_ZH = {1: "第一", 2: "第二", 3: "第三", 4: "第四", 5: "第五"}
+NTH_EN = {1: "first", 2: "second", 3: "third", 4: "fourth", 5: "fifth"}
 
 def esc(s): return html.escape(str(s or ""), quote=True)
 def jsday(d): return (d.weekday() + 1) % 7
+def nths(r): return r["nth"] if isinstance(r["nth"], list) else [r["nth"]]
 
 def occurs(rule, d):
     t = rule["type"]
     if t == "always": return True
     if t == "weekly": return jsday(d) in rule["days"]
-    if t == "monthly": return jsday(d) == rule["day"] and (d.day - 1) // 7 + 1 == rule["nth"]
+    if t == "monthly": return jsday(d) == rule["day"] and (d.day - 1) // 7 + 1 in nths(rule)
     if t == "first_full_weekend": return (jsday(d) == 6 and d.day <= 7) or (jsday(d) == 0 and 2 <= d.day <= 8)
     raise ValueError("unknown rule type " + t)
+
+def in_season(deal, d): return not deal.get("months") or d.month in deal["months"]
+
+def dated(deal, d):
+    """True if a dated (non-always) deal happens on day d."""
+    iso = d.isoformat()
+    if iso in deal.get("skip", []): return False
+    if iso in deal.get("extra", []): return True
+    return deal["rule"]["type"] != "always" and in_season(deal, d) and occurs(deal["rule"], d)
+
+def anytime(deal, d): return deal["rule"]["type"] == "always" and in_season(deal, d)
+
+def months_text(ms, lang):
+    if not ms: return ""
+    return ("(" + "、".join(f"{m}月" for m in ms) + ")") if lang == "zh" else " (" + ", ".join(
+        ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"][m-1] for m in ms) + ")"
 
 def when_text(deal, lang):
     r, t = deal["rule"], deal["rule"]["type"]
@@ -33,12 +53,14 @@ def when_text(deal, lang):
     if lang == "zh":
         s = {"always": "随时(符合条件即可)", "first_full_weekend": "每月第一个完整周末(周六+周日)"}.get(t)
         if t == "weekly": s = "每" + "、".join(WD_ZH[x] for x in r["days"])
-        if t == "monthly": s = f'每月{NTH_ZH[r["nth"]]}{WD_ZH[r["day"]]}'
+        if t == "monthly": s = "每月" + "、".join(NTH_ZH[n] for n in nths(r)) + "个" + WD_ZH[r["day"]]
+        if t == "always" and deal.get("months"): s = "活动月内随时"
     else:
         s = {"always": "Any day you qualify", "first_full_weekend": "First full weekend of every month (Sat + Sun)"}.get(t)
         if t == "weekly": s = "Every " + ", ".join(WD_EN[x] for x in r["days"])
-        if t == "monthly": s = f'{NTH_EN[r["nth"]].capitalize()} {WD_EN[r["day"]]} of every month'
-    return s + time
+        if t == "monthly": s = " & ".join(NTH_EN[n] for n in nths(r)).capitalize() + f' {WD_EN[r["day"]]} of every month'
+        if t == "always" and deal.get("months"): s = "Any day during the program"
+    return s + time + months_text(deal.get("months"), lang)
 
 def for_city(deals, cid): return [x for x in deals if cid in x["cities"]]
 
@@ -47,7 +69,7 @@ def upcoming(deals, start, days=35):
     d0, out = date.fromisoformat(start), []
     for i in range(days):
         d = d0 + timedelta(days=i)
-        hits = [x for x in deals if x["rule"]["type"] != "always" and occurs(x["rule"], d)]
+        hits = [x for x in deals if dated(x, d)]
         if hits: out.append((d, hits))
     return out
 
