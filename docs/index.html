@@ -4,6 +4,9 @@
 <title>周末不无聊 · 北美华人周末去哪儿</title>
 <meta name="description" content="北美华人周末活动指南：纽约、湾区、洛杉矶、西雅图、多伦多、温哥华等 15 个城市的亲子和大人活动，华人与亚裔社区活动优先，每周更新。">
 <link rel="canonical" href="https://noboringweekends.pages.dev/">
+<link rel="alternate" hreflang="zh-CN" href="https://noboringweekends.pages.dev/">
+<link rel="alternate" hreflang="en" href="https://noboringweekends.pages.dev/en/">
+<link rel="alternate" hreflang="x-default" href="https://noboringweekends.pages.dev/">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="周末不无聊">
 <meta property="og:title" content="周末不无聊 · 北美华人周末去哪儿">
@@ -14,6 +17,7 @@
 <meta property="og:image:height" content="630">
 <meta property="og:locale" content="zh_CN">
 <meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "WebSite", "@id": "https://noboringweekends.pages.dev/#website", "url": "https://noboringweekends.pages.dev/", "name": "周末不无聊", "alternateName": "No Boring Weekends", "inLanguage": ["zh-CN", "en"]}, {"@type": "WebPage", "@id": "https://noboringweekends.pages.dev/", "url": "https://noboringweekends.pages.dev/", "name": "周末不无聊 · 北美华人周末去哪儿", "inLanguage": "zh-CN", "dateModified": "2026-10-12", "isPartOf": {"@id": "https://noboringweekends.pages.dev/#website"}}]}</script>
 <!--/seo-->
 <link rel="manifest" href="manifest.webmanifest">
 <link rel="icon" type="image/png" sizes="192x192" href="icons/icon-192.png">
@@ -348,7 +352,9 @@ function resolveCity(q){
   return best
 }
 function setCity(id,hint){S.city=id;S.hint=hint;store("kids.city",id);syncUrl();render()}
-function syncUrl(){if(location.protocol.indexOf("http")!==0)return;try{history.replaceState(null,"",S.city+"/"+location.hash)}catch(e){}}
+function cityPath(id){return (S.lang==="en"?"en/":"")+id+"/"}
+function syncUrl(){if(location.protocol.indexOf("http")!==0||!S.data)return;try{history.replaceState(null,"",cityPath(S.city)+location.hash)}catch(e){}}
+function onCityUrl(){return !!window.PAGE_CITY||(S.data&&new RegExp("/("+Object.keys(S.data.cities).join("|")+")/$").test(location.pathname))}
 
 /* ---------- render ---------- */
 function icon(k){return '<svg viewBox="0 0 24 24" aria-hidden="true">'+(ICON[k]||ICON.cloud)+'</svg>'}
@@ -438,7 +444,7 @@ function render(){
 function copyText(s,ok){(navigator.clipboard&&navigator.clipboard.writeText?navigator.clipboard.writeText(s):Promise.reject()).then(function(){toast(ok)},function(){toast(t("copyFail"))})}
 function shareEvent(id){
   var e=S.data.cities[S.city].events.filter(function(x){return x.id===id})[0];if(!e)return;
-  var url=new URL(S.city+"/#e-"+id,document.baseURI).href,x=ev_text(e,S.lang);
+  var url=new URL(cityPath(S.city)+"#e-"+id,document.baseURI).href,x=ev_text(e,S.lang);
   var text=x.title+" · "+dateLabel(e.date)+(e.start?" "+timeLabel(e.start):"")+" · "+e.venue;
   if(navigator.share)navigator.share({title:x.title,text:text,url:url}).catch(function(){});
   else copyText(text+"\n"+url,t("shared"));
@@ -472,8 +478,8 @@ document.addEventListener("click",function(ev){
     b.closest("details").removeAttribute("open")
   }
 });
-$("lang-zh").onclick=function(){S.lang="zh";store("kids.lang","zh");render()};
-$("lang-en").onclick=function(){S.lang="en";store("kids.lang","en");render()};
+$("lang-zh").onclick=function(){S.lang="zh";store("kids.lang","zh");if(onCityUrl())syncUrl();render()};
+$("lang-en").onclick=function(){S.lang="en";store("kids.lang","en");if(onCityUrl())syncUrl();render()};
 $("finder").addEventListener("submit",function(ev){ev.preventDefault();
   var id=resolveCity($("addr").value);
   if(id)setCity(id,["found"]);else{S.hint=["none"];render()}
@@ -481,7 +487,7 @@ $("finder").addEventListener("submit",function(ev){ev.preventDefault();
 
 /* ---------- boot ---------- */
 var saved=store("kids.lang"),sa=store("kids.aud");if(sa==="family"||sa==="adult")S.aud=sa;
-S.lang=saved==="en"||saved==="zh"?saved:((navigator.language||"").toLowerCase().indexOf("zh")===0?"zh":"en");
+S.lang=window.PAGE_LANG||(saved==="en"||saved==="zh"?saved:((navigator.language||"").toLowerCase().indexOf("zh")===0?"zh":"en"));
 render();
 /* ---------- install as app ---------- */
 var deferredInstall=null;

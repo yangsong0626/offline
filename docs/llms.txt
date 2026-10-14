@@ -1,0 +1,61 @@
+# 周末不无聊 No Boring Weekends
+
+> 北美华人周末活动指南：15 个城市的亲子和大人周末活动，华人与亚裔社区活动优先，中英双语，每周更新（本期 10/16–10/18，更新于 2026-10-12）。
+> Weekend events for families and grown-ups in 15 North American cities, Chinese/Asian community events first, bilingual, updated weekly.
+
+每个城市有固定网址的「本周末」页面，内容每周替换；每个城市还有可订阅的日历（.ics）。活动信息以主办方官网为准。
+Each city has a fixed weekend page that is replaced weekly, plus a subscribable .ics calendar. Check organizers' sites before going.
+
+## 城市页（中文）
+- [纽约本周末活动](https://noboringweekends.pages.dev/nyc/): 10 个活动，Archtober 建筑亲子日(南瓜装饰)、幽默小区 中英双语脱口秀、皇后区夜市 Queens Night Market
+- [新泽西本周末活动](https://noboringweekends.pages.dev/nj/): 8 个活动，AAPI New Jersey 排灯节庆典、普林斯顿排灯节博览会、新泽西州立博物馆国际考古日
+- [洛杉矶本周末活动](https://noboringweekends.pages.dev/la/): 8 个活动，Stones Throw 30 周年音乐节、Getty 家庭节:洛杉矶与墨西哥、Skirball 诺亚方舟儿童探索馆
+- [旧金山湾区本周末活动](https://noboringweekends.pages.dev/sf/): 10 个活动，菲律宾裔国际书展 FilBookFest、亚洲艺术博物馆 导览:石山、亚洲艺术博物馆菲律宾裔 Kasama 节
+- [西雅图本周末活动](https://noboringweekends.pages.dev/sea/): 8 个活动，Tasveer 南亚电影节(闭幕周末)、华美博物馆（Wing Luke）参观、小西贡快闪市集
+- [波士顿本周末活动](https://noboringweekends.pages.dev/bos/): 8 个活动，月亮到河流灯笼节、Fall-o-Ween 儿童万圣节庆典、Head of the Charles 查尔斯河划艇赛
+- [芝加哥本周末活动](https://noboringweekends.pages.dev/chi/): 9 个活动，Open House Chicago:唐人街 Pui Tak Center 免费参观、Open House Chicago 建筑开放日、第62届芝加哥国际电影节
+- [休斯顿本周末活动](https://noboringweekends.pages.dev/hou/): 7 个活动，休斯顿菲律宾街头节、亚洲协会德州中心 Diwali Lights 排灯节、休斯顿儿童博物馆万圣节 BOO!seum(周六)
+- [达拉斯本周末活动](https://noboringweekends.pages.dev/dal/): 9 个活动，Nasher 雕塑中心 'Til Midnight 夜场、德州州博会 最后一个周末、达拉斯植物园 秋日南瓜村
+- [华盛顿 DC本周末活动](https://noboringweekends.pages.dev/dc/): 8 个活动，Maum Market 亚裔品牌市集、Little Jams 亲子公园音乐会、Josiah Henson 国际考古日家庭活动
+- [橙县 / 尔湾本周末活动](https://noboringweekends.pages.dev/oc/): 7 个活动，Mega Night Market 亚洲夜市(周六)、OC Japan Fair 日本文化节、Mega Night Market 亚洲夜市(周日)
+- [圣地亚哥本周末活动](https://noboringweekends.pages.dev/sd/): 7 个活动，华人历史博物馆 龙舟手工、Mission Bayfest 海湾音乐节(周六)、Borrego Days 沙漠节(第60届)
+- [亚特兰大本周末活动](https://noboringweekends.pages.dev/atl/): 8 个活动，Atlantic Station 排灯节、Brookhaven 国际文化节(周日,K-pop 演出)、亚特兰大动物园 Boo at the Zoo
+- [多伦多本周末活动](https://noboringweekends.pages.dev/tor/): 6 个活动，万锦博物馆 Pumpkins After Dark 南瓜灯展、Leaside 苹果节、安省议会大楼秋日节
+- [温哥华本周末活动](https://noboringweekends.pages.dev/van/): 5 个活动，华裔博物馆 亚洲漫画展、Yupi! 拉美艺术亲子节、VanDusen 植物园丰收日
+
+## City pages (English)
+- [New York weekend events](https://noboringweekends.pages.dev/en/nyc/): 10 events, e.g. Archtober Family Day; The Humor Section: Chinese-English Stand-Up; Queens Night Market
+- [New Jersey weekend events](https://noboringweekends.pages.dev/en/nj/): 8 events, e.g. Light Up Diwali 2026; Diwali Fair 2026, Princeton; International Archaeology Day
+- [Los Angeles weekend events](https://noboringweekends.pages.dev/en/la/): 8 events, e.g. Stones Throw 30; Getty Family Festival: L.A. and Mexico in Focus; Noah's Ark at the Skirball
+- [SF Bay Area weekend events](https://noboringweekends.pages.dev/en/sf/): 10 events, e.g. Filipino American International Book Festival; Docent Talk: Stone Mountains, Asian Art Museum; Kasama Festival (Filipino American History Month)
+- [Seattle weekend events](https://noboringweekends.pages.dev/en/sea/): 8 events, e.g. Tasveer South Asian Film Festival; Wing Luke Museum visit; Friends of Little Sài Gòn Pop-Up Market
+- [Boston weekend events](https://noboringweekends.pages.dev/en/bos/): 8 events, e.g. Lanterns from Moon to River Festival; Fall-o-Ween Children's Festival; Head of the Charles Regatta
+- [Chicago weekend events](https://noboringweekends.pages.dev/en/chi/): 9 events, e.g. Open House Chicago: Pui Tak Center (Chinatown) Free Tour; Open House Chicago; Chicago International Film Festival
+- [Houston weekend events](https://noboringweekends.pages.dev/en/hou/): 7 events, e.g. Houston Filipino Street Festival; Diwali Lights! at Asia Society Texas Center; Halloween at the BOO!seum, Children's Museum Houston (Sat)
+- [Dallas weekend events](https://noboringweekends.pages.dev/en/dal/): 9 events, e.g. 'Til Midnight at the Nasher; State Fair of Texas, final weekend; Autumn at the Arboretum: Pumpkin Village
+- [Washington DC weekend events](https://noboringweekends.pages.dev/en/dc/): 8 events, e.g. Maum Market at The Wharf; Little Jams: Jennifer Schimpf Trio; International Archaeology Family Day
+- [Orange County weekend events](https://noboringweekends.pages.dev/en/oc/): 7 events, e.g. Mega Night Market (Sat); OC Japan Fair 2026 Fall; Mega Night Market (Sun)
+- [San Diego weekend events](https://noboringweekends.pages.dev/en/sd/): 7 events, e.g. Dragon Boat Making, SD Chinese Historical Museum; Mission Bayfest (Sat); Borrego Days Desert Festival
+- [Atlanta weekend events](https://noboringweekends.pages.dev/en/atl/): 8 events, e.g. Atlanta Diwali Festival; Brookhaven International Festival (Sun); Boo at the Zoo, Zoo Atlanta
+- [Toronto weekend events](https://noboringweekends.pages.dev/en/tor/): 6 events, e.g. Pumpkins After Dark, Markham; Bayview Leaside Apple Fest; Fall Festival at Queen's Park
+- [Vancouver weekend events](https://noboringweekends.pages.dev/en/van/): 5 events, e.g. Asian Comics, Chinese Canadian Museum; Yupi! Latin American Arts Family Festival; Harvest Days at VanDusen
+
+## Calendar feeds
+- [New York (.ics)](https://noboringweekends.pages.dev/cal/nyc.ics)
+- [New Jersey (.ics)](https://noboringweekends.pages.dev/cal/nj.ics)
+- [Los Angeles (.ics)](https://noboringweekends.pages.dev/cal/la.ics)
+- [SF Bay Area (.ics)](https://noboringweekends.pages.dev/cal/sf.ics)
+- [Seattle (.ics)](https://noboringweekends.pages.dev/cal/sea.ics)
+- [Boston (.ics)](https://noboringweekends.pages.dev/cal/bos.ics)
+- [Chicago (.ics)](https://noboringweekends.pages.dev/cal/chi.ics)
+- [Houston (.ics)](https://noboringweekends.pages.dev/cal/hou.ics)
+- [Dallas (.ics)](https://noboringweekends.pages.dev/cal/dal.ics)
+- [Washington DC (.ics)](https://noboringweekends.pages.dev/cal/dc.ics)
+- [Orange County (.ics)](https://noboringweekends.pages.dev/cal/oc.ics)
+- [San Diego (.ics)](https://noboringweekends.pages.dev/cal/sd.ics)
+- [Atlanta (.ics)](https://noboringweekends.pages.dev/cal/atl.ics)
+- [Toronto (.ics)](https://noboringweekends.pages.dev/cal/tor.ics)
+- [Vancouver (.ics)](https://noboringweekends.pages.dev/cal/van.ics)
+
+## Data
+- [events.json](https://noboringweekends.pages.dev/events.json): all events with dates, times, venues, prices and official links

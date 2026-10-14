@@ -6,9 +6,10 @@ Hosting: Cloudflare Pages — **build command `python3 tools/build.py`**, build 
 
 ## Build (SEO, share cards, calendar feeds)
 `tools/build.py` (Python stdlib only) reads `docs/events.json` and writes:
-- `docs/<city>/index.html` — one page per city with its own title, description, canonical URL, Open Graph tags, prerendered event cards and schema.org `Event` JSON-LD
+- `docs/<city>/index.html` (Chinese) and `docs/en/<city>/index.html` (English) — full site pages with their own title, description, canonical URL, hreflang, Open Graph tags, prerendered event cards and schema.org `Event` JSON-LD; plus `docs/en/index.html`
 - `docs/cal/<city>.ics` — subscribable calendar feed per city (the page's "📅 订阅" menu)
-- `docs/sitemap.xml`, `docs/robots.txt`, and the SEO block / city links inside `docs/index.html` (between `<!--seo-->` and `<!--citylinks-->` markers)
+- `docs/sitemap.xml` (with hreflang alternates), `docs/robots.txt` (search engines and AI crawlers allowed, `/xhs.html` excluded), `docs/llms.txt` (site summary for AI search)
+- the SEO block / city links inside `docs/index.html` (between `<!--seo-->` and `<!--citylinks-->` markers)
 
 Cloudflare runs it on every deploy, so editing `events.json` is still the only weekly step. The generated files are also committed so the site works if the build step is skipped; run `python3 tools/build.py` locally to refresh them.
 Set the public site URL in `tools/site.json` (or the `SITE_URL` environment variable). Share images live in `docs/og/` (1200×630, one per city plus `default.png`).

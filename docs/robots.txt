@@ -1,4 +1,45 @@
+# Search engines and AI assistants are welcome / 欢迎搜索引擎和 AI 搜索抓取
 User-agent: *
+Allow: /
+Disallow: /xhs.html
+
+User-agent: OAI-SearchBot
+Allow: /
+Disallow: /xhs.html
+
+User-agent: ChatGPT-User
+Allow: /
+Disallow: /xhs.html
+
+User-agent: GPTBot
+Allow: /
+Disallow: /xhs.html
+
+User-agent: Claude-SearchBot
+Allow: /
+Disallow: /xhs.html
+
+User-agent: Claude-User
+Allow: /
+Disallow: /xhs.html
+
+User-agent: ClaudeBot
+Allow: /
+Disallow: /xhs.html
+
+User-agent: PerplexityBot
+Allow: /
+Disallow: /xhs.html
+
+User-agent: Perplexity-User
+Allow: /
+Disallow: /xhs.html
+
+User-agent: Google-Extended
+Allow: /
+Disallow: /xhs.html
+
+User-agent: Applebot-Extended
 Allow: /
 Disallow: /xhs.html
 
