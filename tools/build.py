@@ -19,6 +19,8 @@ except ImportError:  # pragma: no cover
     ZoneInfo = None
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import deals as D  # noqa: E402  (tools/deals.py)
 DOCS = os.path.join(ROOT, "docs")
 SITE = json.load(open(os.path.join(ROOT, "tools", "site.json"), encoding="utf-8"))
 URL = (os.environ.get("SITE_URL") or SITE["url"]).rstrip("/")
@@ -212,7 +214,9 @@ def write(path, text, newline=None):
     os.makedirs(os.path.dirname(path), exist_ok=True)
     with open(path, "w", encoding="utf-8", newline=newline) as f: f.write(text)
 
-def llms_txt(data):
+def guide_url(cid, lang): return page_url(cid, lang) + "guides/free/"
+
+def llms_txt(data, guides=()):
     cities, wk = data["cities"], data["weekend"]
     out = [f'# {SITE["name_zh"]} {SITE["name_en"]}', "",
            f'> 北美华人周末活动指南：{len(cities)} 个城市的亲子和大人周末活动，华人与亚裔社区活动优先，中英双语，每周更新（本期 {date_range(wk, "zh")}，更新于 {data["updated"]}）。',
@@ -227,6 +231,8 @@ def llms_txt(data):
             tops = "、".join(tx(e, "title", lang) for e in evs[:3]) if lang == "zh" else "; ".join(tx(e, "title", lang) for e in evs[:3])
             out.append(f"- [{label}]({page_url(cid, lang)}): {len(evs)} " + ("个活动，" if lang == "zh" else "events, e.g. ") + tops)
         out.append("")
+    if guides:
+        out += ["## 免费 / 优惠攻略 Free-day guides", *[f"- [{cities[cid]['zh']}免费博物馆日 & 优惠 / Free museum days in {cities[cid]['en']}]({guide_url(cid, 'zh')})" for cid in guides], ""]
     out += ["## Calendar feeds", *[f"- [{c['en']} (.ics)]({URL}/cal/{cid}.ics)" for cid, c in cities.items()], "",
             "## Data", f"- [events.json]({URL}/events.json): all events with dates, times, venues, prices and official links", ""]
     return "\n".join(out)
@@ -257,6 +263,19 @@ def main():
         write(os.path.join(DOCS, "cal", cid + ".ics"), ics(cid, c, sorted(c["events"], key=sort_key), stamp), newline="")
         urls.append(cid)
 
+    # Free / discount guides for cities that have rules in deals.json.
+    deals_path = os.path.join(DOCS, "deals.json")
+    deals = json.load(open(deals_path, encoding="utf-8")) if os.path.exists(deals_path) else {"deals": [], "updated": data["updated"]}
+    deals_updated, guides = deals["updated"], []
+    for cid, c in cities.items():
+        mine = D.for_city(deals["deals"], cid)
+        if not mine: continue
+        alts = [("zh-CN", guide_url(cid, "zh")), ("en", guide_url(cid, "en")), ("x-default", guide_url(cid, "zh"))]
+        for lang in ("zh", "en"):
+            out = D.guide_html(cid, c, mine, lang, data, guide_url, f"{URL}/og/{cid}.png", alts)
+            write(os.path.join(DOCS, *(["en"] if lang == "en" else []), cid, "guides", "free", "index.html"), out)
+        guides.append(cid)
+
     sm = ['<?xml version="1.0" encoding="UTF-8"?>',
           '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">']
     for cid in urls:
@@ -265,6 +284,11 @@ def main():
         for lang in ("zh", "en"):
             sm.append(f'  <url><loc>{page_url(cid, lang)}</loc><lastmod>{data["updated"]}</lastmod>'
                       f'<changefreq>weekly</changefreq>{alts}</url>')
+    for cid in guides:
+        alts = "".join(f'<xhtml:link rel="alternate" hreflang="{h}" href="{guide_url(cid, l)}"/>'
+                       for h, l in (("zh-CN", "zh"), ("en", "en"), ("x-default", "zh")))
+        for lang in ("zh", "en"):
+            sm.append(f'  <url><loc>{guide_url(cid, lang)}</loc><lastmod>{deals_updated}</lastmod><changefreq>monthly</changefreq>{alts}</url>')
     sm.append("</urlset>")
     write(os.path.join(DOCS, "sitemap.xml"), "\n".join(sm) + "\n")
     robots = ["# Search engines and AI assistants are welcome / 欢迎搜索引擎和 AI 搜索抓取",
@@ -272,9 +296,9 @@ def main():
     for bot in AI_BOTS: robots += [f"User-agent: {bot}", "Allow: /", "Disallow: /xhs.html", ""]
     robots.append(f"Sitemap: {URL}/sitemap.xml")
     write(os.path.join(DOCS, "robots.txt"), "\n".join(robots) + "\n")
-    write(os.path.join(DOCS, "llms.txt"), llms_txt(data))
+    write(os.path.join(DOCS, "llms.txt"), llms_txt(data, guides))
     write(os.path.join(DOCS, "404.html"), not_found(cities))
-    print(f"built {len(cities)} cities x 2 languages, feeds, sitemap, robots and llms.txt for {URL}")
+    print(f"built {len(cities)} cities x 2 languages, {len(guides)} free-day guides, feeds, sitemap, robots and llms.txt for {URL}")
 
 if __name__ == "__main__":
     main()

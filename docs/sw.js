@@ -1,5 +1,5 @@
 // Offline support for the installed app. Bump VERSION when shell files change.
-var VERSION="nbw-v1";
+var VERSION="nbw-v2";
 var SHELL=["./","index.html","sky.js","manifest.webmanifest","icons/icon-192.png","icons/icon-512.png","icons/icon-180.png"];
 self.addEventListener("install",function(e){
   e.waitUntil(caches.open(VERSION).then(function(c){return c.addAll(SHELL)}).then(function(){return self.skipWaiting()}));
@@ -12,7 +12,7 @@ self.addEventListener("fetch",function(e){
   var req=e.request,url=new URL(req.url);
   if(req.method!=="GET")return;
   // Pages and event data: network first so updates show up, cache when offline.
-  if(req.mode==="navigate"||url.pathname.endsWith("/events.json")){
+  if(req.mode==="navigate"||/\/(events|deals)\.json$/.test(url.pathname)){
     e.respondWith(fetch(req).then(function(r){return save(req,r)}).catch(function(){return caches.match(req,{ignoreSearch:true}).then(function(r){return r||caches.match("index.html")})}));
     return;
   }

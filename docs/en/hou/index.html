@@ -133,6 +133,14 @@ details.cal summary::-webkit-details-marker{display:none}
 .citylinks a{color:var(--muted);text-underline-offset:3px}
 .card.hl{outline:2px solid var(--accent);outline-offset:2px}
 .subcal{margin-top:10px}
+.deals{margin-top:14px;background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:12px 14px;box-shadow:var(--shadow)}
+.deals h3{margin:0 0 6px;font-size:15px}
+.deals ul{list-style:none;margin:0;padding:0;display:grid;gap:6px}
+.deals li{display:flex;gap:10px;align-items:baseline;font-size:14px;line-height:1.45}
+.deals .dd{flex:none;min-width:3.2em;font-size:12px;font-weight:600;color:var(--accent);background:var(--a-bg);border-radius:6px;padding:1px 6px;text-align:center}
+.deals li a{color:var(--ink);text-underline-offset:3px}
+.deals .who{color:var(--muted);font-size:12.5px}
+.deals .more{display:inline-block;margin-top:8px;font-size:14px;font-weight:600;color:var(--accent)}
 .subcal summary{list-style:none;cursor:pointer;display:inline-flex;align-items:center;gap:6px;font-size:14px;color:var(--accent);font-weight:600}
 .subcal summary::-webkit-details-marker{display:none}
 .subcal .menu{position:static;margin-top:8px;box-shadow:none;max-width:320px}
@@ -195,6 +203,7 @@ button.link{border:0;background:none;padding:0;cursor:pointer;font:inherit;font-
   <div class="filters" id="filters"></div>
   <p class="count" id="count"></p>
   <details class="subcal" id="subcal"></details>
+  <section class="deals" id="deals" hidden></section>
   <div class="list" id="list"><article class="card" id="e-filipino-street-fest"><div class="when"><span class="d">10/17</span><span class="w">Sat</span><span class="t">15:00<br>22:00</span></div><div class="body"><h3>Houston Filipino Street Festival</h3><p class="where">Constellation Field · 1 Stadium Dr, Sugar Land, TX 77498</p><div class="meta"><span>From $19 ($22 at door); kids 7 &amp; under free</span><span>Ages All ages</span></div><p class="desc">Food, cultural performances, live music and games; free parking.</p><div class="actions"><a class="link" href="https://www.milb.com/sugar-land/news/houston-filipino-street-festival-returns-to-constellation-field-on-october-17" rel="noopener">Event site ↗</a></div></div></article><article class="card" id="e-diwali-lights-asia-society"><div class="when"><span class="d">10/18</span><span class="w">Sun</span><span class="t">14:00<br>18:00</span></div><div class="body"><h3>Diwali Lights! at Asia Society Texas Center</h3><p class="where">Asia Society Texas Center · 1370 Southmore Blvd, Houston, TX 77004</p><div class="meta"><span>Free</span><span>Ages All ages</span></div><p class="desc">Bollywood dance workshops, diya painting, rangoli, puppets, henna and food vendors.</p><div class="actions"><a class="link" href="https://hoodline.com/2026/09/asia-society-texas-lights-up-museum-park-with-free-diwali-festival/" rel="noopener">Event site ↗</a></div></div></article><article class="card" id="e-booseum-sat"><div class="when"><span class="d">10/17</span><span class="w">Sat</span><span class="t">09:00<br>17:00</span></div><div class="body"><h3>Halloween at the BOO!seum, Children&#x27;s Museum Houston (Sat)</h3><p class="where">Children&#x27;s Museum Houston · 1500 Binz St, Houston, TX 77004</p><div class="meta"><span>Check website</span><span>Ages Preschool / Elementary</span></div><p class="desc">Halloween-themed fun all October; open 9am-5pm on weekends.</p><div class="actions"><a class="link" href="https://www.cmhouston.org/halloween" rel="noopener">Event site ↗</a></div></div></article><article class="card" id="e-arbooretum"><div class="when"><span class="d">10/17</span><span class="w">Sat</span><span class="t">10:00<br>16:00</span></div><div class="body"><h3>ArBOOretum at Houston Arboretum</h3><p class="where">Houston Arboretum &amp; Nature Center · 4501 Woodway Dr, Houston, TX 77024</p><div class="meta"><span>Check website</span><span>Ages All ages</span></div><p class="desc">Live animals, pumpkin decorating and Houston&#x27;s only Trick-or-Treat Trail.</p><div class="actions"><a class="link" href="https://houstonarboretum.org/events/" rel="noopener">Event site ↗</a></div></div></article><article class="card" id="e-affordable-art-fair-sat"><div class="when"><span class="d">10/17</span><span class="w">Sat</span><span class="t">11:00<br>20:00</span></div><div class="body"><h3>Affordable Art Fair Houston</h3><p class="where">George R. Brown Convention Center · 1001 Avenida de las Americas, Houston, TX 77010</p><div class="meta"><span>$20 general admission</span><span>Ages Adults</span></div><p class="desc">Art fair with 350 artists. Sat 11 AM–8 PM; Art After Hours 5–8 PM. $20.</p><div class="actions"><a class="link" href="https://affordableartfair.com/fairs/houston/" rel="noopener">Event site ↗</a></div></div></article><article class="card" id="e-nigeria-parade-sat"><div class="when"><span class="d">10/17</span><span class="w">Sat</span><span class="t">12:00<br>19:00</span></div><div class="body"><h3>Nigeria Cultural Parade &amp; Festival</h3><p class="where">Discovery Green (Jones Lawn) · 1500 McKinney St, Houston, TX 77010</p><div class="meta"><span>Free</span><span>Ages All ages</span></div><p class="desc">10th annual festival: parade, Afrobeat dance challenge, marketplace and Nigerian food. Free.</p><div class="actions"><a class="link" href="https://www.discoverygreen.com/event/nigerian-festival/october-17-2026-100-pm/" rel="noopener">Event site ↗</a></div></div></article><article class="card" id="e-kbr-kids-day"><div class="when"><span class="d">10/18</span><span class="w">Sun</span><span class="t">11:00<br>15:00</span></div><div class="body"><h3>KBR Kids Day at Buffalo Bayou Park</h3><p class="where">The Water Works, Buffalo Bayou Park · 105 Sabine St, Houston, TX 77007</p><div class="meta"><span>Free</span><span>Ages All ages</span></div><p class="desc">A free fall festival for the whole family.</p><div class="actions"><a class="link" href="https://mommypoppins.com/index%2Ephp/houston-kids/halloween/guide-to-free-events-on-halloween-houston-kids" rel="noopener">Event site ↗</a></div></div></article></div>
 
   <footer class="foot" id="foot"></footer>
@@ -230,7 +239,7 @@ var T={
   foot1:"更新于 {u}。活动时间、价格和是否需要报名可能变动,出发前请以主办方官网为准。",
   foot2:"天气来自公开预报,仅供安排行程参考。",
   eventsFail:"活动数据加载失败,请刷新页面重试。",
-  docTitle:"{c}周末去哪儿 · 周末不无聊",share:"分享",shared:"链接已复制,发给朋友吧",
+  docTitle:"{c}周末去哪儿 · 周末不无聊",dealsTitle:"💸 本周末能用的免费 / 优惠",dealsAny:"随时",dealsMore:"📖 {c}免费博物馆日 & 优惠全攻略 →",share:"分享",shared:"链接已复制,发给朋友吧",
   subTitle:"📅 订阅{c}活动到日历(每周自动更新)",subApple:"Apple 日历 / Outlook",subGoogle:"Google 日历",subCopy:"复制订阅链接",subCopied:"订阅链接已复制",
   instTitle:"把「周末不无聊」装到手机上",instText:"像 App 一样从主屏幕打开,没网也能看。",instIos:"点 Safari 底部的分享按钮 ⬆️,再选「添加到主屏幕」。",instGo:"安装"},
  en:{eyebrow:"Updated every Friday",headline:"Where to go this weekend",sub:"Family and grown-up picks for your city, with Chinese and Asian community events first.",
@@ -249,7 +258,7 @@ var T={
   foot1:"Updated {u}. Times, prices and sign-up rules can change. Check the organizer's site before you go.",
   foot2:"Weather comes from public forecasts and is a planning aid only.",
   eventsFail:"Could not load events. Please refresh.",
-  docTitle:"Things to do in {c} this weekend · No Boring Weekends",share:"Share",shared:"Link copied. Send it to a friend!",
+  docTitle:"Things to do in {c} this weekend · No Boring Weekends",dealsTitle:"💸 Free & discount days this weekend",dealsAny:"Any day",dealsMore:"📖 Free museum days & discounts in {c} →",share:"Share",shared:"Link copied. Send it to a friend!",
   subTitle:"📅 Subscribe to {c} events (updates weekly)",subApple:"Apple Calendar / Outlook",subGoogle:"Google Calendar",subCopy:"Copy feed link",subCopied:"Feed link copied",
   instTitle:"Get No Boring Weekends on your phone",instText:"Open it from your home screen like an app, even offline.",instIos:"Tap Safari's Share button ⬆️, then \"Add to Home Screen\".",instGo:"Install"}
 };
@@ -288,7 +297,7 @@ var ZIP3=[ // [from,to,city]
 var FSA={v:"van",m:"tor",l:"tor"}; // Canadian postal code first letter
 var TZ_DEFAULT={"America/New_York":"nyc","America/Detroit":"nyc","America/Chicago":"chi","America/Los_Angeles":"la","America/Denver":"chi","America/Phoenix":"la","America/Toronto":"tor","America/Vancouver":"van"};
 
-var S={lang:"zh",city:"nyc",aud:"all",day:"all",asian:false,free:false,indoor:false,data:null,hint:["tz"]};
+var S={deals:[],lang:"zh",city:"nyc",aud:"all",day:"all",asian:false,free:false,indoor:false,data:null,hint:["tz"]};
 var $=function(id){return document.getElementById(id)};
 function esc(s){return String(s==null?"":s).replace(/[&<>"']/g,function(c){return {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]})}
 function fmt(s,o){return s.replace(/\{(\w+)\}/g,function(_,k){return o[k]})}
@@ -415,6 +424,26 @@ function drawSky(){
   $("skyline").innerHTML='<svg viewBox="'+x+' 0 '+w+' 220" preserveAspectRatio="xMidYMax meet"><g class="far">'+s.far+'</g><g class="near">'+s.near+'</g></svg>'
 }
 if(NARROW.addEventListener)NARROW.addEventListener("change",function(){if(S.data)drawSky()});
+/* ---------- free / discount rules (same logic as tools/deals.py) ---------- */
+function dealOn(r,d){var w=dow(d),n=parts(d).d;
+  if(r.type==="always")return true;
+  if(r.type==="weekly")return r.days.indexOf(w)>-1;
+  if(r.type==="monthly")return w===r.day&&Math.floor((n-1)/7)+1===r.nth;
+  if(r.type==="first_full_weekend")return (w===6&&n<=7)||(w===0&&n>=2&&n<=8);
+  return false}
+function dealsHtml(){
+  var mine=S.deals.filter(function(x){return x.cities.indexOf(S.city)>-1});if(!mine.length)return "";
+  var wk=S.data.weekend,days=[],d=wk.start;while(d<=wk.end){days.push(d);d=addMinutes(d,"00:00",1440).date}
+  var rows=[];
+  days.forEach(function(day){mine.forEach(function(x){if(x.rule.type!=="always"&&dealOn(x.rule,day))rows.push([WD[S.lang][dow(day)],x])})});
+  mine.forEach(function(x){if(x.rule.type==="always")rows.push([t("dealsAny"),x])});
+  if(!rows.length)return "";
+  var L=S.lang==="zh"?"zh":"en";
+  return '<h3>'+esc(t("dealsTitle"))+'</h3><ul>'+rows.map(function(r){var x=r[1];
+    return '<li><span class="dd">'+esc(r[0])+'</span><span><a href="'+esc(x.url)+'" target="_blank" rel="noopener">'+esc(x["title_"+L]||x.title_zh)+'</a>'+(x.time?' · '+esc(x.time):'')+
+     '<br><span class="who">'+esc(x["who_"+L]||x.who_zh)+'</span></span></li>'}).join("")+'</ul>'+
+   '<a class="more" href="'+esc(new URL(cityPath(S.city)+"guides/free/",ROOT).href)+'">'+esc(fmt(t("dealsMore"),{c:cityName(S.city)}))+'</a>'
+}
 function render(){
   document.documentElement.lang=S.lang==="zh"?"zh-CN":"en";
   $("lang-zh").setAttribute("aria-pressed",S.lang==="zh");$("lang-en").setAttribute("aria-pressed",S.lang==="en");
@@ -440,6 +469,7 @@ function render(){
    '<a href="'+esc("https://calendar.google.com/calendar/r?cid="+encodeURIComponent(feed))+'" target="_blank" rel="noopener">'+esc(t("subGoogle"))+'</a>'+
    '<button type="button" data-subcopy="'+esc(feed.replace(/^webcal:/,"https:"))+'">'+esc(t("subCopy"))+'</button></div>';
   $("subcal").open=wasOpen;$("subcal").hidden=!all.length;
+  var dh=dealsHtml();$("deals").innerHTML=dh;$("deals").hidden=!dh;
   document.title=fmt(t("docTitle"),{c:cityName(S.city)});
   $("list").innerHTML=list.length?list.map(function(e){return card(e,c.tz)}).join(""):all.length?'<p class="empty">'+esc(t("empty"))+'</p>':'<p class="empty">'+esc(t("comingSoon"))+'</p>';
   $("foot").innerHTML='<span>'+esc(fmt(t("foot1"),{u:S.data.updated}))+'</span><span>'+esc(t("foot2"))+'</span>'
@@ -509,6 +539,7 @@ $("inst-x").onclick=function(){$("install").hidden=true;store("kids.installHidde
 if("serviceWorker" in navigator)window.addEventListener("load",function(){navigator.serviceWorker.register(new URL("sw.js",ROOT).href).catch(function(){})});
 setTimeout(showInstall,4000);
 
+fetch(new URL("deals.json",ROOT).href,{cache:"no-cache"}).then(function(r){return r.ok?r.json():{deals:[]}}).then(function(d){S.deals=d.deals||[];if(S.data)render()}).catch(function(){});
 fetch("events.json",{cache:"no-cache"}).then(function(r){if(!r.ok)throw 0;return r.json()}).then(function(d){
   S.data=d;
   var sc=store("kids.city"),tz="";try{tz=Intl.DateTimeFormat().resolvedOptions().timeZone}catch(e){}

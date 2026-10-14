@@ -133,6 +133,14 @@ details.cal summary::-webkit-details-marker{display:none}
 .citylinks a{color:var(--muted);text-underline-offset:3px}
 .card.hl{outline:2px solid var(--accent);outline-offset:2px}
 .subcal{margin-top:10px}
+.deals{margin-top:14px;background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:12px 14px;box-shadow:var(--shadow)}
+.deals h3{margin:0 0 6px;font-size:15px}
+.deals ul{list-style:none;margin:0;padding:0;display:grid;gap:6px}
+.deals li{display:flex;gap:10px;align-items:baseline;font-size:14px;line-height:1.45}
+.deals .dd{flex:none;min-width:3.2em;font-size:12px;font-weight:600;color:var(--accent);background:var(--a-bg);border-radius:6px;padding:1px 6px;text-align:center}
+.deals li a{color:var(--ink);text-underline-offset:3px}
+.deals .who{color:var(--muted);font-size:12.5px}
+.deals .more{display:inline-block;margin-top:8px;font-size:14px;font-weight:600;color:var(--accent)}
 .subcal summary{list-style:none;cursor:pointer;display:inline-flex;align-items:center;gap:6px;font-size:14px;color:var(--accent);font-weight:600}
 .subcal summary::-webkit-details-marker{display:none}
 .subcal .menu{position:static;margin-top:8px;box-shadow:none;max-width:320px}
@@ -195,6 +203,7 @@ button.link{border:0;background:none;padding:0;cursor:pointer;font:inherit;font-
   <div class="filters" id="filters"></div>
   <p class="count" id="count"></p>
   <details class="subcal" id="subcal"></details>
+  <section class="deals" id="deals" hidden></section>
   <div class="list" id="list"><article class="card" id="e-sdchm-dragon-boat-sun"><div class="when"><span class="d">10/18</span><span class="w">周日</span><span class="t">12:00<br>14:00</span></div><div class="body"><h3>华人历史博物馆 龙舟手工</h3><p class="where">San Diego Chinese Historical Museum · 404 Third Ave, San Diego, CA 92101</p><div class="meta"><span>12岁及以下免费;成人门票以官网为准</span><span>适合 小学为佳,全年龄</span></div><p class="desc">🐉 带娃做一条小龙舟!
 圣地亚哥华人历史博物馆周末儿童手工课,这周日主题是龙舟制作🚣 顺便逛逛华人移民历史
 💰 12岁及以下免费,成人票以官网为准</p><div class="actions"><a class="link" href="https://sdchm.org/" rel="noopener">活动官网 ↗</a></div></div></article><article class="card" id="e-mission-bayfest-sat"><div class="when"><span class="d">10/17</span><span class="w">周六</span><span class="t">时间见官网</span></div><div class="body"><h3>Mission Bayfest 海湾音乐节(周六)</h3><p class="where">Mariners Point Park · 3119 Mariners Way, San Diego, CA 92109</p><div class="meta"><span>单日票约 $114 起,以官网为准</span><span>适合 成人</span></div><p class="desc">🌊 海边音乐节!Mission Bayfest
@@ -244,7 +253,7 @@ var T={
   foot1:"更新于 {u}。活动时间、价格和是否需要报名可能变动,出发前请以主办方官网为准。",
   foot2:"天气来自公开预报,仅供安排行程参考。",
   eventsFail:"活动数据加载失败,请刷新页面重试。",
-  docTitle:"{c}周末去哪儿 · 周末不无聊",share:"分享",shared:"链接已复制,发给朋友吧",
+  docTitle:"{c}周末去哪儿 · 周末不无聊",dealsTitle:"💸 本周末能用的免费 / 优惠",dealsAny:"随时",dealsMore:"📖 {c}免费博物馆日 & 优惠全攻略 →",share:"分享",shared:"链接已复制,发给朋友吧",
   subTitle:"📅 订阅{c}活动到日历(每周自动更新)",subApple:"Apple 日历 / Outlook",subGoogle:"Google 日历",subCopy:"复制订阅链接",subCopied:"订阅链接已复制",
   instTitle:"把「周末不无聊」装到手机上",instText:"像 App 一样从主屏幕打开,没网也能看。",instIos:"点 Safari 底部的分享按钮 ⬆️,再选「添加到主屏幕」。",instGo:"安装"},
  en:{eyebrow:"Updated every Friday",headline:"Where to go this weekend",sub:"Family and grown-up picks for your city, with Chinese and Asian community events first.",
@@ -263,7 +272,7 @@ var T={
   foot1:"Updated {u}. Times, prices and sign-up rules can change. Check the organizer's site before you go.",
   foot2:"Weather comes from public forecasts and is a planning aid only.",
   eventsFail:"Could not load events. Please refresh.",
-  docTitle:"Things to do in {c} this weekend · No Boring Weekends",share:"Share",shared:"Link copied. Send it to a friend!",
+  docTitle:"Things to do in {c} this weekend · No Boring Weekends",dealsTitle:"💸 Free & discount days this weekend",dealsAny:"Any day",dealsMore:"📖 Free museum days & discounts in {c} →",share:"Share",shared:"Link copied. Send it to a friend!",
   subTitle:"📅 Subscribe to {c} events (updates weekly)",subApple:"Apple Calendar / Outlook",subGoogle:"Google Calendar",subCopy:"Copy feed link",subCopied:"Feed link copied",
   instTitle:"Get No Boring Weekends on your phone",instText:"Open it from your home screen like an app, even offline.",instIos:"Tap Safari's Share button ⬆️, then \"Add to Home Screen\".",instGo:"Install"}
 };
@@ -302,7 +311,7 @@ var ZIP3=[ // [from,to,city]
 var FSA={v:"van",m:"tor",l:"tor"}; // Canadian postal code first letter
 var TZ_DEFAULT={"America/New_York":"nyc","America/Detroit":"nyc","America/Chicago":"chi","America/Los_Angeles":"la","America/Denver":"chi","America/Phoenix":"la","America/Toronto":"tor","America/Vancouver":"van"};
 
-var S={lang:"zh",city:"nyc",aud:"all",day:"all",asian:false,free:false,indoor:false,data:null,hint:["tz"]};
+var S={deals:[],lang:"zh",city:"nyc",aud:"all",day:"all",asian:false,free:false,indoor:false,data:null,hint:["tz"]};
 var $=function(id){return document.getElementById(id)};
 function esc(s){return String(s==null?"":s).replace(/[&<>"']/g,function(c){return {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]})}
 function fmt(s,o){return s.replace(/\{(\w+)\}/g,function(_,k){return o[k]})}
@@ -429,6 +438,26 @@ function drawSky(){
   $("skyline").innerHTML='<svg viewBox="'+x+' 0 '+w+' 220" preserveAspectRatio="xMidYMax meet"><g class="far">'+s.far+'</g><g class="near">'+s.near+'</g></svg>'
 }
 if(NARROW.addEventListener)NARROW.addEventListener("change",function(){if(S.data)drawSky()});
+/* ---------- free / discount rules (same logic as tools/deals.py) ---------- */
+function dealOn(r,d){var w=dow(d),n=parts(d).d;
+  if(r.type==="always")return true;
+  if(r.type==="weekly")return r.days.indexOf(w)>-1;
+  if(r.type==="monthly")return w===r.day&&Math.floor((n-1)/7)+1===r.nth;
+  if(r.type==="first_full_weekend")return (w===6&&n<=7)||(w===0&&n>=2&&n<=8);
+  return false}
+function dealsHtml(){
+  var mine=S.deals.filter(function(x){return x.cities.indexOf(S.city)>-1});if(!mine.length)return "";
+  var wk=S.data.weekend,days=[],d=wk.start;while(d<=wk.end){days.push(d);d=addMinutes(d,"00:00",1440).date}
+  var rows=[];
+  days.forEach(function(day){mine.forEach(function(x){if(x.rule.type!=="always"&&dealOn(x.rule,day))rows.push([WD[S.lang][dow(day)],x])})});
+  mine.forEach(function(x){if(x.rule.type==="always")rows.push([t("dealsAny"),x])});
+  if(!rows.length)return "";
+  var L=S.lang==="zh"?"zh":"en";
+  return '<h3>'+esc(t("dealsTitle"))+'</h3><ul>'+rows.map(function(r){var x=r[1];
+    return '<li><span class="dd">'+esc(r[0])+'</span><span><a href="'+esc(x.url)+'" target="_blank" rel="noopener">'+esc(x["title_"+L]||x.title_zh)+'</a>'+(x.time?' · '+esc(x.time):'')+
+     '<br><span class="who">'+esc(x["who_"+L]||x.who_zh)+'</span></span></li>'}).join("")+'</ul>'+
+   '<a class="more" href="'+esc(new URL(cityPath(S.city)+"guides/free/",ROOT).href)+'">'+esc(fmt(t("dealsMore"),{c:cityName(S.city)}))+'</a>'
+}
 function render(){
   document.documentElement.lang=S.lang==="zh"?"zh-CN":"en";
   $("lang-zh").setAttribute("aria-pressed",S.lang==="zh");$("lang-en").setAttribute("aria-pressed",S.lang==="en");
@@ -454,6 +483,7 @@ function render(){
    '<a href="'+esc("https://calendar.google.com/calendar/r?cid="+encodeURIComponent(feed))+'" target="_blank" rel="noopener">'+esc(t("subGoogle"))+'</a>'+
    '<button type="button" data-subcopy="'+esc(feed.replace(/^webcal:/,"https:"))+'">'+esc(t("subCopy"))+'</button></div>';
   $("subcal").open=wasOpen;$("subcal").hidden=!all.length;
+  var dh=dealsHtml();$("deals").innerHTML=dh;$("deals").hidden=!dh;
   document.title=fmt(t("docTitle"),{c:cityName(S.city)});
   $("list").innerHTML=list.length?list.map(function(e){return card(e,c.tz)}).join(""):all.length?'<p class="empty">'+esc(t("empty"))+'</p>':'<p class="empty">'+esc(t("comingSoon"))+'</p>';
   $("foot").innerHTML='<span>'+esc(fmt(t("foot1"),{u:S.data.updated}))+'</span><span>'+esc(t("foot2"))+'</span>'
@@ -523,6 +553,7 @@ $("inst-x").onclick=function(){$("install").hidden=true;store("kids.installHidde
 if("serviceWorker" in navigator)window.addEventListener("load",function(){navigator.serviceWorker.register(new URL("sw.js",ROOT).href).catch(function(){})});
 setTimeout(showInstall,4000);
 
+fetch(new URL("deals.json",ROOT).href,{cache:"no-cache"}).then(function(r){return r.ok?r.json():{deals:[]}}).then(function(d){S.deals=d.deals||[];if(S.data)render()}).catch(function(){});
 fetch("events.json",{cache:"no-cache"}).then(function(r){if(!r.ok)throw 0;return r.json()}).then(function(d){
   S.data=d;
   var sc=store("kids.city"),tz="";try{tz=Intl.DateTimeFormat().resolvedOptions().timeZone}catch(e){}
