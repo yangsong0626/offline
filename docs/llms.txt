@@ -40,6 +40,10 @@ Each city has a fixed weekend page that is replaced weekly, plus a subscribable 
 - [Toronto weekend events](https://noboringweekends.pages.dev/en/tor/): 6 events, e.g. Pumpkins After Dark, Markham; Bayview Leaside Apple Fest; Fall Festival at Queen's Park
 - [Vancouver weekend events](https://noboringweekends.pages.dev/en/van/): 5 events, e.g. Asian Comics, Chinese Canadian Museum; Yupi! Latin American Arts Family Festival; Harvest Days at VanDusen
 
+## 免费 / 优惠攻略 Free-day guides
+- [纽约免费博物馆日 & 优惠 / Free museum days in New York](https://noboringweekends.pages.dev/nyc/guides/free/)
+- [旧金山湾区免费博物馆日 & 优惠 / Free museum days in SF Bay Area](https://noboringweekends.pages.dev/sf/guides/free/)
+
 ## Calendar feeds
 - [New York (.ics)](https://noboringweekends.pages.dev/cal/nyc.ics)
 - [New Jersey (.ics)](https://noboringweekends.pages.dev/cal/nj.ics)
