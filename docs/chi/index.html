@@ -141,6 +141,7 @@ details.cal summary::-webkit-details-marker{display:none}
 .deals li a{color:var(--ink);text-underline-offset:3px}
 .deals .who{color:var(--muted);font-size:12.5px}
 .deals .more{display:inline-block;margin-top:8px;font-size:14px;font-weight:600;color:var(--accent)}
+.deals>.more:first-child{margin-top:0}
 .subcal summary{list-style:none;cursor:pointer;display:inline-flex;align-items:center;gap:6px;font-size:14px;color:var(--accent);font-weight:600}
 .subcal summary::-webkit-details-marker{display:none}
 .subcal .menu{position:static;margin-top:8px;box-shadow:none;max-width:320px}
@@ -446,21 +447,23 @@ if(NARROW.addEventListener)NARROW.addEventListener("change",function(){if(S.data
 function dealOn(r,d){var w=dow(d),n=parts(d).d;
   if(r.type==="always")return true;
   if(r.type==="weekly")return r.days.indexOf(w)>-1;
-  if(r.type==="monthly")return w===r.day&&Math.floor((n-1)/7)+1===r.nth;
+  if(r.type==="monthly")return w===r.day&&[].concat(r.nth).indexOf(Math.floor((n-1)/7)+1)>-1;
   if(r.type==="first_full_weekend")return (w===6&&n<=7)||(w===0&&n>=2&&n<=8);
   return false}
+function inSeason(x,d){return !x.months||x.months.indexOf(parts(d).m)>-1}
+function dealDated(x,d){if((x.skip||[]).indexOf(d)>-1)return false;if((x.extra||[]).indexOf(d)>-1)return true;return x.rule.type!=="always"&&inSeason(x,d)&&dealOn(x.rule,d)}
+function dealAnytime(x,d){return x.rule.type==="always"&&inSeason(x,d)}
 function dealsHtml(){
   var mine=S.deals.filter(function(x){return x.cities.indexOf(S.city)>-1});if(!mine.length)return "";
   var wk=S.data.weekend,days=[],d=wk.start;while(d<=wk.end){days.push(d);d=addMinutes(d,"00:00",1440).date}
   var rows=[];
-  days.forEach(function(day){mine.forEach(function(x){if(x.rule.type!=="always"&&dealOn(x.rule,day))rows.push([WD[S.lang][dow(day)],x])})});
-  mine.forEach(function(x){if(x.rule.type==="always")rows.push([t("dealsAny"),x])});
-  if(!rows.length)return "";
-  var L=S.lang==="zh"?"zh":"en";
+  days.forEach(function(day){mine.forEach(function(x){if(dealDated(x,day))rows.push([WD[S.lang][dow(day)],x])})});
+  mine.forEach(function(x){if(dealAnytime(x,wk.start))rows.push([t("dealsAny"),x])});
+  var L=S.lang==="zh"?"zh":"en",more='<a class="more" href="'+esc(new URL(cityPath(S.city)+"guides/free/",ROOT).href)+'">'+esc(fmt(t("dealsMore"),{c:cityName(S.city)}))+'</a>';
+  if(!rows.length)return more;
   return '<h3>'+esc(t("dealsTitle"))+'</h3><ul>'+rows.map(function(r){var x=r[1];
     return '<li><span class="dd">'+esc(r[0])+'</span><span><a href="'+esc(x.url)+'" target="_blank" rel="noopener">'+esc(x["title_"+L]||x.title_zh)+'</a>'+(x.time?' · '+esc(x.time):'')+
-     '<br><span class="who">'+esc(x["who_"+L]||x.who_zh)+'</span></span></li>'}).join("")+'</ul>'+
-   '<a class="more" href="'+esc(new URL(cityPath(S.city)+"guides/free/",ROOT).href)+'">'+esc(fmt(t("dealsMore"),{c:cityName(S.city)}))+'</a>'
+     '<br><span class="who">'+esc(x["who_"+L]||x.who_zh)+'</span></span></li>'}).join("")+'</ul>'+more
 }
 function render(){
   document.documentElement.lang=S.lang==="zh"?"zh-CN":"en";
