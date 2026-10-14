@@ -1,0 +1,82 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//No Boring Weekends//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:周末不无聊 · 温哥华
+X-WR-TIMEZONE:America/Vancouver
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:ccm-asian-comics-sat-2026-10-17@noboringweekends
+DTSTAMP:20261012T000000Z
+DTSTART:20261017T170000Z
+DTEND:20261018T000000Z
+SUMMARY:华裔博物馆 亚洲漫画展
+LOCATION:Chinese Canadian Museum\, 51 E Pender St\, Vancouver\, BC V6A 1S9
+DESCRIPTION:📚 带娃去唐人街看亚洲漫画展!\n伦敦 Barbican 策
+ 划的大展加拿大首站\,从传统到漫画\,还有华裔加拿大艺
+ 术家的“离散故事”专区✨\n周三至周日 10-5 点开放\,门
+ 票以官网为准\n费用:门票以官网为准\nhttps://www.chinesecanad
+ ianmuseum.ca/exhibition/asian-comics-evolution-of-an-art-form/
+URL:https://www.chinesecanadianmuseum.ca/exhibition/asian-comics-evolution-
+ of-an-art-form/
+END:VEVENT
+BEGIN:VEVENT
+UID:yupi-festival-sat-2026-10-17@noboringweekends
+DTSTAMP:20261012T000000Z
+DTSTART;VALUE=DATE:20261017
+DTEND;VALUE=DATE:20261018
+SUMMARY:Yupi! 拉美艺术亲子节
+LOCATION:Presentation House Theatre\, 333 Chesterfield Ave\, North Vancouve
+ r\, BC
+DESCRIPTION:💃 拉美艺术亲子节\,唱跳打鼓一起来!\n三天的
+ 演出和手工作坊\,周日以传统嘉年华舞会收尾🥁\n适合3-1
+ 2岁\,场次和票价以官网为准\n费用:以官网为准\nhttps://www.
+ phtheatre.org/yupi-latin-american-arts-family-festival-oct-2026/
+URL:https://www.phtheatre.org/yupi-latin-american-arts-family-festival-oct-
+ 2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:vandusen-harvest-sat-2026-10-17@noboringweekends
+DTSTAMP:20261012T000000Z
+DTSTART:20261017T173000Z
+DTEND:20261017T233000Z
+SUMMARY:VanDusen 植物园丰收日
+LOCATION:VanDusen Botanical Garden\, 5251 Oak St\, Vancouver\, BC V6M 4H1
+DESCRIPTION:🌻 VanDusen 植物园丰收日!\n现场音乐🎶 脸绘 手
+ 工 还有花园迷宫\,秋天的植物园美到犯规🍂\n💰 含在门
+ 票内\,分时段入场\;周日也有\n费用:含在植物园门票内(成
+ 人约 C$13-16)\,以官网为准\nhttps://vancouver.ca/parks-recreation-cu
+ lture/harvest-days.aspx
+URL:https://vancouver.ca/parks-recreation-culture/harvest-days.aspx
+END:VEVENT
+BEGIN:VEVENT
+UID:ubc-apple-sat-2026-10-17@noboringweekends
+DTSTAMP:20261012T000000Z
+DTSTART:20261017T180000Z
+DTEND:20261017T230000Z
+SUMMARY:UBC 苹果节(第35届\,周六)
+LOCATION:UBC Botanical Garden\, 6804 SW Marine Dr\, Vancouver\, BC V6T 1Z4
+DESCRIPTION:🍎 温哥华人的秋天仪式感:UBC 苹果节!\n第35届\,
+ 在植物园里尝各种苹果\,风雨无阻🌧️\n💰 网购 C$15\,7
+ 岁及以下免费(也要领 $0 票)⚠️ 经常卖光\,赶紧订\n费用
+ :网购 C$15(8-64岁)\,7岁及以下免费但需领 $0 票\;品尝帐篷
+ 另加 C$12\nhttps://botanicalgarden.ubc.ca/apple-festival/
+URL:https://botanicalgarden.ubc.ca/apple-festival/
+END:VEVENT
+BEGIN:VEVENT
+UID:ubc-apple-sun-2026-10-18@noboringweekends
+DTSTAMP:20261012T000000Z
+DTSTART:20261018T180000Z
+DTEND:20261018T230000Z
+SUMMARY:UBC 苹果节(第35届\,周日)
+LOCATION:UBC Botanical Garden\, 6804 SW Marine Dr\, Vancouver\, BC V6T 1Z4
+DESCRIPTION:🍏 周日还能去 UBC 苹果节!\n品尝帐篷分时段入
+ 场(最后一场 3:30)\,想吃遍各种苹果记得一起订🍎\n💰 网
+ 购 C$15\,7岁及以下免费(需 $0 票)\;停车建议 Thunderbird Parkad
+ e\n费用:网购 C$15(8-64岁)\,7岁及以下免费但需领 $0 票\;品
+ 尝帐篷另加 C$12\nhttps://botanicalgarden.ubc.ca/apple-festival/
+URL:https://botanicalgarden.ubc.ca/apple-festival/
+END:VEVENT
+END:VCALENDAR

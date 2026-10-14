@@ -1,0 +1,130 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//No Boring Weekends//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:周末不无聊 · 达拉斯
+X-WR-TIMEZONE:America/Chicago
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:nasher-til-midnight-fri-2026-10-16@noboringweekends
+DTSTAMP:20261012T000000Z
+DTSTART:20261016T233000Z
+DTEND:20261017T013000Z
+SUMMARY:Nasher 雕塑中心 'Til Midnight 夜场
+LOCATION:Nasher Sculpture Center\, 2001 Flora St\, Dallas\, TX 75201
+DESCRIPTION:🌙 周五晚雕塑花园里听现场+看露天电影!\n6:30 C
+ aftan\,7:45 Danny Joseph\,9点放电影🎬\n免费\,下班直接去~\n费
+ 用:免费\nhttps://www.nashersculpturecenter.org/
+URL:https://www.nashersculpturecenter.org/
+END:VEVENT
+BEGIN:VEVENT
+UID:state-fair-texas-sat-2026-10-17@noboringweekends
+DTSTAMP:20261012T000000Z
+DTSTART;VALUE=DATE:20261017
+DTEND;VALUE=DATE:20261018
+SUMMARY:德州州博会 最后一个周末
+LOCATION:Fair Park\, 3921 Martin Luther King Jr Blvd\, Dallas\, TX 75210
+DESCRIPTION:🤠 德州州博会只剩这个周末!\n炸物美食大集合
+ 🍗 各种表演和游乐\,18号闭幕\n💰 周末成人 $25(5点后 $20
+ )\,3-12岁 $10\,开放时间以官网为准\n费用:周末成人 $25(5点
+ 后 $20)\,3-12岁 $10\;停车 $25\nhttps://bigtex.com/
+URL:https://bigtex.com/
+END:VEVENT
+BEGIN:VEVENT
+UID:arboretum-pumpkin-sat-2026-10-17@noboringweekends
+DTSTAMP:20261012T000000Z
+DTSTART:20261017T140000Z
+DTEND:20261017T220000Z
+SUMMARY:达拉斯植物园 秋日南瓜村
+LOCATION:Dallas Arboretum and Botanical Garden\, 8525 Garland Rd\, Dallas\,
+  TX 75218
+DESCRIPTION:🎃 达拉斯植物园南瓜村\,9万多个南瓜堆出来的
+ 童话世界!\n今年是史努比花生漫画主题🐶 随手拍都是大
+ 片📸\n💰 2-12岁 $12\,成人 $17\,停车 $15\n费用:儿童(2-12岁)$
+ 12\,成人$17\,停车$15\nhttps://www.dallasarboretum.org/events-activitie
+ s/autumn-at-the-arboretum/
+URL:https://www.dallasarboretum.org/events-activities/autumn-at-the-arboret
+ um/
+END:VEVENT
+BEGIN:VEVENT
+UID:huffhines-harvest-fest-sat-2026-10-17@noboringweekends
+DTSTAMP:20261012T000000Z
+DTSTART:20261017T150000Z
+DTEND:20261017T230000Z
+SUMMARY:Huffhines 秋收节(第50届)
+LOCATION:Huffhines Park\, 1500 Apollo Rd\, Richardson\, TX 75081
+DESCRIPTION:🌾 Huffhines 秋收节\,已经第50届啦!\n南瓜装饰🎃 
+ 稻草人村 小动物园🐐 手工市集 现场音乐\n周六还有宠
+ 物节🐶 免费入场\n费用:免费\nhttps://huffhinesharvestfest.com
+URL:https://huffhinesharvestfest.com
+END:VEVENT
+BEGIN:VEVENT
+UID:trunk-or-treat-plano-sat-2026-10-17@noboringweekends
+DTSTAMP:20261012T000000Z
+DTSTART:20261017T150000Z
+DTEND:20261017T170000Z
+SUMMARY:Plano 免费 Trunk or Treat
+LOCATION:The Learning Experience Plano\, 8744 Ohio Dr\, Plano\, TX 75024
+DESCRIPTION:🚗🍬 Plano 免费 Trunk or Treat!\n装饰好的车尾箱挨
+ 个讨糖 游戏 抽奖🎁 还能和大象吉祥物合影🐘\n免费!小
+ 朋友的快乐就这么简单~\n费用:免费\nhttps://dallasmoms.com/eve
+ nt/trunk-or-treat/
+URL:https://dallasmoms.com/event/trunk-or-treat/
+END:VEVENT
+BEGIN:VEVENT
+UID:arboretum-squash-show-sat-2026-10-17@noboringweekends
+DTSTAMP:20261012T000000Z
+DTSTART:20261017T150000Z
+DTEND:20261017T200000Z
+SUMMARY:达拉斯植物园 南瓜与瓜类展销会
+LOCATION:Dallas Arboretum\, 8525 Garland Rd\, Dallas\, TX 75218
+DESCRIPTION:🎃 稀有南瓜大赏!\n传家宝品种的瓜和少见的特
+ 色南瓜\,能看也能买回家装饰🍂\n周五到周日 10-3 点\,含
+ 在植物园门票内\n费用:含在植物园门票内(周末成人 $25.95
+ )\nhttps://www.dallasarboretum.org/event/pumpkin-squash-show-and-sale/
+URL:https://www.dallasarboretum.org/event/pumpkin-squash-show-and-sale/
+END:VEVENT
+BEGIN:VEVENT
+UID:armeniafest-sat-2026-10-17@noboringweekends
+DTSTAMP:20261012T000000Z
+DTSTART:20261017T170000Z
+DTEND:20261018T030000Z
+SUMMARY:ArmeniaFest 亚美尼亚文化节
+LOCATION:St. Sarkis Armenian Church\, 4421 Charles St\, Carrollton\, TX 750
+ 10
+DESCRIPTION:🇦🇲 ArmeniaFest 亚美尼亚文化节\,第31届!\n亚美
+ 尼亚美食 音乐 舞蹈\,还专门设了儿童区\n免费入场\,换个
+ 口味过周末~\n费用:免费\nhttps://dallasmoms.com/event/armeniafest-
+ 2026-oct-16-17-18/2026-10-17/
+URL:https://dallasmoms.com/event/armeniafest-2026-oct-16-17-18/2026-10-17/
+END:VEVENT
+BEGIN:VEVENT
+UID:scarboroughs-hollow-sat-2026-10-17@noboringweekends
+DTSTAMP:20261012T000000Z
+DTSTART:20261017T180000Z
+DTEND:20261018T020000Z
+SUMMARY:Scarborough's Hollow 秋季奇幻节
+LOCATION:Scarborough's Hollow\, 2511 FM 66\, Waxahachie\, TX 75167
+DESCRIPTION:🧚 Scarborough's Hollow 秋季奇幻节\,走进童话村!\n
+ 现场表演 手工艺摊位 互动游戏\,鼓励亲子装扮👑\n💰 $1
+ 6.50-$29.70(离市区约30英里)\n费用:$16.50-$29.70\nhttps://dallasmom
+ s.com/event/scarboroughs-hollow-fall-fantasy-festival/2026-10-17/
+URL:https://dallasmoms.com/event/scarboroughs-hollow-fall-fantasy-festival/
+ 2026-10-17/
+END:VEVENT
+BEGIN:VEVENT
+UID:huffhines-harvest-fest-sun-2026-10-18@noboringweekends
+DTSTAMP:20261012T000000Z
+DTSTART:20261018T150000Z
+DTEND:20261018T220000Z
+SUMMARY:Huffhines 秋收节(第50届)
+LOCATION:Huffhines Park\, 1500 Apollo Rd\, Richardson\, TX 75081
+DESCRIPTION:💡 周日的 Huffhines 秋收节有小老板市集!\n12-4点
+ 儿童创业小市集(5-17岁)💰 14:30万圣节服装比赛(需预先报
+ 名)\n免费入场\,让娃体验一把做生意~\n费用:免费\nhttps://h
+ uffhinesharvestfest.com
+URL:https://huffhinesharvestfest.com
+END:VEVENT
+END:VCALENDAR

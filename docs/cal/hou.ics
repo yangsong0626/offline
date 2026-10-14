@@ -1,0 +1,110 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//No Boring Weekends//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:周末不无聊 · 休斯顿
+X-WR-TIMEZONE:America/Chicago
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:filipino-street-fest-2026-10-17@noboringweekends
+DTSTAMP:20261012T000000Z
+DTSTART:20261017T200000Z
+DTEND:20261018T030000Z
+SUMMARY:休斯顿菲律宾街头节
+LOCATION:Constellation Field\, 1 Stadium Dr\, Sugar Land\, TX 77498
+DESCRIPTION:🇵🇭 休斯顿菲律宾街头节\,吃货家庭冲!\n美食
+ 🍢 文化表演 现场音乐🎶 游戏\,停车还免费\n💰 $19 起(
+ 现场 $22)\,7岁以下免费\n费用:$19 起(现场$22)\,7岁以下免费
+ \nhttps://www.milb.com/sugar-land/news/houston-filipino-street-festival-re
+ turns-to-constellation-field-on-october-17
+URL:https://www.milb.com/sugar-land/news/houston-filipino-street-festival-r
+ eturns-to-constellation-field-on-october-17
+END:VEVENT
+BEGIN:VEVENT
+UID:diwali-lights-asia-society-2026-10-18@noboringweekends
+DTSTAMP:20261012T000000Z
+DTSTART:20261018T190000Z
+DTEND:20261018T230000Z
+SUMMARY:亚洲协会德州中心 Diwali Lights 排灯节
+LOCATION:Asia Society Texas Center\, 1370 Southmore Blvd\, Houston\, TX 770
+ 04
+DESCRIPTION:🪔 亚洲协会德州中心 Diwali Lights 排灯节!\n宝莱
+ 坞舞蹈工作坊💃 油灯彩绘 Rangoli 彩粉地画 指偶 海娜彩
+ 绘 美食摊位\n免费(需注册)\;演出票 $15 起\n费用:免费\nhtt
+ ps://hoodline.com/2026/09/asia-society-texas-lights-up-museum-park-with-fr
+ ee-diwali-festival/
+URL:https://hoodline.com/2026/09/asia-society-texas-lights-up-museum-park-w
+ ith-free-diwali-festival/
+END:VEVENT
+BEGIN:VEVENT
+UID:booseum-sat-2026-10-17@noboringweekends
+DTSTAMP:20261012T000000Z
+DTSTART:20261017T140000Z
+DTEND:20261017T220000Z
+SUMMARY:休斯顿儿童博物馆万圣节 BOO!seum(周六)
+LOCATION:Children's Museum Houston\, 1500 Binz St\, Houston\, TX 77004
+DESCRIPTION:👻 休斯顿儿童博物馆 BOO!seum!\n整个10月都是万
+ 圣节主题\,周末9点到17点开放\n室内不怕热\,费用以官网
+ 为准\n费用:以官网为准\nhttps://www.cmhouston.org/halloween
+URL:https://www.cmhouston.org/halloween
+END:VEVENT
+BEGIN:VEVENT
+UID:arbooretum-2026-10-17@noboringweekends
+DTSTAMP:20261012T000000Z
+DTSTART:20261017T150000Z
+DTEND:20261017T210000Z
+SUMMARY:休斯顿植物园 ArBOOretum 万圣节活动
+LOCATION:Houston Arboretum & Nature Center\, 4501 Woodway Dr\, Houston\, TX
+  77024
+DESCRIPTION:🦉 休斯顿植物园 ArBOOretum!\n现场动物 南瓜装饰
+ 🎃 还有休斯顿唯一的讨糖小径🍬\n费用以官网为准\n费
+ 用:以官网为准\nhttps://houstonarboretum.org/events/
+URL:https://houstonarboretum.org/events/
+END:VEVENT
+BEGIN:VEVENT
+UID:affordable-art-fair-sat-2026-10-17@noboringweekends
+DTSTAMP:20261012T000000Z
+DTSTART:20261017T160000Z
+DTEND:20261018T010000Z
+SUMMARY:Affordable Art Fair 平价艺术博览会
+LOCATION:George R. Brown Convention Center\, 1001 Avenida de las Americas\,
+  Houston\, TX 77010
+DESCRIPTION:🖼️ 买得起的艺术展!\n350位艺术家的作品\,逛
+ 展+挑一幅挂家里✨ 周六 5-8 点还有 Art After Hours\n💰 单
+ 日票 $20\n费用:$20(单日)\nhttps://affordableartfair.com/fairs/housto
+ n/
+URL:https://affordableartfair.com/fairs/houston/
+END:VEVENT
+BEGIN:VEVENT
+UID:nigeria-parade-sat-2026-10-17@noboringweekends
+DTSTAMP:20261012T000000Z
+DTSTART:20261017T170000Z
+DTEND:20261018T000000Z
+SUMMARY:尼日利亚文化游行节
+LOCATION:Discovery Green (Jones Lawn)\, 1500 McKinney St\, Houston\, TX 770
+ 10
+DESCRIPTION:🥁 市中心的非洲文化节!\n游行 Afrobeat 舞蹈挑战
+  传统表演 市集\,还能吃尼日利亚美食🍛\n免费\n费用:免
+ 费\nhttps://www.discoverygreen.com/event/nigerian-festival/october-17-202
+ 6-100-pm/
+URL:https://www.discoverygreen.com/event/nigerian-festival/october-17-2026-
+ 100-pm/
+END:VEVENT
+BEGIN:VEVENT
+UID:kbr-kids-day-2026-10-18@noboringweekends
+DTSTAMP:20261012T000000Z
+DTSTART:20261018T160000Z
+DTEND:20261018T200000Z
+SUMMARY:KBR Kids Day 水牛河公园亲子秋日节
+LOCATION:The Water Works\, Buffalo Bayou Park\, 105 Sabine St\, Houston\, T
+ X 77007
+DESCRIPTION:☀️ KBR Kids Day@水牛河公园!\n面向全家的免费秋
+ 季节庆\,带上娃去河边晒太阳放电~\n免费!\n费用:免费\nhtt
+ ps://mommypoppins.com/index%2Ephp/houston-kids/halloween/guide-to-free-eve
+ nts-on-halloween-houston-kids
+URL:https://mommypoppins.com/index%2Ephp/houston-kids/halloween/guide-to-fr
+ ee-events-on-halloween-houston-kids
+END:VEVENT
+END:VCALENDAR
