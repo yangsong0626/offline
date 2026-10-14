@@ -231,6 +231,8 @@ button.link{border:0;background:none;padding:0;cursor:pointer;font:inherit;font-
 <script>
 (function(){
 "use strict";
+// Site root, fixed at load. Relative URLs must not resolve against location: history.replaceState changes it.
+var ROOT=new URL("./",document.baseURI).href;
 var T={
  zh:{eyebrow:"每周五更新",headline:"这个周末,去哪儿玩",sub:"按你所在的城市整理亲子和大人活动,华人与亚裔社区活动排在最前。",
   audAll:"全部活动",audFamily:"亲子",audAdult:"大人",badgeFamily:"亲子",badgeAdult:"大人",badgeAll:"大人小孩都合适",tbd:"时间见官网",
@@ -374,7 +376,7 @@ function resolveCity(q){
 }
 function setCity(id,hint){S.city=id;S.hint=hint;store("kids.city",id);syncUrl();render()}
 function cityPath(id){return (S.lang==="en"?"en/":"")+id+"/"}
-function syncUrl(){if(location.protocol.indexOf("http")!==0||!S.data)return;try{history.replaceState(null,"",cityPath(S.city)+location.hash)}catch(e){}}
+function syncUrl(){if(location.protocol.indexOf("http")!==0||!S.data)return;try{history.replaceState(null,"",new URL(cityPath(S.city),ROOT).href+location.hash)}catch(e){}}
 function onCityUrl(){return !!window.PAGE_CITY||(S.data&&new RegExp("/("+Object.keys(S.data.cities).join("|")+")/$").test(location.pathname))}
 
 /* ---------- render ---------- */
@@ -452,7 +454,7 @@ function render(){
   $("aud").innerHTML=[["all","audAll"],["family","audFamily"],["adult","audAdult"]].map(function(a){return '<button type="button" data-aud="'+a[0]+'" aria-pressed="'+(S.aud===a[0])+'">'+esc(t(a[1]))+'</button>'}).join("");
   var all=c.events,base=all.filter(forAud),as=base.filter(function(e){return e.tier!=="C"}).length,list=visible(c);
   $("count").textContent=base.length?fmt(t("count"),{n:base.length,a:as}):"";
-  var feed=new URL("cal/"+S.city+".ics",document.baseURI).href.replace(/^https?:/,"webcal:"),wasOpen=$("subcal").open;
+  var feed=new URL("cal/"+S.city+".ics",ROOT).href.replace(/^https?:/,"webcal:"),wasOpen=$("subcal").open;
   $("subcal").innerHTML='<summary>'+esc(fmt(t("subTitle"),{c:cityName(S.city)}))+'</summary><div class="menu">'+
    '<a href="'+esc(feed)+'">'+esc(t("subApple"))+'</a>'+
    '<a href="'+esc("https://calendar.google.com/calendar/r?cid="+encodeURIComponent(feed))+'" target="_blank" rel="noopener">'+esc(t("subGoogle"))+'</a>'+
@@ -465,7 +467,7 @@ function render(){
 function copyText(s,ok){(navigator.clipboard&&navigator.clipboard.writeText?navigator.clipboard.writeText(s):Promise.reject()).then(function(){toast(ok)},function(){toast(t("copyFail"))})}
 function shareEvent(id){
   var e=S.data.cities[S.city].events.filter(function(x){return x.id===id})[0];if(!e)return;
-  var url=new URL(cityPath(S.city)+"#e-"+id,document.baseURI).href,x=ev_text(e,S.lang);
+  var url=new URL(cityPath(S.city)+"#e-"+id,ROOT).href,x=ev_text(e,S.lang);
   var text=x.title+" · "+dateLabel(e.date)+(e.start?" "+timeLabel(e.start):"")+" · "+e.venue;
   if(navigator.share)navigator.share({title:x.title,text:text,url:url}).catch(function(){});
   else copyText(text+"\n"+url,t("shared"));
@@ -524,7 +526,7 @@ window.addEventListener("beforeinstallprompt",function(e){e.preventDefault();def
 window.addEventListener("appinstalled",function(){$("install").hidden=true});
 $("inst-go").onclick=function(){if(!deferredInstall)return;deferredInstall.prompt();deferredInstall.userChoice.then(function(){deferredInstall=null;$("install").hidden=true})};
 $("inst-x").onclick=function(){$("install").hidden=true;store("kids.installHidden","1")};
-if("serviceWorker" in navigator)window.addEventListener("load",function(){navigator.serviceWorker.register("sw.js").catch(function(){})});
+if("serviceWorker" in navigator)window.addEventListener("load",function(){navigator.serviceWorker.register(new URL("sw.js",ROOT).href).catch(function(){})});
 setTimeout(showInstall,4000);
 
 fetch("events.json",{cache:"no-cache"}).then(function(r){if(!r.ok)throw 0;return r.json()}).then(function(d){
