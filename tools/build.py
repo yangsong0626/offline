@@ -231,6 +231,16 @@ def llms_txt(data):
             "## Data", f"- [events.json]({URL}/events.json): all events with dates, times, venues, prices and official links", ""]
     return "\n".join(out)
 
+def not_found(cities):
+    """404 page: send broken paths like /nj/la/atl/ to the last city in them, anything else home."""
+    ids = json.dumps(list(cities))
+    return ('<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">'
+            '<meta name="robots" content="noindex"><title>周末不无聊</title></head><body style="font-family:system-ui,sans-serif;padding:24px">'
+            '<p>页面不存在，正在带你回首页… / Page not found, taking you home…</p><p><a href="/">周末不无聊 · No Boring Weekends</a></p>'
+            '<script>(function(){var ids=' + ids + ',seg=location.pathname.split("/").filter(Boolean),en=seg[0]==="en",c=null;'
+            'for(var i=seg.length-1;i>=0;i--){if(ids.indexOf(seg[i])>-1){c=seg[i];break}}'
+            'location.replace("/"+(en?"en/":"")+(c?c+"/":"")+location.hash)})()</script></body></html>\n')
+
 def main():
     data = json.load(open(os.path.join(DOCS, "events.json"), encoding="utf-8"))
     cities = data["cities"]
@@ -263,6 +273,7 @@ def main():
     robots.append(f"Sitemap: {URL}/sitemap.xml")
     write(os.path.join(DOCS, "robots.txt"), "\n".join(robots) + "\n")
     write(os.path.join(DOCS, "llms.txt"), llms_txt(data))
+    write(os.path.join(DOCS, "404.html"), not_found(cities))
     print(f"built {len(cities)} cities x 2 languages, feeds, sitemap, robots and llms.txt for {URL}")
 
 if __name__ == "__main__":
