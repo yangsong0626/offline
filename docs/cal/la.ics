@@ -1,0 +1,122 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//No Boring Weekends//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:周末不无聊 · 洛杉矶
+X-WR-TIMEZONE:America/Los_Angeles
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:stones-throw-30-sat-2026-10-17@noboringweekends
+DTSTAMP:20261012T000000Z
+DTSTART;VALUE=DATE:20261017
+DTEND;VALUE=DATE:20261018
+SUMMARY:Stones Throw 30 周年音乐节
+LOCATION:Lodge Room\, 104 N Ave 56\, 2nd Floor\, Los Angeles\, CA 90042
+DESCRIPTION:🎧 独立厂牌 Stones Throw 30 周年三天音乐节!\nHighl
+ and Park 的 Lodge Room 连开三天\,Mild High Club、Dâm-FunK 等一起
+ 庆生\n单日票约 $60\,场次时间以官网为准\n费用:单日票约
+  $60\,以官网为准\nhttps://www.stonesthrow.com/news/stones-throw-30-an
+ niversary-music-festival/
+URL:https://www.stonesthrow.com/news/stones-throw-30-anniversary-music-fest
+ ival/
+END:VEVENT
+BEGIN:VEVENT
+UID:getty-family-festival-2026-10-17@noboringweekends
+DTSTAMP:20261012T000000Z
+DTSTART:20261017T170000Z
+DTEND:20261018T000000Z
+SUMMARY:Getty 家庭节:洛杉矶与墨西哥
+LOCATION:Getty Center\, 1200 Getty Center Drive\, Los Angeles\, CA 90049
+DESCRIPTION:🌵 在 Getty 来一场洛杉矶×墨西哥文化之旅!\n马
+ 里亚奇音乐🎺 民俗舞蹈💃 双语故事会📖 亲子手工\n免
+ 费\,但⚠️ 要预约入场时间\,停车收费\n费用:免费\nhttps:/
+ /www.getty.edu/calendar/family-festival-la-mexico/
+URL:https://www.getty.edu/calendar/family-festival-la-mexico/
+END:VEVENT
+BEGIN:VEVENT
+UID:skirball-noahs-ark-sat-2026-10-17@noboringweekends
+DTSTAMP:20261012T000000Z
+DTSTART:20261017T170000Z
+DTEND:20261017T233000Z
+SUMMARY:Skirball 诺亚方舟儿童探索馆
+LOCATION:Skirball Cultural Center\, 2701 N. Sepulveda Blvd.\, Los Angeles\,
+  CA 90049
+DESCRIPTION:🚢 Skirball 诺亚方舟儿童探索馆\,洛杉矶遛娃天
+ 花板之一!\n互动式亲子空间\,90分钟分时段入场\n💰 成人
+  $20\,2-17岁 $15 ⚠️ 建议提前预约\n费用:成人 $20\;2-17岁儿
+ 童 $15\nhttps://www.skirball.org/noahs-ark
+URL:https://www.skirball.org/noahs-ark
+END:VEVENT
+BEGIN:VEVENT
+UID:taste-of-soul-sat-2026-10-17@noboringweekends
+DTSTAMP:20261012T000000Z
+DTSTART:20261017T170000Z
+DTEND:20261018T020000Z
+SUMMARY:Taste of Soul 街头美食音乐节
+LOCATION:Crenshaw Blvd\, 3800 Crenshaw Blvd\, Los Angeles\, CA 90008
+DESCRIPTION:🎷 洛杉矶最大的街头节之一\,第21届 Taste of Soul!
+ \n整条 Crenshaw 大道变身美食+音乐街\,吃吃喝喝听现场🎶\
+ n免费\,建议公共交通前往\n费用:免费\nhttps://tasteofsoul.lase
+ ntinel.net/
+URL:https://tasteofsoul.lasentinel.net/
+END:VEVENT
+BEGIN:VEVENT
+UID:farmers-fall-festival-sat-2026-10-17@noboringweekends
+DTSTAMP:20261012T000000Z
+DTSTART:20261017T180000Z
+DTEND:20261018T010000Z
+SUMMARY:Farmers Market 秋季丰收节
+LOCATION:The Original Farmers Market\, 6333 W. 3rd St.\, Los Angeles\, CA 9
+ 0036
+DESCRIPTION:🎃 Farmers Market 秋季丰收节!\n小动物园🐐 南瓜
+ 园地 游戏 秋季手工 现场音乐🎶\n学龄前/小学娃最爱\,
+ 免费入场(部分项目另收费)\n费用:免费\nhttps://farmersmarketl
+ a.com/events/fall-festival-2026
+URL:https://farmersmarketla.com/events/fall-festival-2026
+END:VEVENT
+BEGIN:VEVENT
+UID:skirball-noahs-ark-sun-2026-10-18@noboringweekends
+DTSTAMP:20261012T000000Z
+DTSTART:20261018T170000Z
+DTEND:20261018T233000Z
+SUMMARY:Skirball 诺亚方舟儿童探索馆
+LOCATION:Skirball Cultural Center\, 2701 N. Sepulveda Blvd.\, Los Angeles\,
+  CA 90049
+DESCRIPTION:🐘🦒 周日也能上诺亚方舟!\n互动式亲子游玩空
+ 间\,90分钟分时段入场\,室内不怕晒\n💰 成人 $20\,2-17岁 $1
+ 5 ⚠️ 建议提前预约\n费用:成人 $20\;2-17岁儿童 $15\nhttps:/
+ /www.skirball.org/noahs-ark
+URL:https://www.skirball.org/noahs-ark
+END:VEVENT
+BEGIN:VEVENT
+UID:farmers-fall-festival-sun-2026-10-18@noboringweekends
+DTSTAMP:20261012T000000Z
+DTSTART:20261018T180000Z
+DTEND:20261019T010000Z
+SUMMARY:Farmers Market 秋季丰收节
+LOCATION:The Original Farmers Market\, 6333 W. 3rd St.\, Los Angeles\, CA 9
+ 0036
+DESCRIPTION:🎃 周六没去成?周日还有!\n小动物园🐐 南瓜园
+ 地 游戏 秋季手工 现场音乐🎶\n免费入场(部分项目另收
+ 费)\,学龄前/小学娃闭眼冲\n费用:免费\nhttps://farmersmarketla
+ .com/events/fall-festival-2026
+URL:https://farmersmarketla.com/events/fall-festival-2026
+END:VEVENT
+BEGIN:VEVENT
+UID:manhattan-beach-pumpkin-race-2026-10-18@noboringweekends
+DTSTAMP:20261012T000000Z
+DTSTART:20261018T190000Z
+DTEND:20261019T000000Z
+SUMMARY:曼哈顿海滩南瓜赛车节
+LOCATION:Manhattan Beach Pier\, Manhattan Beach Drive (at the Pier)\, Manha
+ ttan Beach\, CA 90266
+DESCRIPTION:🏎️🎃 南瓜也能赛车?!真的有!\n孩子装扮好\,
+ 亲手做一辆南瓜赛车\,现场开比~下午2点预赛开始\n免费
+ 入场($7 快速通道\;参赛套件 $35 起)\n费用:免费\nhttps://momm
+ ypoppins.com/los-angeles-kids/event/events/pumpkin-race-festival
+URL:https://mommypoppins.com/los-angeles-kids/event/events/pumpkin-race-fes
+ tival
+END:VEVENT
+END:VCALENDAR

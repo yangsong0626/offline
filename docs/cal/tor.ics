@@ -1,0 +1,91 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//No Boring Weekends//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:周末不无聊 · 多伦多
+X-WR-TIMEZONE:America/Toronto
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:markham-pumpkins-after-dark-sat-2026-10-17@noboringweekends
+DTSTAMP:20261012T000000Z
+DTSTART:20261017T230000Z
+DTEND:20261018T020000Z
+SUMMARY:万锦博物馆 Pumpkins After Dark 南瓜灯展
+LOCATION:Markham Museum\, 9350 Markham Rd\, Markham\, ON L3P 3J3
+DESCRIPTION:🎃✨ 万锦的南瓜灯光秀\,晚上超出片!\n加拿大
+ 获奖的万圣节南瓜灯光活动\,整个10月每晚开放\n💰 需购
+ 分时段票\,入场时段以官网为准\;可停 Mount Joy GO 站免费
+ 停车\n费用:需购票\,分时段入场\,以官网为准\nhttps://pumpki
+ nsafterdark.com/markham
+URL:https://pumpkinsafterdark.com/markham
+END:VEVENT
+BEGIN:VEVENT
+UID:leaside-applefest-sat-2026-10-17@noboringweekends
+DTSTAMP:20261012T000000Z
+DTSTART:20261017T143000Z
+DTEND:20261017T190000Z
+SUMMARY:Leaside 苹果节
+LOCATION:Bayview Ave\, Bayview Ave (Parkhurst Blvd to Davisville Ave)\, Tor
+ onto\, ON
+DESCRIPTION:🍎 Leaside 社区苹果节!\nBayview 大街上现场音乐 
+ 亲子表演 南瓜装饰🎃 脸绘\,狗狗也欢迎🐶\n免费\,逛街+
+ 遛娃两不误\n费用:免费\nhttps://bayviewleasidebia.com/news/
+URL:https://bayviewleasidebia.com/news/
+END:VEVENT
+BEGIN:VEVENT
+UID:queens-park-fall-sat-2026-10-17@noboringweekends
+DTSTAMP:20261012T000000Z
+DTSTART:20261017T150000Z
+DTEND:20261017T210000Z
+SUMMARY:安省议会大楼秋日节
+LOCATION:Ontario Legislative Building\, 111 Wellesley St W\, Toronto\, ON M
+ 7A 1A2
+DESCRIPTION:🍁 在议会大楼过秋天\,还免费!\n南瓜园🎃 手工
+  充气城堡 脸绘 现场雕南瓜 小动物园🐐 还能进楼参观\n
+ 前500名送迷你南瓜\,早点去!⚠️ 进楼要过安检\,最后入
+ 楼4点\n费用:免费\nhttps://www.ola.org/en/office-assembly/whats-happe
+ ning/2026-fall-festival-queens-park
+URL:https://www.ola.org/en/office-assembly/whats-happening/2026-fall-festiv
+ al-queens-park
+END:VEVENT
+BEGIN:VEVENT
+UID:cask-days-sat-2026-10-17@noboringweekends
+DTSTAMP:20261012T000000Z
+DTSTART:20261017T210000Z
+DTEND:20261018T010000Z
+SUMMARY:Cask Days 桶装精酿节
+LOCATION:Clock Factory Building\, 282 Campbell Ave\, Toronto\, ON
+DESCRIPTION:🍺 第20届 Cask Days\,精酿爱好者的节日!\n100多桶
+ 来自全加拿大的桶装啤酒\,还有天然酒、苹果酒和美食\n
+ 💰 C$50(含4个代币)\,19+\,每场限500人\,早买\n费用:C$50(含4
+ 个代币和杯子)\,19+\nhttps://caskdays.com/
+URL:https://caskdays.com/
+END:VEVENT
+BEGIN:VEVENT
+UID:tso-nightmare-sat-2026-10-17@noboringweekends
+DTSTAMP:20261012T000000Z
+DTSTART:20261017T233000Z
+DTEND:20261018T013000Z
+SUMMARY:多伦多交响乐团《圣诞夜惊魂》电影音乐会
+LOCATION:Roy Thomson Hall\, 60 Simcoe St\, Toronto\, ON M5J 2H5
+DESCRIPTION:🎃🎻 交响乐团现场伴奏看《圣诞夜惊魂》!\n大
+ 银幕放电影\,多伦多交响乐团同步演奏\,万圣节氛围拉满\
+ n💰 C$40 起\,周日下午2点和晚上7:30还有两场\n费用:C$40–1
+ 69\nhttps://www.tso.ca/
+URL:https://www.tso.ca/
+END:VEVENT
+BEGIN:VEVENT
+UID:bruce-cockburn-sat-2026-10-17@noboringweekends
+DTSTAMP:20261012T000000Z
+DTSTART:20261018T000000Z
+DTEND:20261018T020000Z
+SUMMARY:Bruce Cockburn 演唱会
+LOCATION:Massey Hall\, 178 Victoria St\, Toronto\, ON M5B 1T7
+DESCRIPTION:🎸 加拿大民谣传奇 Bruce Cockburn 来梅西音乐厅!\n
+ 周六晚8点\,老歌迷不要错过🎶\n票价以票务页为准\n费用
+ :以票务页为准\nhttps://www.masseyhall.com/
+URL:https://www.masseyhall.com/
+END:VEVENT
+END:VCALENDAR

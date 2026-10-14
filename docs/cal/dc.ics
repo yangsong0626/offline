@@ -1,0 +1,121 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//No Boring Weekends//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:周末不无聊 · 华盛顿 DC
+X-WR-TIMEZONE:America/New_York
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:maum-market-sun-2026-10-18@noboringweekends
+DTSTAMP:20261012T000000Z
+DTSTART:20261018T160000Z
+DTEND:20261018T210000Z
+SUMMARY:Maum Market 亚裔品牌市集
+LOCATION:The Wharf\, 101 District Square SW\, Washington\, DC 20024
+DESCRIPTION:🛍️ 亚裔小众品牌快闪市集!\n精心挑选的亚裔
+ 品牌\,逛逛买买\,顺便在 Wharf 海边散步🌊\n免费入场\,周
+ 日中午到下午5点\n费用:免费\nhttps://www.wharfdc.com/upcoming-ev
+ ents/2026-10-18-maum-market-at-the-wharf/
+URL:https://www.wharfdc.com/upcoming-events/2026-10-18-maum-market-at-the-w
+ harf/
+END:VEVENT
+BEGIN:VEVENT
+UID:little-jams-fri-2026-10-16@noboringweekends
+DTSTAMP:20261012T000000Z
+DTSTART:20261016T140000Z
+DTEND:20261016T153000Z
+SUMMARY:Little Jams 亲子公园音乐会
+LOCATION:Cabin John Regional Park Amphitheater\, 7400 Tuckerman Ln\, Bethes
+ da\, MD 20817
+DESCRIPTION:🎵 Little Jams 亲子公园音乐会!\n周五上午的免费
+ 家庭现场音乐会\,小宝宝也能跟着摇摆~\n免费\,无需报名\
+ n费用:免费\nhttps://montgomeryparks.org/events/little-jams-october-16-
+ jennifer-schimpf-trio/
+URL:https://montgomeryparks.org/events/little-jams-october-16-jennifer-schi
+ mpf-trio/
+END:VEVENT
+BEGIN:VEVENT
+UID:josiah-henson-archaeology-sat-2026-10-17@noboringweekends
+DTSTAMP:20261012T000000Z
+DTSTART:20261017T140000Z
+DTEND:20261017T200000Z
+SUMMARY:Josiah Henson 国际考古日家庭活动
+LOCATION:Josiah Henson Museum and Park\, 11410 Old Georgetown Rd\, North Be
+ thesda\, MD 20852
+DESCRIPTION:⛏️ 国际考古日\,带娃动手挖一挖!\n动手考古体
+ 验+遗址导览\,小学娃会很有收获\n💰 $6-7(含馆园门票)\n
+ 费用:$6-7(含馆园门票)\nhttps://montgomeryparks.org/events/family-da
+ y-international-archaeology-family-day/
+URL:https://montgomeryparks.org/events/family-day-international-archaeology
+ -family-day/
+END:VEVENT
+BEGIN:VEVENT
+UID:oxon-hill-fall-festival-sat-2026-10-17@noboringweekends
+DTSTAMP:20261012T000000Z
+DTSTART:20261017T140000Z
+DTEND:20261017T190000Z
+SUMMARY:Oxon Hill Farm 秋季节
+LOCATION:Oxon Hill Farm\, 6411 Oxon Hill Rd\, Oxon Hill\, MD 20745
+DESCRIPTION:🐄 Oxon Hill Farm 秋季节!\n国家公园管理局农场的
+ 秋季家庭活动(官网称内容仍在更新)\n免费\,无需报名\,说
+ 走就走~\n费用:免费\nhttps://www.nps.gov/oxhi/oxon-hill-farm-fall-fe
+ stival.htm
+URL:https://www.nps.gov/oxhi/oxon-hill-farm-fall-festival.htm
+END:VEVENT
+BEGIN:VEVENT
+UID:reston-farm-fall-fest-sat-2026-10-17@noboringweekends
+DTSTAMP:20261012T000000Z
+DTSTART:20261017T140000Z
+DTEND:20261017T210000Z
+SUMMARY:Reston Farm 秋季节
+LOCATION:Reston Farm Garden Market\, 10800 Baron Cameron Ave\, Reston\, VA 
+ 20190
+DESCRIPTION:🚂 Reston Farm 秋季节\,娃的快乐老家!\n充气玉米
+ 迷宫 小动物园 滑梯 弹跳屋 小火车 苹果酒甜甜圈🍩\n费
+ 用以官网为准(3岁以上需购票)\n费用:以官网为准(3岁以上
+ 需购票)\nhttps://restonfarm.com/pages/fallfest
+URL:https://restonfarm.com/pages/fallfest
+END:VEVENT
+BEGIN:VEVENT
+UID:gaver-farm-fall-sat-2026-10-17@noboringweekends
+DTSTAMP:20261012T000000Z
+DTSTART:20261017T140000Z
+DTEND:20261017T220000Z
+SUMMARY:Gaver Farm 秋季农场节
+LOCATION:Gaver Farm\, 5501 Detrick Rd\, Mt. Airy\, MD 21771
+DESCRIPTION:🌽 Gaver Farm 秋季农场节\,值得开一小时车!\n7英
+ 亩玉米迷宫 动物喂养🐐 大滑梯 免费干草车🚜\n💰 $24/
+ 人(2岁以下免费)\,建议网上订票\n费用:$24/人(2岁以下免费
+ )\,建议网上订票\nhttps://gaverfarm.com/fall/fall-fun-festival/
+URL:https://gaverfarm.com/fall/fall-fun-festival/
+END:VEVENT
+BEGIN:VEVENT
+UID:sungazing-nasm-sat-2026-10-17@noboringweekends
+DTSTAMP:20261012T000000Z
+DTSTART:20261017T160000Z
+DTEND:20261017T190000Z
+SUMMARY:国家航空航天博物馆 观日活动
+LOCATION:National Air and Space Museum\, 650 Jefferson Dr SW\, Washington\,
+  DC 20560
+DESCRIPTION:🔭 在航空航天博物馆门口看太阳!\n用滤光望远
+ 镜安全观察太阳☀️ 工作人员现场讲解\n免费无需预约 
+ ⚠️ 天气不好会取消\n费用:免费\nhttps://washington.org/event/
+ sungazing-0
+URL:https://washington.org/event/sungazing-0
+END:VEVENT
+BEGIN:VEVENT
+UID:dc-turkish-festival-sun-2026-10-18@noboringweekends
+DTSTAMP:20261012T000000Z
+DTSTART:20261018T150000Z
+DTEND:20261018T223000Z
+SUMMARY:华盛顿土耳其文化节
+LOCATION:Pennsylvania Ave NW\, Pennsylvania Ave NW between 3rd and 6th St\,
+  Washington\, DC
+DESCRIPTION:🇹🇷 在宾夕法尼亚大道上吃土耳其菜!\n民族舞
+ 蹈 音乐会 集市\,烤肉和甜点安排上🥙\n免费\n费用:免费\
+ nhttps://turkishfestival.org/
+URL:https://turkishfestival.org/
+END:VEVENT
+END:VCALENDAR

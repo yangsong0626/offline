@@ -1,0 +1,150 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//No Boring Weekends//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:周末不无聊 · 旧金山湾区
+X-WR-TIMEZONE:America/Los_Angeles
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VEVENT
+UID:filbookfest-sat-2026-10-17@noboringweekends
+DTSTAMP:20261012T000000Z
+DTSTART:20261017T170000Z
+DTEND:20261018T003000Z
+SUMMARY:菲律宾裔国际书展 FilBookFest
+LOCATION:San Francisco Main Library\, 100 Larkin St\, San Francisco\, CA 94
+ 102
+DESCRIPTION:📚 书虫看过来!菲律宾裔国际书展\n今年主题“S
+ ANGGALAN”\,周六10:30有作家 Randy Ribay 开幕演讲🎤 还有书
+ 市\n免费\,周日中午12点也开\n费用:免费\nhttps://sfpl.org/even
+ ts/2026/10/17/celebration-filipino-american-international-book-festival
+URL:https://sfpl.org/events/2026/10/17/celebration-filipino-american-intern
+ ational-book-festival
+END:VEVENT
+BEGIN:VEVENT
+UID:asianart-stone-mountains-sat-2026-10-17@noboringweekends
+DTSTAMP:20261012T000000Z
+DTSTART:20261017T190000Z
+DTEND:20261017T193000Z
+SUMMARY:亚洲艺术博物馆 导览:石山
+LOCATION:Asian Art Museum\, 200 Larkin St\, San Francisco\, CA 94102
+DESCRIPTION:🏔️ 周六中午来一场博物馆导览!\n讲解员带你
+ 看“石山”主题\,午饭前半小时文艺充电✨\n含在门票内\
+ ,12:30 还有一场\n费用:含在博物馆门票内\nhttps://asianart.org
+ /
+URL:https://asianart.org/
+END:VEVENT
+BEGIN:VEVENT
+UID:asianart-kasama-festival-2026-10-18@noboringweekends
+DTSTAMP:20261012T000000Z
+DTSTART:20261018T173000Z
+DTEND:20261018T233000Z
+SUMMARY:亚洲艺术博物馆菲律宾裔 Kasama 节
+LOCATION:Asian Art Museum\, 200 Larkin Street\, San Francisco\, CA 94102
+DESCRIPTION:🇵🇭 亚洲艺术博物馆 Kasama 节\,菲律宾文化沉
+ 浸式体验!\n儿童绘本分享📚 木偶秀 Tinikling 竹竿舞 菲律
+ 宾春卷试吃🥟 手工\n含在博物馆门票内\,超值~\n费用:含
+ 在博物馆门票内\nhttps://calendar.asianart.org/event/kasama-festival
+ -oct-18/
+URL:https://calendar.asianart.org/event/kasama-festival-oct-18/
+END:VEVENT
+BEGIN:VEVENT
+UID:half-moon-bay-pumpkin-festival-2026-10-17@noboringweekends
+DTSTAMP:20261012T000000Z
+DTSTART:20261017T160000Z
+DTEND:20261018T000000Z
+SUMMARY:半月湾艺术与南瓜节
+LOCATION:Historic Main Street\, Main Street\, Half Moon Bay\, CA 94019
+DESCRIPTION:🎃 半月湾艺术与南瓜节\,秋天必打卡!\n老街上
+ 的南瓜+艺术市集\,随手一拍都是大片📸\n免费入场\,海边
+ 自驾正好~\n费用:免费\nhttps://www.marinmommies.com/calendar/half-m
+ oon-bay-art-pumpkin-festival
+URL:https://www.marinmommies.com/calendar/half-moon-bay-art-pumpkin-festiva
+ l
+END:VEVENT
+BEGIN:VEVENT
+UID:oakland-zoo-boo-sat-2026-10-17@noboringweekends
+DTSTAMP:20261012T000000Z
+DTSTART:20261017T163000Z
+DTEND:20261017T230000Z
+SUMMARY:奥克兰动物园万圣节 Boo at the Zoo
+LOCATION:Oakland Zoo\, 9777 Golf Links Road\, Oakland\, CA 94605
+DESCRIPTION:🦁👻 奥克兰动物园 Boo at the Zoo!\n集卡寻宝🗺
+ ️ 虫虫屋动物互动🐛 中午还有服装比赛\n需买动物园门
+ 票(2岁以下免费)\,停车 $15 起\n费用:需购动物园门票(2岁
+ 以下免费)\,停车 $15 起\nhttps://www.marinmommies.com/calendar/boo-z
+ oo
+URL:https://www.marinmommies.com/calendar/boo-zoo
+END:VEVENT
+BEGIN:VEVENT
+UID:deyoung-free-saturday-2026-10-17@noboringweekends
+DTSTAMP:20261012T000000Z
+DTSTART:20261017T163000Z
+DTEND:20261018T001500Z
+SUMMARY:de Young 博物馆免费周六
+LOCATION:de Young Museum\, 50 Hagiwara Tea Garden Dr\, San Francisco\, CA 9
+ 4118
+DESCRIPTION:🖼️ 湾区居民福利!de Young 博物馆每周六免费\n
+ 金门公园里逛艺术馆\,文艺又不花钱✨\n湾区九县居民凭
+ 居住证明免费\,⚠️ 建议提前预约\n费用:免费\nhttps://www.
+ famsf.org
+URL:https://www.famsf.org
+END:VEVENT
+BEGIN:VEVENT
+UID:bay-area-science-festival-2026-10-17@noboringweekends
+DTSTAMP:20261012T000000Z
+DTSTART:20261017T180000Z
+DTEND:20261017T230000Z
+SUMMARY:湾区科学节(UCSF Mission Bay)
+LOCATION:UCSF Mission Bay Campus (Koret Quad)\, 100 Medical Center Way\, Sa
+ n Francisco\, CA 94143
+DESCRIPTION:🔬 湾区科学节@UCSF Mission Bay!\n全家一起玩的免
+ 费科学体验日\,小小科学家快出动🧪\n免费\,周末学习+玩
+ 耍两不误~\n费用:免费\nhttps://www.marinmommies.com/calendar/bay-ar
+ ea-science-festival-2026
+URL:https://www.marinmommies.com/calendar/bay-area-science-festival-2026
+END:VEVENT
+BEGIN:VEVENT
+UID:sf-civic-center-fall-family-festival-2026-10-17@noboringweekends
+DTSTAMP:20261012T000000Z
+DTSTART:20261017T230000Z
+DTEND:20261018T020000Z
+SUMMARY:旧金山市政中心秋季家庭节
+LOCATION:San Francisco Civic Center\, Civic Center between Main Library (10
+ 0 Larkin St) and Asian Art Museum\, San Francisco\, CA 94102
+DESCRIPTION:🎡 旧金山市政中心秋季家庭节!\n嘉年华游戏 面
+ 部彩绘🎨 高跷表演 泡泡魔术🫧 图书馆流动车📚\n南瓜
+ 彩绘免费\,其余以官网为准\n费用:免费\nhttps://sfciviccenter.
+ org/event/fall-family-festival/
+URL:https://sfciviccenter.org/event/fall-family-festival/
+END:VEVENT
+BEGIN:VEVENT
+UID:oakland-zoo-boo-sun-2026-10-18@noboringweekends
+DTSTAMP:20261012T000000Z
+DTSTART:20261018T163000Z
+DTEND:20261018T230000Z
+SUMMARY:奥克兰动物园万圣节 Boo at the Zoo
+LOCATION:Oakland Zoo\, 9777 Golf Links Road\, Oakland\, CA 94605
+DESCRIPTION:🦎 周日的 Boo at the Zoo 有彩蛋!\n集卡寻宝🗺️ +
+  下午1点爬行类与两栖类动物互动\,胆大的娃别错过\n需
+ 买动物园门票(2岁以下免费)\,停车 $15 起\n费用:需购动物
+ 园门票(2岁以下免费)\,停车 $15 起\nhttps://www.marinmommies.com/
+ calendar/boo-zoo
+URL:https://www.marinmommies.com/calendar/boo-zoo
+END:VEVENT
+BEGIN:VEVENT
+UID:sunday-streets-excelsior-sun-2026-10-18@noboringweekends
+DTSTAMP:20261012T000000Z
+DTSTART:20261018T180000Z
+DTEND:20261018T230000Z
+SUMMARY:Sunday Streets 无车街区派对(Excelsior)
+LOCATION:Excelsior District\, Silver Ave & Geneva Ave area\, San Francisco\
+ , CA
+DESCRIPTION:🚲 整条街封路变游乐场!Sunday Streets\n现场音乐 
+ 文化表演 骑车遛娃\,Excelsior 图书馆还有开放日📚\n免费\
+ ,路线以官网为准\n费用:免费\nhttps://sf.funcheap.com/event-serie
+ s/sunday-streets/
+URL:https://sf.funcheap.com/event-series/sunday-streets/
+END:VEVENT
+END:VCALENDAR
