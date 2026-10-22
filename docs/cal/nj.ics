@@ -8,119 +8,109 @@ X-WR-TIMEZONE:America/New_York
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:montclair-diwali-2026-10-17@noboringweekends
-DTSTAMP:20261012T000000Z
-DTSTART:20261017T180000Z
-DTEND:20261017T220000Z
-SUMMARY:AAPI New Jersey 排灯节庆典
-LOCATION:Montclair Art Museum\, 3 South Mountain Ave\, Montclair\, NJ 07042
-DESCRIPTION:🪔 带娃感受南亚排灯节!\n灯火+庆典氛围绝了\,
- 还有适合小朋友的手工活动✨\n💰 $7/人\,$25 家庭票(5人
- 内)\,5岁以下免费\n☔ 下雨就顺延到周日\n费用:$7/人\,$25/
- 家庭(5人内)\,5岁以下免费\nhttps://aapinewjersey.org/events/light-
- up-diwali-2026/
-URL:https://aapinewjersey.org/events/light-up-diwali-2026/
+UID:cape-may-zoo-boo-2026-10-24@noboringweekends
+DTSTAMP:20261022T000000Z
+DTSTART:20261024T140000Z
+DTEND:20261024T180000Z
+SUMMARY:Cape May 动物园 Boo at the Zoo
+LOCATION:Cape May County Park & Zoo\, 707 US-9\, Cape May Court House\, NJ 
+ 08210
+DESCRIPTION:🦒 免费动物园万圣节!\n服装比赛+手工台\,上午 
+ 10 点到下午 2 点~\n费用:免费\nhttps://mommypoppins.com/new-jersey
+ -kids/halloween/best-halloween-events-for-new-jersey-families
+URL:https://mommypoppins.com/new-jersey-kids/halloween/best-halloween-event
+ s-for-new-jersey-families
 END:VEVENT
 BEGIN:VEVENT
-UID:princeton-diwali-fair-sun-2026-10-18@noboringweekends
-DTSTAMP:20261012T000000Z
-DTSTART:20261018T160000Z
-DTEND:20261018T180000Z
-SUMMARY:普林斯顿排灯节博览会
-LOCATION:Hyatt Regency Princeton\, 102 Carnegie Center Dr\, Princeton\, NJ 
- 08540
-DESCRIPTION:🪔 周日去酒店里逛排灯节博览会!\n音乐 舞蹈 
- 展览 时装秀\,印度多地文化一次看全💃\n免费入场\,停车
- 方便 ⚠️ 信息来自单一活动网站\,出发前确认\n费用:免
- 费\nhttps://events.sulekha.com/diwali-fair-2026-in-new-jersey_event-in_pr
- inceton-nj_401316
-URL:https://events.sulekha.com/diwali-fair-2026-in-new-jersey_event-in_prin
- ceton-nj_401316
+UID:keyport-bewitched-2026-10-24@noboringweekends
+DTSTAMP:20261022T000000Z
+DTSTART:20261024T160000Z
+DTEND:20261024T210000Z
+SUMMARY:Keyport「Bewitched」万圣节市集
+LOCATION:Downtown Keyport\, Front St\, Keyport\, NJ 07735
+DESCRIPTION:🧹 海边小镇女巫主题市集!\n手作摊位+儿童活动
+ \,免费逛~\n费用:免费\nhttps://mommypoppins.com/new-jersey-kids/hall
+ oween/best-halloween-events-for-new-jersey-families
+URL:https://mommypoppins.com/new-jersey-kids/halloween/best-halloween-event
+ s-for-new-jersey-families
 END:VEVENT
 BEGIN:VEVENT
-UID:njsm-archaeology-2026-10-17@noboringweekends
-DTSTAMP:20261012T000000Z
-DTSTART:20261017T140000Z
-DTEND:20261017T190000Z
-SUMMARY:新泽西州立博物馆国际考古日
-LOCATION:New Jersey State Museum\, 205 West State Street\, Trenton\, NJ 086
- 08
-DESCRIPTION:🏺 小小考古学家集合!\n各家历史机构带来真文
- 物展示\,孩子拿着“考古护照”一路集章📮 成就感满满\
- n小学阶段最合适\,室内+免费\,下雨天也不怕\n费用:免费\n
- https://mommypoppins.com/new-jersey-kids/event/events/international-archae
- ology-day-at-nj-state-museum
-URL:https://mommypoppins.com/new-jersey-kids/event/events/international-arc
- haeology-day-at-nj-state-museum
+UID:jenkinsons-boo-2026-10-24@noboringweekends
+DTSTAMP:20261022T000000Z
+DTSTART:20261024T160000Z
+DTEND:20261024T200000Z
+SUMMARY:Jenkinson's 木栈道万圣节(周六/日)
+LOCATION:Jenkinson's Boardwalk\, 300 Ocean Ave\, Point Pleasant Beach\, NJ 
+ 08742
+DESCRIPTION:🌊 海边木栈道讨糖!\n周六周日中午 12 点到 4 点
+ 都有\,带娃吹吹海风🎃\n费用:以官网为准\nhttps://mommypoppi
+ ns.com/new-jersey-kids/halloween/best-halloween-events-for-new-jersey-fami
+ lies
+URL:https://mommypoppins.com/new-jersey-kids/halloween/best-halloween-event
+ s-for-new-jersey-families
 END:VEVENT
 BEGIN:VEVENT
-UID:njpac-poetry-family-2026-10-17@noboringweekends
-DTSTAMP:20261012T000000Z
-DTSTART:20261017T150000Z
-DTEND:20261017T200000Z
-SUMMARY:NJPAC 诗歌节家庭欢乐日
-LOCATION:NJPAC\, 1 Center Street\, Newark\, NJ 07102
-DESCRIPTION:📝 带娃去诗歌节当一天小诗人!\n诗歌朗诵 舞蹈
- 表演💃 脸绘🎨 还能自己写诗\n免费的文艺熏陶\,不去亏
- 了~\n费用:免费\nhttps://www.njpac.org/event/family-fun-day-dodge-poet
- ry-festival/
-URL:https://www.njpac.org/event/family-fun-day-dodge-poetry-festival/
+UID:montclair-trunk-2026-10-24@noboringweekends
+DTSTAMP:20261022T000000Z
+DTSTART:20261024T170000Z
+DTEND:20261024T190000Z
+SUMMARY:Montclair 警局 Trunk-or-Treat
+LOCATION:Montclair Police Headquarters\, 647 Bloomfield Ave\, Montclair\, N
+ J 07042
+DESCRIPTION:🚓 警察叔叔发糖啦!\n后备箱讨糖活动\,还有服
+ 装评比🏆 免费\,周六下午一点开始。\n费用:免费\nhttps://
+ suburbanjunglegroup.com/halloween-new-jersey-suburbs/
+URL:https://suburbanjunglegroup.com/halloween-new-jersey-suburbs/
 END:VEVENT
 BEGIN:VEVENT
-UID:edison-street-fair-2026-10-17@noboringweekends
-DTSTAMP:20261012T000000Z
-DTSTART:20261017T170000Z
-DTEND:20261018T010000Z
-SUMMARY:Edison 秋季家庭街市
-LOCATION:Amboy Avenue\, Edison\, 1011 Amboy Ave\, Edison\, NJ 08817
-DESCRIPTION:🎠 Edison 秋季家庭街市\,爱迪生的宝妈看过来!\n
- 儿童游乐设施 游戏 脸绘🎨 美食🍡 手工摊位\n全部免费
- \,逛一下午不重样~\n费用:免费\nhttps://events.politicsny.com/eve
- nt/edisons-fall-family-spectacular-street-fair
-URL:https://events.politicsny.com/event/edisons-fall-family-spectacular-str
- eet-fair
+UID:morristown-pumpkin-2026-10-24@noboringweekends
+DTSTAMP:20261022T000000Z
+DTSTART;VALUE=DATE:20261024
+DTEND;VALUE=DATE:20261025
+SUMMARY:Morristown 南瓜点灯夜
+LOCATION:Vail Mansion Plaza\, 110 South St\, Morristown\, NJ 07960
+DESCRIPTION:🎃 几百个南瓜灯一起亮起来!\n周六傍晚\,免费\,
+ 如下雨顺延到周日\,时间以官网为准。\n费用:免费\nhttps:/
+ /suburbanjunglegroup.com/halloween-new-jersey-suburbs/
+URL:https://suburbanjunglegroup.com/halloween-new-jersey-suburbs/
 END:VEVENT
 BEGIN:VEVENT
-UID:westfield-addams-2026-10-18@noboringweekends
-DTSTAMP:20261012T000000Z
-DTSTART:20261018T150000Z
-DTEND:20261018T180000Z
-SUMMARY:Westfield 亚当斯一家欢乐日
-LOCATION:Downtown Westfield\, Quimby Street\, Quimby Street\, Westfield\, N
- J 07090
-DESCRIPTION:👻 亚当斯一家来 Westfield 了!\n角色互动 现场表
- 演 泡泡🫧 南瓜装饰🎃\n欢迎变装\,给娃提前把万圣节造
- 型穿起来~免费!\n费用:免费\nhttps://mommypoppins.com/new-jersey-k
- ids/event/events/addams-family-fun-day-in-westfield
-URL:https://mommypoppins.com/new-jersey-kids/event/events/addams-family-fun
- -day-in-westfield
+UID:storybook-land-2026-10-24@noboringweekends
+DTSTAMP:20261022T000000Z
+DTSTART;VALUE=DATE:20261024
+DTEND;VALUE=DATE:20261025
+SUMMARY:Storybook Land 讨糖周末
+LOCATION:Storybook Land\, 6415 Black Horse Pike\, Egg Harbor Township\, NJ 
+ 08234
+DESCRIPTION:🏰 童话乐园讨糖周末!\n园区里有讨糖站和干草
+ 迷宫\,适合小小孩\,票价以官网为准。\n费用:以官网为准\
+ nhttps://mommypoppins.com/new-jersey-kids/halloween/best-halloween-events-
+ for-new-jersey-families
+URL:https://mommypoppins.com/new-jersey-kids/halloween/best-halloween-event
+ s-for-new-jersey-families
 END:VEVENT
 BEGIN:VEVENT
-UID:princeton-fall-fest-2026-10-18@noboringweekends
-DTSTAMP:20261012T000000Z
-DTSTART:20261018T170000Z
-DTEND:20261018T200000Z
-SUMMARY:普林斯顿 Palmer Square 秋日节
-LOCATION:Palmer Square Green\, 40 Nassau St\, Princeton\, NJ 08542
-DESCRIPTION:🍁 普林斯顿 Palmer Square 秋日节\,出片圣地!\n现
- 场音乐🎶 游戏 脸绘 拍照亭📸 手工 还有南瓜雕刻🎃\n
- 免费\,秋天的仪式感这就有了~\n费用:免费\nhttps://mommypoppi
- ns.com/new-jersey-kids/event/events/fall-fest-at-palmer-square-0
-URL:https://mommypoppins.com/new-jersey-kids/event/events/fall-fest-at-palm
- er-square-0
+UID:westfield-goblins-2026-10-25@noboringweekends
+DTSTAMP:20261022T000000Z
+DTSTART:20261025T160000Z
+DTEND:20261025T180000Z
+SUMMARY:Westfield「警察与小妖怪」+万圣节游行
+LOCATION:Mindowaskin Park\, 425 E Broad St\, Westfield\, NJ 07090
+DESCRIPTION:👮‍♂️👹 中午 12 点开始玩\,下午 2 点万圣节
+ 大游行!\n穿上服装跟着队伍走一圈\,免费~\n费用:免费\nhtt
+ ps://suburbanjunglegroup.com/halloween-new-jersey-suburbs/
+URL:https://suburbanjunglegroup.com/halloween-new-jersey-suburbs/
 END:VEVENT
 BEGIN:VEVENT
-UID:stnj-temptations-sun-2026-10-18@noboringweekends
-DTSTAMP:20261012T000000Z
-DTSTART:20261018T223000Z
-DTEND:20261019T000000Z
-SUMMARY:The Temptations & The Four Tops 演唱会
-LOCATION:State Theatre New Jersey\, 15 Livingston Ave\, New Brunswick\, NJ 
- 08901
-DESCRIPTION:🎶 两支摩城传奇乐队同台!\nThe Temptations 和 The F
- our Tops\,经典灵魂乐一晚听个够✨\n💰 $70 起\,周日晚6:30
- 开场\n费用:$70 起(含手续费)\nhttps://www.stnj.org/events/detail/t
- emptations-four-tops-2026
-URL:https://www.stnj.org/events/detail/temptations-four-tops-2026
+UID:lambertville-parade-2026-10-25@noboringweekends
+DTSTAMP:20261022T000000Z
+DTSTART:20261025T190000Z
+DTEND:20261025T210000Z
+SUMMARY:Lambertville 家庭万圣节游行
+LOCATION:Downtown Lambertville\, Bridge St\, Lambertville\, NJ 08530
+DESCRIPTION:🎭 河边小镇的万圣节游行\,风雨无阻!\n周日下
+ 午 3 点开始\,免费。\n费用:免费\nhttps://suburbanjunglegroup.com
+ /halloween-new-jersey-suburbs/
+URL:https://suburbanjunglegroup.com/halloween-new-jersey-suburbs/
 END:VEVENT
 END:VCALENDAR

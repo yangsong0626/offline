@@ -8,115 +8,147 @@ X-WR-TIMEZONE:America/Los_Angeles
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:stones-throw-30-sat-2026-10-17@noboringweekends
-DTSTAMP:20261012T000000Z
-DTSTART;VALUE=DATE:20261017
-DTEND;VALUE=DATE:20261018
-SUMMARY:Stones Throw 30 周年音乐节
-LOCATION:Lodge Room\, 104 N Ave 56\, 2nd Floor\, Los Angeles\, CA 90042
-DESCRIPTION:🎧 独立厂牌 Stones Throw 30 周年三天音乐节!\nHighl
- and Park 的 Lodge Room 连开三天\,Mild High Club、Dâm-FunK 等一起
- 庆生\n单日票约 $60\,场次时间以官网为准\n费用:单日票约
-  $60\,以官网为准\nhttps://www.stonesthrow.com/news/stones-throw-30-an
- niversary-music-festival/
-URL:https://www.stonesthrow.com/news/stones-throw-30-anniversary-music-fest
- ival/
+UID:cam-1871-2026-10-24@noboringweekends
+DTSTAMP:20261022T000000Z
+DTSTART:20261025T020000Z
+DTEND:20261025T040000Z
+SUMMARY:1871 年洛杉矶华人屠杀 155 周年纪念
+LOCATION:Chinese American Museum\, 425 N Los Angeles St\, Los Angeles\, CA 
+ 90012
+DESCRIPTION:🕯️ 华美博物馆纪念 1871 年洛杉矶华人屠杀 155
+  周年。\n悼念 18 位遇难者\,回看这段历史。现场和线上
+ 都可参加\,细节以官网为准。\n费用:以官网为准\nhttps://ca
+ mla.org/
+URL:https://camla.org/
 END:VEVENT
 BEGIN:VEVENT
-UID:getty-family-festival-2026-10-17@noboringweekends
-DTSTAMP:20261012T000000Z
-DTSTART:20261017T170000Z
-DTEND:20261018T000000Z
-SUMMARY:Getty 家庭节:洛杉矶与墨西哥
-LOCATION:Getty Center\, 1200 Getty Center Drive\, Los Angeles\, CA 90049
-DESCRIPTION:🌵 在 Getty 来一场洛杉矶×墨西哥文化之旅!\n马
- 里亚奇音乐🎺 民俗舞蹈💃 双语故事会📖 亲子手工\n免
- 费\,但⚠️ 要预约入场时间\,停车收费\n费用:免费\nhttps:/
- /www.getty.edu/calendar/family-festival-la-mexico/
-URL:https://www.getty.edu/calendar/family-festival-la-mexico/
+UID:janm-hello-maggie-2026-10-24@noboringweekends
+DTSTAMP:20261022T000000Z
+DTSTART:20261024T230000Z
+DTEND:20261025T003000Z
+SUMMARY:日裔美国人博物馆:动画师 Willie Ito 放映对谈
+LOCATION:Japanese American National Museum\, 100 N Central Ave\, Los Angele
+ s\, CA 90012
+DESCRIPTION:🎬 小东京放映+对谈!\n传奇日裔动画师 Willie Ito 
+ 亲临分享🎨 博物馆正在翻修\,时间地点以官网为准。\n
+ 费用:以官网为准\nhttps://www.janm.org/events
+URL:https://www.janm.org/events
 END:VEVENT
 BEGIN:VEVENT
-UID:skirball-noahs-ark-sat-2026-10-17@noboringweekends
-DTSTAMP:20261012T000000Z
-DTSTART:20261017T170000Z
-DTEND:20261017T233000Z
-SUMMARY:Skirball 诺亚方舟儿童探索馆
-LOCATION:Skirball Cultural Center\, 2701 N. Sepulveda Blvd.\, Los Angeles\,
-  CA 90049
-DESCRIPTION:🚢 Skirball 诺亚方舟儿童探索馆\,洛杉矶遛娃天
- 花板之一!\n互动式亲子空间\,90分钟分时段入场\n💰 成人
-  $20\,2-17岁 $15 ⚠️ 建议提前预约\n费用:成人 $20\;2-17岁儿
- 童 $15\nhttps://www.skirball.org/noahs-ark
-URL:https://www.skirball.org/noahs-ark
+UID:scarium-2026-10-23@noboringweekends
+DTSTAMP:20261022T000000Z
+DTSTART:20261024T013000Z
+DTEND:20261024T040000Z
+SUMMARY:太平洋水族馆 Scarium 家庭夜
+LOCATION:Aquarium of the Pacific\, 100 Aquarium Way\, Long Beach\, CA 90802
+DESCRIPTION:🐙 晚上逛水族馆+万圣节!\n周五晚 6:30-9 点\,穿
+ 服装来跟鲨鱼合影🦈\n费用:$30.95\,会员 $20.95\,3岁以下免
+ 费\nhttps://www.aquariumofpacific.org/
+URL:https://www.aquariumofpacific.org/
 END:VEVENT
 BEGIN:VEVENT
-UID:taste-of-soul-sat-2026-10-17@noboringweekends
-DTSTAMP:20261012T000000Z
-DTSTART:20261017T170000Z
-DTEND:20261018T020000Z
-SUMMARY:Taste of Soul 街头美食音乐节
-LOCATION:Crenshaw Blvd\, 3800 Crenshaw Blvd\, Los Angeles\, CA 90008
-DESCRIPTION:🎷 洛杉矶最大的街头节之一\,第21届 Taste of Soul!
- \n整条 Crenshaw 大道变身美食+音乐街\,吃吃喝喝听现场🎶\
- n免费\,建议公共交通前往\n费用:免费\nhttps://tasteofsoul.lase
- ntinel.net/
-URL:https://tasteofsoul.lasentinel.net/
+UID:bluey-pantages-2026-10-23@noboringweekends
+DTSTAMP:20261022T000000Z
+DTSTART;VALUE=DATE:20261023
+DTEND;VALUE=DATE:20261024
+SUMMARY:《布鲁伊》舞台剧 Bluey's Big Play
+LOCATION:Hollywood Pantages Theatre\, 6233 Hollywood Blvd\, Los Angeles\, C
+ A 90028
+DESCRIPTION:🐶 Bluey 来好莱坞啦!\n10/23-25 连演三天\,小朋友
+ 的心头好\,场次票价以官网为准。\n费用:以官网为准\nhttp
+ s://www.discoverlosangeles.com/things-to-do/the-best-things-to-do-in-la-th
+ is-weekend
+URL:https://www.discoverlosangeles.com/things-to-do/the-best-things-to-do-i
+ n-la-this-weekend
 END:VEVENT
 BEGIN:VEVENT
-UID:farmers-fall-festival-sat-2026-10-17@noboringweekends
-DTSTAMP:20261012T000000Z
-DTSTART:20261017T180000Z
-DTEND:20261018T010000Z
-SUMMARY:Farmers Market 秋季丰收节
-LOCATION:The Original Farmers Market\, 6333 W. 3rd St.\, Los Angeles\, CA 9
- 0036
-DESCRIPTION:🎃 Farmers Market 秋季丰收节!\n小动物园🐐 南瓜
- 园地 游戏 秋季手工 现场音乐🎶\n学龄前/小学娃最爱\,
- 免费入场(部分项目另收费)\n费用:免费\nhttps://farmersmarketl
- a.com/events/fall-festival-2026
-URL:https://farmersmarketla.com/events/fall-festival-2026
+UID:la-zoo-boo-2026-10-24@noboringweekends
+DTSTAMP:20261022T000000Z
+DTSTART:20261024T170000Z
+DTEND:20261024T190000Z
+SUMMARY:洛杉矶动物园 Boo at the Zoo(周六/日)
+LOCATION:Los Angeles Zoo\, 5333 Zoo Dr\, Los Angeles\, CA 90027
+DESCRIPTION:🦓 动物园万圣节第一个周末!\n讨糖站+木偶剧\,
+ 含在门票里\,建议提前买票🎟️\n费用:含在门票内\nhttps:
+ //www.lazoo.org/
+URL:https://www.lazoo.org/
 END:VEVENT
 BEGIN:VEVENT
-UID:skirball-noahs-ark-sun-2026-10-18@noboringweekends
-DTSTAMP:20261012T000000Z
-DTSTART:20261018T170000Z
-DTEND:20261018T233000Z
-SUMMARY:Skirball 诺亚方舟儿童探索馆
-LOCATION:Skirball Cultural Center\, 2701 N. Sepulveda Blvd.\, Los Angeles\,
-  CA 90049
-DESCRIPTION:🐘🦒 周日也能上诺亚方舟!\n互动式亲子游玩空
- 间\,90分钟分时段入场\,室内不怕晒\n💰 成人 $20\,2-17岁 $1
- 5 ⚠️ 建议提前预约\n费用:成人 $20\;2-17岁儿童 $15\nhttps:/
- /www.skirball.org/noahs-ark
-URL:https://www.skirball.org/noahs-ark
+UID:descanso-carved-2026-10-24@noboringweekends
+DTSTAMP:20261022T000000Z
+DTSTART:20261025T010000Z
+DTEND:20261025T050000Z
+SUMMARY:Descanso 花园南瓜雕刻灯展 Carved
+LOCATION:Descanso Gardens\, 1418 Descanso Dr\, La Cañada Flintridge\, CA 9
+ 1011
+DESCRIPTION:🎃 上千个雕刻南瓜点亮整个花园!\n每晚 6-10 点\
+ ,分时段入场\,一定要提前订票📸\n费用:以官网为准\nhttps
+ ://www.descansogardens.org/
+URL:https://www.descansogardens.org/
 END:VEVENT
 BEGIN:VEVENT
-UID:farmers-fall-festival-sun-2026-10-18@noboringweekends
-DTSTAMP:20261012T000000Z
-DTSTART:20261018T180000Z
-DTEND:20261019T010000Z
-SUMMARY:Farmers Market 秋季丰收节
-LOCATION:The Original Farmers Market\, 6333 W. 3rd St.\, Los Angeles\, CA 9
- 0036
-DESCRIPTION:🎃 周六没去成?周日还有!\n小动物园🐐 南瓜园
- 地 游戏 秋季手工 现场音乐🎶\n免费入场(部分项目另收
- 费)\,学龄前/小学娃闭眼冲\n费用:免费\nhttps://farmersmarketla
- .com/events/fall-festival-2026
-URL:https://farmersmarketla.com/events/fall-festival-2026
+UID:hollywood-forever-ddlm-2026-10-24@noboringweekends
+DTSTAMP:20261022T000000Z
+DTSTART;VALUE=DATE:20261024
+DTEND;VALUE=DATE:20261025
+SUMMARY:好莱坞永恒公墓亡灵节
+LOCATION:Hollywood Forever Cemetery\, 6000 Santa Monica Blvd\, Los Angeles\
+ , CA 90038
+DESCRIPTION:💀 洛杉矶最出名的亡灵节!\n万寿菊祭坛、民俗
+ 舞蹈、墨西哥美食🌼 人多\,建议早到\,票务以官网为准
+ 。\n费用:以官网为准\nhttps://hollywoodforever.com/
+URL:https://hollywoodforever.com/
 END:VEVENT
 BEGIN:VEVENT
-UID:manhattan-beach-pumpkin-race-2026-10-18@noboringweekends
-DTSTAMP:20261012T000000Z
-DTSTART:20261018T190000Z
-DTEND:20261019T000000Z
-SUMMARY:曼哈顿海滩南瓜赛车节
-LOCATION:Manhattan Beach Pier\, Manhattan Beach Drive (at the Pier)\, Manha
- ttan Beach\, CA 90266
-DESCRIPTION:🏎️🎃 南瓜也能赛车?!真的有!\n孩子装扮好\,
- 亲手做一辆南瓜赛车\,现场开比~下午2点预赛开始\n免费
- 入场($7 快速通道\;参赛套件 $35 起)\n费用:免费\nhttps://momm
- ypoppins.com/los-angeles-kids/event/events/pumpkin-race-festival
-URL:https://mommypoppins.com/los-angeles-kids/event/events/pumpkin-race-fes
- tival
+UID:academy-monster-mash-2026-10-24@noboringweekends
+DTSTAMP:20261022T000000Z
+DTSTART;VALUE=DATE:20261024
+DTEND;VALUE=DATE:20261025
+SUMMARY:奥斯卡电影博物馆 Monster Mash
+LOCATION:Academy Museum of Motion Pictures\, 6067 Wilshire Blvd\, Los Angel
+ es\, CA 90036
+DESCRIPTION:🧟 电影博物馆万圣节派对!\n怪兽电影主题\,细
+ 节以官网为准。\n费用:以官网为准\nhttps://www.academymuseum.o
+ rg/
+URL:https://www.academymuseum.org/
+END:VEVENT
+BEGIN:VEVENT
+UID:marina-spooktacular-2026-10-24@noboringweekends
+DTSTAMP:20261022T000000Z
+DTSTART;VALUE=DATE:20261024
+DTEND;VALUE=DATE:20261025
+SUMMARY:玛丽安德尔湾万圣节(周六/日)
+LOCATION:Marina del Rey\, Marina del Rey\, CA 90292
+DESCRIPTION:⛵ 海港边的免费万圣节活动\,周六周日都有!\n时
+ 间以官网为准。\n费用:免费\nhttps://mommypoppins.com/la/kids/fre
+ e-halloween-celebrations-around-la
+URL:https://mommypoppins.com/la/kids/free-halloween-celebrations-around-la
+END:VEVENT
+BEGIN:VEVENT
+UID:gorillaz-forum-2026-10-24@noboringweekends
+DTSTAMP:20261022T000000Z
+DTSTART;VALUE=DATE:20261024
+DTEND;VALUE=DATE:20261025
+SUMMARY:Gorillaz 演唱会
+LOCATION:Kia Forum\, 3900 W Manchester Blvd\, Inglewood\, CA 90305
+DESCRIPTION:🎤 虚拟乐队 Gorillaz 洛杉矶站!\n票务以官网为准
+ 。\n费用:以官网为准\nhttps://www.discoverlosangeles.com/things-to-
+ do/the-best-things-to-do-in-la-this-weekend
+URL:https://www.discoverlosangeles.com/things-to-do/the-best-things-to-do-i
+ n-la-this-weekend
+END:VEVENT
+BEGIN:VEVENT
+UID:olvera-ddlm-2026-10-25@noboringweekends
+DTSTAMP:20261022T000000Z
+DTSTART;VALUE=DATE:20261025
+DTEND;VALUE=DATE:20261026
+SUMMARY:Olvera Street 亡灵节(开幕)
+LOCATION:Olvera Street\, 845 N Alameda St\, Los Angeles\, CA 90012
+DESCRIPTION:🌼 洛杉矶发源地老街的亡灵节\,周日开幕一直
+ 到 11/2!\n免费\,紧挨华埠\,可以顺便去吃个点心🥟\n费用:
+ 免费\nhttps://www.discoverlosangeles.com/things-to-do/the-best-things-to
+ -do-in-la-this-weekend
+URL:https://www.discoverlosangeles.com/things-to-do/the-best-things-to-do-i
+ n-la-this-weekend
 END:VEVENT
 END:VCALENDAR

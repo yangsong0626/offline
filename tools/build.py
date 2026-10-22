@@ -41,7 +41,10 @@ def esc(s): return html.escape(str(s or ""), quote=True)
 def ymd(d): return tuple(map(int, d.split("-")))
 def md(d): y, m, dd = ymd(d); return f"{m}/{dd}"
 def weekday(d, lang): return L[lang]["wd"][datetime.strptime(d, "%Y-%m-%d").weekday()]
-def sort_key(e): return (e["tier"], e["date"], e.get("start") or "")
+def sort_key(e, lang="zh"):
+    """Chinese pages put Chinese/Asian community events first; English pages are plain date order."""
+    when = (e["date"], e.get("start") or "99")  # time TBD sorts last within its day
+    return (e["tier"], *when) if lang == "zh" else when
 def tx(e, field, lang): return e.get(f"{field}_{lang}") or e.get(f"{field}_zh") or ""
 def cname(c, lang): return c["zh"] if lang == "zh" else c["en"]
 
@@ -165,7 +168,7 @@ def city_meta(c, evs, wk, lang):
     else:
         title = f'Things to Do This Weekend in {name} ({rng}) · Family & Grown-Up Events | {SITE["name_en"]}'
         desc = (f'{len(evs)} hand-picked events in {name} for {rng}' + (f', {free} free' if free else '')
-                + (f', {asian} Chinese / Asian community events first' if asian else '')
+                + (f', {asian} Chinese / Asian community events' if asian else '')
                 + (f': {"; ".join(picks)}' if picks else '') + '. Updated weekly.')
     return title, desc
 
@@ -175,7 +178,7 @@ def build_page(tpl, lang, cid, data):
     depth = (1 if lang == "en" else 0) + (1 if cid else 0)
     out = replace_block(tpl, "citylinks", city_links(cities, lang))
     if cid:
-        c = cities[cid]; evs = sorted(c["events"], key=sort_key)
+        c = cities[cid]; evs = sorted(c["events"], key=lambda e: sort_key(e, lang))
         page, image = page_url(cid, lang), f"{URL}/og/{cid}.png"
         title, desc = city_meta(c, evs, wk, lang)
         crumbs = {"@type": "BreadcrumbList", "itemListElement": [
@@ -196,7 +199,7 @@ def build_page(tpl, lang, cid, data):
             desc = f"北美华人周末活动指南：纽约、湾区、洛杉矶、西雅图、多伦多、温哥华等 {len(cities)} 个城市的亲子和大人活动，华人与亚裔社区活动优先，每周更新。"
         else:
             title = "No Boring Weekends · Things to Do This Weekend in North America"
-            desc = f"Weekend events for families and grown-ups in {len(cities)} North American cities, with Chinese and Asian community events first. Updated weekly."
+            desc = f"Weekend events for families and grown-ups in {len(cities)} North American cities, from festivals and shows to Chinese and Asian community events. Updated weekly."
         ld = {"@context": "https://schema.org", "@graph": [website_ld(),
               {"@type": "WebPage", "@id": page_url(None, lang), "url": page_url(None, lang), "name": title,
                "inLanguage": L[lang]["lang"], "dateModified": data["updated"], "isPartOf": {"@id": URL + "/#website"}}]}
@@ -220,13 +223,13 @@ def llms_txt(data, guides=()):
     cities, wk = data["cities"], data["weekend"]
     out = [f'# {SITE["name_zh"]} {SITE["name_en"]}', "",
            f'> 北美华人周末活动指南：{len(cities)} 个城市的亲子和大人周末活动，华人与亚裔社区活动优先，中英双语，每周更新（本期 {date_range(wk, "zh")}，更新于 {data["updated"]}）。',
-           f'> Weekend events for families and grown-ups in {len(cities)} North American cities, Chinese/Asian community events first, bilingual, updated weekly.', "",
+           f'> Weekend events for families and grown-ups in {len(cities)} North American cities (festivals, shows, family outings, Chinese/Asian community events), bilingual, updated weekly.', "",
            "每个城市有固定网址的「本周末」页面，内容每周替换；每个城市还有可订阅的日历（.ics）。活动信息以主办方官网为准。",
            "Each city has a fixed weekend page that is replaced weekly, plus a subscribable .ics calendar. Check organizers' sites before going.", ""]
     for lang, head in (("zh", "## 城市页（中文）"), ("en", "## City pages (English)")):
         out.append(head)
         for cid, c in cities.items():
-            evs = sorted(c["events"], key=sort_key)
+            evs = sorted(c["events"], key=lambda e: sort_key(e, lang))
             label = f'{cname(c, lang)}本周末活动' if lang == "zh" else f'{cname(c, lang)} weekend events'
             tops = "、".join(tx(e, "title", lang) for e in evs[:3]) if lang == "zh" else "; ".join(tx(e, "title", lang) for e in evs[:3])
             out.append(f"- [{label}]({page_url(cid, lang)}): {len(evs)} " + ("个活动，" if lang == "zh" else "events, e.g. ") + tops)

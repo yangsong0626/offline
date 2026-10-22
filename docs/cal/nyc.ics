@@ -8,142 +8,172 @@ X-WR-TIMEZONE:America/New_York
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:archtober-family-2026-10-18@noboringweekends
-DTSTAMP:20261012T000000Z
-DTSTART:20261018T150000Z
-DTEND:20261018T170000Z
-SUMMARY:Archtober 建筑亲子日(南瓜装饰)
-LOCATION:Flushing Town Hall\, 137-35 Northern Blvd\, Flushing\, NY 11354
-DESCRIPTION:🎃 遛娃+建筑启蒙一次搞定!\n和 AIA Queens 合办的
- 动手建筑体验\,孩子还能免费装饰南瓜✨\n📍法拉盛\,华
- 人家庭超方便\n⚠️ 记得提前 RSVP 哦\n费用:免费\nhttps://w
- ww.flushingtownhall.org/show-details/archtober-family-day-2026
-URL:https://www.flushingtownhall.org/show-details/archtober-family-day-2026
+UID:ct-swing-out-2026-10-24@noboringweekends
+DTSTAMP:20261022T000000Z
+DTSTART:20261024T220000Z
+DTEND:20261025T013000Z
+SUMMARY:华埠露天摇摆舞之夜
+LOCATION:Sara D. Roosevelt Park\, Sara D. Roosevelt Park\, Chrystie St & Gr
+ and St\, New York\, NY 10002
+DESCRIPTION:💃 华埠公园里跳摇摆舞!\n6点有零基础入门课\,
+ 中英双语教学🙌 7:30 看表演+DJ 自由跳~\n免费但要先 RSVP\
+ ,穿双舒服的鞋就能来!\n费用:免费\nhttps://www.thinkchinatown.o
+ rg/artsfest
+URL:https://www.thinkchinatown.org/artsfest
 END:VEVENT
 BEGIN:VEVENT
-UID:humor-section-standup-sun-2026-10-18@noboringweekends
-DTSTAMP:20261012T000000Z
-DTSTART:20261018T230000Z
-DTEND:20261019T010000Z
-SUMMARY:幽默小区 中英双语脱口秀
-LOCATION:Broadway Comedy Club\, 318 W 53rd St\, New York\, NY 10019
-DESCRIPTION:🎤 周日晚上来笑一笑!幽默小区中英双语脱口秀
- \n纽约华人脱口秀演员专场\,用中文吐槽在美生活😂\n票
- 价以票务页为准\n费用:以票务页为准\nhttps://www.eventbrite.c
- om/o/120890653107
-URL:https://www.eventbrite.com/o/120890653107
+UID:four-seas-play-2026-10-24@noboringweekends
+DTSTAMP:20261022T000000Z
+DTSTART;VALUE=DATE:20261024
+DTEND;VALUE=DATE:20261025
+SUMMARY:四海剧团新戏《Shadow of the Unhinged》
+LOCATION:Abron Arts Center\, 466 Grand St\, New York\, NY 10002
+DESCRIPTION:🎭 五十多年历史的亚裔剧团「四海剧团」新戏
+ 开演!\n10/24 首演\,一直演到 11/1。场次和票价以官网为准~
+ \n费用:以官网为准\nhttps://www.thinkchinatown.org/happenings
+URL:https://www.thinkchinatown.org/happenings
 END:VEVENT
 BEGIN:VEVENT
-UID:queens-night-market-sat-2026-10-17@noboringweekends
-DTSTAMP:20261012T000000Z
-DTSTART:20261017T200000Z
-DTEND:20261018T040000Z
-SUMMARY:皇后区夜市 Queens Night Market
-LOCATION:New York Hall of Science parking lot\, 47-01 111th St\, Queens\, N
+UID:red-silk-class-2026-10-25@noboringweekends
+DTSTAMP:20261022T000000Z
+DTSTART:20261025T180000Z
+DTEND:20261025T190000Z
+SUMMARY:红绸舞团中国舞公开课
+LOCATION:Seward Park\, Seward Park\, Canal St & Essex St\, New York\, NY 10
+ 002
+DESCRIPTION:🎀 拿起彩带和扇子\,跟红绸舞团学一小段中国
+ 舞!\n零基础也OK\,最后还有一段小演出✨ 带娃一起来\,免
+ 费\,请先 RSVP。\n费用:免费\nhttps://www.thinkchinatown.org/artsfes
+ t
+URL:https://www.thinkchinatown.org/artsfest
+END:VEVENT
+BEGIN:VEVENT
+UID:queens-night-market-2026-10-24@noboringweekends
+DTSTAMP:20261022T000000Z
+DTSTART:20261024T200000Z
+DTEND:20261025T040000Z
+SUMMARY:皇后区夜市
+LOCATION:New York Hall of Science parking lot\, 47-01 111th St\, Corona\, N
  Y 11368
-DESCRIPTION:🌃 秋季最后几周的皇后区夜市!\n亚洲各地街头
- 小吃一路吃过去🍢🥟 每周六下午4点开到半夜\n免费入
- 场\,吃的自费~约上朋友去逛吃!\n费用:免费\nhttps://www.queen
- snightmarket.com/
+DESCRIPTION:🍢 皇后区夜市本季倒数第二场!\n几十国小吃\,
+ 大部分只要 $5-6💰 法拉盛附近\,吃完顺便逛逛~\n10/31 是
+ 本季最后一场万圣节特别版🎃\n费用:入场免费\,小吃约 $
+ 5-6\nhttps://www.queensnightmarket.com/
 URL:https://www.queensnightmarket.com/
 END:VEVENT
 BEGIN:VEVENT
-UID:asiasociety-krishna-sat-2026-10-17@noboringweekends
-DTSTAMP:20261012T000000Z
-DTSTART:20261017T223000Z
-DTEND:20261018T000000Z
-SUMMARY:亚洲协会 作家对谈:T.M. Krishna
-LOCATION:Asia Society\, 725 Park Ave\, New York\, NY 10021
-DESCRIPTION:🎙️ 周六晚来点文化充电!\n印度音乐家、作家 
- T.M. Krishna 和 Ruchira Gupta 对谈新书\,聊印度的国家象征📖\
- n亚洲协会现场活动\,票务以官网为准\n费用:以官网为准\n
- https://asiasociety.org/new-york/events
-URL:https://asiasociety.org/new-york/events
+UID:greenbelt-haunted-2026-10-23@noboringweekends
+DTSTAMP:20261022T000000Z
+DTSTART:20261023T190000Z
+DTEND:20261023T230000Z
+SUMMARY:史坦顿岛 Greenbelt 万圣节鬼步道
+LOCATION:Greenbelt Nature Center\, 700 Rockland Ave\, Staten Island\, NY 10
+ 314
+DESCRIPTION:👻 林间万圣节小路\,不太吓人的那种~\n全家一
+ 起走一走\,免费!\n费用:免费\nhttps://www.nycgovparks.org/events/h
+ alloween
+URL:https://www.nycgovparks.org/events/halloween
 END:VEVENT
 BEGIN:VEVENT
-UID:bbp-harvest-2026-10-17@noboringweekends
-DTSTAMP:20261012T000000Z
-DTSTART:20261017T150000Z
-DTEND:20261017T190000Z
-SUMMARY:布鲁克林大桥公园丰收节
-LOCATION:Brooklyn Bridge Park Pier 6\, Pier 6\, Atlantic Ave at Furman St\,
-  Brooklyn\, NY 11201
-DESCRIPTION:🌽 布鲁克林大桥公园丰收节来啦!\n现场音乐🎶
-  手工✂️ 讲故事📖 草坪游戏 脸绘🎨 一个都不少~\n今
- 年还新开了儿童玉米迷宫\,小朋友钻进去就不想出来😆 
- 免费!冲!\n费用:免费\nhttps://brooklynbridgepark.org/event/harvest-f
- estival/
-URL:https://brooklynbridgepark.org/event/harvest-festival/
+UID:bcm-playdate-2026-10-23@noboringweekends
+DTSTAMP:20261022T000000Z
+DTSTART:20261023T220000Z
+DTEND:20261024T000000Z
+SUMMARY:布鲁克林儿童博物馆夜间派对
+LOCATION:Brooklyn Children's Museum\, 145 Brooklyn Ave\, Brooklyn\, NY 1121
+ 3
+DESCRIPTION:🛼 屋顶溜冰场开张!\n丝网印刷、脸绘、DJ 音乐
+ …大人小孩都能玩✨ 周五晚 6 点\,免费!\n费用:免费\nhttps
+ ://www.brooklynkids.org/
+URL:https://www.brooklynkids.org/
 END:VEVENT
 BEGIN:VEVENT
-UID:williamsbridge-fiesta-sat-2026-10-17@noboringweekends
-DTSTAMP:20261012T000000Z
-DTSTART:20261017T150000Z
-DTEND:20261017T180000Z
-SUMMARY:Williamsbridge 秋日嘉年华
-LOCATION:Williamsbridge Oval Recreation Center\, 3225 Reservoir Oval E\, Br
- onx\, NY 10467
-DESCRIPTION:🍂 布朗克斯秋日嘉年华!\n南瓜装饰 手工 游戏
- 摊 脸绘 Mad Science 科学秀 南瓜园\,还有狗狗变装游行🐶\n
- 免费 ☔ 下雨改到 10/24\n费用:免费\nhttps://www.amny.com/news/ma
- mdani-rolls-out-spook-tacular-fall-and-halloween-events-at-nyc-parks-and-r
- ec-centers/
-URL:https://www.amny.com/news/mamdani-rolls-out-spook-tacular-fall-and-hall
- oween-events-at-nyc-parks-and-rec-centers/
+UID:new-yorker-festival-2026-10-23@noboringweekends
+DTSTAMP:20261022T000000Z
+DTSTART;VALUE=DATE:20261023
+DTEND;VALUE=DATE:20261024
+SUMMARY:《纽约客》文化节
+LOCATION:Various venues\, Manhattan\, Various venues\, Manhattan\, NY
+DESCRIPTION:📚 《纽约客》年度文化节整个周末!\n名人对谈
+ 、播客现场录制、放映、音乐…文艺青年冲!票务以官网
+ 为准。\n费用:以官网为准\nhttps://festival.newyorker.com/
+URL:https://festival.newyorker.com/
 END:VEVENT
 BEGIN:VEVENT
-UID:qbg-brass-tree-2026-10-18@noboringweekends
-DTSTAMP:20261012T000000Z
-DTSTART:20261018T150000Z
-DTEND:20261018T170000Z
-SUMMARY:皇后区植物园 Brass Tree 免费音乐会
-LOCATION:Queens Botanical Garden\, 43-50 Main Street\, Flushing\, NY 11355
-DESCRIPTION:🎺 周末去法拉盛植物园听一场户外铜管乐!\n草
- 地+音乐+秋天\,氛围感直接拉满🍂\n演出免费\,带上野餐
- 垫就出发~\n费用:免费\nhttps://www.queensbotanical.org/events/
-URL:https://www.queensbotanical.org/events/
+UID:governors-pumpkin-2026-10-24@noboringweekends
+DTSTAMP:20261022T000000Z
+DTSTART:20261024T140000Z
+DTEND:20261024T160000Z
+SUMMARY:总督岛南瓜节
+LOCATION:Governors Island\, Governors Island\, New York\, NY 10004
+DESCRIPTION:⛴️ 坐渡轮去岛上过秋天!\n南瓜、秋日活动、
+ 曼哈顿天际线一次拥有🍂 早上10点开始\,建议早点去。\n
+ 费用:活动以官网为准\,渡轮另付\nhttps://www.govisland.com/thin
+ gs-to-do
+URL:https://www.govisland.com/things-to-do
 END:VEVENT
 BEGIN:VEVENT
-UID:ps452-fall-fest-2026-10-18@noboringweekends
-DTSTAMP:20261012T000000Z
-DTSTART:20261018T150000Z
-DTEND:20261018T200000Z
-SUMMARY:PS 452 秋季嘉年华
-LOCATION:PS 452\, 210 West 61st Street\, New York\, NY 10023
-DESCRIPTION:🎪 PS 452 秋季嘉年华安排上!\n弹跳屋🏰 游戏摊
- 位 美食🍔 音乐🎵\n小朋友放电神场\,费用以官网为准\n
- 费用:以官网为准\nhttps://mommypoppins.com/newyorkcitykids/new-york-
- city-kids-weekend-events-for-october-16-18-free-harvest-and-halloween-fest
- i
-URL:https://mommypoppins.com/newyorkcitykids/new-york-city-kids-weekend-eve
- nts-for-october-16-18-free-harvest-and-halloween-festi
+UID:bronx-zoo-boo-2026-10-24@noboringweekends
+DTSTAMP:20261022T000000Z
+DTSTART:20261024T140000Z
+DTEND:20261024T160000Z
+SUMMARY:布朗克斯动物园 Boo at the Zoo
+LOCATION:Bronx Zoo\, 2300 Southern Blvd\, Bronx\, NY 10460
+DESCRIPTION:🦁 动物园万圣节周末!\n南瓜装饰、服装游行、
+ 主题活动\,周末开到 11/1🎃 含在门票里。\n费用:含在门
+ 票内\nhttps://bronxzoo.com/
+URL:https://bronxzoo.com/
 END:VEVENT
 BEGIN:VEVENT
-UID:lamama-block-party-2026-10-18@noboringweekends
-DTSTAMP:20261012T000000Z
-DTSTART:20261018T160000Z
-DTEND:20261018T180000Z
-SUMMARY:La MaMa 65周年街区派对
-LOCATION:La MaMa Community Arts Space\, 74 East 4th Street\, New York\, NY 
- 10003
-DESCRIPTION:🎉 La MaMa 65岁生日派对\,整条街都嗨起来!\n表演
- 💃 工作坊 舞蹈 小吃🍢 亲子活动轮番上阵\n免费逛吃逛
- 玩~具体时间以官网为准哈\n费用:免费\nhttps://mommypoppins.co
- m/new-york-city-kids/event/events/la-mama-block-party
-URL:https://mommypoppins.com/new-york-city-kids/event/events/la-mama-block-
- party
+UID:high-line-halloween-2026-10-24@noboringweekends
+DTSTAMP:20261022T000000Z
+DTSTART:20261024T150000Z
+DTEND:20261024T180000Z
+SUMMARY:High Line 万圣节:小精灵乐园
+LOCATION:The High Line\, The High Line\, Gansevoort St to W 34th St\, New Y
+ ork\, NY
+DESCRIPTION:🧙 空中铁道公园变身小精灵乐园!\n主题游戏+手
+ 工\,穿上万圣节服装来拍照📸 免费~\n费用:免费\nhttps://ww
+ w.thehighline.org/events/
+URL:https://www.thehighline.org/events/
 END:VEVENT
 BEGIN:VEVENT
-UID:carl-schurz-harvest-sun-2026-10-18@noboringweekends
-DTSTAMP:20261012T000000Z
-DTSTART:20261018T170000Z
-DTEND:20261018T190000Z
-SUMMARY:Carl Schurz 公园丰收节
-LOCATION:Carl Schurz Park\, E 86th St & East End Ave\, New York\, NY 10028
-DESCRIPTION:🎃 上东区公园丰收节!\n南瓜园 手工 纹身贴 “S
- pooky Trail”探险\,还有亲子音乐会🎶\n免费\,南瓜装饰送
- 完即止\n费用:免费\nhttps://www.nycgovparks.org/events/fall-festival
- s
-URL:https://www.nycgovparks.org/events/fall-festivals
+UID:east-river-spooktacular-2026-10-24@noboringweekends
+DTSTAMP:20261022T000000Z
+DTSTART:20261024T170000Z
+DTEND:20261024T200000Z
+SUMMARY:东河滨江万圣节嘉年华
+LOCATION:East River Esplanade\, East River Esplanade\, Upper East Side\, Ne
+ w York\, NY
+DESCRIPTION:🎃 现场音乐+脸绘+免费冰淇淋🍦\n鼓励穿万圣
+ 节服装\,遛娃首选!免费。\n费用:免费\nhttps://mommypoppins.com
+ /new-york-city-kids/halloween/best-halloween-events-for-nyc-families
+URL:https://mommypoppins.com/new-york-city-kids/halloween/best-halloween-ev
+ ents-for-nyc-families
+END:VEVENT
+BEGIN:VEVENT
+UID:lincoln-center-open-2026-10-24@noboringweekends
+DTSTAMP:20261022T000000Z
+DTSTART;VALUE=DATE:20261024
+DTEND;VALUE=DATE:20261025
+SUMMARY:林肯中心开放日
+LOCATION:Lincoln Center\, 10 Lincoln Center Plaza\, New York\, NY 10023
+DESCRIPTION:🎻 林肯中心周末免费开放日!\n全年龄友好\,周
+ 六周日都有\,具体节目以官网为准~\n费用:免费\nhttps://www.
+ lincolncenter.org/
+URL:https://www.lincolncenter.org/
+END:VEVENT
+BEGIN:VEVENT
+UID:marine-park-autumn-2026-10-25@noboringweekends
+DTSTAMP:20261022T000000Z
+DTSTART:20261025T160000Z
+DTEND:20261025T190000Z
+SUMMARY:Marine Park 秋日节
+LOCATION:Carmine Carro Community Center\, 3000 Fillmore Ave\, Brooklyn\, NY
+  11229
+DESCRIPTION:🍁 布鲁克林社区秋日节\,免费!\n周日中午到下
+ 午三点\,带娃去玩一下午~\n费用:免费\nhttps://www.nycgovparks.
+ org/events/halloween
+URL:https://www.nycgovparks.org/events/halloween
 END:VEVENT
 END:VCALENDAR

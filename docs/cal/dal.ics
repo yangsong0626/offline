@@ -8,123 +8,132 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:nasher-til-midnight-fri-2026-10-16@noboringweekends
-DTSTAMP:20261012T000000Z
-DTSTART:20261016T233000Z
-DTEND:20261017T013000Z
-SUMMARY:Nasher 雕塑中心 'Til Midnight 夜场
-LOCATION:Nasher Sculpture Center\, 2001 Flora St\, Dallas\, TX 75201
-DESCRIPTION:🌙 周五晚雕塑花园里听现场+看露天电影!\n6:30 C
- aftan\,7:45 Danny Joseph\,9点放电影🎬\n免费\,下班直接去~\n费
- 用:免费\nhttps://www.nashersculpturecenter.org/
-URL:https://www.nashersculpturecenter.org/
+UID:fw-zoo-boo-2026-10-23@noboringweekends
+DTSTAMP:20261022T000000Z
+DTSTART:20261023T150000Z
+DTEND:20261023T220000Z
+SUMMARY:沃斯堡动物园 Boo at the Zoo
+LOCATION:Fort Worth Zoo\, 1989 Colonial Pkwy\, Fort Worth\, TX 76110
+DESCRIPTION:🦒 周五到周日都有!\n满园讨糖站、万圣节表演
+ 、人偶巡游\,门票含 6 张兑糖券🍬\n费用:含在门票内\nhtt
+ ps://mommypoppins.com/halloween-events-dallas-fort-worth-things-to-do
+URL:https://mommypoppins.com/halloween-events-dallas-fort-worth-things-to-d
+ o
 END:VEVENT
 BEGIN:VEVENT
-UID:state-fair-texas-sat-2026-10-17@noboringweekends
-DTSTAMP:20261012T000000Z
-DTSTART;VALUE=DATE:20261017
-DTEND;VALUE=DATE:20261018
-SUMMARY:德州州博会 最后一个周末
-LOCATION:Fair Park\, 3921 Martin Luther King Jr Blvd\, Dallas\, TX 75210
-DESCRIPTION:🤠 德州州博会只剩这个周末!\n炸物美食大集合
- 🍗 各种表演和游乐\,18号闭幕\n💰 周末成人 $25(5点后 $20
- )\,3-12岁 $10\,开放时间以官网为准\n费用:周末成人 $25(5点
- 后 $20)\,3-12岁 $10\;停车 $25\nhttps://bigtex.com/
-URL:https://bigtex.com/
-END:VEVENT
-BEGIN:VEVENT
-UID:arboretum-pumpkin-sat-2026-10-17@noboringweekends
-DTSTAMP:20261012T000000Z
-DTSTART:20261017T140000Z
-DTEND:20261017T220000Z
-SUMMARY:达拉斯植物园 秋日南瓜村
-LOCATION:Dallas Arboretum and Botanical Garden\, 8525 Garland Rd\, Dallas\,
-  TX 75218
-DESCRIPTION:🎃 达拉斯植物园南瓜村\,9万多个南瓜堆出来的
- 童话世界!\n今年是史努比花生漫画主题🐶 随手拍都是大
- 片📸\n💰 2-12岁 $12\,成人 $17\,停车 $15\n费用:儿童(2-12岁)$
- 12\,成人$17\,停车$15\nhttps://www.dallasarboretum.org/events-activitie
- s/autumn-at-the-arboretum/
-URL:https://www.dallasarboretum.org/events-activities/autumn-at-the-arboret
- um/
-END:VEVENT
-BEGIN:VEVENT
-UID:huffhines-harvest-fest-sat-2026-10-17@noboringweekends
-DTSTAMP:20261012T000000Z
-DTSTART:20261017T150000Z
-DTEND:20261017T230000Z
-SUMMARY:Huffhines 秋收节(第50届)
-LOCATION:Huffhines Park\, 1500 Apollo Rd\, Richardson\, TX 75081
-DESCRIPTION:🌾 Huffhines 秋收节\,已经第50届啦!\n南瓜装饰🎃 
- 稻草人村 小动物园🐐 手工市集 现场音乐\n周六还有宠
- 物节🐶 免费入场\n费用:免费\nhttps://huffhinesharvestfest.com
-URL:https://huffhinesharvestfest.com
-END:VEVENT
-BEGIN:VEVENT
-UID:trunk-or-treat-plano-sat-2026-10-17@noboringweekends
-DTSTAMP:20261012T000000Z
-DTSTART:20261017T150000Z
-DTEND:20261017T170000Z
-SUMMARY:Plano 免费 Trunk or Treat
-LOCATION:The Learning Experience Plano\, 8744 Ohio Dr\, Plano\, TX 75024
-DESCRIPTION:🚗🍬 Plano 免费 Trunk or Treat!\n装饰好的车尾箱挨
- 个讨糖 游戏 抽奖🎁 还能和大象吉祥物合影🐘\n免费!小
- 朋友的快乐就这么简单~\n费用:免费\nhttps://dallasmoms.com/eve
- nt/trunk-or-treat/
-URL:https://dallasmoms.com/event/trunk-or-treat/
-END:VEVENT
-BEGIN:VEVENT
-UID:arboretum-squash-show-sat-2026-10-17@noboringweekends
-DTSTAMP:20261012T000000Z
-DTSTART:20261017T150000Z
-DTEND:20261017T200000Z
-SUMMARY:达拉斯植物园 南瓜与瓜类展销会
+UID:bootanical-2026-10-23@noboringweekends
+DTSTAMP:20261022T000000Z
+DTSTART:20261023T223000Z
+DTEND:20261024T010000Z
+SUMMARY:达拉斯植物园夜间讨糖
 LOCATION:Dallas Arboretum\, 8525 Garland Rd\, Dallas\, TX 75218
-DESCRIPTION:🎃 稀有南瓜大赏!\n传家宝品种的瓜和少见的特
- 色南瓜\,能看也能买回家装饰🍂\n周五到周日 10-3 点\,含
- 在植物园门票内\n费用:含在植物园门票内(周末成人 $25.95
- )\nhttps://www.dallasarboretum.org/event/pumpkin-squash-show-and-sale/
-URL:https://www.dallasarboretum.org/event/pumpkin-squash-show-and-sale/
+DESCRIPTION:🎃 10 万个南瓜中间讨糖!\n儿童探险花园夜间开
+ 放\,票价以官网为准。\n费用:以官网为准\nhttps://mommypoppin
+ s.com/halloween-events-dallas-fort-worth-things-to-do
+URL:https://mommypoppins.com/halloween-events-dallas-fort-worth-things-to-d
+ o
 END:VEVENT
 BEGIN:VEVENT
-UID:armeniafest-sat-2026-10-17@noboringweekends
-DTSTAMP:20261012T000000Z
-DTSTART:20261017T170000Z
-DTEND:20261018T030000Z
-SUMMARY:ArmeniaFest 亚美尼亚文化节
-LOCATION:St. Sarkis Armenian Church\, 4421 Charles St\, Carrollton\, TX 750
- 10
-DESCRIPTION:🇦🇲 ArmeniaFest 亚美尼亚文化节\,第31届!\n亚美
- 尼亚美食 音乐 舞蹈\,还专门设了儿童区\n免费入场\,换个
- 口味过周末~\n费用:免费\nhttps://dallasmoms.com/event/armeniafest-
- 2026-oct-16-17-18/2026-10-17/
-URL:https://dallasmoms.com/event/armeniafest-2026-oct-16-17-18/2026-10-17/
+UID:harwood-movies-2026-10-23@noboringweekends
+DTSTAMP:20261022T000000Z
+DTSTART:20261023T234500Z
+DTEND:20261024T014500Z
+SUMMARY:Harwood 公园万圣节露天电影
+LOCATION:Harwood Park\, 1505 Harwood St\, Dallas\, TX 75201
+DESCRIPTION:🎬 6:45 放《亚当斯一家 2》\,8:30 放《洛基恐怖
+ 秀》(后者适合大人)~\n费用:以官网为准\nhttps://mommypoppins.
+ com/halloween-events-dallas-fort-worth-things-to-do
+URL:https://mommypoppins.com/halloween-events-dallas-fort-worth-things-to-d
+ o
 END:VEVENT
 BEGIN:VEVENT
-UID:scarboroughs-hollow-sat-2026-10-17@noboringweekends
-DTSTAMP:20261012T000000Z
-DTSTART:20261017T180000Z
-DTEND:20261018T020000Z
-SUMMARY:Scarborough's Hollow 秋季奇幻节
-LOCATION:Scarborough's Hollow\, 2511 FM 66\, Waxahachie\, TX 75167
-DESCRIPTION:🧚 Scarborough's Hollow 秋季奇幻节\,走进童话村!\n
- 现场表演 手工艺摊位 互动游戏\,鼓励亲子装扮👑\n💰 $1
- 6.50-$29.70(离市区约30英里)\n费用:$16.50-$29.70\nhttps://dallasmom
- s.com/event/scarboroughs-hollow-fall-fantasy-festival/2026-10-17/
-URL:https://dallasmoms.com/event/scarboroughs-hollow-fall-fantasy-festival/
- 2026-10-17/
+UID:seth-meyers-dal-2026-10-23@noboringweekends
+DTSTAMP:20261022T000000Z
+DTSTART:20261024T010000Z
+DTEND:20261024T030000Z
+SUMMARY:Seth Meyers 脱口秀
+LOCATION:Music Hall at Fair Park\, 909 1st Ave\, Dallas\, TX 75210
+DESCRIPTION:😂 深夜秀主持人 Seth Meyers 现场脱口秀!\n票务以
+ 官网为准。\n费用:以官网为准\nhttps://dallas.culturemap.com/new
+ s/entertainment/weekend-events-10-22-26/
+URL:https://dallas.culturemap.com/news/entertainment/weekend-events-10-22-2
+ 6/
 END:VEVENT
 BEGIN:VEVENT
-UID:huffhines-harvest-fest-sun-2026-10-18@noboringweekends
-DTSTAMP:20261012T000000Z
-DTSTART:20261018T150000Z
-DTEND:20261018T220000Z
-SUMMARY:Huffhines 秋收节(第50届)
-LOCATION:Huffhines Park\, 1500 Apollo Rd\, Richardson\, TX 75081
-DESCRIPTION:💡 周日的 Huffhines 秋收节有小老板市集!\n12-4点
- 儿童创业小市集(5-17岁)💰 14:30万圣节服装比赛(需预先报
- 名)\n免费入场\,让娃体验一把做生意~\n费用:免费\nhttps://h
- uffhinesharvestfest.com
-URL:https://huffhinesharvestfest.com
+UID:junkyard-haunted-2026-10-23@noboringweekends
+DTSTAMP:20261022T000000Z
+DTSTART;VALUE=DATE:20261023
+DTEND;VALUE=DATE:20261024
+SUMMARY:Old City Park 废品场鬼屋
+LOCATION:Dallas Heritage Village at Old City Park\, 1515 S Harwood St\, Dal
+ las\, TX 75215
+DESCRIPTION:😱 真吓人的那种鬼屋\,适合大人和大孩子!\n10/23
+ -25\,票务以官网为准。\n费用:以官网为准\nhttps://dallas.cult
+ uremap.com/news/entertainment/weekend-events-10-22-26/
+URL:https://dallas.culturemap.com/news/entertainment/weekend-events-10-22-2
+ 6/
+END:VEVENT
+BEGIN:VEVENT
+UID:grapevine-trains-2026-10-24@noboringweekends
+DTSTAMP:20261022T000000Z
+DTSTART:20261024T154000Z
+DTEND:20261024T174000Z
+SUMMARY:Grapevine 万圣节复古小火车(周六/日)
+LOCATION:Grapevine Vintage Railroad\, 705 S Main St\, Grapevine\, TX 76051
+DESCRIPTION:🚂 穿服装坐复古小火车\,车上发糖!\n10:40、12:40
+ 、2:40 三班\,$22/人。\n费用:$22/人\nhttps://mommypoppins.com/hallo
+ ween-events-dallas-fort-worth-things-to-do
+URL:https://mommypoppins.com/halloween-events-dallas-fort-worth-things-to-d
+ o
+END:VEVENT
+BEGIN:VEVENT
+UID:frisco-square-tot-2026-10-24@noboringweekends
+DTSTAMP:20261022T000000Z
+DTSTART:20261024T180000Z
+DTEND:20261024T210000Z
+SUMMARY:Frisco Square 万圣节嘉年华
+LOCATION:Frisco Square\, 6801 Main St\, Frisco\, TX 75033
+DESCRIPTION:🎠 华人多的 Frisco!免费嘉年华游戏、充气城堡
+ 、马车、讨糖~\n费用:免费\nhttps://planomoms.com/halloween-events
+ -for-kids/
+URL:https://planomoms.com/halloween-events-for-kids/
+END:VEVENT
+BEGIN:VEVENT
+UID:klyde-warren-tot-2026-10-24@noboringweekends
+DTSTAMP:20261022T000000Z
+DTSTART:20261024T220000Z
+DTEND:20261025T020000Z
+SUMMARY:Klyde Warren 公园讨糖+电影
+LOCATION:Klyde Warren Park\, 2012 Woodall Rodgers Fwy\, Dallas\, TX 75201
+DESCRIPTION:🍿 免费讨糖+露天电影!\n周六傍晚 5-9 点\,市中
+ 心最好的免费亲子活动~\n费用:免费\nhttps://dallas.culturemap.
+ com/news/entertainment/weekend-events-10-22-26/
+URL:https://dallas.culturemap.com/news/entertainment/weekend-events-10-22-2
+ 6/
+END:VEVENT
+BEGIN:VEVENT
+UID:rest-in-plano-2026-10-24@noboringweekends
+DTSTAMP:20261022T000000Z
+DTSTART;VALUE=DATE:20261024
+DTEND;VALUE=DATE:20261025
+SUMMARY:Plano 老城区 Rest in Plano
+LOCATION:Downtown Plano\, 15th St\, Plano\, TX 75074
+DESCRIPTION:🔥 老城区讨糖+黑暗迷宫+火焰马戏表演!\n免费
+ 入场\,时间以官网为准。\n费用:免费\nhttps://planomoms.com/hal
+ loween-events-for-kids/
+URL:https://planomoms.com/halloween-events-for-kids/
+END:VEVENT
+BEGIN:VEVENT
+UID:meadows-tot-2026-10-25@noboringweekends
+DTSTAMP:20261022T000000Z
+DTSTART:20261025T190000Z
+DTEND:20261025T210000Z
+SUMMARY:Meadows 美术馆讨糖
+LOCATION:Meadows Museum\, 5900 Bishop Blvd\, Dallas\, TX 75205
+DESCRIPTION:🖼️ 在美术馆里讨糖+互动活动!\n适合小小孩\,
+ 需大人陪同。\n费用:以官网为准\nhttps://mommypoppins.com/hallo
+ ween-events-dallas-fort-worth-things-to-do
+URL:https://mommypoppins.com/halloween-events-dallas-fort-worth-things-to-d
+ o
 END:VEVENT
 END:VCALENDAR

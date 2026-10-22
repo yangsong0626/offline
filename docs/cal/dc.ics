@@ -8,114 +8,100 @@ X-WR-TIMEZONE:America/New_York
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:maum-market-sun-2026-10-18@noboringweekends
-DTSTAMP:20261012T000000Z
-DTSTART:20261018T160000Z
-DTEND:20261018T210000Z
-SUMMARY:Maum Market 亚裔品牌市集
-LOCATION:The Wharf\, 101 District Square SW\, Washington\, DC 20024
-DESCRIPTION:🛍️ 亚裔小众品牌快闪市集!\n精心挑选的亚裔
- 品牌\,逛逛买买\,顺便在 Wharf 海边散步🌊\n免费入场\,周
- 日中午到下午5点\n费用:免费\nhttps://www.wharfdc.com/upcoming-ev
- ents/2026-10-18-maum-market-at-the-wharf/
-URL:https://www.wharfdc.com/upcoming-events/2026-10-18-maum-market-at-the-w
- harf/
+UID:nmaa-visit-2026-10-24@noboringweekends
+DTSTAMP:20261022T000000Z
+DTSTART:20261024T140000Z
+DTEND:20261024T213000Z
+SUMMARY:国立亚洲艺术博物馆(免费)
+LOCATION:National Museum of Asian Art\, 1050 Independence Ave SW\, Washingt
+ on\, DC 20560
+DESCRIPTION:🏯 史密森尼国立亚洲艺术博物馆\,永远免费!\n
+ 中国青铜器、瓷器、佛教艺术一次看够\,周末带娃逛~ 开
+ 放时间以官网为准。\n费用:免费\nhttps://asia.si.edu/
+URL:https://asia.si.edu/
 END:VEVENT
 BEGIN:VEVENT
-UID:little-jams-fri-2026-10-16@noboringweekends
-DTSTAMP:20261012T000000Z
-DTSTART:20261016T140000Z
-DTEND:20261016T153000Z
-SUMMARY:Little Jams 亲子公园音乐会
-LOCATION:Cabin John Regional Park Amphitheater\, 7400 Tuckerman Ln\, Bethes
- da\, MD 20817
-DESCRIPTION:🎵 Little Jams 亲子公园音乐会!\n周五上午的免费
- 家庭现场音乐会\,小宝宝也能跟着摇摆~\n免费\,无需报名\
- n费用:免费\nhttps://montgomeryparks.org/events/little-jams-october-16-
- jennifer-schimpf-trio/
-URL:https://montgomeryparks.org/events/little-jams-october-16-jennifer-schi
- mpf-trio/
+UID:o-street-hunt-2026-10-23@noboringweekends
+DTSTAMP:20261022T000000Z
+DTSTART:20261023T200000Z
+DTEND:20261024T020000Z
+SUMMARY:O Street 豪宅家庭寻宝
+LOCATION:The Mansion on O Street\, 2020 O St NW\, Washington\, DC 20036
+DESCRIPTION:🗝️ 在藏着密门的神秘豪宅里寻宝!\n10/23-11/1 
+ 每天下午 4 点到晚 10 点\,需购票。\n费用:以官网为准\nhtt
+ ps://washingtonian.com/2026/10/08/not-too-scary-halloween-events-for-kids-
+ in-the-dc-area/
+URL:https://washingtonian.com/2026/10/08/not-too-scary-halloween-events-for
+ -kids-in-the-dc-area/
 END:VEVENT
 BEGIN:VEVENT
-UID:josiah-henson-archaeology-sat-2026-10-17@noboringweekends
-DTSTAMP:20261012T000000Z
-DTSTART:20261017T140000Z
-DTEND:20261017T200000Z
-SUMMARY:Josiah Henson 国际考古日家庭活动
-LOCATION:Josiah Henson Museum and Park\, 11410 Old Georgetown Rd\, North Be
- thesda\, MD 20852
-DESCRIPTION:⛏️ 国际考古日\,带娃动手挖一挖!\n动手考古体
- 验+遗址导览\,小学娃会很有收获\n💰 $6-7(含馆园门票)\n
- 费用:$6-7(含馆园门票)\nhttps://montgomeryparks.org/events/family-da
- y-international-archaeology-family-day/
-URL:https://montgomeryparks.org/events/family-day-international-archaeology
- -family-day/
+UID:ncm-spooktacular-2026-10-23@noboringweekends
+DTSTAMP:20261022T000000Z
+DTSTART:20261023T210000Z
+DTEND:20261023T233000Z
+SUMMARY:国家儿童博物馆万圣节夜
+LOCATION:National Children's Museum\, 1300 Pennsylvania Ave NW\, Washington
+ \, DC 20004
+DESCRIPTION:🧪 闭馆后的万圣节 STEM 夜!\n穿服装来做实验\,$1
+ 8.95\,时间以官网为准。\n费用:$18.95\nhttps://washingtonian.com/2
+ 026/10/08/not-too-scary-halloween-events-for-kids-in-the-dc-area/
+URL:https://washingtonian.com/2026/10/08/not-too-scary-halloween-events-for
+ -kids-in-the-dc-area/
 END:VEVENT
 BEGIN:VEVENT
-UID:oxon-hill-fall-festival-sat-2026-10-17@noboringweekends
-DTSTAMP:20261012T000000Z
-DTSTART:20261017T140000Z
-DTEND:20261017T190000Z
-SUMMARY:Oxon Hill Farm 秋季节
-LOCATION:Oxon Hill Farm\, 6411 Oxon Hill Rd\, Oxon Hill\, MD 20745
-DESCRIPTION:🐄 Oxon Hill Farm 秋季节!\n国家公园管理局农场的
- 秋季家庭活动(官网称内容仍在更新)\n免费\,无需报名\,说
- 走就走~\n费用:免费\nhttps://www.nps.gov/oxhi/oxon-hill-farm-fall-fe
- stival.htm
-URL:https://www.nps.gov/oxhi/oxon-hill-farm-fall-festival.htm
+UID:kidical-mass-2026-10-24@noboringweekends
+DTSTAMP:20261022T000000Z
+DTSTART;VALUE=DATE:20261024
+DTEND;VALUE=DATE:20261025
+SUMMARY:国会山亲子万圣节骑行
+LOCATION:Lincoln Park (Capitol Hill)\, Lincoln Park\, E Capitol St & 11th S
+ t\, Washington\, DC 20003
+DESCRIPTION:🚲 穿服装、装饰自行车\,一起骑到 Eastern Market!\
+ n终点还有全年龄舞会💃 免费。\n费用:免费\nhttps://washing
+ tonian.com/2026/10/08/not-too-scary-halloween-events-for-kids-in-the-dc-ar
+ ea/
+URL:https://washingtonian.com/2026/10/08/not-too-scary-halloween-events-for
+ -kids-in-the-dc-area/
 END:VEVENT
 BEGIN:VEVENT
-UID:reston-farm-fall-fest-sat-2026-10-17@noboringweekends
-DTSTAMP:20261012T000000Z
-DTSTART:20261017T140000Z
-DTEND:20261017T210000Z
-SUMMARY:Reston Farm 秋季节
-LOCATION:Reston Farm Garden Market\, 10800 Baron Cameron Ave\, Reston\, VA 
- 20190
-DESCRIPTION:🚂 Reston Farm 秋季节\,娃的快乐老家!\n充气玉米
- 迷宫 小动物园 滑梯 弹跳屋 小火车 苹果酒甜甜圈🍩\n费
- 用以官网为准(3岁以上需购票)\n费用:以官网为准(3岁以上
- 需购票)\nhttps://restonfarm.com/pages/fallfest
-URL:https://restonfarm.com/pages/fallfest
+UID:eye-spy-trains-2026-10-24@noboringweekends
+DTSTAMP:20261022T000000Z
+DTSTART;VALUE=DATE:20261024
+DTEND;VALUE=DATE:20261025
+SUMMARY:Cabin John 万圣节寻物小火车
+LOCATION:Cabin John Regional Park\, 7400 Tuckerman Ln\, Rockville\, MD 2085
+ 2
+DESCRIPTION:🚂 坐小火车找万圣节彩蛋!\nCabin John 和 Wheaton 
+ 公园周末都有\,开到 11/1。\n费用:以官网为准\nhttps://washin
+ gtonian.com/2026/10/08/not-too-scary-halloween-events-for-kids-in-the-dc-a
+ rea/
+URL:https://washingtonian.com/2026/10/08/not-too-scary-halloween-events-for
+ -kids-in-the-dc-area/
 END:VEVENT
 BEGIN:VEVENT
-UID:gaver-farm-fall-sat-2026-10-17@noboringweekends
-DTSTAMP:20261012T000000Z
-DTSTART:20261017T140000Z
-DTEND:20261017T220000Z
-SUMMARY:Gaver Farm 秋季农场节
-LOCATION:Gaver Farm\, 5501 Detrick Rd\, Mt. Airy\, MD 21771
-DESCRIPTION:🌽 Gaver Farm 秋季农场节\,值得开一小时车!\n7英
- 亩玉米迷宫 动物喂养🐐 大滑梯 免费干草车🚜\n💰 $24/
- 人(2岁以下免费)\,建议网上订票\n费用:$24/人(2岁以下免费
- )\,建议网上订票\nhttps://gaverfarm.com/fall/fall-fun-festival/
-URL:https://gaverfarm.com/fall/fall-fun-festival/
+UID:step-afrika-2026-10-24@noboringweekends
+DTSTAMP:20261022T000000Z
+DTSTART;VALUE=DATE:20261024
+DTEND;VALUE=DATE:20261025
+SUMMARY:Step Afrika!《The Fruits of Our Labor》
+LOCATION:Arena Stage\, 1101 6th St SW\, Washington\, DC 20024
+DESCRIPTION:👣 非裔美国踏步舞剧\,节奏感爆棚!\n演到 11/15\,
+ 场次以官网为准。\n费用:以官网为准\nhttps://www.arenastage.o
+ rg/
+URL:https://www.arenastage.org/
 END:VEVENT
 BEGIN:VEVENT
-UID:sungazing-nasm-sat-2026-10-17@noboringweekends
-DTSTAMP:20261012T000000Z
-DTSTART:20261017T160000Z
-DTEND:20261017T190000Z
-SUMMARY:国家航空航天博物馆 观日活动
-LOCATION:National Air and Space Museum\, 650 Jefferson Dr SW\, Washington\,
-  DC 20560
-DESCRIPTION:🔭 在航空航天博物馆门口看太阳!\n用滤光望远
- 镜安全观察太阳☀️ 工作人员现场讲解\n免费无需预约 
- ⚠️ 天气不好会取消\n费用:免费\nhttps://washington.org/event/
- sungazing-0
-URL:https://washington.org/event/sungazing-0
-END:VEVENT
-BEGIN:VEVENT
-UID:dc-turkish-festival-sun-2026-10-18@noboringweekends
-DTSTAMP:20261012T000000Z
-DTSTART:20261018T150000Z
-DTEND:20261018T223000Z
-SUMMARY:华盛顿土耳其文化节
-LOCATION:Pennsylvania Ave NW\, Pennsylvania Ave NW between 3rd and 6th St\,
-  Washington\, DC
-DESCRIPTION:🇹🇷 在宾夕法尼亚大道上吃土耳其菜!\n民族舞
- 蹈 音乐会 集市\,烤肉和甜点安排上🥙\n免费\n费用:免费\
- nhttps://turkishfestival.org/
-URL:https://turkishfestival.org/
+UID:van-ness-spook-2026-10-25@noboringweekends
+DTSTAMP:20261022T000000Z
+DTSTART:20261025T140000Z
+DTEND:20261025T160000Z
+SUMMARY:Van Ness 社区万圣节
+LOCATION:Forest Hills Playground\, 3200 Chesapeake St NW\, Washington\, DC 
+ 20008
+DESCRIPTION:🎃 游戏活动+沿街讨糖\,周日上午\,免费~\n费用:
+ 免费\nhttps://washingtonian.com/2026/10/08/not-too-scary-halloween-event
+ s-for-kids-in-the-dc-area/
+URL:https://washingtonian.com/2026/10/08/not-too-scary-halloween-events-for
+ -kids-in-the-dc-area/
 END:VEVENT
 END:VCALENDAR

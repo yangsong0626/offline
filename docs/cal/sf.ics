@@ -8,143 +8,139 @@ X-WR-TIMEZONE:America/Los_Angeles
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:filbookfest-sat-2026-10-17@noboringweekends
-DTSTAMP:20261012T000000Z
-DTSTART:20261017T170000Z
-DTEND:20261018T003000Z
-SUMMARY:菲律宾裔国际书展 FilBookFest
-LOCATION:San Francisco Main Library\, 100 Larkin St\, San Francisco\, CA 94
- 102
-DESCRIPTION:📚 书虫看过来!菲律宾裔国际书展\n今年主题“S
- ANGGALAN”\,周六10:30有作家 Randy Ribay 开幕演讲🎤 还有书
- 市\n免费\,周日中午12点也开\n费用:免费\nhttps://sfpl.org/even
- ts/2026/10/17/celebration-filipino-american-international-book-festival
-URL:https://sfpl.org/events/2026/10/17/celebration-filipino-american-intern
- ational-book-festival
+UID:chcp-haunt-2026-10-24@noboringweekends
+DTSTAMP:20261022T000000Z
+DTSTART:20261024T210000Z
+DTEND:20261025T013000Z
+SUMMARY:华人历史文化项目:儿童万圣节乐园
+LOCATION:History Park San Jose\, 1650 Senter Rd\, San Jose\, CA 95112
+DESCRIPTION:🏮 南湾华人历史文化项目(CHCP)主办的万圣节亲
+ 子活动!\n历史公园变身不吓人的鬼屋乐园\,干草车、讨糖
+ 、手工、灯光秀🎃\n下午 2 点到 6:30\,门票约 $10.60。\n费
+ 用:$10.60\nhttps://www.chcp.org/events
+URL:https://www.chcp.org/events
 END:VEVENT
 BEGIN:VEVENT
-UID:asianart-stone-mountains-sat-2026-10-17@noboringweekends
-DTSTAMP:20261012T000000Z
-DTSTART:20261017T190000Z
-DTEND:20261017T193000Z
-SUMMARY:亚洲艺术博物馆 导览:石山
+UID:svapff-2026-10-23@noboringweekends
+DTSTAMP:20261022T000000Z
+DTSTART;VALUE=DATE:20261023
+DTEND;VALUE=DATE:20261024
+SUMMARY:硅谷亚太电影节(周末场)
+LOCATION:AMC Sunnyvale 12\, 2502 Town Center Ln\, Sunnyvale\, CA 94086
+DESCRIPTION:🎞️ 硅谷亚太电影节周末线下场!\n10/23-25 在 Sun
+ nyvale AMC 集中放映亚裔导演作品\,之后还有线上场。片单
+ 票价以官网为准。\n费用:以官网为准\nhttps://www.chcp.org/eve
+ nts
+URL:https://www.chcp.org/events
+END:VEVENT
+BEGIN:VEVENT
+UID:sfs-hisaishi-2026-10-23@noboringweekends
+DTSTAMP:20261022T000000Z
+DTSTART;VALUE=DATE:20261023
+DTEND;VALUE=DATE:20261024
+SUMMARY:旧金山交响乐团:久石让作品音乐会(周五/六)
+LOCATION:Davies Symphony Hall\, 201 Van Ness Ave\, San Francisco\, CA 94102
+DESCRIPTION:🎹 宫崎骏御用作曲家久石让作品专场!\n《千与
+ 千寻》《龙猫》的旋律交响乐版\,周五周六两场\,票价以
+ 官网为准。\n费用:以官网为准\nhttps://www.sfsymphony.org/
+URL:https://www.sfsymphony.org/
+END:VEVENT
+BEGIN:VEVENT
+UID:aam-vishnu-2026-10-25@noboringweekends
+DTSTAMP:20261022T000000Z
+DTSTART:20261025T183000Z
+DTEND:20261025T210000Z
+SUMMARY:亚洲艺术博物馆《毗湿奴的宇宙之海》开幕庆典
 LOCATION:Asian Art Museum\, 200 Larkin St\, San Francisco\, CA 94102
-DESCRIPTION:🏔️ 周六中午来一场博物馆导览!\n讲解员带你
- 看“石山”主题\,午饭前半小时文艺充电✨\n含在门票内\
- ,12:30 还有一场\n费用:含在博物馆门票内\nhttps://asianart.org
- /
-URL:https://asianart.org/
+DESCRIPTION:🌊 东南亚最大的古代青铜像来旧金山了!\n周日
+ 开幕庆典\,上午 10:30 还有家庭活动👨‍👩‍👧 门票以
+ 官网为准。\n费用:以官网为准\nhttps://calendar.asianart.org/
+URL:https://calendar.asianart.org/
 END:VEVENT
 BEGIN:VEVENT
-UID:asianart-kasama-festival-2026-10-18@noboringweekends
-DTSTAMP:20261012T000000Z
-DTSTART:20261018T173000Z
-DTEND:20261018T233000Z
-SUMMARY:亚洲艺术博物馆菲律宾裔 Kasama 节
-LOCATION:Asian Art Museum\, 200 Larkin Street\, San Francisco\, CA 94102
-DESCRIPTION:🇵🇭 亚洲艺术博物馆 Kasama 节\,菲律宾文化沉
- 浸式体验!\n儿童绘本分享📚 木偶秀 Tinikling 竹竿舞 菲律
- 宾春卷试吃🥟 手工\n含在博物馆门票内\,超值~\n费用:含
- 在博物馆门票内\nhttps://calendar.asianart.org/event/kasama-festival
- -oct-18/
-URL:https://calendar.asianart.org/event/kasama-festival-oct-18/
+UID:lower-polk-live-2026-10-23@noboringweekends
+DTSTAMP:20261022T000000Z
+DTSTART:20261023T230000Z
+DTEND:20261024T040000Z
+SUMMARY:Lower Polk Live! 街头派对
+LOCATION:Lower Polk Street\, Polk St\, San Francisco\, CA 94109
+DESCRIPTION:🎧 免费街头派对:艺术摊位、DJ、现场音乐!\n周
+ 五下班直接去~\n费用:免费\nhttps://sf.funcheap.com/weekend/
+URL:https://sf.funcheap.com/weekend/
 END:VEVENT
 BEGIN:VEVENT
-UID:half-moon-bay-pumpkin-festival-2026-10-17@noboringweekends
-DTSTAMP:20261012T000000Z
-DTSTART:20261017T160000Z
-DTEND:20261018T000000Z
-SUMMARY:半月湾艺术与南瓜节
-LOCATION:Historic Main Street\, Main Street\, Half Moon Bay\, CA 94019
-DESCRIPTION:🎃 半月湾艺术与南瓜节\,秋天必打卡!\n老街上
- 的南瓜+艺术市集\,随手一拍都是大片📸\n免费入场\,海边
- 自驾正好~\n费用:免费\nhttps://www.marinmommies.com/calendar/half-m
- oon-bay-art-pumpkin-festival
-URL:https://www.marinmommies.com/calendar/half-moon-bay-art-pumpkin-festiva
- l
+UID:randall-halloween-2026-10-24@noboringweekends
+DTSTAMP:20261022T000000Z
+DTSTART:20261024T170000Z
+DTEND:20261024T210000Z
+SUMMARY:Randall 博物馆家庭万圣节
+LOCATION:Randall Museum\, 199 Museum Way\, San Francisco\, CA 94114
+DESCRIPTION:🎃 免费!手工、游戏、刻南瓜一条龙~\n上午 10 
+ 点到下午 2 点\,带娃直接冲。\n费用:免费\nhttps://www.sftouri
+ smtips.com/kids-halloween-events-in-san-francisco.html
+URL:https://www.sftourismtips.com/kids-halloween-events-in-san-francisco.ht
+ ml
 END:VEVENT
 BEGIN:VEVENT
-UID:oakland-zoo-boo-sat-2026-10-17@noboringweekends
-DTSTAMP:20261012T000000Z
-DTSTART:20261017T163000Z
-DTEND:20261017T230000Z
-SUMMARY:奥克兰动物园万圣节 Boo at the Zoo
-LOCATION:Oakland Zoo\, 9777 Golf Links Road\, Oakland\, CA 94605
-DESCRIPTION:🦁👻 奥克兰动物园 Boo at the Zoo!\n集卡寻宝🗺
- ️ 虫虫屋动物互动🐛 中午还有服装比赛\n需买动物园门
- 票(2岁以下免费)\,停车 $15 起\n费用:需购动物园门票(2岁
- 以下免费)\,停车 $15 起\nhttps://www.marinmommies.com/calendar/boo-z
- oo
-URL:https://www.marinmommies.com/calendar/boo-zoo
+UID:chowder-fest-2026-10-24@noboringweekends
+DTSTAMP:20261022T000000Z
+DTSTART:20261024T180000Z
+DTEND:20261024T210000Z
+SUMMARY:渔人码头蛤蜊浓汤节
+LOCATION:Fisherman's Wharf\, Jefferson St\, San Francisco\, CA 94133
+DESCRIPTION:🦪 各家餐厅比拼最佳蛤蜊浓汤!\n现场评审+音乐
+ +亲子活动\,上午 11 点到下午 2 点。\n费用:以官网为准\nht
+ tps://sf.funcheap.com/weekend/
+URL:https://sf.funcheap.com/weekend/
 END:VEVENT
 BEGIN:VEVENT
-UID:deyoung-free-saturday-2026-10-17@noboringweekends
-DTSTAMP:20261012T000000Z
-DTSTART:20261017T163000Z
-DTEND:20261018T001500Z
-SUMMARY:de Young 博物馆免费周六
-LOCATION:de Young Museum\, 50 Hagiwara Tea Garden Dr\, San Francisco\, CA 9
- 4118
-DESCRIPTION:🖼️ 湾区居民福利!de Young 博物馆每周六免费\n
- 金门公园里逛艺术馆\,文艺又不花钱✨\n湾区九县居民凭
- 居住证明免费\,⚠️ 建议提前预约\n费用:免费\nhttps://www.
- famsf.org
-URL:https://www.famsf.org
+UID:calacademy-supernatural-2026-10-24@noboringweekends
+DTSTAMP:20261022T000000Z
+DTSTART:20261025T013000Z
+DTEND:20261025T040000Z
+SUMMARY:加州科学院 SuperNatural 万圣夜
+LOCATION:California Academy of Sciences\, 55 Music Concourse Dr\, San Franc
+ isco\, CA 94118
+DESCRIPTION:🐠 在水族馆里蹦静音迪斯科!\n讨糖站+活体动物
+ 展示\,5 点可提前入场\,需购票。\n费用:以官网为准\nhttps:
+ //www.calacademy.org/
+URL:https://www.calacademy.org/
 END:VEVENT
 BEGIN:VEVENT
-UID:bay-area-science-festival-2026-10-17@noboringweekends
-DTSTAMP:20261012T000000Z
-DTSTART:20261017T180000Z
-DTEND:20261017T230000Z
-SUMMARY:湾区科学节(UCSF Mission Bay)
-LOCATION:UCSF Mission Bay Campus (Koret Quad)\, 100 Medical Center Way\, Sa
- n Francisco\, CA 94143
-DESCRIPTION:🔬 湾区科学节@UCSF Mission Bay!\n全家一起玩的免
- 费科学体验日\,小小科学家快出动🧪\n免费\,周末学习+玩
- 耍两不误~\n费用:免费\nhttps://www.marinmommies.com/calendar/bay-ar
- ea-science-festival-2026
-URL:https://www.marinmommies.com/calendar/bay-area-science-festival-2026
+UID:sf-music-day-2026-10-25@noboringweekends
+DTSTAMP:20261022T000000Z
+DTSTART:20261025T190000Z
+DTEND:20261026T010000Z
+SUMMARY:SF Music Day 免费音乐日
+LOCATION:War Memorial Veterans Building\, 401 Van Ness Ave\, San Francisco\
+ , CA 94102
+DESCRIPTION:🎶 20+ 场免费现场音乐会!\n周日中午到傍晚\,随
+ 便串场~\n费用:免费\nhttps://sf.funcheap.com/weekend/
+URL:https://sf.funcheap.com/weekend/
 END:VEVENT
 BEGIN:VEVENT
-UID:sf-civic-center-fall-family-festival-2026-10-17@noboringweekends
-DTSTAMP:20261012T000000Z
-DTSTART:20261017T230000Z
-DTEND:20261018T020000Z
-SUMMARY:旧金山市政中心秋季家庭节
-LOCATION:San Francisco Civic Center\, Civic Center between Main Library (10
- 0 Larkin St) and Asian Art Museum\, San Francisco\, CA 94102
-DESCRIPTION:🎡 旧金山市政中心秋季家庭节!\n嘉年华游戏 面
- 部彩绘🎨 高跷表演 泡泡魔术🫧 图书馆流动车📚\n南瓜
- 彩绘免费\,其余以官网为准\n费用:免费\nhttps://sfciviccenter.
- org/event/fall-family-festival/
-URL:https://sfciviccenter.org/event/fall-family-festival/
+UID:world-of-dumplings-2026-10-25@noboringweekends
+DTSTAMP:20261022T000000Z
+DTSTART;VALUE=DATE:20261025
+DTEND;VALUE=DATE:20261026
+SUMMARY:渡轮大厦世界饺子节
+LOCATION:Ferry Building\, 1 Ferry Building\, San Francisco\, CA 94111
+DESCRIPTION:🥟 25+ 家餐厅的世界各地饺子一次吃遍!\n还有音
+ 乐和烹饪示范\,免费入场~\n费用:入场免费\,饺子另购\nhttp
+ s://sfstandard.com/2026/10/21/best-events-sf-week-costume-contests-wnba-fi
+ nals-watch-parties
+URL:https://sfstandard.com/2026/10/21/best-events-sf-week-costume-contests-
+ wnba-finals-watch-parties
 END:VEVENT
 BEGIN:VEVENT
-UID:oakland-zoo-boo-sun-2026-10-18@noboringweekends
-DTSTAMP:20261012T000000Z
-DTSTART:20261018T163000Z
-DTEND:20261018T230000Z
-SUMMARY:奥克兰动物园万圣节 Boo at the Zoo
-LOCATION:Oakland Zoo\, 9777 Golf Links Road\, Oakland\, CA 94605
-DESCRIPTION:🦎 周日的 Boo at the Zoo 有彩蛋!\n集卡寻宝🗺️ +
-  下午1点爬行类与两栖类动物互动\,胆大的娃别错过\n需
- 买动物园门票(2岁以下免费)\,停车 $15 起\n费用:需购动物
- 园门票(2岁以下免费)\,停车 $15 起\nhttps://www.marinmommies.com/
- calendar/boo-zoo
-URL:https://www.marinmommies.com/calendar/boo-zoo
-END:VEVENT
-BEGIN:VEVENT
-UID:sunday-streets-excelsior-sun-2026-10-18@noboringweekends
-DTSTAMP:20261012T000000Z
-DTSTART:20261018T180000Z
-DTEND:20261018T230000Z
-SUMMARY:Sunday Streets 无车街区派对(Excelsior)
-LOCATION:Excelsior District\, Silver Ave & Geneva Ave area\, San Francisco\
- , CA
-DESCRIPTION:🚲 整条街封路变游乐场!Sunday Streets\n现场音乐 
- 文化表演 骑车遛娃\,Excelsior 图书馆还有开放日📚\n免费\
- ,路线以官网为准\n费用:免费\nhttps://sf.funcheap.com/event-serie
- s/sunday-streets/
-URL:https://sf.funcheap.com/event-series/sunday-streets/
+UID:sfmoma-family-2026-10-25@noboringweekends
+DTSTAMP:20261022T000000Z
+DTSTART;VALUE=DATE:20261025
+DTEND;VALUE=DATE:20261026
+SUMMARY:SFMOMA 免费家庭日
+LOCATION:SFMOMA\, 151 3rd St\, San Francisco\, CA 94103
+DESCRIPTION:🖼️ 18 岁以下带娃家庭免费\,最多两位大人!\n
+ 需要提前 RSVP。\n费用:免费\nhttps://www.sfmoma.org/
+URL:https://www.sfmoma.org/
 END:VEVENT
 END:VCALENDAR
