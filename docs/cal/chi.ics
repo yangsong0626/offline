@@ -8,121 +8,148 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:pui-tak-ohc-2026-10-17@noboringweekends
-DTSTAMP:20261012T000000Z
-DTSTART:20261017T150000Z
-DTEND:20261017T220000Z
-SUMMARY:Open House Chicago:唐人街 Pui Tak Center 免费参观
-LOCATION:Pui Tak Center\, 2216 S Wentworth Ave\, Chicago\, IL 60616
-DESCRIPTION:🏯 免费进唐人街百年中式老楼!\n1928年建成的 Pu
- i Tak Center(原安良工商会大楼)\,可登三楼阳台俯瞰唐人街
- 👀\n还能摸一摸原始琉璃陶砖\,带娃寻根超有意义~\n费用
- :免费\nhttps://openhousechicago.org/sites/reccKiqVCYutXnjfG
-URL:https://openhousechicago.org/sites/reccKiqVCYutXnjfG
+UID:lanterns-legends-2026-10-25@noboringweekends
+DTSTAMP:20261022T000000Z
+DTSTART:20261025T200000Z
+DTEND:20261026T010000Z
+SUMMARY:灯笼与传说 AAPI 市集
+LOCATION:Uptown\, Uptown\, Chicago\, IL 60640
+DESCRIPTION:🏮 亚洲民间传说主题的 AAPI 市集!\n本地艺术家
+ 、手作人和美食摊\,带一点点万圣节诡异风👻 免费\,下
+ 午 3 点到 8 点。\n费用:免费\nhttps://blockclubchicago.org/2026/09
+ /29/your-ultimate-chicago-halloween-guide-70-parties-parades-markets-and-f
+ amily-fun/
+URL:https://blockclubchicago.org/2026/09/29/your-ultimate-chicago-halloween
+ -guide-70-parties-parades-markets-and-family-fun/
 END:VEVENT
 BEGIN:VEVENT
-UID:open-house-chicago-sat-2026-10-17@noboringweekends
-DTSTAMP:20261012T000000Z
-DTSTART;VALUE=DATE:20261017
-DTEND;VALUE=DATE:20261018
-SUMMARY:Open House Chicago 建筑开放日
-LOCATION:Citywide (200+ sites)\, Chicago\, IL
-DESCRIPTION:🏙️ 芝加哥建筑迷的年度盛宴!\n200多处平时不
- 开放的建筑免费参观\,今年新增20处🏛️ 唐人街 Pui Tak Ce
- nter 也在名单里\n免费无需预约\,各点开放时间以官网为
- 准\n费用:免费\nhttps://openhousechicago.org/
-URL:https://openhousechicago.org/
+UID:tedeschi-trucks-2026-10-23@noboringweekends
+DTSTAMP:20261022T000000Z
+DTSTART:20261024T003000Z
+DTEND:20261024T023000Z
+SUMMARY:Tedeschi Trucks Band 演唱会
+LOCATION:The Chicago Theatre\, 175 N State St\, Chicago\, IL 60601
+DESCRIPTION:🎸 布鲁斯摇滚乐队 Tedeschi Trucks 芝加哥剧院演
+ 出!\n票务以官网为准。\n费用:以官网为准\nhttps://www.ticket
+ master.com/discover/chicago
+URL:https://www.ticketmaster.com/discover/chicago
 END:VEVENT
 BEGIN:VEVENT
-UID:ciff-sat-2026-10-17@noboringweekends
-DTSTAMP:20261012T000000Z
-DTSTART;VALUE=DATE:20261017
-DTEND;VALUE=DATE:20261018
-SUMMARY:第62届芝加哥国际电影节
-LOCATION:Various venues\, Chicago\, IL
-DESCRIPTION:🎞️ 芝加哥国际电影节进行中!\n第62届\,10/14 到
-  10/25\,周末挑一部看看🍿\n场次和票价以官网为准\n费用:
- 以官网为准\nhttps://www.chicagofilmfestival.com/
+UID:zoo-brews-2026-10-23@noboringweekends
+DTSTAMP:20261022T000000Z
+DTSTART;VALUE=DATE:20261023
+DTEND;VALUE=DATE:20261024
+SUMMARY:林肯公园动物园 Zoo Brews 万圣夜(21+)
+LOCATION:Lincoln Park Zoo\, 2001 N Clark St\, Chicago\, IL 60614
+DESCRIPTION:🍺 大人专属的动物园万圣节派对!\n精酿啤酒和
+ 苹果酒试饮\,周五周六两晚\,21+。\n费用:以官网为准\nhttps
+ ://www.lpzoo.org/
+URL:https://www.lpzoo.org/
+END:VEVENT
+BEGIN:VEVENT
+UID:ciff-2026-10-23@noboringweekends
+DTSTAMP:20261022T000000Z
+DTSTART;VALUE=DATE:20261023
+DTEND;VALUE=DATE:20261024
+SUMMARY:芝加哥国际电影节(收官)
+LOCATION:Various venues\, Chicago\, Various venues\, Chicago\, IL
+DESCRIPTION:🎬 芝加哥国际电影节周日收官!\n片单票价以官
+ 网为准。\n费用:以官网为准\nhttps://www.chicagofilmfestival.com/
 URL:https://www.chicagofilmfestival.com/
 END:VEVENT
 BEGIN:VEVENT
-UID:spooky-zoo-2026-10-17@noboringweekends
-DTSTAMP:20261012T000000Z
-DTSTART:20261017T150000Z
-DTEND:20261017T180000Z
-SUMMARY:林肯公园动物园 Spooky Zoo 万圣节讨糖
-LOCATION:Lincoln Park Zoo\, 2001 N Clark St\, Chicago\, IL 60614
-DESCRIPTION:🍬 林肯公园动物园 Spooky Zoo\,免费讨糖!\n寻宝游
- 戏🗺️ 免费旋转木马🎠 还有秋季节游乐设施(另收费)\n
- 给娃穿好万圣节服装就出发~\n费用:免费\nhttps://www.lpzoo.or
- g/event/spooky-zoo/
-URL:https://www.lpzoo.org/event/spooky-zoo/
+UID:brookfield-boo-2026-10-24@noboringweekends
+DTSTAMP:20261022T000000Z
+DTSTART:20261024T150000Z
+DTEND:20261024T230000Z
+SUMMARY:Brookfield 动物园 Boo at the Zoo
+LOCATION:Brookfield Zoo Chicago\, 8400 31st St\, Brookfield\, IL 60513
+DESCRIPTION:🐻 Brookfield 动物园万圣节最后一个周末(到周日)
+ !\n周末开到晚 6 点\,含在门票里。\n费用:含在门票内\,会
+ 员免费\nhttps://mommypoppins.com/chicago-kids/fall-activities/top-hallo
+ ween-events-near-chicago-for-kids-and-families
+URL:https://mommypoppins.com/chicago-kids/fall-activities/top-halloween-eve
+ nts-near-chicago-for-kids-and-families
 END:VEVENT
 BEGIN:VEVENT
-UID:brookfield-boo-sat-2026-10-17@noboringweekends
-DTSTAMP:20261012T000000Z
-DTSTART:20261017T150000Z
-DTEND:20261017T230000Z
-SUMMARY:Brookfield 动物园 Boo! at the Zoo(周六)
-LOCATION:Brookfield Zoo Chicago\, 8400 W 31st St\, Brookfield\, IL 60513
-DESCRIPTION:🐒 Brookfield 动物园 Boo! at the Zoo!\n中午和3点化装
- 游行👑 公主与杂耍表演\n10:30和14:30看动物吃南瓜🎃 超
- 萌!含在动物园门票内(以官网为准)\n费用:含动物园门票\,
- 以官网为准\nhttps://brookfieldzoo.org/BooAtTheZoo
-URL:https://brookfieldzoo.org/BooAtTheZoo
+UID:jarvis-fall-fest-2026-10-24@noboringweekends
+DTSTAMP:20261022T000000Z
+DTSTART:20261024T190000Z
+DTEND:20261024T230000Z
+SUMMARY:Jarvis Square 秋日万圣节
+LOCATION:Jarvis Square\, Jarvis Ave & Greenview Ave\, Chicago\, IL 60626
+DESCRIPTION:🔥 踩高跷、脸绘、儿童音乐、气球艺术…还有
+ 火堆烤棉花糖!免费。\n费用:免费\nhttps://mommypoppins.com/chic
+ ago-kids/free-activities/best-free-halloween-events-in-chicago-for-kids
+URL:https://mommypoppins.com/chicago-kids/free-activities/best-free-hallowe
+ en-events-in-chicago-for-kids
 END:VEVENT
 BEGIN:VEVENT
-UID:wicker-boopalooza-2026-10-17@noboringweekends
-DTSTAMP:20261012T000000Z
-DTSTART:20261017T150000Z
-DTEND:20261017T190000Z
-SUMMARY:Wicker Park Boo-palooza 万圣节亲子日
-LOCATION:Wicker Park\, 1425 N Damen Ave\, Chicago\, IL 60622
-DESCRIPTION:👻 Wicker Park Boo-palooza 万圣节亲子日!\n儿童音乐
- 🎵 化装游行 南瓜园🎃 游戏\n费用以官网为准(往年免费
- )\n费用:以官网为准(往年免费)\nhttps://mommypoppins.com/chicago-
- kids/things-to-do-in-chicago-october-halloween-weekend-kids
-URL:https://mommypoppins.com/chicago-kids/things-to-do-in-chicago-october-h
- alloween-weekend-kids
+UID:dia-xicago-2026-10-24@noboringweekends
+DTSTAMP:20261022T000000Z
+DTSTART:20261024T200000Z
+DTEND:20261025T010000Z
+SUMMARY:Pilsen 亡灵节 Día de los Muertos Xicágo
+LOCATION:National Museum of Mexican Art\, 1852 W 19th St\, Chicago\, IL 606
+ 08
+DESCRIPTION:🌼 社区祭坛、艺术活动、现场音乐!\n墨西哥文
+ 化博物馆主办\,免费。\n费用:免费\nhttps://chicago.suntimes.com
+ /things-to-do/2026/10/21/26-things-to-do-in-chicago-oct-22-28
+URL:https://chicago.suntimes.com/things-to-do/2026/10/21/26-things-to-do-in
+ -chicago-oct-22-28
 END:VEVENT
 BEGIN:VEVENT
-UID:physical-media-fair-sat-2026-10-17@noboringweekends
-DTSTAMP:20261012T000000Z
-DTSTART:20261017T170000Z
-DTEND:20261018T010000Z
-SUMMARY:芝加哥电影节 实体影碟市集
-LOCATION:Chicago International Film Festival\, 1511 N Halsted St\, Ste A119
- \, Chicago\, IL 60610
-DESCRIPTION:📀 蓝光、DVD、录像带爱好者集合!\n周六中午有
- 对谈和电影知识问答\,5-8点影碟交换(最多带5部)\n免费\,
- 周日还有市集\n费用:免费\nhttps://www.chicagofilmfestival.com/fes
- tival/physical-media-fair/
-URL:https://www.chicagofilmfestival.com/festival/physical-media-fair/
+UID:arts-in-the-dark-2026-10-24@noboringweekends
+DTSTAMP:20261022T000000Z
+DTSTART:20261024T230000Z
+DTEND:20261025T010000Z
+SUMMARY:Arts in the Dark 万圣节夜间大游行
+LOCATION:Downtown Chicago\, Downtown Chicago (route: see website)
+DESCRIPTION:✨ 芝加哥超大型夜间万圣节游行!\n发光花车、
+ 巨型木偶、舞者乐手\,第 12 届🎭 免费\,建议早点去占位
+ 置。\n费用:免费\nhttps://www.chicagoparent.com/fall-family-guide/las
+ t-minute-halloween-events-chicago-families
+URL:https://www.chicagoparent.com/fall-family-guide/last-minute-halloween-e
+ vents-chicago-families
 END:VEVENT
 BEGIN:VEVENT
-UID:lpz-fallfest-pumpkin-sun-2026-10-18@noboringweekends
-DTSTAMP:20261012T000000Z
-DTSTART:20261018T150000Z
-DTEND:20261018T180000Z
-SUMMARY:林肯公园动物园秋季节:现场南瓜雕刻与南瓜园
-LOCATION:Lincoln Park Zoo\, 2001 N Clark St\, Chicago\, IL 60614
-DESCRIPTION:🎃 林肯公园动物园秋季节!\n周末10点到1点现场
- 南瓜雕刻\,还有南瓜园 烤棉花糖🔥 摩天轮🎡\n入园免费
- \,游乐项目另收费\n费用:免费\nhttps://www.lpzoo.org/event/fall-f
- est/
-URL:https://www.lpzoo.org/event/fall-fest/
+UID:lincoln-park-spook-2026-10-24@noboringweekends
+DTSTAMP:20261022T000000Z
+DTSTART;VALUE=DATE:20261024
+DTEND;VALUE=DATE:20261025
+SUMMARY:林肯公园社区讨糖(周六/日)
+LOCATION:Lincoln Park neighborhood\, Lincoln Park\, Chicago\, IL 60614
+DESCRIPTION:🍬 周六周日两条讨糖路线\,免费!\n时间以官网
+ 为准。\n费用:免费\nhttps://mommypoppins.com/chicago-kids/free-activ
+ ities/best-free-halloween-events-in-chicago-for-kids
+URL:https://mommypoppins.com/chicago-kids/free-activities/best-free-hallowe
+ en-events-in-chicago-for-kids
 END:VEVENT
 BEGIN:VEVENT
-UID:brookfield-boo-sun-2026-10-18@noboringweekends
-DTSTAMP:20261012T000000Z
-DTSTART:20261018T150000Z
-DTEND:20261018T230000Z
-SUMMARY:Brookfield 动物园 Boo! at the Zoo(周日)
-LOCATION:Brookfield Zoo Chicago\, 8400 W 31st St\, Brookfield\, IL 60513
-DESCRIPTION:🦍 周日看猩猩啃南瓜!\n中午和3点化装游行\,10:3
- 0猩猩、14:30猫鼬等动物南瓜喂食🎃\n含在动物园门票内(
- 以官网为准)\n费用:含动物园门票\,以官网为准\nhttps://broo
- kfieldzoo.org/BooAtTheZoo
-URL:https://brookfieldzoo.org/BooAtTheZoo
+UID:lincoln-square-tot-2026-10-25@noboringweekends
+DTSTAMP:20261022T000000Z
+DTSTART:20261025T160000Z
+DTEND:20261025T180000Z
+SUMMARY:Lincoln Square 商圈讨糖
+LOCATION:Lincoln Square\, Lincoln Ave\, Chicago\, IL 60625
+DESCRIPTION:🎃 整条商业街变讨糖路线!\n周日上午 11 点到 1 
+ 点\,免费。\n费用:免费\nhttps://www.chicagoparent.com/fall-family-g
+ uide/last-minute-halloween-events-chicago-families
+URL:https://www.chicagoparent.com/fall-family-guide/last-minute-halloween-e
+ vents-chicago-families
+END:VEVENT
+BEGIN:VEVENT
+UID:naperville-halloween-2026-10-25@noboringweekends
+DTSTAMP:20261022T000000Z
+DTSTART:20261025T180000Z
+DTEND:20261025T210000Z
+SUMMARY:Naperville 万圣节活动
+LOCATION:Naperville Riverwalk\, Naperville Riverwalk\, Naperville\, IL 6054
+ 0
+DESCRIPTION:🍁 西郊华人多的 Naperville!河滨步道万圣节活动\
+ ,大小孩都能玩\,免费~\n费用:免费\nhttps://www.chicagoparent.com
+ /fall-family-guide/last-minute-halloween-events-chicago-families
+URL:https://www.chicagoparent.com/fall-family-guide/last-minute-halloween-e
+ vents-chicago-families
 END:VEVENT
 END:VCALENDAR

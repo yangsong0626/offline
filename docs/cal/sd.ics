@@ -8,102 +8,99 @@ X-WR-TIMEZONE:America/Los_Angeles
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:sdchm-dragon-boat-sun-2026-10-18@noboringweekends
-DTSTAMP:20261012T000000Z
-DTSTART:20261018T190000Z
-DTEND:20261018T210000Z
-SUMMARY:华人历史博物馆 龙舟手工
-LOCATION:San Diego Chinese Historical Museum\, 404 Third Ave\, San Diego\, 
- CA 92101
-DESCRIPTION:🐉 带娃做一条小龙舟!\n圣地亚哥华人历史博物
- 馆周末儿童手工课\,这周日主题是龙舟制作🚣 顺便逛逛
- 华人移民历史\n💰 12岁及以下免费\,成人票以官网为准\n
- 费用:12岁及以下免费\;成人门票以官网为准\nhttps://sdchm.or
- g/
-URL:https://sdchm.org/
+UID:birch-aglow-2026-10-23@noboringweekends
+DTSTAMP:20261022T000000Z
+DTSTART:20261024T010000Z
+DTEND:20261024T033000Z
+SUMMARY:伯奇水族馆 Halloween Aglow(周五/六)
+LOCATION:Birch Aquarium at Scripps\, 2300 Expedition Way\, La Jolla\, CA 92
+ 037
+DESCRIPTION:🐟 水族馆夜间讨糖+现场音乐+服装比赛!\n周五
+ 周六晚 6-8:30\,需购票。\n费用:$49.95–$59.95\nhttps://www.sandie
+ gofamily.com/things-to-do/seasonal-happenings/halloween-and-fall-activitie
+ s-san-diego
+URL:https://www.sandiegofamily.com/things-to-do/seasonal-happenings/hallowe
+ en-and-fall-activities-san-diego
 END:VEVENT
 BEGIN:VEVENT
-UID:mission-bayfest-sat-2026-10-17@noboringweekends
-DTSTAMP:20261012T000000Z
-DTSTART;VALUE=DATE:20261017
-DTEND;VALUE=DATE:20261018
-SUMMARY:Mission Bayfest 海湾音乐节(周六)
-LOCATION:Mariners Point Park\, 3119 Mariners Way\, San Diego\, CA 92109
-DESCRIPTION:🌊 海边音乐节!Mission Bayfest\n周六 Kolohe Kai、Commo
- n Kings、SOJA 轮番上台🎸 雷鬼+海风太配了\n单日票约 $114 
- 起\,时间以官网为准\n费用:单日票约 $114 起\,以官网为准\
- nhttps://bayfestsd.com/
-URL:https://bayfestsd.com/
-END:VEVENT
-BEGIN:VEVENT
-UID:borrego-days-sat-2026-10-17@noboringweekends
-DTSTAMP:20261012T000000Z
-DTSTART:20261017T154500Z
-DTEND:20261018T013000Z
-SUMMARY:Borrego Days 沙漠节(第60届)
-LOCATION:Christmas Circle Community Park\, Christmas Circle\, Borrego Sprin
- gs\, CA 92004
-DESCRIPTION:🏜️ 沙漠小镇的60岁生日派对!\n周六早上有飞
- 机飞越表演✈️ 和大游行\,还有老爷车展、儿童区、美
- 食和啤酒花园\n免费\,离市区约2小时车程\,周日也有\n费
- 用:免费\nhttps://www.kpbs.org/events/ongoing/60th-annual-borrego-days-d
- esert-festival
-URL:https://www.kpbs.org/events/ongoing/60th-annual-borrego-days-desert-fes
- tival
-END:VEVENT
-BEGIN:VEVENT
-UID:delmar-harvest-sat-2026-10-17@noboringweekends
-DTSTAMP:20261012T000000Z
-DTSTART:20261017T170000Z
-DTEND:20261018T000000Z
-SUMMARY:Del Mar 丰收艺术手工节
-LOCATION:Del Mar Fairgrounds\, 2260 Jimmy Durante Blvd\, Del Mar\, CA 92014
-DESCRIPTION:🎨 Del Mar 丰收节\,手作控的天堂!\n原创艺术和手
- 工艺市集\,周五到周日都开\,带娃逛逛挑点秋天小物🍁\n
- 💰 12岁及以下免费\,时间和成人票以官网为准\n费用:12岁
- 及以下免费\;成人票以官网为准\nhttps://harvestfestival.com/del
- -mar
-URL:https://harvestfestival.com/del-mar
-END:VEVENT
-BEGIN:VEVENT
-UID:legoland-brick-or-treat-sat-2026-10-17@noboringweekends
-DTSTAMP:20261012T000000Z
-DTSTART:20261017T220000Z
-DTEND:20261018T030000Z
-SUMMARY:乐高乐园 Brick-or-Treat 万圣节
-LOCATION:LEGOLAND California\, 1 Legoland Dr\, Carlsbad\, CA 92008
-DESCRIPTION:🧱🍬 乐高乐园万圣节讨糖!\nBrick-or-Treat 期间园
- 内到处是讨糖站\,下午3点开放\,穿 costume 去收糖~\n💰 需
- 乐园门票\,闭园时间以官网为准\n费用:需乐园门票\,以官
- 网为准\nhttps://www.legoland.com/california/things-to-do/seasonal-event
- s/
-URL:https://www.legoland.com/california/things-to-do/seasonal-events/
-END:VEVENT
-BEGIN:VEVENT
-UID:sdzoo-halgloween-sat-2026-10-17@noboringweekends
-DTSTAMP:20261012T000000Z
-DTSTART:20261018T000000Z
-DTEND:20261018T040000Z
-SUMMARY:圣地亚哥动物园 HalGLOWeen 夜场
+UID:halgloween-zoo-2026-10-23@noboringweekends
+DTSTAMP:20261022T000000Z
+DTSTART;VALUE=DATE:20261023
+DTEND;VALUE=DATE:20261024
+SUMMARY:圣地亚哥动物园 HalGLOWeen
 LOCATION:San Diego Zoo\, 2920 Zoo Dr\, San Diego\, CA 92101
-DESCRIPTION:✨ 动物园夜场发光万圣节!\n10月周五到周日开到
- 晚上9点\,HalGLOWeen 下午5点开始\,娃可以穿 costume 来🎃\n
- 💰 含在门票内\,10月11岁及以下随付费成人免费(人数上
- 限以官网为准)\n费用:含在动物园门票内\;10月11岁及以下
- 儿童随付费成人免费\nhttps://zoo.sandiegozoo.org/
-URL:https://zoo.sandiegozoo.org/
+DESCRIPTION:✨ 动物园夜间发光万圣节!\n周五到周日晚上\,11 
+ 岁以下儿童免费\,穿服装更好玩~\n费用:11岁以下免费\,成
+ 人门票\nhttps://www.sandiegofamily.com/things-to-do/seasonal-happenings
+ /halloween-and-fall-activities-san-diego
+URL:https://www.sandiegofamily.com/things-to-do/seasonal-happenings/hallowe
+ en-and-fall-activities-san-diego
 END:VEVENT
 BEGIN:VEVENT
-UID:escondido-grand-ave-sun-2026-10-18@noboringweekends
-DTSTAMP:20261012T000000Z
-DTSTART:20261018T160000Z
-DTEND:20261019T000000Z
-SUMMARY:Escondido Grand Avenue 秋季街市
-LOCATION:Grand Avenue\, W Grand Ave\, Escondido\, CA 92025
-DESCRIPTION:🛍️ Escondido 老街秋季大街市!\n400多个摊位、现
- 场表演、各国美食\,逛一整天🍢\n时间和费用以官网为准
- \n费用:以官网为准\nhttps://escondidochamber.org/grand-avenue-festiv
- al/
-URL:https://escondidochamber.org/grand-avenue-festival/
+UID:santee-spooktacular-2026-10-24@noboringweekends
+DTSTAMP:20261022T000000Z
+DTSTART:20261024T170000Z
+DTEND:20261024T210000Z
+SUMMARY:Santee Lakes 万圣节
+LOCATION:Santee Lakes Recreation Preserve\, 9310 Fanita Pkwy\, Santee\, CA 
+ 92071
+DESCRIPTION:🦆 湖边超大后备箱讨糖+充气城堡+脸绘+餐车!\n
+ 周六上午 10 点到 2 点。\n费用:以官网为准\nhttps://www.sandi
+ egofamily.com/things-to-do/seasonal-happenings/halloween-and-fall-activiti
+ es-san-diego
+URL:https://www.sandiegofamily.com/things-to-do/seasonal-happenings/hallowe
+ en-and-fall-activities-san-diego
+END:VEVENT
+BEGIN:VEVENT
+UID:belmont-fall-fest-2026-10-24@noboringweekends
+DTSTAMP:20261022T000000Z
+DTSTART;VALUE=DATE:20261024
+DTEND;VALUE=DATE:20261025
+SUMMARY:Belmont Park 海滩秋日节
+LOCATION:Belmont Park\, 3146 Mission Blvd\, San Diego\, CA 92109
+DESCRIPTION:🎢 10 月每个周末免费讨糖+原声音乐!\n海边游乐
+ 园\,时间以官网为准。\n费用:免费\nhttps://www.sandiegofamily.c
+ om/things-to-do/seasonal-happenings/halloween-and-fall-activities-san-dieg
+ o
+URL:https://www.sandiegofamily.com/things-to-do/seasonal-happenings/hallowe
+ en-and-fall-activities-san-diego
+END:VEVENT
+BEGIN:VEVENT
+UID:julian-jubilee-2026-10-24@noboringweekends
+DTSTAMP:20261022T000000Z
+DTSTART;VALUE=DATE:20261024
+DTEND;VALUE=DATE:20261025
+SUMMARY:Julian 秋日庆典(最后一个周末)
+LOCATION:Fort Cross Old West Town\, Julian\, CA 92036
+DESCRIPTION:🍎 苹果小镇南瓜田、干草车、榨苹果汁、手工
+ 蜡烛!\n本周末是最后一个周末。\n费用:以官网为准\nhttps:
+ //www.sandiegofamily.com/things-to-do/seasonal-happenings/halloween-and-fa
+ ll-activities-san-diego
+URL:https://www.sandiegofamily.com/things-to-do/seasonal-happenings/hallowe
+ en-and-fall-activities-san-diego
+END:VEVENT
+BEGIN:VEVENT
+UID:gather-on-grand-2026-10-25@noboringweekends
+DTSTAMP:20261022T000000Z
+DTSTART:20261025T160000Z
+DTEND:20261026T000000Z
+SUMMARY:Escondido Gather on Grand 街头节
+LOCATION:Downtown Escondido\, Grand Ave\, Escondido\, CA 92025
+DESCRIPTION:🎨 免费街头节:手作摊位+两个音乐舞台!\n周日
+ 全天。\n费用:免费\nhttps://theresandiego.com/things-to-do-in-san-di
+ ego-this-weekend/
+URL:https://theresandiego.com/things-to-do-in-san-diego-this-weekend/
+END:VEVENT
+BEGIN:VEVENT
+UID:india-street-tot-2026-10-25@noboringweekends
+DTSTAMP:20261022T000000Z
+DTSTART;VALUE=DATE:20261025
+DTEND;VALUE=DATE:20261026
+SUMMARY:小意大利 India Street 讨糖
+LOCATION:Little Italy\, India St\, San Diego\, CA 92101
+DESCRIPTION:🍕 小意大利商家发糖!\n逛完顺便吃个披萨冰淇
+ 淋\,免费\,时间以官网为准。\n费用:免费\nhttps://lajollamom.c
+ om/san-diego-kids-halloween/
+URL:https://lajollamom.com/san-diego-kids-halloween/
 END:VEVENT
 END:VCALENDAR

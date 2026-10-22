@@ -8,112 +8,160 @@ X-WR-TIMEZONE:America/Los_Angeles
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:tasveer-film-sat-2026-10-17@noboringweekends
-DTSTAMP:20261012T000000Z
-DTSTART;VALUE=DATE:20261017
-DTEND;VALUE=DATE:20261018
-SUMMARY:Tasveer 南亚电影节(闭幕周末)
-LOCATION:Tasveer Film Center\, 4816 Rainier Ave S\, Seattle\, WA 98118
-DESCRIPTION:🎬 全球唯一奥斯卡认证的南亚电影节!\n第21届 T
- asveer 进入闭幕周末\,看几部南亚好片🍿\n场次和票价以
- 官网为准\n费用:单场票以官网为准\;全通证 $350\nhttps://tas
- veer.org/tasveer-film-festival/
-URL:https://tasveer.org/tasveer-film-festival/
-END:VEVENT
-BEGIN:VEVENT
-UID:wingluke-sat-2026-10-17@noboringweekends
-DTSTAMP:20261012T000000Z
-DTSTART:20261017T170000Z
-DTEND:20261018T000000Z
-SUMMARY:华美博物馆（Wing Luke）参观
+UID:wing-luke-filam-2026-10-24@noboringweekends
+DTSTAMP:20261022T000000Z
+DTSTART:20261024T183000Z
+DTEND:20261024T203000Z
+SUMMARY:Wing Luke 博物馆:菲律宾裔故事分享
 LOCATION:Wing Luke Museum\, 719 S King St\, Seattle\, WA 98104
-DESCRIPTION:🐉 带娃去华美博物馆认识亚太裔历史!\n有李小
- 龙展🥋 还有历史旅馆导览(周三至周日 10:30/11:45/13:30\,先
- 到先得)\n💰 5-12岁 $10\,5岁以下免费\;成人以官网为准\n费
- 用:儿童(5-12岁) $10，5岁以下免费；成人以官网为准\nhttps:
- //wingluke.org/visit
-URL:https://wingluke.org/visit
+DESCRIPTION:📖 菲律宾裔美国人历史月特别活动!\n本地菲律
+ 宾裔讲述自己的故事\,地点在国际区 Wing Luke 博物馆\,顺
+ 便逛逛中国城~\n费用:以官网为准\nhttps://www.wingluke.org/even
+ tscalendar
+URL:https://www.wingluke.org/eventscalendar
 END:VEVENT
 BEGIN:VEVENT
-UID:littlesaigon-sat-2026-10-17@noboringweekends
-DTSTAMP:20261012T000000Z
-DTSTART:20261017T170000Z
-DTEND:20261017T200000Z
-SUMMARY:小西贡快闪市集
-LOCATION:Little Saigon Collective\, 1227 S Weller St\, Ste A\, Seattle\, WA
-  98144
-DESCRIPTION:🍜 小西贡快闪市集\,越南社区限定!\n艺术 美食 
- 听摊主讲故事\,集章还有机会赢奖品🎁\n免费\,室内逛吃
- 很舒服~\n费用:免费\nhttps://iexaminer.org/october-events-calendar/
-URL:https://iexaminer.org/october-events-calendar/
-END:VEVENT
-BEGIN:VEVENT
-UID:sam-diwali-2026-10-17@noboringweekends
-DTSTAMP:20261012T000000Z
-DTSTART:20261017T180000Z
-DTEND:20261017T230000Z
-SUMMARY:排灯节社区庆典（西雅图亚洲艺术博物馆）
+UID:sam-asian-tour-2026-10-24@noboringweekends
+DTSTAMP:20261022T000000Z
+DTSTART:20261024T203000Z
+DTEND:20261024T213000Z
+SUMMARY:西雅图亚洲艺术博物馆导览+近藤家陶艺展
 LOCATION:Seattle Asian Art Museum\, 1400 E Prospect St\, Seattle\, WA 98112
-DESCRIPTION:🪔 西雅图亚洲艺术博物馆排灯节庆典!\n看展 动
- 手做艺术🎨 现场表演 印度街头小吃(餐车另付费)\n免费 
- ⚠️ 名额有限\,需预约定时票\n费用:免费\nhttps://seattleart
- museum.org/whats-on/events/diwali-community-celebration-oct-17-26
-URL:https://seattleartmuseum.org/whats-on/events/diwali-community-celebrati
- on-oct-17-26
+DESCRIPTION:🏺 日本近藤家族三代陶艺展正在展出!\n周六 1:3
+ 0 有公众导览\,周日同一时段有近藤家专题导览。门票以
+ 官网为准。\n费用:以官网为准\nhttps://www.seattleartmuseum.org/
+ whats-on/events
+URL:https://www.seattleartmuseum.org/whats-on/events
 END:VEVENT
 BEGIN:VEVENT
-UID:refract-glass-sat-2026-10-17@noboringweekends
-DTSTAMP:20261012T000000Z
-DTSTART;VALUE=DATE:20261017
-DTEND;VALUE=DATE:20261018
-SUMMARY:Refract 西雅图玻璃艺术节
-LOCATION:Various venues\, Seattle\, WA
-DESCRIPTION:🔥 看玻璃艺术家现场吹玻璃!\n第8届 Refract\,70多
- 场活动:现场演示、开放工作室、艺术派对✨\n大部分免
- 费\,具体场次以官网为准\n费用:免费\nhttps://refractseattle.or
- g/
-URL:https://refractseattle.org/
+UID:pike-night-shift-2026-10-23@noboringweekends
+DTSTAMP:20261022T000000Z
+DTSTART:20261023T220000Z
+DTEND:20261024T040000Z
+SUMMARY:派克市场 The Night Shift 夜市
+LOCATION:Pike Place Market\, 85 Pike St\, Seattle\, WA 98101
+DESCRIPTION:🌙 派克市场晚上也热闹!\n周五下午 3 点到晚 9 
+ 点\,免费逛吃~\n费用:免费\nhttps://seattlerefined.com/lifestyle/oc
+ tober-seattle-events-weekend-horror-con-thrill-world-geekgirlcon-coffee-fe
+ stival-restaurant-week-2026
+URL:https://seattlerefined.com/lifestyle/october-seattle-events-weekend-hor
+ ror-con-thrill-world-geekgirlcon-coffee-festival-restaurant-week-2026
 END:VEVENT
 BEGIN:VEVENT
-UID:oxtober-sat-2026-10-17@noboringweekends
-DTSTAMP:20261012T000000Z
-DTSTART:20261017T170000Z
-DTEND:20261017T230000Z
-SUMMARY:Oxtober 秋季农场节
-LOCATION:Oxbow Farm & Conservation Center\, 10819 Carnation-Duvall Rd NE\, 
- Carnation\, WA 98014
-DESCRIPTION:🚜 Oxtober 秋季农场节\,农场风遛娃来啦!\n拖拉机
- 干草车 摘南瓜🎃 自然手工 现场音乐 农场美食\n💰 提
- 前买 $6 / 现场 $7\,3岁以下免费\n费用:$6 提前 / $7 现场；3
- 岁以下免费\nhttps://www.parentmap.com/calendar/33316/2026-10-17/
-URL:https://www.parentmap.com/calendar/33316/2026-10-17/
+UID:phoebe-bridgers-2026-10-23@noboringweekends
+DTSTAMP:20261022T000000Z
+DTSTART:20261024T023000Z
+DTEND:20261024T043000Z
+SUMMARY:Phoebe Bridgers 演唱会
+LOCATION:Climate Pledge Arena\, 334 1st Ave N\, Seattle\, WA 98109
+DESCRIPTION:🎸 Phoebe Bridgers 巡演西雅图站!\n周五晚 7:30\,票
+ 务以官网为准。\n费用:以官网为准\nhttps://www.ticketmaster.co
+ m/discover/seattle
+URL:https://www.ticketmaster.com/discover/seattle
 END:VEVENT
 BEGIN:VEVENT
-UID:evergreen-autumnfest-sat-2026-10-17@noboringweekends
-DTSTAMP:20261012T000000Z
-DTSTART:20261017T170000Z
-DTEND:20261017T190000Z
-SUMMARY:常青植物园秋日节
-LOCATION:Evergreen Arboretum & Gardens\, 145 Alverson Blvd\, Everett\, WA 9
- 8201
-DESCRIPTION:🍂 常青植物园秋日节\,在植物园里过秋天~\n免
- 费的秋季家庭活动\,学龄前/小学娃正合适\n📌 信息来自 
- Seattle's Child 秋季节庆指南\,出发前记得确认哦\n费用:免
- 费\nhttps://www.seattleschild.com/family-fall-festivals-seattle/
-URL:https://www.seattleschild.com/family-fall-festivals-seattle/
+UID:freeway-lantern-2026-10-23@noboringweekends
+DTSTAMP:20261022T000000Z
+DTSTART;VALUE=DATE:20261023
+DTEND;VALUE=DATE:20261024
+SUMMARY:Freeway Park 秋日灯笼节
+LOCATION:Freeway Park\, 700 Seneca St\, Seattle\, WA 98101
+DESCRIPTION:🏮 市中心公园秋日灯笼节!\n音乐、小吃、手工
+ 做灯笼\,免费~时间以官网为准。\n费用:免费\nhttps://seattle
+ refined.com/lifestyle/october-seattle-events-weekend-horror-con-thrill-wor
+ ld-geekgirlcon-coffee-festival-restaurant-week-2026
+URL:https://seattlerefined.com/lifestyle/october-seattle-events-weekend-hor
+ ror-con-thrill-world-geekgirlcon-coffee-festival-restaurant-week-2026
 END:VEVENT
 BEGIN:VEVENT
-UID:fauntleroy-fall-sun-2026-10-18@noboringweekends
-DTSTAMP:20261012T000000Z
-DTSTART:20261018T210000Z
-DTEND:20261019T000000Z
-SUMMARY:Fauntleroy 秋季节
-LOCATION:Fauntleroy Schoolhouse\, 9131 California Ave SW\, Seattle\, WA 981
- 36
-DESCRIPTION:🍁 西西雅图的老牌社区秋季节!\n社区协会、教
- 会、餐厅、学校一起办\,满满人情味~\n免费入场(食物自
- 费)\n费用:免费\nhttps://www.seattleschild.com/family-fall-festivals-s
- eattle/
-URL:https://www.seattleschild.com/family-fall-festivals-seattle/
+UID:earshot-jazz-2026-10-23@noboringweekends
+DTSTAMP:20261022T000000Z
+DTSTART;VALUE=DATE:20261023
+DTEND;VALUE=DATE:20261024
+SUMMARY:Earshot 爵士音乐节(收官周末)
+LOCATION:Various venues\, Seattle\, Various venues\, Seattle\, WA
+DESCRIPTION:🎷 西雅图爵士音乐节最后几天!\n本地+国际爵士
+ 乐手几十场演出\,场次以官网为准。\n费用:以官网为准\nh
+ ttps://www.earshot.org/
+URL:https://www.earshot.org/
+END:VEVENT
+BEGIN:VEVENT
+UID:kirkland-halloween-2026-10-24@noboringweekends
+DTSTAMP:20261022T000000Z
+DTSTART:20261024T190000Z
+DTEND:20261024T210000Z
+SUMMARY:Kirkland 小镇万圣节
+LOCATION:Downtown Kirkland\, Park Ln\, Kirkland\, WA 98033
+DESCRIPTION:🍬 东区遛娃:Kirkland 市中心万圣节活动\,免费!\n
+ 注意:不是挨家讨糖活动哦~\n费用:免费\nhttps://www.seattlesch
+ ild.com/free-kid-friendly-events-this-weekend-october-2026/
+URL:https://www.seattleschild.com/free-kid-friendly-events-this-weekend-oct
+ ober-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:jefferson-carnival-2026-10-24@noboringweekends
+DTSTAMP:20261022T000000Z
+DTSTART:20261024T200000Z
+DTEND:20261024T233000Z
+SUMMARY:Jefferson 社区中心万圣节嘉年华
+LOCATION:Jefferson Community Center\, 3801 Beacon Ave S\, Seattle\, WA 9810
+ 8
+DESCRIPTION:🎪 Beacon Hill 社区万圣节嘉年华!\n嘉年华游戏+服
+ 装\,免费但需 RSVP。\n费用:免费\nhttps://parkways.seattle.gov/202
+ 6/10/07/2026-halloween-events-with-seattle-parks-and-recreation/
+URL:https://parkways.seattle.gov/2026/10/07/2026-halloween-events-with-seat
+ tle-parks-and-recreation/
+END:VEVENT
+BEGIN:VEVENT
+UID:bitter-lake-bash-2026-10-24@noboringweekends
+DTSTAMP:20261022T000000Z
+DTSTART:20261025T010000Z
+DTEND:20261025T030000Z
+SUMMARY:Bitter Lake 南瓜大派对
+LOCATION:Bitter Lake Community Center\, 13035 Linden Ave N\, Seattle\, WA 9
+ 8133
+DESCRIPTION:🎃 嘉年华游戏、脸绘、蛋糕游戏!\n一个手环 $10
+ \,晚上 6-8 点。\n费用:$10/手环\nhttps://parkways.seattle.gov/2026/
+ 10/07/2026-halloween-events-with-seattle-parks-and-recreation/
+URL:https://parkways.seattle.gov/2026/10/07/2026-halloween-events-with-seat
+ tle-parks-and-recreation/
+END:VEVENT
+BEGIN:VEVENT
+UID:geekgirlcon-2026-10-24@noboringweekends
+DTSTAMP:20261022T000000Z
+DTSTART;VALUE=DATE:20261024
+DTEND;VALUE=DATE:20261025
+SUMMARY:GeekGirlCon 动漫极客展(周六/日)
+LOCATION:Seattle Convention Center Arch\, 705 Pike St\, Seattle\, WA 98101
+DESCRIPTION:🦸‍♀️ 女性和少数群体的极客文化展!\ncosplay
+ 、桌游、漫画、讲座\,周六周日都开\,票价以官网为准。\
+ n费用:以官网为准\nhttps://geekgirlcon.com/
+URL:https://geekgirlcon.com/
+END:VEVENT
+BEGIN:VEVENT
+UID:west-seattle-harvest-2026-10-25@noboringweekends
+DTSTAMP:20261022T000000Z
+DTSTART;VALUE=DATE:20261025
+DTEND;VALUE=DATE:20261026
+SUMMARY:西西雅图丰收节
+LOCATION:The Junction\, California Ave SW & SW Alaska St\, Seattle\, WA 981
+ 16
+DESCRIPTION:🌶️ 服装游行+沿街讨糖+辣椒大赛!\n免费\,时间
+ 以官网为准。\n费用:免费\nhttps://www.seattleschild.com/free-kid-
+ friendly-events-this-weekend-october-2026/
+URL:https://www.seattleschild.com/free-kid-friendly-events-this-weekend-oct
+ ober-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:museum-of-fright-2026-10-25@noboringweekends
+DTSTAMP:20261022T000000Z
+DTSTART;VALUE=DATE:20261025
+DTEND;VALUE=DATE:20261026
+SUMMARY:飞行博物馆 Museum of Fright
+LOCATION:The Museum of Flight\, 9404 E Marginal Way S\, Seattle\, WA 98108
+DESCRIPTION:✈️ 在飞机堆里过万圣节!\n周日主题活动\,门票
+ 以官网为准。\n费用:以官网为准\nhttps://www.museumofflight.org
+ /
+URL:https://www.museumofflight.org/
 END:VEVENT
 END:VCALENDAR

@@ -8,84 +8,112 @@ X-WR-TIMEZONE:America/Toronto
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:markham-pumpkins-after-dark-sat-2026-10-17@noboringweekends
-DTSTAMP:20261012T000000Z
-DTSTART:20261017T230000Z
-DTEND:20261018T020000Z
-SUMMARY:万锦博物馆 Pumpkins After Dark 南瓜灯展
-LOCATION:Markham Museum\, 9350 Markham Rd\, Markham\, ON L3P 3J3
-DESCRIPTION:🎃✨ 万锦的南瓜灯光秀\,晚上超出片!\n加拿大
- 获奖的万圣节南瓜灯光活动\,整个10月每晚开放\n💰 需购
- 分时段票\,入场时段以官网为准\;可停 Mount Joy GO 站免费
- 停车\n费用:需购票\,分时段入场\,以官网为准\nhttps://pumpki
- nsafterdark.com/markham
-URL:https://pumpkinsafterdark.com/markham
-END:VEVENT
-BEGIN:VEVENT
-UID:leaside-applefest-sat-2026-10-17@noboringweekends
-DTSTAMP:20261012T000000Z
-DTSTART:20261017T143000Z
-DTEND:20261017T190000Z
-SUMMARY:Leaside 苹果节
-LOCATION:Bayview Ave\, Bayview Ave (Parkhurst Blvd to Davisville Ave)\, Tor
- onto\, ON
-DESCRIPTION:🍎 Leaside 社区苹果节!\nBayview 大街上现场音乐 
- 亲子表演 南瓜装饰🎃 脸绘\,狗狗也欢迎🐶\n免费\,逛街+
- 遛娃两不误\n费用:免费\nhttps://bayviewleasidebia.com/news/
-URL:https://bayviewleasidebia.com/news/
-END:VEVENT
-BEGIN:VEVENT
-UID:queens-park-fall-sat-2026-10-17@noboringweekends
-DTSTAMP:20261012T000000Z
-DTSTART:20261017T150000Z
-DTEND:20261017T210000Z
-SUMMARY:安省议会大楼秋日节
-LOCATION:Ontario Legislative Building\, 111 Wellesley St W\, Toronto\, ON M
- 7A 1A2
-DESCRIPTION:🍁 在议会大楼过秋天\,还免费!\n南瓜园🎃 手工
-  充气城堡 脸绘 现场雕南瓜 小动物园🐐 还能进楼参观\n
- 前500名送迷你南瓜\,早点去!⚠️ 进楼要过安检\,最后入
- 楼4点\n费用:免费\nhttps://www.ola.org/en/office-assembly/whats-happe
- ning/2026-fall-festival-queens-park
-URL:https://www.ola.org/en/office-assembly/whats-happening/2026-fall-festiv
- al-queens-park
-END:VEVENT
-BEGIN:VEVENT
-UID:cask-days-sat-2026-10-17@noboringweekends
-DTSTAMP:20261012T000000Z
-DTSTART:20261017T210000Z
-DTEND:20261018T010000Z
-SUMMARY:Cask Days 桶装精酿节
-LOCATION:Clock Factory Building\, 282 Campbell Ave\, Toronto\, ON
-DESCRIPTION:🍺 第20届 Cask Days\,精酿爱好者的节日!\n100多桶
- 来自全加拿大的桶装啤酒\,还有天然酒、苹果酒和美食\n
- 💰 C$50(含4个代币)\,19+\,每场限500人\,早买\n费用:C$50(含4
- 个代币和杯子)\,19+\nhttps://caskdays.com/
-URL:https://caskdays.com/
-END:VEVENT
-BEGIN:VEVENT
-UID:tso-nightmare-sat-2026-10-17@noboringweekends
-DTSTAMP:20261012T000000Z
-DTSTART:20261017T233000Z
-DTEND:20261018T013000Z
-SUMMARY:多伦多交响乐团《圣诞夜惊魂》电影音乐会
-LOCATION:Roy Thomson Hall\, 60 Simcoe St\, Toronto\, ON M5J 2H5
-DESCRIPTION:🎃🎻 交响乐团现场伴奏看《圣诞夜惊魂》!\n大
- 银幕放电影\,多伦多交响乐团同步演奏\,万圣节氛围拉满\
- n💰 C$40 起\,周日下午2点和晚上7:30还有两场\n费用:C$40–1
- 69\nhttps://www.tso.ca/
-URL:https://www.tso.ca/
-END:VEVENT
-BEGIN:VEVENT
-UID:bruce-cockburn-sat-2026-10-17@noboringweekends
-DTSTAMP:20261012T000000Z
-DTSTART:20261018T000000Z
-DTEND:20261018T020000Z
-SUMMARY:Bruce Cockburn 演唱会
+UID:tallest-man-2026-10-23@noboringweekends
+DTSTAMP:20261022T000000Z
+DTSTART:20261023T230000Z
+DTEND:20261024T010000Z
+SUMMARY:The Tallest Man on Earth 音乐会
 LOCATION:Massey Hall\, 178 Victoria St\, Toronto\, ON M5B 1T7
-DESCRIPTION:🎸 加拿大民谣传奇 Bruce Cockburn 来梅西音乐厅!\n
- 周六晚8点\,老歌迷不要错过🎶\n票价以票务页为准\n费用
- :以票务页为准\nhttps://www.masseyhall.com/
-URL:https://www.masseyhall.com/
+DESCRIPTION:🎸 瑞典民谣歌手 Massey Hall 演出!票务以官网为
+ 准。\n费用:以官网为准\nhttps://onestowatch.com/live/toronto-weeke
+ nd-october-23/
+URL:https://onestowatch.com/live/toronto-weekend-october-23/
+END:VEVENT
+BEGIN:VEVENT
+UID:casa-loma-horror-2026-10-23@noboringweekends
+DTSTAMP:20261022T000000Z
+DTSTART;VALUE=DATE:20261023
+DTEND;VALUE=DATE:20261024
+SUMMARY:卡萨罗马城堡恐怖传说
+LOCATION:Casa Loma\, 1 Austin Terrace\, Toronto\, ON M5R 1X8
+DESCRIPTION:🏰 城堡夜间恐怖步道\,大孩子和大人专属!\n开
+ 到 10/31\,需购票。\n费用:以官网为准\nhttps://www.blogto.com/ra
+ dar/2026/10/things-do-toronto-weekend-october-24/
+URL:https://www.blogto.com/radar/2026/10/things-do-toronto-weekend-october-
+ 24/
+END:VEVENT
+BEGIN:VEVENT
+UID:cocktail-gala-2026-10-23@noboringweekends
+DTSTAMP:20261022T000000Z
+DTSTART;VALUE=DATE:20261023
+DTEND;VALUE=DATE:20261024
+SUMMARY:多伦多鸡尾酒节晚会
+LOCATION:Various venues\, Toronto\, Toronto\, ON
+DESCRIPTION:🍸 鸡尾酒节周五晚会!\n每晚合作酒吧还有免费 
+ happy hour。\n费用:以官网为准\nhttps://onestowatch.com/live/toront
+ o-weekend-october-23/
+URL:https://onestowatch.com/live/toronto-weekend-october-23/
+END:VEVENT
+BEGIN:VEVENT
+UID:ttc-halloween-2026-10-24@noboringweekends
+DTSTAMP:20261022T000000Z
+DTSTART:20261024T140000Z
+DTEND:20261024T230000Z
+SUMMARY:TTC 巴士车库万圣节
+LOCATION:TTC Danforth Garage\, 1627 Danforth Ave\, Toronto\, ON M4C 1H8
+DESCRIPTION:🚌 巴士车库变鬼屋!\n儿童活动+讨糖\,周六 10-7 
+ 点\,周日 9-4 点\,$7。\n费用:$7\,2岁以下免费\nhttps://childslif
+ e.ca/2026-halloween-events-guide-for-families/
+URL:https://childslife.ca/2026-halloween-events-guide-for-families/
+END:VEVENT
+BEGIN:VEVENT
+UID:toronto-zoo-boo-2026-10-24@noboringweekends
+DTSTAMP:20261022T000000Z
+DTSTART:20261024T150000Z
+DTEND:20261024T180000Z
+SUMMARY:多伦多动物园 Boo at the Zoo(周六/日)
+LOCATION:Toronto Zoo\, 2000 Meadowvale Rd\, Toronto\, ON M1B 5K7
+DESCRIPTION:🐘 士嘉堡动物园万圣节!\n含在门票里\,12 岁以
+ 下穿服装有优惠(以官网为准)。\n费用:含在门票内\nhttps:/
+ /childslife.ca/2026-halloween-events-guide-for-families/
+URL:https://childslife.ca/2026-halloween-events-guide-for-families/
+END:VEVENT
+BEGIN:VEVENT
+UID:black-creek-halloween-2026-10-24@noboringweekends
+DTSTAMP:20261022T000000Z
+DTSTART:20261024T150000Z
+DTEND:20261024T200000Z
+SUMMARY:Black Creek 先民村万圣节(周六/日)
+LOCATION:Black Creek Pioneer Village\, 1000 Murray Ross Pkwy\, North York\,
+  ON M3J 2P3
+DESCRIPTION:🏚️ 19 世纪老村庄过万圣节!\n周六周日上午 11 
+ 点到下午 4 点。\n费用:以官网为准\nhttps://childslife.ca/2026-
+ halloween-events-guide-for-families/
+URL:https://childslife.ca/2026-halloween-events-guide-for-families/
+END:VEVENT
+BEGIN:VEVENT
+UID:good-mourning-2026-10-24@noboringweekends
+DTSTAMP:20261022T000000Z
+DTSTART;VALUE=DATE:20261024
+DTEND;VALUE=DATE:20261025
+SUMMARY:Evergreen Brick Works「A Good Mourning」节(周六/日)
+LOCATION:Evergreen Brick Works\, 550 Bayview Ave\, Toronto\, ON M4W 3X8
+DESCRIPTION:🕯️ 关于纪念与告别的温柔文化节\,免费!\n砖
+ 厂公园秋景也超美🍁\n费用:免费\nhttps://onestowatch.com/live/
+ toronto-weekend-october-23/
+URL:https://onestowatch.com/live/toronto-weekend-october-23/
+END:VEVENT
+BEGIN:VEVENT
+UID:riverside-halloween-2026-10-25@noboringweekends
+DTSTAMP:20261022T000000Z
+DTSTART:20261025T150000Z
+DTEND:20261025T190000Z
+SUMMARY:Riverside 万圣节
+LOCATION:Riverside\, Queen St E\, Toronto\, ON
+DESCRIPTION:🎃 画南瓜、糖果、DJ、脸绘\,免费!周日 11-3 点
+ 。\n费用:免费\nhttps://www.familyfuncanada.com/toronto/halloween/
+URL:https://www.familyfuncanada.com/toronto/halloween/
+END:VEVENT
+BEGIN:VEVENT
+UID:pedestrian-sundays-2026-10-25@noboringweekends
+DTSTAMP:20261022T000000Z
+DTSTART;VALUE=DATE:20261025
+DTEND;VALUE=DATE:20261026
+SUMMARY:肯辛顿市场步行街(本季收官)
+LOCATION:Kensington Market\, Augusta Ave\, Toronto\, ON M5T
+DESCRIPTION:🎶 肯辛顿步行街本季最后一次!\n美食、诗歌、
+ 舞蹈、艺术市集\,紧挨唐人街~\n费用:免费\nhttps://onestowatc
+ h.com/live/toronto-weekend-october-23/
+URL:https://onestowatch.com/live/toronto-weekend-october-23/
 END:VEVENT
 END:VCALENDAR

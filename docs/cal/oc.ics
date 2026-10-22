@@ -8,101 +8,99 @@ X-WR-TIMEZONE:America/Los_Angeles
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:mega-night-market-sat-2026-10-17@noboringweekends
-DTSTAMP:20261012T000000Z
-DTSTART:20261017T180000Z
-DTEND:20261018T050000Z
-SUMMARY:Mega Night Market 亚洲夜市(周六)
-LOCATION:Great Park Live\, 8000 Great Park Blvd\, Irvine\, CA 92618
-DESCRIPTION:🏮 尔湾 Great Park 的亚洲夜市来啦!\n老挝、柬埔
- 寨、苗族、泰国、越南…东南亚街头小吃一次吃遍🍢 还
- 有现场音乐、DJ 和传统舞蹈💃\n💰 入场约 $5.88(以售票
- 页为准)\,11点开到晚上10点\n费用:入场约 $5.88(以售票页为
- 准)\;周日穿民族服装免费入场\nhttps://www.greatparklive.com/eve
- nt/mega-night-market/
-URL:https://www.greatparklive.com/event/mega-night-market/
+UID:heritage-hill-2026-10-23@noboringweekends
+DTSTAMP:20261022T000000Z
+DTSTART;VALUE=DATE:20261023
+DTEND;VALUE=DATE:20261024
+SUMMARY:Heritage Hill 历史公园秋日万圣节
+LOCATION:Heritage Hill Historical Park\, 25151 Serrano Rd\, Lake Forest\, C
+ A 92630
+DESCRIPTION:🏡 老房子里过万圣节\,免费!\n10/23-25\,时间以官
+ 网为准。\n费用:免费\nhttps://www.sandytoesandpopsicles.com/orange-
+ county/family-and-kid-halloween-events/
+URL:https://www.sandytoesandpopsicles.com/orange-county/family-and-kid-hall
+ oween-events/
 END:VEVENT
 BEGIN:VEVENT
-UID:oc-japan-fair-sat-2026-10-17@noboringweekends
-DTSTAMP:20261012T000000Z
-DTSTART:20261017T190000Z
-DTEND:20261018T050000Z
-SUMMARY:OC Japan Fair 日本文化节
-LOCATION:OC Fair & Event Center\, 88 Fair Dr\, Costa Mesa\, CA 92626
-DESCRIPTION:🎌 动漫+日料爱好者冲!OC Japan Fair\n今年扩大了
- 动漫和流行文化内容\,日本美食吃起来🍡 周六中午开到
- 晚上10点\n💰 $17.85\,6岁及以下和65岁以上免费\n费用:$17.85
- \;6岁及以下、65岁及以上免费\;停车 $15\nhttps://www.oc-japanfa
- ir.com/
-URL:https://www.oc-japanfair.com/
+UID:woodbridge-market-2026-10-24@noboringweekends
+DTSTAMP:20261022T000000Z
+DTSTART:20261024T170000Z
+DTEND:20261024T230000Z
+SUMMARY:尔湾 Woodbridge 万圣节市集(周六/日)
+LOCATION:Woodbridge Village Center\, 4 Mira Loma\, Irvine\, CA 92620
+DESCRIPTION:🛍️ 尔湾 30+ 本地手作摊位!\n现场音乐、儿童
+ 手工台\,下午 1 点服装比赛🎃 免费\,周六周日都有。\n费
+ 用:免费\nhttps://www.sandytoesandpopsicles.com/family-weekend-events-or
+ ange-county/
+URL:https://www.sandytoesandpopsicles.com/family-weekend-events-orange-coun
+ ty/
 END:VEVENT
 BEGIN:VEVENT
-UID:mega-night-market-sun-2026-10-18@noboringweekends
-DTSTAMP:20261012T000000Z
-DTSTART:20261018T180000Z
-DTEND:20261019T050000Z
-SUMMARY:Mega Night Market 亚洲夜市(周日)
-LOCATION:Great Park Live\, 8000 Great Park Blvd\, Irvine\, CA 92618
-DESCRIPTION:👘 周日福利:穿民族服装免费入场!\n给娃换上汉
- 服/传统服装去逛夜市\,美食+音乐+传统舞蹈全都有✨\n11
- 点开到晚上10点\,其他人入场约 $5.88(以售票页为准)\n费用
- :入场约 $5.88(以售票页为准)\;周日穿民族服装免费入场\nh
- ttps://www.greatparklive.com/event/mega-night-market/
-URL:https://www.greatparklive.com/event/mega-night-market/
+UID:anaheim-parade-2026-10-24@noboringweekends
+DTSTAMP:20261022T000000Z
+DTSTART:20261024T170000Z
+DTEND:20261024T230000Z
+SUMMARY:安纳罕秋日节+万圣节游行
+LOCATION:Downtown Anaheim\, Downtown Anaheim\, CA 92805
+DESCRIPTION:🎺 百年传统的安纳罕万圣节游行!\n白天 10-4 点
+ 秋日节\,晚上 7 点大游行✨\n费用:免费\nhttps://www.visitanahe
+ im.org/blog/post/halloween-in-anaheim-and-orange-county/
+URL:https://www.visitanaheim.org/blog/post/halloween-in-anaheim-and-orange-
+ county/
 END:VEVENT
 BEGIN:VEVENT
-UID:silverado-days-sat-2026-10-17@noboringweekends
-DTSTAMP:20261012T000000Z
-DTSTART;VALUE=DATE:20261017
-DTEND;VALUE=DATE:20261018
-SUMMARY:Buena Park Silverado Days 嘉年华
-LOCATION:William Peak Park\, 7225 El Dorado Dr\, Buena Park\, CA 90620
-DESCRIPTION:🎡 第70届 Silverado Days 社区嘉年华!\n游乐设施 美
- 食摊 手工艺摊\,周五到周日连开三天\n免费入场\,开放时
- 间以官网为准\n费用:免费\nhttps://enjoyorangecounty.com/silverado
- -days/
-URL:https://enjoyorangecounty.com/silverado-days/
-END:VEVENT
-BEGIN:VEVENT
-UID:tanaka-pumpkin-sat-2026-10-17@noboringweekends
-DTSTAMP:20261012T000000Z
-DTSTART:20261017T160000Z
-DTEND:20261018T040000Z
-SUMMARY:Tanaka Farms 南瓜园
-LOCATION:Tanaka Farms\, 5380 3/4 University Dr\, Irvine\, CA 92612
-DESCRIPTION:🎃 尔湾本地的南瓜园\,秋天打卡首选!\n在农场
- 里挑南瓜\,周末开到晚上9点(最后入场8点)🌅\n💰 周末 $2
- 7(3岁+)\,2岁及以下免费\,停车 $12 ⚠️ 必须提前预约\n费
- 用:周末 $27(3岁及以上)\,2岁及以下免费\;周末停车 $12\;南
- 瓜按磅另计\nhttps://www.tanakafarms.com/pages/the-tanaka-pumpkin
-URL:https://www.tanakafarms.com/pages/the-tanaka-pumpkin
-END:VEVENT
-BEGIN:VEVENT
-UID:santa-ana-zoo-boo-sat-2026-10-17@noboringweekends
-DTSTAMP:20261012T000000Z
-DTSTART:20261018T003000Z
-DTEND:20261018T023000Z
-SUMMARY:圣安娜动物园 Boo at the Zoo
+UID:santa-ana-zoo-boo-2026-10-24@noboringweekends
+DTSTAMP:20261022T000000Z
+DTSTART:20261025T003000Z
+DTEND:20261025T023000Z
+SUMMARY:Santa Ana 动物园 Boo at the Zoo(周六/日)
 LOCATION:Santa Ana Zoo\, 1801 E Chestnut Ave\, Santa Ana\, CA 92701
-DESCRIPTION:👻 晚上去动物园讨糖!\nBoo at the Zoo 傍晚开场\,
- 讨糖+“Spooky Search”寻宝\,穿上万圣节服装更有气氛🍬\n
- 💰 成人 $25\,3-12岁 $20\,2岁及以下免费\,网上买票\n费用:
- 成人 $25\,3-12岁 $20\,2岁及以下免费\;游乐设施另收费\nhttps
- ://www.santaanazoo.org/boo-at-the-zoo/
-URL:https://www.santaanazoo.org/boo-at-the-zoo/
+DESCRIPTION:🐒 傍晚动物园万圣节\,特别适合小小孩!\n周六
+ 周日 5:30-7:30。\n费用:以官网为准\nhttps://www.sandytoesandpopsi
+ cles.com/orange-county/family-and-kid-halloween-events/
+URL:https://www.sandytoesandpopsicles.com/orange-county/family-and-kid-hall
+ oween-events/
 END:VEVENT
 BEGIN:VEVENT
-UID:enc-fall-faire-sun-2026-10-18@noboringweekends
-DTSTAMP:20261012T000000Z
-DTSTART:20261018T170000Z
-DTEND:20261018T220000Z
-SUMMARY:ENC 秋日市集与南瓜园(第50届)
-LOCATION:Environmental Nature Center\, 1601 E 16th St\, Newport Beach\, CA 
- 92663
-DESCRIPTION:🍂 纽波特海滩自然中心秋日市集\,已经第50届啦
- !\n南瓜园🎃 儿童手工和游戏 脸绘🎨 表演\,还有 Savor OC 
- 餐厅美食展\n免费入场\,自然里放电一整天~\n费用:免费\nh
- ttps://encenter.org/fall-faire/
-URL:https://encenter.org/fall-faire/
+UID:spooky-seas-2026-10-24@noboringweekends
+DTSTAMP:20261022T000000Z
+DTSTART:20261025T003000Z
+DTEND:20261025T040000Z
+SUMMARY:海洋研究所 Spooky Seas
+LOCATION:Ocean Institute\, 24200 Dana Point Harbor Dr\, Dana Point\, CA 926
+ 29
+DESCRIPTION:🌊 荧光激光枪战、疯狂科学家实验室、鬼船参
+ 观!\n夜间水族馆+服装比赛\,需购票。\n费用:以官网为准\n
+ https://www.sandytoesandpopsicles.com/orange-county/family-and-kid-hallowe
+ en-events/
+URL:https://www.sandytoesandpopsicles.com/orange-county/family-and-kid-hall
+ oween-events/
+END:VEVENT
+BEGIN:VEVENT
+UID:boo-at-the-bay-2026-10-24@noboringweekends
+DTSTAMP:20261022T000000Z
+DTSTART;VALUE=DATE:20261024
+DTEND;VALUE=DATE:20261025
+SUMMARY:纽波特 Boo at the Bay
+LOCATION:Newport Bay\, Newport Beach\, CA
+DESCRIPTION:🦀 免费亲子派对:讲故事、手工、科学实验、活
+ 体动物!\n时间地点以官网为准。\n费用:免费\nhttps://www.san
+ dytoesandpopsicles.com/orange-county/family-and-kid-halloween-events/
+URL:https://www.sandytoesandpopsicles.com/orange-county/family-and-kid-hall
+ oween-events/
+END:VEVENT
+BEGIN:VEVENT
+UID:knotts-spooky-farm-2026-10-24@noboringweekends
+DTSTAMP:20261022T000000Z
+DTSTART;VALUE=DATE:20261024
+DTEND;VALUE=DATE:20261025
+SUMMARY:Knott's Spooky Farm 白天万圣节
+LOCATION:Knott's Berry Farm\, 8039 Beach Blvd\, Buena Park\, CA 90620
+DESCRIPTION:🎡 白天的诺氏乐园万圣节\,不吓人\,适合小朋友
+ !\n周四到周日开放\,门票以官网为准。\n费用:以官网为准
+ \nhttps://www.sandytoesandpopsicles.com/orange-county/family-and-kid-hallo
+ ween-events/
+URL:https://www.sandytoesandpopsicles.com/orange-county/family-and-kid-hall
+ oween-events/
 END:VEVENT
 END:VCALENDAR

@@ -8,112 +8,119 @@ X-WR-TIMEZONE:America/New_York
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:atl-diwali-fri-2026-10-16@noboringweekends
-DTSTAMP:20261012T000000Z
-DTSTART:20261016T220000Z
-DTEND:20261017T020000Z
-SUMMARY:Atlantic Station 排灯节
-LOCATION:Atlantic Green\, Atlantic Station\, 1380 Atlantic Dr NW\, Atlanta\
- , GA 30363
-DESCRIPTION:🪔 周五晚上去过排灯节!\n舞蹈表演💃 印度小
- 商家市集 美食\,还有宝莱坞电影露天放映🎬\n免费\,全年
- 龄 ⚠️ 信息来自单一活动网站\,出发前请跟主办方确认\
- n费用:免费\nhttps://ma.to/event/atlanta-diwali-festival-16-oct-2026
-URL:https://ma.to/event/atlanta-diwali-festival-16-oct-2026
+UID:roswell-funhouse-2026-10-23@noboringweekends
+DTSTAMP:20261022T000000Z
+DTSTART:20261023T203000Z
+DTEND:20261023T230000Z
+SUMMARY:Roswell 万圣节欢乐屋
+LOCATION:Roswell\, Roswell\, GA
+DESCRIPTION:🎈 8 岁以下小朋友专场\,免费!\n家长陪同\,周五
+ 傍晚。\n费用:免费\nhttps://mommypoppins.com/atlanta-kids/free-hallo
+ ween-events-in-atlanta-with-kids
+URL:https://mommypoppins.com/atlanta-kids/free-halloween-events-in-atlanta-
+ with-kids
 END:VEVENT
 BEGIN:VEVENT
-UID:brookhaven-intl-sun-2026-10-18@noboringweekends
-DTSTAMP:20261012T000000Z
-DTSTART:20261018T150000Z
-DTEND:20261018T220000Z
-SUMMARY:Brookhaven 国际文化节(周日\,K-pop 演出)
-LOCATION:Brookhaven Park\, 4158 Peachtree Rd NE\, Brookhaven\, GA 30319
-DESCRIPTION:🎤 周日 K-pop 团体 DROP 压轴!\n国际美食 文化表
- 演 艺术步道 Kidz Zone 儿童区\,追星+遛娃一次满足✨\n免费
- \,可以带野餐垫和折叠椅~\n费用:免费\nhttps://www.brookhavenga
- .gov/622/International-Festival
-URL:https://www.brookhavenga.gov/622/International-Festival
+UID:lawrenceville-boo-2026-10-23@noboringweekends
+DTSTAMP:20261022T000000Z
+DTSTART:20261023T220000Z
+DTEND:20261024T010000Z
+SUMMARY:Lawrenceville BOO Fest
+LOCATION:Downtown Lawrenceville\, Downtown Lawrenceville\, GA 30046
+DESCRIPTION:👻 Gwinnett 免费万圣节!糖果+小惊吓\,周五晚 6-9 
+ 点。\n费用:免费\nhttps://mommypoppins.com/atlanta-kids/free-hallowee
+ n-events-in-atlanta-with-kids
+URL:https://mommypoppins.com/atlanta-kids/free-halloween-events-in-atlanta-
+ with-kids
 END:VEVENT
 BEGIN:VEVENT
-UID:zoo-atl-boo-sat-2026-10-17@noboringweekends
-DTSTAMP:20261012T000000Z
-DTSTART:20261017T130000Z
-DTEND:20261017T200000Z
-SUMMARY:亚特兰大动物园 Boo at the Zoo
+UID:zoo-atl-boo-2026-10-24@noboringweekends
+DTSTAMP:20261022T000000Z
+DTSTART:20261024T130000Z
+DTEND:20261024T200000Z
+SUMMARY:亚特兰大动物园 Boo at the Zoo(周六/日)
 LOCATION:Zoo Atlanta\, 800 Cherokee Ave SE\, Atlanta\, GA 30315
-DESCRIPTION:🦒🍬 亚特兰大动物园万圣节讨糖!\n讨糖+万圣
- 节角色\,穿着 costume 逛动物园~周日也有\n💰 含在门票内\
- ,3岁以下免费(小火车等另收费)\n费用:含在动物园门票内\
- ;3岁以下免费\;部分项目另收费\nhttps://zooatlanta.org/
-URL:https://zooatlanta.org/
+DESCRIPTION:🐼 看完大熊猫顺便讨糖!\n服装讨糖+拍照点+主
+ 题活动\,周六周日都有。\n费用:以官网为准\nhttps://mommypop
+ pins.com/atlanta-kids/top-halloween-events-atlanta-kids
+URL:https://mommypoppins.com/atlanta-kids/top-halloween-events-atlanta-kids
 END:VEVENT
 BEGIN:VEVENT
-UID:brookhaven-intl-sat-2026-10-17@noboringweekends
-DTSTAMP:20261012T000000Z
-DTSTART:20261017T150000Z
-DTEND:20261017T220000Z
-SUMMARY:Brookhaven 国际文化节(周六)
-LOCATION:Brookhaven Park\, 4158 Peachtree Rd NE\, Brookhaven\, GA 30319
-DESCRIPTION:🌍 一个周末吃遍全世界!\n各国文化表演和音乐 
- 国际美食 艺术步道 Kidz Zone 儿童区🎈 周六 Cumbiatron 压轴
- \n免费\,推荐坐 MARTA 再转免费接驳车🚌\n费用:免费\nhttps:
- //www.brookhavenga.gov/622/International-Festival
-URL:https://www.brookhavenga.gov/622/International-Festival
+UID:snellville-fall-2026-10-24@noboringweekends
+DTSTAMP:20261022T000000Z
+DTSTART:20261024T160000Z
+DTEND:20261024T220000Z
+SUMMARY:Snellville 秋日节
+LOCATION:Snellville Towne Green\, 2342 Oak Rd\, Snellville\, GA 30078
+DESCRIPTION:🍂 音乐、美食、儿童活动!\n$15 手环可以玩攀岩
+ 墙、充气城堡和小火车。\n费用:免费\,儿童手环 $15\nhttps:
+ //www.ajc.com/accessatl/2026/10/things-to-do-in-metro-atlanta-this-weekend
+ -2/
+URL:https://www.ajc.com/accessatl/2026/10/things-to-do-in-metro-atlanta-thi
+ s-weekend-2/
 END:VEVENT
 BEGIN:VEVENT
-UID:l5p-halloween-sat-2026-10-17@noboringweekends
-DTSTAMP:20261012T000000Z
-DTSTART:20261017T160000Z
-DTEND:20261018T000000Z
-SUMMARY:小五点 万圣节街头节
-LOCATION:Little 5 Points Community Center\, 1083 Austin Ave NE\, Atlanta\, 
- GA 30307
-DESCRIPTION:🎃 亚特兰大最野的万圣节街头节!\n100多个艺术
- 摊位 现场音乐 街头表演\,周日下午还有大游行👻\n免费\
- ,穿上 costume 去凑热闹\n费用:免费\nhttps://discoveratlanta.com/e
- vent/detail/2026-little-5-points-halloween-festival-parade/
-URL:https://discoveratlanta.com/event/detail/2026-little-5-points-halloween
- -festival-parade/
+UID:stone-mtn-pumpkin-2026-10-24@noboringweekends
+DTSTAMP:20261022T000000Z
+DTSTART;VALUE=DATE:20261024
+DTEND;VALUE=DATE:20261025
+SUMMARY:石头山南瓜节
+LOCATION:Stone Mountain Park\, 1000 Robert E Lee Blvd\, Stone Mountain\, GA
+  30083
+DESCRIPTION:🎃 周五到周日开放\,晚上还有南瓜主题激光秀(
+ 另收费)~\n费用:以官网为准\nhttps://mommypoppins.com/atlanta-kids
+ /top-halloween-events-atlanta-kids
+URL:https://mommypoppins.com/atlanta-kids/top-halloween-events-atlanta-kids
 END:VEVENT
 BEGIN:VEVENT
-UID:decatur-bbq-sat-2026-10-17@noboringweekends
-DTSTAMP:20261012T000000Z
-DTSTART:20261017T160000Z
-DTEND:20261017T220000Z
-SUMMARY:Decatur 烧烤节
-LOCATION:Harmony Park\, Harmony Park\, Oakhurst\, Decatur\, GA 30030
-DESCRIPTION:🍖 烧烤控必去!Decatur 烧烤节\n各种烧烤 现场音
- 乐 啤酒 市集\,收益捐给本地公益\n免费入场\,品尝券现场
- 买\n费用:免费\nhttps://discoveratlanta.com/event/detail/decatur-bbq-f
- estival/
-URL:https://discoveratlanta.com/event/detail/decatur-bbq-festival/
+UID:ga-aquarium-haunted-2026-10-24@noboringweekends
+DTSTAMP:20261022T000000Z
+DTSTART;VALUE=DATE:20261024
+DTEND;VALUE=DATE:20261025
+SUMMARY:佐治亚水族馆 Haunted Seas
+LOCATION:Georgia Aquarium\, 225 Baker St NW\, Atlanta\, GA 30313
+DESCRIPTION:🦈 水族馆万圣节主题\,新角色登场!\n开到 11/1\,
+ 门票以官网为准。\n费用:以官网为准\nhttps://mommypoppins.com
+ /atlanta-kids/top-halloween-events-atlanta-kids
+URL:https://mommypoppins.com/atlanta-kids/top-halloween-events-atlanta-kids
 END:VEVENT
 BEGIN:VEVENT
-UID:oktoberfeast-sat-2026-10-17@noboringweekends
-DTSTAMP:20261012T000000Z
-DTSTART:20261017T190000Z
-DTEND:20261017T230000Z
-SUMMARY:Sandy Springs OktoberFEAST 德国美食节
-LOCATION:City Springs\, 1 Galambos Way\, Sandy Springs\, GA 30328
-DESCRIPTION:🥨 德国风味周末!OktoberFEAST\n椒盐卷饼配啤酒芝
- 士、德国香肠、炸猪排、spätzle\,帐篷里听现场🎺\n免费
- 入场\,周六周日下午3-7点\n费用:免费\nhttps://www.sandyspringsg
- a.gov/feast
-URL:https://www.sandyspringsga.gov/feast
+UID:shepard-fairey-2026-10-24@noboringweekends
+DTSTAMP:20261022T000000Z
+DTSTART;VALUE=DATE:20261024
+DTEND;VALUE=DATE:20261025
+SUMMARY:Shepard Fairey 个展
+LOCATION:ABV Gallery\, ABV Gallery\, Atlanta\, GA
+DESCRIPTION:🎨 街头艺术家 Shepard Fairey(OBEY)个展!\n细节以官
+ 网为准。\n费用:以官网为准\nhttps://allevents.in/atlanta/this-we
+ ekend
+URL:https://allevents.in/atlanta/this-weekend
 END:VEVENT
 BEGIN:VEVENT
-UID:abg-goblins-sun-2026-10-18@noboringweekends
-DTSTAMP:20261012T000000Z
-DTSTART:20261018T140000Z
-DTEND:20261018T200000Z
-SUMMARY:亚特兰大植物园 Goblins in the Garden
-LOCATION:Atlanta Botanical Garden\, 1345 Piedmont Ave NE\, Atlanta\, GA 303
- 09
-DESCRIPTION:🎃 植物园秋日亲子日!\n现场表演 小火车🚂 南
- 瓜装饰\,一年一度的秋天家庭日\n💰 含在门票内\,小火车
- 另收费\;时间参考往年 10-4 点\,以官网为准\n费用:含在植
- 物园门票内\;小火车等另收费\nhttps://atlantabg.org/calendar/gob
- lins-in-the-garden/
-URL:https://atlantabg.org/calendar/goblins-in-the-garden/
+UID:battery-fall-fest-2026-10-25@noboringweekends
+DTSTAMP:20261022T000000Z
+DTSTART;VALUE=DATE:20261025
+DTEND;VALUE=DATE:20261026
+SUMMARY:The Battery 秋日节(后备箱讨糖)
+LOCATION:The Battery Atlanta\, 800 Battery Ave SE\, Atlanta\, GA 30339
+DESCRIPTION:🚗 装饰好的车和卡车发糖!\n周日\,时间以官网
+ 为准。\n费用:免费\nhttps://mommypoppins.com/atlanta-kids/free-hallo
+ ween-events-in-atlanta-with-kids
+URL:https://mommypoppins.com/atlanta-kids/free-halloween-events-in-atlanta-
+ with-kids
+END:VEVENT
+BEGIN:VEVENT
+UID:plaza-fiesta-2026-10-25@noboringweekends
+DTSTAMP:20261022T000000Z
+DTSTART;VALUE=DATE:20261025
+DTEND;VALUE=DATE:20261026
+SUMMARY:Plaza Fiesta 万圣节/亡灵节
+LOCATION:Plaza Fiesta\, 4166 Buford Hwy NE\, Atlanta\, GA 30345
+DESCRIPTION:🌼 Buford Highway 上的拉美商场亡灵节!\n糖果、服
+ 装比赛、音乐、奖品~逛完去旁边吃中餐韩餐🍜\n费用:免
+ 费\nhttps://mommypoppins.com/atlanta-kids/free-halloween-events-in-atlant
+ a-with-kids
+URL:https://mommypoppins.com/atlanta-kids/free-halloween-events-in-atlanta-
+ with-kids
 END:VEVENT
 END:VCALENDAR

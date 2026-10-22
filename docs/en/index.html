@@ -2,7 +2,7 @@
 <html lang="en"><head><meta charset="utf-8"><base href="../"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <!--seo-->
 <title>No Boring Weekends · Things to Do This Weekend in North America</title>
-<meta name="description" content="Weekend events for families and grown-ups in 15 North American cities, with Chinese and Asian community events first. Updated weekly.">
+<meta name="description" content="Weekend events for families and grown-ups in 15 North American cities, from festivals and shows to Chinese and Asian community events. Updated weekly.">
 <link rel="canonical" href="https://noboringweekends.pages.dev/en/">
 <link rel="alternate" hreflang="zh-CN" href="https://noboringweekends.pages.dev/">
 <link rel="alternate" hreflang="en" href="https://noboringweekends.pages.dev/en/">
@@ -10,14 +10,14 @@
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="No Boring Weekends">
 <meta property="og:title" content="No Boring Weekends · Things to Do This Weekend in North America">
-<meta property="og:description" content="Weekend events for families and grown-ups in 15 North American cities, with Chinese and Asian community events first. Updated weekly.">
+<meta property="og:description" content="Weekend events for families and grown-ups in 15 North American cities, from festivals and shows to Chinese and Asian community events. Updated weekly.">
 <meta property="og:url" content="https://noboringweekends.pages.dev/en/">
 <meta property="og:image" content="https://noboringweekends.pages.dev/og/default.png">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta property="og:locale" content="en_US">
 <meta name="twitter:card" content="summary_large_image">
-<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "WebSite", "@id": "https://noboringweekends.pages.dev/#website", "url": "https://noboringweekends.pages.dev/", "name": "周末不无聊", "alternateName": "No Boring Weekends", "inLanguage": ["zh-CN", "en"]}, {"@type": "WebPage", "@id": "https://noboringweekends.pages.dev/en/", "url": "https://noboringweekends.pages.dev/en/", "name": "No Boring Weekends · Things to Do This Weekend in North America", "inLanguage": "en", "dateModified": "2026-10-12", "isPartOf": {"@id": "https://noboringweekends.pages.dev/#website"}}]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "WebSite", "@id": "https://noboringweekends.pages.dev/#website", "url": "https://noboringweekends.pages.dev/", "name": "周末不无聊", "alternateName": "No Boring Weekends", "inLanguage": ["zh-CN", "en"]}, {"@type": "WebPage", "@id": "https://noboringweekends.pages.dev/en/", "url": "https://noboringweekends.pages.dev/en/", "name": "No Boring Weekends · Things to Do This Weekend in North America", "inLanguage": "en", "dateModified": "2026-10-22", "isPartOf": {"@id": "https://noboringweekends.pages.dev/#website"}}]}</script>
 <!--/seo-->
 <link rel="manifest" href="manifest.webmanifest">
 <link rel="icon" type="image/png" sizes="192x192" href="icons/icon-192.png">
@@ -243,7 +243,7 @@ var T={
   docTitle:"{c}周末去哪儿 · 周末不无聊",dealsTitle:"💸 本周末能用的免费 / 优惠",dealsAny:"随时",dealsMore:"📖 {c}免费博物馆日 & 优惠全攻略 →",share:"分享",shared:"链接已复制,发给朋友吧",
   subTitle:"📅 订阅{c}活动到日历(每周自动更新)",subApple:"Apple 日历 / Outlook",subGoogle:"Google 日历",subCopy:"复制订阅链接",subCopied:"订阅链接已复制",
   instTitle:"把「周末不无聊」装到手机上",instText:"像 App 一样从主屏幕打开,没网也能看。",instIos:"点 Safari 底部的分享按钮 ⬆️,再选「添加到主屏幕」。",instGo:"安装"},
- en:{eyebrow:"Updated every Friday",headline:"Where to go this weekend",sub:"Family and grown-up picks for your city, with Chinese and Asian community events first.",
+ en:{eyebrow:"Updated every Friday",headline:"Where to go this weekend",sub:"Family and grown-up picks for your city: festivals, shows, food, outdoors and Asian community events, in date order.",
   audAll:"Everything",audFamily:"Family",audAdult:"Grown-ups",badgeFamily:"Family",badgeAdult:"Grown-ups",badgeAll:"All ages",tbd:"See site for times",
   addrPh:"ZIP, address or city, e.g. 11354 or Edison, NJ",go:"Switch city",
   hintTz:"Picked {c} from your time zone. Enter a ZIP or address to switch to the nearest city.",
@@ -385,7 +385,7 @@ function visible(c){
     if(S.asian&&e.tier==="C")return false;
     if(S.free&&!e.free)return false;
     if(S.indoor&&!e.indoor)return false;return true})
-  .sort(function(a,b){return (a.tier>b.tier?1:a.tier<b.tier?-1:0)||a.date.localeCompare(b.date)||a.start.localeCompare(b.start)})
+  .sort(function(a,b){return (S.lang==="zh"?(a.tier>b.tier?1:a.tier<b.tier?-1:0):0)||a.date.localeCompare(b.date)||(a.start||"99").localeCompare(b.start||"99")})
 }
 function card(e,tz){
   var x=ev_text(e,S.lang),en=endOf(e),wd=WD[S.lang][dow(e.date)],p=parts(e.date);

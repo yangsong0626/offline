@@ -8,75 +8,120 @@ X-WR-TIMEZONE:America/Vancouver
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:ccm-asian-comics-sat-2026-10-17@noboringweekends
-DTSTAMP:20261012T000000Z
-DTSTART:20261017T170000Z
-DTEND:20261018T000000Z
-SUMMARY:华裔博物馆 亚洲漫画展
+UID:ccm-momentum-2026-10-24@noboringweekends
+DTSTAMP:20261022T000000Z
+DTSTART:20261024T170000Z
+DTEND:20261025T000000Z
+SUMMARY:华裔加拿大人博物馆《Momentum》体育展
 LOCATION:Chinese Canadian Museum\, 51 E Pender St\, Vancouver\, BC V6A 1S9
-DESCRIPTION:📚 带娃去唐人街看亚洲漫画展!\n伦敦 Barbican 策
- 划的大展加拿大首站\,从传统到漫画\,还有华裔加拿大艺
- 术家的“离散故事”专区✨\n周三至周日 10-5 点开放\,门
- 票以官网为准\n费用:门票以官网为准\nhttps://www.chinesecanad
- ianmuseum.ca/exhibition/asian-comics-evolution-of-an-art-form/
-URL:https://www.chinesecanadianmuseum.ca/exhibition/asian-comics-evolution-
- of-an-art-form/
+DESCRIPTION:🏀 华裔加拿大运动员的故事:足球、冰球、篮球
+ 、花滑…\n唐人街博物馆\,周三到周日 10-5 点\,展到 2027 
+ 年 9 月~\n费用:以官网为准\nhttps://www.chinesecanadianmuseum.ca/
+URL:https://www.chinesecanadianmuseum.ca/
 END:VEVENT
 BEGIN:VEVENT
-UID:yupi-festival-sat-2026-10-17@noboringweekends
-DTSTAMP:20261012T000000Z
-DTSTART;VALUE=DATE:20261017
-DTEND;VALUE=DATE:20261018
-SUMMARY:Yupi! 拉美艺术亲子节
-LOCATION:Presentation House Theatre\, 333 Chesterfield Ave\, North Vancouve
- r\, BC
-DESCRIPTION:💃 拉美艺术亲子节\,唱跳打鼓一起来!\n三天的
- 演出和手工作坊\,周日以传统嘉年华舞会收尾🥁\n适合3-1
- 2岁\,场次和票价以官网为准\n费用:以官网为准\nhttps://www.
- phtheatre.org/yupi-latin-american-arts-family-festival-oct-2026/
-URL:https://www.phtheatre.org/yupi-latin-american-arts-family-festival-oct-
- 2026/
+UID:burnaby-haunted-2026-10-23@noboringweekends
+DTSTAMP:20261022T000000Z
+DTSTART;VALUE=DATE:20261023
+DTEND;VALUE=DATE:20261024
+SUMMARY:本拿比鬼村 Haunted Village
+LOCATION:Burnaby Village Museum\, 6501 Deer Lake Ave\, Burnaby\, BC V5G 3T6
+DESCRIPTION:🎠 老村庄万圣节\,10/23-25 三天!\n需购票\,华人多
+ 的本拿比~\n费用:以官网为准\nhttps://miss604.com/2026/10/family-
+ friendly-halloween-activities-around-vancouver-2026/
+URL:https://miss604.com/2026/10/family-friendly-halloween-activities-around
+ -vancouver-2026/
 END:VEVENT
 BEGIN:VEVENT
-UID:vandusen-harvest-sat-2026-10-17@noboringweekends
-DTSTAMP:20261012T000000Z
-DTSTART:20261017T173000Z
-DTEND:20261017T233000Z
-SUMMARY:VanDusen 植物园丰收日
-LOCATION:VanDusen Botanical Garden\, 5251 Oak St\, Vancouver\, BC V6M 4H1
-DESCRIPTION:🌻 VanDusen 植物园丰收日!\n现场音乐🎶 脸绘 手
- 工 还有花园迷宫\,秋天的植物园美到犯规🍂\n💰 含在门
- 票内\,分时段入场\;周日也有\n费用:含在植物园门票内(成
- 人约 C$13-16)\,以官网为准\nhttps://vancouver.ca/parks-recreation-cu
- lture/harvest-days.aspx
-URL:https://vancouver.ca/parks-recreation-culture/harvest-days.aspx
+UID:pne-fright-nights-2026-10-23@noboringweekends
+DTSTAMP:20261022T000000Z
+DTSTART;VALUE=DATE:20261023
+DTEND;VALUE=DATE:20261024
+SUMMARY:PNE 惊魂夜 Fright Nights
+LOCATION:Playland at the PNE\, 2901 E Hastings St\, Vancouver\, BC V5K 5J1
+DESCRIPTION:😱 鬼屋+游乐设施\,适合大孩子和大人!需购票。
+ \n费用:以官网为准\nhttps://604now.com/things-to-do-in-metro-vancouv
+ er-this-weekend-oct-23-25/
+URL:https://604now.com/things-to-do-in-metro-vancouver-this-weekend-oct-23-
+ 25/
 END:VEVENT
 BEGIN:VEVENT
-UID:ubc-apple-sat-2026-10-17@noboringweekends
-DTSTAMP:20261012T000000Z
-DTSTART:20261017T180000Z
-DTEND:20261017T230000Z
-SUMMARY:UBC 苹果节(第35届\,周六)
-LOCATION:UBC Botanical Garden\, 6804 SW Marine Dr\, Vancouver\, BC V6T 1Z4
-DESCRIPTION:🍎 温哥华人的秋天仪式感:UBC 苹果节!\n第35届\,
- 在植物园里尝各种苹果\,风雨无阻🌧️\n💰 网购 C$15\,7
- 岁及以下免费(也要领 $0 票)⚠️ 经常卖光\,赶紧订\n费用
- :网购 C$15(8-64岁)\,7岁及以下免费但需领 $0 票\;品尝帐篷
- 另加 C$12\nhttps://botanicalgarden.ubc.ca/apple-festival/
-URL:https://botanicalgarden.ubc.ca/apple-festival/
+UID:monova-ghostly-2026-10-24@noboringweekends
+DTSTAMP:20261022T000000Z
+DTSTART:20261025T003000Z
+DTEND:20261025T023000Z
+SUMMARY:北温博物馆幽灵画廊(周六/日)
+LOCATION:MONOVA: Museum of North Vancouver\, 115 W Esplanade\, North Vancou
+ ver\, BC V7M 1A3
+DESCRIPTION:👻 博物馆夜间万圣节\,周六周日傍晚~\n费用:以
+ 官网为准\nhttps://healthyfamilyliving.com/halloween-activities-vancouv
+ er/
+URL:https://healthyfamilyliving.com/halloween-activities-vancouver/
 END:VEVENT
 BEGIN:VEVENT
-UID:ubc-apple-sun-2026-10-18@noboringweekends
-DTSTAMP:20261012T000000Z
-DTSTART:20261018T180000Z
-DTEND:20261018T230000Z
-SUMMARY:UBC 苹果节(第35届\,周日)
-LOCATION:UBC Botanical Garden\, 6804 SW Marine Dr\, Vancouver\, BC V6T 1Z4
-DESCRIPTION:🍏 周日还能去 UBC 苹果节!\n品尝帐篷分时段入
- 场(最后一场 3:30)\,想吃遍各种苹果记得一起订🍎\n💰 网
- 购 C$15\,7岁及以下免费(需 $0 票)\;停车建议 Thunderbird Parkad
- e\n费用:网购 C$15(8-64岁)\,7岁及以下免费但需领 $0 票\;品
- 尝帐篷另加 C$12\nhttps://botanicalgarden.ubc.ca/apple-festival/
-URL:https://botanicalgarden.ubc.ca/apple-festival/
+UID:celebrate-the-night-2026-10-24@noboringweekends
+DTSTAMP:20261022T000000Z
+DTSTART;VALUE=DATE:20261024
+DTEND;VALUE=DATE:20261025
+SUMMARY:枫树岭万圣夜+烟花
+LOCATION:Memorial Peace Park\, Memorial Peace Park\, Maple Ridge\, BC
+DESCRIPTION:🎆 游戏、手工、南瓜、现场表演\,最后还有烟
+ 花!免费。\n费用:免费\nhttps://miss604.com/2026/10/family-friendly-
+ halloween-activities-around-vancouver-2026/
+URL:https://miss604.com/2026/10/family-friendly-halloween-activities-around
+ -vancouver-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:canyon-frights-2026-10-24@noboringweekends
+DTSTAMP:20261022T000000Z
+DTSTART;VALUE=DATE:20261024
+DTEND;VALUE=DATE:20261025
+SUMMARY:卡皮拉诺吊桥 Canyon Frights
+LOCATION:Capilano Suspension Bridge Park\, 3735 Capilano Rd\, North Vancouv
+ er\, BC V7R 4J1
+DESCRIPTION:🌲 雨林夜间万圣节灯光步道\,不太吓人!\n开到 1
+ 1/1\,需购票。\n费用:以官网为准\nhttps://www.todocanada.ca/hallo
+ ween-vancouver-halloween-haunts-family-fun-adult-parties/
+URL:https://www.todocanada.ca/halloween-vancouver-halloween-haunts-family-f
+ un-adult-parties/
+END:VEVENT
+BEGIN:VEVENT
+UID:writers-fest-2026-10-24@noboringweekends
+DTSTAMP:20261022T000000Z
+DTSTART;VALUE=DATE:20261024
+DTEND;VALUE=DATE:20261025
+SUMMARY:温哥华作家节
+LOCATION:Granville Island\, Granville Island\, Vancouver\, BC
+DESCRIPTION:📚 作家对谈+朗读会\,周六周日\,票务以官网为
+ 准。\n费用:以官网为准\nhttps://nomsmagazine.com/things-to-do-in-v
+ ancouver-this-weekend-october-23-to-25-2026/
+URL:https://nomsmagazine.com/things-to-do-in-vancouver-this-weekend-october
+ -23-to-25-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:jon-and-roy-2026-10-24@noboringweekends
+DTSTAMP:20261022T000000Z
+DTSTART;VALUE=DATE:20261024
+DTEND;VALUE=DATE:20261025
+SUMMARY:Jon and Roy 音乐会
+LOCATION:Hollywood Theatre\, 3123 W Broadway\, Vancouver\, BC V6K 2H2
+DESCRIPTION:🎶 本地民谣乐队 Jon and Roy\,$44 起。\n费用:$44 起
+ \nhttps://nomsmagazine.com/things-to-do-in-vancouver-this-weekend-october-
+ 23-to-25-2026/
+URL:https://nomsmagazine.com/things-to-do-in-vancouver-this-weekend-october
+ -23-to-25-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:salmon-come-home-2026-10-25@noboringweekends
+DTSTAMP:20261022T000000Z
+DTSTART;VALUE=DATE:20261025
+DTEND;VALUE=DATE:20261026
+SUMMARY:高贵林看三文鱼回游
+LOCATION:Hoy Creek Linear Park\, Hoy Creek Linear Park\, Coquitlam\, BC
+DESCRIPTION:🐟 带娃看三文鱼逆流回家产卵!\nHoy Creek 是最佳
+ 观赏点之一\,免费。\n费用:免费\nhttps://nomsmagazine.com/things
+ -to-do-in-vancouver-this-weekend-october-23-to-25-2026/
+URL:https://nomsmagazine.com/things-to-do-in-vancouver-this-weekend-october
+ -23-to-25-2026/
 END:VEVENT
 END:VCALENDAR

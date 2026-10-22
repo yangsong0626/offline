@@ -8,115 +8,117 @@ X-WR-TIMEZONE:America/New_York
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:lanterns-sat-2026-10-17@noboringweekends
-DTSTAMP:20261012T000000Z
-DTSTART:20261017T170000Z
-DTEND:20261017T220000Z
-SUMMARY:月亮到河流灯笼节
-LOCATION:Mass Audubon Magazine Beach Park Nature Center\, 668 Memorial Dr\,
-  Cambridge\, MA 02139
-DESCRIPTION:🏮 月亮到河流灯笼节\,中秋氛围拉满!\n剑桥艺
- 术家 Zhonghe Elena Li 带着大家做灯笼✨ 做好还能一起游行\
- n免费\,和娃一起提灯走一走\,太有仪式感了\n费用:免费\nh
- ttps://www.thebostoncalendar.com/events/lanterns-from-moon-to-river-festiv
- al
-URL:https://www.thebostoncalendar.com/events/lanterns-from-moon-to-river-fe
- stival
+UID:baaff-2026-10-24@noboringweekends
+DTSTAMP:20261022T000000Z
+DTSTART;VALUE=DATE:20261024
+DTEND;VALUE=DATE:20261025
+SUMMARY:波士顿亚裔美国电影节(收官)
+LOCATION:Emerson Paramount Center\, 559 Washington St\, Boston\, MA 02111
+DESCRIPTION:🎬 第 18 届波士顿亚裔美国电影节本周末收官!\n
+ 周六有短片专场\,就在中国城旁边\,看完去吃个宵夜🍜 
+ 片单以官网为准。\n费用:以官网为准\nhttps://baaff.org/
+URL:https://baaff.org/
 END:VEVENT
 BEGIN:VEVENT
-UID:falloween-fri-2026-10-16@noboringweekends
-DTSTAMP:20261012T000000Z
-DTSTART:20261016T200000Z
-DTEND:20261017T000000Z
-SUMMARY:Fall-o-Ween 儿童万圣节庆典
-LOCATION:Boston Common Frog Pond\, Boston Common\, Charles St & Beacon St\,
-  Boston\, MA 02108
-DESCRIPTION:👻 Fall-o-Ween 儿童万圣节庆典\,周五就开玩!\n障
- 碍赛 滑梯 手工 音乐 魔术表演🎩 波士顿公园局主办\n鼓
- 励穿万圣节服装来~免费!\n费用:免费\nhttps://www.boston.gov/ca
- lendar/fall-o-ween-childrens-festival-2026
-URL:https://www.boston.gov/calendar/fall-o-ween-childrens-festival-2026
+UID:stone-zoo-lanterns-2026-10-23@noboringweekends
+DTSTAMP:20261022T000000Z
+DTSTART:20261023T213000Z
+DTEND:20261024T013000Z
+SUMMARY:Stone 动物园南瓜灯之夜
+LOCATION:Stone Zoo\, 149 Pond St\, Stoneham\, MA 02180
+DESCRIPTION:🎃 夜晚南瓜灯展\,周四到周日都开!\n晚 5:30-9:30\
+ ,需购票。\n费用:以官网为准\nhttps://www.zoonewengland.org/
+URL:https://www.zoonewengland.org/
 END:VEVENT
 BEGIN:VEVENT
-UID:head-of-charles-sat-2026-10-17@noboringweekends
-DTSTAMP:20261012T000000Z
-DTSTART:20261017T120000Z
-DTEND:20261017T203000Z
-SUMMARY:Head of the Charles 查尔斯河划艇赛
-LOCATION:Charles River\, Weeks Footbridge\, Cambridge\, MA 02138
-DESCRIPTION:🚣 全世界最大的三日划艇赛\,秋天波士顿名场
- 面!\n约1.2万名选手\,站在 Weeks 桥上看最热闹\,河边秋色超
- 美🍂\n免费观赛\,建议坐红线到 Harvard 站\n费用:免费\nhttp
- s://www.meetboston.com/events/festivals-and-special-events/head-of-the-cha
- rles/
-URL:https://www.meetboston.com/events/festivals-and-special-events/head-of-
- the-charles/
+UID:affordable-art-fair-2026-10-23@noboringweekends
+DTSTAMP:20261022T000000Z
+DTSTART;VALUE=DATE:20261023
+DTEND;VALUE=DATE:20261024
+SUMMARY:平价艺术博览会
+LOCATION:SoWa Power Station\, 550 Harrison Ave\, Boston\, MA 02118
+DESCRIPTION:🖼️ 55+ 画廊、上千件原作\,平价买艺术!\n10/22-2
+ 5\,票价以官网为准。\n费用:以官网为准\nhttps://wbur.org/news
+ /2026/10/21/weekend-affordable-art-fair-the-boston-asian-american-film-fes
+ tival
+URL:https://wbur.org/news/2026/10/21/weekend-affordable-art-fair-the-boston
+ -asian-american-film-festival
 END:VEVENT
 BEGIN:VEVENT
-UID:boston-book-festival-sat-2026-10-17@noboringweekends
-DTSTAMP:20261012T000000Z
-DTSTART:20261017T140000Z
-DTEND:20261017T220000Z
-SUMMARY:波士顿书展
-LOCATION:Copley Square\, Copley Square\, Boston\, MA 02116
-DESCRIPTION:📚 第18届波士顿书展\,书虫的年度狂欢!\n200多位
- 作家、80多场活动\,Copley 广场户外书市风雨无阻\n免费\n
- 费用:免费\nhttps://bostonbookfest.org/
-URL:https://bostonbookfest.org/
+UID:jim-gaffigan-2026-10-23@noboringweekends
+DTSTAMP:20261022T000000Z
+DTSTART;VALUE=DATE:20261023
+DTEND;VALUE=DATE:20261024
+SUMMARY:Jim Gaffigan 脱口秀(周五/六)
+LOCATION:Boch Center Wang Theatre\, 270 Tremont St\, Boston\, MA 02116
+DESCRIPTION:😂 Jim Gaffigan 波士顿两晚!\n票务以官网为准。\n
+ 费用:以官网为准\nhttps://www.bostonmagazine.com/things-to-do/weeken
+ d/
+URL:https://www.bostonmagazine.com/things-to-do/weekend/
 END:VEVENT
 BEGIN:VEVENT
-UID:pumpkinfest-sat-2026-10-17@noboringweekends
-DTSTAMP:20261012T000000Z
-DTSTART:20261017T150000Z
-DTEND:20261017T190000Z
-SUMMARY:波士顿自然中心南瓜节
-LOCATION:Boston Nature Center\, 500 Walk Hill St\, Mattapan\, MA 02126
-DESCRIPTION:🎃 波士顿自然中心南瓜节!\n雕一个南瓜带回家 
- + 秋季寻宝 + 游戏\,还能涨涨南瓜历史小知识\n💰 $15(会
- 员 $12)\n费用:$15（会员 $12）\nhttps://www.massaudubon.org/programs
- /boston-nature-center/104001-pumpkin-fest
-URL:https://www.massaudubon.org/programs/boston-nature-center/104001-pumpki
- n-fest
+UID:drumlin-fall-o-ween-2026-10-24@noboringweekends
+DTSTAMP:20261022T000000Z
+DTSTART:20261024T130000Z
+DTEND:20261024T210000Z
+SUMMARY:Drumlin 农场秋日万圣节
+LOCATION:Mass Audubon Drumlin Farm\, 208 S Great Rd\, Lincoln\, MA 01773
+DESCRIPTION:🚜 干草车+「小怪物豪宅」+手工游戏!\n农场万
+ 圣节\,全天开放\,票务以官网为准。\n费用:以官网为准\nht
+ tps://mommypoppins.com/best-halloween-events-and-activities-in-boston-for-
+ kids-and-families
+URL:https://mommypoppins.com/best-halloween-events-and-activities-in-boston
+ -for-kids-and-families
 END:VEVENT
 BEGIN:VEVENT
-UID:farmday-sat-2026-10-17@noboringweekends
-DTSTAMP:20261012T000000Z
-DTSTART:20261017T170000Z
-DTEND:20261017T200000Z
-SUMMARY:Waltham Fields 农场日
-LOCATION:Waltham Fields Community Farm\, 240 Beaver St\, Waltham\, MA 02452
-DESCRIPTION:🥕 Waltham Fields 农场日\,第16届啦!\n音乐 游戏 自
- 己拔胡萝卜 还有烘焙义卖🧁\n免费\,城市娃的田园体验
- 课~\n费用:免费\nhttps://www.thebostoncalendar.com/events/farm-day-202
- 6
-URL:https://www.thebostoncalendar.com/events/farm-day-2026
+UID:cider-hill-halloween-2026-10-24@noboringweekends
+DTSTAMP:20261022T000000Z
+DTSTART;VALUE=DATE:20261024
+DTEND;VALUE=DATE:20261025
+SUMMARY:Cider Hill 农场甜蜜万圣节(周六/日)
+LOCATION:Cider Hill Farm\, 45 Fern Ave\, Amesbury\, MA 01913
+DESCRIPTION:🍎 农场讨糖+拖拉机+服装比赛+现场音乐!\n需购
+ 票\,周六周日都有。\n费用:以官网为准\nhttps://mommypoppins.c
+ om/best-halloween-events-and-activities-in-boston-for-kids-and-families
+URL:https://mommypoppins.com/best-halloween-events-and-activities-in-boston
+ -for-kids-and-families
 END:VEVENT
 BEGIN:VEVENT
-UID:bcm-sun-2026-10-18@noboringweekends
-DTSTAMP:20261012T000000Z
-DTSTART:20261018T130000Z
-DTEND:20261018T200000Z
-SUMMARY:波士顿儿童博物馆
-LOCATION:Boston Children's Museum\, 308 Congress St\, Boston\, MA 02210
-DESCRIPTION:🧩 波士顿儿童博物馆\,放电+益智一站搞定!\n互
- 动式儿童博物馆\,周日是 Boston Family Days\n💰 $24/人(1岁以
- 下免费)⚠️ 建议预约\n费用:$24/人（1岁以下免费）\nhttps
- ://www.bostonchildrensmuseum.org/visit/
-URL:https://www.bostonchildrensmuseum.org/visit/
+UID:pet-parade-2026-10-24@noboringweekends
+DTSTAMP:20261022T000000Z
+DTSTART;VALUE=DATE:20261024
+DTEND;VALUE=DATE:20261025
+SUMMARY:市中心狗狗万圣节游行
+LOCATION:Downtown Crossing\, Washington St & Summer St\, Boston\, MA 02108
+DESCRIPTION:🐕 毛孩子们的万圣节服装游行!\n看狗狗比看人
+ 还开心\,时间以官网为准。\n费用:以官网为准\nhttps://www.m
+ eetboston.com/blog/post/this-weekend/
+URL:https://www.meetboston.com/blog/post/this-weekend/
 END:VEVENT
 BEGIN:VEVENT
-UID:loosecaboose-sun-2026-10-18@noboringweekends
-DTSTAMP:20261012T000000Z
-DTSTART:20261018T143000Z
-DTEND:20261018T151500Z
-SUMMARY:木偶剧《失控的守车》
-LOCATION:Puppet Showplace Theater\, 32 Station St\, Brookline\, MA 02445
-DESCRIPTION:🎭 45分钟互动木偶剧《失控的守车》!\n手偶 卷
- 轴画 现场音乐🎶 3-7岁小朋友超容易入迷(英语演出)\n💰
-  $18.50 起(另加 $3 服务费)\,还有13:00场\n费用:$18.50 起（另
- 加 $3 服务费）\nhttps://www.puppetshowplace.org/calendar/2026/10/18/t
- he-loose-caboose-by-harry-lacoste
-URL:https://www.puppetshowplace.org/calendar/2026/10/18/the-loose-caboose-b
- y-harry-lacoste
+UID:pruboo-2026-10-25@noboringweekends
+DTSTAMP:20261022T000000Z
+DTSTART:20261025T150000Z
+DTEND:20261025T170000Z
+SUMMARY:保诚中心 PruBoo 万圣节
+LOCATION:Prudential Center\, 800 Boylston St\, Boston\, MA 02199
+DESCRIPTION:🍭 室内讨糖+脸绘+魔术表演!\n下雨也不怕\,周日
+ 上午 11 点到 1 点。\n费用:免费\nhttps://www.meetboston.com/blog/
+ post/this-weekend/
+URL:https://www.meetboston.com/blog/post/this-weekend/
+END:VEVENT
+BEGIN:VEVENT
+UID:esplanade-fall-fest-2026-10-25@noboringweekends
+DTSTAMP:20261022T000000Z
+DTSTART;VALUE=DATE:20261025
+DTEND;VALUE=DATE:20261026
+SUMMARY:查尔斯河滨秋日节
+LOCATION:Charles River Esplanade\, Charles River Esplanade\, Boston\, MA
+DESCRIPTION:🍂 河边秋日节:5K 跑、散步、狗狗服装比赛🐶\n
+ 还有美食和秋季活动\,细节以官网为准。\n费用:以官网为
+ 准\nhttps://wbur.org/news/2026/10/21/weekend-affordable-art-fair-the-bost
+ on-asian-american-film-festival
+URL:https://wbur.org/news/2026/10/21/weekend-affordable-art-fair-the-boston
+ -asian-american-film-festival
 END:VEVENT
 END:VCALENDAR
