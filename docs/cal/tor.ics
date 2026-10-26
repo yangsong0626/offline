@@ -8,112 +8,80 @@ X-WR-TIMEZONE:America/Toronto
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:tallest-man-2026-10-23@noboringweekends
-DTSTAMP:20261022T000000Z
-DTSTART:20261023T230000Z
-DTEND:20261024T010000Z
-SUMMARY:The Tallest Man on Earth 音乐会
-LOCATION:Massey Hall\, 178 Victoria St\, Toronto\, ON M5B 1T7
-DESCRIPTION:🎸 瑞典民谣歌手 Massey Hall 演出!票务以官网为
- 准。\n费用:以官网为准\nhttps://onestowatch.com/live/toronto-weeke
- nd-october-23/
-URL:https://onestowatch.com/live/toronto-weekend-october-23/
-END:VEVENT
-BEGIN:VEVENT
-UID:casa-loma-horror-2026-10-23@noboringweekends
-DTSTAMP:20261022T000000Z
-DTSTART;VALUE=DATE:20261023
-DTEND;VALUE=DATE:20261024
-SUMMARY:卡萨罗马城堡恐怖传说
-LOCATION:Casa Loma\, 1 Austin Terrace\, Toronto\, ON M5R 1X8
-DESCRIPTION:🏰 城堡夜间恐怖步道\,大孩子和大人专属!\n开
- 到 10/31\,需购票。\n费用:以官网为准\nhttps://www.blogto.com/ra
- dar/2026/10/things-do-toronto-weekend-october-24/
-URL:https://www.blogto.com/radar/2026/10/things-do-toronto-weekend-october-
- 24/
-END:VEVENT
-BEGIN:VEVENT
-UID:cocktail-gala-2026-10-23@noboringweekends
-DTSTAMP:20261022T000000Z
-DTSTART;VALUE=DATE:20261023
-DTEND;VALUE=DATE:20261024
-SUMMARY:多伦多鸡尾酒节晚会
-LOCATION:Various venues\, Toronto\, Toronto\, ON
-DESCRIPTION:🍸 鸡尾酒节周五晚会!\n每晚合作酒吧还有免费 
- happy hour。\n费用:以官网为准\nhttps://onestowatch.com/live/toront
- o-weekend-october-23/
-URL:https://onestowatch.com/live/toronto-weekend-october-23/
-END:VEVENT
-BEGIN:VEVENT
-UID:ttc-halloween-2026-10-24@noboringweekends
-DTSTAMP:20261022T000000Z
-DTSTART:20261024T140000Z
-DTEND:20261024T230000Z
-SUMMARY:TTC 巴士车库万圣节
-LOCATION:TTC Danforth Garage\, 1627 Danforth Ave\, Toronto\, ON M4C 1H8
-DESCRIPTION:🚌 巴士车库变鬼屋!\n儿童活动+讨糖\,周六 10-7 
- 点\,周日 9-4 点\,$7。\n费用:$7\,2岁以下免费\nhttps://childslif
- e.ca/2026-halloween-events-guide-for-families/
-URL:https://childslife.ca/2026-halloween-events-guide-for-families/
-END:VEVENT
-BEGIN:VEVENT
-UID:toronto-zoo-boo-2026-10-24@noboringweekends
-DTSTAMP:20261022T000000Z
-DTSTART:20261024T150000Z
-DTEND:20261024T180000Z
-SUMMARY:多伦多动物园 Boo at the Zoo(周六/日)
+UID:toronto-zoo-boo2-2026-10-31@noboringweekends
+DTSTAMP:20261026T000000Z
+DTSTART:20261031T150000Z
+DTEND:20261031T180000Z
+SUMMARY:多伦多动物园 Boo at the Zoo
 LOCATION:Toronto Zoo\, 2000 Meadowvale Rd\, Toronto\, ON M1B 5K7
-DESCRIPTION:🐘 士嘉堡动物园万圣节!\n含在门票里\,12 岁以
- 下穿服装有优惠(以官网为准)。\n费用:含在门票内\nhttps:/
- /childslife.ca/2026-halloween-events-guide-for-families/
+DESCRIPTION:🐘 士嘉堡动物园万圣节当天\,含在门票里~\n费
+ 用:含在门票内\nhttps://childslife.ca/2026-halloween-events-guide-for
+ -families/
 URL:https://childslife.ca/2026-halloween-events-guide-for-families/
 END:VEVENT
 BEGIN:VEVENT
-UID:black-creek-halloween-2026-10-24@noboringweekends
-DTSTAMP:20261022T000000Z
-DTSTART:20261024T150000Z
-DTEND:20261024T200000Z
-SUMMARY:Black Creek 先民村万圣节(周六/日)
+UID:black-creek2-2026-10-31@noboringweekends
+DTSTAMP:20261026T000000Z
+DTSTART:20261031T150000Z
+DTEND:20261031T200000Z
+SUMMARY:Black Creek 先民村万圣节
 LOCATION:Black Creek Pioneer Village\, 1000 Murray Ross Pkwy\, North York\,
   ON M3J 2P3
-DESCRIPTION:🏚️ 19 世纪老村庄过万圣节!\n周六周日上午 11 
- 点到下午 4 点。\n费用:以官网为准\nhttps://childslife.ca/2026-
- halloween-events-guide-for-families/
+DESCRIPTION:🏚️ 在老房子之间讨糖\,建议提前买票。\n费用
+ :以官网为准\nhttps://childslife.ca/2026-halloween-events-guide-for-fa
+ milies/
 URL:https://childslife.ca/2026-halloween-events-guide-for-families/
 END:VEVENT
 BEGIN:VEVENT
-UID:good-mourning-2026-10-24@noboringweekends
-DTSTAMP:20261022T000000Z
-DTSTART;VALUE=DATE:20261024
-DTEND;VALUE=DATE:20261025
-SUMMARY:Evergreen Brick Works「A Good Mourning」节(周六/日)
-LOCATION:Evergreen Brick Works\, 550 Bayview Ave\, Toronto\, ON M4W 3X8
-DESCRIPTION:🕯️ 关于纪念与告别的温柔文化节\,免费!\n砖
- 厂公园秋景也超美🍁\n费用:免费\nhttps://onestowatch.com/live/
- toronto-weekend-october-23/
-URL:https://onestowatch.com/live/toronto-weekend-october-23/
+UID:wonderland-tricks-2026-10-31@noboringweekends
+DTSTAMP:20261026T000000Z
+DTSTART:20261031T150000Z
+DTEND:20261031T210000Z
+SUMMARY:加拿大奇幻乐园 Tricks & Treats
+LOCATION:Canada's Wonderland\, 1 Canada's Wonderland Dr\, Vaughan\, ON L6A 
+ 1S6
+DESCRIPTION:🎢 白天亲子万圣节\,开到 11/1\,含在门票里。\n
+ 费用:含在门票内\nhttps://childslife.ca/2026-halloween-events-guide-
+ for-families/
+URL:https://childslife.ca/2026-halloween-events-guide-for-families/
 END:VEVENT
 BEGIN:VEVENT
-UID:riverside-halloween-2026-10-25@noboringweekends
-DTSTAMP:20261022T000000Z
-DTSTART:20261025T150000Z
-DTEND:20261025T190000Z
-SUMMARY:Riverside 万圣节
-LOCATION:Riverside\, Queen St E\, Toronto\, ON
-DESCRIPTION:🎃 画南瓜、糖果、DJ、脸绘\,免费!周日 11-3 点
- 。\n费用:免费\nhttps://www.familyfuncanada.com/toronto/halloween/
-URL:https://www.familyfuncanada.com/toronto/halloween/
+UID:casa-loma-family-2026-10-31@noboringweekends
+DTSTAMP:20261026T000000Z
+DTSTART:20261031T210000Z
+DTEND:20261031T223000Z
+SUMMARY:卡萨罗马城堡恐怖传说(家庭场)
+LOCATION:Casa Loma\, 1 Austin Terrace\, Toronto\, ON M5R 1X8
+DESCRIPTION:🏰 最后一晚!5-6:30 家庭场比较不吓人\,需购票。
+ \n费用:以官网为准\nhttps://www.destinationtoronto.com/leisure-blog/
+ post/halloween-attractions-events-toronto/
+URL:https://www.destinationtoronto.com/leisure-blog/post/halloween-attracti
+ ons-events-toronto/
 END:VEVENT
 BEGIN:VEVENT
-UID:pedestrian-sundays-2026-10-25@noboringweekends
-DTSTAMP:20261022T000000Z
-DTSTART;VALUE=DATE:20261025
-DTEND;VALUE=DATE:20261026
-SUMMARY:肯辛顿市场步行街(本季收官)
-LOCATION:Kensington Market\, Augusta Ave\, Toronto\, ON M5T
-DESCRIPTION:🎶 肯辛顿步行街本季最后一次!\n美食、诗歌、
- 舞蹈、艺术市集\,紧挨唐人街~\n费用:免费\nhttps://onestowatc
- h.com/live/toronto-weekend-october-23/
-URL:https://onestowatch.com/live/toronto-weekend-october-23/
+UID:church-st-2026-10-31@noboringweekends
+DTSTAMP:20261026T000000Z
+DTSTART:20261031T220000Z
+DTEND:20261101T000000Z
+SUMMARY:Church Street 万圣节街头派对
+LOCATION:Church Street\, Church St\, Toronto\, ON
+DESCRIPTION:🎭 6 点开始还算亲子友好\,越晚越狂欢~\n费用:
+ 免费\nhttps://www.destinationtoronto.com/leisure-blog/post/halloween-att
+ ractions-events-toronto/
+URL:https://www.destinationtoronto.com/leisure-blog/post/halloween-attracti
+ ons-events-toronto/
+END:VEVENT
+BEGIN:VEVENT
+UID:sankofa-spook-2026-10-31@noboringweekends
+DTSTAMP:20261026T000000Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:Sankofa 广场万圣节
+LOCATION:Sankofa Square\, 1 Dundas St E\, Toronto\, ON M5B 2R8
+DESCRIPTION:👻 捉鬼敢死队+Bluey 和 Bingo 见面会\,免费!\n费用
+ :免费\nhttps://www.todocanada.ca/Halloween-Activities-Events-in-Toronto-
+ GTA-for-Kids/
+URL:https://www.todocanada.ca/Halloween-Activities-Events-in-Toronto-GTA-fo
+ r-Kids/
 END:VEVENT
 END:VCALENDAR

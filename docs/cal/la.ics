@@ -8,147 +8,117 @@ X-WR-TIMEZONE:America/Los_Angeles
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:cam-1871-2026-10-24@noboringweekends
-DTSTAMP:20261022T000000Z
-DTSTART:20261025T020000Z
-DTEND:20261025T040000Z
-SUMMARY:1871 年洛杉矶华人屠杀 155 周年纪念
-LOCATION:Chinese American Museum\, 425 N Los Angeles St\, Los Angeles\, CA 
- 90012
-DESCRIPTION:🕯️ 华美博物馆纪念 1871 年洛杉矶华人屠杀 155
-  周年。\n悼念 18 位遇难者\,回看这段历史。现场和线上
- 都可参加\,细节以官网为准。\n费用:以官网为准\nhttps://ca
- mla.org/
-URL:https://camla.org/
+UID:haunted-little-tokyo-2026-10-31@noboringweekends
+DTSTAMP:20261026T000000Z
+DTSTART:20261031T230000Z
+DTEND:20261101T070000Z
+SUMMARY:小东京万圣节街区派对(21+)
+LOCATION:Little Tokyo (location revealed on RSVP)\, Little Tokyo\, Los Ange
+ les\, CA 90012
+DESCRIPTION:🏮 第十届小东京万圣节派对!\n服装比赛、美食
+ 摊、现场音乐\,21+。地点 RSVP 后才公布\,10/30 晚截止报名
+ ⏰\n费用:免费\,需 RSVP\nhttps://thesource.metro.net/go-metro-to-the-
+ best-halloween-events-in-los-angeles-this-october-november/
+URL:https://thesource.metro.net/go-metro-to-the-best-halloween-events-in-lo
+ s-angeles-this-october-november/
 END:VEVENT
 BEGIN:VEVENT
-UID:janm-hello-maggie-2026-10-24@noboringweekends
-DTSTAMP:20261022T000000Z
-DTSTART:20261024T230000Z
-DTEND:20261025T003000Z
-SUMMARY:日裔美国人博物馆:动画师 Willie Ito 放映对谈
-LOCATION:Japanese American National Museum\, 100 N Central Ave\, Los Angele
- s\, CA 90012
-DESCRIPTION:🎬 小东京放映+对谈!\n传奇日裔动画师 Willie Ito 
- 亲临分享🎨 博物馆正在翻修\,时间地点以官网为准。\n
- 费用:以官网为准\nhttps://www.janm.org/events
-URL:https://www.janm.org/events
+UID:godzilla-little-tokyo-2026-10-31@noboringweekends
+DTSTAMP:20261026T000000Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:哥斯拉入侵小东京快闪店
+LOCATION:Little Tokyo\, Little Tokyo\, Los Angeles\, CA 90012
+DESCRIPTION:🦖 哥斯拉快闪店 10/31 开张\,开到 11/15(周二休息
+ )!\n怪兽迷冲\,细节以官网为准。\n费用:以官网为准\nhttps:
+ //www.ttdila.com/2026/10/godzilla-invades-little-tokyo-oct-31st.html
+URL:https://www.ttdila.com/2026/10/godzilla-invades-little-tokyo-oct-31st.h
+ tml
 END:VEVENT
 BEGIN:VEVENT
-UID:scarium-2026-10-23@noboringweekends
-DTSTAMP:20261022T000000Z
-DTSTART:20261024T013000Z
-DTEND:20261024T040000Z
-SUMMARY:太平洋水族馆 Scarium 家庭夜
-LOCATION:Aquarium of the Pacific\, 100 Aquarium Way\, Long Beach\, CA 90802
-DESCRIPTION:🐙 晚上逛水族馆+万圣节!\n周五晚 6:30-9 点\,穿
- 服装来跟鲨鱼合影🦈\n费用:$30.95\,会员 $20.95\,3岁以下免
- 费\nhttps://www.aquariumofpacific.org/
-URL:https://www.aquariumofpacific.org/
+UID:la-comic-con-2026-10-30@noboringweekends
+DTSTAMP:20261026T000000Z
+DTSTART;VALUE=DATE:20261030
+DTEND;VALUE=DATE:20261031
+SUMMARY:洛杉矶动漫展 L.A. Comic Con(15 周年)
+LOCATION:Los Angeles Convention Center\, 1201 S Figueroa St\, Los Angeles\,
+  CA 90015
+DESCRIPTION:🦸 15 周年动漫展\,10/30-11/1 三天!cosplay 爱好者冲
+ \,票务以官网为准。\n费用:以官网为准\nhttps://onestowatch.co
+ m/live/los-angeles-halloween-weekend-events/
+URL:https://onestowatch.com/live/los-angeles-halloween-weekend-events/
 END:VEVENT
 BEGIN:VEVENT
-UID:bluey-pantages-2026-10-23@noboringweekends
-DTSTAMP:20261022T000000Z
-DTSTART;VALUE=DATE:20261023
-DTEND;VALUE=DATE:20261024
-SUMMARY:《布鲁伊》舞台剧 Bluey's Big Play
-LOCATION:Hollywood Pantages Theatre\, 6233 Hollywood Blvd\, Los Angeles\, C
- A 90028
-DESCRIPTION:🐶 Bluey 来好莱坞啦!\n10/23-25 连演三天\,小朋友
- 的心头好\,场次票价以官网为准。\n费用:以官网为准\nhttp
- s://www.discoverlosangeles.com/things-to-do/the-best-things-to-do-in-la-th
- is-weekend
-URL:https://www.discoverlosangeles.com/things-to-do/the-best-things-to-do-i
- n-la-this-weekend
-END:VEVENT
-BEGIN:VEVENT
-UID:la-zoo-boo-2026-10-24@noboringweekends
-DTSTAMP:20261022T000000Z
-DTSTART:20261024T170000Z
-DTEND:20261024T190000Z
-SUMMARY:洛杉矶动物园 Boo at the Zoo(周六/日)
+UID:la-zoo-boo2-2026-10-31@noboringweekends
+DTSTAMP:20261026T000000Z
+DTSTART:20261031T170000Z
+DTEND:20261031T190000Z
+SUMMARY:洛杉矶动物园 Boo at the Zoo(最后周末)
 LOCATION:Los Angeles Zoo\, 5333 Zoo Dr\, Los Angeles\, CA 90027
-DESCRIPTION:🦓 动物园万圣节第一个周末!\n讨糖站+木偶剧\,
- 含在门票里\,建议提前买票🎟️\n费用:含在门票内\nhttps:
- //www.lazoo.org/
+DESCRIPTION:🦓 讨糖站、画南瓜、木偶剧\,最后一个周末!含
+ 在门票里。\n费用:含在门票内\nhttps://www.lazoo.org/
 URL:https://www.lazoo.org/
 END:VEVENT
 BEGIN:VEVENT
-UID:descanso-carved-2026-10-24@noboringweekends
-DTSTAMP:20261022T000000Z
-DTSTART:20261025T010000Z
-DTEND:20261025T050000Z
-SUMMARY:Descanso 花园南瓜雕刻灯展 Carved
-LOCATION:Descanso Gardens\, 1418 Descanso Dr\, La Cañada Flintridge\, CA 9
- 1011
-DESCRIPTION:🎃 上千个雕刻南瓜点亮整个花园!\n每晚 6-10 点\
- ,分时段入场\,一定要提前订票📸\n费用:以官网为准\nhttps
- ://www.descansogardens.org/
-URL:https://www.descansogardens.org/
+UID:grand-park-ddlm-2026-10-31@noboringweekends
+DTSTAMP:20261026T000000Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:Grand Park 亡灵节祭坛展
+LOCATION:Gloria Molina Grand Park\, 200 N Grand Ave\, Los Angeles\, CA 9001
+ 2
+DESCRIPTION:🌼 市中心公园的大型亡灵节祭坛展\,免费\,展到
+  11/2!\n晚上灯亮起来更好看📸\n费用:免费\nhttps://www.funwit
+ hkidsinla.com/post/dia-de-los-muertos-los-angeles
+URL:https://www.funwithkidsinla.com/post/dia-de-los-muertos-los-angeles
 END:VEVENT
 BEGIN:VEVENT
-UID:hollywood-forever-ddlm-2026-10-24@noboringweekends
-DTSTAMP:20261022T000000Z
-DTSTART;VALUE=DATE:20261024
-DTEND;VALUE=DATE:20261025
-SUMMARY:好莱坞永恒公墓亡灵节
-LOCATION:Hollywood Forever Cemetery\, 6000 Santa Monica Blvd\, Los Angeles\
- , CA 90038
-DESCRIPTION:💀 洛杉矶最出名的亡灵节!\n万寿菊祭坛、民俗
- 舞蹈、墨西哥美食🌼 人多\,建议早到\,票务以官网为准
- 。\n费用:以官网为准\nhttps://hollywoodforever.com/
-URL:https://hollywoodforever.com/
-END:VEVENT
-BEGIN:VEVENT
-UID:academy-monster-mash-2026-10-24@noboringweekends
-DTSTAMP:20261022T000000Z
-DTSTART;VALUE=DATE:20261024
-DTEND;VALUE=DATE:20261025
-SUMMARY:奥斯卡电影博物馆 Monster Mash
-LOCATION:Academy Museum of Motion Pictures\, 6067 Wilshire Blvd\, Los Angel
- es\, CA 90036
-DESCRIPTION:🧟 电影博物馆万圣节派对!\n怪兽电影主题\,细
- 节以官网为准。\n费用:以官网为准\nhttps://www.academymuseum.o
- rg/
-URL:https://www.academymuseum.org/
-END:VEVENT
-BEGIN:VEVENT
-UID:marina-spooktacular-2026-10-24@noboringweekends
-DTSTAMP:20261022T000000Z
-DTSTART;VALUE=DATE:20261024
-DTEND;VALUE=DATE:20261025
-SUMMARY:玛丽安德尔湾万圣节(周六/日)
-LOCATION:Marina del Rey\, Marina del Rey\, CA 90292
-DESCRIPTION:⛵ 海港边的免费万圣节活动\,周六周日都有!\n时
- 间以官网为准。\n费用:免费\nhttps://mommypoppins.com/la/kids/fre
- e-halloween-celebrations-around-la
-URL:https://mommypoppins.com/la/kids/free-halloween-celebrations-around-la
-END:VEVENT
-BEGIN:VEVENT
-UID:gorillaz-forum-2026-10-24@noboringweekends
-DTSTAMP:20261022T000000Z
-DTSTART;VALUE=DATE:20261024
-DTEND;VALUE=DATE:20261025
-SUMMARY:Gorillaz 演唱会
-LOCATION:Kia Forum\, 3900 W Manchester Blvd\, Inglewood\, CA 90305
-DESCRIPTION:🎤 虚拟乐队 Gorillaz 洛杉矶站!\n票务以官网为准
- 。\n费用:以官网为准\nhttps://www.discoverlosangeles.com/things-to-
- do/the-best-things-to-do-in-la-this-weekend
-URL:https://www.discoverlosangeles.com/things-to-do/the-best-things-to-do-i
- n-la-this-weekend
-END:VEVENT
-BEGIN:VEVENT
-UID:olvera-ddlm-2026-10-25@noboringweekends
-DTSTAMP:20261022T000000Z
-DTSTART;VALUE=DATE:20261025
-DTEND;VALUE=DATE:20261026
-SUMMARY:Olvera Street 亡灵节(开幕)
+UID:olvera-ddlm2-2026-10-31@noboringweekends
+DTSTAMP:20261026T000000Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:Olvera Street 亡灵节
 LOCATION:Olvera Street\, 845 N Alameda St\, Los Angeles\, CA 90012
-DESCRIPTION:🌼 洛杉矶发源地老街的亡灵节\,周日开幕一直
- 到 11/2!\n免费\,紧挨华埠\,可以顺便去吃个点心🥟\n费用:
- 免费\nhttps://www.discoverlosangeles.com/things-to-do/the-best-things-to
- -do-in-la-this-weekend
-URL:https://www.discoverlosangeles.com/things-to-do/the-best-things-to-do-i
- n-la-this-weekend
+DESCRIPTION:🕯️ 洛杉矶老街亡灵节进行中(到 11/2)\,紧挨华
+ 埠~免费。\n费用:免费\nhttps://www.discoverlosangeles.com/
+URL:https://www.discoverlosangeles.com/
+END:VEVENT
+BEGIN:VEVENT
+UID:weho-carnaval-2026-10-31@noboringweekends
+DTSTAMP:20261026T000000Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:西好莱坞万圣节嘉年华
+LOCATION:Santa Monica Boulevard\, Santa Monica Blvd\, West Hollywood\, CA 9
+ 0069
+DESCRIPTION:💃 洛杉矶最大的万圣节街头派对!\n几十万人穿
+ 奇装异服上街\,免费\,人超多~\n费用:免费\nhttps://onestowatch
+ .com/live/los-angeles-halloween-weekend-events/
+URL:https://onestowatch.com/live/los-angeles-halloween-weekend-events/
+END:VEVENT
+BEGIN:VEVENT
+UID:phoebe-intuit-2026-10-31@noboringweekends
+DTSTAMP:20261026T000000Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:Phoebe Bridgers 万圣夜演唱会
+LOCATION:Intuit Dome\, 3930 W Century Blvd\, Inglewood\, CA 90303
+DESCRIPTION:🎸 Phoebe Bridgers 万圣节当晚演出!票务以官网为
+ 准。\n费用:以官网为准\nhttps://onestowatch.com/live/los-angeles-h
+ alloween-weekend-events/
+URL:https://onestowatch.com/live/los-angeles-halloween-weekend-events/
+END:VEVENT
+BEGIN:VEVENT
+UID:fowler-ddlm-2026-11-01@noboringweekends
+DTSTAMP:20261026T000000Z
+DTSTART:20261101T210000Z
+DTEND:20261102T003000Z
+SUMMARY:UCLA Fowler 博物馆亡灵节
+LOCATION:Fowler Museum at UCLA\, 308 Charles E Young Dr N\, Los Angeles\, C
+ A 90095
+DESCRIPTION:🎨 做迷你祭坛、手工、现场音乐!\n免费但需预
+ 约\,周日下午。\n费用:免费\nhttps://www.funwithkidsinla.com/post/
+ dia-de-los-muertos-los-angeles
+URL:https://www.funwithkidsinla.com/post/dia-de-los-muertos-los-angeles
 END:VEVENT
 END:VCALENDAR

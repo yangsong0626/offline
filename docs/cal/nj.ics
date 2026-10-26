@@ -8,109 +8,78 @@ X-WR-TIMEZONE:America/New_York
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:cape-may-zoo-boo-2026-10-24@noboringweekends
-DTSTAMP:20261022T000000Z
-DTSTART:20261024T140000Z
-DTEND:20261024T180000Z
-SUMMARY:Cape May 动物园 Boo at the Zoo
-LOCATION:Cape May County Park & Zoo\, 707 US-9\, Cape May Court House\, NJ 
- 08210
-DESCRIPTION:🦒 免费动物园万圣节!\n服装比赛+手工台\,上午 
- 10 点到下午 2 点~\n费用:免费\nhttps://mommypoppins.com/new-jersey
- -kids/halloween/best-halloween-events-for-new-jersey-families
-URL:https://mommypoppins.com/new-jersey-kids/halloween/best-halloween-event
- s-for-new-jersey-families
+UID:livingston-trunk-2026-10-30@noboringweekends
+DTSTAMP:20261026T000000Z
+DTSTART:20261030T193000Z
+DTEND:20261030T213000Z
+SUMMARY:Livingston 后备箱讨糖
+LOCATION:Eastman Building parking lot\, Livingston\, NJ 07039
+DESCRIPTION:🍬 周五放学就去!华人家庭多的 Livingston\,免费
+ 讨糖~\n费用:免费\nhttps://www.wondrfly.com/blogs/halloween-events-in
+ -essex-county-nj-2026-15-spooky-picks-for-families-and-adults
+URL:https://www.wondrfly.com/blogs/halloween-events-in-essex-county-nj-2026
+ -15-spooky-picks-for-families-and-adults
 END:VEVENT
 BEGIN:VEVENT
-UID:keyport-bewitched-2026-10-24@noboringweekends
-DTSTAMP:20261022T000000Z
-DTSTART:20261024T160000Z
-DTEND:20261024T210000Z
-SUMMARY:Keyport「Bewitched」万圣节市集
-LOCATION:Downtown Keyport\, Front St\, Keyport\, NJ 07735
-DESCRIPTION:🧹 海边小镇女巫主题市集!\n手作摊位+儿童活动
- \,免费逛~\n费用:免费\nhttps://mommypoppins.com/new-jersey-kids/hall
- oween/best-halloween-events-for-new-jersey-families
-URL:https://mommypoppins.com/new-jersey-kids/halloween/best-halloween-event
- s-for-new-jersey-families
+UID:millburn-trunk-2026-10-31@noboringweekends
+DTSTAMP:20261026T000000Z
+DTSTART:20261031T133000Z
+DTEND:20261031T163000Z
+SUMMARY:Millburn 后备箱讨糖
+LOCATION:Millburn\, 750a Morris Turnpike\, Short Hills\, NJ 07078
+DESCRIPTION:🚗 上午场后备箱讨糖\,9:30 到 12:30~\n费用:免费\n
+ https://www.wondrfly.com/blogs/halloween-events-in-essex-county-nj-2026-15
+ -spooky-picks-for-families-and-adults
+URL:https://www.wondrfly.com/blogs/halloween-events-in-essex-county-nj-2026
+ -15-spooky-picks-for-families-and-adults
 END:VEVENT
 BEGIN:VEVENT
-UID:jenkinsons-boo-2026-10-24@noboringweekends
-DTSTAMP:20261022T000000Z
-DTSTART:20261024T160000Z
-DTEND:20261024T200000Z
-SUMMARY:Jenkinson's 木栈道万圣节(周六/日)
-LOCATION:Jenkinson's Boardwalk\, 300 Ocean Ave\, Point Pleasant Beach\, NJ 
- 08742
-DESCRIPTION:🌊 海边木栈道讨糖!\n周六周日中午 12 点到 4 点
- 都有\,带娃吹吹海风🎃\n费用:以官网为准\nhttps://mommypoppi
- ns.com/new-jersey-kids/halloween/best-halloween-events-for-new-jersey-fami
- lies
-URL:https://mommypoppins.com/new-jersey-kids/halloween/best-halloween-event
- s-for-new-jersey-families
+UID:jc-family-bash-2026-10-31@noboringweekends
+DTSTAMP:20261026T000000Z
+DTSTART:20261031T160000Z
+DTEND:20261101T000000Z
+SUMMARY:泽西市 Newark Ave 万圣节家庭派对
+LOCATION:Newark Avenue Pedestrian Mall\, Newark Ave\, Jersey City\, NJ 0730
+ 2
+DESCRIPTION:🎃 泽西市步行街万圣节派对\,中午到晚 8 点!\n
+ 后备箱讨糖、音乐、魔术、气球造型\,免费~\n费用:免费\n
+ https://thelocalgirl.com/newjersey/halloween-events-new-jersey-2026/
+URL:https://thelocalgirl.com/newjersey/halloween-events-new-jersey-2026/
 END:VEVENT
 BEGIN:VEVENT
-UID:montclair-trunk-2026-10-24@noboringweekends
-DTSTAMP:20261022T000000Z
-DTSTART:20261024T170000Z
-DTEND:20261024T190000Z
-SUMMARY:Montclair 警局 Trunk-or-Treat
-LOCATION:Montclair Police Headquarters\, 647 Bloomfield Ave\, Montclair\, N
- J 07042
-DESCRIPTION:🚓 警察叔叔发糖啦!\n后备箱讨糖活动\,还有服
- 装评比🏆 免费\,周六下午一点开始。\n费用:免费\nhttps://
- suburbanjunglegroup.com/halloween-new-jersey-suburbs/
-URL:https://suburbanjunglegroup.com/halloween-new-jersey-suburbs/
+UID:hackettstown-parade-2026-10-31@noboringweekends
+DTSTAMP:20261026T000000Z
+DTSTART:20261031T170000Z
+DTEND:20261031T190000Z
+SUMMARY:Hackettstown 万圣节游行+讨糖
+LOCATION:Main Street\, Main St\, Hackettstown\, NJ 07840
+DESCRIPTION:🎺 下午 1 点主街游行\,之后后备箱讨糖\,免费~\n
+ 费用:免费\nhttps://thelocalgirl.com/newjersey/halloween-events-new-jer
+ sey-2026/
+URL:https://thelocalgirl.com/newjersey/halloween-events-new-jersey-2026/
 END:VEVENT
 BEGIN:VEVENT
-UID:morristown-pumpkin-2026-10-24@noboringweekends
-DTSTAMP:20261022T000000Z
-DTSTART;VALUE=DATE:20261024
-DTEND;VALUE=DATE:20261025
-SUMMARY:Morristown 南瓜点灯夜
-LOCATION:Vail Mansion Plaza\, 110 South St\, Morristown\, NJ 07960
-DESCRIPTION:🎃 几百个南瓜灯一起亮起来!\n周六傍晚\,免费\,
- 如下雨顺延到周日\,时间以官网为准。\n费用:免费\nhttps:/
- /suburbanjunglegroup.com/halloween-new-jersey-suburbs/
-URL:https://suburbanjunglegroup.com/halloween-new-jersey-suburbs/
+UID:turtle-back-tot-2026-10-31@noboringweekends
+DTSTAMP:20261026T000000Z
+DTSTART:20261031T200000Z
+DTEND:20261101T000000Z
+SUMMARY:Turtle Back 动物园讨糖
+LOCATION:Turtle Back Zoo\, 560 Northfield Ave\, West Orange\, NJ 07052
+DESCRIPTION:🐢 动物园里到处是讨糖站!\n下午 4 点到 8 点\,
+ 票务以官网为准。\n费用:以官网为准\nhttps://thelocalgirl.com
+ /newjersey/halloween-events-new-jersey-2026/
+URL:https://thelocalgirl.com/newjersey/halloween-events-new-jersey-2026/
 END:VEVENT
 BEGIN:VEVENT
-UID:storybook-land-2026-10-24@noboringweekends
-DTSTAMP:20261022T000000Z
-DTSTART;VALUE=DATE:20261024
-DTEND;VALUE=DATE:20261025
-SUMMARY:Storybook Land 讨糖周末
-LOCATION:Storybook Land\, 6415 Black Horse Pike\, Egg Harbor Township\, NJ 
- 08234
-DESCRIPTION:🏰 童话乐园讨糖周末!\n园区里有讨糖站和干草
- 迷宫\,适合小小孩\,票价以官网为准。\n费用:以官网为准\
- nhttps://mommypoppins.com/new-jersey-kids/halloween/best-halloween-events-
- for-new-jersey-families
-URL:https://mommypoppins.com/new-jersey-kids/halloween/best-halloween-event
- s-for-new-jersey-families
-END:VEVENT
-BEGIN:VEVENT
-UID:westfield-goblins-2026-10-25@noboringweekends
-DTSTAMP:20261022T000000Z
-DTSTART:20261025T160000Z
-DTEND:20261025T180000Z
-SUMMARY:Westfield「警察与小妖怪」+万圣节游行
-LOCATION:Mindowaskin Park\, 425 E Broad St\, Westfield\, NJ 07090
-DESCRIPTION:👮‍♂️👹 中午 12 点开始玩\,下午 2 点万圣节
- 大游行!\n穿上服装跟着队伍走一圈\,免费~\n费用:免费\nhtt
- ps://suburbanjunglegroup.com/halloween-new-jersey-suburbs/
-URL:https://suburbanjunglegroup.com/halloween-new-jersey-suburbs/
-END:VEVENT
-BEGIN:VEVENT
-UID:lambertville-parade-2026-10-25@noboringweekends
-DTSTAMP:20261022T000000Z
-DTSTART:20261025T190000Z
-DTEND:20261025T210000Z
-SUMMARY:Lambertville 家庭万圣节游行
-LOCATION:Downtown Lambertville\, Bridge St\, Lambertville\, NJ 08530
-DESCRIPTION:🎭 河边小镇的万圣节游行\,风雨无阻!\n周日下
- 午 3 点开始\,免费。\n费用:免费\nhttps://suburbanjunglegroup.com
- /halloween-new-jersey-suburbs/
-URL:https://suburbanjunglegroup.com/halloween-new-jersey-suburbs/
+UID:physick-estate-2026-10-31@noboringweekends
+DTSTAMP:20261026T000000Z
+DTSTART:20261031T210000Z
+DTEND:20261031T230000Z
+SUMMARY:Cape May 维多利亚老宅讨糖
+LOCATION:Emlen Physick Estate\, 1048 Washington St\, Cape May\, NJ 08204
+DESCRIPTION:🏚️ 维多利亚老宅里讨糖\,有万圣节角色和音
+ 乐\,免费!\n费用:免费\nhttps://thelocalgirl.com/newjersey/halloween-
+ events-new-jersey-2026/
+URL:https://thelocalgirl.com/newjersey/halloween-events-new-jersey-2026/
 END:VEVENT
 END:VCALENDAR

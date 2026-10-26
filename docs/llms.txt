@@ -1,44 +1,44 @@
 # 周末不无聊 No Boring Weekends
 
-> 北美华人周末活动指南：15 个城市的亲子和大人周末活动，华人与亚裔社区活动优先，中英双语，每周更新（本期 10/23–10/25，更新于 2026-10-22）。
+> 北美华人周末活动指南：15 个城市的亲子和大人周末活动，华人与亚裔社区活动优先，中英双语，每周更新（本期 10/30–11/1，更新于 2026-10-26）。
 > Weekend events for families and grown-ups in 15 North American cities (festivals, shows, family outings, Chinese/Asian community events), bilingual, updated weekly.
 
 每个城市有固定网址的「本周末」页面，内容每周替换；每个城市还有可订阅的日历（.ics）。活动信息以主办方官网为准。
 Each city has a fixed weekend page that is replaced weekly, plus a subscribable .ics calendar. Check organizers' sites before going.
 
 ## 城市页（中文）
-- [纽约本周末活动](https://noboringweekends.pages.dev/nyc/): 13 个活动，华埠露天摇摆舞之夜、四海剧团新戏《Shadow of the Unhinged》、红绸舞团中国舞公开课
-- [新泽西本周末活动](https://noboringweekends.pages.dev/nj/): 8 个活动，Cape May 动物园 Boo at the Zoo、Keyport「Bewitched」万圣节市集、Jenkinson's 木栈道万圣节(周六/日)
-- [洛杉矶本周末活动](https://noboringweekends.pages.dev/la/): 11 个活动，1871 年洛杉矶华人屠杀 155 周年纪念、日裔美国人博物馆:动画师 Willie Ito 放映对谈、太平洋水族馆 Scarium 家庭夜
-- [旧金山湾区本周末活动](https://noboringweekends.pages.dev/sf/): 11 个活动，华人历史文化项目:儿童万圣节乐园、硅谷亚太电影节(周末场)、旧金山交响乐团:久石让作品音乐会(周五/六)
-- [西雅图本周末活动](https://noboringweekends.pages.dev/sea/): 12 个活动，Wing Luke 博物馆:菲律宾裔故事分享、西雅图亚洲艺术博物馆导览+近藤家陶艺展、派克市场 The Night Shift 夜市
-- [波士顿本周末活动](https://noboringweekends.pages.dev/bos/): 9 个活动，波士顿亚裔美国电影节(收官)、Stone 动物园南瓜灯之夜、平价艺术博览会
-- [芝加哥本周末活动](https://noboringweekends.pages.dev/chi/): 11 个活动，灯笼与传说 AAPI 市集、Tedeschi Trucks Band 演唱会、林肯公园动物园 Zoo Brews 万圣夜(21+)
-- [休斯顿本周末活动](https://noboringweekends.pages.dev/hou/): 10 个活动，亚洲协会德州中心建筑导览、亚洲协会德州中心颂钵冥想、休斯顿交响乐团万圣节音乐会(免费)
-- [达拉斯本周末活动](https://noboringweekends.pages.dev/dal/): 10 个活动，沃斯堡动物园 Boo at the Zoo、达拉斯植物园夜间讨糖、Harwood 公园万圣节露天电影
-- [华盛顿 DC本周末活动](https://noboringweekends.pages.dev/dc/): 7 个活动，国立亚洲艺术博物馆(免费)、O Street 豪宅家庭寻宝、国家儿童博物馆万圣节夜
-- [橙县 / 尔湾本周末活动](https://noboringweekends.pages.dev/oc/): 7 个活动，Heritage Hill 历史公园秋日万圣节、尔湾 Woodbridge 万圣节市集(周六/日)、安纳罕秋日节+万圣节游行
-- [圣地亚哥本周末活动](https://noboringweekends.pages.dev/sd/): 7 个活动，伯奇水族馆 Halloween Aglow(周五/六)、圣地亚哥动物园 HalGLOWeen、Santee Lakes 万圣节
-- [亚特兰大本周末活动](https://noboringweekends.pages.dev/atl/): 9 个活动，Roswell 万圣节欢乐屋、Lawrenceville BOO Fest、亚特兰大动物园 Boo at the Zoo(周六/日)
-- [多伦多本周末活动](https://noboringweekends.pages.dev/tor/): 9 个活动，The Tallest Man on Earth 音乐会、卡萨罗马城堡恐怖传说、多伦多鸡尾酒节晚会
-- [温哥华本周末活动](https://noboringweekends.pages.dev/van/): 9 个活动，华裔加拿大人博物馆《Momentum》体育展、本拿比鬼村 Haunted Village、PNE 惊魂夜 Fright Nights
+- [纽约本周末活动](https://noboringweekends.pages.dev/nyc/): 10 个活动，华埠 Trick-or-Streets 万圣节讨糖、皇后区夜市万圣节收官场、法拉盛市政厅排灯节
+- [新泽西本周末活动](https://noboringweekends.pages.dev/nj/): 6 个活动，Livingston 后备箱讨糖、Millburn 后备箱讨糖、泽西市 Newark Ave 万圣节家庭派对
+- [洛杉矶本周末活动](https://noboringweekends.pages.dev/la/): 9 个活动，小东京万圣节街区派对(21+)、哥斯拉入侵小东京快闪店、洛杉矶动漫展 L.A. Comic Con(15 周年)
+- [旧金山湾区本周末活动](https://noboringweekends.pages.dev/sf/): 8 个活动，华埠万圣节嘉年华(第 12 届)、亚洲艺术博物馆免费日+排灯节、Hiller 航空博物馆万圣节机库(周六/日)
+- [西雅图本周末活动](https://noboringweekends.pages.dev/sea/): 8 个活动，西雅图亚洲艺术博物馆公众导览、Garfield 社区中心万圣节嘉年华、Wild Waves Fright Fest
+- [波士顿本周末活动](https://noboringweekends.pages.dev/bos/): 7 个活动，ICA 草间弥生《LOVE IS CALLING》、Stone 动物园南瓜灯之夜(最后两晚)、塞勒姆 Ropes 宅邸(《女巫也疯狂》取景地)
+- [芝加哥本周末活动](https://noboringweekends.pages.dev/chi/): 9 个活动，菲尔德博物馆 Boo with SUE 夜场、公园露天电影《女巫也疯狂》、墨西哥艺术博物馆亡灵节特展
+- [休斯顿本周末活动](https://noboringweekends.pages.dev/hou/): 7 个活动，亚洲协会德州中心冥想工作坊、Discovery Green 万圣节 Scream on the Green、First Colony 商场万圣节(糖城)
+- [达拉斯本周末活动](https://noboringweekends.pages.dev/dal/): 6 个活动，Main Street Garden 露天电影《小丑回魂》、艺术区 Stage Fright 万圣节家庭节、沃斯堡科学历史博物馆 Ick or Treat
+- [华盛顿 DC本周末活动](https://noboringweekends.pages.dev/dc/): 8 个活动，国立亚洲艺术博物馆(免费)、Eastern Market Hill-O-Ween、美国印第安人博物馆亡灵节
+- [橙县 / 尔湾本周末活动](https://noboringweekends.pages.dev/oc/): 5 个活动，Fullerton 警局后备箱讨糖、纽波特 Back Bay 万圣节手作市集、尔湾 University UMC 后备箱讨糖
+- [圣地亚哥本周末活动](https://noboringweekends.pages.dev/sd/): 7 个活动，圣地亚哥动物园 HalGLOWeen(最后周末)、Carlsbad 小镇万圣节、科罗纳多 Orange Ave 商家讨糖
+- [亚特兰大本周末活动](https://noboringweekends.pages.dev/atl/): 6 个活动，亚特兰大动物园 Boo at the Zoo、Ponce City Market 屋顶讨糖、Woodstock 万圣节骷髅派对
+- [多伦多本周末活动](https://noboringweekends.pages.dev/tor/): 6 个活动，多伦多动物园 Boo at the Zoo、Black Creek 先民村万圣节、加拿大奇幻乐园 Tricks & Treats
+- [温哥华本周末活动](https://noboringweekends.pages.dev/van/): 7 个活动，华裔加拿大人博物馆《Momentum》体育展、本拿比鬼村(周五/六)、本拿比中央公园万圣节烟花
 
 ## City pages (English)
-- [New York weekend events](https://noboringweekends.pages.dev/en/nyc/): 13 events, e.g. Greenbelt's Haunted Trail; Brooklyn Children's Museum Evening Playdate; The New Yorker Festival
-- [New Jersey weekend events](https://noboringweekends.pages.dev/en/nj/): 8 events, e.g. Boo at the Cape May County Zoo; Bewitched in Keyport; Boo at the Boardwalk at Jenkinson's
-- [Los Angeles weekend events](https://noboringweekends.pages.dev/en/la/): 11 events, e.g. Scarium Family Night at the Aquarium of the Pacific; Bluey's Big Play; Boo at the L.A. Zoo
-- [SF Bay Area weekend events](https://noboringweekends.pages.dev/en/sf/): 11 events, e.g. Lower Polk Live!; Silicon Valley Asian Pacific FilmFest; San Francisco Symphony: Joe Hisaishi
-- [Seattle weekend events](https://noboringweekends.pages.dev/en/sea/): 12 events, e.g. The Night Shift at Pike Place Market; Phoebe Bridgers: The Lost Tour; Fall Lantern Festival at Freeway Park
-- [Boston weekend events](https://noboringweekends.pages.dev/en/bos/): 9 events, e.g. Jack-O'-Lantern Nights at Stone Zoo; Affordable Art Fair Boston; Jim Gaffigan
-- [Chicago weekend events](https://noboringweekends.pages.dev/en/chi/): 11 events, e.g. Tedeschi Trucks Band; Zoo Brews: Howls and Growls; Chicago International Film Festival
-- [Houston weekend events](https://noboringweekends.pages.dev/en/hou/): 10 events, e.g. Hocus Pocus Pops with the Houston Symphony; Halloween at the BOOseum; Halloween in the Hangar
-- [Dallas weekend events](https://noboringweekends.pages.dev/en/dal/): 10 events, e.g. Boo at the Zoo, Fort Worth Zoo; BOO-tanical Trick or Treat; Halloween Movie Night at Harwood Park
-- [Washington DC weekend events](https://noboringweekends.pages.dev/en/dc/): 7 events, e.g. Family Treasure Hunt at The Mansion on O Street; Halloween Spooktacular at the National Children's Museum; National Museum of Asian Art
-- [Orange County weekend events](https://noboringweekends.pages.dev/en/oc/): 7 events, e.g. Fall-O-Ween at Heritage Hill Historical Park; Halloween Market at Woodbridge Village Center; Anaheim Fall Festival & Halloween Parade
-- [San Diego weekend events](https://noboringweekends.pages.dev/en/sd/): 7 events, e.g. Halloween Aglow at Birch Aquarium; HalGLOWeen at the San Diego Zoo; Santee Lakes Spooktacular
-- [Atlanta weekend events](https://noboringweekends.pages.dev/en/atl/): 9 events, e.g. Halloween Fun House in Roswell; Lawrenceville BOO Fest; Boo at the Zoo, Zoo Atlanta
-- [Toronto weekend events](https://noboringweekends.pages.dev/en/tor/): 9 events, e.g. The Tallest Man on Earth; Legends of Horror at Casa Loma; Toronto Cocktail Festival: Gala of Cocktails
-- [Vancouver weekend events](https://noboringweekends.pages.dev/en/van/): 9 events, e.g. Burnaby's Haunted Village; Fright Nights at the PNE; Momentum: Power and Identity in Sports, Chinese Canadian Museum
+- [New York weekend events](https://noboringweekends.pages.dev/en/nyc/): 10 events, e.g. Boo at the Bronx Zoo; Halloween at the Garden, Queens Botanical Garden; Chinatown Trick-or-Streets
+- [New Jersey weekend events](https://noboringweekends.pages.dev/en/nj/): 6 events, e.g. Livingston Trunk or Treat; Millburn Annual Trunk or Treat; Halloween Family Bash, Jersey City
+- [Los Angeles weekend events](https://noboringweekends.pages.dev/en/la/): 9 events, e.g. L.A. Comic Con; Boo at the L.A. Zoo; Haunted Little Tokyo Block Party
+- [SF Bay Area weekend events](https://noboringweekends.pages.dev/en/sf/): 8 events, e.g. Halloween Haunted Hangar, Hiller Aviation Museum; 12th Annual Chinatown Halloween Festival; Boo at the Zoo, San Francisco Zoo
+- [Seattle weekend events](https://noboringweekends.pages.dev/en/sea/): 8 events, e.g. Creepy Carnival at Garfield Community Center; Fright Fest at Wild Waves; BOO Seattle 2026
+- [Boston weekend events](https://noboringweekends.pages.dev/en/bos/): 7 events, e.g. Jack-O'-Lantern Nights at Stone Zoo; Ropes Mansion, Salem; Trick-or-Treating on Broadway, South Boston
+- [Chicago weekend events](https://noboringweekends.pages.dev/en/chi/): 9 events, e.g. Family Field Nights: Boo with SUE; Movies in the Parks: Hocus Pocus; Día de Muertos Exhibition at the National Museum of Mexican Art
+- [Houston weekend events](https://noboringweekends.pages.dev/en/hou/): 7 events, e.g. Scream on the Green; Fall-o-Ween Festival at First Colony Mall; Boo on the Boardwalk, Kemah
+- [Dallas weekend events](https://noboringweekends.pages.dev/en/dal/): 6 events, e.g. Movies in Main Street Garden: IT; Stage Fright: A Halloween Family Festival; Ick or Treat at the Fort Worth Museum of Science and History
+- [Washington DC weekend events](https://noboringweekends.pages.dev/en/dc/): 8 events, e.g. Hill-O-Ween at Eastern Market; National Museum of Asian Art; Día de los Muertos at the National Museum of the American Indian
+- [Orange County weekend events](https://noboringweekends.pages.dev/en/oc/): 5 events, e.g. Fullerton Police Trunk or Treat; Halloween Craft Market & Kids Event, Back Bay Market; Trunk or Treat at University United Methodist Church
+- [San Diego weekend events](https://noboringweekends.pages.dev/en/sd/): 7 events, e.g. HalGLOWeen at the San Diego Zoo; Halloween in the Village, Carlsbad; Trick-or-Treat on Orange Avenue, Coronado
+- [Atlanta weekend events](https://noboringweekends.pages.dev/en/atl/): 6 events, e.g. Boo at the Zoo, Zoo Atlanta; Trick-or-Treat on The Roof, Ponce City Market; Woodstock Halloween Skelebration
+- [Toronto weekend events](https://noboringweekends.pages.dev/en/tor/): 6 events, e.g. Boo at the Zoo, Toronto Zoo; Halloween at the Village, Black Creek; Tricks & Treats at Canada's Wonderland
+- [Vancouver weekend events](https://noboringweekends.pages.dev/en/van/): 7 events, e.g. Burnaby's Haunted Village; Central Spark, Burnaby; Momentum: Power and Identity in Sports, Chinese Canadian Museum
 
 ## 免费 / 优惠攻略 Free-day guides
 - [纽约免费博物馆日 & 优惠 / Free museum days in New York](https://noboringweekends.pages.dev/nyc/guides/free/)

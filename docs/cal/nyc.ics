@@ -8,172 +8,134 @@ X-WR-TIMEZONE:America/New_York
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:ct-swing-out-2026-10-24@noboringweekends
-DTSTAMP:20261022T000000Z
-DTSTART:20261024T220000Z
-DTEND:20261025T013000Z
-SUMMARY:华埠露天摇摆舞之夜
-LOCATION:Sara D. Roosevelt Park\, Sara D. Roosevelt Park\, Chrystie St & Gr
- and St\, New York\, NY 10002
-DESCRIPTION:💃 华埠公园里跳摇摆舞!\n6点有零基础入门课\,
- 中英双语教学🙌 7:30 看表演+DJ 自由跳~\n免费但要先 RSVP\
- ,穿双舒服的鞋就能来!\n费用:免费\nhttps://www.thinkchinatown.o
- rg/artsfest
-URL:https://www.thinkchinatown.org/artsfest
+UID:ct-trick-or-streets-2026-10-31@noboringweekends
+DTSTAMP:20261026T000000Z
+DTSTART:20261031T190000Z
+DTEND:20261031T230000Z
+SUMMARY:华埠 Trick-or-Streets 万圣节讨糖
+LOCATION:Mott Street\, Mott St between Canal St & Bayard St\, New York\, NY
+  10013
+DESCRIPTION:🏮 华埠勿街变身万圣节步行街!\n下午 3 点到 7 
+ 点\,穿上服装沿街讨糖🍬 顺便吃个点心、买个蛋挞~免费
+ !\n费用:免费\nhttps://chinatown.nyc/
+URL:https://chinatown.nyc/
 END:VEVENT
 BEGIN:VEVENT
-UID:four-seas-play-2026-10-24@noboringweekends
-DTSTAMP:20261022T000000Z
-DTSTART;VALUE=DATE:20261024
-DTEND;VALUE=DATE:20261025
-SUMMARY:四海剧团新戏《Shadow of the Unhinged》
-LOCATION:Abron Arts Center\, 466 Grand St\, New York\, NY 10002
-DESCRIPTION:🎭 五十多年历史的亚裔剧团「四海剧团」新戏
- 开演!\n10/24 首演\,一直演到 11/1。场次和票价以官网为准~
- \n费用:以官网为准\nhttps://www.thinkchinatown.org/happenings
-URL:https://www.thinkchinatown.org/happenings
-END:VEVENT
-BEGIN:VEVENT
-UID:red-silk-class-2026-10-25@noboringweekends
-DTSTAMP:20261022T000000Z
-DTSTART:20261025T180000Z
-DTEND:20261025T190000Z
-SUMMARY:红绸舞团中国舞公开课
-LOCATION:Seward Park\, Seward Park\, Canal St & Essex St\, New York\, NY 10
- 002
-DESCRIPTION:🎀 拿起彩带和扇子\,跟红绸舞团学一小段中国
- 舞!\n零基础也OK\,最后还有一段小演出✨ 带娃一起来\,免
- 费\,请先 RSVP。\n费用:免费\nhttps://www.thinkchinatown.org/artsfes
- t
-URL:https://www.thinkchinatown.org/artsfest
-END:VEVENT
-BEGIN:VEVENT
-UID:queens-night-market-2026-10-24@noboringweekends
-DTSTAMP:20261022T000000Z
-DTSTART:20261024T200000Z
-DTEND:20261025T040000Z
-SUMMARY:皇后区夜市
+UID:qnm-halloween-2026-10-31@noboringweekends
+DTSTAMP:20261026T000000Z
+DTSTART:20261031T200000Z
+DTEND:20261101T040000Z
+SUMMARY:皇后区夜市万圣节收官场
 LOCATION:New York Hall of Science parking lot\, 47-01 111th St\, Corona\, N
  Y 11368
-DESCRIPTION:🍢 皇后区夜市本季倒数第二场!\n几十国小吃\,
- 大部分只要 $5-6💰 法拉盛附近\,吃完顺便逛逛~\n10/31 是
- 本季最后一场万圣节特别版🎃\n费用:入场免费\,小吃约 $
- 5-6\nhttps://www.queensnightmarket.com/
+DESCRIPTION:🎃 皇后区夜市 2026 最后一场!\n万圣节特别版:讨
+ 糖+服装比赛\,几十国小吃大部分 $5-6💰 错过就要等明年
+ 了~\n费用:入场免费\,小吃约 $5-6\nhttps://www.queensnightmarket.c
+ om/
 URL:https://www.queensnightmarket.com/
 END:VEVENT
 BEGIN:VEVENT
-UID:greenbelt-haunted-2026-10-23@noboringweekends
-DTSTAMP:20261022T000000Z
-DTSTART:20261023T190000Z
-DTEND:20261023T230000Z
-SUMMARY:史坦顿岛 Greenbelt 万圣节鬼步道
-LOCATION:Greenbelt Nature Center\, 700 Rockland Ave\, Staten Island\, NY 10
- 314
-DESCRIPTION:👻 林间万圣节小路\,不太吓人的那种~\n全家一
- 起走一走\,免费!\n费用:免费\nhttps://www.nycgovparks.org/events/h
- alloween
-URL:https://www.nycgovparks.org/events/halloween
+UID:ftc-diwali-2026-11-01@noboringweekends
+DTSTAMP:20261026T000000Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:法拉盛市政厅排灯节
+LOCATION:Flushing Town Hall\, 137-35 Northern Blvd\, Flushing\, NY 11354
+DESCRIPTION:🪔 法拉盛市政厅排灯节!\n南亚音乐舞蹈和灯火\
+ ,就在法拉盛主街旁边\,时间以官网为准。\n费用:以官网
+ 为准\nhttps://www.flushingtownhall.org/
+URL:https://www.flushingtownhall.org/
 END:VEVENT
 BEGIN:VEVENT
-UID:bcm-playdate-2026-10-23@noboringweekends
-DTSTAMP:20261022T000000Z
-DTSTART:20261023T220000Z
-DTEND:20261024T000000Z
-SUMMARY:布鲁克林儿童博物馆夜间派对
-LOCATION:Brooklyn Children's Museum\, 145 Brooklyn Ave\, Brooklyn\, NY 1121
- 3
-DESCRIPTION:🛼 屋顶溜冰场开张!\n丝网印刷、脸绘、DJ 音乐
- …大人小孩都能玩✨ 周五晚 6 点\,免费!\n费用:免费\nhttps
- ://www.brooklynkids.org/
-URL:https://www.brooklynkids.org/
-END:VEVENT
-BEGIN:VEVENT
-UID:new-yorker-festival-2026-10-23@noboringweekends
-DTSTAMP:20261022T000000Z
-DTSTART;VALUE=DATE:20261023
-DTEND;VALUE=DATE:20261024
-SUMMARY:《纽约客》文化节
-LOCATION:Various venues\, Manhattan\, Various venues\, Manhattan\, NY
-DESCRIPTION:📚 《纽约客》年度文化节整个周末!\n名人对谈
- 、播客现场录制、放映、音乐…文艺青年冲!票务以官网
- 为准。\n费用:以官网为准\nhttps://festival.newyorker.com/
-URL:https://festival.newyorker.com/
-END:VEVENT
-BEGIN:VEVENT
-UID:governors-pumpkin-2026-10-24@noboringweekends
-DTSTAMP:20261022T000000Z
-DTSTART:20261024T140000Z
-DTEND:20261024T160000Z
-SUMMARY:总督岛南瓜节
-LOCATION:Governors Island\, Governors Island\, New York\, NY 10004
-DESCRIPTION:⛴️ 坐渡轮去岛上过秋天!\n南瓜、秋日活动、
- 曼哈顿天际线一次拥有🍂 早上10点开始\,建议早点去。\n
- 费用:活动以官网为准\,渡轮另付\nhttps://www.govisland.com/thin
- gs-to-do
-URL:https://www.govisland.com/things-to-do
-END:VEVENT
-BEGIN:VEVENT
-UID:bronx-zoo-boo-2026-10-24@noboringweekends
-DTSTAMP:20261022T000000Z
-DTSTART:20261024T140000Z
-DTEND:20261024T160000Z
-SUMMARY:布朗克斯动物园 Boo at the Zoo
+UID:bronx-zoo-boo2-2026-10-31@noboringweekends
+DTSTAMP:20261026T000000Z
+DTSTART:20261031T140000Z
+DTEND:20261031T160000Z
+SUMMARY:布朗克斯动物园 Boo at the Zoo(最后周末)
 LOCATION:Bronx Zoo\, 2300 Southern Blvd\, Bronx\, NY 10460
-DESCRIPTION:🦁 动物园万圣节周末!\n南瓜装饰、服装游行、
- 主题活动\,周末开到 11/1🎃 含在门票里。\n费用:含在门
- 票内\nhttps://bronxzoo.com/
+DESCRIPTION:🦁 动物园万圣节最后一个周末!开到 11/1\,需购
+ 票。\n费用:含在门票内\nhttps://bronxzoo.com/
 URL:https://bronxzoo.com/
 END:VEVENT
 BEGIN:VEVENT
-UID:high-line-halloween-2026-10-24@noboringweekends
-DTSTAMP:20261022T000000Z
-DTSTART:20261024T150000Z
-DTEND:20261024T180000Z
-SUMMARY:High Line 万圣节:小精灵乐园
-LOCATION:The High Line\, The High Line\, Gansevoort St to W 34th St\, New Y
- ork\, NY
-DESCRIPTION:🧙 空中铁道公园变身小精灵乐园!\n主题游戏+手
- 工\,穿上万圣节服装来拍照📸 免费~\n费用:免费\nhttps://ww
- w.thehighline.org/events/
-URL:https://www.thehighline.org/events/
+UID:qbg-halloween-2026-10-31@noboringweekends
+DTSTAMP:20261026T000000Z
+DTSTART:20261031T160000Z
+DTEND:20261031T210000Z
+SUMMARY:皇后区植物园万圣节
+LOCATION:Queens Botanical Garden\, 43-50 Main St\, Flushing\, NY 11355
+DESCRIPTION:🌿 法拉盛植物园万圣节!\n服装秀、讨糖小路、
+ 市集\,中午到 5 点。成人 $10、儿童 $8。\n费用:成人 $10\,
+ 儿童 $8\nhttps://amyliuluxuryhomes.com/blog/flushings-halloween-weekend-
+ runs-the-length-of-main-street
+URL:https://amyliuluxuryhomes.com/blog/flushings-halloween-weekend-runs-the
+ -length-of-main-street
 END:VEVENT
 BEGIN:VEVENT
-UID:east-river-spooktacular-2026-10-24@noboringweekends
-DTSTAMP:20261022T000000Z
-DTSTART:20261024T170000Z
-DTEND:20261024T200000Z
-SUMMARY:东河滨江万圣节嘉年华
-LOCATION:East River Esplanade\, East River Esplanade\, Upper East Side\, Ne
- w York\, NY
-DESCRIPTION:🎃 现场音乐+脸绘+免费冰淇淋🍦\n鼓励穿万圣
- 节服装\,遛娃首选!免费。\n费用:免费\nhttps://mommypoppins.com
- /new-york-city-kids/halloween/best-halloween-events-for-nyc-families
+UID:hippo-parade-2026-10-31@noboringweekends
+DTSTAMP:20261026T000000Z
+DTSTART:20261031T193000Z
+DTEND:20261031T213000Z
+SUMMARY:上西城河马游乐场儿童万圣节游行
+LOCATION:Riverside Park\, Riverside Dr & W 89th St\, New York\, NY 10024
+DESCRIPTION:🦛 小朋友版万圣节游行!\n从士兵水手纪念碑走
+ 到河马游乐场\,轻松不吓人\,免费~\n费用:免费\nhttps://mommy
+ poppins.com/new-york-city-kids/halloween/best-halloween-events-for-nyc-fam
+ ilies
 URL:https://mommypoppins.com/new-york-city-kids/halloween/best-halloween-ev
  ents-for-nyc-families
 END:VEVENT
 BEGIN:VEVENT
-UID:lincoln-center-open-2026-10-24@noboringweekends
-DTSTAMP:20261022T000000Z
-DTSTART;VALUE=DATE:20261024
-DTEND;VALUE=DATE:20261025
-SUMMARY:林肯中心开放日
-LOCATION:Lincoln Center\, 10 Lincoln Center Plaza\, New York\, NY 10023
-DESCRIPTION:🎻 林肯中心周末免费开放日!\n全年龄友好\,周
- 六周日都有\,具体节目以官网为准~\n费用:免费\nhttps://www.
- lincolncenter.org/
-URL:https://www.lincolncenter.org/
+UID:park-slope-parade-2026-10-31@noboringweekends
+DTSTAMP:20261026T000000Z
+DTSTART:20261031T223000Z
+DTEND:20261101T000000Z
+SUMMARY:Park Slope 万圣节游行
+LOCATION:Park Slope\, 5th Ave\, Brooklyn\, NY 11215
+DESCRIPTION:👻 布鲁克林最受欢迎的社区万圣节游行\,终点
+ 在 Old Stone House~免费!\n费用:免费\nhttps://mommypoppins.com/new-y
+ ork-city-kids/halloween/best-halloween-events-for-nyc-families
+URL:https://mommypoppins.com/new-york-city-kids/halloween/best-halloween-ev
+ ents-for-nyc-families
 END:VEVENT
 BEGIN:VEVENT
-UID:marine-park-autumn-2026-10-25@noboringweekends
-DTSTAMP:20261022T000000Z
-DTSTART:20261025T160000Z
-DTEND:20261025T190000Z
-SUMMARY:Marine Park 秋日节
-LOCATION:Carmine Carro Community Center\, 3000 Fillmore Ave\, Brooklyn\, NY
-  11229
-DESCRIPTION:🍁 布鲁克林社区秋日节\,免费!\n周日中午到下
- 午三点\,带娃去玩一下午~\n费用:免费\nhttps://www.nycgovparks.
- org/events/halloween
-URL:https://www.nycgovparks.org/events/halloween
+UID:village-parade-2026-10-31@noboringweekends
+DTSTAMP:20261026T000000Z
+DTSTART:20261031T230000Z
+DTEND:20261101T030000Z
+SUMMARY:格林威治村万圣节大游行
+LOCATION:Sixth Avenue\, 6th Ave from Spring St northward\, New York\, NY
+DESCRIPTION:🎭 全美最大的万圣节夜间游行!今年主题「Body &
+  Soul」\n穿服装就能参加:6:30-9 点在 Canal St & 6th Ave 排队
+ 🙌\n人超多超吵\,带小朋友建议早点到 14 街附近\,准备耳
+ 塞。\n费用:免费\nhttps://halloween-nyc.com/
+URL:https://halloween-nyc.com/
+END:VEVENT
+BEGIN:VEVENT
+UID:harlem-meer-2026-10-31@noboringweekends
+DTSTAMP:20261026T000000Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:中央公园 Harlem Meer 万圣节南瓜漂流
+LOCATION:Charles A. Dana Discovery Center\, Central Park\, E 110th St & 5th
+  Ave\, New York\, NY 10029
+DESCRIPTION:🎃 南瓜灯漂在湖上超美!\n手工+家庭表演\,比格
+ 林威治村游行安静很多\,适合小小孩。时间以官网为准。
+ \n费用:免费\nhttps://www.rockefellercenter.com/magazine/events/hallowe
+ en-events-nyc/
+URL:https://www.rockefellercenter.com/magazine/events/halloween-events-nyc/
+END:VEVENT
+BEGIN:VEVENT
+UID:qc-farm-2026-10-31@noboringweekends
+DTSTAMP:20261026T000000Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:皇后郡农场博物馆万圣节
+LOCATION:Queens County Farm Museum\, 73-50 Little Neck Pkwy\, Floral Park\,
+  NY 11004
+DESCRIPTION:🐐 南瓜田+农场小动物+手作市集!时间以官网为
+ 准。\n费用:以官网为准\nhttps://www.rockefellercenter.com/magazine
+ /events/halloween-events-nyc/
+URL:https://www.rockefellercenter.com/magazine/events/halloween-events-nyc/
 END:VEVENT
 END:VCALENDAR

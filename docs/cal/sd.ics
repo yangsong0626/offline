@@ -8,99 +8,89 @@ X-WR-TIMEZONE:America/Los_Angeles
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:birch-aglow-2026-10-23@noboringweekends
-DTSTAMP:20261022T000000Z
-DTSTART:20261024T010000Z
-DTEND:20261024T033000Z
-SUMMARY:伯奇水族馆 Halloween Aglow(周五/六)
-LOCATION:Birch Aquarium at Scripps\, 2300 Expedition Way\, La Jolla\, CA 92
- 037
-DESCRIPTION:🐟 水族馆夜间讨糖+现场音乐+服装比赛!\n周五
- 周六晚 6-8:30\,需购票。\n费用:$49.95–$59.95\nhttps://www.sandie
- gofamily.com/things-to-do/seasonal-happenings/halloween-and-fall-activitie
- s-san-diego
-URL:https://www.sandiegofamily.com/things-to-do/seasonal-happenings/hallowe
- en-and-fall-activities-san-diego
-END:VEVENT
-BEGIN:VEVENT
-UID:halgloween-zoo-2026-10-23@noboringweekends
-DTSTAMP:20261022T000000Z
-DTSTART;VALUE=DATE:20261023
-DTEND;VALUE=DATE:20261024
-SUMMARY:圣地亚哥动物园 HalGLOWeen
+UID:halgloween2-2026-10-30@noboringweekends
+DTSTAMP:20261026T000000Z
+DTSTART;VALUE=DATE:20261030
+DTEND;VALUE=DATE:20261031
+SUMMARY:圣地亚哥动物园 HalGLOWeen(最后周末)
 LOCATION:San Diego Zoo\, 2920 Zoo Dr\, San Diego\, CA 92101
-DESCRIPTION:✨ 动物园夜间发光万圣节!\n周五到周日晚上\,11 
- 岁以下儿童免费\,穿服装更好玩~\n费用:11岁以下免费\,成
- 人门票\nhttps://www.sandiegofamily.com/things-to-do/seasonal-happenings
- /halloween-and-fall-activities-san-diego
+DESCRIPTION:✨ 夜间发光万圣节最后一个周末\,11 岁以下免费
+ !\n费用:11岁以下免费\nhttps://www.sandiegofamily.com/things-to-do/s
+ easonal-happenings/halloween-and-fall-activities-san-diego
 URL:https://www.sandiegofamily.com/things-to-do/seasonal-happenings/hallowe
  en-and-fall-activities-san-diego
 END:VEVENT
 BEGIN:VEVENT
-UID:santee-spooktacular-2026-10-24@noboringweekends
-DTSTAMP:20261022T000000Z
-DTSTART:20261024T170000Z
-DTEND:20261024T210000Z
-SUMMARY:Santee Lakes 万圣节
-LOCATION:Santee Lakes Recreation Preserve\, 9310 Fanita Pkwy\, Santee\, CA 
- 92071
-DESCRIPTION:🦆 湖边超大后备箱讨糖+充气城堡+脸绘+餐车!\n
- 周六上午 10 点到 2 点。\n费用:以官网为准\nhttps://www.sandi
- egofamily.com/things-to-do/seasonal-happenings/halloween-and-fall-activiti
- es-san-diego
-URL:https://www.sandiegofamily.com/things-to-do/seasonal-happenings/hallowe
- en-and-fall-activities-san-diego
-END:VEVENT
-BEGIN:VEVENT
-UID:belmont-fall-fest-2026-10-24@noboringweekends
-DTSTAMP:20261022T000000Z
-DTSTART;VALUE=DATE:20261024
-DTEND;VALUE=DATE:20261025
-SUMMARY:Belmont Park 海滩秋日节
-LOCATION:Belmont Park\, 3146 Mission Blvd\, San Diego\, CA 92109
-DESCRIPTION:🎢 10 月每个周末免费讨糖+原声音乐!\n海边游乐
- 园\,时间以官网为准。\n费用:免费\nhttps://www.sandiegofamily.c
- om/things-to-do/seasonal-happenings/halloween-and-fall-activities-san-dieg
- o
-URL:https://www.sandiegofamily.com/things-to-do/seasonal-happenings/hallowe
- en-and-fall-activities-san-diego
-END:VEVENT
-BEGIN:VEVENT
-UID:julian-jubilee-2026-10-24@noboringweekends
-DTSTAMP:20261022T000000Z
-DTSTART;VALUE=DATE:20261024
-DTEND;VALUE=DATE:20261025
-SUMMARY:Julian 秋日庆典(最后一个周末)
-LOCATION:Fort Cross Old West Town\, Julian\, CA 92036
-DESCRIPTION:🍎 苹果小镇南瓜田、干草车、榨苹果汁、手工
- 蜡烛!\n本周末是最后一个周末。\n费用:以官网为准\nhttps:
- //www.sandiegofamily.com/things-to-do/seasonal-happenings/halloween-and-fa
- ll-activities-san-diego
-URL:https://www.sandiegofamily.com/things-to-do/seasonal-happenings/hallowe
- en-and-fall-activities-san-diego
-END:VEVENT
-BEGIN:VEVENT
-UID:gather-on-grand-2026-10-25@noboringweekends
-DTSTAMP:20261022T000000Z
-DTSTART:20261025T160000Z
-DTEND:20261026T000000Z
-SUMMARY:Escondido Gather on Grand 街头节
-LOCATION:Downtown Escondido\, Grand Ave\, Escondido\, CA 92025
-DESCRIPTION:🎨 免费街头节:手作摊位+两个音乐舞台!\n周日
- 全天。\n费用:免费\nhttps://theresandiego.com/things-to-do-in-san-di
- ego-this-weekend/
-URL:https://theresandiego.com/things-to-do-in-san-diego-this-weekend/
-END:VEVENT
-BEGIN:VEVENT
-UID:india-street-tot-2026-10-25@noboringweekends
-DTSTAMP:20261022T000000Z
-DTSTART;VALUE=DATE:20261025
-DTEND;VALUE=DATE:20261026
-SUMMARY:小意大利 India Street 讨糖
-LOCATION:Little Italy\, India St\, San Diego\, CA 92101
-DESCRIPTION:🍕 小意大利商家发糖!\n逛完顺便吃个披萨冰淇
- 淋\,免费\,时间以官网为准。\n费用:免费\nhttps://lajollamom.c
- om/san-diego-kids-halloween/
+UID:carlsbad-village-2026-10-31@noboringweekends
+DTSTAMP:20261026T000000Z
+DTSTART:20261031T210000Z
+DTEND:20261101T010000Z
+SUMMARY:Carlsbad 小镇万圣节
+LOCATION:Carlsbad Village\, State St\, Carlsbad\, CA 92008
+DESCRIPTION:🎃 Carlsbad 小镇万圣节下午场\,细节以官网为准
+ 。\n费用:以官网为准\nhttps://lajollamom.com/san-diego-kids-hallowe
+ en/
 URL:https://lajollamom.com/san-diego-kids-halloween/
+END:VEVENT
+BEGIN:VEVENT
+UID:coronado-tot-2026-10-31@noboringweekends
+DTSTAMP:20261026T000000Z
+DTSTART:20261031T220000Z
+DTEND:20261101T010000Z
+SUMMARY:科罗纳多 Orange Ave 商家讨糖
+LOCATION:Orange Avenue\, Orange Ave\, Coronado\, CA 92118
+DESCRIPTION:⛴️ 下午坐渡轮去科罗纳多\,沿街商家发糖(2-12 
+ 岁)\,再看看老房子的万圣节装饰~免费!\n费用:免费\nhttps:/
+ /lajollamom.com/san-diego-kids-halloween/
+URL:https://lajollamom.com/san-diego-kids-halloween/
+END:VEVENT
+BEGIN:VEVENT
+UID:la-jolla-tot-2026-10-31@noboringweekends
+DTSTAMP:20261026T000000Z
+DTSTART:20261031T220000Z
+DTEND:20261101T010000Z
+SUMMARY:拉霍亚 Girard Ave 商家讨糖
+LOCATION:Girard Avenue\, Girard Ave & Prospect St\, La Jolla\, CA 92037
+DESCRIPTION:🍬 拉霍亚小镇商家讨糖\,2-10 岁\,下午 3-6 点\,免
+ 费。\n费用:免费\nhttps://lajollamom.com/san-diego-kids-halloween/
+URL:https://lajollamom.com/san-diego-kids-halloween/
+END:VEVENT
+BEGIN:VEVENT
+UID:old-town-ddlm-2026-10-31@noboringweekends
+DTSTAMP:20261026T000000Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:Old Town 亡灵节
+LOCATION:Old Town San Diego\, San Diego Ave & Harney St\, San Diego\, CA 92
+ 110
+DESCRIPTION:🌼 圣地亚哥最大的亡灵节!40+ 祭坛、糖骷髅彩
+ 绘、亲子手工、烛光游行🕯️\n周六周日有街头市集\,11/
+ 1 有 Catrina 装扮比赛\,免费。\n费用:免费\nhttps://www.oldtowns
+ andiego.org/ddlm/
+URL:https://www.oldtownsandiego.org/ddlm/
+END:VEVENT
+BEGIN:VEVENT
+UID:legoland-sd-2026-10-31@noboringweekends
+DTSTAMP:20261026T000000Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:乐高乐园 Brick-or-Treat
+LOCATION:LEGOLAND California\, 1 Legoland Dr\, Carlsbad\, CA 92008
+DESCRIPTION:🧱 乐高乐园万圣节\,开到 11/1\,需购票。\n费用:
+ 以官网为准\nhttps://enjoyorangecounty.com/halloween-events/
+URL:https://enjoyorangecounty.com/halloween-events/
+END:VEVENT
+BEGIN:VEVENT
+UID:belmont-fall2-2026-10-31@noboringweekends
+DTSTAMP:20261026T000000Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:Belmont Park 海滩讨糖
+LOCATION:Belmont Park\, 3146 Mission Blvd\, San Diego\, CA 92109
+DESCRIPTION:🎢 10 月最后一个周末免费讨糖+音乐~\n费用:免
+ 费\nhttps://www.sandiegofamily.com/things-to-do/seasonal-happenings/hallo
+ ween-and-fall-activities-san-diego
+URL:https://www.sandiegofamily.com/things-to-do/seasonal-happenings/hallowe
+ en-and-fall-activities-san-diego
 END:VEVENT
 END:VCALENDAR

@@ -8,99 +8,68 @@ X-WR-TIMEZONE:America/Los_Angeles
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:heritage-hill-2026-10-23@noboringweekends
-DTSTAMP:20261022T000000Z
-DTSTART;VALUE=DATE:20261023
-DTEND;VALUE=DATE:20261024
-SUMMARY:Heritage Hill 历史公园秋日万圣节
-LOCATION:Heritage Hill Historical Park\, 25151 Serrano Rd\, Lake Forest\, C
- A 92630
-DESCRIPTION:🏡 老房子里过万圣节\,免费!\n10/23-25\,时间以官
- 网为准。\n费用:免费\nhttps://www.sandytoesandpopsicles.com/orange-
- county/family-and-kid-halloween-events/
+UID:fullerton-pd-trunk-2026-10-30@noboringweekends
+DTSTAMP:20261026T000000Z
+DTSTART:20261031T000000Z
+DTEND:20261031T030000Z
+SUMMARY:Fullerton 警局后备箱讨糖
+LOCATION:Fullerton Police Department\, 237 W Commonwealth Ave\, Fullerton\,
+  CA 92832
+DESCRIPTION:🚓 周五傍晚警察叔叔发糖\,免费!\n费用:免费\nht
+ tps://enjoyorangecounty.com/trunk-or-treat-events-in-orange-county-this-we
+ ek/
+URL:https://enjoyorangecounty.com/trunk-or-treat-events-in-orange-county-th
+ is-week/
+END:VEVENT
+BEGIN:VEVENT
+UID:back-bay-market-2026-10-31@noboringweekends
+DTSTAMP:20261026T000000Z
+DTSTART:20261031T160000Z
+DTEND:20261031T200000Z
+SUMMARY:纽波特 Back Bay 万圣节手作市集
+LOCATION:Back Bay Market\, Newport Beach\, CA
+DESCRIPTION:🛍️ 万圣节手作市集+儿童活动\,上午场~地址费
+ 用以官网为准。\n费用:以官网为准\nhttps://www.sandytoesandpop
+ sicles.com/orange-county/family-and-kid-halloween-events/
 URL:https://www.sandytoesandpopsicles.com/orange-county/family-and-kid-hall
  oween-events/
 END:VEVENT
 BEGIN:VEVENT
-UID:woodbridge-market-2026-10-24@noboringweekends
-DTSTAMP:20261022T000000Z
-DTSTART:20261024T170000Z
-DTEND:20261024T230000Z
-SUMMARY:尔湾 Woodbridge 万圣节市集(周六/日)
-LOCATION:Woodbridge Village Center\, 4 Mira Loma\, Irvine\, CA 92620
-DESCRIPTION:🛍️ 尔湾 30+ 本地手作摊位!\n现场音乐、儿童
- 手工台\,下午 1 点服装比赛🎃 免费\,周六周日都有。\n费
- 用:免费\nhttps://www.sandytoesandpopsicles.com/family-weekend-events-or
- ange-county/
-URL:https://www.sandytoesandpopsicles.com/family-weekend-events-orange-coun
- ty/
+UID:irvine-umc-trunk-2026-10-31@noboringweekends
+DTSTAMP:20261026T000000Z
+DTSTART:20261101T000000Z
+DTEND:20261101T013000Z
+SUMMARY:尔湾 University UMC 后备箱讨糖
+LOCATION:University United Methodist Church\, 18422 Culver Dr\, Irvine\, CA
+  92612
+DESCRIPTION:🍬 尔湾社区万圣节讨糖\,傍晚 5 点到 6:30~\n费用
+ :免费\nhttps://enjoyorangecounty.com/trunk-or-treat-events-in-orange-cou
+ nty-this-week/
+URL:https://enjoyorangecounty.com/trunk-or-treat-events-in-orange-county-th
+ is-week/
 END:VEVENT
 BEGIN:VEVENT
-UID:anaheim-parade-2026-10-24@noboringweekends
-DTSTAMP:20261022T000000Z
-DTSTART:20261024T170000Z
-DTEND:20261024T230000Z
-SUMMARY:安纳罕秋日节+万圣节游行
-LOCATION:Downtown Anaheim\, Downtown Anaheim\, CA 92805
-DESCRIPTION:🎺 百年传统的安纳罕万圣节游行!\n白天 10-4 点
- 秋日节\,晚上 7 点大游行✨\n费用:免费\nhttps://www.visitanahe
- im.org/blog/post/halloween-in-anaheim-and-orange-county/
-URL:https://www.visitanaheim.org/blog/post/halloween-in-anaheim-and-orange-
- county/
+UID:compass-fall-fest-2026-10-31@noboringweekends
+DTSTAMP:20261026T000000Z
+DTSTART:20261101T010000Z
+DTEND:20261101T040000Z
+SUMMARY:Aliso Viejo 秋日节
+LOCATION:Compass Bible Church\, Aliso Viejo\, CA 92656
+DESCRIPTION:🎠 美食、糖果、游戏、游乐设施\,免费!地址以
+ 官网为准。\n费用:免费\nhttps://enjoyorangecounty.com/trunk-or-tre
+ at-events-in-orange-county-this-week/
+URL:https://enjoyorangecounty.com/trunk-or-treat-events-in-orange-county-th
+ is-week/
 END:VEVENT
 BEGIN:VEVENT
-UID:santa-ana-zoo-boo-2026-10-24@noboringweekends
-DTSTAMP:20261022T000000Z
-DTSTART:20261025T003000Z
-DTEND:20261025T023000Z
-SUMMARY:Santa Ana 动物园 Boo at the Zoo(周六/日)
-LOCATION:Santa Ana Zoo\, 1801 E Chestnut Ave\, Santa Ana\, CA 92701
-DESCRIPTION:🐒 傍晚动物园万圣节\,特别适合小小孩!\n周六
- 周日 5:30-7:30。\n费用:以官网为准\nhttps://www.sandytoesandpopsi
- cles.com/orange-county/family-and-kid-halloween-events/
-URL:https://www.sandytoesandpopsicles.com/orange-county/family-and-kid-hall
- oween-events/
-END:VEVENT
-BEGIN:VEVENT
-UID:spooky-seas-2026-10-24@noboringweekends
-DTSTAMP:20261022T000000Z
-DTSTART:20261025T003000Z
-DTEND:20261025T040000Z
-SUMMARY:海洋研究所 Spooky Seas
-LOCATION:Ocean Institute\, 24200 Dana Point Harbor Dr\, Dana Point\, CA 926
- 29
-DESCRIPTION:🌊 荧光激光枪战、疯狂科学家实验室、鬼船参
- 观!\n夜间水族馆+服装比赛\,需购票。\n费用:以官网为准\n
- https://www.sandytoesandpopsicles.com/orange-county/family-and-kid-hallowe
- en-events/
-URL:https://www.sandytoesandpopsicles.com/orange-county/family-and-kid-hall
- oween-events/
-END:VEVENT
-BEGIN:VEVENT
-UID:boo-at-the-bay-2026-10-24@noboringweekends
-DTSTAMP:20261022T000000Z
-DTSTART;VALUE=DATE:20261024
-DTEND;VALUE=DATE:20261025
-SUMMARY:纽波特 Boo at the Bay
-LOCATION:Newport Bay\, Newport Beach\, CA
-DESCRIPTION:🦀 免费亲子派对:讲故事、手工、科学实验、活
- 体动物!\n时间地点以官网为准。\n费用:免费\nhttps://www.san
- dytoesandpopsicles.com/orange-county/family-and-kid-halloween-events/
-URL:https://www.sandytoesandpopsicles.com/orange-county/family-and-kid-hall
- oween-events/
-END:VEVENT
-BEGIN:VEVENT
-UID:knotts-spooky-farm-2026-10-24@noboringweekends
-DTSTAMP:20261022T000000Z
-DTSTART;VALUE=DATE:20261024
-DTEND;VALUE=DATE:20261025
-SUMMARY:Knott's Spooky Farm 白天万圣节
-LOCATION:Knott's Berry Farm\, 8039 Beach Blvd\, Buena Park\, CA 90620
-DESCRIPTION:🎡 白天的诺氏乐园万圣节\,不吓人\,适合小朋友
- !\n周四到周日开放\,门票以官网为准。\n费用:以官网为准
- \nhttps://www.sandytoesandpopsicles.com/orange-county/family-and-kid-hallo
- ween-events/
-URL:https://www.sandytoesandpopsicles.com/orange-county/family-and-kid-hall
- oween-events/
+UID:disneyland-halloween-2026-10-31@noboringweekends
+DTSTAMP:20261026T000000Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:迪士尼乐园万圣节(最后一天)
+LOCATION:Disneyland Resort\, 1313 Disneyland Dr\, Anaheim\, CA 92802
+DESCRIPTION:🎃 迪士尼万圣节装饰最后一天!需购票预约。\n
+ 费用:以官网为准\nhttps://enjoyorangecounty.com/halloween-events/
+URL:https://enjoyorangecounty.com/halloween-events/
 END:VEVENT
 END:VCALENDAR
