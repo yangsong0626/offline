@@ -8,126 +8,96 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:asts-arch-tour-2026-10-24@noboringweekends
-DTSTAMP:20261022T000000Z
-DTSTART:20261024T160000Z
-DTEND:20261024T170000Z
-SUMMARY:亚洲协会德州中心建筑导览
+UID:asts-chakra-2026-11-01@noboringweekends
+DTSTAMP:20261026T000000Z
+DTSTART:20261101T160000Z
+DTEND:20261101T170000Z
+SUMMARY:亚洲协会德州中心冥想工作坊
 LOCATION:Asia Society Texas Center\, 1370 Southmore Blvd\, Houston\, TX 770
  04
-DESCRIPTION:🏛️ 谷口吉生在美国的第一座独立建筑!\n导览
- 带你看幕后空间\,$10\,需预约。\n费用:$10\,会员免费\nhttps:
- //asiasociety.org/texas/events
+DESCRIPTION:🧘 周日早上冥想一小时\,费用预约以官网为准
+ 。\n预告:11/6 周五晚亚洲夜市\,免费!\n费用:以官网为准\nh
+ ttps://asiasociety.org/texas/events
 URL:https://asiasociety.org/texas/events
 END:VEVENT
 BEGIN:VEVENT
-UID:asts-sound-bath-2026-10-25@noboringweekends
-DTSTAMP:20261022T000000Z
-DTSTART:20261025T160000Z
-DTEND:20261025T170000Z
-SUMMARY:亚洲协会德州中心颂钵冥想
-LOCATION:Asia Society Texas Center\, 1370 Southmore Blvd\, Houston\, TX 770
- 04
-DESCRIPTION:🧘 周日上午来一场颂钵冥想\,放松一下~\n费用
- 和预约以官网为准。\n费用:以官网为准\nhttps://asiasociety.o
- rg/texas/events
-URL:https://asiasociety.org/texas/events
+UID:scream-green-2026-10-30@noboringweekends
+DTSTAMP:20261026T000000Z
+DTSTART:20261030T230000Z
+DTEND:20261031T020000Z
+SUMMARY:Discovery Green 万圣节 Scream on the Green
+LOCATION:Discovery Green\, 1500 McKinney St\, Houston\, TX 77010
+DESCRIPTION:🎃 服装比赛、游戏、音乐、真人雕塑拍照!\n免
+ 费\,参加服装比赛需报名。\n费用:免费\nhttps://www.houstonont
+ hecheap.com/top-events-in-houston-october-30-november-1-2026/
+URL:https://www.houstononthecheap.com/top-events-in-houston-october-30-nove
+ mber-1-2026/
 END:VEVENT
 BEGIN:VEVENT
-UID:hocus-pocus-pops-2026-10-23@noboringweekends
-DTSTAMP:20261022T000000Z
-DTSTART:20261024T003000Z
-DTEND:20261024T023000Z
-SUMMARY:休斯顿交响乐团万圣节音乐会(免费)
-LOCATION:Cynthia Woods Mitchell Pavilion\, 2005 Lake Robbins Dr\, The Woodl
- ands\, TX 77380
-DESCRIPTION:🎻 交响乐团演奏万圣节音乐\,观众可以穿服装!\
- n免费\,6 点开门\,带野餐垫去草坪~\n费用:免费\nhttps://mommy
- poppins.com/top-Halloween-events-near-Houston
-URL:https://mommypoppins.com/top-Halloween-events-near-Houston
+UID:first-colony-2026-10-30@noboringweekends
+DTSTAMP:20261026T000000Z
+DTSTART;VALUE=DATE:20261030
+DTEND;VALUE=DATE:20261031
+SUMMARY:First Colony 商场万圣节(糖城)
+LOCATION:First Colony Mall\, 16535 Southwest Fwy\, Sugar Land\, TX 77479
+DESCRIPTION:🍬 华人多的糖城!室内脸绘、拍照、寻宝、手工
+ \,还有很多糖~\n费用:免费\nhttps://www.houstononthecheap.com/top-e
+ vents-in-houston-october-30-november-1-2026/
+URL:https://www.houstononthecheap.com/top-events-in-houston-october-30-nove
+ mber-1-2026/
 END:VEVENT
 BEGIN:VEVENT
-UID:cmh-booseum-2026-10-23@noboringweekends
-DTSTAMP:20261022T000000Z
-DTSTART;VALUE=DATE:20261023
-DTEND;VALUE=DATE:20261024
-SUMMARY:休斯顿儿童博物馆 BOOseum
-LOCATION:Children's Museum Houston\, 1500 Binz St\, Houston\, TX 77004
-DESCRIPTION:👻 儿童博物馆变身「BOO 物馆」!\n万圣节主题含
- 在门票里\,周末都开。\n费用:含在门票内\nhttps://www.cmhoust
- on.org/events
-URL:https://www.cmhouston.org/events
+UID:kemah-boo-2026-10-30@noboringweekends
+DTSTAMP:20261026T000000Z
+DTSTART;VALUE=DATE:20261030
+DTEND;VALUE=DATE:20261031
+SUMMARY:Kemah 木栈道万圣节(最后周末)
+LOCATION:Kemah Boardwalk\, 215 Kipp Ave\, Kemah\, TX 77565
+DESCRIPTION:🎡 游乐设施+讨糖+手工+服装比赛\,10/30-31 最后
+ 两天!\n费用:以官网为准\nhttps://diningout.com/houston/where-to-ce
+ lebrate-halloween-weekend-in-houston-the-best-parties-and-events-for-2026
+URL:https://diningout.com/houston/where-to-celebrate-halloween-weekend-in-h
+ ouston-the-best-parties-and-events-for-2026
 END:VEVENT
 BEGIN:VEVENT
-UID:hangar-halloween-2026-10-24@noboringweekends
-DTSTAMP:20261022T000000Z
-DTSTART:20261024T150000Z
-DTEND:20261024T180000Z
-SUMMARY:孤星飞行博物馆机库万圣节
-LOCATION:Lone Star Flight Museum\, 11551 Aerospace Ave\, Houston\, TX 77034
-DESCRIPTION:✈️ 在老飞机之间讨糖!\n上午 10 点到 1 点\,门
- 票以官网为准。\n费用:以官网为准\nhttps://mommypoppins.com/to
- p-Halloween-events-near-Houston
-URL:https://mommypoppins.com/top-Halloween-events-near-Houston
+UID:houston-symphony-haunted-2026-10-31@noboringweekends
+DTSTAMP:20261026T000000Z
+DTSTART:20261031T150000Z
+DTEND:20261031T170000Z
+SUMMARY:休斯顿交响乐团儿童万圣节音乐会
+LOCATION:Jones Hall\, 615 Louisiana St\, Houston\, TX 77002
+DESCRIPTION:🎻 万圣节早上 10 点和 11:30 两场儿童音乐会\,票
+ 务以官网为准。\n费用:以官网为准\nhttps://diningout.com/houst
+ on/where-to-celebrate-halloween-weekend-in-houston-the-best-parties-and-ev
+ ents-for-2026
+URL:https://diningout.com/houston/where-to-celebrate-halloween-weekend-in-h
+ ouston-the-best-parties-and-events-for-2026
 END:VEVENT
 BEGIN:VEVENT
-UID:rice-village-tot-2026-10-24@noboringweekends
-DTSTAMP:20261022T000000Z
-DTSTART:20261024T210000Z
-DTEND:20261025T000000Z
-SUMMARY:Rice Village 商圈讨糖
-LOCATION:Rice Village\, 2400 University Blvd\, Houston\, TX 77005
-DESCRIPTION:🍬 逛街顺便讨糖\,免费!下午 4-7 点~\n费用:免费\
- nhttps://www.kids-houston.com/free-halloween-and-fall-activities-events/
-URL:https://www.kids-houston.com/free-halloween-and-fall-activities-events/
-END:VEVENT
-BEGIN:VEVENT
-UID:houston-zoo-boo-2026-10-24@noboringweekends
-DTSTAMP:20261022T000000Z
-DTSTART;VALUE=DATE:20261024
-DTEND;VALUE=DATE:20261025
-SUMMARY:休斯顿动物园 Zoo Boo
+UID:houston-zoo-boo2-2026-10-31@noboringweekends
+DTSTAMP:20261026T000000Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:休斯顿动物园 Zoo Boo(最后一天)
 LOCATION:Houston Zoo\, 6200 Hermann Park Dr\, Houston\, TX 77030
-DESCRIPTION:🎃 南瓜装饰+动物主题活动\,适合小小孩~\n每天
- 都有\,开到 10/31。\n费用:含在门票内\nhttps://mommypoppins.com/
- top-Halloween-events-near-Houston
-URL:https://mommypoppins.com/top-Halloween-events-near-Houston
+DESCRIPTION:🎃 Zoo Boo 万圣节当天收官\,含在门票里~\n费用:
+ 含在门票内\nhttps://diningout.com/houston/where-to-celebrate-hallowee
+ n-weekend-in-houston-the-best-parties-and-events-for-2026
+URL:https://diningout.com/houston/where-to-celebrate-halloween-weekend-in-h
+ ouston-the-best-parties-and-events-for-2026
 END:VEVENT
 BEGIN:VEVENT
-UID:boo-on-bayou-2026-10-25@noboringweekends
-DTSTAMP:20261022T000000Z
-DTSTART:20261025T180000Z
-DTEND:20261025T210000Z
-SUMMARY:休斯顿海事博物馆 Boo on the Bayou
-LOCATION:Houston Maritime Center\, Houston Maritime Center\, Houston\, TX
-DESCRIPTION:⚓ 免费动手活动+服装比赛!\n周日下午 1-4 点\,全
- 年龄。\n费用:免费\nhttps://houstonmom.com/family-friendly-things-to
- -do-in-houston-this-weekend/
-URL:https://houstonmom.com/family-friendly-things-to-do-in-houston-this-wee
- kend/
-END:VEVENT
-BEGIN:VEVENT
-UID:woodlands-trail-2026-10-25@noboringweekends
-DTSTAMP:20261022T000000Z
-DTSTART:20261025T180000Z
-DTEND:20261025T220000Z
-SUMMARY:The Woodlands 讨糖步道
-LOCATION:Rob Fleming Recreation Center\, 6464 Creekside Forest Dr\, The Woo
- dlands\, TX 77389
-DESCRIPTION:🧟 讨糖步道+怪兽舞会\,免费!周日下午 1-5 点。\
- n费用:免费\nhttps://mommypoppins.com/top-Halloween-events-near-Houston
-URL:https://mommypoppins.com/top-Halloween-events-near-Houston
-END:VEVENT
-BEGIN:VEVENT
-UID:levy-howloween-2026-10-25@noboringweekends
-DTSTAMP:20261022T000000Z
-DTSTART:20261025T190000Z
-DTEND:20261025T230000Z
-SUMMARY:Levy 公园狗狗万圣节游行
-LOCATION:Levy Park\, 3801 Eastside St\, Houston\, TX 77098
-DESCRIPTION:🐶 狗狗服装游行+比赛!\n周日下午\,带上毛孩子
- 一起~\n费用:以官网为准\nhttps://mommypoppins.com/top-Halloween-ev
- ents-near-Houston
-URL:https://mommypoppins.com/top-Halloween-events-near-Houston
+UID:galaxy-frights2-2026-10-31@noboringweekends
+DTSTAMP:20261026T000000Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:休斯顿太空中心 Galaxy Frights
+LOCATION:Space Center Houston\, 1601 E NASA Pkwy\, Houston\, TX 77058
+DESCRIPTION:🚀 太空中心万圣节主题活动\,适合大孩子\,票务
+ 以官网为准。\n费用:以官网为准\nhttps://diningout.com/houston/
+ where-to-celebrate-halloween-weekend-in-houston-the-best-parties-and-event
+ s-for-2026
+URL:https://diningout.com/houston/where-to-celebrate-halloween-weekend-in-h
+ ouston-the-best-parties-and-events-for-2026
 END:VEVENT
 END:VCALENDAR

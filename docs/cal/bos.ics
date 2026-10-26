@@ -8,117 +8,91 @@ X-WR-TIMEZONE:America/New_York
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:baaff-2026-10-24@noboringweekends
-DTSTAMP:20261022T000000Z
-DTSTART;VALUE=DATE:20261024
-DTEND;VALUE=DATE:20261025
-SUMMARY:波士顿亚裔美国电影节(收官)
-LOCATION:Emerson Paramount Center\, 559 Washington St\, Boston\, MA 02111
-DESCRIPTION:🎬 第 18 届波士顿亚裔美国电影节本周末收官!\n
- 周六有短片专场\,就在中国城旁边\,看完去吃个宵夜🍜 
- 片单以官网为准。\n费用:以官网为准\nhttps://baaff.org/
-URL:https://baaff.org/
-END:VEVENT
-BEGIN:VEVENT
-UID:stone-zoo-lanterns-2026-10-23@noboringweekends
-DTSTAMP:20261022T000000Z
-DTSTART:20261023T213000Z
-DTEND:20261024T013000Z
-SUMMARY:Stone 动物园南瓜灯之夜
-LOCATION:Stone Zoo\, 149 Pond St\, Stoneham\, MA 02180
-DESCRIPTION:🎃 夜晚南瓜灯展\,周四到周日都开!\n晚 5:30-9:30\
- ,需购票。\n费用:以官网为准\nhttps://www.zoonewengland.org/
-URL:https://www.zoonewengland.org/
-END:VEVENT
-BEGIN:VEVENT
-UID:affordable-art-fair-2026-10-23@noboringweekends
-DTSTAMP:20261022T000000Z
-DTSTART;VALUE=DATE:20261023
-DTEND;VALUE=DATE:20261024
-SUMMARY:平价艺术博览会
-LOCATION:SoWa Power Station\, 550 Harrison Ave\, Boston\, MA 02118
-DESCRIPTION:🖼️ 55+ 画廊、上千件原作\,平价买艺术!\n10/22-2
- 5\,票价以官网为准。\n费用:以官网为准\nhttps://wbur.org/news
- /2026/10/21/weekend-affordable-art-fair-the-boston-asian-american-film-fes
- tival
-URL:https://wbur.org/news/2026/10/21/weekend-affordable-art-fair-the-boston
- -asian-american-film-festival
-END:VEVENT
-BEGIN:VEVENT
-UID:jim-gaffigan-2026-10-23@noboringweekends
-DTSTAMP:20261022T000000Z
-DTSTART;VALUE=DATE:20261023
-DTEND;VALUE=DATE:20261024
-SUMMARY:Jim Gaffigan 脱口秀(周五/六)
-LOCATION:Boch Center Wang Theatre\, 270 Tremont St\, Boston\, MA 02116
-DESCRIPTION:😂 Jim Gaffigan 波士顿两晚!\n票务以官网为准。\n
- 费用:以官网为准\nhttps://www.bostonmagazine.com/things-to-do/weeken
- d/
+UID:ica-kusama-2026-10-31@noboringweekends
+DTSTAMP:20261026T000000Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:ICA 草间弥生《LOVE IS CALLING》
+LOCATION:Institute of Contemporary Art\, 25 Harbor Shore Dr\, Boston\, MA 0
+ 2210
+DESCRIPTION:🔴 草间弥生无限镜屋回来了!\n波点+镜面超出片
+ 📸 需预约时段票\,以官网为准。\n费用:以官网为准\nhttps
+ ://www.bostonmagazine.com/things-to-do/weekend/
 URL:https://www.bostonmagazine.com/things-to-do/weekend/
 END:VEVENT
 BEGIN:VEVENT
-UID:drumlin-fall-o-ween-2026-10-24@noboringweekends
-DTSTAMP:20261022T000000Z
-DTSTART:20261024T130000Z
-DTEND:20261024T210000Z
-SUMMARY:Drumlin 农场秋日万圣节
-LOCATION:Mass Audubon Drumlin Farm\, 208 S Great Rd\, Lincoln\, MA 01773
-DESCRIPTION:🚜 干草车+「小怪物豪宅」+手工游戏!\n农场万
- 圣节\,全天开放\,票务以官网为准。\n费用:以官网为准\nht
- tps://mommypoppins.com/best-halloween-events-and-activities-in-boston-for-
- kids-and-families
-URL:https://mommypoppins.com/best-halloween-events-and-activities-in-boston
- -for-kids-and-families
+UID:stone-zoo-lanterns2-2026-10-30@noboringweekends
+DTSTAMP:20261026T000000Z
+DTSTART:20261030T213000Z
+DTEND:20261031T013000Z
+SUMMARY:Stone 动物园南瓜灯之夜(最后两晚)
+LOCATION:Stone Zoo\, 149 Pond St\, Stoneham\, MA 02180
+DESCRIPTION:🎃 南瓜灯展开到 10/31\,最后两晚\,需购票。\n费
+ 用:以官网为准\nhttps://www.zoonewengland.org/
+URL:https://www.zoonewengland.org/
 END:VEVENT
 BEGIN:VEVENT
-UID:cider-hill-halloween-2026-10-24@noboringweekends
-DTSTAMP:20261022T000000Z
-DTSTART;VALUE=DATE:20261024
-DTEND;VALUE=DATE:20261025
-SUMMARY:Cider Hill 农场甜蜜万圣节(周六/日)
-LOCATION:Cider Hill Farm\, 45 Fern Ave\, Amesbury\, MA 01913
-DESCRIPTION:🍎 农场讨糖+拖拉机+服装比赛+现场音乐!\n需购
- 票\,周六周日都有。\n费用:以官网为准\nhttps://mommypoppins.c
- om/best-halloween-events-and-activities-in-boston-for-kids-and-families
-URL:https://mommypoppins.com/best-halloween-events-and-activities-in-boston
- -for-kids-and-families
+UID:ropes-mansion-2026-10-30@noboringweekends
+DTSTAMP:20261026T000000Z
+DTSTART;VALUE=DATE:20261030
+DTEND;VALUE=DATE:20261031
+SUMMARY:塞勒姆 Ropes 宅邸(《女巫也疯狂》取景地)
+LOCATION:Ropes Mansion\, 318 Essex St\, Salem\, MA 01970
+DESCRIPTION:🧹 《女巫也疯狂》取景地\,装饰成电影里的样
+ 子!\n免费自助参观。万圣节塞勒姆人超多\,建议坐通勤火
+ 车。\n费用:免费\nhttps://mommypoppins.com/boston-kids/free-activitie
+ s/free-halloween-parades-crafts-and-parties-for-boston-kids
+URL:https://mommypoppins.com/boston-kids/free-activities/free-halloween-par
+ ades-crafts-and-parties-for-boston-kids
 END:VEVENT
 BEGIN:VEVENT
-UID:pet-parade-2026-10-24@noboringweekends
-DTSTAMP:20261022T000000Z
-DTSTART;VALUE=DATE:20261024
-DTEND;VALUE=DATE:20261025
-SUMMARY:市中心狗狗万圣节游行
-LOCATION:Downtown Crossing\, Washington St & Summer St\, Boston\, MA 02108
-DESCRIPTION:🐕 毛孩子们的万圣节服装游行!\n看狗狗比看人
- 还开心\,时间以官网为准。\n费用:以官网为准\nhttps://www.m
- eetboston.com/blog/post/this-weekend/
-URL:https://www.meetboston.com/blog/post/this-weekend/
+UID:broadway-southie-2026-10-30@noboringweekends
+DTSTAMP:20261026T000000Z
+DTSTART;VALUE=DATE:20261030
+DTEND;VALUE=DATE:20261031
+SUMMARY:南波士顿 Broadway 商家讨糖
+LOCATION:West Broadway\, W Broadway\, South Boston\, MA 02127
+DESCRIPTION:🍬 周五南波士顿商家讨糖\,免费\,时间以官网为
+ 准。\n费用:免费\nhttps://www.bostoncentral.com/events/seasonalfun.ph
+ p
+URL:https://www.bostoncentral.com/events/seasonalfun.php
 END:VEVENT
 BEGIN:VEVENT
-UID:pruboo-2026-10-25@noboringweekends
-DTSTAMP:20261022T000000Z
-DTSTART:20261025T150000Z
-DTEND:20261025T170000Z
-SUMMARY:保诚中心 PruBoo 万圣节
-LOCATION:Prudential Center\, 800 Boylston St\, Boston\, MA 02199
-DESCRIPTION:🍭 室内讨糖+脸绘+魔术表演!\n下雨也不怕\,周日
- 上午 11 点到 1 点。\n费用:免费\nhttps://www.meetboston.com/blog/
- post/this-weekend/
-URL:https://www.meetboston.com/blog/post/this-weekend/
+UID:globedocs-2026-10-30@noboringweekends
+DTSTAMP:20261026T000000Z
+DTSTART;VALUE=DATE:20261030
+DTEND;VALUE=DATE:20261031
+SUMMARY:GlobeDocs 纪录片电影节
+LOCATION:Various venues\, Boston\, Boston\, MA
+DESCRIPTION:🎬 波士顿环球报纪录片节\,开到 11/1\,部分线上\
+ ,片单以官网为准。\n费用:以官网为准\nhttps://www.bostonmagaz
+ ine.com/things-to-do/weekend/
+URL:https://www.bostonmagazine.com/things-to-do/weekend/
 END:VEVENT
 BEGIN:VEVENT
-UID:esplanade-fall-fest-2026-10-25@noboringweekends
-DTSTAMP:20261022T000000Z
-DTSTART;VALUE=DATE:20261025
-DTEND;VALUE=DATE:20261026
-SUMMARY:查尔斯河滨秋日节
-LOCATION:Charles River Esplanade\, Charles River Esplanade\, Boston\, MA
-DESCRIPTION:🍂 河边秋日节:5K 跑、散步、狗狗服装比赛🐶\n
- 还有美食和秋季活动\,细节以官网为准。\n费用:以官网为
- 准\nhttps://wbur.org/news/2026/10/21/weekend-affordable-art-fair-the-bost
- on-asian-american-film-festival
-URL:https://wbur.org/news/2026/10/21/weekend-affordable-art-fair-the-boston
- -asian-american-film-festival
+UID:titus-sparrow-2026-10-31@noboringweekends
+DTSTAMP:20261026T000000Z
+DTSTART:20261031T200000Z
+DTEND:20261031T210000Z
+SUMMARY:South End 小朋友万圣节派对
+LOCATION:Titus Sparrow Park\, 200 W Newton St\, Boston\, MA 02116
+DESCRIPTION:🍕 披萨+音乐+小游行\,专门给小小孩的\,免费!\n
+ 费用:免费\nhttps://gokidoz.com/pages/blog/halloween-with-kids-boston-2
+ 026
+URL:https://gokidoz.com/pages/blog/halloween-with-kids-boston-2026
+END:VEVENT
+BEGIN:VEVENT
+UID:salem-haunted-2026-10-31@noboringweekends
+DTSTAMP:20261026T000000Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:塞勒姆万圣节「Haunted Happenings」
+LOCATION:Downtown Salem\, Essex St\, Salem\, MA 01970
+DESCRIPTION:🔮 女巫之城的万圣节当天!\n满街 cosplay、鬼屋
+ 、游览…人山人海\,适合大孩子和大人。\n费用:以官网为
+ 准\nhttps://bostonmoms.com/life-in-boston/halloween-events-in-and-around-
+ boston/
+URL:https://bostonmoms.com/life-in-boston/halloween-events-in-and-around-bo
+ ston/
 END:VEVENT
 END:VCALENDAR

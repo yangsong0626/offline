@@ -8,120 +8,96 @@ X-WR-TIMEZONE:America/Vancouver
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:ccm-momentum-2026-10-24@noboringweekends
-DTSTAMP:20261022T000000Z
-DTSTART:20261024T170000Z
-DTEND:20261025T000000Z
+UID:ccm-momentum2-2026-10-31@noboringweekends
+DTSTAMP:20261026T000000Z
+DTSTART:20261031T170000Z
+DTEND:20261101T000000Z
 SUMMARY:华裔加拿大人博物馆《Momentum》体育展
 LOCATION:Chinese Canadian Museum\, 51 E Pender St\, Vancouver\, BC V6A 1S9
 DESCRIPTION:🏀 华裔加拿大运动员的故事:足球、冰球、篮球
- 、花滑…\n唐人街博物馆\,周三到周日 10-5 点\,展到 2027 
- 年 9 月~\n费用:以官网为准\nhttps://www.chinesecanadianmuseum.ca/
+ 、花滑…\n唐人街博物馆\,周三到周日 10-5 点。\n费用:以
+ 官网为准\nhttps://www.chinesecanadianmuseum.ca/
 URL:https://www.chinesecanadianmuseum.ca/
 END:VEVENT
 BEGIN:VEVENT
-UID:burnaby-haunted-2026-10-23@noboringweekends
-DTSTAMP:20261022T000000Z
-DTSTART;VALUE=DATE:20261023
-DTEND;VALUE=DATE:20261024
-SUMMARY:本拿比鬼村 Haunted Village
+UID:burnaby-haunted2-2026-10-30@noboringweekends
+DTSTAMP:20261026T000000Z
+DTSTART:20261030T230000Z
+DTEND:20261031T040000Z
+SUMMARY:本拿比鬼村(周五/六)
 LOCATION:Burnaby Village Museum\, 6501 Deer Lake Ave\, Burnaby\, BC V5G 3T6
-DESCRIPTION:🎠 老村庄万圣节\,10/23-25 三天!\n需购票\,华人多
- 的本拿比~\n费用:以官网为准\nhttps://miss604.com/2026/10/family-
- friendly-halloween-activities-around-vancouver-2026/
+DESCRIPTION:🎠 老村庄万圣节最后两晚\,儿童票 $7。\n费用:
+ 儿童 $7\nhttps://miss604.com/2026/10/family-friendly-halloween-activitie
+ s-around-vancouver-2026/
 URL:https://miss604.com/2026/10/family-friendly-halloween-activities-around
  -vancouver-2026/
 END:VEVENT
 BEGIN:VEVENT
-UID:pne-fright-nights-2026-10-23@noboringweekends
-DTSTAMP:20261022T000000Z
-DTSTART;VALUE=DATE:20261023
-DTEND;VALUE=DATE:20261024
-SUMMARY:PNE 惊魂夜 Fright Nights
-LOCATION:Playland at the PNE\, 2901 E Hastings St\, Vancouver\, BC V5K 5J1
-DESCRIPTION:😱 鬼屋+游乐设施\,适合大孩子和大人!需购票。
- \n费用:以官网为准\nhttps://604now.com/things-to-do-in-metro-vancouv
- er-this-weekend-oct-23-25/
-URL:https://604now.com/things-to-do-in-metro-vancouver-this-weekend-oct-23-
- 25/
+UID:central-spark-2026-10-30@noboringweekends
+DTSTAMP:20261026T000000Z
+DTSTART;VALUE=DATE:20261030
+DTEND;VALUE=DATE:20261031
+SUMMARY:本拿比中央公园万圣节烟花
+LOCATION:Central Park\, 3883 Imperial St\, Burnaby\, BC V5J 1A1
+DESCRIPTION:🎇 家庭活动+表演+烟花收尾\,周五晚\,时间以官
+ 网为准。\n费用:免费\nhttps://vancouversbestplaces.com/events-calen
+ dar/october/vancouver-halloween-events/
+URL:https://vancouversbestplaces.com/events-calendar/october/vancouver-hall
+ oween-events/
 END:VEVENT
 BEGIN:VEVENT
-UID:monova-ghostly-2026-10-24@noboringweekends
-DTSTAMP:20261022T000000Z
-DTSTART:20261025T003000Z
-DTEND:20261025T023000Z
-SUMMARY:北温博物馆幽灵画廊(周六/日)
-LOCATION:MONOVA: Museum of North Vancouver\, 115 W Esplanade\, North Vancou
- ver\, BC V7M 1A3
-DESCRIPTION:👻 博物馆夜间万圣节\,周六周日傍晚~\n费用:以
- 官网为准\nhttps://healthyfamilyliving.com/halloween-activities-vancouv
- er/
-URL:https://healthyfamilyliving.com/halloween-activities-vancouver/
-END:VEVENT
-BEGIN:VEVENT
-UID:celebrate-the-night-2026-10-24@noboringweekends
-DTSTAMP:20261022T000000Z
-DTSTART;VALUE=DATE:20261024
-DTEND;VALUE=DATE:20261025
-SUMMARY:枫树岭万圣夜+烟花
-LOCATION:Memorial Peace Park\, Memorial Peace Park\, Maple Ridge\, BC
-DESCRIPTION:🎆 游戏、手工、南瓜、现场表演\,最后还有烟
- 花!免费。\n费用:免费\nhttps://miss604.com/2026/10/family-friendly-
- halloween-activities-around-vancouver-2026/
+UID:capilano-mall-kpop-2026-10-31@noboringweekends
+DTSTAMP:20261026T000000Z
+DTSTART:20261031T200000Z
+DTEND:20261031T220000Z
+SUMMARY:Capilano 商场 K-pop 主题讨糖
+LOCATION:Capilano Mall\, 935 Marine Dr\, North Vancouver\, BC V7P 1S3
+DESCRIPTION:🎤 K-pop 主题讨糖\,50+ 商家参与\,还有见面会!\n
+ 费用:免费\nhttps://miss604.com/2026/10/family-friendly-halloween-activ
+ ities-around-vancouver-2026/
 URL:https://miss604.com/2026/10/family-friendly-halloween-activities-around
  -vancouver-2026/
 END:VEVENT
 BEGIN:VEVENT
-UID:canyon-frights-2026-10-24@noboringweekends
-DTSTAMP:20261022T000000Z
-DTSTART;VALUE=DATE:20261024
-DTEND;VALUE=DATE:20261025
-SUMMARY:卡皮拉诺吊桥 Canyon Frights
+UID:richmond-fireworks-2026-10-31@noboringweekends
+DTSTAMP:20261026T000000Z
+DTSTART:20261101T013000Z
+DTEND:20261101T041500Z
+SUMMARY:列治文万圣节烟花节(40 周年)
+LOCATION:Minoru Park\, 7191 Granville Ave\, Richmond\, BC V6Y 1N9
+DESCRIPTION:🎆 列治文万圣节烟花 40 周年!今年主题「外星
+ 人入侵」👽\n晚 9 点放烟花\,免费\,华人超多~\n费用:免费
+ \nhttps://vancouversbestplaces.com/events-calendar/october/vancouver-hallo
+ ween-events/richmond-halloween-fireworks/
+URL:https://vancouversbestplaces.com/events-calendar/october/vancouver-hall
+ oween-events/richmond-halloween-fireworks/
+END:VEVENT
+BEGIN:VEVENT
+UID:roundhouse-2026-10-31@noboringweekends
+DTSTAMP:20261026T000000Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:Roundhouse 社区中心万圣节
+LOCATION:Roundhouse Community Centre\, 181 Roundhouse Mews\, Vancouver\, BC
+  V6Z 2W3
+DESCRIPTION:👻 10/31 万圣节鬼屋步道\,11/1 魔术表演~\n费用:
+ 以官网为准\nhttps://miss604.com/2026/10/family-friendly-halloween-act
+ ivities-around-vancouver-2026/
+URL:https://miss604.com/2026/10/family-friendly-halloween-activities-around
+ -vancouver-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:canyon-frights2-2026-10-31@noboringweekends
+DTSTAMP:20261026T000000Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:卡皮拉诺吊桥 Canyon Frights(最后周末)
 LOCATION:Capilano Suspension Bridge Park\, 3735 Capilano Rd\, North Vancouv
  er\, BC V7R 4J1
-DESCRIPTION:🌲 雨林夜间万圣节灯光步道\,不太吓人!\n开到 1
- 1/1\,需购票。\n费用:以官网为准\nhttps://www.todocanada.ca/hallo
- ween-vancouver-halloween-haunts-family-fun-adult-parties/
-URL:https://www.todocanada.ca/halloween-vancouver-halloween-haunts-family-f
- un-adult-parties/
-END:VEVENT
-BEGIN:VEVENT
-UID:writers-fest-2026-10-24@noboringweekends
-DTSTAMP:20261022T000000Z
-DTSTART;VALUE=DATE:20261024
-DTEND;VALUE=DATE:20261025
-SUMMARY:温哥华作家节
-LOCATION:Granville Island\, Granville Island\, Vancouver\, BC
-DESCRIPTION:📚 作家对谈+朗读会\,周六周日\,票务以官网为
- 准。\n费用:以官网为准\nhttps://nomsmagazine.com/things-to-do-in-v
- ancouver-this-weekend-october-23-to-25-2026/
-URL:https://nomsmagazine.com/things-to-do-in-vancouver-this-weekend-october
- -23-to-25-2026/
-END:VEVENT
-BEGIN:VEVENT
-UID:jon-and-roy-2026-10-24@noboringweekends
-DTSTAMP:20261022T000000Z
-DTSTART;VALUE=DATE:20261024
-DTEND;VALUE=DATE:20261025
-SUMMARY:Jon and Roy 音乐会
-LOCATION:Hollywood Theatre\, 3123 W Broadway\, Vancouver\, BC V6K 2H2
-DESCRIPTION:🎶 本地民谣乐队 Jon and Roy\,$44 起。\n费用:$44 起
- \nhttps://nomsmagazine.com/things-to-do-in-vancouver-this-weekend-october-
- 23-to-25-2026/
-URL:https://nomsmagazine.com/things-to-do-in-vancouver-this-weekend-october
- -23-to-25-2026/
-END:VEVENT
-BEGIN:VEVENT
-UID:salmon-come-home-2026-10-25@noboringweekends
-DTSTAMP:20261022T000000Z
-DTSTART;VALUE=DATE:20261025
-DTEND;VALUE=DATE:20261026
-SUMMARY:高贵林看三文鱼回游
-LOCATION:Hoy Creek Linear Park\, Hoy Creek Linear Park\, Coquitlam\, BC
-DESCRIPTION:🐟 带娃看三文鱼逆流回家产卵!\nHoy Creek 是最佳
- 观赏点之一\,免费。\n费用:免费\nhttps://nomsmagazine.com/things
- -to-do-in-vancouver-this-weekend-october-23-to-25-2026/
-URL:https://nomsmagazine.com/things-to-do-in-vancouver-this-weekend-october
- -23-to-25-2026/
+DESCRIPTION:🌲 雨林夜间万圣节\,开到 11/1\,需购票。\n费用:
+ 以官网为准\nhttps://miss604.com/2026/10/family-friendly-halloween-act
+ ivities-around-vancouver-2026/
+URL:https://miss604.com/2026/10/family-friendly-halloween-activities-around
+ -vancouver-2026/
 END:VEVENT
 END:VCALENDAR

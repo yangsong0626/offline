@@ -8,132 +8,79 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:fw-zoo-boo-2026-10-23@noboringweekends
-DTSTAMP:20261022T000000Z
-DTSTART:20261023T150000Z
-DTEND:20261023T220000Z
-SUMMARY:沃斯堡动物园 Boo at the Zoo
-LOCATION:Fort Worth Zoo\, 1989 Colonial Pkwy\, Fort Worth\, TX 76110
-DESCRIPTION:🦒 周五到周日都有!\n满园讨糖站、万圣节表演
- 、人偶巡游\,门票含 6 张兑糖券🍬\n费用:含在门票内\nhtt
- ps://mommypoppins.com/halloween-events-dallas-fort-worth-things-to-do
-URL:https://mommypoppins.com/halloween-events-dallas-fort-worth-things-to-d
- o
+UID:main-st-movie-2026-10-30@noboringweekends
+DTSTAMP:20261026T000000Z
+DTSTART;VALUE=DATE:20261030
+DTEND;VALUE=DATE:20261031
+SUMMARY:Main Street Garden 露天电影《小丑回魂》
+LOCATION:Main Street Garden\, 1902 Main St\, Dallas\, TX 75201
+DESCRIPTION:🎈 周五露天放《小丑回魂》\,适合大人\,时间以
+ 官网为准。\n费用:免费\nhttps://www.visitdallas.com/blog/halloween
+ -in-dallas/
+URL:https://www.visitdallas.com/blog/halloween-in-dallas/
 END:VEVENT
 BEGIN:VEVENT
-UID:bootanical-2026-10-23@noboringweekends
-DTSTAMP:20261022T000000Z
-DTSTART:20261023T223000Z
-DTEND:20261024T010000Z
-SUMMARY:达拉斯植物园夜间讨糖
-LOCATION:Dallas Arboretum\, 8525 Garland Rd\, Dallas\, TX 75218
-DESCRIPTION:🎃 10 万个南瓜中间讨糖!\n儿童探险花园夜间开
- 放\,票价以官网为准。\n费用:以官网为准\nhttps://mommypoppin
- s.com/halloween-events-dallas-fort-worth-things-to-do
-URL:https://mommypoppins.com/halloween-events-dallas-fort-worth-things-to-d
- o
+UID:stage-fright-2026-10-31@noboringweekends
+DTSTAMP:20261026T000000Z
+DTSTART:20261031T150000Z
+DTEND:20261031T180000Z
+SUMMARY:艺术区 Stage Fright 万圣节家庭节
+LOCATION:Sammons Park\, AT&T Performing Arts Center\, 2403 Flora St\, Dalla
+ s\, TX 75201
+DESCRIPTION:🎭 达拉斯动物园小动物+DJ 舞会+服装比赛+萌宠
+ 园!\n免费\,需 RSVP。\n费用:免费\nhttps://attpac.org/event/hallowe
+ en-2026
+URL:https://attpac.org/event/halloween-2026
 END:VEVENT
 BEGIN:VEVENT
-UID:harwood-movies-2026-10-23@noboringweekends
-DTSTAMP:20261022T000000Z
-DTSTART:20261023T234500Z
-DTEND:20261024T014500Z
-SUMMARY:Harwood 公园万圣节露天电影
-LOCATION:Harwood Park\, 1505 Harwood St\, Dallas\, TX 75201
-DESCRIPTION:🎬 6:45 放《亚当斯一家 2》\,8:30 放《洛基恐怖
- 秀》(后者适合大人)~\n费用:以官网为准\nhttps://mommypoppins.
- com/halloween-events-dallas-fort-worth-things-to-do
-URL:https://mommypoppins.com/halloween-events-dallas-fort-worth-things-to-d
- o
+UID:ick-or-treat-2026-10-31@noboringweekends
+DTSTAMP:20261026T000000Z
+DTSTART:20261031T150000Z
+DTEND:20261031T190000Z
+SUMMARY:沃斯堡科学历史博物馆 Ick or Treat
+LOCATION:Fort Worth Museum of Science and History\, 1600 Gendy St\, Fort Wo
+ rth\, TX 76107
+DESCRIPTION:🔬 在科学博物馆里讨糖!注意面具不能遮住眼睛
+ 哦~\n费用:以官网为准\nhttps://www.fortworth.com/blog/stories/post/
+ halloween-in-fort-worth-2026-events-things-to-do/
+URL:https://www.fortworth.com/blog/stories/post/halloween-in-fort-worth-202
+ 6-events-things-to-do/
 END:VEVENT
 BEGIN:VEVENT
-UID:seth-meyers-dal-2026-10-23@noboringweekends
-DTSTAMP:20261022T000000Z
-DTSTART:20261024T010000Z
-DTEND:20261024T030000Z
-SUMMARY:Seth Meyers 脱口秀
-LOCATION:Music Hall at Fair Park\, 909 1st Ave\, Dallas\, TX 75210
-DESCRIPTION:😂 深夜秀主持人 Seth Meyers 现场脱口秀!\n票务以
- 官网为准。\n费用:以官网为准\nhttps://dallas.culturemap.com/new
- s/entertainment/weekend-events-10-22-26/
-URL:https://dallas.culturemap.com/news/entertainment/weekend-events-10-22-2
- 6/
+UID:hallowine-2026-10-31@noboringweekends
+DTSTAMP:20261026T000000Z
+DTSTART:20261031T160000Z
+DTEND:20261031T230000Z
+SUMMARY:Grapevine 万圣节葡萄酒步道
+LOCATION:Historic Main Street\, Main St\, Grapevine\, TX 76051
+DESCRIPTION:🍷 老街六家酒庄品酒步道\,21+。\n费用:以官网
+ 为准\nhttps://diningout.com/dallas/31-halloween-events-in-dallas-fort-wo
+ rth-to-get-you-in-the-spooky-spirit/
+URL:https://diningout.com/dallas/31-halloween-events-in-dallas-fort-worth-t
+ o-get-you-in-the-spooky-spirit/
 END:VEVENT
 BEGIN:VEVENT
-UID:junkyard-haunted-2026-10-23@noboringweekends
-DTSTAMP:20261022T000000Z
-DTSTART;VALUE=DATE:20261023
-DTEND;VALUE=DATE:20261024
-SUMMARY:Old City Park 废品场鬼屋
-LOCATION:Dallas Heritage Village at Old City Park\, 1515 S Harwood St\, Dal
- las\, TX 75215
-DESCRIPTION:😱 真吓人的那种鬼屋\,适合大人和大孩子!\n10/23
- -25\,票务以官网为准。\n费用:以官网为准\nhttps://dallas.cult
- uremap.com/news/entertainment/weekend-events-10-22-26/
-URL:https://dallas.culturemap.com/news/entertainment/weekend-events-10-22-2
- 6/
+UID:stockyards-treat-2026-10-31@noboringweekends
+DTSTAMP:20261026T000000Z
+DTSTART:20261031T170000Z
+DTEND:20261031T210000Z
+SUMMARY:沃斯堡牛仔街 Treat Street
+LOCATION:Fort Worth Stockyards\, 131 E Exchange Ave\, Fort Worth\, TX 76164
+DESCRIPTION:🤠 12 岁以下穿服装在牛仔街商家讨糖\,还有脸
+ 绘和万圣节表演!\n费用:免费\nhttps://www.fortworth.com/blog/stor
+ ies/post/halloween-in-fort-worth-2026-events-things-to-do/
+URL:https://www.fortworth.com/blog/stories/post/halloween-in-fort-worth-202
+ 6-events-things-to-do/
 END:VEVENT
 BEGIN:VEVENT
-UID:grapevine-trains-2026-10-24@noboringweekends
-DTSTAMP:20261022T000000Z
-DTSTART:20261024T154000Z
-DTEND:20261024T174000Z
-SUMMARY:Grapevine 万圣节复古小火车(周六/日)
-LOCATION:Grapevine Vintage Railroad\, 705 S Main St\, Grapevine\, TX 76051
-DESCRIPTION:🚂 穿服装坐复古小火车\,车上发糖!\n10:40、12:40
- 、2:40 三班\,$22/人。\n费用:$22/人\nhttps://mommypoppins.com/hallo
- ween-events-dallas-fort-worth-things-to-do
-URL:https://mommypoppins.com/halloween-events-dallas-fort-worth-things-to-d
- o
-END:VEVENT
-BEGIN:VEVENT
-UID:frisco-square-tot-2026-10-24@noboringweekends
-DTSTAMP:20261022T000000Z
-DTSTART:20261024T180000Z
-DTEND:20261024T210000Z
-SUMMARY:Frisco Square 万圣节嘉年华
-LOCATION:Frisco Square\, 6801 Main St\, Frisco\, TX 75033
-DESCRIPTION:🎠 华人多的 Frisco!免费嘉年华游戏、充气城堡
- 、马车、讨糖~\n费用:免费\nhttps://planomoms.com/halloween-events
- -for-kids/
-URL:https://planomoms.com/halloween-events-for-kids/
-END:VEVENT
-BEGIN:VEVENT
-UID:klyde-warren-tot-2026-10-24@noboringweekends
-DTSTAMP:20261022T000000Z
-DTSTART:20261024T220000Z
-DTEND:20261025T020000Z
-SUMMARY:Klyde Warren 公园讨糖+电影
-LOCATION:Klyde Warren Park\, 2012 Woodall Rodgers Fwy\, Dallas\, TX 75201
-DESCRIPTION:🍿 免费讨糖+露天电影!\n周六傍晚 5-9 点\,市中
- 心最好的免费亲子活动~\n费用:免费\nhttps://dallas.culturemap.
- com/news/entertainment/weekend-events-10-22-26/
-URL:https://dallas.culturemap.com/news/entertainment/weekend-events-10-22-2
- 6/
-END:VEVENT
-BEGIN:VEVENT
-UID:rest-in-plano-2026-10-24@noboringweekends
-DTSTAMP:20261022T000000Z
-DTSTART;VALUE=DATE:20261024
-DTEND;VALUE=DATE:20261025
-SUMMARY:Plano 老城区 Rest in Plano
-LOCATION:Downtown Plano\, 15th St\, Plano\, TX 75074
-DESCRIPTION:🔥 老城区讨糖+黑暗迷宫+火焰马戏表演!\n免费
- 入场\,时间以官网为准。\n费用:免费\nhttps://planomoms.com/hal
- loween-events-for-kids/
-URL:https://planomoms.com/halloween-events-for-kids/
-END:VEVENT
-BEGIN:VEVENT
-UID:meadows-tot-2026-10-25@noboringweekends
-DTSTAMP:20261022T000000Z
-DTSTART:20261025T190000Z
-DTEND:20261025T210000Z
-SUMMARY:Meadows 美术馆讨糖
-LOCATION:Meadows Museum\, 5900 Bishop Blvd\, Dallas\, TX 75205
-DESCRIPTION:🖼️ 在美术馆里讨糖+互动活动!\n适合小小孩\,
- 需大人陪同。\n费用:以官网为准\nhttps://mommypoppins.com/hallo
- ween-events-dallas-fort-worth-things-to-do
-URL:https://mommypoppins.com/halloween-events-dallas-fort-worth-things-to-d
- o
+UID:downtown-tot-2026-10-31@noboringweekends
+DTSTAMP:20261026T000000Z
+DTSTART:20261031T210000Z
+DTEND:20261101T000000Z
+SUMMARY:达拉斯市中心讨糖
+LOCATION:Main Street Garden\, 1902 Main St\, Dallas\, TX 75201
+DESCRIPTION:🍬 糖果+现场表演+儿童活动\,宠物也欢迎\,免费!
+ \n费用:免费\nhttps://www.visitdallas.com/blog/halloween-in-dallas/
+URL:https://www.visitdallas.com/blog/halloween-in-dallas/
 END:VEVENT
 END:VCALENDAR

@@ -8,148 +8,119 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:lanterns-legends-2026-10-25@noboringweekends
-DTSTAMP:20261022T000000Z
-DTSTART:20261025T200000Z
-DTEND:20261026T010000Z
-SUMMARY:灯笼与传说 AAPI 市集
-LOCATION:Uptown\, Uptown\, Chicago\, IL 60640
-DESCRIPTION:🏮 亚洲民间传说主题的 AAPI 市集!\n本地艺术家
- 、手作人和美食摊\,带一点点万圣节诡异风👻 免费\,下
- 午 3 点到 8 点。\n费用:免费\nhttps://blockclubchicago.org/2026/09
- /29/your-ultimate-chicago-halloween-guide-70-parties-parades-markets-and-f
- amily-fun/
-URL:https://blockclubchicago.org/2026/09/29/your-ultimate-chicago-halloween
- -guide-70-parties-parades-markets-and-family-fun/
+UID:boo-with-sue-2026-10-30@noboringweekends
+DTSTAMP:20261026T000000Z
+DTSTART:20261030T230000Z
+DTEND:20261031T020000Z
+SUMMARY:菲尔德博物馆 Boo with SUE 夜场
+LOCATION:Field Museum\, 1400 S DuSable Lake Shore Dr\, Chicago\, IL 60605
+DESCRIPTION:🦖 霸王龙 SUE 陪你过万圣节!\n博物馆夜场\,全年
+ 龄\,$40。\n费用:$40\,会员 $36\nhttps://www.optionpremier.com/blogs/t
+ hings-to-do-chicago-dupage-october-30-november-1-2026
+URL:https://www.optionpremier.com/blogs/things-to-do-chicago-dupage-october
+ -30-november-1-2026
 END:VEVENT
 BEGIN:VEVENT
-UID:tedeschi-trucks-2026-10-23@noboringweekends
-DTSTAMP:20261022T000000Z
-DTSTART:20261024T003000Z
-DTEND:20261024T023000Z
-SUMMARY:Tedeschi Trucks Band 演唱会
-LOCATION:The Chicago Theatre\, 175 N State St\, Chicago\, IL 60601
-DESCRIPTION:🎸 布鲁斯摇滚乐队 Tedeschi Trucks 芝加哥剧院演
- 出!\n票务以官网为准。\n费用:以官网为准\nhttps://www.ticket
- master.com/discover/chicago
-URL:https://www.ticketmaster.com/discover/chicago
+UID:athletic-field-movie-2026-10-30@noboringweekends
+DTSTAMP:20261026T000000Z
+DTSTART:20261030T230000Z
+DTEND:20261031T010000Z
+SUMMARY:公园露天电影《女巫也疯狂》
+LOCATION:Athletic Field Park\, 3546 W Addison St\, Chicago\, IL 60618
+DESCRIPTION:🧹 带上毯子和零食\,公园里免费看《女巫也疯
+ 狂》!\n费用:免费\nhttps://www.chicagoparent.com/guides/spooktacular-
+ halloween-happenings-for-kids-in-chicagoland-be1a1697
+URL:https://www.chicagoparent.com/guides/spooktacular-halloween-happenings-
+ for-kids-in-chicagoland-be1a1697
 END:VEVENT
 BEGIN:VEVENT
-UID:zoo-brews-2026-10-23@noboringweekends
-DTSTAMP:20261022T000000Z
-DTSTART;VALUE=DATE:20261023
-DTEND;VALUE=DATE:20261024
-SUMMARY:林肯公园动物园 Zoo Brews 万圣夜(21+)
+UID:nmma-dia-2026-10-31@noboringweekends
+DTSTAMP:20261026T000000Z
+DTSTART:20261031T150000Z
+DTEND:20261031T220000Z
+SUMMARY:墨西哥艺术博物馆亡灵节特展
+LOCATION:National Museum of Mexican Art\, 1852 W 19th St\, Chicago\, IL 606
+ 08
+DESCRIPTION:🌼 第 40 届亡灵节特展\,展到 11/29!\n博物馆免费\
+ ,带娃了解墨西哥文化~开放时间以官网为准。\n费用:免费
+ \nhttps://www.chicagoparent.com/guides/7-of-the-best-da-de-los-muertos-eve
+ nts-in-chicago-for-families-from-crafting-events-to-5ks-abd61bc0
+URL:https://www.chicagoparent.com/guides/7-of-the-best-da-de-los-muertos-ev
+ ents-in-chicago-for-families-from-crafting-events-to-5ks-abd61bc0
+END:VEVENT
+BEGIN:VEVENT
+UID:navy-pier-spooky-2026-10-31@noboringweekends
+DTSTAMP:20261026T000000Z
+DTSTART:20261031T170000Z
+DTEND:20261031T230000Z
+SUMMARY:海军码头 Slightly Spooky Saturday
+LOCATION:Navy Pier\, 600 E Grand Ave\, Chicago\, IL 60611
+DESCRIPTION:🎡 海军码头免费万圣节!讨糖+手作工坊+现场表
+ 演\,中午到 6 点~\n费用:免费\nhttps://www.choosechicago.com/blog/s
+ pecial-events/things-to-do-in-chicago-this-weekend/
+URL:https://www.choosechicago.com/blog/special-events/things-to-do-in-chica
+ go-this-weekend/
+END:VEVENT
+BEGIN:VEVENT
+UID:haunted-halsted-2026-10-31@noboringweekends
+DTSTAMP:20261026T000000Z
+DTSTART:20261031T170000Z
+DTEND:20261031T190000Z
+SUMMARY:Haunted Halsted 万圣节游行
+LOCATION:Halsted Street\, N Halsted St\, Chicago\, IL 60657
+DESCRIPTION:🌈 中午开始有儿童区和 25+ 商家讨糖\,晚 7 点大
+ 游行\,服装超夸张!免费。\n费用:免费\nhttps://www.choosechicag
+ o.com/blog/special-events/things-to-do-in-chicago-this-weekend/
+URL:https://www.choosechicago.com/blog/special-events/things-to-do-in-chica
+ go-this-weekend/
+END:VEVENT
+BEGIN:VEVENT
+UID:haunted-ball-2026-10-31@noboringweekends
+DTSTAMP:20261026T000000Z
+DTSTART:20261101T020000Z
+DTEND:20261101T040000Z
+SUMMARY:万圣节大舞会(21+)
+LOCATION:Congress Plaza\, Congress Plaza Hotel\, 520 S Michigan Ave\, Chica
+ go\, IL 60605
+DESCRIPTION:🕺 万圣夜大舞会\,晚 9 点到凌晨 2 点\,21+\,$20 起
+ 。\n费用:$20 起\nhttps://www.chicagoparent.com/guides/weekend
+URL:https://www.chicagoparent.com/guides/weekend
+END:VEVENT
+BEGIN:VEVENT
+UID:upside-down-parade-2026-10-31@noboringweekends
+DTSTAMP:20261026T000000Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:Washington Park「颠倒世界」万圣节游行
+LOCATION:Washington Park\, Washington Park\, Chicago\, IL 60637
+DESCRIPTION:🎭 小朋友穿服装一起游行\,前 5000 名送糖果袋!
+ 时间以官网为准。\n费用:免费\nhttps://www.chicagoparent.com/gui
+ des/spooktacular-halloween-happenings-for-kids-in-chicagoland-be1a1697
+URL:https://www.chicagoparent.com/guides/spooktacular-halloween-happenings-
+ for-kids-in-chicagoland-be1a1697
+END:VEVENT
+BEGIN:VEVENT
+UID:lpz-fall-fest-2026-10-31@noboringweekends
+DTSTAMP:20261026T000000Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:林肯公园动物园秋日节
 LOCATION:Lincoln Park Zoo\, 2001 N Clark St\, Chicago\, IL 60614
-DESCRIPTION:🍺 大人专属的动物园万圣节派对!\n精酿啤酒和
- 苹果酒试饮\,周五周六两晚\,21+。\n费用:以官网为准\nhttps
- ://www.lpzoo.org/
+DESCRIPTION:🍂 免费动物园+免费秋日节\,开到 11/1~\n费用:免
+ 费\nhttps://www.lpzoo.org/
 URL:https://www.lpzoo.org/
 END:VEVENT
 BEGIN:VEVENT
-UID:ciff-2026-10-23@noboringweekends
-DTSTAMP:20261022T000000Z
-DTSTART;VALUE=DATE:20261023
-DTEND;VALUE=DATE:20261024
-SUMMARY:芝加哥国际电影节(收官)
-LOCATION:Various venues\, Chicago\, Various venues\, Chicago\, IL
-DESCRIPTION:🎬 芝加哥国际电影节周日收官!\n片单票价以官
- 网为准。\n费用:以官网为准\nhttps://www.chicagofilmfestival.com/
-URL:https://www.chicagofilmfestival.com/
-END:VEVENT
-BEGIN:VEVENT
-UID:brookfield-boo-2026-10-24@noboringweekends
-DTSTAMP:20261022T000000Z
-DTSTART:20261024T150000Z
-DTEND:20261024T230000Z
-SUMMARY:Brookfield 动物园 Boo at the Zoo
-LOCATION:Brookfield Zoo Chicago\, 8400 31st St\, Brookfield\, IL 60513
-DESCRIPTION:🐻 Brookfield 动物园万圣节最后一个周末(到周日)
- !\n周末开到晚 6 点\,含在门票里。\n费用:含在门票内\,会
- 员免费\nhttps://mommypoppins.com/chicago-kids/fall-activities/top-hallo
- ween-events-near-chicago-for-kids-and-families
-URL:https://mommypoppins.com/chicago-kids/fall-activities/top-halloween-eve
- nts-near-chicago-for-kids-and-families
-END:VEVENT
-BEGIN:VEVENT
-UID:jarvis-fall-fest-2026-10-24@noboringweekends
-DTSTAMP:20261022T000000Z
-DTSTART:20261024T190000Z
-DTEND:20261024T230000Z
-SUMMARY:Jarvis Square 秋日万圣节
-LOCATION:Jarvis Square\, Jarvis Ave & Greenview Ave\, Chicago\, IL 60626
-DESCRIPTION:🔥 踩高跷、脸绘、儿童音乐、气球艺术…还有
- 火堆烤棉花糖!免费。\n费用:免费\nhttps://mommypoppins.com/chic
- ago-kids/free-activities/best-free-halloween-events-in-chicago-for-kids
-URL:https://mommypoppins.com/chicago-kids/free-activities/best-free-hallowe
- en-events-in-chicago-for-kids
-END:VEVENT
-BEGIN:VEVENT
-UID:dia-xicago-2026-10-24@noboringweekends
-DTSTAMP:20261022T000000Z
-DTSTART:20261024T200000Z
-DTEND:20261025T010000Z
-SUMMARY:Pilsen 亡灵节 Día de los Muertos Xicágo
-LOCATION:National Museum of Mexican Art\, 1852 W 19th St\, Chicago\, IL 606
- 08
-DESCRIPTION:🌼 社区祭坛、艺术活动、现场音乐!\n墨西哥文
- 化博物馆主办\,免费。\n费用:免费\nhttps://chicago.suntimes.com
- /things-to-do/2026/10/21/26-things-to-do-in-chicago-oct-22-28
-URL:https://chicago.suntimes.com/things-to-do/2026/10/21/26-things-to-do-in
- -chicago-oct-22-28
-END:VEVENT
-BEGIN:VEVENT
-UID:arts-in-the-dark-2026-10-24@noboringweekends
-DTSTAMP:20261022T000000Z
-DTSTART:20261024T230000Z
-DTEND:20261025T010000Z
-SUMMARY:Arts in the Dark 万圣节夜间大游行
-LOCATION:Downtown Chicago\, Downtown Chicago (route: see website)
-DESCRIPTION:✨ 芝加哥超大型夜间万圣节游行!\n发光花车、
- 巨型木偶、舞者乐手\,第 12 届🎭 免费\,建议早点去占位
- 置。\n费用:免费\nhttps://www.chicagoparent.com/fall-family-guide/las
- t-minute-halloween-events-chicago-families
-URL:https://www.chicagoparent.com/fall-family-guide/last-minute-halloween-e
- vents-chicago-families
-END:VEVENT
-BEGIN:VEVENT
-UID:lincoln-park-spook-2026-10-24@noboringweekends
-DTSTAMP:20261022T000000Z
-DTSTART;VALUE=DATE:20261024
-DTEND;VALUE=DATE:20261025
-SUMMARY:林肯公园社区讨糖(周六/日)
-LOCATION:Lincoln Park neighborhood\, Lincoln Park\, Chicago\, IL 60614
-DESCRIPTION:🍬 周六周日两条讨糖路线\,免费!\n时间以官网
- 为准。\n费用:免费\nhttps://mommypoppins.com/chicago-kids/free-activ
- ities/best-free-halloween-events-in-chicago-for-kids
-URL:https://mommypoppins.com/chicago-kids/free-activities/best-free-hallowe
- en-events-in-chicago-for-kids
-END:VEVENT
-BEGIN:VEVENT
-UID:lincoln-square-tot-2026-10-25@noboringweekends
-DTSTAMP:20261022T000000Z
-DTSTART:20261025T160000Z
-DTEND:20261025T180000Z
-SUMMARY:Lincoln Square 商圈讨糖
-LOCATION:Lincoln Square\, Lincoln Ave\, Chicago\, IL 60625
-DESCRIPTION:🎃 整条商业街变讨糖路线!\n周日上午 11 点到 1 
- 点\,免费。\n费用:免费\nhttps://www.chicagoparent.com/fall-family-g
- uide/last-minute-halloween-events-chicago-families
-URL:https://www.chicagoparent.com/fall-family-guide/last-minute-halloween-e
- vents-chicago-families
-END:VEVENT
-BEGIN:VEVENT
-UID:naperville-halloween-2026-10-25@noboringweekends
-DTSTAMP:20261022T000000Z
-DTSTART:20261025T180000Z
-DTEND:20261025T210000Z
-SUMMARY:Naperville 万圣节活动
-LOCATION:Naperville Riverwalk\, Naperville Riverwalk\, Naperville\, IL 6054
- 0
-DESCRIPTION:🍁 西郊华人多的 Naperville!河滨步道万圣节活动\
- ,大小孩都能玩\,免费~\n费用:免费\nhttps://www.chicagoparent.com
- /fall-family-guide/last-minute-halloween-events-chicago-families
-URL:https://www.chicagoparent.com/fall-family-guide/last-minute-halloween-e
- vents-chicago-families
+UID:jacks-pumpkin-2026-10-31@noboringweekends
+DTSTAMP:20261026T000000Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:Goose Island 南瓜快闪
+LOCATION:Goose Island\, Goose Island\, Chicago\, IL 60642
+DESCRIPTION:🎃 一万多个南瓜+玉米迷宫+餐车\,开到 11/1\,需
+ 购票。\n费用:以官网为准\nhttps://www.optionpremier.com/blogs/thi
+ ngs-to-do-chicago-dupage-october-30-november-1-2026
+URL:https://www.optionpremier.com/blogs/things-to-do-chicago-dupage-october
+ -30-november-1-2026
 END:VEVENT
 END:VCALENDAR

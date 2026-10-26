@@ -8,100 +8,110 @@ X-WR-TIMEZONE:America/New_York
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:nmaa-visit-2026-10-24@noboringweekends
-DTSTAMP:20261022T000000Z
-DTSTART:20261024T140000Z
-DTEND:20261024T213000Z
+UID:nmaa-visit2-2026-10-31@noboringweekends
+DTSTAMP:20261026T000000Z
+DTSTART:20261031T140000Z
+DTEND:20261031T213000Z
 SUMMARY:国立亚洲艺术博物馆(免费)
 LOCATION:National Museum of Asian Art\, 1050 Independence Ave SW\, Washingt
  on\, DC 20560
 DESCRIPTION:🏯 史密森尼国立亚洲艺术博物馆\,永远免费!\n
- 中国青铜器、瓷器、佛教艺术一次看够\,周末带娃逛~ 开
- 放时间以官网为准。\n费用:免费\nhttps://asia.si.edu/
+ 中国青铜器、瓷器、佛教艺术\,开放时间以官网为准。\n
+ 费用:免费\nhttps://asia.si.edu/
 URL:https://asia.si.edu/
 END:VEVENT
 BEGIN:VEVENT
-UID:o-street-hunt-2026-10-23@noboringweekends
-DTSTAMP:20261022T000000Z
-DTSTART:20261023T200000Z
-DTEND:20261024T020000Z
-SUMMARY:O Street 豪宅家庭寻宝
-LOCATION:The Mansion on O Street\, 2020 O St NW\, Washington\, DC 20036
-DESCRIPTION:🗝️ 在藏着密门的神秘豪宅里寻宝!\n10/23-11/1 
- 每天下午 4 点到晚 10 点\,需购票。\n费用:以官网为准\nhtt
- ps://washingtonian.com/2026/10/08/not-too-scary-halloween-events-for-kids-
- in-the-dc-area/
-URL:https://washingtonian.com/2026/10/08/not-too-scary-halloween-events-for
- -kids-in-the-dc-area/
+UID:hill-o-ween-2026-10-30@noboringweekends
+DTSTAMP:20261026T000000Z
+DTSTART;VALUE=DATE:20261030
+DTEND;VALUE=DATE:20261031
+SUMMARY:Eastern Market Hill-O-Ween
+LOCATION:Eastern Market\, 225 7th St SE\, Washington\, DC 20003
+DESCRIPTION:🎃 国会山老牌亲子万圣节\,免费\,具体安排以官
+ 网为准。\n费用:免费\nhttps://washington.org/visit-dc/halloween-dia
+ -de-los-muertos-events-in-around-washington-dc
+URL:https://washington.org/visit-dc/halloween-dia-de-los-muertos-events-in-
+ around-washington-dc
 END:VEVENT
 BEGIN:VEVENT
-UID:ncm-spooktacular-2026-10-23@noboringweekends
-DTSTAMP:20261022T000000Z
-DTSTART:20261023T210000Z
-DTEND:20261023T233000Z
-SUMMARY:国家儿童博物馆万圣节夜
-LOCATION:National Children's Museum\, 1300 Pennsylvania Ave NW\, Washington
- \, DC 20004
-DESCRIPTION:🧪 闭馆后的万圣节 STEM 夜!\n穿服装来做实验\,$1
- 8.95\,时间以官网为准。\n费用:$18.95\nhttps://washingtonian.com/2
- 026/10/08/not-too-scary-halloween-events-for-kids-in-the-dc-area/
-URL:https://washingtonian.com/2026/10/08/not-too-scary-halloween-events-for
- -kids-in-the-dc-area/
+UID:nmai-ddlm-2026-10-31@noboringweekends
+DTSTAMP:20261026T000000Z
+DTSTART:20261031T140000Z
+DTEND:20261031T210000Z
+SUMMARY:美国印第安人博物馆亡灵节
+LOCATION:National Museum of the American Indian\, 4th St & Independence Ave
+  SW\, Washington\, DC 20560
+DESCRIPTION:🌼 舞蹈表演+涂色+做纸万寿菊和面具\,免费!\n费
+ 用:免费\nhttps://washington.org/visit-dc/halloween-dia-de-los-muertos-e
+ vents-in-around-washington-dc
+URL:https://washington.org/visit-dc/halloween-dia-de-los-muertos-events-in-
+ around-washington-dc
 END:VEVENT
 BEGIN:VEVENT
-UID:kidical-mass-2026-10-24@noboringweekends
-DTSTAMP:20261022T000000Z
-DTSTART;VALUE=DATE:20261024
-DTEND;VALUE=DATE:20261025
-SUMMARY:国会山亲子万圣节骑行
-LOCATION:Lincoln Park (Capitol Hill)\, Lincoln Park\, E Capitol St & 11th S
- t\, Washington\, DC 20003
-DESCRIPTION:🚲 穿服装、装饰自行车\,一起骑到 Eastern Market!\
- n终点还有全年龄舞会💃 免费。\n费用:免费\nhttps://washing
- tonian.com/2026/10/08/not-too-scary-halloween-events-for-kids-in-the-dc-ar
- ea/
-URL:https://washingtonian.com/2026/10/08/not-too-scary-halloween-events-for
- -kids-in-the-dc-area/
+UID:tudor-place-2026-10-31@noboringweekends
+DTSTAMP:20261026T000000Z
+DTSTART:20261031T140000Z
+DTEND:20261031T160000Z
+SUMMARY:Tudor Place 幼儿讨糖
+LOCATION:Tudor Place\, 1644 31st St NW\, Washington\, DC 20007
+DESCRIPTION:🏡 乔治城老宅上午场讨糖\,适合小小孩~\n费用:
+ 以官网为准\nhttps://washington.org/visit-dc/halloween-dia-de-los-muer
+ tos-events-in-around-washington-dc
+URL:https://washington.org/visit-dc/halloween-dia-de-los-muertos-events-in-
+ around-washington-dc
 END:VEVENT
 BEGIN:VEVENT
-UID:eye-spy-trains-2026-10-24@noboringweekends
-DTSTAMP:20261022T000000Z
-DTSTART;VALUE=DATE:20261024
-DTEND;VALUE=DATE:20261025
-SUMMARY:Cabin John 万圣节寻物小火车
-LOCATION:Cabin John Regional Park\, 7400 Tuckerman Ln\, Rockville\, MD 2085
- 2
-DESCRIPTION:🚂 坐小火车找万圣节彩蛋!\nCabin John 和 Wheaton 
- 公园周末都有\,开到 11/1。\n费用:以官网为准\nhttps://washin
- gtonian.com/2026/10/08/not-too-scary-halloween-events-for-kids-in-the-dc-a
- rea/
-URL:https://washingtonian.com/2026/10/08/not-too-scary-halloween-events-for
- -kids-in-the-dc-area/
+UID:stamp-scream-2026-10-31@noboringweekends
+DTSTAMP:20261026T000000Z
+DTSTART:20261031T150000Z
+DTEND:20261031T190000Z
+SUMMARY:国家邮政博物馆 Stamp & Scream
+LOCATION:National Postal Museum\, 2 Massachusetts Ave NE\, Washington\, DC 
+ 20002
+DESCRIPTION:📮 手作+全馆服装游行\,免费\,鼓励穿服装~\n费
+ 用:免费\nhttps://washington.org/visit-dc/halloween-dia-de-los-muertos-e
+ vents-in-around-washington-dc
+URL:https://washington.org/visit-dc/halloween-dia-de-los-muertos-events-in-
+ around-washington-dc
 END:VEVENT
 BEGIN:VEVENT
-UID:step-afrika-2026-10-24@noboringweekends
-DTSTAMP:20261022T000000Z
-DTSTART;VALUE=DATE:20261024
-DTEND;VALUE=DATE:20261025
-SUMMARY:Step Afrika!《The Fruits of Our Labor》
-LOCATION:Arena Stage\, 1101 6th St SW\, Washington\, DC 20024
-DESCRIPTION:👣 非裔美国踏步舞剧\,节奏感爆棚!\n演到 11/15\,
- 场次以官网为准。\n费用:以官网为准\nhttps://www.arenastage.o
- rg/
-URL:https://www.arenastage.org/
+UID:congressional-ofrenda-2026-11-01@noboringweekends
+DTSTAMP:20261026T000000Z
+DTSTART:20261101T160000Z
+DTEND:20261101T200000Z
+SUMMARY:国会公墓社区祭坛
+LOCATION:Congressional Cemetery\, 1801 E St SE\, Washington\, DC 20003
+DESCRIPTION:🌼 可以带亲人照片放上社区祭坛\,温柔的纪念
+ 活动\,免费。\n费用:免费\nhttps://washington.org/visit-dc/hallowee
+ n-dia-de-los-muertos-events-in-around-washington-dc
+URL:https://washington.org/visit-dc/halloween-dia-de-los-muertos-events-in-
+ around-washington-dc
 END:VEVENT
 BEGIN:VEVENT
-UID:van-ness-spook-2026-10-25@noboringweekends
-DTSTAMP:20261022T000000Z
-DTSTART:20261025T140000Z
-DTEND:20261025T160000Z
-SUMMARY:Van Ness 社区万圣节
-LOCATION:Forest Hills Playground\, 3200 Chesapeake St NW\, Washington\, DC 
- 20008
-DESCRIPTION:🎃 游戏活动+沿街讨糖\,周日上午\,免费~\n费用:
- 免费\nhttps://washingtonian.com/2026/10/08/not-too-scary-halloween-event
- s-for-kids-in-the-dc-area/
-URL:https://washingtonian.com/2026/10/08/not-too-scary-halloween-events-for
- -kids-in-the-dc-area/
+UID:wharf-ddlm-2026-11-01@noboringweekends
+DTSTAMP:20261026T000000Z
+DTSTART:20261101T200000Z
+DTEND:20261101T230000Z
+SUMMARY:The Wharf 亡灵节
+LOCATION:The Wharf\, 760 Maine Ave SW\, Washington\, DC 20024
+DESCRIPTION:🕯️ 祭坛、现场音乐、烛光游行\,小朋友可以
+ 画脸和装饰糖骷髅\,免费!\n费用:免费\nhttps://washington.org/v
+ isit-dc/halloween-dia-de-los-muertos-events-in-around-washington-dc
+URL:https://washington.org/visit-dc/halloween-dia-de-los-muertos-events-in-
+ around-washington-dc
+END:VEVENT
+BEGIN:VEVENT
+UID:npg-ddlm-2026-11-01@noboringweekends
+DTSTAMP:20261026T000000Z
+DTSTART:20261101T233000Z
+DTEND:20261102T013000Z
+SUMMARY:国家肖像馆亡灵节之夜
+LOCATION:National Portrait Gallery\, 8th St & G St NW\, Washington\, DC 200
+ 01
+DESCRIPTION:💃 中庭民俗舞蹈+现场作画+手工\,博物馆年度大
+ 活动!免费。\n费用:免费\nhttps://washington.org/visit-dc/halloween
+ -dia-de-los-muertos-events-in-around-washington-dc
+URL:https://washington.org/visit-dc/halloween-dia-de-los-muertos-events-in-
+ around-washington-dc
 END:VEVENT
 END:VCALENDAR

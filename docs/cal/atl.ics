@@ -8,119 +8,77 @@ X-WR-TIMEZONE:America/New_York
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:roswell-funhouse-2026-10-23@noboringweekends
-DTSTAMP:20261022T000000Z
-DTSTART:20261023T203000Z
-DTEND:20261023T230000Z
-SUMMARY:Roswell 万圣节欢乐屋
-LOCATION:Roswell\, Roswell\, GA
-DESCRIPTION:🎈 8 岁以下小朋友专场\,免费!\n家长陪同\,周五
- 傍晚。\n费用:免费\nhttps://mommypoppins.com/atlanta-kids/free-hallo
- ween-events-in-atlanta-with-kids
-URL:https://mommypoppins.com/atlanta-kids/free-halloween-events-in-atlanta-
- with-kids
-END:VEVENT
-BEGIN:VEVENT
-UID:lawrenceville-boo-2026-10-23@noboringweekends
-DTSTAMP:20261022T000000Z
-DTSTART:20261023T220000Z
-DTEND:20261024T010000Z
-SUMMARY:Lawrenceville BOO Fest
-LOCATION:Downtown Lawrenceville\, Downtown Lawrenceville\, GA 30046
-DESCRIPTION:👻 Gwinnett 免费万圣节!糖果+小惊吓\,周五晚 6-9 
- 点。\n费用:免费\nhttps://mommypoppins.com/atlanta-kids/free-hallowee
- n-events-in-atlanta-with-kids
-URL:https://mommypoppins.com/atlanta-kids/free-halloween-events-in-atlanta-
- with-kids
-END:VEVENT
-BEGIN:VEVENT
-UID:zoo-atl-boo-2026-10-24@noboringweekends
-DTSTAMP:20261022T000000Z
-DTSTART:20261024T130000Z
-DTEND:20261024T200000Z
-SUMMARY:亚特兰大动物园 Boo at the Zoo(周六/日)
+UID:zoo-atl-boo2-2026-10-31@noboringweekends
+DTSTAMP:20261026T000000Z
+DTSTART:20261031T130000Z
+DTEND:20261031T200000Z
+SUMMARY:亚特兰大动物园 Boo at the Zoo
 LOCATION:Zoo Atlanta\, 800 Cherokee Ave SE\, Atlanta\, GA 30315
-DESCRIPTION:🐼 看完大熊猫顺便讨糖!\n服装讨糖+拍照点+主
- 题活动\,周六周日都有。\n费用:以官网为准\nhttps://mommypop
- pins.com/atlanta-kids/top-halloween-events-atlanta-kids
+DESCRIPTION:🐼 万圣节当天!讨糖路线、嘉年华游戏、角色表
+ 演~\n费用:以官网为准\nhttps://mommypoppins.com/atlanta-kids/top-ha
+ lloween-events-atlanta-kids
 URL:https://mommypoppins.com/atlanta-kids/top-halloween-events-atlanta-kids
 END:VEVENT
 BEGIN:VEVENT
-UID:snellville-fall-2026-10-24@noboringweekends
-DTSTAMP:20261022T000000Z
-DTSTART:20261024T160000Z
-DTEND:20261024T220000Z
-SUMMARY:Snellville 秋日节
-LOCATION:Snellville Towne Green\, 2342 Oak Rd\, Snellville\, GA 30078
-DESCRIPTION:🍂 音乐、美食、儿童活动!\n$15 手环可以玩攀岩
- 墙、充气城堡和小火车。\n费用:免费\,儿童手环 $15\nhttps:
- //www.ajc.com/accessatl/2026/10/things-to-do-in-metro-atlanta-this-weekend
- -2/
-URL:https://www.ajc.com/accessatl/2026/10/things-to-do-in-metro-atlanta-thi
- s-weekend-2/
+UID:pcm-roof-2026-10-31@noboringweekends
+DTSTAMP:20261026T000000Z
+DTSTART:20261031T150000Z
+DTEND:20261031T210000Z
+SUMMARY:Ponce City Market 屋顶讨糖
+LOCATION:Ponce City Market\, 675 Ponce De Leon Ave NE\, Atlanta\, GA 30308
+DESCRIPTION:🎡 屋顶游乐园讨糖+服装游行\,上午 11 点到 5 点
+ 。\n费用:以官网为准\nhttps://mommypoppins.com/atlanta-kids/top-hal
+ loween-events-atlanta-kids
+URL:https://mommypoppins.com/atlanta-kids/top-halloween-events-atlanta-kids
 END:VEVENT
 BEGIN:VEVENT
-UID:stone-mtn-pumpkin-2026-10-24@noboringweekends
-DTSTAMP:20261022T000000Z
-DTSTART;VALUE=DATE:20261024
-DTEND;VALUE=DATE:20261025
-SUMMARY:石头山南瓜节
+UID:woodstock-skele-2026-10-31@noboringweekends
+DTSTAMP:20261026T000000Z
+DTSTART:20261031T200000Z
+DTEND:20261101T000000Z
+SUMMARY:Woodstock 万圣节骷髅派对
+LOCATION:Downtown Woodstock\, Woodstock\, GA 30188
+DESCRIPTION:💀 糖果、嘉年华游戏、充气城堡、迷你高尔夫+
+ 餐车~\n费用:以官网为准\nhttps://mommypoppins.com/atlanta-kids/top
+ -halloween-events-atlanta-kids
+URL:https://mommypoppins.com/atlanta-kids/top-halloween-events-atlanta-kids
+END:VEVENT
+BEGIN:VEVENT
+UID:high-street-2026-10-31@noboringweekends
+DTSTAMP:20261026T000000Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:High Street 万圣节
+LOCATION:High Street\, High Street\, Dunwoody\, GA 30346
+DESCRIPTION:🍿 脸绘、充气城堡、寻宝、服装比赛\,还有免
+ 费爆米花和棉花糖!\n费用:免费\nhttps://mommypoppins.com/atlanta
+ -kids/free-halloween-events-in-atlanta-with-kids
+URL:https://mommypoppins.com/atlanta-kids/free-halloween-events-in-atlanta-
+ with-kids
+END:VEVENT
+BEGIN:VEVENT
+UID:stone-mtn-pumpkin2-2026-10-31@noboringweekends
+DTSTAMP:20261026T000000Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:石头山南瓜节(最后周末)
 LOCATION:Stone Mountain Park\, 1000 Robert E Lee Blvd\, Stone Mountain\, GA
   30083
-DESCRIPTION:🎃 周五到周日开放\,晚上还有南瓜主题激光秀(
- 另收费)~\n费用:以官网为准\nhttps://mommypoppins.com/atlanta-kids
- /top-halloween-events-atlanta-kids
+DESCRIPTION:🎃 最后一个周末!晚上南瓜激光秀另收费。\n费
+ 用:以官网为准\nhttps://mommypoppins.com/atlanta-kids/top-halloween-e
+ vents-atlanta-kids
 URL:https://mommypoppins.com/atlanta-kids/top-halloween-events-atlanta-kids
 END:VEVENT
 BEGIN:VEVENT
-UID:ga-aquarium-haunted-2026-10-24@noboringweekends
-DTSTAMP:20261022T000000Z
-DTSTART;VALUE=DATE:20261024
-DTEND;VALUE=DATE:20261025
-SUMMARY:佐治亚水族馆 Haunted Seas
-LOCATION:Georgia Aquarium\, 225 Baker St NW\, Atlanta\, GA 30313
-DESCRIPTION:🦈 水族馆万圣节主题\,新角色登场!\n开到 11/1\,
- 门票以官网为准。\n费用:以官网为准\nhttps://mommypoppins.com
- /atlanta-kids/top-halloween-events-atlanta-kids
+UID:six-flags-tricks-2026-10-31@noboringweekends
+DTSTAMP:20261026T000000Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:六旗乐园 Tricks and Treats
+LOCATION:Six Flags Over Georgia\, 275 Riverside Pkwy\, Austell\, GA 30168
+DESCRIPTION:🎢 白天不吓人的万圣节\,有讨糖小镇\,开到 11/1
+ 。\n费用:以官网为准\nhttps://mommypoppins.com/atlanta-kids/top-hal
+ loween-events-atlanta-kids
 URL:https://mommypoppins.com/atlanta-kids/top-halloween-events-atlanta-kids
-END:VEVENT
-BEGIN:VEVENT
-UID:shepard-fairey-2026-10-24@noboringweekends
-DTSTAMP:20261022T000000Z
-DTSTART;VALUE=DATE:20261024
-DTEND;VALUE=DATE:20261025
-SUMMARY:Shepard Fairey 个展
-LOCATION:ABV Gallery\, ABV Gallery\, Atlanta\, GA
-DESCRIPTION:🎨 街头艺术家 Shepard Fairey(OBEY)个展!\n细节以官
- 网为准。\n费用:以官网为准\nhttps://allevents.in/atlanta/this-we
- ekend
-URL:https://allevents.in/atlanta/this-weekend
-END:VEVENT
-BEGIN:VEVENT
-UID:battery-fall-fest-2026-10-25@noboringweekends
-DTSTAMP:20261022T000000Z
-DTSTART;VALUE=DATE:20261025
-DTEND;VALUE=DATE:20261026
-SUMMARY:The Battery 秋日节(后备箱讨糖)
-LOCATION:The Battery Atlanta\, 800 Battery Ave SE\, Atlanta\, GA 30339
-DESCRIPTION:🚗 装饰好的车和卡车发糖!\n周日\,时间以官网
- 为准。\n费用:免费\nhttps://mommypoppins.com/atlanta-kids/free-hallo
- ween-events-in-atlanta-with-kids
-URL:https://mommypoppins.com/atlanta-kids/free-halloween-events-in-atlanta-
- with-kids
-END:VEVENT
-BEGIN:VEVENT
-UID:plaza-fiesta-2026-10-25@noboringweekends
-DTSTAMP:20261022T000000Z
-DTSTART;VALUE=DATE:20261025
-DTEND;VALUE=DATE:20261026
-SUMMARY:Plaza Fiesta 万圣节/亡灵节
-LOCATION:Plaza Fiesta\, 4166 Buford Hwy NE\, Atlanta\, GA 30345
-DESCRIPTION:🌼 Buford Highway 上的拉美商场亡灵节!\n糖果、服
- 装比赛、音乐、奖品~逛完去旁边吃中餐韩餐🍜\n费用:免
- 费\nhttps://mommypoppins.com/atlanta-kids/free-halloween-events-in-atlant
- a-with-kids
-URL:https://mommypoppins.com/atlanta-kids/free-halloween-events-in-atlanta-
- with-kids
 END:VEVENT
 END:VCALENDAR
