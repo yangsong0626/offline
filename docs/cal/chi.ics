@@ -8,119 +8,64 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:boo-with-sue-2026-10-30@noboringweekends
-DTSTAMP:20261026T000000Z
-DTSTART:20261030T230000Z
-DTEND:20261031T020000Z
-SUMMARY:菲尔德博物馆 Boo with SUE 夜场
+UID:kalapriya-diwali-2026-11-07@noboringweekends
+DTSTAMP:20261104T000000Z
+DTSTART:20261107T220000Z
+DTEND:20261108T000000Z
+SUMMARY:Kalapriya 排灯节
+LOCATION:Chicago Women's Park and Gardens\, 1801 S Indiana Ave\, Chicago\, 
+ IL 60616
+DESCRIPTION:🪔 印度舞蹈团的排灯节!\n南环女性公园\,门票
+ 亲民。\n费用:成人 $10\,10 岁以下 $4\nhttps://www.kalapriya.org/
+URL:https://www.kalapriya.org/
+END:VEVENT
+BEGIN:VEVENT
+UID:iskcon-naperville-diwali-2026-11-08@noboringweekends
+DTSTAMP:20261104T000000Z
+DTSTART:20261108T213000Z
+DTEND:20261108T233000Z
+SUMMARY:内珀维尔 ISKCON 排灯节
+LOCATION:ISKCON Naperville\, 1505 McDowell Rd\, Naperville\, IL 60563
+DESCRIPTION:🛕 西郊神庙排灯节 + 供品山节!\n免费\,下午三
+ 点半开始。\n费用:免费\nhttps://www.mygoldscene.com/culture-calend
+ ar/metro/chicago
+URL:https://www.mygoldscene.com/culture-calendar/metro/chicago
+END:VEVENT
+BEGIN:VEVENT
+UID:art-on-the-mart-2026-11-07@noboringweekends
+DTSTAMP:20261104T000000Z
+DTSTART:20261108T010000Z
+DTEND:20261108T030000Z
+SUMMARY:芝加哥河畔 ART on THE MART 灯光秀
+LOCATION:Chicago Riverwalk\, Riverwalk between Wells St & Franklin St\, Chi
+ cago\, IL
+DESCRIPTION:🌃 25 层楼外墙投影艺术!\n免费\,河边步道看\,每
+ 场 30 分钟。\n费用:免费\nhttps://www.artonthemart.com/
+URL:https://www.artonthemart.com/
+END:VEVENT
+BEGIN:VEVENT
+UID:msi-christmas-around-world-2026-11-07@noboringweekends
+DTSTAMP:20261104T000000Z
+DTSTART;VALUE=DATE:20261107
+DTEND;VALUE=DATE:20261108
+SUMMARY:科工馆「世界圣诞树」开幕
+LOCATION:Griffin Museum of Science and Industry\, 5700 S DuSable Lake Shore
+  Dr\, Chicago\, IL 60637
+DESCRIPTION:🎄 11/7 开幕!\n四层楼高的大圣诞树 + 50 多棵代
+ 表芝加哥各族裔的树\,找找有没有中国树。\n费用:含门票
+ \nhttps://www.msichicago.org/
+URL:https://www.msichicago.org/
+END:VEVENT
+BEGIN:VEVENT
+UID:field-pokemon-fossil-2026-11-07@noboringweekends
+DTSTAMP:20261104T000000Z
+DTSTART;VALUE=DATE:20261107
+DTEND;VALUE=DATE:20261108
+SUMMARY:菲尔德博物馆宝可梦化石展
 LOCATION:Field Museum\, 1400 S DuSable Lake Shore Dr\, Chicago\, IL 60605
-DESCRIPTION:🦖 霸王龙 SUE 陪你过万圣节!\n博物馆夜场\,全年
- 龄\,$40。\n费用:$40\,会员 $36\nhttps://www.optionpremier.com/blogs/t
- hings-to-do-chicago-dupage-october-30-november-1-2026
-URL:https://www.optionpremier.com/blogs/things-to-do-chicago-dupage-october
- -30-november-1-2026
-END:VEVENT
-BEGIN:VEVENT
-UID:athletic-field-movie-2026-10-30@noboringweekends
-DTSTAMP:20261026T000000Z
-DTSTART:20261030T230000Z
-DTEND:20261031T010000Z
-SUMMARY:公园露天电影《女巫也疯狂》
-LOCATION:Athletic Field Park\, 3546 W Addison St\, Chicago\, IL 60618
-DESCRIPTION:🧹 带上毯子和零食\,公园里免费看《女巫也疯
- 狂》!\n费用:免费\nhttps://www.chicagoparent.com/guides/spooktacular-
- halloween-happenings-for-kids-in-chicagoland-be1a1697
-URL:https://www.chicagoparent.com/guides/spooktacular-halloween-happenings-
- for-kids-in-chicagoland-be1a1697
-END:VEVENT
-BEGIN:VEVENT
-UID:nmma-dia-2026-10-31@noboringweekends
-DTSTAMP:20261026T000000Z
-DTSTART:20261031T150000Z
-DTEND:20261031T220000Z
-SUMMARY:墨西哥艺术博物馆亡灵节特展
-LOCATION:National Museum of Mexican Art\, 1852 W 19th St\, Chicago\, IL 606
- 08
-DESCRIPTION:🌼 第 40 届亡灵节特展\,展到 11/29!\n博物馆免费\
- ,带娃了解墨西哥文化~开放时间以官网为准。\n费用:免费
- \nhttps://www.chicagoparent.com/guides/7-of-the-best-da-de-los-muertos-eve
- nts-in-chicago-for-families-from-crafting-events-to-5ks-abd61bc0
-URL:https://www.chicagoparent.com/guides/7-of-the-best-da-de-los-muertos-ev
- ents-in-chicago-for-families-from-crafting-events-to-5ks-abd61bc0
-END:VEVENT
-BEGIN:VEVENT
-UID:navy-pier-spooky-2026-10-31@noboringweekends
-DTSTAMP:20261026T000000Z
-DTSTART:20261031T170000Z
-DTEND:20261031T230000Z
-SUMMARY:海军码头 Slightly Spooky Saturday
-LOCATION:Navy Pier\, 600 E Grand Ave\, Chicago\, IL 60611
-DESCRIPTION:🎡 海军码头免费万圣节!讨糖+手作工坊+现场表
- 演\,中午到 6 点~\n费用:免费\nhttps://www.choosechicago.com/blog/s
- pecial-events/things-to-do-in-chicago-this-weekend/
-URL:https://www.choosechicago.com/blog/special-events/things-to-do-in-chica
- go-this-weekend/
-END:VEVENT
-BEGIN:VEVENT
-UID:haunted-halsted-2026-10-31@noboringweekends
-DTSTAMP:20261026T000000Z
-DTSTART:20261031T170000Z
-DTEND:20261031T190000Z
-SUMMARY:Haunted Halsted 万圣节游行
-LOCATION:Halsted Street\, N Halsted St\, Chicago\, IL 60657
-DESCRIPTION:🌈 中午开始有儿童区和 25+ 商家讨糖\,晚 7 点大
- 游行\,服装超夸张!免费。\n费用:免费\nhttps://www.choosechicag
- o.com/blog/special-events/things-to-do-in-chicago-this-weekend/
-URL:https://www.choosechicago.com/blog/special-events/things-to-do-in-chica
- go-this-weekend/
-END:VEVENT
-BEGIN:VEVENT
-UID:haunted-ball-2026-10-31@noboringweekends
-DTSTAMP:20261026T000000Z
-DTSTART:20261101T020000Z
-DTEND:20261101T040000Z
-SUMMARY:万圣节大舞会(21+)
-LOCATION:Congress Plaza\, Congress Plaza Hotel\, 520 S Michigan Ave\, Chica
- go\, IL 60605
-DESCRIPTION:🕺 万圣夜大舞会\,晚 9 点到凌晨 2 点\,21+\,$20 起
- 。\n费用:$20 起\nhttps://www.chicagoparent.com/guides/weekend
-URL:https://www.chicagoparent.com/guides/weekend
-END:VEVENT
-BEGIN:VEVENT
-UID:upside-down-parade-2026-10-31@noboringweekends
-DTSTAMP:20261026T000000Z
-DTSTART;VALUE=DATE:20261031
-DTEND;VALUE=DATE:20261101
-SUMMARY:Washington Park「颠倒世界」万圣节游行
-LOCATION:Washington Park\, Washington Park\, Chicago\, IL 60637
-DESCRIPTION:🎭 小朋友穿服装一起游行\,前 5000 名送糖果袋!
- 时间以官网为准。\n费用:免费\nhttps://www.chicagoparent.com/gui
- des/spooktacular-halloween-happenings-for-kids-in-chicagoland-be1a1697
-URL:https://www.chicagoparent.com/guides/spooktacular-halloween-happenings-
- for-kids-in-chicagoland-be1a1697
-END:VEVENT
-BEGIN:VEVENT
-UID:lpz-fall-fest-2026-10-31@noboringweekends
-DTSTAMP:20261026T000000Z
-DTSTART;VALUE=DATE:20261031
-DTEND;VALUE=DATE:20261101
-SUMMARY:林肯公园动物园秋日节
-LOCATION:Lincoln Park Zoo\, 2001 N Clark St\, Chicago\, IL 60614
-DESCRIPTION:🍂 免费动物园+免费秋日节\,开到 11/1~\n费用:免
- 费\nhttps://www.lpzoo.org/
-URL:https://www.lpzoo.org/
-END:VEVENT
-BEGIN:VEVENT
-UID:jacks-pumpkin-2026-10-31@noboringweekends
-DTSTAMP:20261026T000000Z
-DTSTART;VALUE=DATE:20261031
-DTEND;VALUE=DATE:20261101
-SUMMARY:Goose Island 南瓜快闪
-LOCATION:Goose Island\, Goose Island\, Chicago\, IL 60642
-DESCRIPTION:🎃 一万多个南瓜+玉米迷宫+餐车\,开到 11/1\,需
- 购票。\n费用:以官网为准\nhttps://www.optionpremier.com/blogs/thi
- ngs-to-do-chicago-dupage-october-30-november-1-2026
-URL:https://www.optionpremier.com/blogs/things-to-do-chicago-dupage-october
- -30-november-1-2026
+DESCRIPTION:🦖 宝可梦化石 vs 真恐龙化石!\n还能见到霸王龙
+  SUE\,展到明年 4 月。\n费用:需购票\nhttps://www.fieldmuseum.org
+ /
+URL:https://www.fieldmuseum.org/
 END:VEVENT
 END:VCALENDAR

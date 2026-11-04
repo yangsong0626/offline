@@ -8,68 +8,73 @@ X-WR-TIMEZONE:America/Los_Angeles
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:fullerton-pd-trunk-2026-10-30@noboringweekends
-DTSTAMP:20261026T000000Z
-DTSTART:20261031T000000Z
-DTEND:20261031T030000Z
-SUMMARY:Fullerton 警局后备箱讨糖
-LOCATION:Fullerton Police Department\, 237 W Commonwealth Ave\, Fullerton\,
-  CA 92832
-DESCRIPTION:🚓 周五傍晚警察叔叔发糖\,免费!\n费用:免费\nht
- tps://enjoyorangecounty.com/trunk-or-treat-events-in-orange-county-this-we
- ek/
-URL:https://enjoyorangecounty.com/trunk-or-treat-events-in-orange-county-th
- is-week/
+UID:great-park-holiday-faire-2026-11-07@noboringweekends
+DTSTAMP:20261104T000000Z
+DTSTART:20261107T180000Z
+DTEND:20261108T000000Z
+SUMMARY:尔湾大公园节日手作市集
+LOCATION:Great Park Palm Court Arts Complex & Hangar 244\, 8000 Great Park 
+ Blvd\, Irvine\, CA 92618
+DESCRIPTION:🎁 尔湾第 44 届节日市集!\n大公园机库里逛手作
+ 摊\,免费。\n费用:免费\nhttps://www.cityofirvine.org/
+URL:https://www.cityofirvine.org/
 END:VEVENT
 BEGIN:VEVENT
-UID:back-bay-market-2026-10-31@noboringweekends
-DTSTAMP:20261026T000000Z
-DTSTART:20261031T160000Z
-DTEND:20261031T200000Z
-SUMMARY:纽波特 Back Bay 万圣节手作市集
-LOCATION:Back Bay Market\, Newport Beach\, CA
-DESCRIPTION:🛍️ 万圣节手作市集+儿童活动\,上午场~地址费
- 用以官网为准。\n费用:以官网为准\nhttps://www.sandytoesandpop
- sicles.com/orange-county/family-and-kid-halloween-events/
-URL:https://www.sandytoesandpopsicles.com/orange-county/family-and-kid-hall
- oween-events/
+UID:tustin-veterans-day-2026-11-07@noboringweekends
+DTSTAMP:20261104T000000Z
+DTSTART:20261107T180000Z
+DTEND:20261107T220000Z
+SUMMARY:塔斯廷退伍军人节庆典 + 车展
+LOCATION:Veterans Sports Park\, 1645 Valencia Ave\, Tustin\, CA 92782
+DESCRIPTION:🚙 免费家庭活动!\n仪式、乐队、车展、餐车。\
+ n费用:免费\nhttps://www.tustinca.org/
+URL:https://www.tustinca.org/
 END:VEVENT
 BEGIN:VEVENT
-UID:irvine-umc-trunk-2026-10-31@noboringweekends
-DTSTAMP:20261026T000000Z
-DTSTART:20261101T000000Z
-DTEND:20261101T013000Z
-SUMMARY:尔湾 University UMC 后备箱讨糖
-LOCATION:University United Methodist Church\, 18422 Culver Dr\, Irvine\, CA
-  92612
-DESCRIPTION:🍬 尔湾社区万圣节讨糖\,傍晚 5 点到 6:30~\n费用
- :免费\nhttps://enjoyorangecounty.com/trunk-or-treat-events-in-orange-cou
- nty-this-week/
-URL:https://enjoyorangecounty.com/trunk-or-treat-events-in-orange-county-th
- is-week/
+UID:oc-kids-expo-2026-11-07@noboringweekends
+DTSTAMP:20261104T000000Z
+DTSTART:20261107T190000Z
+DTEND:20261107T220000Z
+SUMMARY:OC 儿童博览会
+LOCATION:Great Park\, 280 Corsair\, Irvine\, CA 92618
+DESCRIPTION:🧩 尔湾大公园儿童博览会!\n动手活动、学习和
+ 兴趣班一站看完。\n费用:以官网为准\nhttps://kids2026.com/exp
+ o/
+URL:https://kids2026.com/expo/
 END:VEVENT
 BEGIN:VEVENT
-UID:compass-fall-fest-2026-10-31@noboringweekends
-DTSTAMP:20261026T000000Z
-DTSTART:20261101T010000Z
-DTEND:20261101T040000Z
-SUMMARY:Aliso Viejo 秋日节
-LOCATION:Compass Bible Church\, Aliso Viejo\, CA 92656
-DESCRIPTION:🎠 美食、糖果、游戏、游乐设施\,免费!地址以
- 官网为准。\n费用:免费\nhttps://enjoyorangecounty.com/trunk-or-tre
- at-events-in-orange-county-this-week/
-URL:https://enjoyorangecounty.com/trunk-or-treat-events-in-orange-county-th
- is-week/
+UID:noche-de-altares-2026-11-07@noboringweekends
+DTSTAMP:20261104T000000Z
+DTSTART:20261107T200000Z
+DTEND:20261108T050000Z
+SUMMARY:圣安娜亡灵节祭坛之夜
+LOCATION:Downtown Santa Ana\, 4th St between Ross St & Broadway\, Santa Ana
+ \, CA 92701
+DESCRIPTION:💀 社区祭坛、骷髅妆、艺术家摊位!\n4 街免费
+ 逛到晚上 9 点。\n费用:免费\nhttps://www.ventureoc.com/events
+URL:https://www.ventureoc.com/events
 END:VEVENT
 BEGIN:VEVENT
-UID:disneyland-halloween-2026-10-31@noboringweekends
-DTSTAMP:20261026T000000Z
-DTSTART;VALUE=DATE:20261031
-DTEND;VALUE=DATE:20261101
-SUMMARY:迪士尼乐园万圣节(最后一天)
-LOCATION:Disneyland Resort\, 1313 Disneyland Dr\, Anaheim\, CA 92802
-DESCRIPTION:🎃 迪士尼万圣节装饰最后一天!需购票预约。\n
- 费用:以官网为准\nhttps://enjoyorangecounty.com/halloween-events/
-URL:https://enjoyorangecounty.com/halloween-events/
+UID:sugar-plum-costa-mesa-2026-11-07@noboringweekends
+DTSTAMP:20261104T000000Z
+DTSTART;VALUE=DATE:20261107
+DTEND;VALUE=DATE:20261108
+SUMMARY:科斯塔梅萨 Sugar Plum 手作节
+LOCATION:OC Fair & Event Center\, 88 Fair Dr\, Costa Mesa\, CA 92626
+DESCRIPTION:🎄 11/6-8 节日手作大集!\n提前买圣诞礼物。\n费
+ 用:以官网为准\nhttps://enjoyorangecounty.com/whats-happening/
+URL:https://enjoyorangecounty.com/whats-happening/
+END:VEVENT
+BEGIN:VEVENT
+UID:hb-st-martin-lantern-2026-11-08@noboringweekends
+DTSTAMP:20261104T000000Z
+DTSTART:20261109T010000Z
+DTEND:20261109T023000Z
+SUMMARY:亨廷顿海滩圣马丁灯笼游行
+LOCATION:Old World Village\, 7561 Center Ave\, Huntington Beach\, CA 92647
+DESCRIPTION:🏮 德国传统提灯笼游行!\n周日傍晚\,带娃提灯
+ 走一圈\,免费。\n费用:免费\nhttps://www.orangecounty.net/html/wee
+ kend_events.html
+URL:https://www.orangecounty.net/html/weekend_events.html
 END:VEVENT
 END:VCALENDAR

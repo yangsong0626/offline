@@ -8,107 +8,58 @@ X-WR-TIMEZONE:America/Los_Angeles
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:cyc-halloween-2026-10-31@noboringweekends
-DTSTAMP:20261026T000000Z
-DTSTART:20261031T180000Z
-DTEND:20261031T220000Z
-SUMMARY:华埠万圣节嘉年华(第 12 届)
-LOCATION:Waverly Place\, Waverly Pl between Sacramento St & Washington St\,
-  San Francisco\, CA 94108
-DESCRIPTION:🦁 华埠天后庙街万圣节!\n舞狮、讨糖小巷、南
- 瓜田、手工、嘉年华游戏🎃\n服装比赛前三名送华埠餐
- 厅 $50 餐券(10/28 前报名)。免费\,全年龄!\n费用:免费\nhttps
- ://www.cycsf.org/chinatown-halloween-festival/
-URL:https://www.cycsf.org/chinatown-halloween-festival/
+UID:taiwan-expo-san-mateo-2026-11-07@noboringweekends
+DTSTAMP:20261104T000000Z
+DTSTART:20261107T180000Z
+DTEND:20261108T010000Z
+SUMMARY:美国台湾博览会(湾区)
+LOCATION:San Mateo County Event Center\, Expo Hall\, 1346 Saratoga Dr\, San
+  Mateo\, CA 94403
+DESCRIPTION:🧋 周六日两天台湾博览会!\n台湾小吃、零食试
+ 吃、生活好物和文化体验\,逛吃一下午。\n费用:约 $4 起\,
+ 以购票页为准\nhttps://www.eventbrite.com/e/usa-taiwan-global-expo-ba
+ y-area-ca-tickets-2002767458381
+URL:https://www.eventbrite.com/e/usa-taiwan-global-expo-bay-area-ca-tickets
+ -2002767458381
 END:VEVENT
 BEGIN:VEVENT
-UID:aam-free-sunday-2026-11-01@noboringweekends
-DTSTAMP:20261026T000000Z
-DTSTART:20261101T180000Z
-DTEND:20261102T010000Z
-SUMMARY:亚洲艺术博物馆免费日+排灯节
-LOCATION:Asian Art Museum\, 200 Larkin St\, San Francisco\, CA 94102
-DESCRIPTION:🪔 每月第一个周日免费!这次还有排灯节庆祝✨
- \n特展《毗湿奴的宇宙之海》$10\,docent 中午导览。\n费用:
- 免费\nhttps://calendar.asianart.org/
-URL:https://calendar.asianart.org/
+UID:presidio-dia-diwali-2026-11-07@noboringweekends
+DTSTAMP:20261104T000000Z
+DTSTART:20261107T180000Z
+DTEND:20261107T230000Z
+SUMMARY:要塞公园亡灵节 + 排灯节
+LOCATION:Presidio Tunnel Tops / Crissy Field Center\, 603 Mason St\, San Fr
+ ancisco\, CA 94129
+DESCRIPTION:🔥 南亚 + 拉美两个节一起过!\n手工、讲故事、
+ 舞蹈和火仪式\,金门大桥边\,免费。\n费用:免费\nhttps://pre
+ sidio.gov/explore/events/dia-de-los-muertos-and-diwali-festival
+URL:https://presidio.gov/explore/events/dia-de-los-muertos-and-diwali-festi
+ val
 END:VEVENT
 BEGIN:VEVENT
-UID:hiller-hangar-2026-10-31@noboringweekends
-DTSTAMP:20261026T000000Z
-DTSTART:20261031T170000Z
-DTEND:20261031T190000Z
-SUMMARY:Hiller 航空博物馆万圣节机库(周六/日)
-LOCATION:Hiller Aviation Museum\, 601 Skyway Rd\, San Carlos\, CA 94070
-DESCRIPTION:✈️ 适合幼儿的万圣节机库\,10/31 和 11/1 都有~\n
- 费用:以官网为准\nhttps://www.sftourismtips.com/kids-halloween-event
- s-in-san-francisco.html
-URL:https://www.sftourismtips.com/kids-halloween-events-in-san-francisco.ht
- ml
+UID:kristi-yamaguchi-rink-2026-11-06@noboringweekends
+DTSTAMP:20261104T000000Z
+DTSTART:20261107T020000Z
+DTEND:20261107T030000Z
+SUMMARY:山口·克里斯蒂冰场开幕
+LOCATION:City Center Bishop Ranch\, 6000 Bollinger Canyon Rd\, San Ramon\, 
+ CA 94583
+DESCRIPTION:⛸️ 奥运冠军山口·克里斯蒂亲自剪彩!\n周五傍
+ 晚滑冰表演 + 唱诗\,免费。\n费用:免费\nhttps://www.citycenter
+ bishopranch.com/
+URL:https://www.citycenterbishopranch.com/
 END:VEVENT
 BEGIN:VEVENT
-UID:sf-zoo-boo-2026-10-31@noboringweekends
-DTSTAMP:20261026T000000Z
-DTSTART:20261031T180000Z
-DTEND:20261031T220000Z
-SUMMARY:旧金山动物园 Boo at the Zoo
-LOCATION:San Francisco Zoo\, Sloat Blvd & Great Hwy\, San Francisco\, CA 94
- 132
-DESCRIPTION:🦒 动物园万圣节\,含在门票里~\n费用:含在门票
- 内\nhttps://mommypoppins.com/san-francisco-bay-area-kids/best-halloween-e
- vents-in-san-francisco-bay-area-kids
-URL:https://mommypoppins.com/san-francisco-bay-area-kids/best-halloween-eve
- nts-in-san-francisco-bay-area-kids
-END:VEVENT
-BEGIN:VEVENT
-UID:halloween-hoopla-2026-10-31@noboringweekends
-DTSTAMP:20261026T000000Z
-DTSTART:20261031T190000Z
-DTEND:20261031T220000Z
-SUMMARY:芳草地花园 Halloween Hoopla
-LOCATION:Yerba Buena Gardens\, 750 Howard St\, San Francisco\, CA 94103
-DESCRIPTION:🎪 10 岁以下小朋友的万圣节演出!\nCircus Bella 马
- 戏+现场乐队\,免费~\n费用:免费\nhttps://mommypoppins.com/san-fra
- ncisco-bay-area-kids/best-halloween-events-in-san-francisco-bay-area-kids
-URL:https://mommypoppins.com/san-francisco-bay-area-kids/best-halloween-eve
- nts-in-san-francisco-bay-area-kids
-END:VEVENT
-BEGIN:VEVENT
-UID:ocean-ave-party-2026-10-31@noboringweekends
-DTSTAMP:20261026T000000Z
-DTSTART:20261031T210000Z
-DTEND:20261101T010000Z
-SUMMARY:Ocean Avenue 万圣节街区派对
-LOCATION:Ocean Avenue\, Ocean Ave\, San Francisco\, CA 94112
-DESCRIPTION:🍬 华人家庭多的 Ingleside!免费亲子街区派对~\n
- 费用:免费\nhttps://mommypoppins.com/san-francisco-bay-area-kids/best-h
- alloween-events-in-san-francisco-bay-area-kids
-URL:https://mommypoppins.com/san-francisco-bay-area-kids/best-halloween-eve
- nts-in-san-francisco-bay-area-kids
-END:VEVENT
-BEGIN:VEVENT
-UID:fillmore-after-dark-2026-10-31@noboringweekends
-DTSTAMP:20261026T000000Z
-DTSTART:20261031T230000Z
-DTEND:20261101T040000Z
-SUMMARY:Fillmore After Dark 万圣节街区派对
-LOCATION:Fillmore Street\, Fillmore St\, San Francisco\, CA 94115
-DESCRIPTION:🎃 儿童尖叫区(充气城堡+后备箱讨糖)+服装比赛
- +美食摊!\n紧挨日本城\,免费~\n费用:免费\nhttps://mommypoppins
- .com/san-francisco-bay-area-kids/best-halloween-events-in-san-francisco-ba
- y-area-kids
-URL:https://mommypoppins.com/san-francisco-bay-area-kids/best-halloween-eve
- nts-in-san-francisco-bay-area-kids
-END:VEVENT
-BEGIN:VEVENT
-UID:halloween-sausalito-2026-10-31@noboringweekends
-DTSTAMP:20261026T000000Z
-DTSTART:20261101T010000Z
-DTEND:20261101T030000Z
-SUMMARY:Sausalito 万圣节游行
-LOCATION:Downtown Sausalito\, Bridgeway\, Sausalito\, CA 94965
-DESCRIPTION:🐶 游行+讨糖巷+狗狗服装比赛\,免费!\n费用:免
- 费\nhttps://www.marinmommies.com/family-halloween-events-marin-bay-area-0
-URL:https://www.marinmommies.com/family-halloween-events-marin-bay-area-0
+UID:sf-coffee-festival-2026-11-07@noboringweekends
+DTSTAMP:20261104T000000Z
+DTSTART:20261107T173000Z
+DTEND:20261108T003000Z
+SUMMARY:旧金山咖啡节
+LOCATION:Fort Mason Festival Pavilion\, 2 Marina Blvd\, San Francisco\, CA 
+ 94123
+DESCRIPTION:☕ 周六日咖啡节\,无限试饮!\n上百家烘焙商 + 现
+ 场音乐\,大人的周末。\n费用:$29 起\nhttps://www.sfcoffeefestiva
+ l.com/
+URL:https://www.sfcoffeefestival.com/
 END:VEVENT
 END:VCALENDAR

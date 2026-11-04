@@ -8,96 +8,87 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:asts-chakra-2026-11-01@noboringweekends
-DTSTAMP:20261026T000000Z
-DTSTART:20261101T160000Z
-DTEND:20261101T170000Z
-SUMMARY:亚洲协会德州中心冥想工作坊
-LOCATION:Asia Society Texas Center\, 1370 Southmore Blvd\, Houston\, TX 770
- 04
-DESCRIPTION:🧘 周日早上冥想一小时\,费用预约以官网为准
- 。\n预告:11/6 周五晚亚洲夜市\,免费!\n费用:以官网为准\nh
- ttps://asiasociety.org/texas/events
-URL:https://asiasociety.org/texas/events
+UID:asia-society-texas-night-market-2026-11-06@noboringweekends
+DTSTAMP:20261104T000000Z
+DTSTART:20261107T000000Z
+DTEND:20261107T040000Z
+SUMMARY:亚洲协会德州中心夜市
+LOCATION:Asia Society Texas\, 1370 Southmore Blvd\, Houston\, TX 77004
+DESCRIPTION:🏮 东亚东南亚风味夜市!\n美食、手作、购物和
+ 活动\,周五晚上博物馆区。\n费用:以官网为准\nhttps://asias
+ ociety.org/texas
+URL:https://asiasociety.org/texas
 END:VEVENT
 BEGIN:VEVENT
-UID:scream-green-2026-10-30@noboringweekends
-DTSTAMP:20261026T000000Z
-DTSTART:20261030T230000Z
-DTEND:20261031T020000Z
-SUMMARY:Discovery Green 万圣节 Scream on the Green
-LOCATION:Discovery Green\, 1500 McKinney St\, Houston\, TX 77010
-DESCRIPTION:🎃 服装比赛、游戏、音乐、真人雕塑拍照!\n免
- 费\,参加服装比赛需报名。\n费用:免费\nhttps://www.houstonont
- hecheap.com/top-events-in-houston-october-30-november-1-2026/
-URL:https://www.houstononthecheap.com/top-events-in-houston-october-30-nove
- mber-1-2026/
+UID:iskcon-houston-diwali-2026-11-08@noboringweekends
+DTSTAMP:20261104T000000Z
+DTSTART:20261109T000000Z
+DTEND:20261109T030000Z
+SUMMARY:ISKCON 休斯顿排灯节烛光祈福
+LOCATION:ISKCON of Houston\, 1320 W 34th St\, Houston\, TX 77018
+DESCRIPTION:🕯️ 排灯节正日烛光仪式!\n周一还有供品山 Ann
+ akut。\n费用:以官网为准\nhttps://www.mygoldscene.com/culture-calen
+ dar/metro/houston
+URL:https://www.mygoldscene.com/culture-calendar/metro/houston
 END:VEVENT
 BEGIN:VEVENT
-UID:first-colony-2026-10-30@noboringweekends
-DTSTAMP:20261026T000000Z
-DTSTART;VALUE=DATE:20261030
-DTEND;VALUE=DATE:20261031
-SUMMARY:First Colony 商场万圣节(糖城)
-LOCATION:First Colony Mall\, 16535 Southwest Fwy\, Sugar Land\, TX 77479
-DESCRIPTION:🍬 华人多的糖城!室内脸绘、拍照、寻宝、手工
- \,还有很多糖~\n费用:免费\nhttps://www.houstononthecheap.com/top-e
- vents-in-houston-october-30-november-1-2026/
-URL:https://www.houstononthecheap.com/top-events-in-houston-october-30-nove
- mber-1-2026/
+UID:petco-jump-into-joy-2026-11-07@noboringweekends
+DTSTAMP:20261104T000000Z
+DTSTART:20261107T160000Z
+DTEND:20261107T220000Z
+SUMMARY:Petco 大型宠物领养会
+LOCATION:Reliant Arena\, NRG Park\, 1 NRG Pkwy\, Houston\, TX 77054
+DESCRIPTION:🐶 1500 多只猫狗等你!\n《戴帽子的猫》主题\,免
+ 费入场\,有拍照点。\n费用:免费\nhttps://petcolove.org/
+URL:https://petcolove.org/
 END:VEVENT
 BEGIN:VEVENT
-UID:kemah-boo-2026-10-30@noboringweekends
-DTSTAMP:20261026T000000Z
-DTSTART;VALUE=DATE:20261030
-DTEND;VALUE=DATE:20261031
-SUMMARY:Kemah 木栈道万圣节(最后周末)
-LOCATION:Kemah Boardwalk\, 215 Kipp Ave\, Kemah\, TX 77565
-DESCRIPTION:🎡 游乐设施+讨糖+手工+服装比赛\,10/30-31 最后
- 两天!\n费用:以官网为准\nhttps://diningout.com/houston/where-to-ce
- lebrate-halloween-weekend-in-houston-the-best-parties-and-events-for-2026
-URL:https://diningout.com/houston/where-to-celebrate-halloween-weekend-in-h
- ouston-the-best-parties-and-events-for-2026
+UID:tomball-depot-day-2026-11-07@noboringweekends
+DTSTAMP:20261104T000000Z
+DTSTART:20261107T170000Z
+DTEND:20261107T230000Z
+SUMMARY:汤博尔火车站秋日节
+LOCATION:Tomball Depot Plaza\, 201 S Elm St\, Tomball\, TX 77375
+DESCRIPTION:🚂 模型火车 + 秋日集市!\n免费\,小火车迷必去
+ 。\n费用:免费\nhttps://www.tomballtx.gov/
+URL:https://www.tomballtx.gov/
 END:VEVENT
 BEGIN:VEVENT
-UID:houston-symphony-haunted-2026-10-31@noboringweekends
-DTSTAMP:20261026T000000Z
-DTSTART:20261031T150000Z
-DTEND:20261031T170000Z
-SUMMARY:休斯顿交响乐团儿童万圣节音乐会
-LOCATION:Jones Hall\, 615 Louisiana St\, Houston\, TX 77002
-DESCRIPTION:🎻 万圣节早上 10 点和 11:30 两场儿童音乐会\,票
- 务以官网为准。\n费用:以官网为准\nhttps://diningout.com/houst
- on/where-to-celebrate-halloween-weekend-in-houston-the-best-parties-and-ev
- ents-for-2026
-URL:https://diningout.com/houston/where-to-celebrate-halloween-weekend-in-h
- ouston-the-best-parties-and-events-for-2026
+UID:houston-dia-de-muertos-2026-11-07@noboringweekends
+DTSTAMP:20261104T000000Z
+DTSTART:20261107T220000Z
+DTEND:20261108T040000Z
+SUMMARY:休斯顿亡灵节游行
+LOCATION:Sam Houston Park\, 1000 Bagby St\, Houston\, TX 77002
+DESCRIPTION:💀 第 6 届亡灵节游行!\n音乐、彩妆、家庭活动\
+ ,免费。\n费用:免费\nhttps://www.eventbrite.com/e/reliant-presents-t
+ he-6th-houston-dia-de-muertos-parade-festival-tickets-1998694689620
+URL:https://www.eventbrite.com/e/reliant-presents-the-6th-houston-dia-de-mu
+ ertos-parade-festival-tickets-1998694689620
 END:VEVENT
 BEGIN:VEVENT
-UID:houston-zoo-boo2-2026-10-31@noboringweekends
-DTSTAMP:20261026T000000Z
-DTSTART;VALUE=DATE:20261031
-DTEND;VALUE=DATE:20261101
-SUMMARY:休斯顿动物园 Zoo Boo(最后一天)
-LOCATION:Houston Zoo\, 6200 Hermann Park Dr\, Houston\, TX 77030
-DESCRIPTION:🎃 Zoo Boo 万圣节当天收官\,含在门票里~\n费用:
- 含在门票内\nhttps://diningout.com/houston/where-to-celebrate-hallowee
- n-weekend-in-houston-the-best-parties-and-events-for-2026
-URL:https://diningout.com/houston/where-to-celebrate-halloween-weekend-in-h
- ouston-the-best-parties-and-events-for-2026
+UID:pavilion-palooza-2026-11-07@noboringweekends
+DTSTAMP:20261104T000000Z
+DTSTART;VALUE=DATE:20261107
+DTEND;VALUE=DATE:20261108
+SUMMARY:Pavilion Palooza 环游世界艺术节
+LOCATION:Cynthia Woods Mitchell Pavilion\, 2005 Lake Robbins Dr\, The Woodl
+ ands\, TX 77380
+DESCRIPTION:🌍 周六日“环游世界”!\n8 个主题区\,表演和活
+ 动都含在门票里。\n费用:需购票\nhttps://www.woodlandscenter.or
+ g/
+URL:https://www.woodlandscenter.org/
 END:VEVENT
 BEGIN:VEVENT
-UID:galaxy-frights2-2026-10-31@noboringweekends
-DTSTAMP:20261026T000000Z
-DTSTART;VALUE=DATE:20261031
-DTEND;VALUE=DATE:20261101
-SUMMARY:休斯顿太空中心 Galaxy Frights
-LOCATION:Space Center Houston\, 1601 E NASA Pkwy\, Houston\, TX 77058
-DESCRIPTION:🚀 太空中心万圣节主题活动\,适合大孩子\,票务
- 以官网为准。\n费用:以官网为准\nhttps://diningout.com/houston/
- where-to-celebrate-halloween-weekend-in-houston-the-best-parties-and-event
- s-for-2026
-URL:https://diningout.com/houston/where-to-celebrate-halloween-weekend-in-h
- ouston-the-best-parties-and-events-for-2026
+UID:abnc-fall-festival-2026-11-07@noboringweekends
+DTSTAMP:20261104T000000Z
+DTSTART;VALUE=DATE:20261107
+DTEND;VALUE=DATE:20261108
+SUMMARY:Armand Bayou 自然中心秋季节
+LOCATION:Armand Bayou Nature Center\, 8500 Bay Area Blvd\, Pasadena\, TX 77
+ 507
+DESCRIPTION:🦌 周六日湿地秋季节!\n户外探索\,适合爱自然
+ 的娃。\n费用:以官网为准\nhttps://www.abnc.org/
+URL:https://www.abnc.org/
 END:VEVENT
 END:VCALENDAR

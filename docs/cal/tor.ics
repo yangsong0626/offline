@@ -8,80 +8,63 @@ X-WR-TIMEZONE:America/Toronto
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:toronto-zoo-boo2-2026-10-31@noboringweekends
-DTSTAMP:20261026T000000Z
-DTSTART:20261031T150000Z
-DTEND:20261031T180000Z
-SUMMARY:多伦多动物园 Boo at the Zoo
-LOCATION:Toronto Zoo\, 2000 Meadowvale Rd\, Toronto\, ON M1B 5K7
-DESCRIPTION:🐘 士嘉堡动物园万圣节当天\,含在门票里~\n费
- 用:含在门票内\nhttps://childslife.ca/2026-halloween-events-guide-for
- -families/
-URL:https://childslife.ca/2026-halloween-events-guide-for-families/
+UID:vishnu-mandir-diwali-milan-2026-11-07@noboringweekends
+DTSTAMP:20261104T000000Z
+DTSTART:20261107T220000Z
+DTEND:20261108T000000Z
+SUMMARY:列治文山 Vishnu Mandir 排灯节晚会
+LOCATION:Vishnu Mandir banquet hall\, 8640 Yonge St\, Richmond Hill\, ON L4
+ C 6Z4
+DESCRIPTION:💃 列治文山排灯节演出!\n4:30 开门\,5 点开演。\
+ n费用:成人 $20\,5-12 岁 $10\nhttps://www.mygoldscene.com/culture-cale
+ ndar/metro/toronto
+URL:https://www.mygoldscene.com/culture-calendar/metro/toronto
 END:VEVENT
 BEGIN:VEVENT
-UID:black-creek2-2026-10-31@noboringweekends
-DTSTAMP:20261026T000000Z
-DTSTART:20261031T150000Z
-DTEND:20261031T200000Z
-SUMMARY:Black Creek 先民村万圣节
-LOCATION:Black Creek Pioneer Village\, 1000 Murray Ross Pkwy\, North York\,
-  ON M3J 2P3
-DESCRIPTION:🏚️ 在老房子之间讨糖\,建议提前买票。\n费用
- :以官网为准\nhttps://childslife.ca/2026-halloween-events-guide-for-fa
- milies/
-URL:https://childslife.ca/2026-halloween-events-guide-for-families/
+UID:gerrard-diwali-mela-2026-11-07@noboringweekends
+DTSTAMP:20261104T000000Z
+DTSTART:20261107T230000Z
+DTEND:20261108T030000Z
+SUMMARY:印度街 Gerrard 排灯节
+LOCATION:Gerrard India Bazaar\, 1432 Gerrard St E\, Toronto\, ON M4L 1Z8
+DESCRIPTION:✨ 小印度街头排灯节!\nDJ、舞蹈、仙女棒和小吃
+ \,免费。\n费用:免费\nhttps://www.gerrardindiabazaar.com/
+URL:https://www.gerrardindiabazaar.com/
 END:VEVENT
 BEGIN:VEVENT
-UID:wonderland-tricks-2026-10-31@noboringweekends
-DTSTAMP:20261026T000000Z
-DTSTART:20261031T150000Z
-DTEND:20261031T210000Z
-SUMMARY:加拿大奇幻乐园 Tricks & Treats
-LOCATION:Canada's Wonderland\, 1 Canada's Wonderland Dr\, Vaughan\, ON L6A 
- 1S6
-DESCRIPTION:🎢 白天亲子万圣节\,开到 11/1\,含在门票里。\n
- 费用:含在门票内\nhttps://childslife.ca/2026-halloween-events-guide-
- for-families/
-URL:https://childslife.ca/2026-halloween-events-guide-for-families/
+UID:viet-expo-2026-2026-11-08@noboringweekends
+DTSTAMP:20261104T000000Z
+DTSTART:20261108T150000Z
+DTEND:20261108T220000Z
+SUMMARY:越南博览会 Viet Expo
+LOCATION:Oasis Convention Centre\, 1036 Lakeshore Rd E\, Mississauga\, ON L
+ 5E 1E4
+DESCRIPTION:🇻🇳 60 多个越南社区展位!\n美食、文化和商家
+ 。\n费用:以官网为准\nhttps://www.mygoldscene.com/culture-calendar/
+ metro/toronto
+URL:https://www.mygoldscene.com/culture-calendar/metro/toronto
 END:VEVENT
 BEGIN:VEVENT
-UID:casa-loma-family-2026-10-31@noboringweekends
-DTSTAMP:20261026T000000Z
-DTSTART:20261031T210000Z
-DTEND:20261031T223000Z
-SUMMARY:卡萨罗马城堡恐怖传说(家庭场)
-LOCATION:Casa Loma\, 1 Austin Terrace\, Toronto\, ON M5R 1X8
-DESCRIPTION:🏰 最后一晚!5-6:30 家庭场比较不吓人\,需购票。
- \n费用:以官网为准\nhttps://www.destinationtoronto.com/leisure-blog/
- post/halloween-attractions-events-toronto/
-URL:https://www.destinationtoronto.com/leisure-blog/post/halloween-attracti
- ons-events-toronto/
+UID:brampton-diwali-mela-2026-11-08@noboringweekends
+DTSTAMP:20261104T000000Z
+DTSTART:20261108T210000Z
+DTEND:20261109T030000Z
+SUMMARY:宾顿排灯节 + 烟花无人机秀
+LOCATION:Sesquicentennial Park\, 11333 Bramalea Rd\, Brampton\, ON L6R 3E5
+DESCRIPTION:🎆 免费市级排灯节!\n7:30 烟花、8:15 无人机秀\,
+ 有免费接驳车。\n费用:免费\nhttps://www.brampton.ca/
+URL:https://www.brampton.ca/
 END:VEVENT
 BEGIN:VEVENT
-UID:church-st-2026-10-31@noboringweekends
-DTSTAMP:20261026T000000Z
-DTSTART:20261031T220000Z
-DTEND:20261101T000000Z
-SUMMARY:Church Street 万圣节街头派对
-LOCATION:Church Street\, Church St\, Toronto\, ON
-DESCRIPTION:🎭 6 点开始还算亲子友好\,越晚越狂欢~\n费用:
- 免费\nhttps://www.destinationtoronto.com/leisure-blog/post/halloween-att
- ractions-events-toronto/
-URL:https://www.destinationtoronto.com/leisure-blog/post/halloween-attracti
- ons-events-toronto/
-END:VEVENT
-BEGIN:VEVENT
-UID:sankofa-spook-2026-10-31@noboringweekends
-DTSTAMP:20261026T000000Z
-DTSTART;VALUE=DATE:20261031
-DTEND;VALUE=DATE:20261101
-SUMMARY:Sankofa 广场万圣节
-LOCATION:Sankofa Square\, 1 Dundas St E\, Toronto\, ON M5B 2R8
-DESCRIPTION:👻 捉鬼敢死队+Bluey 和 Bingo 见面会\,免费!\n费用
- :免费\nhttps://www.todocanada.ca/Halloween-Activities-Events-in-Toronto-
- GTA-for-Kids/
-URL:https://www.todocanada.ca/Halloween-Activities-Events-in-Toronto-GTA-fo
- r-Kids/
+UID:royal-winter-fair-2026-2026-11-07@noboringweekends
+DTSTAMP:20261104T000000Z
+DTSTART;VALUE=DATE:20261107
+DTEND;VALUE=DATE:20261108
+SUMMARY:皇家冬季农业博览会
+LOCATION:Exhibition Place\, 100 Princes' Blvd\, Toronto\, ON M6K 3C3
+DESCRIPTION:🐐 11/6-15 全球最大室内农博会!\n看马术、摸小
+ 动物、黄油雕塑\,带娃首选。\n费用:需购票\nhttps://www.roya
+ lfair.org/
+URL:https://www.royalfair.org/
 END:VEVENT
 END:VCALENDAR
