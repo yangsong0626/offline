@@ -8,96 +8,73 @@ X-WR-TIMEZONE:America/Vancouver
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:ccm-momentum2-2026-10-31@noboringweekends
-DTSTAMP:20261026T000000Z
-DTSTART:20261031T170000Z
-DTEND:20261101T000000Z
-SUMMARY:华裔加拿大人博物馆《Momentum》体育展
-LOCATION:Chinese Canadian Museum\, 51 E Pender St\, Vancouver\, BC V6A 1S9
-DESCRIPTION:🏀 华裔加拿大运动员的故事:足球、冰球、篮球
- 、花滑…\n唐人街博物馆\,周三到周日 10-5 点。\n费用:以
- 官网为准\nhttps://www.chinesecanadianmuseum.ca/
-URL:https://www.chinesecanadianmuseum.ca/
+UID:redfm-diwali-surrey-2026-11-07@noboringweekends
+DTSTAMP:20261104T000000Z
+DTSTART:20261107T190000Z
+DTEND:20261108T030000Z
+SUMMARY:素里 RED FM 排灯节
+LOCATION:Surrey Civic Plaza\, 13450 104 Ave\, Surrey\, BC V3T 1V8
+DESCRIPTION:🎉 素里市民广场排灯节!\n中午到晚上 8 点\,免
+ 费演出。\n费用:免费\nhttps://www.redfm.ca/
+URL:https://www.redfm.ca/
 END:VEVENT
 BEGIN:VEVENT
-UID:burnaby-haunted2-2026-10-30@noboringweekends
-DTSTAMP:20261026T000000Z
-DTSTART:20261030T230000Z
-DTEND:20261031T040000Z
-SUMMARY:本拿比鬼村(周五/六)
-LOCATION:Burnaby Village Museum\, 6501 Deer Lake Ave\, Burnaby\, BC V5G 3T6
-DESCRIPTION:🎠 老村庄万圣节最后两晚\,儿童票 $7。\n费用:
- 儿童 $7\nhttps://miss604.com/2026/10/family-friendly-halloween-activitie
- s-around-vancouver-2026/
-URL:https://miss604.com/2026/10/family-friendly-halloween-activities-around
- -vancouver-2026/
-END:VEVENT
-BEGIN:VEVENT
-UID:central-spark-2026-10-30@noboringweekends
-DTSTAMP:20261026T000000Z
-DTSTART;VALUE=DATE:20261030
-DTEND;VALUE=DATE:20261031
-SUMMARY:本拿比中央公园万圣节烟花
-LOCATION:Central Park\, 3883 Imperial St\, Burnaby\, BC V5J 1A1
-DESCRIPTION:🎇 家庭活动+表演+烟花收尾\,周五晚\,时间以官
- 网为准。\n费用:免费\nhttps://vancouversbestplaces.com/events-calen
- dar/october/vancouver-halloween-events/
-URL:https://vancouversbestplaces.com/events-calendar/october/vancouver-hall
- oween-events/
-END:VEVENT
-BEGIN:VEVENT
-UID:capilano-mall-kpop-2026-10-31@noboringweekends
-DTSTAMP:20261026T000000Z
-DTSTART:20261031T200000Z
-DTEND:20261031T220000Z
-SUMMARY:Capilano 商场 K-pop 主题讨糖
-LOCATION:Capilano Mall\, 935 Marine Dr\, North Vancouver\, BC V7P 1S3
-DESCRIPTION:🎤 K-pop 主题讨糖\,50+ 商家参与\,还有见面会!\n
- 费用:免费\nhttps://miss604.com/2026/10/family-friendly-halloween-activ
- ities-around-vancouver-2026/
-URL:https://miss604.com/2026/10/family-friendly-halloween-activities-around
- -vancouver-2026/
-END:VEVENT
-BEGIN:VEVENT
-UID:richmond-fireworks-2026-10-31@noboringweekends
-DTSTAMP:20261026T000000Z
-DTSTART:20261101T013000Z
-DTEND:20261101T041500Z
-SUMMARY:列治文万圣节烟花节(40 周年)
-LOCATION:Minoru Park\, 7191 Granville Ave\, Richmond\, BC V6Y 1N9
-DESCRIPTION:🎆 列治文万圣节烟花 40 周年!今年主题「外星
- 人入侵」👽\n晚 9 点放烟花\,免费\,华人超多~\n费用:免费
- \nhttps://vancouversbestplaces.com/events-calendar/october/vancouver-hallo
- ween-events/richmond-halloween-fireworks/
-URL:https://vancouversbestplaces.com/events-calendar/october/vancouver-hall
- oween-events/richmond-halloween-fireworks/
-END:VEVENT
-BEGIN:VEVENT
-UID:roundhouse-2026-10-31@noboringweekends
-DTSTAMP:20261026T000000Z
-DTSTART;VALUE=DATE:20261031
-DTEND;VALUE=DATE:20261101
-SUMMARY:Roundhouse 社区中心万圣节
+UID:diwali-fest-roundhouse-2026-11-07@noboringweekends
+DTSTAMP:20261104T000000Z
+DTSTART:20261107T210000Z
+DTEND:20261108T000000Z
+SUMMARY:Roundhouse 社区中心排灯节
 LOCATION:Roundhouse Community Centre\, 181 Roundhouse Mews\, Vancouver\, BC
   V6Z 2W3
-DESCRIPTION:👻 10/31 万圣节鬼屋步道\,11/1 魔术表演~\n费用:
- 以官网为准\nhttps://miss604.com/2026/10/family-friendly-halloween-act
- ivities-around-vancouver-2026/
-URL:https://miss604.com/2026/10/family-friendly-halloween-activities-around
- -vancouver-2026/
+DESCRIPTION:🪔 耶鲁镇免费排灯节!\n需提前登记。\n费用:免
+ 费\nhttps://diwalifest.ca/
+URL:https://diwalifest.ca/
 END:VEVENT
 BEGIN:VEVENT
-UID:canyon-frights2-2026-10-31@noboringweekends
-DTSTAMP:20261026T000000Z
-DTSTART;VALUE=DATE:20261031
-DTEND;VALUE=DATE:20261101
-SUMMARY:卡皮拉诺吊桥 Canyon Frights(最后周末)
-LOCATION:Capilano Suspension Bridge Park\, 3735 Capilano Rd\, North Vancouv
- er\, BC V7R 4J1
-DESCRIPTION:🌲 雨林夜间万圣节\,开到 11/1\,需购票。\n费用:
- 以官网为准\nhttps://miss604.com/2026/10/family-friendly-halloween-act
- ivities-around-vancouver-2026/
-URL:https://miss604.com/2026/10/family-friendly-halloween-activities-around
- -vancouver-2026/
+UID:vaff-2026-2026-11-07@noboringweekends
+DTSTAMP:20261104T000000Z
+DTSTART;VALUE=DATE:20261107
+DTEND;VALUE=DATE:20261108
+SUMMARY:第 30 届温哥华亚洲电影节
+LOCATION:Various venues\, Vancouver\, BC
+DESCRIPTION:🎬 11/5-15 第 30 届亚洲电影节!\n片单和场地以官
+ 网为准。\n费用:需购票\nhttps://vaff.org/
+URL:https://vaff.org/
+END:VEVENT
+BEGIN:VEVENT
+UID:riley-park-farmers-market-2026-11-07@noboringweekends
+DTSTAMP:20261104T000000Z
+DTSTART:20261107T170000Z
+DTEND:20261107T210000Z
+SUMMARY:Riley Park 冬季农夫市集
+LOCATION:Riley Park\, 50 E 30th Ave\, Vancouver\, BC V5V 2T9
+DESCRIPTION:🥕 周六上午冬季农夫市集!\n本地蔬果、面包和
+ 小吃。\n费用:免费\nhttps://eatlocal.org/
+URL:https://eatlocal.org/
+END:VEVENT
+BEGIN:VEVENT
+UID:luzia-vancouver-2026-11-07@noboringweekends
+DTSTAMP:20261104T000000Z
+DTSTART;VALUE=DATE:20261107
+DTEND;VALUE=DATE:20261108
+SUMMARY:太阳马戏《Luzia》
+LOCATION:Concord Pacific Place\, 88 Pacific Blvd\, Vancouver\, BC V6Z 2R6
+DESCRIPTION:🎪 太阳马戏大帐篷 11/4 起开演!\n墨西哥风情杂
+ 技\,演到明年 1 月。\n费用:需购票\nhttps://www.cirquedusoleil.c
+ om/luzia
+URL:https://www.cirquedusoleil.com/luzia
+END:VEVENT
+BEGIN:VEVENT
+UID:dtes-heart-of-city-2026-11-07@noboringweekends
+DTSTAMP:20261104T000000Z
+DTSTART;VALUE=DATE:20261107
+DTEND;VALUE=DATE:20261108
+SUMMARY:DTES 城市之心艺术节收官
+LOCATION:30+ venues in the Downtown Eastside\, Downtown Eastside\, Vancouve
+ r\, BC
+DESCRIPTION:🎭 第 23 届社区艺术节最后一天!\n戏剧、舞蹈、
+ 讲故事和工作坊。\n费用:部分免费\nhttps://heartofthecityfesti
+ val.com/
+URL:https://heartofthecityfestival.com/
 END:VEVENT
 END:VCALENDAR

@@ -8,110 +8,79 @@ X-WR-TIMEZONE:America/New_York
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:nmaa-visit2-2026-10-31@noboringweekends
-DTSTAMP:20261026T000000Z
-DTSTART:20261031T140000Z
-DTEND:20261031T213000Z
-SUMMARY:国立亚洲艺术博物馆(免费)
+UID:nmaa-asia-after-dark-diwali-2026-11-06@noboringweekends
+DTSTAMP:20261104T000000Z
+DTSTART:20261106T220000Z
+DTEND:20261107T020000Z
+SUMMARY:国立亚洲艺术博物馆排灯节夜场
 LOCATION:National Museum of Asian Art\, 1050 Independence Ave SW\, Washingt
  on\, DC 20560
-DESCRIPTION:🏯 史密森尼国立亚洲艺术博物馆\,永远免费!\n
- 中国青铜器、瓷器、佛教艺术\,开放时间以官网为准。\n
- 费用:免费\nhttps://asia.si.edu/
-URL:https://asia.si.edu/
+DESCRIPTION:🪔 史密森尼亚洲馆夜场!\n手工、讲座、表演\,
+ 广场还有舞会。免费\,建议网上登记。\n费用:免费\nhttps:/
+ /asia.si.edu/whats-on/events/search/event:209770265/
+URL:https://asia.si.edu/whats-on/events/search/event:209770265/
 END:VEVENT
 BEGIN:VEVENT
-UID:hill-o-ween-2026-10-30@noboringweekends
-DTSTAMP:20261026T000000Z
-DTSTART;VALUE=DATE:20261030
-DTEND;VALUE=DATE:20261031
-SUMMARY:Eastern Market Hill-O-Ween
-LOCATION:Eastern Market\, 225 7th St SE\, Washington\, DC 20003
-DESCRIPTION:🎃 国会山老牌亲子万圣节\,免费\,具体安排以官
- 网为准。\n费用:免费\nhttps://washington.org/visit-dc/halloween-dia
- -de-los-muertos-events-in-around-washington-dc
-URL:https://washington.org/visit-dc/halloween-dia-de-los-muertos-events-in-
- around-washington-dc
+UID:moapia-diwali-2026-11-06@noboringweekends
+DTSTAMP:20261104T000000Z
+DTSTART:20261106T230000Z
+DTEND:20261107T010000Z
+SUMMARY:DC 市长亚太事务办排灯节
+LOCATION:899 North Capitol St NE\, 899 North Capitol St NE\, Washington\, D
+ C 20002
+DESCRIPTION:✨ 古典音乐舞蹈、点油灯、美食!\n免费\,需 RSVP
+ 。\n费用:免费\nhttps://apia.dc.gov/
+URL:https://apia.dc.gov/
 END:VEVENT
 BEGIN:VEVENT
-UID:nmai-ddlm-2026-10-31@noboringweekends
-DTSTAMP:20261026T000000Z
-DTSTART:20261031T140000Z
-DTEND:20261031T210000Z
-SUMMARY:美国印第安人博物馆亡灵节
-LOCATION:National Museum of the American Indian\, 4th St & Independence Ave
-  SW\, Washington\, DC 20560
-DESCRIPTION:🌼 舞蹈表演+涂色+做纸万寿菊和面具\,免费!\n费
- 用:免费\nhttps://washington.org/visit-dc/halloween-dia-de-los-muertos-e
- vents-in-around-washington-dc
-URL:https://washington.org/visit-dc/halloween-dia-de-los-muertos-events-in-
- around-washington-dc
+UID:fairfax-kimchi-festival-2026-11-07@noboringweekends
+DTSTAMP:20261104T000000Z
+DTSTART:20261107T180000Z
+DTEND:20261107T210000Z
+SUMMARY:费尔法克斯泡菜节
+LOCATION:Fairfax County Government Center\, 12000 Government Center Pkwy\, 
+ Fairfax\, VA 22035
+DESCRIPTION:🥬 免费韩国泡菜节!\n12:30 开门\,北弗华人家庭
+ 开车很近。\n费用:免费\nhttps://www.fairfaxcounty.gov/
+URL:https://www.fairfaxcounty.gov/
 END:VEVENT
 BEGIN:VEVENT
-UID:tudor-place-2026-10-31@noboringweekends
-DTSTAMP:20261026T000000Z
-DTSTART:20261031T140000Z
-DTEND:20261031T160000Z
-SUMMARY:Tudor Place 幼儿讨糖
-LOCATION:Tudor Place\, 1644 31st St NW\, Washington\, DC 20007
-DESCRIPTION:🏡 乔治城老宅上午场讨糖\,适合小小孩~\n费用:
- 以官网为准\nhttps://washington.org/visit-dc/halloween-dia-de-los-muer
- tos-events-in-around-washington-dc
-URL:https://washington.org/visit-dc/halloween-dia-de-los-muertos-events-in-
- around-washington-dc
+UID:czech-christmas-market-2026-11-07@noboringweekends
+DTSTAMP:20261104T000000Z
+DTSTART:20261107T140000Z
+DTEND:20261107T230000Z
+SUMMARY:捷克大使馆圣诞集市
+LOCATION:Embassy of the Czech Republic\, 3900 Spring of Freedom St NW\, Was
+ hington\, DC 20008
+DESCRIPTION:🎄 大使馆里的欧洲圣诞市集!\n手作礼物、捷克
+ 美食、小动物和天文演示\,免费需登记。\n费用:免费\nhttp
+ s://washington.org/event/annual-czech-christmas-market-embassy-czech-repub
+ lic
+URL:https://washington.org/event/annual-czech-christmas-market-embassy-czec
+ h-republic
 END:VEVENT
 BEGIN:VEVENT
-UID:stamp-scream-2026-10-31@noboringweekends
-DTSTAMP:20261026T000000Z
-DTSTART:20261031T150000Z
-DTEND:20261031T190000Z
-SUMMARY:国家邮政博物馆 Stamp & Scream
-LOCATION:National Postal Museum\, 2 Massachusetts Ave NE\, Washington\, DC 
- 20002
-DESCRIPTION:📮 手作+全馆服装游行\,免费\,鼓励穿服装~\n费
- 用:免费\nhttps://washington.org/visit-dc/halloween-dia-de-los-muertos-e
- vents-in-around-washington-dc
-URL:https://washington.org/visit-dc/halloween-dia-de-los-muertos-events-in-
- around-washington-dc
+UID:adams-morgan-porchfest-2026-11-07@noboringweekends
+DTSTAMP:20261104T000000Z
+DTSTART;VALUE=DATE:20261107
+DTEND;VALUE=DATE:20261108
+SUMMARY:亚当斯摩根门廊音乐节
+LOCATION:Adams Morgan\, 18th St NW\, Washington\, DC 20009
+DESCRIPTION:🎸 近百组乐手在门廊、街头演出!\n18 街封路\,
+ 免费逛。\n费用:免费\nhttps://admodc.org/porchfest/
+URL:https://admodc.org/porchfest/
 END:VEVENT
 BEGIN:VEVENT
-UID:congressional-ofrenda-2026-11-01@noboringweekends
-DTSTAMP:20261026T000000Z
-DTSTART:20261101T160000Z
-DTEND:20261101T200000Z
-SUMMARY:国会公墓社区祭坛
-LOCATION:Congressional Cemetery\, 1801 E St SE\, Washington\, DC 20003
-DESCRIPTION:🌼 可以带亲人照片放上社区祭坛\,温柔的纪念
- 活动\,免费。\n费用:免费\nhttps://washington.org/visit-dc/hallowee
- n-dia-de-los-muertos-events-in-around-washington-dc
-URL:https://washington.org/visit-dc/halloween-dia-de-los-muertos-events-in-
- around-washington-dc
-END:VEVENT
-BEGIN:VEVENT
-UID:wharf-ddlm-2026-11-01@noboringweekends
-DTSTAMP:20261026T000000Z
-DTSTART:20261101T200000Z
-DTEND:20261101T230000Z
-SUMMARY:The Wharf 亡灵节
-LOCATION:The Wharf\, 760 Maine Ave SW\, Washington\, DC 20024
-DESCRIPTION:🕯️ 祭坛、现场音乐、烛光游行\,小朋友可以
- 画脸和装饰糖骷髅\,免费!\n费用:免费\nhttps://washington.org/v
- isit-dc/halloween-dia-de-los-muertos-events-in-around-washington-dc
-URL:https://washington.org/visit-dc/halloween-dia-de-los-muertos-events-in-
- around-washington-dc
-END:VEVENT
-BEGIN:VEVENT
-UID:npg-ddlm-2026-11-01@noboringweekends
-DTSTAMP:20261026T000000Z
-DTSTART:20261101T233000Z
-DTEND:20261102T013000Z
-SUMMARY:国家肖像馆亡灵节之夜
-LOCATION:National Portrait Gallery\, 8th St & G St NW\, Washington\, DC 200
- 01
-DESCRIPTION:💃 中庭民俗舞蹈+现场作画+手工\,博物馆年度大
- 活动!免费。\n费用:免费\nhttps://washington.org/visit-dc/halloween
- -dia-de-los-muertos-events-in-around-washington-dc
-URL:https://washington.org/visit-dc/halloween-dia-de-los-muertos-events-in-
- around-washington-dc
+UID:spy-museum-trabant-2026-11-07@noboringweekends
+DTSTAMP:20261104T000000Z
+DTSTART;VALUE=DATE:20261107
+DTEND;VALUE=DATE:20261108
+SUMMARY:间谍博物馆特拉班特老爷车大游行
+LOCATION:International Spy Museum\, 700 L'Enfant Plaza SW\, Washington\, DC
+  20024
+DESCRIPTION:🚗 全美唯一的东德小车 Trabant 集会!\n第 20 届\,
+ 间谍博物馆门口。\n费用:以官网为准\nhttps://www.spymuseum.or
+ g/
+URL:https://www.spymuseum.org/
 END:VEVENT
 END:VCALENDAR

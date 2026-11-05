@@ -8,102 +8,86 @@ X-WR-TIMEZONE:America/Los_Angeles
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:sam-asian-nov1-2026-11-01@noboringweekends
-DTSTAMP:20261026T000000Z
-DTSTART:20261101T213000Z
-DTEND:20261101T223000Z
-SUMMARY:西雅图亚洲艺术博物馆公众导览
-LOCATION:Seattle Asian Art Museum\, 1400 E Prospect St\, Seattle\, WA 98112
-DESCRIPTION:🏺 近藤家三代陶艺展还在展!周日 1:30 公众导览
- \,门票以官网为准。\n费用:以官网为准\nhttps://www.seattleart
- museum.org/whats-on/events
-URL:https://www.seattleartmuseum.org/whats-on/events
+UID:bellevue-collection-diwali-2026-11-07@noboringweekends
+DTSTAMP:20261104T000000Z
+DTSTART:20261107T200000Z
+DTEND:20261108T010000Z
+SUMMARY:贝尔维尤购物中心排灯节
+LOCATION:Bellevue Square\, 575 Bellevue Square\, Bellevue\, WA 98004
+DESCRIPTION:🪔 Bellevue Square 排灯节!\n中庭舞蹈表演、免费手
+ 绘海娜 11-6 点\,纱丽和彩绘展到 11/8。\n费用:免费\nhttps://
+ www.bellevuecollection.com/
+URL:https://www.bellevuecollection.com/
 END:VEVENT
 BEGIN:VEVENT
-UID:garfield-carnival-2026-10-30@noboringweekends
-DTSTAMP:20261026T000000Z
-DTSTART:20261031T000000Z
-DTEND:20261031T020000Z
-SUMMARY:Garfield 社区中心万圣节嘉年华
-LOCATION:Garfield Community Center\, 2323 E Cherry St\, Seattle\, WA 98122
-DESCRIPTION:🎪 13 岁以下儿童万圣节嘉年华\,周五傍晚~\n费
- 用:以官网为准\nhttps://parkways.seattle.gov/2026/10/07/2026-hallowee
- n-events-with-seattle-parks-and-recreation/
-URL:https://parkways.seattle.gov/2026/10/07/2026-halloween-events-with-seat
- tle-parks-and-recreation/
+UID:seattle-center-diwali-2026-11-07@noboringweekends
+DTSTAMP:20261104T000000Z
+DTSTART:20261107T200000Z
+DTEND:20261107T220000Z
+SUMMARY:西雅图中心「印度之光」排灯节
+LOCATION:Seattle Center Armory\, 305 Harrison St\, Seattle\, WA 98109
+DESCRIPTION:✨ 太空针塔脚下过排灯节!\nFestál 系列免费文化
+ 节\,中午开始。\n费用:免费\nhttps://www.seattlecenter.com/
+URL:https://www.seattlecenter.com/
 END:VEVENT
 BEGIN:VEVENT
-UID:wild-waves-fright-2026-10-30@noboringweekends
-DTSTAMP:20261026T000000Z
-DTSTART;VALUE=DATE:20261030
-DTEND;VALUE=DATE:20261031
-SUMMARY:Wild Waves Fright Fest
-LOCATION:Wild Waves Theme Park\, 36201 Enchanted Pkwy S\, Federal Way\, WA 
- 98003
-DESCRIPTION:😱 游乐园惊魂夜最后一季\,周五到周日开到 11/1
- !\n费用:以官网为准\nhttps://onestowatch.com/live/seattle-halloween-
- concerts/
-URL:https://onestowatch.com/live/seattle-halloween-concerts/
+UID:uttoron-deepaboli-2026-11-08@noboringweekends
+DTSTAMP:20261104T000000Z
+DTSTART:20261108T221500Z
+DTEND:20261109T041500Z
+SUMMARY:伊萨夸孟加拉排灯节
+LOCATION:Pickering Barn\, 1730 10th Ave NW\, Issaquah\, WA 98027
+DESCRIPTION:🏮 排灯节正日的孟加拉社区庆祝!\n需提前 RSVP
+ 。\n费用:以官网为准\nhttps://www.mygoldscene.com/culture-calendar/
+ metro/seattle
+URL:https://www.mygoldscene.com/culture-calendar/metro/seattle
 END:VEVENT
 BEGIN:VEVENT
-UID:boo-seattle-2026-10-30@noboringweekends
-DTSTAMP:20261026T000000Z
-DTSTART;VALUE=DATE:20261030
-DTEND;VALUE=DATE:20261031
-SUMMARY:BOO Seattle 电音派对
-LOCATION:WaMu Theater\, 800 Occidental Ave S\, Seattle\, WA 98134
-DESCRIPTION:🎧 万圣节电音派对\,三个舞台 45+ 艺人!周五 GRiZ
- 、周六 Subtronics。\n费用:以官网为准\nhttps://onestowatch.com/l
- ive/seattle-halloween-concerts/
-URL:https://onestowatch.com/live/seattle-halloween-concerts/
+UID:sea-meow-2026-11-07@noboringweekends
+DTSTAMP:20261104T000000Z
+DTSTART:20261107T180000Z
+DTEND:20261107T200000Z
+SUMMARY:Sea-Meow 猫咪博览会
+LOCATION:Seattle Center Exhibition Hall\, 301 Mercer St\, Seattle\, WA 9810
+ 9
+DESCRIPTION:🐱 周六日猫咪大集!\n100 家猫主题摊位、网红猫
+ 、猫咪表演、cosplay 比赛和领养。\n费用:以官网为准\nhttp
+ s://www.events12.com/seattle/
+URL:https://www.events12.com/seattle/
 END:VEVENT
 BEGIN:VEVENT
-UID:mopop-undead-2026-10-31@noboringweekends
-DTSTAMP:20261026T000000Z
-DTSTART:20261101T030000Z
-DTEND:20261101T050000Z
-SUMMARY:流行文化博物馆万圣节派对(21+)
-LOCATION:MoPOP\, 325 5th Ave N\, Seattle\, WA 98109
-DESCRIPTION:🧛 在博物馆里过万圣夜\,21+\,需购票。\n费用:以
- 官网为准\nhttps://onestowatch.com/live/seattle-halloween-concerts/
-URL:https://onestowatch.com/live/seattle-halloween-concerts/
+UID:short-run-comix-2026-11-07@noboringweekends
+DTSTAMP:20261104T000000Z
+DTSTART:20261107T190000Z
+DTEND:20261107T210000Z
+SUMMARY:Short Run 漫画节
+LOCATION:Seattle Design Center\, 5701 6th Ave S\, Seattle\, WA 98108
+DESCRIPTION:📚 独立漫画、zine、动画创作者集市!\n爱画画的
+ 大孩子会喜欢。\n费用:以官网为准\nhttps://www.shortrun.org/
+URL:https://www.shortrun.org/
 END:VEVENT
 BEGIN:VEVENT
-UID:pumpkin-bash-2026-10-31@noboringweekends
-DTSTAMP:20261026T000000Z
-DTSTART;VALUE=DATE:20261031
-DTEND;VALUE=DATE:20261101
-SUMMARY:林地公园动物园 Pumpkin Bash
-LOCATION:Woodland Park Zoo\, 5500 Phinney Ave N\, Seattle\, WA 98103
-DESCRIPTION:🐻 看大动物啃南瓜!万圣节当天\,含在门票里~\n
- 费用:含在门票内\nhttps://www.tripster.com/travelguide/halloween-eve
- nts-seattle/
-URL:https://www.tripster.com/travelguide/halloween-events-seattle/
+UID:tomte-holiday-market-2026-11-07@noboringweekends
+DTSTAMP:20261104T000000Z
+DTSTART;VALUE=DATE:20261107
+DTEND;VALUE=DATE:20261108
+SUMMARY:瑞典俱乐部 Tomte 圣诞集市
+LOCATION:The Swedish Club\, 1920 Dexter Ave N\, Seattle\, WA 98109
+DESCRIPTION:🎄 周六日北欧圣诞市集!\n20 多位手作艺人\,提
+ 前开始节日采购。\n费用:以官网为准\nhttps://swedishclubnw.or
+ g/
+URL:https://swedishclubnw.org/
 END:VEVENT
 BEGIN:VEVENT
-UID:ballard-tot-2026-10-31@noboringweekends
-DTSTAMP:20261026T000000Z
-DTSTART;VALUE=DATE:20261031
-DTEND;VALUE=DATE:20261101
-SUMMARY:Ballard 社区讨糖
-LOCATION:Ballard Ave\, Ballard Ave NW\, Seattle\, WA 98107
-DESCRIPTION:🍬 Ballard 商家讨糖\,12 岁以下\,免费!时间以官网
- 为准。\n费用:免费\nhttps://www.parentmap.com/things-to-do/halloween
- -events-families-seattle-eastside-south-sound/
-URL:https://www.parentmap.com/things-to-do/halloween-events-families-seattl
- e-eastside-south-sound/
-END:VEVENT
-BEGIN:VEVENT
-UID:snoqualmie-train-2026-10-31@noboringweekends
-DTSTAMP:20261026T000000Z
-DTSTART;VALUE=DATE:20261031
-DTEND;VALUE=DATE:20261101
-SUMMARY:Snoqualmie 万圣节小火车
-LOCATION:Snoqualmie Depot\, 38625 SE King St\, Snoqualmie\, WA 98065
-DESCRIPTION:🚂 万圣节当天坐复古小火车!需购票。\n费用:以
- 官网为准\nhttps://www.seattleschild.com/in-person-halloween-events-for
- -kids-and-families/
-URL:https://www.seattleschild.com/in-person-halloween-events-for-kids-and-f
- amilies/
+UID:green-seattle-day-2026-11-07@noboringweekends
+DTSTAMP:20261104T000000Z
+DTSTART;VALUE=DATE:20261107
+DTEND;VALUE=DATE:20261108
+SUMMARY:绿色西雅图日:全家种树
+LOCATION:Parks across Seattle\, Various locations\, Seattle\, WA
+DESCRIPTION:🌲 全市志愿种树日!\n不需要经验\,带娃一起种
+ 原生树苗\,在官网选地点报名。\n费用:免费\nhttps://www.gree
+ nseattle.org/
+URL:https://www.greenseattle.org/
 END:VEVENT
 END:VCALENDAR

@@ -8,91 +8,63 @@ X-WR-TIMEZONE:America/New_York
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:ica-kusama-2026-10-31@noboringweekends
-DTSTAMP:20261026T000000Z
-DTSTART;VALUE=DATE:20261031
-DTEND;VALUE=DATE:20261101
-SUMMARY:ICA 草间弥生《LOVE IS CALLING》
-LOCATION:Institute of Contemporary Art\, 25 Harbor Shore Dr\, Boston\, MA 0
- 2210
-DESCRIPTION:🔴 草间弥生无限镜屋回来了!\n波点+镜面超出片
- 📸 需预约时段票\,以官网为准。\n费用:以官网为准\nhttps
- ://www.bostonmagazine.com/things-to-do/weekend/
-URL:https://www.bostonmagazine.com/things-to-do/weekend/
+UID:harvard-sq-thai-night-market-2026-11-07@noboringweekends
+DTSTAMP:20261104T000000Z
+DTSTART;VALUE=DATE:20261107
+DTEND;VALUE=DATE:20261108
+SUMMARY:哈佛广场泰国夜市
+LOCATION:Harvard Square\, Harvard Square\, Cambridge\, MA 02138
+DESCRIPTION:🏮 哈佛广场泰国夜市!\n泰国小吃、灯笼、文化
+ 表演和摊位\,免费入场。\n费用:免费\nhttps://www.harvardsquare
+ .com/
+URL:https://www.harvardsquare.com/
 END:VEVENT
 BEGIN:VEVENT
-UID:stone-zoo-lanterns2-2026-10-30@noboringweekends
-DTSTAMP:20261026T000000Z
-DTSTART:20261030T213000Z
-DTEND:20261031T013000Z
-SUMMARY:Stone 动物园南瓜灯之夜(最后两晚)
-LOCATION:Stone Zoo\, 149 Pond St\, Stoneham\, MA 02180
-DESCRIPTION:🎃 南瓜灯展开到 10/31\,最后两晚\,需购票。\n费
- 用:以官网为准\nhttps://www.zoonewengland.org/
-URL:https://www.zoonewengland.org/
+UID:hammond-castle-ren-faire-2026-11-07@noboringweekends
+DTSTAMP:20261104T000000Z
+DTSTART:20261107T140000Z
+DTEND:20261107T220000Z
+SUMMARY:哈蒙德城堡文艺复兴日
+LOCATION:Hammond Castle Museum\, 80 Hesperus Ave\, Gloucester\, MA 01930
+DESCRIPTION:🏰 海边城堡里过中世纪!\n周六日都有\,适合周
+ 末出城。\n费用:以官网为准\nhttps://www.hammondcastle.org/
+URL:https://www.hammondcastle.org/
 END:VEVENT
 BEGIN:VEVENT
-UID:ropes-mansion-2026-10-30@noboringweekends
-DTSTAMP:20261026T000000Z
-DTSTART;VALUE=DATE:20261030
-DTEND;VALUE=DATE:20261031
-SUMMARY:塞勒姆 Ropes 宅邸(《女巫也疯狂》取景地)
-LOCATION:Ropes Mansion\, 318 Essex St\, Salem\, MA 01970
-DESCRIPTION:🧹 《女巫也疯狂》取景地\,装饰成电影里的样
- 子!\n免费自助参观。万圣节塞勒姆人超多\,建议坐通勤火
- 车。\n费用:免费\nhttps://mommypoppins.com/boston-kids/free-activitie
- s/free-halloween-parades-crafts-and-parties-for-boston-kids
-URL:https://mommypoppins.com/boston-kids/free-activities/free-halloween-par
- ades-crafts-and-parties-for-boston-kids
+UID:jp-pumpkin-smash-2026-11-07@noboringweekends
+DTSTAMP:20261104T000000Z
+DTSTART:20261107T160000Z
+DTEND:20261107T190000Z
+SUMMARY:牙买加平原砸南瓜
+LOCATION:English High School parking lot\, 144 McBride St\, Jamaica Plain\,
+  MA 02130
+DESCRIPTION:🎃 万圣节南瓜别扔!\n带来砸碎做堆肥\,孩子超
+ 解压。去掉颜料和蜡烛。\n费用:免费\nhttps://www.boston.gov/e
+ vent-type/family-friendly
+URL:https://www.boston.gov/event-type/family-friendly
 END:VEVENT
 BEGIN:VEVENT
-UID:broadway-southie-2026-10-30@noboringweekends
-DTSTAMP:20261026T000000Z
-DTSTART;VALUE=DATE:20261030
-DTEND;VALUE=DATE:20261031
-SUMMARY:南波士顿 Broadway 商家讨糖
-LOCATION:West Broadway\, W Broadway\, South Boston\, MA 02127
-DESCRIPTION:🍬 周五南波士顿商家讨糖\,免费\,时间以官网为
- 准。\n费用:免费\nhttps://www.bostoncentral.com/events/seasonalfun.ph
- p
-URL:https://www.bostoncentral.com/events/seasonalfun.php
+UID:boston-veterans-parade-2026-11-07@noboringweekends
+DTSTAMP:20261104T000000Z
+DTSTART:20261107T170000Z
+DTEND:20261107T200000Z
+SUMMARY:波士顿退伍军人节游行
+LOCATION:Boston Common to Government Center\, Charles St & Boylston St\, Bo
+ ston\, MA 02116
+DESCRIPTION:🇺🇸 从波士顿公园走到政府中心!\n免费\,带娃
+ 看游行。\n费用:免费\nhttps://www.boston.gov/
+URL:https://www.boston.gov/
 END:VEVENT
 BEGIN:VEVENT
-UID:globedocs-2026-10-30@noboringweekends
-DTSTAMP:20261026T000000Z
-DTSTART;VALUE=DATE:20261030
-DTEND;VALUE=DATE:20261031
-SUMMARY:GlobeDocs 纪录片电影节
-LOCATION:Various venues\, Boston\, Boston\, MA
-DESCRIPTION:🎬 波士顿环球报纪录片节\,开到 11/1\,部分线上\
- ,片单以官网为准。\n费用:以官网为准\nhttps://www.bostonmagaz
- ine.com/things-to-do/weekend/
-URL:https://www.bostonmagazine.com/things-to-do/weekend/
-END:VEVENT
-BEGIN:VEVENT
-UID:titus-sparrow-2026-10-31@noboringweekends
-DTSTAMP:20261026T000000Z
-DTSTART:20261031T200000Z
-DTEND:20261031T210000Z
-SUMMARY:South End 小朋友万圣节派对
-LOCATION:Titus Sparrow Park\, 200 W Newton St\, Boston\, MA 02116
-DESCRIPTION:🍕 披萨+音乐+小游行\,专门给小小孩的\,免费!\n
- 费用:免费\nhttps://gokidoz.com/pages/blog/halloween-with-kids-boston-2
- 026
-URL:https://gokidoz.com/pages/blog/halloween-with-kids-boston-2026
-END:VEVENT
-BEGIN:VEVENT
-UID:salem-haunted-2026-10-31@noboringweekends
-DTSTAMP:20261026T000000Z
-DTSTART;VALUE=DATE:20261031
-DTEND;VALUE=DATE:20261101
-SUMMARY:塞勒姆万圣节「Haunted Happenings」
-LOCATION:Downtown Salem\, Essex St\, Salem\, MA 01970
-DESCRIPTION:🔮 女巫之城的万圣节当天!\n满街 cosplay、鬼屋
- 、游览…人山人海\,适合大孩子和大人。\n费用:以官网为
- 准\nhttps://bostonmoms.com/life-in-boston/halloween-events-in-and-around-
- boston/
-URL:https://bostonmoms.com/life-in-boston/halloween-events-in-and-around-bo
- ston/
+UID:boston-family-days-2026-11-08@noboringweekends
+DTSTAMP:20261104T000000Z
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+SUMMARY:波士顿家庭日:博物馆免费
+LOCATION:23 Boston cultural institutions\, Various locations\, Boston\, MA
+DESCRIPTION:🎟️ 波士顿学龄孩子 + 家人免费逛 23 家博物馆
+ !\n每月第二个周日\,部分场馆需预约。\n费用:免费\nhttps:/
+ /www.boston.gov/departments/arts-and-culture/boston-family-days
+URL:https://www.boston.gov/departments/arts-and-culture/boston-family-days
 END:VEVENT
 END:VCALENDAR

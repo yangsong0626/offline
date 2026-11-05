@@ -8,77 +8,73 @@ X-WR-TIMEZONE:America/New_York
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:zoo-atl-boo2-2026-10-31@noboringweekends
-DTSTAMP:20261026T000000Z
-DTSTART:20261031T130000Z
-DTEND:20261031T200000Z
-SUMMARY:亚特兰大动物园 Boo at the Zoo
-LOCATION:Zoo Atlanta\, 800 Cherokee Ave SE\, Atlanta\, GA 30315
-DESCRIPTION:🐼 万圣节当天!讨糖路线、嘉年华游戏、角色表
- 演~\n费用:以官网为准\nhttps://mommypoppins.com/atlanta-kids/top-ha
- lloween-events-atlanta-kids
-URL:https://mommypoppins.com/atlanta-kids/top-halloween-events-atlanta-kids
+UID:johns-creek-diwali-2026-11-07@noboringweekends
+DTSTAMP:20261104T000000Z
+DTSTART:20261107T210000Z
+DTEND:20261108T010000Z
+SUMMARY:约翰斯溪排灯节
+LOCATION:The Boardwalk at Town Center\, Town Center\, Johns Creek\, GA 3009
+ 7
+DESCRIPTION:🪔 北郊华人多的约翰斯溪过排灯节!\n美食、市
+ 集和表演\,免费。\n费用:免费\nhttps://johnscreekga.gov/
+URL:https://johnscreekga.gov/
 END:VEVENT
 BEGIN:VEVENT
-UID:pcm-roof-2026-10-31@noboringweekends
-DTSTAMP:20261026T000000Z
-DTSTART:20261031T150000Z
-DTEND:20261031T210000Z
-SUMMARY:Ponce City Market 屋顶讨糖
-LOCATION:Ponce City Market\, 675 Ponce De Leon Ave NE\, Atlanta\, GA 30308
-DESCRIPTION:🎡 屋顶游乐园讨糖+服装游行\,上午 11 点到 5 点
- 。\n费用:以官网为准\nhttps://mommypoppins.com/atlanta-kids/top-hal
- loween-events-atlanta-kids
-URL:https://mommypoppins.com/atlanta-kids/top-halloween-events-atlanta-kids
+UID:diwali-dunwoody-2026-11-07@noboringweekends
+DTSTAMP:20261104T000000Z
+DTSTART:20261107T223000Z
+DTEND:20261108T013000Z
+SUMMARY:邓伍迪自然中心排灯节
+LOCATION:Dunwoody Nature Center\, 5343 Roberts Dr\, Dunwoody\, GA 30338
+DESCRIPTION:🌙 自然中心的排灯节夜晚!\n舞蹈、戏剧讲故事
+ 、彩绘和印度奶茶。\n费用:以官网为准\nhttps://www.mygoldsce
+ ne.com/culture-calendar/metro/atlanta
+URL:https://www.mygoldscene.com/culture-calendar/metro/atlanta
 END:VEVENT
 BEGIN:VEVENT
-UID:woodstock-skele-2026-10-31@noboringweekends
-DTSTAMP:20261026T000000Z
-DTSTART:20261031T200000Z
-DTEND:20261101T000000Z
-SUMMARY:Woodstock 万圣节骷髅派对
-LOCATION:Downtown Woodstock\, Woodstock\, GA 30188
-DESCRIPTION:💀 糖果、嘉年华游戏、充气城堡、迷你高尔夫+
- 餐车~\n费用:以官网为准\nhttps://mommypoppins.com/atlanta-kids/top
- -halloween-events-atlanta-kids
-URL:https://mommypoppins.com/atlanta-kids/top-halloween-events-atlanta-kids
+UID:chai-pani-diwali-2026-11-08@noboringweekends
+DTSTAMP:20261104T000000Z
+DTSTART:20261108T210000Z
+DTEND:20261109T030000Z
+SUMMARY:Chai Pani 迪凯特排灯节
+LOCATION:Chai Pani Decatur\, 406 W Ponce de Leon Ave\, Decatur\, GA 30030
+DESCRIPTION:🎆 排灯节正日的街头派对!\nDJ、摊位、海娜\,天
+ 黑放烟花。\n费用:以官网为准\nhttps://chaipani.com/
+URL:https://chaipani.com/
 END:VEVENT
 BEGIN:VEVENT
-UID:high-street-2026-10-31@noboringweekends
-DTSTAMP:20261026T000000Z
-DTSTART;VALUE=DATE:20261031
-DTEND;VALUE=DATE:20261101
-SUMMARY:High Street 万圣节
-LOCATION:High Street\, High Street\, Dunwoody\, GA 30346
-DESCRIPTION:🍿 脸绘、充气城堡、寻宝、服装比赛\,还有免
- 费爆米花和棉花糖!\n费用:免费\nhttps://mommypoppins.com/atlanta
- -kids/free-halloween-events-in-atlanta-with-kids
-URL:https://mommypoppins.com/atlanta-kids/free-halloween-events-in-atlanta-
- with-kids
+UID:sanatan-mandir-diwali-2026-11-08@noboringweekends
+DTSTAMP:20261104T000000Z
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+SUMMARY:士麦那 Sanatan Mandir 排灯节
+LOCATION:Sanatan Mandir\, 1281 Cooper Lake Rd SE\, Smyrna\, GA 30082
+DESCRIPTION:🛕 11/6-9 神庙排灯节!\n周日晚账本祈福 + 烟花。
+ \n费用:以官网为准\nhttps://www.mygoldscene.com/culture-calendar/met
+ ro/atlanta
+URL:https://www.mygoldscene.com/culture-calendar/metro/atlanta
 END:VEVENT
 BEGIN:VEVENT
-UID:stone-mtn-pumpkin2-2026-10-31@noboringweekends
-DTSTAMP:20261026T000000Z
-DTSTART;VALUE=DATE:20261031
-DTEND;VALUE=DATE:20261101
-SUMMARY:石头山南瓜节(最后周末)
-LOCATION:Stone Mountain Park\, 1000 Robert E Lee Blvd\, Stone Mountain\, GA
-  30083
-DESCRIPTION:🎃 最后一个周末!晚上南瓜激光秀另收费。\n费
- 用:以官网为准\nhttps://mommypoppins.com/atlanta-kids/top-halloween-e
- vents-atlanta-kids
-URL:https://mommypoppins.com/atlanta-kids/top-halloween-events-atlanta-kids
+UID:norcross-night-market-2026-11-06@noboringweekends
+DTSTAMP:20261104T000000Z
+DTSTART;VALUE=DATE:20261106
+DTEND;VALUE=DATE:20261107
+SUMMARY:诺克罗斯国际夜市
+LOCATION:Lillian Webb Park\, 5 College St\, Norcross\, GA 30071
+DESCRIPTION:🌮 11/6-7 国际夜市!\n各国小吃摊和舞台\,Buford Hwy
+  附近。\n费用:以官网为准\nhttps://www.norcrossga.net/
+URL:https://www.norcrossga.net/
 END:VEVENT
 BEGIN:VEVENT
-UID:six-flags-tricks-2026-10-31@noboringweekends
-DTSTAMP:20261026T000000Z
-DTSTART;VALUE=DATE:20261031
-DTEND;VALUE=DATE:20261101
-SUMMARY:六旗乐园 Tricks and Treats
-LOCATION:Six Flags Over Georgia\, 275 Riverside Pkwy\, Austell\, GA 30168
-DESCRIPTION:🎢 白天不吓人的万圣节\,有讨糖小镇\,开到 11/1
- 。\n费用:以官网为准\nhttps://mommypoppins.com/atlanta-kids/top-hal
- loween-events-atlanta-kids
-URL:https://mommypoppins.com/atlanta-kids/top-halloween-events-atlanta-kids
+UID:chomp-and-stomp-2026-11-07@noboringweekends
+DTSTAMP:20261104T000000Z
+DTSTART:20261107T160000Z
+DTEND:20261108T000000Z
+SUMMARY:Cabbagetown 辣椒节 Chomp & Stomp
+LOCATION:Cabbagetown Park\, Cabbagetown Park\, Atlanta\, GA 30316
+DESCRIPTION:🌶️ 辣椒大赛 + 蓝草音乐 + 艺术市集!\n免费入
+ 场\,试吃辣椒需另买。\n费用:免费\nhttps://www.chompandstomp.co
+ m/
+URL:https://www.chompandstomp.com/
 END:VEVENT
 END:VCALENDAR

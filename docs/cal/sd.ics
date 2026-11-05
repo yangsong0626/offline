@@ -8,89 +8,77 @@ X-WR-TIMEZONE:America/Los_Angeles
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:halgloween2-2026-10-30@noboringweekends
-DTSTAMP:20261026T000000Z
-DTSTART;VALUE=DATE:20261030
-DTEND;VALUE=DATE:20261031
-SUMMARY:圣地亚哥动物园 HalGLOWeen(最后周末)
-LOCATION:San Diego Zoo\, 2920 Zoo Dr\, San Diego\, CA 92101
-DESCRIPTION:✨ 夜间发光万圣节最后一个周末\,11 岁以下免费
- !\n费用:11岁以下免费\nhttps://www.sandiegofamily.com/things-to-do/s
- easonal-happenings/halloween-and-fall-activities-san-diego
-URL:https://www.sandiegofamily.com/things-to-do/seasonal-happenings/hallowe
- en-and-fall-activities-san-diego
+UID:shri-mandir-diwali-mela-2026-11-07@noboringweekends
+DTSTAMP:20261104T000000Z
+DTSTART:20261107T233000Z
+DTEND:20261108T013000Z
+SUMMARY:米拉梅萨 Shri Mandir 排灯节集市
+LOCATION:Shri Mandir\, 9474 Black Mountain Rd\, Suite L\, San Diego\, CA 92
+ 126
+DESCRIPTION:🪔 华人多的米拉梅萨就有排灯节!\n下午开始\,
+ 周日还有吉祥天女祈福。\n费用:以官网为准\nhttps://www.myg
+ oldscene.com/culture-calendar/metro/san-diego
+URL:https://www.mygoldscene.com/culture-calendar/metro/san-diego
 END:VEVENT
 BEGIN:VEVENT
-UID:carlsbad-village-2026-10-31@noboringweekends
-DTSTAMP:20261026T000000Z
-DTSTART:20261031T210000Z
-DTEND:20261101T010000Z
-SUMMARY:Carlsbad 小镇万圣节
-LOCATION:Carlsbad Village\, State St\, Carlsbad\, CA 92008
-DESCRIPTION:🎃 Carlsbad 小镇万圣节下午场\,细节以官网为准
- 。\n费用:以官网为准\nhttps://lajollamom.com/san-diego-kids-hallowe
- en/
-URL:https://lajollamom.com/san-diego-kids-halloween/
+UID:sdaff-2026-2026-11-07@noboringweekends
+DTSTAMP:20261104T000000Z
+DTSTART;VALUE=DATE:20261107
+DTEND;VALUE=DATE:20261108
+SUMMARY:第 27 届圣地亚哥亚洲电影节
+LOCATION:UltraStar Cinemas Mission Valley\, 7510 Hazard Center Dr\, San Die
+ go\, CA 92108
+DESCRIPTION:🎬 11/5-14 亚洲电影节!\n华语、日韩、东南亚新
+ 片\,周末场次多。\n费用:需购票\nhttps://sdaff.org/
+URL:https://sdaff.org/
 END:VEVENT
 BEGIN:VEVENT
-UID:coronado-tot-2026-10-31@noboringweekends
-DTSTAMP:20261026T000000Z
-DTSTART:20261031T220000Z
-DTEND:20261101T010000Z
-SUMMARY:科罗纳多 Orange Ave 商家讨糖
-LOCATION:Orange Avenue\, Orange Ave\, Coronado\, CA 92118
-DESCRIPTION:⛴️ 下午坐渡轮去科罗纳多\,沿街商家发糖(2-12 
- 岁)\,再看看老房子的万圣节装饰~免费!\n费用:免费\nhttps:/
- /lajollamom.com/san-diego-kids-halloween/
-URL:https://lajollamom.com/san-diego-kids-halloween/
+UID:iskcon-sd-govardhan-2026-11-08@noboringweekends
+DTSTAMP:20261104T000000Z
+DTSTART:20261109T013000Z
+DTEND:20261109T043000Z
+SUMMARY:ISKCON 圣地亚哥供品山节
+LOCATION:ISKCON San Diego\, 1030 Grand Ave\, San Diego\, CA 92109
+DESCRIPTION:🍛 堆成小山的供品 Annakut!\n讲座 + 可带走的素
+ 食。\n费用:以官网为准\nhttps://www.mygoldscene.com/culture-calend
+ ar/metro/san-diego
+URL:https://www.mygoldscene.com/culture-calendar/metro/san-diego
 END:VEVENT
 BEGIN:VEVENT
-UID:la-jolla-tot-2026-10-31@noboringweekends
-DTSTAMP:20261026T000000Z
-DTSTART:20261031T220000Z
-DTEND:20261101T010000Z
-SUMMARY:拉霍亚 Girard Ave 商家讨糖
-LOCATION:Girard Avenue\, Girard Ave & Prospect St\, La Jolla\, CA 92037
-DESCRIPTION:🍬 拉霍亚小镇商家讨糖\,2-10 岁\,下午 3-6 点\,免
- 费。\n费用:免费\nhttps://lajollamom.com/san-diego-kids-halloween/
-URL:https://lajollamom.com/san-diego-kids-halloween/
+UID:city-heights-fall-carnival-2026-11-07@noboringweekends
+DTSTAMP:20261104T000000Z
+DTSTART:20261107T220000Z
+DTEND:20261108T070000Z
+SUMMARY:城市高地秋日游乐会
+LOCATION:City Heights Recreation Center & Park\, 4380 Landis St\, San Diego
+ \, CA 92105
+DESCRIPTION:🎡 游乐设施、游戏、嘉年华小吃!\n11/5-8\,12 岁
+ 以下免费入场。\n费用:成人 $2\,12 岁以下免费\;无限乘坐
+ 手环 $45\nhttps://www.sandiego.gov/events
+URL:https://www.sandiego.gov/events
 END:VEVENT
 BEGIN:VEVENT
-UID:old-town-ddlm-2026-10-31@noboringweekends
-DTSTAMP:20261026T000000Z
-DTSTART;VALUE=DATE:20261031
-DTEND;VALUE=DATE:20261101
-SUMMARY:Old Town 亡灵节
-LOCATION:Old Town San Diego\, San Diego Ave & Harney St\, San Diego\, CA 92
- 110
-DESCRIPTION:🌼 圣地亚哥最大的亡灵节!40+ 祭坛、糖骷髅彩
- 绘、亲子手工、烛光游行🕯️\n周六周日有街头市集\,11/
- 1 有 Catrina 装扮比赛\,免费。\n费用:免费\nhttps://www.oldtowns
- andiego.org/ddlm/
-URL:https://www.oldtownsandiego.org/ddlm/
+UID:fleet-week-sd-2026-11-07@noboringweekends
+DTSTAMP:20261104T000000Z
+DTSTART;VALUE=DATE:20261107
+DTEND;VALUE=DATE:20261108
+SUMMARY:圣地亚哥舰队周
+LOCATION:Various locations\, San Diego Bay\, San Diego\, CA
+DESCRIPTION:⚓ 11/6-15 舰队周!\n军舰参观、高科技展区、音乐
+ 和美食\,男孩最爱。\n费用:以官网为准\nhttps://fleetweeksandi
+ ego.org/
+URL:https://fleetweeksandiego.org/
 END:VEVENT
 BEGIN:VEVENT
-UID:legoland-sd-2026-10-31@noboringweekends
-DTSTAMP:20261026T000000Z
-DTSTART;VALUE=DATE:20261031
-DTEND;VALUE=DATE:20261101
-SUMMARY:乐高乐园 Brick-or-Treat
-LOCATION:LEGOLAND California\, 1 Legoland Dr\, Carlsbad\, CA 92008
-DESCRIPTION:🧱 乐高乐园万圣节\,开到 11/1\,需购票。\n费用:
- 以官网为准\nhttps://enjoyorangecounty.com/halloween-events/
-URL:https://enjoyorangecounty.com/halloween-events/
-END:VEVENT
-BEGIN:VEVENT
-UID:belmont-fall2-2026-10-31@noboringweekends
-DTSTAMP:20261026T000000Z
-DTSTART;VALUE=DATE:20261031
-DTEND;VALUE=DATE:20261101
-SUMMARY:Belmont Park 海滩讨糖
-LOCATION:Belmont Park\, 3146 Mission Blvd\, San Diego\, CA 92109
-DESCRIPTION:🎢 10 月最后一个周末免费讨糖+音乐~\n费用:免
- 费\nhttps://www.sandiegofamily.com/things-to-do/seasonal-happenings/hallo
- ween-and-fall-activities-san-diego
-URL:https://www.sandiegofamily.com/things-to-do/seasonal-happenings/hallowe
- en-and-fall-activities-san-diego
+UID:mcasd-free-sunday-2026-11-08@noboringweekends
+DTSTAMP:20261104T000000Z
+DTSTART:20261108T190000Z
+DTEND:20261109T010000Z
+SUMMARY:MCASD 当代艺术馆免费周日
+LOCATION:Museum of Contemporary Art San Diego\, 700 Prospect St\, La Jolla\
+ , CA 92037
+DESCRIPTION:🖼️ 每月第二个周日免费!\n拉霍亚海边看当代
+ 艺术。\n费用:免费\nhttps://www.mcasd.org/
+URL:https://www.mcasd.org/
 END:VEVENT
 END:VCALENDAR

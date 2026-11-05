@@ -8,79 +8,86 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:main-st-movie-2026-10-30@noboringweekends
-DTSTAMP:20261026T000000Z
-DTSTART;VALUE=DATE:20261030
-DTEND;VALUE=DATE:20261031
-SUMMARY:Main Street Garden 露天电影《小丑回魂》
-LOCATION:Main Street Garden\, 1902 Main St\, Dallas\, TX 75201
-DESCRIPTION:🎈 周五露天放《小丑回魂》\,适合大人\,时间以
- 官网为准。\n费用:免费\nhttps://www.visitdallas.com/blog/halloween
- -in-dallas/
-URL:https://www.visitdallas.com/blog/halloween-in-dallas/
+UID:fwbg-japanese-fall-festival-2026-11-07@noboringweekends
+DTSTAMP:20261104T000000Z
+DTSTART:20261107T150000Z
+DTEND:20261107T230000Z
+SUMMARY:沃斯堡日本花园秋祭
+LOCATION:Fort Worth Botanic Garden\, 3220 Botanic Garden Blvd\, Fort Worth\
+ , TX 76107
+DESCRIPTION:🍁 日本花园红枫季!\n周六日日本文化祭\,一年
+ 里最好看的时候。\n费用:以官网为准\nhttps://fwbg.org/
+URL:https://fwbg.org/
 END:VEVENT
 BEGIN:VEVENT
-UID:stage-fright-2026-10-31@noboringweekends
-DTSTAMP:20261026T000000Z
-DTSTART:20261031T150000Z
-DTEND:20261031T180000Z
-SUMMARY:艺术区 Stage Fright 万圣节家庭节
-LOCATION:Sammons Park\, AT&T Performing Arts Center\, 2403 Flora St\, Dalla
- s\, TX 75201
-DESCRIPTION:🎭 达拉斯动物园小动物+DJ 舞会+服装比赛+萌宠
- 园!\n免费\,需 RSVP。\n费用:免费\nhttps://attpac.org/event/hallowe
- en-2026
-URL:https://attpac.org/event/halloween-2026
+UID:up-library-diwali-2026-11-07@noboringweekends
+DTSTAMP:20261104T000000Z
+DTSTART:20261107T163000Z
+DTEND:20261107T173000Z
+SUMMARY:大学园图书馆排灯节故事会
+LOCATION:University Park Public Library\, 8383 Preston Center Plaza\, Suite
+  200\, Dallas\, TX 75225
+DESCRIPTION:📖 绘本作者讲排灯节故事 + 手工!\n免费\,全年
+ 龄。\n费用:免费\nhttps://www.uplibrary.org/
+URL:https://www.uplibrary.org/
 END:VEVENT
 BEGIN:VEVENT
-UID:ick-or-treat-2026-10-31@noboringweekends
-DTSTAMP:20261026T000000Z
-DTSTART:20261031T150000Z
-DTEND:20261031T190000Z
-SUMMARY:沃斯堡科学历史博物馆 Ick or Treat
-LOCATION:Fort Worth Museum of Science and History\, 1600 Gendy St\, Fort Wo
- rth\, TX 76107
-DESCRIPTION:🔬 在科学博物馆里讨糖!注意面具不能遮住眼睛
- 哦~\n费用:以官网为准\nhttps://www.fortworth.com/blog/stories/post/
- halloween-in-fort-worth-2026-events-things-to-do/
-URL:https://www.fortworth.com/blog/stories/post/halloween-in-fort-worth-202
- 6-events-things-to-do/
+UID:panda-fest-dallas-2026-11-07@noboringweekends
+DTSTAMP:20261104T000000Z
+DTSTART;VALUE=DATE:20261107
+DTEND;VALUE=DATE:20261108
+SUMMARY:Panda Fest 亚洲美食节
+LOCATION:Carpenter Park\, 2201 Pacific Ave\, Dallas\, TX 75201
+DESCRIPTION:🐼 11/6-8 亚洲夜市美食节!\n市中心公园三天\,各
+ 种亚洲街头小吃。\n费用:以官网为准\nhttps://www.mygoldscene.
+ com/culture-calendar/metro/dallas-fort-worth
+URL:https://www.mygoldscene.com/culture-calendar/metro/dallas-fort-worth
 END:VEVENT
 BEGIN:VEVENT
-UID:hallowine-2026-10-31@noboringweekends
-DTSTAMP:20261026T000000Z
-DTSTART:20261031T160000Z
-DTEND:20261031T230000Z
-SUMMARY:Grapevine 万圣节葡萄酒步道
-LOCATION:Historic Main Street\, Main St\, Grapevine\, TX 76051
-DESCRIPTION:🍷 老街六家酒庄品酒步道\,21+。\n费用:以官网
- 为准\nhttps://diningout.com/dallas/31-halloween-events-in-dallas-fort-wo
- rth-to-get-you-in-the-spooky-spirit/
-URL:https://diningout.com/dallas/31-halloween-events-in-dallas-fort-worth-t
- o-get-you-in-the-spooky-spirit/
+UID:carrollton-switchyard-2026-11-07@noboringweekends
+DTSTAMP:20261104T000000Z
+DTSTART:20261107T170000Z
+DTEND:20261108T040000Z
+SUMMARY:卡罗尔顿 Switchyard 音乐节
+LOCATION:Historic Downtown Carrollton\, Downtown Carrollton Square\, Carrol
+ lton\, TX 75006
+DESCRIPTION:🎶 90 后怀旧音乐节!\n全天免费演唱会 + 免费儿
+ 童区\,韩国城就在附近。\n费用:免费\nhttps://www.cityofcarroll
+ ton.com/
+URL:https://www.cityofcarrollton.com/
 END:VEVENT
 BEGIN:VEVENT
-UID:stockyards-treat-2026-10-31@noboringweekends
-DTSTAMP:20261026T000000Z
-DTSTART:20261031T170000Z
-DTEND:20261031T210000Z
-SUMMARY:沃斯堡牛仔街 Treat Street
-LOCATION:Fort Worth Stockyards\, 131 E Exchange Ave\, Fort Worth\, TX 76164
-DESCRIPTION:🤠 12 岁以下穿服装在牛仔街商家讨糖\,还有脸
- 绘和万圣节表演!\n费用:免费\nhttps://www.fortworth.com/blog/stor
- ies/post/halloween-in-fort-worth-2026-events-things-to-do/
-URL:https://www.fortworth.com/blog/stories/post/halloween-in-fort-worth-202
- 6-events-things-to-do/
+UID:nasher-free-saturday-2026-11-07@noboringweekends
+DTSTAMP:20261104T000000Z
+DTSTART:20261107T170000Z
+DTEND:20261107T230000Z
+SUMMARY:纳舍雕塑中心免费周六
+LOCATION:Nasher Sculpture Center\, 2001 Flora St\, Dallas\, TX 75201
+DESCRIPTION:🗿 每月第一个周六免费!\n雕塑花园 + 亲子活动
+ 。\n费用:免费\nhttps://www.nashersculpturecenter.org/
+URL:https://www.nashersculpturecenter.org/
 END:VEVENT
 BEGIN:VEVENT
-UID:downtown-tot-2026-10-31@noboringweekends
-DTSTAMP:20261026T000000Z
-DTSTART:20261031T210000Z
-DTEND:20261101T000000Z
-SUMMARY:达拉斯市中心讨糖
-LOCATION:Main Street Garden\, 1902 Main St\, Dallas\, TX 75201
-DESCRIPTION:🍬 糖果+现场表演+儿童活动\,宠物也欢迎\,免费!
- \n费用:免费\nhttps://www.visitdallas.com/blog/halloween-in-dallas/
-URL:https://www.visitdallas.com/blog/halloween-in-dallas/
+UID:attpac-brass-jazz-2026-11-07@noboringweekends
+DTSTAMP:20261104T000000Z
+DTSTART:20261107T190000Z
+DTEND:20261107T220000Z
+SUMMARY:公园里的爵士铜管音乐会
+LOCATION:Mattie Nash-Myrtle Davis Park\, N Hampton Rd\, Dallas\, TX 75212
+DESCRIPTION:🎺 新奥尔良风情!\n爵士、铜管乐队、Second Line 
+ 游行和亲子艺术\,免费。\n费用:免费\nhttps://www.attpac.org/
+URL:https://www.attpac.org/
+END:VEVENT
+BEGIN:VEVENT
+UID:greek-food-festival-dallas-2026-11-07@noboringweekends
+DTSTAMP:20261104T000000Z
+DTSTART;VALUE=DATE:20261107
+DTEND;VALUE=DATE:20261108
+SUMMARY:达拉斯希腊美食节
+LOCATION:Holy Trinity Greek Orthodox Church\, 13555 Hillcrest Rd\, Dallas\,
+  TX 75240
+DESCRIPTION:🥙 第 71 届希腊美食节!\n11/6-8 三天\,周五 11 点
+ 到 10 点。\n费用:以官网为准\nhttps://greekfestivalofdallas.com/
+URL:https://greekfestivalofdallas.com/
 END:VEVENT
 END:VCALENDAR

@@ -8,117 +8,65 @@ X-WR-TIMEZONE:America/Los_Angeles
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:haunted-little-tokyo-2026-10-31@noboringweekends
-DTSTAMP:20261026T000000Z
-DTSTART:20261031T230000Z
-DTEND:20261101T070000Z
-SUMMARY:小东京万圣节街区派对(21+)
-LOCATION:Little Tokyo (location revealed on RSVP)\, Little Tokyo\, Los Ange
- les\, CA 90012
-DESCRIPTION:🏮 第十届小东京万圣节派对!\n服装比赛、美食
- 摊、现场音乐\,21+。地点 RSVP 后才公布\,10/30 晚截止报名
- ⏰\n费用:免费\,需 RSVP\nhttps://thesource.metro.net/go-metro-to-the-
- best-halloween-events-in-los-angeles-this-october-november/
-URL:https://thesource.metro.net/go-metro-to-the-best-halloween-events-in-lo
- s-angeles-this-october-november/
+UID:la-diwali-fest-2026-11-07@noboringweekends
+DTSTAMP:20261104T000000Z
+DTSTART:20261108T020000Z
+DTEND:20261108T070000Z
+SUMMARY:洛杉矶 Diwali Fest
+LOCATION:Academy LA\, 6021 Hollywood Blvd\, Los Angeles\, CA 90028
+DESCRIPTION:🪔 好莱坞排灯节夜市!\n印度小吃、音乐和购物\
+ ,户外露台\,全年龄。\n费用:约 $12-18\nhttps://www.mygoldscene.co
+ m/culture-calendar/metro/los-angeles
+URL:https://www.mygoldscene.com/culture-calendar/metro/los-angeles
 END:VEVENT
 BEGIN:VEVENT
-UID:godzilla-little-tokyo-2026-10-31@noboringweekends
-DTSTAMP:20261026T000000Z
-DTSTART;VALUE=DATE:20261031
-DTEND;VALUE=DATE:20261101
-SUMMARY:哥斯拉入侵小东京快闪店
-LOCATION:Little Tokyo\, Little Tokyo\, Los Angeles\, CA 90012
-DESCRIPTION:🦖 哥斯拉快闪店 10/31 开张\,开到 11/15(周二休息
- )!\n怪兽迷冲\,细节以官网为准。\n费用:以官网为准\nhttps:
- //www.ttdila.com/2026/10/godzilla-invades-little-tokyo-oct-31st.html
-URL:https://www.ttdila.com/2026/10/godzilla-invades-little-tokyo-oct-31st.h
- tml
+UID:baps-chino-hills-diwali-2026-11-08@noboringweekends
+DTSTAMP:20261104T000000Z
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+SUMMARY:奇诺岗 BAPS 神庙排灯节
+LOCATION:BAPS Shri Swaminarayan Mandir\, 15100 Fairfield Ranch Rd\, Chino H
+ ills\, CA 91709
+DESCRIPTION:🛕 11/7-9 神庙排灯节!\n周日上午账本祈福\,周一 
+ Annakut 供品山\,白色大理石神庙很好拍。\n费用:以官网为
+ 准\nhttps://www.mygoldscene.com/culture-calendar/metro/los-angeles
+URL:https://www.mygoldscene.com/culture-calendar/metro/los-angeles
 END:VEVENT
 BEGIN:VEVENT
-UID:la-comic-con-2026-10-30@noboringweekends
-DTSTAMP:20261026T000000Z
-DTSTART;VALUE=DATE:20261030
-DTEND;VALUE=DATE:20261031
-SUMMARY:洛杉矶动漫展 L.A. Comic Con(15 周年)
-LOCATION:Los Angeles Convention Center\, 1201 S Figueroa St\, Los Angeles\,
-  CA 90015
-DESCRIPTION:🦸 15 周年动漫展\,10/30-11/1 三天!cosplay 爱好者冲
- \,票务以官网为准。\n费用:以官网为准\nhttps://onestowatch.co
- m/live/los-angeles-halloween-weekend-events/
-URL:https://onestowatch.com/live/los-angeles-halloween-weekend-events/
+UID:shg-dia-de-muertos-2026-11-07@noboringweekends
+DTSTAMP:20261104T000000Z
+DTSTART:20261107T230000Z
+DTEND:20261108T040000Z
+SUMMARY:Self Help Graphics 亡灵节
+LOCATION:Self Help Graphics & Art\, 1300 E 1st St\, Los Angeles\, CA 90033
+DESCRIPTION:💀 全美最老牌的亡灵节之一!\n1:45 从 Mariachi Plaz
+ a 游行出发\,街区派对免费。\n费用:免费\nhttps://www.selfhelp
+ graphics.com/
+URL:https://www.selfhelpgraphics.com/
 END:VEVENT
 BEGIN:VEVENT
-UID:la-zoo-boo2-2026-10-31@noboringweekends
-DTSTAMP:20261026T000000Z
-DTSTART:20261031T170000Z
-DTEND:20261031T190000Z
-SUMMARY:洛杉矶动物园 Boo at the Zoo(最后周末)
-LOCATION:Los Angeles Zoo\, 5333 Zoo Dr\, Los Angeles\, CA 90027
-DESCRIPTION:🦓 讨糖站、画南瓜、木偶剧\,最后一个周末!含
- 在门票里。\n费用:含在门票内\nhttps://www.lazoo.org/
-URL:https://www.lazoo.org/
+UID:kidspace-winter-2026-11-07@noboringweekends
+DTSTAMP:20261104T000000Z
+DTSTART;VALUE=DATE:20261107
+DTEND;VALUE=DATE:20261108
+SUMMARY:Kidspace 冬日乐园开幕
+LOCATION:Kidspace Children's Museum\, 480 N Arroyo Blvd\, Pasadena\, CA 911
+ 03
+DESCRIPTION:⛄ 11/6 起儿童博物馆变冬天!\n帕萨迪纳的 Kidspace
+  冬季主题\,适合小小孩。\n费用:含门票\nhttps://kidspacemuseu
+ m.org/
+URL:https://kidspacemuseum.org/
 END:VEVENT
 BEGIN:VEVENT
-UID:grand-park-ddlm-2026-10-31@noboringweekends
-DTSTAMP:20261026T000000Z
-DTSTART;VALUE=DATE:20261031
-DTEND;VALUE=DATE:20261101
-SUMMARY:Grand Park 亡灵节祭坛展
-LOCATION:Gloria Molina Grand Park\, 200 N Grand Ave\, Los Angeles\, CA 9001
- 2
-DESCRIPTION:🌼 市中心公园的大型亡灵节祭坛展\,免费\,展到
-  11/2!\n晚上灯亮起来更好看📸\n费用:免费\nhttps://www.funwit
- hkidsinla.com/post/dia-de-los-muertos-los-angeles
-URL:https://www.funwithkidsinla.com/post/dia-de-los-muertos-los-angeles
-END:VEVENT
-BEGIN:VEVENT
-UID:olvera-ddlm2-2026-10-31@noboringweekends
-DTSTAMP:20261026T000000Z
-DTSTART;VALUE=DATE:20261031
-DTEND;VALUE=DATE:20261101
-SUMMARY:Olvera Street 亡灵节
-LOCATION:Olvera Street\, 845 N Alameda St\, Los Angeles\, CA 90012
-DESCRIPTION:🕯️ 洛杉矶老街亡灵节进行中(到 11/2)\,紧挨华
- 埠~免费。\n费用:免费\nhttps://www.discoverlosangeles.com/
-URL:https://www.discoverlosangeles.com/
-END:VEVENT
-BEGIN:VEVENT
-UID:weho-carnaval-2026-10-31@noboringweekends
-DTSTAMP:20261026T000000Z
-DTSTART;VALUE=DATE:20261031
-DTEND;VALUE=DATE:20261101
-SUMMARY:西好莱坞万圣节嘉年华
-LOCATION:Santa Monica Boulevard\, Santa Monica Blvd\, West Hollywood\, CA 9
- 0069
-DESCRIPTION:💃 洛杉矶最大的万圣节街头派对!\n几十万人穿
- 奇装异服上街\,免费\,人超多~\n费用:免费\nhttps://onestowatch
- .com/live/los-angeles-halloween-weekend-events/
-URL:https://onestowatch.com/live/los-angeles-halloween-weekend-events/
-END:VEVENT
-BEGIN:VEVENT
-UID:phoebe-intuit-2026-10-31@noboringweekends
-DTSTAMP:20261026T000000Z
-DTSTART;VALUE=DATE:20261031
-DTEND;VALUE=DATE:20261101
-SUMMARY:Phoebe Bridgers 万圣夜演唱会
-LOCATION:Intuit Dome\, 3930 W Century Blvd\, Inglewood\, CA 90303
-DESCRIPTION:🎸 Phoebe Bridgers 万圣节当晚演出!票务以官网为
- 准。\n费用:以官网为准\nhttps://onestowatch.com/live/los-angeles-h
- alloween-weekend-events/
-URL:https://onestowatch.com/live/los-angeles-halloween-weekend-events/
-END:VEVENT
-BEGIN:VEVENT
-UID:fowler-ddlm-2026-11-01@noboringweekends
-DTSTAMP:20261026T000000Z
-DTSTART:20261101T210000Z
-DTEND:20261102T003000Z
-SUMMARY:UCLA Fowler 博物馆亡灵节
-LOCATION:Fowler Museum at UCLA\, 308 Charles E Young Dr N\, Los Angeles\, C
- A 90095
-DESCRIPTION:🎨 做迷你祭坛、手工、现场音乐!\n免费但需预
- 约\,周日下午。\n费用:免费\nhttps://www.funwithkidsinla.com/post/
- dia-de-los-muertos-los-angeles
-URL:https://www.funwithkidsinla.com/post/dia-de-los-muertos-los-angeles
+UID:ucla-eyu-2026-11-08@noboringweekends
+DTSTAMP:20261104T000000Z
+DTSTART:20261108T200000Z
+DTEND:20261109T010000Z
+SUMMARY:UCLA 探索宇宙科学节
+LOCATION:UCLA Court of Sciences\, UCLA\, Los Angeles\, CA 90095
+DESCRIPTION:🔭 免费科学节!\n动手实验、天文馆、稀有化石\
+ ,从火箭到真菌\,UCLA 学生带着玩。\n费用:免费\nhttps://eyu.u
+ cla.edu/
+URL:https://eyu.ucla.edu/
 END:VEVENT
 END:VCALENDAR
