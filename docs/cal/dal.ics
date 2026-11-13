@@ -8,86 +8,90 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:fwbg-japanese-fall-festival-2026-11-07@noboringweekends
-DTSTAMP:20261104T000000Z
-DTSTART:20261107T150000Z
-DTEND:20261107T230000Z
-SUMMARY:沃斯堡日本花园秋祭
-LOCATION:Fort Worth Botanic Garden\, 3220 Botanic Garden Blvd\, Fort Worth\
- , TX 76107
-DESCRIPTION:🍁 日本花园红枫季!\n周六日日本文化祭\,一年
- 里最好看的时候。\n费用:以官网为准\nhttps://fwbg.org/
-URL:https://fwbg.org/
+UID:kpop-demon-hunters-2026-11-14@noboringweekends
+DTSTAMP:20261113T000000Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:《KPop 猎魔女团》沉浸式体验
+LOCATION:Netflix House Dallas\, Galleria Dallas\, 13350 Dallas Pkwy\, Dalla
+ s\, TX 75240
+DESCRIPTION:🎤 娃最近天天唱的《KPop Demon Hunters》!沉浸式体
+ 验\,需购票。\n费用:以官网为准\nhttps://dfwchild.com/things-to-
+ do-this-weekend/
+URL:https://dfwchild.com/things-to-do-this-weekend/
 END:VEVENT
 BEGIN:VEVENT
-UID:up-library-diwali-2026-11-07@noboringweekends
-DTSTAMP:20261104T000000Z
-DTSTART:20261107T163000Z
-DTEND:20261107T173000Z
-SUMMARY:大学园图书馆排灯节故事会
-LOCATION:University Park Public Library\, 8383 Preston Center Plaza\, Suite
-  200\, Dallas\, TX 75225
-DESCRIPTION:📖 绘本作者讲排灯节故事 + 手工!\n免费\,全年
- 龄。\n费用:免费\nhttps://www.uplibrary.org/
-URL:https://www.uplibrary.org/
+UID:american-heroes-fest-2026-11-14@noboringweekends
+DTSTAMP:20261113T000000Z
+DTSTART:20261114T180000Z
+DTEND:20261115T030000Z
+SUMMARY:The Colony 美国英雄节
+LOCATION:The Colony\, The Colony\, TX
+DESCRIPTION:🎸 免费音乐节:Fastball、Smash Mouth 现场+老爷车+
+ 餐车!\n费用:免费\nhttps://www.aqilfitnesstrainingsolutions.com/post/
+ 3-free-things-to-do-in-dfw-this-weekend-november-13-15-2026
+URL:https://www.aqilfitnesstrainingsolutions.com/post/3-free-things-to-do-i
+ n-dfw-this-weekend-november-13-15-2026
 END:VEVENT
 BEGIN:VEVENT
-UID:panda-fest-dallas-2026-11-07@noboringweekends
-DTSTAMP:20261104T000000Z
-DTSTART;VALUE=DATE:20261107
-DTEND;VALUE=DATE:20261108
-SUMMARY:Panda Fest 亚洲美食节
-LOCATION:Carpenter Park\, 2201 Pacific Ave\, Dallas\, TX 75201
-DESCRIPTION:🐼 11/6-8 亚洲夜市美食节!\n市中心公园三天\,各
- 种亚洲街头小吃。\n费用:以官网为准\nhttps://www.mygoldscene.
- com/culture-calendar/metro/dallas-fort-worth
-URL:https://www.mygoldscene.com/culture-calendar/metro/dallas-fort-worth
+UID:toy-story-lawn-2026-11-14@noboringweekends
+DTSTAMP:20261113T000000Z
+DTSTART:20261115T010000Z
+DTEND:20261115T030000Z
+SUMMARY:Little Elm 草坪电影《玩具总动员 5》
+LOCATION:The Lakefront\, Little Elm\, TX
+DESCRIPTION:🤠 免费露天看《玩具总动员 5》\,晚 7 点~\n费用
+ :免费\nhttps://dfwchild.com/things-to-do-this-weekend/
+URL:https://dfwchild.com/things-to-do-this-weekend/
 END:VEVENT
 BEGIN:VEVENT
-UID:carrollton-switchyard-2026-11-07@noboringweekends
-DTSTAMP:20261104T000000Z
-DTSTART:20261107T170000Z
-DTEND:20261108T040000Z
-SUMMARY:卡罗尔顿 Switchyard 音乐节
-LOCATION:Historic Downtown Carrollton\, Downtown Carrollton Square\, Carrol
- lton\, TX 75006
-DESCRIPTION:🎶 90 后怀旧音乐节!\n全天免费演唱会 + 免费儿
- 童区\,韩国城就在附近。\n费用:免费\nhttps://www.cityofcarroll
- ton.com/
-URL:https://www.cityofcarrollton.com/
+UID:plano-archaeology-2026-11-14@noboringweekends
+DTSTAMP:20261113T000000Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:Plano 考古节
+LOCATION:Haggard Park\, 901 E 15th St\, Plano\, TX 75074
+DESCRIPTION:⛏️ 模拟考古挖掘+手工+文化展示\,免费!\n费用:
+ 免费\nhttps://dfwchild.com/things-to-do-this-weekend/
+URL:https://dfwchild.com/things-to-do-this-weekend/
 END:VEVENT
 BEGIN:VEVENT
-UID:nasher-free-saturday-2026-11-07@noboringweekends
-DTSTAMP:20261104T000000Z
-DTSTART:20261107T170000Z
-DTEND:20261107T230000Z
-SUMMARY:纳舍雕塑中心免费周六
-LOCATION:Nasher Sculpture Center\, 2001 Flora St\, Dallas\, TX 75201
-DESCRIPTION:🗿 每月第一个周六免费!\n雕塑花园 + 亲子活动
- 。\n费用:免费\nhttps://www.nashersculpturecenter.org/
-URL:https://www.nashersculpturecenter.org/
+UID:galleria-santaland-2026-11-14@noboringweekends
+DTSTAMP:20261113T000000Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:Galleria Dallas 圣诞乐园+溜冰
+LOCATION:Galleria Dallas\, 13350 Dallas Pkwy\, Dallas\, TX 75240
+DESCRIPTION:🎅 商场里的圣诞老人和雪景\,还能溜冰~\n费用:
+ 以官网为准\nhttps://dallas.culturemap.com/news/entertainment/weekend-
+ events-11-12-26/
+URL:https://dallas.culturemap.com/news/entertainment/weekend-events-11-12-2
+ 6/
 END:VEVENT
 BEGIN:VEVENT
-UID:attpac-brass-jazz-2026-11-07@noboringweekends
-DTSTAMP:20261104T000000Z
-DTSTART:20261107T190000Z
-DTEND:20261107T220000Z
-SUMMARY:公园里的爵士铜管音乐会
-LOCATION:Mattie Nash-Myrtle Davis Park\, N Hampton Rd\, Dallas\, TX 75212
-DESCRIPTION:🎺 新奥尔良风情!\n爵士、铜管乐队、Second Line 
- 游行和亲子艺术\,免费。\n费用:免费\nhttps://www.attpac.org/
-URL:https://www.attpac.org/
+UID:ice-gaylord-2026-11-14@noboringweekends
+DTSTAMP:20261113T000000Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:Gaylord Texan 冰雕展:哈利·波特
+LOCATION:Gaylord Texan Resort\, 1501 Gaylord Trail\, Grapevine\, TX 76051
+DESCRIPTION:❄️ 零下九度的哈利·波特冰雕世界\,记得带厚
+ 外套!\n费用:以官网为准\nhttps://fortworth.culturemap.com/news/ent
+ ertainment/weekend-events-11-12-26/
+URL:https://fortworth.culturemap.com/news/entertainment/weekend-events-11-1
+ 2-26/
 END:VEVENT
 BEGIN:VEVENT
-UID:greek-food-festival-dallas-2026-11-07@noboringweekends
-DTSTAMP:20261104T000000Z
-DTSTART;VALUE=DATE:20261107
-DTEND;VALUE=DATE:20261108
-SUMMARY:达拉斯希腊美食节
-LOCATION:Holy Trinity Greek Orthodox Church\, 13555 Hillcrest Rd\, Dallas\,
-  TX 75240
-DESCRIPTION:🥙 第 71 届希腊美食节!\n11/6-8 三天\,周五 11 点
- 到 10 点。\n费用:以官网为准\nhttps://greekfestivalofdallas.com/
-URL:https://greekfestivalofdallas.com/
+UID:daughtry-2026-11-14@noboringweekends
+DTSTAMP:20261113T000000Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:Daughtry 演唱会
+LOCATION:Majestic Theatre\, 1925 Elm St\, Dallas\, TX 75201
+DESCRIPTION:🎸 Daughtry 达拉斯站\,票务以官网为准。\n费用:
+ 以官网为准\nhttps://dallas.culturemap.com/news/entertainment/weekend-
+ events-11-12-26/
+URL:https://dallas.culturemap.com/news/entertainment/weekend-events-11-12-2
+ 6/
 END:VEVENT
 END:VCALENDAR

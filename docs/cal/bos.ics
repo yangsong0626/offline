@@ -8,63 +8,68 @@ X-WR-TIMEZONE:America/New_York
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:harvard-sq-thai-night-market-2026-11-07@noboringweekends
-DTSTAMP:20261104T000000Z
-DTSTART;VALUE=DATE:20261107
-DTEND;VALUE=DATE:20261108
-SUMMARY:哈佛广场泰国夜市
-LOCATION:Harvard Square\, Harvard Square\, Cambridge\, MA 02138
-DESCRIPTION:🏮 哈佛广场泰国夜市!\n泰国小吃、灯笼、文化
- 表演和摊位\,免费入场。\n费用:免费\nhttps://www.harvardsquare
- .com/
-URL:https://www.harvardsquare.com/
+UID:bhangra-2026-11-14@noboringweekends
+DTSTAMP:20261113T000000Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:波士顿 Bhangra 舞蹈大赛
+LOCATION:Strand Theatre\, 543 Columbia Rd\, Dorchester\, MA 02125
+DESCRIPTION:💃 北美最大的旁遮普 Bhangra 舞蹈比赛\,第 23 届!
+ \n节奏超燃\,票务以官网为准。\n费用:以官网为准\nhttps://
+ www.bostonglobe.com/2026/11/12/arts/things-to-do-boston-this-weekend/
+URL:https://www.bostonglobe.com/2026/11/12/arts/things-to-do-boston-this-we
+ ekend/
 END:VEVENT
 BEGIN:VEVENT
-UID:hammond-castle-ren-faire-2026-11-07@noboringweekends
-DTSTAMP:20261104T000000Z
-DTSTART:20261107T140000Z
-DTEND:20261107T220000Z
-SUMMARY:哈蒙德城堡文艺复兴日
-LOCATION:Hammond Castle Museum\, 80 Hesperus Ave\, Gloucester\, MA 01930
-DESCRIPTION:🏰 海边城堡里过中世纪!\n周六日都有\,适合周
- 末出城。\n费用:以官网为准\nhttps://www.hammondcastle.org/
-URL:https://www.hammondcastle.org/
+UID:victoria-monet-2026-11-14@noboringweekends
+DTSTAMP:20261113T000000Z
+DTSTART:20261115T010000Z
+DTEND:20261115T030000Z
+SUMMARY:Victoria Monét 演唱会
+LOCATION:MGM Music Hall at Fenway\, 2 Lansdowne St\, Boston\, MA 02215
+DESCRIPTION:🎤 Victoria Monét 巡演波士顿站\,周六晚 8 点。\n
+ 费用:$53 起\nhttps://www.bostonglobe.com/2026/11/12/arts/things-to-do-b
+ oston-this-weekend/
+URL:https://www.bostonglobe.com/2026/11/12/arts/things-to-do-boston-this-we
+ ekend/
 END:VEVENT
 BEGIN:VEVENT
-UID:jp-pumpkin-smash-2026-11-07@noboringweekends
-DTSTAMP:20261104T000000Z
-DTSTART:20261107T160000Z
-DTEND:20261107T190000Z
-SUMMARY:牙买加平原砸南瓜
-LOCATION:English High School parking lot\, 144 McBride St\, Jamaica Plain\,
-  MA 02130
-DESCRIPTION:🎃 万圣节南瓜别扔!\n带来砸碎做堆肥\,孩子超
- 解压。去掉颜料和蜡烛。\n费用:免费\nhttps://www.boston.gov/e
- vent-type/family-friendly
-URL:https://www.boston.gov/event-type/family-friendly
+UID:snowport-2026-11-14@noboringweekends
+DTSTAMP:20261113T000000Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:Snowport 海港假日市集
+LOCATION:Seaport\, Seaport Blvd\, Boston\, MA 02210
+DESCRIPTION:❄️ 海港假日市集第六季\,开到 12/27\,免费逛~\n
+ 费用:免费\nhttps://www.bostonglobe.com/2026/11/12/arts/things-to-do-bo
+ ston-this-weekend/
+URL:https://www.bostonglobe.com/2026/11/12/arts/things-to-do-boston-this-we
+ ekend/
 END:VEVENT
 BEGIN:VEVENT
-UID:boston-veterans-parade-2026-11-07@noboringweekends
-DTSTAMP:20261104T000000Z
-DTSTART:20261107T170000Z
-DTEND:20261107T200000Z
-SUMMARY:波士顿退伍军人节游行
-LOCATION:Boston Common to Government Center\, Charles St & Boylston St\, Bo
- ston\, MA 02116
-DESCRIPTION:🇺🇸 从波士顿公园走到政府中心!\n免费\,带娃
- 看游行。\n费用:免费\nhttps://www.boston.gov/
-URL:https://www.boston.gov/
+UID:wicked-boston-2026-11-14@noboringweekends
+DTSTAMP:20261113T000000Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:《魔法坏女巫》波士顿最后一周
+LOCATION:Citizens Opera House\, 539 Washington St\, Boston\, MA 02111
+DESCRIPTION:🧹 音乐剧《Wicked》演到 11/15\,最后机会!\n费用:
+ 以官网为准\nhttps://www.bostonglobe.com/2026/11/12/arts/things-to-do-
+ boston-this-weekend/
+URL:https://www.bostonglobe.com/2026/11/12/arts/things-to-do-boston-this-we
+ ekend/
 END:VEVENT
 BEGIN:VEVENT
-UID:boston-family-days-2026-11-08@noboringweekends
-DTSTAMP:20261104T000000Z
-DTSTART;VALUE=DATE:20261108
-DTEND;VALUE=DATE:20261109
-SUMMARY:波士顿家庭日:博物馆免费
-LOCATION:23 Boston cultural institutions\, Various locations\, Boston\, MA
-DESCRIPTION:🎟️ 波士顿学龄孩子 + 家人免费逛 23 家博物馆
- !\n每月第二个周日\,部分场馆需预约。\n费用:免费\nhttps:/
- /www.boston.gov/departments/arts-and-culture/boston-family-days
-URL:https://www.boston.gov/departments/arts-and-culture/boston-family-days
+UID:athenaeum-free-2026-11-15@noboringweekends
+DTSTAMP:20261113T000000Z
+DTSTART:20261115T160000Z
+DTEND:20261115T220000Z
+SUMMARY:波士顿图书馆:华盛顿藏书展(周日免费)
+LOCATION:Boston Athenaeum\, 10½ Beacon St\, Boston\, MA 02108
+DESCRIPTION:📚 华盛顿私人藏书展\,周日免费\,11/15 是最后一
+ 天!\n费用:免费\nhttps://www.bostonglobe.com/2026/11/12/arts/things-to
+ -do-boston-this-weekend/
+URL:https://www.bostonglobe.com/2026/11/12/arts/things-to-do-boston-this-we
+ ekend/
 END:VEVENT
 END:VCALENDAR

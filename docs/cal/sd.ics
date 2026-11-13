@@ -8,77 +8,70 @@ X-WR-TIMEZONE:America/Los_Angeles
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:shri-mandir-diwali-mela-2026-11-07@noboringweekends
-DTSTAMP:20261104T000000Z
-DTSTART:20261107T233000Z
-DTEND:20261108T013000Z
-SUMMARY:米拉梅萨 Shri Mandir 排灯节集市
-LOCATION:Shri Mandir\, 9474 Black Mountain Rd\, Suite L\, San Diego\, CA 92
- 126
-DESCRIPTION:🪔 华人多的米拉梅萨就有排灯节!\n下午开始\,
- 周日还有吉祥天女祈福。\n费用:以官网为准\nhttps://www.myg
- oldscene.com/culture-calendar/metro/san-diego
-URL:https://www.mygoldscene.com/culture-calendar/metro/san-diego
-END:VEVENT
-BEGIN:VEVENT
-UID:sdaff-2026-2026-11-07@noboringweekends
-DTSTAMP:20261104T000000Z
-DTSTART;VALUE=DATE:20261107
-DTEND;VALUE=DATE:20261108
-SUMMARY:第 27 届圣地亚哥亚洲电影节
+UID:sdaff-2026-11-13@noboringweekends
+DTSTAMP:20261113T000000Z
+DTSTART:20261113T190000Z
+DTEND:20261113T210000Z
+SUMMARY:圣地亚哥亚洲电影节(收官)
 LOCATION:UltraStar Cinemas Mission Valley\, 7510 Hazard Center Dr\, San Die
  go\, CA 92108
-DESCRIPTION:🎬 11/5-14 亚洲电影节!\n华语、日韩、东南亚新
- 片\,周末场次多。\n费用:需购票\nhttps://sdaff.org/
-URL:https://sdaff.org/
+DESCRIPTION:🎬 第 27 届圣地亚哥亚洲电影节最后几天!190+ 部
+ 电影。\n周六上午 11 点有免费儿童短片专场 Shorts for Short
+ ies👶\n费用:$15/场\nhttps://sdaff.org/2026/
+URL:https://sdaff.org/2026/
 END:VEVENT
 BEGIN:VEVENT
-UID:iskcon-sd-govardhan-2026-11-08@noboringweekends
-DTSTAMP:20261104T000000Z
-DTSTART:20261109T013000Z
-DTEND:20261109T043000Z
-SUMMARY:ISKCON 圣地亚哥供品山节
-LOCATION:ISKCON San Diego\, 1030 Grand Ave\, San Diego\, CA 92109
-DESCRIPTION:🍛 堆成小山的供品 Annakut!\n讲座 + 可带走的素
- 食。\n费用:以官网为准\nhttps://www.mygoldscene.com/culture-calend
- ar/metro/san-diego
-URL:https://www.mygoldscene.com/culture-calendar/metro/san-diego
+UID:yokohama-fest-2026-11-14@noboringweekends
+DTSTAMP:20261113T000000Z
+DTSTART:20261114T190000Z
+DTEND:20261115T000000Z
+SUMMARY:巴尔博亚公园横滨节
+LOCATION:Balboa Park\, Balboa Park\, San Diego\, CA 92101
+DESCRIPTION:🥁 庆祝圣地亚哥和横滨姐妹城市:太鼓、日本舞
+ 、相扑表演+环保市集!\n免费\,上午 11 点到下午 4 点。\n
+ 费用:免费\nhttps://www.axios.com/local/san-diego/2026/11/12/twitchcon-
+ yokohama-festival-san-diego-november-2026
+URL:https://www.axios.com/local/san-diego/2026/11/12/twitchcon-yokohama-fes
+ tival-san-diego-november-2026
 END:VEVENT
 BEGIN:VEVENT
-UID:city-heights-fall-carnival-2026-11-07@noboringweekends
-DTSTAMP:20261104T000000Z
-DTSTART:20261107T220000Z
-DTEND:20261108T070000Z
-SUMMARY:城市高地秋日游乐会
-LOCATION:City Heights Recreation Center & Park\, 4380 Landis St\, San Diego
- \, CA 92105
-DESCRIPTION:🎡 游乐设施、游戏、嘉年华小吃!\n11/5-8\,12 岁
- 以下免费入场。\n费用:成人 $2\,12 岁以下免费\;无限乘坐
- 手环 $45\nhttps://www.sandiego.gov/events
-URL:https://www.sandiego.gov/events
+UID:train-song-fest-2026-11-14@noboringweekends
+DTSTAMP:20261113T000000Z
+DTSTART:20261114T180000Z
+DTEND:20261114T200000Z
+SUMMARY:Poway 火车歌谣节
+LOCATION:Old Poway Park\, 14134 Midland Rd\, Poway\, CA 92064
+DESCRIPTION:🚂 免费民谣音乐节+农夫市集\,还能坐小火车(另
+ 收费)~\n费用:免费\nhttps://timesofsandiego.com/san-diego-events/2026
+ /11/12/san-diego-weekend-guide-nov-13-15-counting-down-to-thanksgiving/
+URL:https://timesofsandiego.com/san-diego-events/2026/11/12/san-diego-weeke
+ nd-guide-nov-13-15-counting-down-to-thanksgiving/
 END:VEVENT
 BEGIN:VEVENT
-UID:fleet-week-sd-2026-11-07@noboringweekends
-DTSTAMP:20261104T000000Z
-DTSTART;VALUE=DATE:20261107
-DTEND;VALUE=DATE:20261108
-SUMMARY:圣地亚哥舰队周
-LOCATION:Various locations\, San Diego Bay\, San Diego\, CA
-DESCRIPTION:⚓ 11/6-15 舰队周!\n军舰参观、高科技展区、音乐
- 和美食\,男孩最爱。\n费用:以官网为准\nhttps://fleetweeksandi
- ego.org/
-URL:https://fleetweeksandiego.org/
+UID:carlsbad-native-2026-11-14@noboringweekends
+DTSTAMP:20261113T000000Z
+DTSTART:20261114T210000Z
+DTEND:20261115T000000Z
+SUMMARY:Carlsbad 原住民文化节
+LOCATION:Carlsbad City Library Learning Center\, 3368 Eureka Pl\, Carlsbad\
+ , CA 92008
+DESCRIPTION:🪶 免费全年龄文化活动\,下午 1-4 点。\n费用:免
+ 费\nhttps://timesofsandiego.com/san-diego-events/2026/11/12/san-diego-wee
+ kend-guide-nov-13-15-counting-down-to-thanksgiving/
+URL:https://timesofsandiego.com/san-diego-events/2026/11/12/san-diego-weeke
+ nd-guide-nov-13-15-counting-down-to-thanksgiving/
 END:VEVENT
 BEGIN:VEVENT
-UID:mcasd-free-sunday-2026-11-08@noboringweekends
-DTSTAMP:20261104T000000Z
-DTSTART:20261108T190000Z
-DTEND:20261109T010000Z
-SUMMARY:MCASD 当代艺术馆免费周日
-LOCATION:Museum of Contemporary Art San Diego\, 700 Prospect St\, La Jolla\
- , CA 92037
-DESCRIPTION:🖼️ 每月第二个周日免费!\n拉霍亚海边看当代
- 艺术。\n费用:免费\nhttps://www.mcasd.org/
-URL:https://www.mcasd.org/
+UID:fleet-week-family-2026-11-15@noboringweekends
+DTSTAMP:20261113T000000Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:舰队周军人家庭日
+LOCATION:Broadway Pier\, 1000 N Harbor Dr\, San Diego\, CA 92101
+DESCRIPTION:⚓ 免费开放\,海港边看军舰~\n费用:免费\nhttps://t
+ imesofsandiego.com/san-diego-events/2026/11/12/san-diego-weekend-guide-nov
+ -13-15-counting-down-to-thanksgiving/
+URL:https://timesofsandiego.com/san-diego-events/2026/11/12/san-diego-weeke
+ nd-guide-nov-13-15-counting-down-to-thanksgiving/
 END:VEVENT
 END:VCALENDAR

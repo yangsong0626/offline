@@ -8,65 +8,87 @@ X-WR-TIMEZONE:America/Los_Angeles
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:la-diwali-fest-2026-11-07@noboringweekends
-DTSTAMP:20261104T000000Z
-DTSTART:20261108T020000Z
-DTEND:20261108T070000Z
-SUMMARY:洛杉矶 Diwali Fest
-LOCATION:Academy LA\, 6021 Hollywood Blvd\, Los Angeles\, CA 90028
-DESCRIPTION:🪔 好莱坞排灯节夜市!\n印度小吃、音乐和购物\
- ,户外露台\,全年龄。\n费用:约 $12-18\nhttps://www.mygoldscene.co
- m/culture-calendar/metro/los-angeles
-URL:https://www.mygoldscene.com/culture-calendar/metro/los-angeles
+UID:chinatown-doc-2026-11-14@noboringweekends
+DTSTAMP:20261113T000000Z
+DTSTART:20261114T180000Z
+DTEND:20261114T200000Z
+SUMMARY:华埠图书馆:洛杉矶唐人街纪录片放映
+LOCATION:Chinatown Branch Library\, 639 N Hill St\, Los Angeles\, CA 90012
+DESCRIPTION:🎬 南加州华人历史学会主办\,免费放映洛杉矶
+ 唐人街纪录片!\n看完去华埠喝个早茶🫖\n费用:免费\nhttps
+ ://chssc.org/events/
+URL:https://chssc.org/events/
 END:VEVENT
 BEGIN:VEVENT
-UID:baps-chino-hills-diwali-2026-11-08@noboringweekends
-DTSTAMP:20261104T000000Z
-DTSTART;VALUE=DATE:20261108
-DTEND;VALUE=DATE:20261109
-SUMMARY:奇诺岗 BAPS 神庙排灯节
-LOCATION:BAPS Shri Swaminarayan Mandir\, 15100 Fairfield Ranch Rd\, Chino H
- ills\, CA 91709
-DESCRIPTION:🛕 11/7-9 神庙排灯节!\n周日上午账本祈福\,周一 
- Annakut 供品山\,白色大理石神庙很好拍。\n费用:以官网为
- 准\nhttps://www.mygoldscene.com/culture-calendar/metro/los-angeles
-URL:https://www.mygoldscene.com/culture-calendar/metro/los-angeles
+UID:griffith-observatory-2026-11-13@noboringweekends
+DTSTAMP:20261113T000000Z
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
+SUMMARY:格里菲斯天文台(周五开到晚 10 点)
+LOCATION:Griffith Observatory\, 2800 E Observatory Rd\, Los Angeles\, CA 90
+ 027
+DESCRIPTION:🔭 免费入场\,周五开到晚 10 点\,看洛杉矶夜景+
+ 星空~\n费用:免费\nhttps://onestowatch.com/live/los-angeles-weekend-n
+ ovember-13/
+URL:https://onestowatch.com/live/los-angeles-weekend-november-13/
 END:VEVENT
 BEGIN:VEVENT
-UID:shg-dia-de-muertos-2026-11-07@noboringweekends
-DTSTAMP:20261104T000000Z
-DTSTART:20261107T230000Z
-DTEND:20261108T040000Z
-SUMMARY:Self Help Graphics 亡灵节
-LOCATION:Self Help Graphics & Art\, 1300 E 1st St\, Los Angeles\, CA 90033
-DESCRIPTION:💀 全美最老牌的亡灵节之一!\n1:45 从 Mariachi Plaz
- a 游行出发\,街区派对免费。\n费用:免费\nhttps://www.selfhelp
- graphics.com/
-URL:https://www.selfhelpgraphics.com/
+UID:nhm-nighttales-2026-11-13@noboringweekends
+DTSTAMP:20261113T000000Z
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
+SUMMARY:自然历史博物馆 NightTales
+LOCATION:Natural History Museum of Los Angeles County\, 900 Exposition Blvd
+ \, Los Angeles\, CA 90007
+DESCRIPTION:🌙 博物馆夜间体验\,11/12 刚开幕\,票务以官网为
+ 准。\n费用:以官网为准\nhttps://onestowatch.com/live/los-angeles-w
+ eekend-november-13/
+URL:https://onestowatch.com/live/los-angeles-weekend-november-13/
 END:VEVENT
 BEGIN:VEVENT
-UID:kidspace-winter-2026-11-07@noboringweekends
-DTSTAMP:20261104T000000Z
-DTSTART;VALUE=DATE:20261107
-DTEND;VALUE=DATE:20261108
-SUMMARY:Kidspace 冬日乐园开幕
-LOCATION:Kidspace Children's Museum\, 480 N Arroyo Blvd\, Pasadena\, CA 911
- 03
-DESCRIPTION:⛄ 11/6 起儿童博物馆变冬天!\n帕萨迪纳的 Kidspace
-  冬季主题\,适合小小孩。\n费用:含门票\nhttps://kidspacemuseu
- m.org/
-URL:https://kidspacemuseum.org/
+UID:camp-flog-gnaw-2026-11-14@noboringweekends
+DTSTAMP:20261113T000000Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:Camp Flog Gnaw 音乐节(周六/日)
+LOCATION:Dodger Stadium\, 1000 Vin Scully Ave\, Los Angeles\, CA 90012
+DESCRIPTION:🎡 Tyler\, the Creator 的音乐节!Turnstile、Steve Lacy、
+ Future…周六周日两天。\n费用:以官网为准\nhttps://onestowatc
+ h.com/live/los-angeles-weekend-november-13/
+URL:https://onestowatch.com/live/los-angeles-weekend-november-13/
 END:VEVENT
 BEGIN:VEVENT
-UID:ucla-eyu-2026-11-08@noboringweekends
-DTSTAMP:20261104T000000Z
-DTSTART:20261108T200000Z
-DTEND:20261109T010000Z
-SUMMARY:UCLA 探索宇宙科学节
-LOCATION:UCLA Court of Sciences\, UCLA\, Los Angeles\, CA 90095
-DESCRIPTION:🔭 免费科学节!\n动手实验、天文馆、稀有化石\
- ,从火箭到真菌\,UCLA 学生带着玩。\n费用:免费\nhttps://eyu.u
- cla.edu/
-URL:https://eyu.ucla.edu/
+UID:sparkle-dtla-2026-11-14@noboringweekends
+DTSTAMP:20261113T000000Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:DTLA 免费节日灯光秀 SPARKLE(首演)
+LOCATION:The Bloc\, 700 S Flower St\, Los Angeles\, CA 90017
+DESCRIPTION:✨ 市中心免费节日灯光秀周六首演!\n费用:免费\
+ nhttps://onestowatch.com/live/los-angeles-weekend-november-13/
+URL:https://onestowatch.com/live/los-angeles-weekend-november-13/
+END:VEVENT
+BEGIN:VEVENT
+UID:jackalope-pasadena-2026-11-14@noboringweekends
+DTSTAMP:20261113T000000Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:Jackalope 艺术市集(老帕萨迪纳)
+LOCATION:Old Pasadena\, Old Pasadena\, Pasadena\, CA 91103
+DESCRIPTION:🎨 独立艺术家手作市集\,逛逛买节日礼物~\n费
+ 用:免费\nhttps://onestowatch.com/live/los-angeles-weekend-november-13/
+URL:https://onestowatch.com/live/los-angeles-weekend-november-13/
+END:VEVENT
+BEGIN:VEVENT
+UID:ciclavia-pasadena-2026-11-15@noboringweekends
+DTSTAMP:20261113T000000Z
+DTSTART:20261115T170000Z
+DTEND:20261115T190000Z
+SUMMARY:CicLAvia 帕萨迪纳封街骑行
+LOCATION:Pasadena\, Colorado Blvd\, Pasadena\, CA
+DESCRIPTION:🚲 封街!骑车、滑板、散步都行\,早上 9 点开始\
+ ,免费~\n费用:免费\nhttps://onestowatch.com/live/los-angeles-weekend-
+ november-13/
+URL:https://onestowatch.com/live/los-angeles-weekend-november-13/
 END:VEVENT
 END:VCALENDAR

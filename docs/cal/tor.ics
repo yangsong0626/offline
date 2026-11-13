@@ -8,63 +8,63 @@ X-WR-TIMEZONE:America/Toronto
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:vishnu-mandir-diwali-milan-2026-11-07@noboringweekends
-DTSTAMP:20261104T000000Z
-DTSTART:20261107T220000Z
-DTEND:20261108T000000Z
-SUMMARY:列治文山 Vishnu Mandir 排灯节晚会
-LOCATION:Vishnu Mandir banquet hall\, 8640 Yonge St\, Richmond Hill\, ON L4
- C 6Z4
-DESCRIPTION:💃 列治文山排灯节演出!\n4:30 开门\,5 点开演。\
- n费用:成人 $20\,5-12 岁 $10\nhttps://www.mygoldscene.com/culture-cale
- ndar/metro/toronto
-URL:https://www.mygoldscene.com/culture-calendar/metro/toronto
+UID:paskuhan-2026-11-14@noboringweekends
+DTSTAMP:20261113T000000Z
+DTSTART:20261114T150000Z
+DTEND:20261114T170000Z
+SUMMARY:菲律宾圣诞村 Paskuhan Village
+LOCATION:The Parkdale Hall\, 1605 Queen St W\, Toronto\, ON M6R 1A9
+DESCRIPTION:🌟 体验菲律宾圣诞节:星星灯笼和美食~\n费用:
+ 以官网为准\nhttps://www.eventbrite.ca/d/canada--toronto/asian-festiva
+ l/
+URL:https://www.eventbrite.ca/d/canada--toronto/asian-festival/
 END:VEVENT
 BEGIN:VEVENT
-UID:gerrard-diwali-mela-2026-11-07@noboringweekends
-DTSTAMP:20261104T000000Z
-DTSTART:20261107T230000Z
-DTEND:20261108T030000Z
-SUMMARY:印度街 Gerrard 排灯节
-LOCATION:Gerrard India Bazaar\, 1432 Gerrard St E\, Toronto\, ON M4L 1Z8
-DESCRIPTION:✨ 小印度街头排灯节!\nDJ、舞蹈、仙女棒和小吃
- \,免费。\n费用:免费\nhttps://www.gerrardindiabazaar.com/
-URL:https://www.gerrardindiabazaar.com/
+UID:oakville-parade-2026-11-14@noboringweekends
+DTSTAMP:20261113T000000Z
+DTSTART:20261114T140000Z
+DTEND:20261114T160000Z
+SUMMARY:奥克维尔圣诞老人游行
+LOCATION:Downtown Oakville\, Lakeshore Rd E\, Oakville\, ON
+DESCRIPTION:🎺 周六上午 9 点\,免费~\n费用:免费\nhttps://www.to
+ docanada.ca/city/toronto/santa-claus-parades/
+URL:https://www.todocanada.ca/city/toronto/santa-claus-parades/
 END:VEVENT
 BEGIN:VEVENT
-UID:viet-expo-2026-2026-11-08@noboringweekends
-DTSTAMP:20261104T000000Z
-DTSTART:20261108T150000Z
-DTEND:20261108T220000Z
-SUMMARY:越南博览会 Viet Expo
-LOCATION:Oasis Convention Centre\, 1036 Lakeshore Rd E\, Mississauga\, ON L
- 5E 1E4
-DESCRIPTION:🇻🇳 60 多个越南社区展位!\n美食、文化和商家
- 。\n费用:以官网为准\nhttps://www.mygoldscene.com/culture-calendar/
- metro/toronto
-URL:https://www.mygoldscene.com/culture-calendar/metro/toronto
+UID:distillery-winter-2026-11-14@noboringweekends
+DTSTAMP:20261113T000000Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:酿酒厂区冬季村
+LOCATION:Distillery District\, 55 Mill St\, Toronto\, ON M5A 3C4
+DESCRIPTION:🎄 多伦多最美圣诞市集 11/12 开张!周末可能收
+ 门票\,以官网为准。\n费用:以官网为准\nhttps://childslife.ca/
+ 2026-santa-claus-parade-guide-for-toronto-and-southern-ontario/
+URL:https://childslife.ca/2026-santa-claus-parade-guide-for-toronto-and-sou
+ thern-ontario/
 END:VEVENT
 BEGIN:VEVENT
-UID:brampton-diwali-mela-2026-11-08@noboringweekends
-DTSTAMP:20261104T000000Z
-DTSTART:20261108T210000Z
-DTEND:20261109T030000Z
-SUMMARY:宾顿排灯节 + 烟花无人机秀
-LOCATION:Sesquicentennial Park\, 11333 Bramalea Rd\, Brampton\, ON L6R 3E5
-DESCRIPTION:🎆 免费市级排灯节!\n7:30 烟花、8:15 无人机秀\,
- 有免费接驳车。\n费用:免费\nhttps://www.brampton.ca/
-URL:https://www.brampton.ca/
+UID:beaches-parade-2026-11-15@noboringweekends
+DTSTAMP:20261113T000000Z
+DTSTART:20261115T180000Z
+DTEND:20261115T200000Z
+SUMMARY:Beaches 圣诞老人游行
+LOCATION:The Beaches\, Queen St E\, Toronto\, ON
+DESCRIPTION:🎅 东区海滩社区圣诞游行\,周日下午 1 点\,免费
+ !\n费用:免费\nhttps://childslife.ca/2026-santa-claus-parade-guide-for-
+ toronto-and-southern-ontario/
+URL:https://childslife.ca/2026-santa-claus-parade-guide-for-toronto-and-sou
+ thern-ontario/
 END:VEVENT
 BEGIN:VEVENT
-UID:royal-winter-fair-2026-2026-11-07@noboringweekends
-DTSTAMP:20261104T000000Z
-DTSTART;VALUE=DATE:20261107
-DTEND;VALUE=DATE:20261108
-SUMMARY:皇家冬季农业博览会
-LOCATION:Exhibition Place\, 100 Princes' Blvd\, Toronto\, ON M6K 3C3
-DESCRIPTION:🐐 11/6-15 全球最大室内农博会!\n看马术、摸小
- 动物、黄油雕塑\,带娃首选。\n费用:需购票\nhttps://www.roya
- lfair.org/
-URL:https://www.royalfair.org/
+UID:milton-parade-2026-11-15@noboringweekends
+DTSTAMP:20261113T000000Z
+DTSTART:20261115T183000Z
+DTEND:20261115T203000Z
+SUMMARY:Milton 圣诞老人游行
+LOCATION:Downtown Milton\, Main St\, Milton\, ON
+DESCRIPTION:🎅 周日下午 1:30\,免费。\n费用:免费\nhttps://www.t
+ odocanada.ca/city/toronto/santa-claus-parades/
+URL:https://www.todocanada.ca/city/toronto/santa-claus-parades/
 END:VEVENT
 END:VCALENDAR

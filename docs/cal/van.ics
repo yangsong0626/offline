@@ -8,73 +8,93 @@ X-WR-TIMEZONE:America/Vancouver
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:redfm-diwali-surrey-2026-11-07@noboringweekends
-DTSTAMP:20261104T000000Z
-DTSTART:20261107T190000Z
-DTEND:20261108T030000Z
-SUMMARY:素里 RED FM 排灯节
-LOCATION:Surrey Civic Plaza\, 13450 104 Ave\, Surrey\, BC V3T 1V8
-DESCRIPTION:🎉 素里市民广场排灯节!\n中午到晚上 8 点\,免
- 费演出。\n费用:免费\nhttps://www.redfm.ca/
-URL:https://www.redfm.ca/
+UID:ccm-momentum3-2026-11-14@noboringweekends
+DTSTAMP:20261113T000000Z
+DTSTART:20261114T170000Z
+DTEND:20261115T000000Z
+SUMMARY:华裔加拿大人博物馆《Momentum》体育展
+LOCATION:Chinese Canadian Museum\, 51 E Pender St\, Vancouver\, BC V6A 1S9
+DESCRIPTION:🏀 华裔加拿大运动员的故事\,唐人街博物馆\,周
+ 三到周日 10-5 点~\n费用:以官网为准\nhttps://www.chinesecanadia
+ nmuseum.ca/
+URL:https://www.chinesecanadianmuseum.ca/
 END:VEVENT
 BEGIN:VEVENT
-UID:diwali-fest-roundhouse-2026-11-07@noboringweekends
-DTSTAMP:20261104T000000Z
-DTSTART:20261107T210000Z
-DTEND:20261108T000000Z
-SUMMARY:Roundhouse 社区中心排灯节
-LOCATION:Roundhouse Community Centre\, 181 Roundhouse Mews\, Vancouver\, BC
-  V6Z 2W3
-DESCRIPTION:🪔 耶鲁镇免费排灯节!\n需提前登记。\n费用:免
- 费\nhttps://diwalifest.ca/
-URL:https://diwalifest.ca/
+UID:vaff-2026-11-13@noboringweekends
+DTSTAMP:20261113T000000Z
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
+SUMMARY:温哥华亚洲电影节(收官周末)
+LOCATION:Cineplex International Village\, 88 W Pender St\, Vancouver\, BC V
+ 6B 6N9
+DESCRIPTION:🎞️ 温哥华亚洲电影节开到 11/15\,就在唐人街
+ 旁边的国际村影院!片单以官网为准。\n费用:以官网为准\
+ nhttps://www.todocanada.ca/things-vancouver-weekend/
+URL:https://www.todocanada.ca/things-vancouver-weekend/
 END:VEVENT
 BEGIN:VEVENT
-UID:vaff-2026-2026-11-07@noboringweekends
-DTSTAMP:20261104T000000Z
-DTSTART;VALUE=DATE:20261107
-DTEND;VALUE=DATE:20261108
-SUMMARY:第 30 届温哥华亚洲电影节
-LOCATION:Various venues\, Vancouver\, BC
-DESCRIPTION:🎬 11/5-15 第 30 届亚洲电影节!\n片单和场地以官
- 网为准。\n费用:需购票\nhttps://vaff.org/
-URL:https://vaff.org/
+UID:nikkei-craft-2026-11-14@noboringweekends
+DTSTAMP:20261113T000000Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:日裔国家博物馆手作市集(周六/日)
+LOCATION:Nikkei National Museum & Cultural Centre\, 6688 Southoaks Crescent
+ \, Burnaby\, BC V5E 4M7
+DESCRIPTION:🎐 日裔手作市集\,和风小物和节日礼物~\n费用:
+ 以官网为准\nhttps://www.todocanada.ca/things-vancouver-weekend/
+URL:https://www.todocanada.ca/things-vancouver-weekend/
 END:VEVENT
 BEGIN:VEVENT
-UID:riley-park-farmers-market-2026-11-07@noboringweekends
-DTSTAMP:20261104T000000Z
-DTSTART:20261107T170000Z
-DTEND:20261107T210000Z
-SUMMARY:Riley Park 冬季农夫市集
-LOCATION:Riley Park\, 50 E 30th Ave\, Vancouver\, BC V5V 2T9
-DESCRIPTION:🥕 周六上午冬季农夫市集!\n本地蔬果、面包和
- 小吃。\n费用:免费\nhttps://eatlocal.org/
-URL:https://eatlocal.org/
+UID:raffi-2026-11-14@noboringweekends
+DTSTAMP:20261113T000000Z
+DTSTART:20261114T210000Z
+DTEND:20261114T230000Z
+SUMMARY:Raffi 儿童音乐会(周六/日)
+LOCATION:Queen Elizabeth Theatre\, 630 Hamilton St\, Vancouver\, BC V6B 5N6
+DESCRIPTION:🐳 「Baby Beluga」的 Raffi!周六周日下午 2 点\,余
+ 票不多。\n费用:以官网为准\nhttps://miss604.com/2026/11/things-t
+ o-do-in-vancouver-this-weekend-events-nov-13-15/
+URL:https://miss604.com/2026/11/things-to-do-in-vancouver-this-weekend-even
+ ts-nov-13-15/
 END:VEVENT
 BEGIN:VEVENT
-UID:luzia-vancouver-2026-11-07@noboringweekends
-DTSTAMP:20261104T000000Z
-DTSTART;VALUE=DATE:20261107
-DTEND;VALUE=DATE:20261108
-SUMMARY:太阳马戏《Luzia》
-LOCATION:Concord Pacific Place\, 88 Pacific Blvd\, Vancouver\, BC V6Z 2R6
-DESCRIPTION:🎪 太阳马戏大帐篷 11/4 起开演!\n墨西哥风情杂
- 技\,演到明年 1 月。\n费用:需购票\nhttps://www.cirquedusoleil.c
- om/luzia
-URL:https://www.cirquedusoleil.com/luzia
+UID:circle-craft-2026-11-14@noboringweekends
+DTSTAMP:20261113T000000Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:Circle Craft 假日市集
+LOCATION:Vancouver Convention Centre\, 1055 Canada Pl\, Vancouver\, BC V6C 
+ 0C3
+DESCRIPTION:🎁 BC 最大的手作假日市集\,历史悠久~\n费用:以
+ 官网为准\nhttps://miss604.com/2026/11/things-to-do-in-vancouver-this-w
+ eekend-events-nov-13-15/
+URL:https://miss604.com/2026/11/things-to-do-in-vancouver-this-weekend-even
+ ts-nov-13-15/
 END:VEVENT
 BEGIN:VEVENT
-UID:dtes-heart-of-city-2026-11-07@noboringweekends
-DTSTAMP:20261104T000000Z
-DTSTART;VALUE=DATE:20261107
-DTEND;VALUE=DATE:20261108
-SUMMARY:DTES 城市之心艺术节收官
-LOCATION:30+ venues in the Downtown Eastside\, Downtown Eastside\, Vancouve
- r\, BC
-DESCRIPTION:🎭 第 23 届社区艺术节最后一天!\n戏剧、舞蹈、
- 讲故事和工作坊。\n费用:部分免费\nhttps://heartofthecityfesti
- val.com/
-URL:https://heartofthecityfestival.com/
+UID:vimff-2026-11-14@noboringweekends
+DTSTAMP:20261113T000000Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:温哥华国际山地电影节
+LOCATION:Vancouver\, Vancouver\, BC (venue: see website)
+DESCRIPTION:🏔️ 户外探险电影节\,片单以官网为准。\n费用
+ :以官网为准\nhttps://miss604.com/2026/11/things-to-do-in-vancouver-th
+ is-weekend-events-nov-13-15/
+URL:https://miss604.com/2026/11/things-to-do-in-vancouver-this-weekend-even
+ ts-nov-13-15/
+END:VEVENT
+BEGIN:VEVENT
+UID:winter-market-heritage-2026-11-15@noboringweekends
+DTSTAMP:20261113T000000Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:Heritage Hall 冬季市集
+LOCATION:Heritage Hall\, 3102 Main St\, Vancouver\, BC V5V 3M9
+DESCRIPTION:🧣 40+ 本地摊位\,周日~\n费用:以官网为准\nhttps:/
+ /miss604.com/2026/11/things-to-do-in-vancouver-this-weekend-events-nov-13-
+ 15/
+URL:https://miss604.com/2026/11/things-to-do-in-vancouver-this-weekend-even
+ ts-nov-13-15/
 END:VEVENT
 END:VCALENDAR
