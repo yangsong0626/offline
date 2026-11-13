@@ -8,64 +8,90 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:kalapriya-diwali-2026-11-07@noboringweekends
-DTSTAMP:20261104T000000Z
-DTSTART:20261107T220000Z
-DTEND:20261108T000000Z
-SUMMARY:Kalapriya 排灯节
-LOCATION:Chicago Women's Park and Gardens\, 1801 S Indiana Ave\, Chicago\, 
- IL 60616
-DESCRIPTION:🪔 印度舞蹈团的排灯节!\n南环女性公园\,门票
- 亲民。\n费用:成人 $10\,10 岁以下 $4\nhttps://www.kalapriya.org/
-URL:https://www.kalapriya.org/
+UID:cmaa-midautumn-2026-11-14@noboringweekends
+DTSTAMP:20261113T000000Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:华人互助会 × Haibayo 中秋晚会
+LOCATION:Chinese Mutual Aid Association\, 1016 W Argyle St\, Chicago\, IL 6
+ 0640
+DESCRIPTION:🥮 华人互助会的晚秋中秋晚会!\n在北区 Argyle 
+ 亚裔街区\,细节以官网为准。\n费用:以官网为准\nhttps://ww
+ w.chicagoasiannetwork.com/event-tags/all
+URL:https://www.chicagoasiannetwork.com/event-tags/all
 END:VEVENT
 BEGIN:VEVENT
-UID:iskcon-naperville-diwali-2026-11-08@noboringweekends
-DTSTAMP:20261104T000000Z
-DTSTART:20261108T213000Z
-DTEND:20261108T233000Z
-SUMMARY:内珀维尔 ISKCON 排灯节
-LOCATION:ISKCON Naperville\, 1505 McDowell Rd\, Naperville\, IL 60563
-DESCRIPTION:🛕 西郊神庙排灯节 + 供品山节!\n免费\,下午三
- 点半开始。\n费用:免费\nhttps://www.mygoldscene.com/culture-calend
- ar/metro/chicago
-URL:https://www.mygoldscene.com/culture-calendar/metro/chicago
+UID:permission-to-fail-2026-11-14@noboringweekends
+DTSTAMP:20261113T000000Z
+DTSTART:20261114T230000Z
+DTEND:20261115T040000Z
+SUMMARY:亚裔艺术家沙龙 Permission to Fail
+LOCATION:Chicago\, Chicago\, IL (venue: see website)
+DESCRIPTION:🎭 亚裔艺术家未完成作品沙龙:音乐、戏剧、脱
+ 口秀、诗、电影…\n费用:以官网为准\nhttps://www.chicagoasian
+ network.com/event-tags/all
+URL:https://www.chicagoasiannetwork.com/event-tags/all
 END:VEVENT
 BEGIN:VEVENT
-UID:art-on-the-mart-2026-11-07@noboringweekends
-DTSTAMP:20261104T000000Z
-DTSTART:20261108T010000Z
-DTEND:20261108T030000Z
-SUMMARY:芝加哥河畔 ART on THE MART 灯光秀
-LOCATION:Chicago Riverwalk\, Riverwalk between Wells St & Franklin St\, Chi
- cago\, IL
-DESCRIPTION:🌃 25 层楼外墙投影艺术!\n免费\,河边步道看\,每
- 场 30 分钟。\n费用:免费\nhttps://www.artonthemart.com/
-URL:https://www.artonthemart.com/
+UID:jasc-kodomo-2026-11-14@noboringweekends
+DTSTAMP:20261113T000000Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:日裔服务会 Holiday Delight & 儿童节
+LOCATION:Japanese American Service Committee\, 4427 N Clark St\, Chicago\, 
+ IL 60640
+DESCRIPTION:🎏 日裔美国人文化活动:节日手作+儿童祭!时间
+ 以官网为准。\n费用:以官网为准\nhttps://www.chicagoparent.com/
+ guides/weekend
+URL:https://www.chicagoparent.com/guides/weekend
 END:VEVENT
 BEGIN:VEVENT
-UID:msi-christmas-around-world-2026-11-07@noboringweekends
-DTSTAMP:20261104T000000Z
-DTSTART;VALUE=DATE:20261107
-DTEND;VALUE=DATE:20261108
-SUMMARY:科工馆「世界圣诞树」开幕
-LOCATION:Griffin Museum of Science and Industry\, 5700 S DuSable Lake Shore
-  Dr\, Chicago\, IL 60637
-DESCRIPTION:🎄 11/7 开幕!\n四层楼高的大圣诞树 + 50 多棵代
- 表芝加哥各族裔的树\,找找有没有中国树。\n费用:含门票
- \nhttps://www.msichicago.org/
-URL:https://www.msichicago.org/
+UID:stem-family-night-2026-11-13@noboringweekends
+DTSTAMP:20261113T000000Z
+DTSTART:20261113T223000Z
+DTEND:20261114T010000Z
+SUMMARY:海德公园 STEM 家庭之夜
+LOCATION:Southside STEM Station\, Hyde Park\, Chicago\, IL 60615
+DESCRIPTION:🧪 免费 STEM 动手活动+创意工坊+抽奖!\n费用:免
+ 费\nhttps://mykidlist.com/weekend-planner/
+URL:https://mykidlist.com/weekend-planner/
 END:VEVENT
 BEGIN:VEVENT
-UID:field-pokemon-fossil-2026-11-07@noboringweekends
-DTSTAMP:20261104T000000Z
-DTSTART;VALUE=DATE:20261107
-DTEND;VALUE=DATE:20261108
-SUMMARY:菲尔德博物馆宝可梦化石展
-LOCATION:Field Museum\, 1400 S DuSable Lake Shore Dr\, Chicago\, IL 60605
-DESCRIPTION:🦖 宝可梦化石 vs 真恐龙化石!\n还能见到霸王龙
-  SUE\,展到明年 4 月。\n费用:需购票\nhttps://www.fieldmuseum.org
- /
-URL:https://www.fieldmuseum.org/
+UID:lightscape-2026-11-13@noboringweekends
+DTSTAMP:20261113T000000Z
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
+SUMMARY:芝加哥植物园 Lightscape 灯光步道(开幕)
+LOCATION:Chicago Botanic Garden\, 1000 Lake Cook Rd\, Glencoe\, IL 60022
+DESCRIPTION:✨ 冬季灯光步道 11/13 开幕\,展到 1/3!拍照超美\,
+ 需买时段票。\n费用:儿童 $16 起\,成人 $29 起\nhttps://www.chi
+ cagoparent.com/guides/15-of-the-top-family-friendly-things-to-do-in-chicag
+ oland-this-november-4917cdc7
+URL:https://www.chicagoparent.com/guides/15-of-the-top-family-friendly-thin
+ gs-to-do-in-chicagoland-this-november-4917cdc7
+END:VEVENT
+BEGIN:VEVENT
+UID:fa-la-la-2026-11-14@noboringweekends
+DTSTAMP:20261113T000000Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:Fa La La 假日市集
+LOCATION:Chicago\, Chicago\, IL (venue: see website)
+DESCRIPTION:🎁 本地手作假日市集\,细节以官网为准。\n费用
+ :以官网为准\nhttps://blockclubchicago.org/2026/11/12/27-things-to-do-
+ in-chicago-this-weekend-fa-la-la-holiday-market-art-book-fair-and-more/
+URL:https://blockclubchicago.org/2026/11/12/27-things-to-do-in-chicago-this
+ -weekend-fa-la-la-holiday-market-art-book-fair-and-more/
+END:VEVENT
+BEGIN:VEVENT
+UID:wolves-family-2026-11-15@noboringweekends
+DTSTAMP:20261113T000000Z
+DTSTART:20261115T210000Z
+DTEND:20261116T000000Z
+SUMMARY:芝加哥狼队冰球家庭日
+LOCATION:Allstate Arena\, 6920 Mannheim Rd\, Rosemont\, IL 60018
+DESCRIPTION:🏒 小联盟冰球家庭日\,票价亲民~\n费用:以官网
+ 为准\nhttps://mykidlist.com/weekend-planner/
+URL:https://mykidlist.com/weekend-planner/
 END:VEVENT
 END:VCALENDAR

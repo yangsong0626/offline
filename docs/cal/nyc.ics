@@ -8,67 +8,106 @@ X-WR-TIMEZONE:America/New_York
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:asia-society-diwali-2026-11-07@noboringweekends
-DTSTAMP:20261104T000000Z
-DTSTART:20261107T180000Z
-DTEND:20261107T210000Z
-SUMMARY:亚洲协会排灯节亲子日
-LOCATION:Asia Society New York\, 725 Park Ave\, New York\, NY 10021
-DESCRIPTION:🪔 上东区亚洲协会过排灯节!\n舞蹈、罗摩衍那
- 木偶戏、手工\,还有新绘本发布\,适合带娃~\n费用:以官网
- 为准\nhttps://asiasociety.org/new-york
-URL:https://asiasociety.org/new-york
+UID:moca-dialect-2026-11-14@noboringweekends
+DTSTAMP:20261113T000000Z
+DTSTART:20261114T210000Z
+DTEND:20261114T230000Z
+SUMMARY:MOCA 闽南语/客家话/潮州话方言角
+LOCATION:Museum of Chinese in America\, 215 Centre St\, New York\, NY 10013
+DESCRIPTION:🗣️ 美国华人博物馆 × Accent Sisters 方言角!\n闽
+ 南语、客家话、潮州话一起聊\,带爸妈一起来找回乡音~
+ 费用报名以官网为准。\n费用:以官网为准\nhttps://www.mocany
+ c.org/calendar/
+URL:https://www.mocanyc.org/calendar/
 END:VEVENT
 BEGIN:VEVENT
-UID:baps-flushing-diwali-2026-11-08@noboringweekends
-DTSTAMP:20261104T000000Z
-DTSTART:20261108T230000Z
-DTEND:20261109T020000Z
-SUMMARY:法拉盛 BAPS 排灯节 + 烟花
-LOCATION:BAPS Shri Swaminarayan Mandir\, 43-38 Bowne St\, Flushing\, NY 113
- 55
-DESCRIPTION:🎆 排灯节正日在法拉盛!\n傍晚祈福仪式\,结束
- 后放烟花\,就在 Bowne St\,离主街不远。\n费用:以官网为准\
- nhttps://www.mygoldscene.com/culture-calendar/metro/new-york
-URL:https://www.mygoldscene.com/culture-calendar/metro/new-york
+UID:transit-train-show-2026-11-13@noboringweekends
+DTSTAMP:20261113T000000Z
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
+SUMMARY:纽约交通博物馆假日火车展(开幕)
+LOCATION:Grand Central Terminal\, 89 E 42nd St\, New York\, NY 10017
+DESCRIPTION:🚂 第 22 届中央车站假日火车展 11/13 开幕!\n小
+ 火车绕着纽约微缩景观跑\,免费\,娃看了不肯走~\n费用:免
+ 费\nhttps://www.hola.com/us/entertainment/20261104933167/nyc-november-202
+ 6-bucket-list-kids/
+URL:https://www.hola.com/us/entertainment/20261104933167/nyc-november-2026-
+ bucket-list-kids/
 END:VEVENT
 BEGIN:VEVENT
-UID:bcm-diwali-2026-11-07@noboringweekends
-DTSTAMP:20261104T000000Z
-DTSTART:20261107T150000Z
-DTEND:20261107T220000Z
-SUMMARY:布鲁克林儿童博物馆:亡灵节 + 排灯节
-LOCATION:Brooklyn Children's Museum\, 145 Brooklyn Ave\, Brooklyn\, NY 1121
- 3
-DESCRIPTION:🧒 儿童博物馆双节庆祝!\n亡灵节 + 排灯节主题
- 活动\,再逛逛新开的 BMX 小车展。\n费用:$15\,1 岁以下免费
- \nhttps://www.brooklynkids.org/
-URL:https://www.brooklynkids.org/
+UID:gct-holiday-fair-2026-11-13@noboringweekends
+DTSTAMP:20261113T000000Z
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
+SUMMARY:中央车站假日市集
+LOCATION:Vanderbilt Hall\, Grand Central\, 89 E 42nd St\, New York\, NY 100
+ 17
+DESCRIPTION:🎁 室内假日市集\,手作礼物和小店\,天冷也能逛
+ ~\n费用:免费\nhttps://www.hola.com/us/entertainment/20261104933167/nyc
+ -november-2026-bucket-list-kids/
+URL:https://www.hola.com/us/entertainment/20261104933167/nyc-november-2026-
+ bucket-list-kids/
 END:VEVENT
 BEGIN:VEVENT
-UID:wave-hill-raptors-2026-11-07@noboringweekends
-DTSTAMP:20261104T000000Z
-DTSTART:20261107T150000Z
-DTEND:20261107T180000Z
-SUMMARY:Wave Hill 亲子手工:秋日猛禽
-LOCATION:Wave Hill\, 4900 Independence Ave\, Bronx\, NY 10471
-DESCRIPTION:🦅 哈德逊河边看鹰!\n周六日上午都有\,一边找
- 迁徙的老鹰一边做手工\,秋叶正好。\n费用:含门票\nhttps:/
- /www.wavehill.org/
-URL:https://www.wavehill.org/
+UID:ps1-free-2026-11-14@noboringweekends
+DTSTAMP:20261113T000000Z
+DTSTART:20261114T150000Z
+DTEND:20261114T230000Z
+SUMMARY:MoMA PS1 免费周六
+LOCATION:MoMA PS1\, 22-25 Jackson Ave\, Long Island City\, NY 11101
+DESCRIPTION:🖼️ 当代艺术馆周六免费\,10 点到 6 点~\n费用:
+ 免费\nhttps://missnycdeals.substack.com/p/november-2026-one-free-thing-t
+ o-do
+URL:https://missnycdeals.substack.com/p/november-2026-one-free-thing-to-do
 END:VEVENT
 BEGIN:VEVENT
-UID:brooklyn-folk-festival-2026-11-07@noboringweekends
-DTSTAMP:20261104T000000Z
-DTSTART;VALUE=DATE:20261107
-DTEND;VALUE=DATE:20261108
-SUMMARY:布鲁克林民谣音乐节
-LOCATION:St. Ann & the Holy Trinity Church\, 157 Montague St\, Brooklyn\, N
- Y 11201
-DESCRIPTION:🪕 11/6-8 三天民谣音乐节!\n老教堂里听班卓琴、
- 小提琴\,6 岁以下免费\,适合爱音乐的一家人。\n费用:单
- 日票 $75\,6-16 岁半价\,6 岁以下免费\nhttps://www.brooklynfolkfes
- t.com/
-URL:https://www.brooklynfolkfest.com/
+UID:queens-theatre-beatles-2026-11-14@noboringweekends
+DTSTAMP:20261113T000000Z
+DTSTART:20261114T180000Z
+DTEND:20261114T200000Z
+SUMMARY:皇后剧院儿童音乐会:披头士
+LOCATION:Queens Theatre\, 14 United Nations Ave S\, Flushing Meadows\, NY 1
+ 1368
+DESCRIPTION:🎸 8 岁以下小朋友的披头士音乐会\,就在法拉盛
+ 草原公园~\n费用:以官网为准\nhttps://nyckidsweek.com/
+URL:https://nyckidsweek.com/
+END:VEVENT
+BEGIN:VEVENT
+UID:elf-experience-2026-11-14@noboringweekends
+DTSTAMP:20261113T000000Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:洛克菲勒中心 Elf Experience(开幕)
+LOCATION:Rockefeller Center\, 45 Rockefeller Plaza\, New York\, NY 10111
+DESCRIPTION:🎄 走进《圣诞精灵》的北极:圣诞老人工坊、糖
+ 果拐杖森林!\n11/14 开幕\,票务以官网为准。\n费用:以官网
+ 为准\nhttps://www.newyorkfamily.com/fun-family-pop-ups-nyc-november/
+URL:https://www.newyorkfamily.com/fun-family-pop-ups-nyc-november/
+END:VEVENT
+BEGIN:VEVENT
+UID:momi-harry-sally-2026-11-14@noboringweekends
+DTSTAMP:20261113T000000Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:移动影像博物馆《当哈利遇到莎莉》红酒奶酪场
+LOCATION:Museum of the Moving Image\, 36-01 35th Ave\, Astoria\, NY 11106
+DESCRIPTION:🧀🍷 经典爱情片+红酒奶酪\,约会好去处。\n费
+ 用:以官网为准\nhttps://www.timeout.com/newyork/things-to-do/things-t
+ o-do-in-nyc-this-weekend
+URL:https://www.timeout.com/newyork/things-to-do/things-to-do-in-nyc-this-w
+ eekend
+END:VEVENT
+BEGIN:VEVENT
+UID:bagelfest-2026-11-15@noboringweekends
+DTSTAMP:20261113T000000Z
+DTSTART;VALUE=DATE:20261115
+DTEND;VALUE=DATE:20261116
+SUMMARY:纽约贝果节
+LOCATION:Citi Field\, 41 Seaver Way\, Queens\, NY 11368
+DESCRIPTION:🥯 25+ 家贝果店齐聚花旗球场\,免费入场\,狗狗
+ 也欢迎!离法拉盛很近~\n费用:免费\nhttps://www.timeout.com/newy
+ ork/things-to-do/things-to-do-in-nyc-this-weekend
+URL:https://www.timeout.com/newyork/things-to-do/things-to-do-in-nyc-this-w
+ eekend
 END:VEVENT
 END:VCALENDAR

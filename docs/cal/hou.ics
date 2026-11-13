@@ -8,87 +8,106 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:asia-society-texas-night-market-2026-11-06@noboringweekends
-DTSTAMP:20261104T000000Z
-DTSTART:20261107T000000Z
-DTEND:20261107T040000Z
-SUMMARY:亚洲协会德州中心夜市
-LOCATION:Asia Society Texas\, 1370 Southmore Blvd\, Houston\, TX 77004
-DESCRIPTION:🏮 东亚东南亚风味夜市!\n美食、手作、购物和
- 活动\,周五晚上博物馆区。\n费用:以官网为准\nhttps://asias
- ociety.org/texas
-URL:https://asiasociety.org/texas
+UID:ghibli-tribute-2026-11-13@noboringweekends
+DTSTAMP:20261113T000000Z
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
+SUMMARY:吉卜力致敬艺术展(一晚限定)
+LOCATION:The Insomnia Gallery\, Hardy St\, Houston\, TX
+DESCRIPTION:🌳 宫崎骏迷看过来!免费一晚限定的吉卜力同人
+ 艺术展\,周五晚上。\n费用:免费\nhttps://www.houstononthecheap.c
+ om/top-events-in-houston-november-13-november-15-2026/
+URL:https://www.houstononthecheap.com/top-events-in-houston-november-13-nov
+ ember-15-2026/
 END:VEVENT
 BEGIN:VEVENT
-UID:iskcon-houston-diwali-2026-11-08@noboringweekends
-DTSTAMP:20261104T000000Z
-DTSTART:20261109T000000Z
-DTEND:20261109T030000Z
-SUMMARY:ISKCON 休斯顿排灯节烛光祈福
-LOCATION:ISKCON of Houston\, 1320 W 34th St\, Houston\, TX 77018
-DESCRIPTION:🕯️ 排灯节正日烛光仪式!\n周一还有供品山 Ann
- akut。\n费用:以官网为准\nhttps://www.mygoldscene.com/culture-calen
- dar/metro/houston
-URL:https://www.mygoldscene.com/culture-calendar/metro/houston
+UID:asts-arch-tour2-2026-11-14@noboringweekends
+DTSTAMP:20261113T000000Z
+DTSTART:20261114T170000Z
+DTEND:20261114T180000Z
+SUMMARY:亚洲协会德州中心建筑导览
+LOCATION:Asia Society Texas Center\, 1370 Southmore Blvd\, Houston\, TX 770
+ 04
+DESCRIPTION:🏛️ 谷口吉生设计的建筑导览\,$10\,需预约。\n
+ 费用:$10\,会员免费\nhttps://asiasociety.org/events
+URL:https://asiasociety.org/events
 END:VEVENT
 BEGIN:VEVENT
-UID:petco-jump-into-joy-2026-11-07@noboringweekends
-DTSTAMP:20261104T000000Z
-DTSTART:20261107T160000Z
-DTEND:20261107T220000Z
-SUMMARY:Petco 大型宠物领养会
-LOCATION:Reliant Arena\, NRG Park\, 1 NRG Pkwy\, Houston\, TX 77054
-DESCRIPTION:🐶 1500 多只猫狗等你!\n《戴帽子的猫》主题\,免
- 费入场\,有拍照点。\n费用:免费\nhttps://petcolove.org/
-URL:https://petcolove.org/
+UID:dg-diwali-2026-11-14@noboringweekends
+DTSTAMP:20261113T000000Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:Discovery Green 排灯节
+LOCATION:Discovery Green\, 1500 McKinney St\, Houston\, TX 77010
+DESCRIPTION:🪔 市中心公园排灯节\,灯火、舞蹈、印度美食\,
+ 免费!\n费用:免费\nhttps://www.houstononthecheap.com/top-events-in-ho
+ uston-november-13-november-15-2026/
+URL:https://www.houstononthecheap.com/top-events-in-houston-november-13-nov
+ ember-15-2026/
 END:VEVENT
 BEGIN:VEVENT
-UID:tomball-depot-day-2026-11-07@noboringweekends
-DTSTAMP:20261104T000000Z
-DTSTART:20261107T170000Z
-DTEND:20261107T230000Z
-SUMMARY:汤博尔火车站秋日节
-LOCATION:Tomball Depot Plaza\, 201 S Elm St\, Tomball\, TX 77375
-DESCRIPTION:🚂 模型火车 + 秋日集市!\n免费\,小火车迷必去
- 。\n费用:免费\nhttps://www.tomballtx.gov/
-URL:https://www.tomballtx.gov/
+UID:woodlands-wall-e-2026-11-13@noboringweekends
+DTSTAMP:20261113T000000Z
+DTSTART:20261114T000000Z
+DTEND:20261114T020000Z
+SUMMARY:The Woodlands 露天电影《机器人总动员》
+LOCATION:The Woodlands\, The Woodlands\, TX
+DESCRIPTION:🤖 免费露天电影\,周五 6 点开始~\n费用:免费\nht
+ tps://www.houstononthecheap.com/top-events-in-houston-november-13-november
+ -15-2026/
+URL:https://www.houstononthecheap.com/top-events-in-houston-november-13-nov
+ ember-15-2026/
 END:VEVENT
 BEGIN:VEVENT
-UID:houston-dia-de-muertos-2026-11-07@noboringweekends
-DTSTAMP:20261104T000000Z
-DTSTART:20261107T220000Z
-DTEND:20261108T040000Z
-SUMMARY:休斯顿亡灵节游行
-LOCATION:Sam Houston Park\, 1000 Bagby St\, Houston\, TX 77002
-DESCRIPTION:💀 第 6 届亡灵节游行!\n音乐、彩妆、家庭活动\
- ,免费。\n费用:免费\nhttps://www.eventbrite.com/e/reliant-presents-t
- he-6th-houston-dia-de-muertos-parade-festival-tickets-1998694689620
-URL:https://www.eventbrite.com/e/reliant-presents-the-6th-houston-dia-de-mu
- ertos-parade-festival-tickets-1998694689620
+UID:nutcracker-market-2026-11-13@noboringweekends
+DTSTAMP:20261113T000000Z
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
+SUMMARY:休斯顿芭蕾胡桃夹子市集
+LOCATION:NRG Park\, 1 NRG Pkwy\, Houston\, TX 77054
+DESCRIPTION:🎄 休斯顿最大的节日购物市集!$46 起。\n费用:$4
+ 6 起\nhttps://www.houstononthecheap.com/top-events-in-houston-november-13
+ -november-15-2026/
+URL:https://www.houstononthecheap.com/top-events-in-houston-november-13-nov
+ ember-15-2026/
 END:VEVENT
 BEGIN:VEVENT
-UID:pavilion-palooza-2026-11-07@noboringweekends
-DTSTAMP:20261104T000000Z
-DTSTART;VALUE=DATE:20261107
-DTEND;VALUE=DATE:20261108
-SUMMARY:Pavilion Palooza 环游世界艺术节
-LOCATION:Cynthia Woods Mitchell Pavilion\, 2005 Lake Robbins Dr\, The Woodl
- ands\, TX 77380
-DESCRIPTION:🌍 周六日“环游世界”!\n8 个主题区\,表演和活
- 动都含在门票里。\n费用:需购票\nhttps://www.woodlandscenter.or
- g/
-URL:https://www.woodlandscenter.org/
+UID:disney-on-ice-hou-2026-11-13@noboringweekends
+DTSTAMP:20261113T000000Z
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
+SUMMARY:迪士尼冰上世界
+LOCATION:NRG Stadium\, NRG Pkwy\, Houston\, TX 77054
+DESCRIPTION:⛸️ 迪士尼公主冰上表演\,11/13-15。\n费用:以官
+ 网为准\nhttps://www.houstononthecheap.com/top-events-in-houston-novembe
+ r-13-november-15-2026/
+URL:https://www.houstononthecheap.com/top-events-in-houston-november-13-nov
+ ember-15-2026/
 END:VEVENT
 BEGIN:VEVENT
-UID:abnc-fall-festival-2026-11-07@noboringweekends
-DTSTAMP:20261104T000000Z
-DTSTART;VALUE=DATE:20261107
-DTEND;VALUE=DATE:20261108
-SUMMARY:Armand Bayou 自然中心秋季节
-LOCATION:Armand Bayou Nature Center\, 8500 Bay Area Blvd\, Pasadena\, TX 77
- 507
-DESCRIPTION:🦌 周六日湿地秋季节!\n户外探索\,适合爱自然
- 的娃。\n费用:以官网为准\nhttps://www.abnc.org/
-URL:https://www.abnc.org/
+UID:traders-powwow-2026-11-14@noboringweekends
+DTSTAMP:20261113T000000Z
+DTSTART:20261114T160000Z
+DTEND:20261114T230000Z
+SUMMARY:Traders Village 原住民 Pow Wow(周六/日)
+LOCATION:Traders Village\, 7979 N Eldridge Pkwy\, Houston\, TX 77041
+DESCRIPTION:🪶 原住民舞蹈和手工艺\,周六周日 10-5 点。\n费
+ 用:以官网为准\nhttps://www.houstononthecheap.com/top-events-in-houst
+ on-november-13-november-15-2026/
+URL:https://www.houstononthecheap.com/top-events-in-houston-november-13-nov
+ ember-15-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:galaxy-lights-2026-11-14@noboringweekends
+DTSTAMP:20261113T000000Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:休斯顿太空中心 Galaxy Lights(开幕)
+LOCATION:Space Center Houston\, 1601 E NASA Pkwy\, Houston\, TX 77058
+DESCRIPTION:🚀 太空主题节日灯光秀周六开幕!$15.95 起。\n费
+ 用:$15.95 起\nhttps://www.houstononthecheap.com/top-events-in-houston-no
+ vember-13-november-15-2026/
+URL:https://www.houstononthecheap.com/top-events-in-houston-november-13-nov
+ ember-15-2026/
 END:VEVENT
 END:VCALENDAR

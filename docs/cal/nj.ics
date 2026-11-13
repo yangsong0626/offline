@@ -8,119 +8,92 @@ X-WR-TIMEZONE:America/New_York
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:shanghai-ballet-stnj-2026-11-06@noboringweekends
-DTSTAMP:20261104T000000Z
-DTSTART:20261107T003000Z
-DTEND:20261107T023000Z
-SUMMARY:上海芭蕾舞团新泽西演出
+UID:sp-diwali-2026-11-14@noboringweekends
+DTSTAMP:20261113T000000Z
+DTSTART:20261114T163000Z
+DTEND:20261114T193000Z
+SUMMARY:South Plainfield 排灯节庆祝
+LOCATION:South Plainfield Senior Center\, South Plainfield\, NJ 07080
+DESCRIPTION:🪔 免费排灯节:手工、表演、小吃!\n中部新泽西
+ 印度裔社区活动\,带娃感受灯火节~\n费用:免费\nhttps://www.
+ njfamily.com/things-to-do-this-weekend-in-nj-november-13-15-2026/
+URL:https://www.njfamily.com/things-to-do-this-weekend-in-nj-november-13-15
+ -2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:raritan-food-truck-2026-11-14@noboringweekends
+DTSTAMP:20261113T000000Z
+DTSTART:20261114T160000Z
+DTEND:20261114T230000Z
+SUMMARY:Raritan 秋日餐车音乐节
+LOCATION:Raritan\, Raritan\, NJ 08869
+DESCRIPTION:🚚 餐车+现场音乐\,上午 11 点到 6 点~\n费用:以
+ 官网为准\nhttps://www.njfamily.com/things-to-do-this-weekend-in-nj-nov
+ ember-13-15-2026/
+URL:https://www.njfamily.com/things-to-do-this-weekend-in-nj-november-13-15
+ -2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:terhune-pie-2026-11-14@noboringweekends
+DTSTAMP:20261113T000000Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:Terhune 果园派品尝周末(周六/日)
+LOCATION:Terhune Orchards\, 330 Cold Soil Rd\, Princeton\, NJ 08540
+DESCRIPTION:🥧 普林斯顿果园试吃各种派!周六周日都有\,感
+ 恩节前先挑好口味~\n费用:以官网为准\nhttps://www.njfamily.co
+ m/things-to-do-this-weekend-in-nj-november-13-15-2026/
+URL:https://www.njfamily.com/things-to-do-this-weekend-in-nj-november-13-15
+ -2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:cocomelon-nj-2026-11-14@noboringweekends
+DTSTAMP:20261113T000000Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:CoComelon 儿歌演唱会
 LOCATION:State Theatre New Jersey\, 15 Livingston Ave\, New Brunswick\, NJ 
  08901
-DESCRIPTION:🩰 上海芭蕾舞团来新泽西!\n周五晚新布朗斯维
- 克州立剧院\,带爸妈和娃一起看。\n费用:购票\,以官网为
- 准\nhttps://www.stnj.org/
-URL:https://www.stnj.org/
+DESCRIPTION:🍉 小小孩最爱的 CoComelon!周六新布朗斯维克\,周
+ 日 1 点在 Englewood 还有一场。\n费用:以官网为准\nhttps://ww
+ w.njkidsonline.com/events
+URL:https://www.njkidsonline.com/events
 END:VEVENT
 BEGIN:VEVENT
-UID:old-bridge-library-diwali-2026-11-07@noboringweekends
-DTSTAMP:20261104T000000Z
-DTSTART:20261107T160000Z
-DTEND:20261107T180000Z
-SUMMARY:老桥图书馆排灯节手工
-LOCATION:Old Bridge Public Library (Central)\, 1 Old Bridge Plaza\, Old Bri
- dge\, NJ 08857
-DESCRIPTION:🕯️ 图书馆排灯节手工!\n画油灯、蜡烛和纸艺\
- ,免费\,适合小朋友。\n费用:免费\nhttps://oldbridgelibrary.event
- s.mylibrary.digital/event?id=419560
-URL:https://oldbridgelibrary.events.mylibrary.digital/event?id=419560
+UID:wildwood-christmasween-2026-11-14@noboringweekends
+DTSTAMP:20261113T000000Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:Wildwood ChristmasWeen 节日派对
+LOCATION:Wildwood\, Wildwood\, NJ 08260
+DESCRIPTION:🎃🎄 万圣节遇上圣诞节的家庭派对\,海边小镇
+ 开启节日季!\n费用:以官网为准\nhttps://www.njfamily.com/things-
+ to-do-this-weekend-in-nj-november-13-15-2026/
+URL:https://www.njfamily.com/things-to-do-this-weekend-in-nj-november-13-15
+ -2026/
 END:VEVENT
 BEGIN:VEVENT
-UID:diwali-together-jc-2026-11-07@noboringweekends
-DTSTAMP:20261104T000000Z
-DTSTART:20261107T210000Z
-DTEND:20261107T230000Z
-SUMMARY:泽西市 Diwali Together
-LOCATION:Grundy Pier\, Exchange Place\, Jersey City\, NJ 07302
-DESCRIPTION:✨ 对着曼哈顿天际线过排灯节!\n交易广场码头\,
- 免费。\n费用:免费\nhttps://www.njfamily.com/events/diwali-together-
- jersey-city/
-URL:https://www.njfamily.com/events/diwali-together-jersey-city/
+UID:nj-coffee-fest-2026-11-14@noboringweekends
+DTSTAMP:20261113T000000Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:新泽西咖啡节(周六/日)
+LOCATION:New Jersey\, New Jersey (venue: see website)
+DESCRIPTION:☕ 咖啡爱好者的周末\,地点票价以官网为准。\n
+ 费用:以官网为准\nhttps://newjerseyisntboring.com/njibs-guide-to-70-
+ new-jersey-november-events-festivals-2026/
+URL:https://newjerseyisntboring.com/njibs-guide-to-70-new-jersey-november-e
+ vents-festivals-2026/
 END:VEVENT
 BEGIN:VEVENT
-UID:edison-diwali-2026-11-07@noboringweekends
-DTSTAMP:20261104T000000Z
-DTSTART:20261107T220000Z
-DTEND:20261108T020000Z
-SUMMARY:爱迪生镇排灯节
-LOCATION:Papaianni Park\, 100 Municipal Blvd\, Edison\, NJ 08817
-DESCRIPTION:🪔 爱迪生排灯节!\n印度美食、歌舞和灯火\,雨
- 天改到 11/14。\n费用:通常免费\,以官网为准\nhttps://www.edis
- onnj.org/
-URL:https://www.edisonnj.org/
-END:VEVENT
-BEGIN:VEVENT
-UID:akshardham-diwali-2026-11-07@noboringweekends
-DTSTAMP:20261104T000000Z
-DTSTART:20261108T003000Z
-DTEND:20261108T023000Z
-SUMMARY:罗宾斯维尔 Akshardham 排灯节烟花
-LOCATION:BAPS Swaminarayan Akshardham\, 112 N Main St\, Robbinsville\, NJ 0
- 8691
-DESCRIPTION:🎆 Akshardham 大神庙排灯节烟花!\n建筑本身就很
- 壮观\,晚上灯火 + 烟花。\n费用:以官网为准\nhttps://www.njfa
- mily.com/events/diwali-at-b-a-p-s-swaminarayan-akshardham/
-URL:https://www.njfamily.com/events/diwali-at-b-a-p-s-swaminarayan-akshardh
- am/
-END:VEVENT
-BEGIN:VEVENT
-UID:trailside-gem-show-2026-11-07@noboringweekends
-DTSTAMP:20261104T000000Z
-DTSTART:20261107T150000Z
-DTEND:20261107T170000Z
-SUMMARY:Trailside 矿石宝石展
-LOCATION:Trailside Nature & Science Center\, 452 New Providence Rd\, Mounta
- inside\, NJ 07092
-DESCRIPTION:💎 周六日都开!\n矿石、宝石、化石\,免费\,捡石
- 头的娃会很开心。\n费用:免费\nhttps://ucnj.org/trailside-nature
- -and-science-center/events/
-URL:https://ucnj.org/trailside-nature-and-science-center/events/
-END:VEVENT
-BEGIN:VEVENT
-UID:hunterdon-touch-a-truck-2026-11-07@noboringweekends
-DTSTAMP:20261104T000000Z
-DTSTART:20261107T160000Z
-DTEND:20261107T180000Z
-SUMMARY:亨特登 Touch-a-Truck 摸大车
-LOCATION:Deer Path Park\, 120 W Woodschurch Rd\, Flemington\, NJ 08822
-DESCRIPTION:🚒 25 辆以上消防车、工程车随便爬!\n免费\,小
- 男孩最爱。\n费用:免费\nhttps://www.co.hunterdon.nj.us/2780/Touch-
- a-Truck
-URL:https://www.co.hunterdon.nj.us/2780/Touch-a-Truck
-END:VEVENT
-BEGIN:VEVENT
-UID:cherry-grove-cow-parade-2026-11-07@noboringweekends
-DTSTAMP:20261104T000000Z
-DTSTART:20261107T180000Z
-DTEND:20261107T200000Z
-SUMMARY:Cherry Grove 农场奶牛游行
-LOCATION:Cherry Grove Farm\, 3200 Lawrenceville Rd\, Lawrenceville\, NJ 086
- 48
-DESCRIPTION:🐄 打扮好的奶牛列队游行!\n还有干草车、蹦床
- 、搅黄油、篝火。\n费用:每车 $20\nhttps://www.cherrygrovefarm.c
- om/shop/p/cow-parade
-URL:https://www.cherrygrovefarm.com/shop/p/cow-parade
-END:VEVENT
-BEGIN:VEVENT
-UID:terhune-encore-2026-11-07@noboringweekends
-DTSTAMP:20261104T000000Z
-DTSTART;VALUE=DATE:20261107
-DTEND;VALUE=DATE:20261108
-SUMMARY:Terhune 果园秋日嘉年华加场
-LOCATION:Terhune Orchards\, 330 Cold Soil Rd\, Princeton\, NJ 08540
-DESCRIPTION:🍎 11/6-8 秋季最后一个周末!\n小马、玉米迷宫、
- 踏板拖拉机、画南瓜\,30 多项活动。\n费用:以官网为准\nh
- ttps://www.terhuneorchards.com/event/fall-family-fun-weekends-encore-weeke
- nd-3/
-URL:https://www.terhuneorchards.com/event/fall-family-fun-weekends-encore-w
- eekend-3/
+UID:njbg-hike-2026-11-15@noboringweekends
+DTSTAMP:20261113T000000Z
+DTSTART:20261115T150000Z
+DTEND:20261115T170000Z
+SUMMARY:新泽西植物园亲子林间徒步
+LOCATION:New Jersey Botanical Garden\, 2 Morris Rd\, Ringwood\, NJ 07456
+DESCRIPTION:🍂 10:00、10:30、11:00 三个时段\,带娃去看晚秋树
+ 林~\n费用:以官网为准\nhttps://www.njkidsonline.com/events
+URL:https://www.njkidsonline.com/events
 END:VEVENT
 END:VCALENDAR

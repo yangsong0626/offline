@@ -8,58 +8,77 @@ X-WR-TIMEZONE:America/Los_Angeles
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:taiwan-expo-san-mateo-2026-11-07@noboringweekends
-DTSTAMP:20261104T000000Z
-DTSTART:20261107T180000Z
-DTEND:20261108T010000Z
-SUMMARY:美国台湾博览会(湾区)
-LOCATION:San Mateo County Event Center\, Expo Hall\, 1346 Saratoga Dr\, San
-  Mateo\, CA 94403
-DESCRIPTION:🧋 周六日两天台湾博览会!\n台湾小吃、零食试
- 吃、生活好物和文化体验\,逛吃一下午。\n费用:约 $4 起\,
- 以购票页为准\nhttps://www.eventbrite.com/e/usa-taiwan-global-expo-ba
- y-area-ca-tickets-2002767458381
-URL:https://www.eventbrite.com/e/usa-taiwan-global-expo-bay-area-ca-tickets
- -2002767458381
+UID:chcp-veterans-2026-11-14@noboringweekends
+DTSTAMP:20261113T000000Z
+DTSTART:20261114T200000Z
+DTEND:20261114T234500Z
+SUMMARY:华裔历史博物馆退伍军人节活动(圣何塞)
+LOCATION:Chinese American Historical Museum (Ng Shing Gung)\, History Park\
+ , 1650 Senter Rd\, San Jose\, CA 95112
+DESCRIPTION:🎖️ 南湾华人历史文化项目主办\,纪念华裔退
+ 伍军人的故事!\n在历史公园的五帝庙博物馆\,细节以官网
+ 为准。\n费用:以官网为准\nhttps://chcp.org/events
+URL:https://chcp.org/events
 END:VEVENT
 BEGIN:VEVENT
-UID:presidio-dia-diwali-2026-11-07@noboringweekends
-DTSTAMP:20261104T000000Z
-DTSTART:20261107T180000Z
-DTEND:20261107T230000Z
-SUMMARY:要塞公园亡灵节 + 排灯节
-LOCATION:Presidio Tunnel Tops / Crissy Field Center\, 603 Mason St\, San Fr
- ancisco\, CA 94129
-DESCRIPTION:🔥 南亚 + 拉美两个节一起过!\n手工、讲故事、
- 舞蹈和火仪式\,金门大桥边\,免费。\n费用:免费\nhttps://pre
- sidio.gov/explore/events/dia-de-los-muertos-and-diwali-festival
-URL:https://presidio.gov/explore/events/dia-de-los-muertos-and-diwali-festi
- val
+UID:aam-artisan-market-2026-11-14@noboringweekends
+DTSTAMP:20261113T000000Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:亚洲艺术博物馆假日手作市集+竹艺讲座
+LOCATION:Asian Art Museum\, 200 Larkin St\, San Francisco\, CA 94102
+DESCRIPTION:🎋 假日手作市集+下午 2 点竹艺大师生田敏江讲
+ 座!\n还有韩国艺术家河钟贤回顾展导览\,门票以官网为准
+ 。\n费用:以官网为准\nhttps://calendar.asianart.org/
+URL:https://calendar.asianart.org/
 END:VEVENT
 BEGIN:VEVENT
-UID:kristi-yamaguchi-rink-2026-11-06@noboringweekends
-DTSTAMP:20261104T000000Z
-DTSTART:20261107T020000Z
-DTEND:20261107T030000Z
-SUMMARY:山口·克里斯蒂冰场开幕
-LOCATION:City Center Bishop Ranch\, 6000 Bollinger Canyon Rd\, San Ramon\, 
- CA 94583
-DESCRIPTION:⛸️ 奥运冠军山口·克里斯蒂亲自剪彩!\n周五傍
- 晚滑冰表演 + 唱诗\,免费。\n费用:免费\nhttps://www.citycenter
- bishopranch.com/
-URL:https://www.citycenterbishopranch.com/
+UID:randall-science-2026-11-14@noboringweekends
+DTSTAMP:20261113T000000Z
+DTSTART:20261114T190000Z
+DTEND:20261114T213000Z
+SUMMARY:Randall 博物馆周六科学
+LOCATION:Randall Museum\, 199 Museum Way\, San Francisco\, CA 94114
+DESCRIPTION:🔬 免费亲子科学活动\,上午 11 点到 1:30~\n费用:
+ 免费\nhttps://familyfriendlysf.com/events
+URL:https://familyfriendlysf.com/events
 END:VEVENT
 BEGIN:VEVENT
-UID:sf-coffee-festival-2026-11-07@noboringweekends
-DTSTAMP:20261104T000000Z
-DTSTART:20261107T173000Z
-DTEND:20261108T003000Z
-SUMMARY:旧金山咖啡节
-LOCATION:Fort Mason Festival Pavilion\, 2 Marina Blvd\, San Francisco\, CA 
- 94123
-DESCRIPTION:☕ 周六日咖啡节\,无限试饮!\n上百家烘焙商 + 现
- 场音乐\,大人的周末。\n费用:$29 起\nhttps://www.sfcoffeefestiva
- l.com/
-URL:https://www.sfcoffeefestival.com/
+UID:sf-tea-festival-2026-11-14@noboringweekends
+DTSTAMP:20261113T000000Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:旧金山茶节(周六/日)
+LOCATION:Ferry Building\, 1 Ferry Building\, San Francisco\, CA 94111
+DESCRIPTION:🍵 渡轮大厦茶节\,各国好茶试饮~\n费用:以官网
+ 为准\nhttps://sf.funcheap.com/category/event/event-types/kids-families/
+URL:https://sf.funcheap.com/category/event/event-types/kids-families/
+END:VEVENT
+BEGIN:VEVENT
+UID:renegade-craft-sf-2026-11-14@noboringweekends
+DTSTAMP:20261113T000000Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:Renegade 手作市集(周六/日)
+LOCATION:Fort Mason Center\, 2 Marina Blvd\, San Francisco\, CA 94123
+DESCRIPTION:🛍️ 几百家独立手作摊位\,提前买圣诞礼物!\n
+ 费用:以官网为准\nhttps://sf.funcheap.com/category/event/event-types
+ /kids-families/
+URL:https://sf.funcheap.com/category/event/event-types/kids-families/
+END:VEVENT
+BEGIN:VEVENT
+UID:union-sq-rink-2026-11-14@noboringweekends
+DTSTAMP:20261113T000000Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:联合广场溜冰场
+LOCATION:Union Square\, 333 Post St\, San Francisco\, CA 94108
+DESCRIPTION:⛸️ 联合广场节日溜冰场开张了\,滑完逛街~\n费
+ 用:以官网为准\nhttps://mommypoppins.com/san-francisco-bay-area-kids/
+ weekend-events/things-to-do-in-san-francisco-this-weekend-san-jose-oakland
+ -east-bay-kids-families
+URL:https://mommypoppins.com/san-francisco-bay-area-kids/weekend-events/thi
+ ngs-to-do-in-san-francisco-this-weekend-san-jose-oakland-east-bay-kids-fam
+ ilies
 END:VEVENT
 END:VCALENDAR

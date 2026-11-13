@@ -8,73 +8,77 @@ X-WR-TIMEZONE:America/Los_Angeles
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:great-park-holiday-faire-2026-11-07@noboringweekends
-DTSTAMP:20261104T000000Z
-DTSTART:20261107T180000Z
-DTEND:20261108T000000Z
-SUMMARY:尔湾大公园节日手作市集
-LOCATION:Great Park Palm Court Arts Complex & Hangar 244\, 8000 Great Park 
- Blvd\, Irvine\, CA 92618
-DESCRIPTION:🎁 尔湾第 44 届节日市集!\n大公园机库里逛手作
- 摊\,免费。\n费用:免费\nhttps://www.cityofirvine.org/
-URL:https://www.cityofirvine.org/
+UID:disneyland-holidays-2026-11-13@noboringweekends
+DTSTAMP:20261113T000000Z
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
+SUMMARY:迪士尼乐园圣诞季开幕
+LOCATION:Disneyland Resort\, 1313 Disneyland Dr\, Anaheim\, CA 92802
+DESCRIPTION:🎄 迪士尼圣诞季 11/13 开始!需购票预约。\n费用
+ :以官网为准\nhttps://www.visitanaheim.org/blog/post/things-to-do-in-a
+ naheim-and-orange-county-this-november-2026/
+URL:https://www.visitanaheim.org/blog/post/things-to-do-in-anaheim-and-oran
+ ge-county-this-november-2026/
 END:VEVENT
 BEGIN:VEVENT
-UID:tustin-veterans-day-2026-11-07@noboringweekends
-DTSTAMP:20261104T000000Z
-DTSTART:20261107T180000Z
-DTEND:20261107T220000Z
-SUMMARY:塔斯廷退伍军人节庆典 + 车展
-LOCATION:Veterans Sports Park\, 1645 Valencia Ave\, Tustin\, CA 92782
-DESCRIPTION:🚙 免费家庭活动!\n仪式、乐队、车展、餐车。\
- n费用:免费\nhttps://www.tustinca.org/
-URL:https://www.tustinca.org/
+UID:spectrum-rink-2026-11-14@noboringweekends
+DTSTAMP:20261113T000000Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:尔湾 Spectrum 溜冰场
+LOCATION:Irvine Spectrum Center\, 670 Spectrum Center Dr\, Irvine\, CA 9261
+ 8
+DESCRIPTION:⛸️ 尔湾商场户外溜冰场开张\,开到 1/2~\n费用:
+ 以官网为准\nhttps://orangecoast.com/arts-culture/o-c-events/top-thing
+ s-to-do-in-o-c-this-week-november-11th-through-17th/
+URL:https://orangecoast.com/arts-culture/o-c-events/top-things-to-do-in-o-c
+ -this-week-november-11th-through-17th/
 END:VEVENT
 BEGIN:VEVENT
-UID:oc-kids-expo-2026-11-07@noboringweekends
-DTSTAMP:20261104T000000Z
-DTSTART:20261107T190000Z
-DTEND:20261107T220000Z
-SUMMARY:OC 儿童博览会
-LOCATION:Great Park\, 280 Corsair\, Irvine\, CA 92618
-DESCRIPTION:🧩 尔湾大公园儿童博览会!\n动手活动、学习和
- 兴趣班一站看完。\n费用:以官网为准\nhttps://kids2026.com/exp
- o/
-URL:https://kids2026.com/expo/
-END:VEVENT
-BEGIN:VEVENT
-UID:noche-de-altares-2026-11-07@noboringweekends
-DTSTAMP:20261104T000000Z
-DTSTART:20261107T200000Z
-DTEND:20261108T050000Z
-SUMMARY:圣安娜亡灵节祭坛之夜
-LOCATION:Downtown Santa Ana\, 4th St between Ross St & Broadway\, Santa Ana
- \, CA 92701
-DESCRIPTION:💀 社区祭坛、骷髅妆、艺术家摊位!\n4 街免费
- 逛到晚上 9 点。\n费用:免费\nhttps://www.ventureoc.com/events
-URL:https://www.ventureoc.com/events
-END:VEVENT
-BEGIN:VEVENT
-UID:sugar-plum-costa-mesa-2026-11-07@noboringweekends
-DTSTAMP:20261104T000000Z
-DTSTART;VALUE=DATE:20261107
-DTEND;VALUE=DATE:20261108
-SUMMARY:科斯塔梅萨 Sugar Plum 手作节
-LOCATION:OC Fair & Event Center\, 88 Fair Dr\, Costa Mesa\, CA 92626
-DESCRIPTION:🎄 11/6-8 节日手作大集!\n提前买圣诞礼物。\n费
- 用:以官网为准\nhttps://enjoyorangecounty.com/whats-happening/
+UID:heritage-powwow-2026-11-14@noboringweekends
+DTSTAMP:20261113T000000Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:Heritage 博物馆原住民 Pow Wow
+LOCATION:Heritage Museum of Orange County\, 3101 W Harvard St\, Santa Ana\,
+  CA 92704
+DESCRIPTION:🪶 免费原住民舞蹈和文化活动~\n费用:免费\nhttp
+ s://enjoyorangecounty.com/whats-happening/
 URL:https://enjoyorangecounty.com/whats-happening/
 END:VEVENT
 BEGIN:VEVENT
-UID:hb-st-martin-lantern-2026-11-08@noboringweekends
-DTSTAMP:20261104T000000Z
-DTSTART:20261109T010000Z
-DTEND:20261109T023000Z
-SUMMARY:亨廷顿海滩圣马丁灯笼游行
+UID:oc-book-fair-2026-11-14@noboringweekends
+DTSTAMP:20261113T000000Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:Tustin 老城书展
+LOCATION:Old Town Tustin\, El Camino Real\, Tustin\, CA 92780
+DESCRIPTION:📚 老城区书展\,带娃去淘书~\n费用:免费\nhttps://
+ enjoyorangecounty.com/whats-happening/
+URL:https://enjoyorangecounty.com/whats-happening/
+END:VEVENT
+BEGIN:VEVENT
+UID:water-elephants-2026-11-14@noboringweekends
+DTSTAMP:20261113T000000Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:音乐剧《大象的眼泪》
+LOCATION:Segerstrom Hall\, 600 Town Center Dr\, Costa Mesa\, CA 92626
+DESCRIPTION:🐘 百老汇巡演\,演到 11/22\,票务以官网为准。\n
+ 费用:以官网为准\nhttps://orangecoast.com/arts-culture/o-c-events/to
+ p-things-to-do-in-o-c-this-week-november-11th-through-17th/
+URL:https://orangecoast.com/arts-culture/o-c-events/top-things-to-do-in-o-c
+ -this-week-november-11th-through-17th/
+END:VEVENT
+BEGIN:VEVENT
+UID:dachshund-races-2026-11-15@noboringweekends
+DTSTAMP:20261113T000000Z
+DTSTART:20261115T180000Z
+DTEND:20261115T220000Z
+SUMMARY:亨廷顿海滩腊肠狗赛跑
 LOCATION:Old World Village\, 7561 Center Ave\, Huntington Beach\, CA 92647
-DESCRIPTION:🏮 德国传统提灯笼游行!\n周日傍晚\,带娃提灯
- 走一圈\,免费。\n费用:免费\nhttps://www.orangecounty.net/html/wee
- kend_events.html
-URL:https://www.orangecounty.net/html/weekend_events.html
+DESCRIPTION:🌭🐶 腊肠狗全国冠军赛+宠物展\,萌到犯规!\n费
+ 用:以官网为准\nhttps://enjoyorangecounty.com/whats-happening/
+URL:https://enjoyorangecounty.com/whats-happening/
 END:VEVENT
 END:VCALENDAR
