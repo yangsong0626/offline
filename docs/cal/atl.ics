@@ -83,4 +83,38 @@ DESCRIPTION:🎁 80+ 手作摊位\,周六周日两天。\n费用:以官网
  anta/
 URL:https://www.ajc.com/accessatl/2026/11/15-things-to-do-in-metro-atlanta/
 END:VEVENT
+BEGIN:VEVENT
+UID:piedmont-meteorites-2026-11-16@noboringweekends
+DTSTAMP:20261113T000000Z
+DTSTART:20261116T230000Z
+DTEND:20261117T003000Z
+SUMMARY:Piedmont 公园陨石讲座
+LOCATION:Piedmont Park\, 400 Park Dr NE\, Atlanta\, GA 30306
+DESCRIPTION:☄️ 狮子座流星雨这周达到峰值\,先来听陨石讲
+ 座!\n费用:以官网为准\nhttps://piedmontpark.org/calendar/
+URL:https://piedmontpark.org/calendar/
+END:VEVENT
+BEGIN:VEVENT
+UID:doja-cat-2026-11-16@noboringweekends
+DTSTAMP:20261113T000000Z
+DTSTART:20261117T010000Z
+DTEND:20261117T030000Z
+SUMMARY:Doja Cat 演唱会
+LOCATION:State Farm Arena\, 1 State Farm Dr\, Atlanta\, GA 30303
+DESCRIPTION:🐱 Doja Cat 亚特兰大站\,周一晚 8 点。\n费用:以
+ 官网为准\nhttps://www.songkick.com/metro-areas/4120-us-atlanta/novembe
+ r-2026
+URL:https://www.songkick.com/metro-areas/4120-us-atlanta/november-2026
+END:VEVENT
+BEGIN:VEVENT
+UID:kamasi-2026-11-18@noboringweekends
+DTSTAMP:20261113T000000Z
+DTSTART:20261119T023000Z
+DTEND:20261119T043000Z
+SUMMARY:Kamasi Washington 爵士
+LOCATION:City Winery Atlanta\, 650 North Ave NE\, Atlanta\, GA 30308
+DESCRIPTION:🎷 爵士萨克斯 Kamasi Washington\,11/18-19 两晚。\n费
+ 用:以官网为准\nhttps://discoveratlanta.com/events/all/
+URL:https://discoveratlanta.com/events/all/
+END:VEVENT
 END:VCALENDAR

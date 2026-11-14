@@ -33,6 +33,41 @@ DESCRIPTION:🎋 假日手作市集+下午 2 点竹艺大师生田敏江讲
 URL:https://calendar.asianart.org/
 END:VEVENT
 BEGIN:VEVENT
+UID:tea-garden-free-2026-11-16@noboringweekends
+DTSTAMP:20261113T000000Z
+DTSTART:20261116T170000Z
+DTEND:20261116T180000Z
+SUMMARY:日本茶园免费一小时(周一/三/五)
+LOCATION:Japanese Tea Garden\, 75 Hagiwara Tea Garden Dr\, San Francisco\, 
+ CA 94118
+DESCRIPTION:🍁 周一、周三、周五早上 9-10 点免费!晚秋枫叶
+ 正好~\n费用:免费\nhttps://sf.funcheap.com/2026/11/16/
+URL:https://sf.funcheap.com/2026/11/16/
+END:VEVENT
+BEGIN:VEVENT
+UID:monday-mukja-2026-11-16@noboringweekends
+DTSTAMP:20261113T000000Z
+DTSTART:20261117T020000Z
+DTEND:20261117T040000Z
+SUMMARY:Monday Mukja 韩国社区晚餐
+LOCATION:The Buoy\, San Francisco\, CA
+DESCRIPTION:🍲 周一晚上一起吃韩餐\,认识新朋友~地址以官
+ 网为准。\n费用:以官网为准\nhttps://www.sfvibe.com/events
+URL:https://www.sfvibe.com/events
+END:VEVENT
+BEGIN:VEVENT
+UID:prateek-kuhad-2026-11-19@noboringweekends
+DTSTAMP:20261113T000000Z
+DTSTART;VALUE=DATE:20261119
+DTEND;VALUE=DATE:20261120
+SUMMARY:Prateek Kuhad 演唱会
+LOCATION:Castro Theatre\, 429 Castro St\, San Francisco\, CA 94114
+DESCRIPTION:🎶 印度创作歌手 Prateek Kuhad\,卡斯特罗剧院\,票
+ 务以官网为准。\n费用:以官网为准\nhttps://allevents.in/san-fr
+ ancisco/november--december
+URL:https://allevents.in/san-francisco/november--december
+END:VEVENT
+BEGIN:VEVENT
 UID:randall-science-2026-11-14@noboringweekends
 DTSTAMP:20261113T000000Z
 DTSTART:20261114T190000Z
@@ -80,5 +115,30 @@ DESCRIPTION:⛸️ 联合广场节日溜冰场开张了\,滑完逛街~\n费
 URL:https://mommypoppins.com/san-francisco-bay-area-kids/weekend-events/thi
  ngs-to-do-in-san-francisco-this-weekend-san-jose-oakland-east-bay-kids-fam
  ilies
+END:VEVENT
+BEGIN:VEVENT
+UID:nutcracker-sweets-2026-11-18@noboringweekends
+DTSTAMP:20261113T000000Z
+DTSTART:20261118T190000Z
+DTEND:20261118T210000Z
+SUMMARY:列治文区图书馆:小朋友胡桃夹子
+LOCATION:Richmond Branch Library\, 351 9th Ave\, San Francisco\, CA 94118
+DESCRIPTION:🩰 华人多的列治文区图书馆\,小小孩的胡桃夹
+ 子活动\,免费!\n费用:免费\nhttps://projectsf.com/san-francisco-eve
+ nts-november-2026/
+URL:https://projectsf.com/san-francisco-events-november-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:embarcadero-lighting-2026-11-18@noboringweekends
+DTSTAMP:20261113T000000Z
+DTSTART:20261119T000000Z
+DTEND:20261119T020000Z
+SUMMARY:Embarcadero Center 假日市集+大楼点灯
+LOCATION:Embarcadero Center\, 4 Embarcadero Center\, San Francisco\, CA 941
+ 11
+DESCRIPTION:💡 四栋大楼轮廓灯一起亮起!还有假日市集\,下
+ 午 4 点开始~\n费用:免费\nhttps://projectsf.com/san-francisco-event
+ s-november-2026/
+URL:https://projectsf.com/san-francisco-events-november-2026/
 END:VEVENT
 END:VCALENDAR

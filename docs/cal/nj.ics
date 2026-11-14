@@ -96,4 +96,42 @@ DESCRIPTION:🍂 10:00、10:30、11:00 三个时段\,带娃去看晚秋树
  林~\n费用:以官网为准\nhttps://www.njkidsonline.com/events
 URL:https://www.njkidsonline.com/events
 END:VEVENT
+BEGIN:VEVENT
+UID:morven-trees-2026-11-18@noboringweekends
+DTSTAMP:20261113T000000Z
+DTSTART;VALUE=DATE:20261118
+DTEND;VALUE=DATE:20261119
+SUMMARY:Morven 博物馆圣诞树节(开幕)
+LOCATION:Morven Museum & Garden\, 55 Stockton St\, Princeton\, NJ 08540
+DESCRIPTION:🎄 普林斯顿老宅里的圣诞树展\,20 周年\,11/18 开
+ 幕!\n费用:以官网为准\nhttps://www.newjerseystage.com/articles3/202
+ 6/11/10/events-this-week-in-new-jersey-from-november-10-16-2026/
+URL:https://www.newjerseystage.com/articles3/2026/11/10/events-this-week-in
+ -new-jersey-from-november-10-16-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:paper-mill-poppins-2026-11-18@noboringweekends
+DTSTAMP:20261113T000000Z
+DTSTART;VALUE=DATE:20261118
+DTEND;VALUE=DATE:20261119
+SUMMARY:Paper Mill 剧院《欢乐满人间》
+LOCATION:Paper Mill Playhouse\, 22 Brookside Dr\, Millburn\, NJ 07041
+DESCRIPTION:☂️ 节日季音乐剧\,11/18 开演\,带娃看玛丽阿姨~
+ \n费用:以官网为准\nhttps://www.njpac.org/tickets-events/
+URL:https://www.njpac.org/tickets-events/
+END:VEVENT
+BEGIN:VEVENT
+UID:rutgers-telescope-2026-11-19@noboringweekends
+DTSTAMP:20261113T000000Z
+DTSTART;VALUE=DATE:20261119
+DTEND;VALUE=DATE:20261120
+SUMMARY:罗格斯天文台公众观星
+LOCATION:Schommer Astronomical Observatory\, 136 Frelinghuysen Rd\, Piscata
+ way\, NJ 08854
+DESCRIPTION:🔭 免费上屋顶看望远镜!视天气开放\,时间以官
+ 网为准。\n费用:免费\nhttps://njtoday.news/2026/10/30/coming-up-in-
+ november-new-jersey-events-to-put-on-your-calendar/
+URL:https://njtoday.news/2026/10/30/coming-up-in-november-new-jersey-events
+ -to-put-on-your-calendar/
+END:VEVENT
 END:VCALENDAR

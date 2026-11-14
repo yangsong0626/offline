@@ -94,4 +94,27 @@ DESCRIPTION:🎸 Daughtry 达拉斯站\,票务以官网为准。\n费用:
 URL:https://dallas.culturemap.com/news/entertainment/weekend-events-11-12-2
  6/
 END:VEVENT
+BEGIN:VEVENT
+UID:dso-park-concert-2026-11-19@noboringweekends
+DTSTAMP:20261113T000000Z
+DTSTART:20261119T233000Z
+DTEND:20261120T013000Z
+SUMMARY:达拉斯交响乐团公园免费室内乐
+LOCATION:Shirley & Bill McIntyre Park\, Dallas\, TX
+DESCRIPTION:🎻 每月第三个周四的免费户外室内乐\,下午 5:30
+ ~\n费用:免费\nhttps://www.dallassymphony.org/concerts-and-events/calen
+ dar/
+URL:https://www.dallassymphony.org/concerts-and-events/calendar/
+END:VEVENT
+BEGIN:VEVENT
+UID:art-after-dark-dal-2026-11-19@noboringweekends
+DTSTAMP:20261113T000000Z
+DTSTART;VALUE=DATE:20261119
+DTEND;VALUE=DATE:20261120
+SUMMARY:Art After Dark 艺术夜
+LOCATION:1313 Main St\, 1313 Main St\, Dallas\, TX 75202
+DESCRIPTION:🍸 讲座+现场舞蹈+鸡尾酒品鉴+DJ。\n费用:以官
+ 网为准\nhttps://dallasdoinggood.com/events/
+URL:https://dallasdoinggood.com/events/
+END:VEVENT
 END:VCALENDAR

@@ -81,4 +81,17 @@ DESCRIPTION:🌭🐶 腊肠狗全国冠军赛+宠物展\,萌到犯规!\n费
  用:以官网为准\nhttps://enjoyorangecounty.com/whats-happening/
 URL:https://enjoyorangecounty.com/whats-happening/
 END:VEVENT
+BEGIN:VEVENT
+UID:muzeo-disney-2026-11-18@noboringweekends
+DTSTAMP:20261113T000000Z
+DTSTART:20261118T190000Z
+DTEND:20261118T210000Z
+SUMMARY:Muzeo 迪士尼档案展
+LOCATION:Muzeo Museum and Cultural Center\, 241 S Anaheim Blvd\, Anaheim\, 
+ CA 92805
+DESCRIPTION:🏰 迪士尼档案展\,周三周四上午 11 点有场次\,
+ 需购票。\n费用:以官网为准\nhttps://orangecounty.net/mobile/even
+ ts.html
+URL:https://orangecounty.net/mobile/events.html
+END:VEVENT
 END:VCALENDAR

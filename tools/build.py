@@ -30,10 +30,10 @@ AI_BOTS = ["OAI-SearchBot", "ChatGPT-User", "GPTBot", "Claude-SearchBot", "Claud
 L = {
  "zh": {"wd": ["周一", "周二", "周三", "周四", "周五", "周六", "周日"], "tbd": "时间见官网", "free": "免费", "ages": "适合",
         "site": "活动官网", "soon": "这个城市本周的活动还在整理中。", "locale": "zh_CN", "lang": "zh-CN",
-        "name": SITE["name_zh"], "links": "{c}周末活动", "weekend": "{c} · {r} 周末"},
+        "name": SITE["name_zh"], "links": "{c}周末活动", "weekend": "{c} · {r} 周末", "week": "{c} · {r} 周末 · 周中到 {w}"},
  "en": {"wd": ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"], "tbd": "See site", "free": "Free", "ages": "Ages",
         "site": "Event site", "soon": "Events for this city are still being compiled.", "locale": "en_US", "lang": "en",
-        "name": SITE["name_en"], "links": "{c} weekend events", "weekend": "{c} · Weekend of {r}"},
+        "name": SITE["name_en"], "links": "{c} weekend events", "weekend": "{c} · Weekend of {r}", "week": "{c} · Weekend of {r} · weekdays through {w}"},
 }
 MON = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
 
@@ -52,6 +52,15 @@ def date_range(wk, lang):
     (_, m1, d1), (_, m2, d2) = ymd(wk["start"]), ymd(wk["end"])
     if lang == "zh": return f"{m1}/{d1}–{m2}/{d2}"
     return f"{MON[m1-1]} {d1}–{d2}" if m1 == m2 else f"{MON[m1-1]} {d1}–{MON[m2-1]} {d2}"
+
+def heading(c, data, lang):
+    """City heading: the weekend, plus the weekdays after it when this issue covers them."""
+    wk, full = data["weekend"], data.get("week")
+    if full and full["end"] > wk["end"]:
+        _, m, d = ymd(full["end"])
+        w = f"{m}/{d}" if lang == "zh" else f"{MON[m-1]} {d}"
+        return L[lang]["week"].format(c=cname(c, lang), r=date_range(wk, lang), w=w)
+    return L[lang]["weekend"].format(c=cname(c, lang), r=date_range(wk, lang))
 
 def page_url(cid, lang):
     return URL + "/" + ("en/" if lang == "en" else "") + (f"{cid}/" if cid else "")
@@ -190,7 +199,7 @@ def build_page(tpl, lang, cid, data):
               *[event_ld(e, cid, c["tz"], page, image, lang) for e in evs]]}
         out = replace_block(out, "seo", seo_block(lang, title, desc, cid, image, ld))
         out = out.replace('<h2 id="weekend-title"></h2>',
-                          f'<h2 id="weekend-title">{esc(L[lang]["weekend"].format(c=cname(c, lang), r=date_range(wk, lang)))}</h2>', 1)
+                          f'<h2 id="weekend-title">{esc(heading(c, data, lang))}</h2>', 1)
         cards = "".join(card_html(e, lang) for e in evs) or f'<p class="empty">{L[lang]["soon"]}</p>'
         out = out.replace('<div class="list" id="list"></div>', f'<div class="list" id="list">{cards}</div>', 1)
     else:
