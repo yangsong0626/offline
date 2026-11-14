@@ -21,19 +21,6 @@ DESCRIPTION:🖌️ 当一次「古画守护者」!上午 11 点和下午 1
 URL:https://asia.si.edu/
 END:VEVENT
 BEGIN:VEVENT
-UID:dc-holiday-market-2026-11-13@noboringweekends
-DTSTAMP:20261113T000000Z
-DTSTART;VALUE=DATE:20261113
-DTEND;VALUE=DATE:20261114
-SUMMARY:DowntownDC 假日市集(开幕)
-LOCATION:F St NW between 7th & 9th\, F St NW\, Washington\, DC 20004
-DESCRIPTION:🎁 100+ 本地手作人\,假日市集开幕!\n费用:免费\n
- https://www.washingtontimes.com/news/2026/nov/11/73-things-washington-dc-w
- eekend-november-13-15/
-URL:https://www.washingtontimes.com/news/2026/nov/11/73-things-washington-d
- c-weekend-november-13-15/
-END:VEVENT
-BEGIN:VEVENT
 UID:renwick-reinstall-2026-11-13@noboringweekends
 DTSTAMP:20261113T000000Z
 DTSTART;VALUE=DATE:20261113
@@ -97,19 +84,6 @@ LOCATION:The National Theatre\, 1321 Pennsylvania Ave NW\, Washington\, DC
 DESCRIPTION:🕺 Da Brat 主持的嘻哈胡桃夹子!11/17-22。\n费用:$7
  5 起\nhttps://washingtonian.com/2026/10/29/november-culture-guide-things-
  to-do-in-the-dc-area-2/
-URL:https://washingtonian.com/2026/10/29/november-culture-guide-things-to-d
- o-in-the-dc-area-2/
-END:VEVENT
-BEGIN:VEVENT
-UID:fords-carol-2026-11-19@noboringweekends
-DTSTAMP:20261113T000000Z
-DTSTART;VALUE=DATE:20261119
-DTEND;VALUE=DATE:20261120
-SUMMARY:福特剧院《圣诞颂歌》(开演)
-LOCATION:Ford's Theatre\, 511 10th St NW\, Washington\, DC 20004
-DESCRIPTION:🎩 华府节日传统剧目\,11/19 开演\,演到 12/31。\n
- 费用:以官网为准\nhttps://washingtonian.com/2026/10/29/november-cult
- ure-guide-things-to-do-in-the-dc-area-2/
 URL:https://washingtonian.com/2026/10/29/november-culture-guide-things-to-d
  o-in-the-dc-area-2/
 END:VEVENT

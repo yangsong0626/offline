@@ -144,6 +144,7 @@ details.cal summary::-webkit-details-marker{display:none}
 .deals li{display:flex;gap:10px;align-items:baseline;font-size:14px;line-height:1.45}
 .deals .dd{flex:none;min-width:3.2em;font-size:12px;font-weight:600;color:var(--accent);background:var(--a-bg);border-radius:6px;padding:1px 6px;text-align:center}
 .deals li a{color:var(--ink);text-underline-offset:3px}
+.deals li .badge{font-size:11px;padding:1px 7px;margin-left:4px;vertical-align:1px}
 .deals .who{color:var(--muted);font-size:12.5px}
 .deals .more{display:inline-block;margin-top:8px;font-size:14px;font-weight:600;color:var(--accent)}
 .deals>.more:first-child{margin-top:0}
@@ -210,6 +211,7 @@ button.link{border:0;background:none;padding:0;cursor:pointer;font:inherit;font-
   <p class="count" id="count"></p>
   <details class="subcal" id="subcal"></details>
   <section class="deals" id="deals" hidden></section>
+  <section class="deals" id="seasonal" hidden></section>
   <div class="list" id="list"></div>
 
   <footer class="foot" id="foot"></footer>
@@ -245,7 +247,7 @@ var T={
   foot1:"更新于 {u}。活动时间、价格和是否需要报名可能变动,出发前请以主办方官网为准。",
   foot2:"天气来自公开预报,仅供安排行程参考。",
   eventsFail:"活动数据加载失败,请刷新页面重试。",
-  docTitle:"{c}周末去哪儿 · 周末不无聊",dealsTitle:"💸 本周能用的免费 / 优惠({n})",dealsAny:"随时",dealsMore:"📖 {c}免费博物馆日 & 优惠全攻略 →",share:"分享",shared:"链接已复制,发给朋友吧",
+  docTitle:"{c}周末去哪儿 · 周末不无聊",dealsTitle:"💸 本周能用的免费 / 优惠({n})",dealsAny:"随时",dealsMore:"📖 {c}免费博物馆日 & 优惠全攻略 →",szTitle:"🎄 季节限定 · 本周开放({n})",szSoon:"{d} 开幕",szNew:"本周新开",szLast:"本周结束",szEnds:"{d} 结束",szUntil:"至 {d}",szMore:"📖 {c}{s}灯光、市集、溜冰全攻略 →",share:"分享",shared:"链接已复制,发给朋友吧",
   subTitle:"📅 订阅{c}活动到日历(每周自动更新)",subApple:"Apple 日历 / Outlook",subGoogle:"Google 日历",subCopy:"复制订阅链接",subCopied:"订阅链接已复制",
   instTitle:"把「周末不无聊」装到手机上",instText:"像 App 一样从主屏幕打开,没网也能看。",instIos:"点 Safari 底部的分享按钮 ⬆️,再选「添加到主屏幕」。",instGo:"安装"},
  en:{eyebrow:"Updated every Friday",headline:"Where to go this weekend",sub:"Weekend and weekday picks for families and grown-ups: festivals, shows, food, outdoors and Asian community events, in date order.",
@@ -264,7 +266,7 @@ var T={
   foot1:"Updated {u}. Times, prices and sign-up rules can change. Check the organizer's site before you go.",
   foot2:"Weather comes from public forecasts and is a planning aid only.",
   eventsFail:"Could not load events. Please refresh.",
-  docTitle:"Things to do in {c} this weekend · No Boring Weekends",dealsTitle:"💸 Free & discount days this week ({n})",dealsAny:"Any day",dealsMore:"📖 Free museum days & discounts in {c} →",share:"Share",shared:"Link copied. Send it to a friend!",
+  docTitle:"Things to do in {c} this weekend · No Boring Weekends",dealsTitle:"💸 Free & discount days this week ({n})",dealsAny:"Any day",dealsMore:"📖 Free museum days & discounts in {c} →",szTitle:"🎄 Seasonal · open this week ({n})",szSoon:"Opens {d}",szNew:"New this week",szLast:"Last week",szEnds:"Ends {d}",szUntil:"To {d}",szMore:"📖 {c} {s} guide: lights, markets & skating →",share:"Share",shared:"Link copied. Send it to a friend!",
   subTitle:"📅 Subscribe to {c} events (updates weekly)",subApple:"Apple Calendar / Outlook",subGoogle:"Google Calendar",subCopy:"Copy feed link",subCopied:"Feed link copied",
   instTitle:"Get No Boring Weekends on your phone",instText:"Open it from your home screen like an app, even offline.",instIos:"Tap Safari's Share button ⬆️, then \"Add to Home Screen\".",instGo:"Install"}
 };
@@ -303,7 +305,7 @@ var ZIP3=[ // [from,to,city]
 var FSA={v:"van",m:"tor",l:"tor"}; // Canadian postal code first letter
 var TZ_DEFAULT={"America/New_York":"nyc","America/Detroit":"nyc","America/Chicago":"chi","America/Los_Angeles":"la","America/Denver":"chi","America/Phoenix":"la","America/Toronto":"tor","America/Vancouver":"van"};
 
-var S={deals:[],lang:"zh",city:"nyc",aud:"all",day:"all",asian:false,free:false,indoor:false,data:null,hint:["tz"]};
+var S={deals:[],season:null,lang:"zh",city:"nyc",aud:"all",day:"all",asian:false,free:false,indoor:false,data:null,hint:["tz"]};
 var $=function(id){return document.getElementById(id)};
 function esc(s){return String(s==null?"":s).replace(/[&<>"']/g,function(c){return {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]})}
 function fmt(s,o){return s.replace(/\{(\w+)\}/g,function(_,k){return o[k]})}
@@ -456,6 +458,34 @@ function dealsHtml(){
     return '<li><span class="dd">'+esc(r[0])+'</span><span><a href="'+esc(x.url)+'" target="_blank" rel="noopener">'+esc(x["title_"+L]||x.title_zh)+'</a>'+(x.time?' · '+esc(x.time):'')+
      '<br><span class="who">'+esc(x["who_"+L]||x.who_zh)+'</span></span></li>'}).join("")+'</ul>'+more+'</details>'
 }
+/* ---------- seasonal attractions (docs/seasonal.json; guides built by tools/seasonal.py) ---------- */
+function seasonOpen(x,d){return (!x.start||d>=x.start)&&d<=x.end&&(x.closed||[]).indexOf(d)<0&&(!x.days||x.days.indexOf(dow(d))>-1)}
+function shortDate(d,yr){var p=parts(d);return S.lang==="zh"?(yr?p.y+"/":"")+p.m+"/"+p.d:dateLabel(d)+(yr?", "+p.y:"")}
+function seasonHtml(){
+  var sz=S.season;if(!sz)return "";
+  var wk=S.data.week||S.data.weekend,td=todayIn(S.data.cities[S.city].tz),days=[],d=wk.start;
+  while(d<=wk.end){if(d>=td)days.push(d);d=addMinutes(d,"00:00",1440).date}
+  if(!days.length)return "";
+  var last=days[days.length-1],soonEnd=addMinutes(last,"00:00",21*1440).date,L=S.lang==="zh"?"zh":"en";
+  var mine=sz.items.filter(function(x){return x.city===S.city&&x.end>=days[0]});
+  var open=mine.filter(function(x){return days.some(function(d){return seasonOpen(x,d)})}),
+      soon=mine.filter(function(x){return open.indexOf(x)<0&&x.start>last&&x.start<=soonEnd});
+  open.sort(function(a,b){return (L==="zh"?(a.tier>b.tier?1:a.tier<b.tier?-1:0):0)||a.end.localeCompare(b.end)});
+  soon.sort(function(a,b){return a.start.localeCompare(b.start)});
+  if(!open.length&&!soon.length)return "";
+  function tag(x){
+    if(open.indexOf(x)<0||(x.start&&x.start>td))return fmt(t("szSoon"),{d:shortDate(x.start)});
+    if(x.start&&x.start>=wk.start)return t("szNew");
+    if(x.end<=last)return t("szLast");
+    if(x.end<=addMinutes(td,"00:00",14*1440).date)return fmt(t("szEnds"),{d:shortDate(x.end)});
+    return fmt(t("szUntil"),{d:shortDate(x.end,x.end>addMinutes(td,"00:00",120*1440).date)})}
+  var more='<a class="more" href="'+esc(new URL(cityPath(S.city)+"guides/"+sz.season.slug+"/",ROOT).href)+'">'+esc(fmt(t("szMore"),{c:cityName(S.city),s:sz.season[L]}))+'</a>';
+  return '<details id="season-box"><summary><h3>'+esc(fmt(t("szTitle"),{n:open.length}))+'</h3></summary><ul>'+open.concat(soon).map(function(x){
+    var cost=x.free?t("freeL"):(x["cost_"+L]||x.cost_zh);
+    return '<li><span class="dd">'+esc(tag(x))+'</span><span><a href="'+esc(x.url)+'" target="_blank" rel="noopener">'+esc(x["title_"+L]||x.title_zh)+'</a>'+
+     (x.tier==="A"?' <span class="badge A">'+esc(t("tierA"))+'</span>':x.tier==="B"?' <span class="badge B">'+esc(t("tierB"))+'</span>':'')+
+     '<br><span class="who">'+esc([x.venue,x["hours_"+L]||x.hours_zh,cost].filter(function(v,i,a){return v&&(i<2||v!==a[1])&&!/^(以官网为准|See website)$/.test(v)}).join(" · "))+'</span></span></li>'}).join("")+'</ul>'+more+'</details>'
+}
 function render(){
   document.documentElement.lang=S.lang==="zh"?"zh-CN":"en";
   $("lang-zh").setAttribute("aria-pressed",S.lang==="zh");$("lang-en").setAttribute("aria-pressed",S.lang==="en");
@@ -483,6 +513,7 @@ function render(){
    '<button type="button" data-subcopy="'+esc(feed.replace(/^webcal:/,"https:"))+'">'+esc(t("subCopy"))+'</button></div>';
   $("subcal").open=wasOpen;$("subcal").hidden=!all.length;
   var dOpen=$("deals-box")&&$("deals-box").open,dh=dealsHtml();$("deals").innerHTML=dh;$("deals").hidden=!dh;if(dOpen&&$("deals-box"))$("deals-box").open=true;
+  var sOpen=$("season-box")&&$("season-box").open,sh=seasonHtml();$("seasonal").innerHTML=sh;$("seasonal").hidden=!sh;if(sOpen&&$("season-box"))$("season-box").open=true;
   document.title=fmt(t("docTitle"),{c:cityName(S.city)});
   $("list").innerHTML=list.length?list.map(function(e){return card(e,c.tz)}).join(""):all.length?'<p class="empty">'+esc(t("empty"))+'</p>':'<p class="empty">'+esc(t("comingSoon"))+'</p>';
   $("foot").innerHTML='<span>'+esc(fmt(t("foot1"),{u:S.data.updated}))+'</span><span>'+esc(t("foot2"))+'</span>'
@@ -552,6 +583,7 @@ $("inst-x").onclick=function(){$("install").hidden=true;store("kids.installHidde
 if("serviceWorker" in navigator)window.addEventListener("load",function(){navigator.serviceWorker.register(new URL("sw.js",ROOT).href).catch(function(){})});
 setTimeout(showInstall,4000);
 
+fetch(new URL("seasonal.json",ROOT).href,{cache:"no-cache"}).then(function(r){return r.ok?r.json():null}).then(function(d){S.season=d;if(S.data)render()}).catch(function(){});
 fetch(new URL("deals.json",ROOT).href,{cache:"no-cache"}).then(function(r){return r.ok?r.json():{deals:[]}}).then(function(d){S.deals=d.deals||[];if(S.data)render()}).catch(function(){});
 fetch("events.json",{cache:"no-cache"}).then(function(r){if(!r.ok)throw 0;return r.json()}).then(function(d){
   S.data=d;

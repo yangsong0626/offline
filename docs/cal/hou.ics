@@ -98,19 +98,6 @@ URL:https://www.houstononthecheap.com/top-events-in-houston-november-13-nov
  ember-15-2026/
 END:VEVENT
 BEGIN:VEVENT
-UID:galaxy-lights-2026-11-14@noboringweekends
-DTSTAMP:20261113T000000Z
-DTSTART;VALUE=DATE:20261114
-DTEND;VALUE=DATE:20261115
-SUMMARY:休斯顿太空中心 Galaxy Lights(开幕)
-LOCATION:Space Center Houston\, 1601 E NASA Pkwy\, Houston\, TX 77058
-DESCRIPTION:🚀 太空主题节日灯光秀周六开幕!$15.95 起。\n费
- 用:$15.95 起\nhttps://www.houstononthecheap.com/top-events-in-houston-no
- vember-13-november-15-2026/
-URL:https://www.houstononthecheap.com/top-events-in-houston-november-13-nov
- ember-15-2026/
-END:VEVENT
-BEGIN:VEVENT
 UID:cheap-skate-2026-11-16@noboringweekends
 DTSTAMP:20261113T000000Z
 DTSTART;VALUE=DATE:20261116
@@ -146,18 +133,5 @@ DESCRIPTION:🎺 古巴音乐剧巡演\,11/17-22\,场次以官网为准。\
  n费用:以官网为准\nhttps://www.tripsapien.com/things-to-do/houston-u
  s/november-2026
 URL:https://www.tripsapien.com/things-to-do/houston-us/november-2026
-END:VEVENT
-BEGIN:VEVENT
-UID:zoo-lights-hou-2026-11-19@noboringweekends
-DTSTAMP:20261113T000000Z
-DTSTART:20261119T233000Z
-DTEND:20261120T043000Z
-SUMMARY:休斯顿动物园 Zoo Lights
-LOCATION:Houston Zoo\, 6200 Hermann Park Dr\, Houston\, TX 77030
-DESCRIPTION:✨ 动物园节日灯光\,晚 5:30 到 10:30\,需购票。\n
- 费用:以官网为准\nhttps://www.jillbjarvis.com/things-to-do-in-housto
- n-today-and-this-weekend-with-kids/
-URL:https://www.jillbjarvis.com/things-to-do-in-houston-today-and-this-week
- end-with-kids/
 END:VEVENT
 END:VCALENDAR
