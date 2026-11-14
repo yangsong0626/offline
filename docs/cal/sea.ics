@@ -47,6 +47,30 @@ DESCRIPTION:💚 K-pop 男团 BOYNEXTDOOR 西雅图站!票务以官网为
 URL:https://allevents.in/seattle/this-weekend
 END:VEVENT
 BEGIN:VEVENT
+UID:katseye-2026-11-17@noboringweekends
+DTSTAMP:20261113T000000Z
+DTSTART;VALUE=DATE:20261117
+DTEND;VALUE=DATE:20261118
+SUMMARY:KATSEYE 演唱会
+LOCATION:Climate Pledge Arena\, 334 1st Ave N\, Seattle\, WA 98109
+DESCRIPTION:💛 HYBE 全球女团 KATSEYE 西雅图站!票务以官网为
+ 准。\n费用:以官网为准\nhttps://everout.com/seattle/top-events/
+URL:https://everout.com/seattle/top-events/
+END:VEVENT
+BEGIN:VEVENT
+UID:butoh-fest-2026-11-19@noboringweekends
+DTSTAMP:20261113T000000Z
+DTSTART;VALUE=DATE:20261119
+DTEND;VALUE=DATE:20261120
+SUMMARY:西雅图国际舞踏节
+LOCATION:Yaw Theater\, Seattle\, WA
+DESCRIPTION:🌑 日本前卫舞踏(Butoh)国际节\,演出场次以官网
+ 为准。\n费用:以官网为准\nhttps://everout.com/seattle/articles/th
+ e-best-things-to-do-in-seattle-this-month-november-2026/c6598/
+URL:https://everout.com/seattle/articles/the-best-things-to-do-in-seattle-t
+ his-month-november-2026/c6598/
+END:VEVENT
+BEGIN:VEVENT
 UID:garth-brooks-2026-11-13@noboringweekends
 DTSTAMP:20261113T000000Z
 DTSTART:20261114T040000Z
@@ -104,5 +128,31 @@ LOCATION:The Moore Theatre\, 1932 2nd Ave\, Seattle\, WA 98101
 DESCRIPTION:🎸 美式摇滚乐队 Houndmouth\,周六晚 7 点。\n费用:
  以官网为准\nhttps://do206.com/events/weekend
 URL:https://do206.com/events/weekend
+END:VEVENT
+BEGIN:VEVENT
+UID:festival-of-trees-2026-11-16@noboringweekends
+DTSTAMP:20261113T000000Z
+DTSTART;VALUE=DATE:20261116
+DTEND;VALUE=DATE:20261117
+SUMMARY:Fairmont 酒店圣诞树节
+LOCATION:Fairmont Olympic Hotel\, 411 University St\, Seattle\, WA 98101
+DESCRIPTION:🎄 酒店大堂满满的设计师圣诞树\,免费参观(欢
+ 迎捐款)\,开到 12/1。\n费用:免费\nhttps://www.seattleschild.com/f
+ ree-kid-friendly-events-this-weekend-november-2026/
+URL:https://www.seattleschild.com/free-kid-friendly-events-this-weekend-nov
+ ember-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:gingerbread-village-2026-11-19@noboringweekends
+DTSTAMP:20261113T000000Z
+DTSTART;VALUE=DATE:20261119
+DTEND;VALUE=DATE:20261120
+SUMMARY:Sheraton 姜饼村(开幕)
+LOCATION:Sheraton Grand Seattle\, 1400 6th Ave\, Seattle\, WA 98101
+DESCRIPTION:🍪 超大姜饼村 11/19 开幕\,展到 1/1!\n费用:以官
+ 网为准\nhttps://www.seattleschild.com/free-kid-friendly-events-this-wee
+ kend-november-2026/
+URL:https://www.seattleschild.com/free-kid-friendly-events-this-weekend-nov
+ ember-2026/
 END:VEVENT
 END:VCALENDAR

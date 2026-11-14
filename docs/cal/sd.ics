@@ -74,4 +74,16 @@ DESCRIPTION:⚓ 免费开放\,海港边看军舰~\n费用:免费\nhttps://t
 URL:https://timesofsandiego.com/san-diego-events/2026/11/12/san-diego-weeke
  nd-guide-nov-13-15-counting-down-to-thanksgiving/
 END:VEVENT
+BEGIN:VEVENT
+UID:grinch-globe-2026-11-17@noboringweekends
+DTSTAMP:20261113T000000Z
+DTSTART;VALUE=DATE:20261117
+DTEND;VALUE=DATE:20261118
+SUMMARY:Old Globe《圣诞怪杰》
+LOCATION:The Old Globe\, 1363 Old Globe Way\, San Diego\, CA 92101
+DESCRIPTION:💚 巴尔博亚公园节日剧\,演到 12/31\,周中也有场
+ 次。\n费用:以官网为准\nhttps://www.sandiego.org/article/top-novem
+ ber-events
+URL:https://www.sandiego.org/article/top-november-events
+END:VEVENT
 END:VCALENDAR

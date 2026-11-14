@@ -94,4 +94,39 @@ DESCRIPTION:🏒 小联盟冰球家庭日\,票价亲民~\n费用:以官网
  为准\nhttps://mykidlist.com/weekend-planner/
 URL:https://mykidlist.com/weekend-planner/
 END:VEVENT
+BEGIN:VEVENT
+UID:maggie-daley-ribbon-2026-11-16@noboringweekends
+DTSTAMP:20261113T000000Z
+DTSTART:20261116T170000Z
+DTEND:20261117T040000Z
+SUMMARY:Maggie Daley 公园溜冰丝带
+LOCATION:Maggie Daley Park\, 337 E Randolph St\, Chicago\, IL 60601
+DESCRIPTION:⛸️ 绕着摩天楼滑的冰道!入场免费\,租鞋另付\,
+ 开放时间以官网为准。\n费用:以官网为准\nhttps://chicagoont
+ hecheap.com/events/
+URL:https://chicagoonthecheap.com/events/
+END:VEVENT
+BEGIN:VEVENT
+UID:mca-free-tue-2026-11-17@noboringweekends
+DTSTAMP:20261113T000000Z
+DTSTART;VALUE=DATE:20261117
+DTEND;VALUE=DATE:20261118
+SUMMARY:芝加哥当代艺术馆(伊州居民周二免费)
+LOCATION:Museum of Contemporary Art Chicago\, 220 E Chicago Ave\, Chicago\,
+  IL 60611
+DESCRIPTION:🖼️ 伊利诺伊州居民周二免费\,带上 ID~\n费用:
+ 免费\nhttps://chicagoonthecheap.com/events/
+URL:https://chicagoonthecheap.com/events/
+END:VEVENT
+BEGIN:VEVENT
+UID:little-big-town-2026-11-19@noboringweekends
+DTSTAMP:20261113T000000Z
+DTSTART:20261120T013000Z
+DTEND:20261120T033000Z
+SUMMARY:Little Big Town 演唱会
+LOCATION:The Chicago Theatre\, 175 N State St\, Chicago\, IL 60601
+DESCRIPTION:🎤 乡村乐团 Little Big Town\,周四晚 7:30。\n费用:
+ 以官网为准\nhttps://do312.com/events/2026/11/19
+URL:https://do312.com/events/2026/11/19
+END:VEVENT
 END:VCALENDAR

@@ -21,6 +21,28 @@ DESCRIPTION:🗣️ 美国华人博物馆 × Accent Sisters 方言角!\n闽
 URL:https://www.mocanyc.org/calendar/
 END:VEVENT
 BEGIN:VEVENT
+UID:asia-society-dansaekhwa-2026-11-17@noboringweekends
+DTSTAMP:20261113T000000Z
+DTSTART:20261117T233000Z
+DTEND:20261118T003000Z
+SUMMARY:亚洲协会:韩国单色画讲座
+LOCATION:Asia Society\, 725 Park Ave\, New York\, NY 10021
+DESCRIPTION:🎨 韩国单色画(Dansaekhwa)讲座\,现场活动\,需报名
+ 。\n费用:以官网为准\nhttps://asiasociety.org/new-york
+URL:https://asiasociety.org/new-york
+END:VEVENT
+BEGIN:VEVENT
+UID:asia-society-70-2026-11-19@noboringweekends
+DTSTAMP:20261113T000000Z
+DTSTART:20261120T000000Z
+DTEND:20261120T040000Z
+SUMMARY:亚洲协会 70 周年夜场:灯光节
+LOCATION:Asia Society\, 725 Park Ave\, New York\, NY 10021
+DESCRIPTION:🏮 亚洲协会 70 周年夜间派对\,灯光主题!票务以
+ 官网为准。\n费用:以官网为准\nhttps://asiasociety.org/new-york
+URL:https://asiasociety.org/new-york
+END:VEVENT
+BEGIN:VEVENT
 UID:transit-train-show-2026-11-13@noboringweekends
 DTSTAMP:20261113T000000Z
 DTSTART;VALUE=DATE:20261113
@@ -109,5 +131,28 @@ DESCRIPTION:🥯 25+ 家贝果店齐聚花旗球场\,免费入场\,狗狗
  ork/things-to-do/things-to-do-in-nyc-this-weekend
 URL:https://www.timeout.com/newyork/things-to-do/things-to-do-in-nyc-this-w
  eekend
+END:VEVENT
+BEGIN:VEVENT
+UID:vessel-lighting-2026-11-16@noboringweekends
+DTSTAMP:20261113T000000Z
+DTSTART:20261116T230000Z
+DTEND:20261117T000000Z
+SUMMARY:Hudson Yards Vessel 节日点灯
+LOCATION:Hudson Yards\, 20 Hudson Yards\, New York\, NY 10001
+DESCRIPTION:✨ Anthony Ramos 献唱+鼓队表演\,Vessel 点亮节日灯!
+ 免费\,下班直接去~\n费用:免费\nhttps://www.timessquarenyc.org/ev
+ ents
+URL:https://www.timessquarenyc.org/events
+END:VEVENT
+BEGIN:VEVENT
+UID:harlem-lights-2026-11-17@noboringweekends
+DTSTAMP:20261113T000000Z
+DTSTART:20261117T230000Z
+DTEND:20261118T010000Z
+SUMMARY:哈林区节日灯光游行
+LOCATION:125th Street\, Broadway & W 125th St\, New York\, NY 10027
+DESCRIPTION:🎄 从 125 街百老汇出发的免费节日游行\,晚 6 点
+ ~\n费用:免费\nhttps://www.timessquarenyc.org/events
+URL:https://www.timessquarenyc.org/events
 END:VEVENT
 END:VCALENDAR

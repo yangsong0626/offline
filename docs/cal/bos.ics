@@ -72,4 +72,27 @@ DESCRIPTION:📚 华盛顿私人藏书展\,周日免费\,11/15 是最后一
 URL:https://www.bostonglobe.com/2026/11/12/arts/things-to-do-boston-this-we
  ekend/
 END:VEVENT
+BEGIN:VEVENT
+UID:celtics-magic-2026-11-16@noboringweekends
+DTSTAMP:20261113T000000Z
+DTSTART:20261117T000000Z
+DTEND:20261117T020000Z
+SUMMARY:凯尔特人 vs 魔术
+LOCATION:TD Garden\, 100 Legends Way\, Boston\, MA 02114
+DESCRIPTION:🏀 周一晚 7 点 NBA\,票务以官网为准。\n费用:以
+ 官网为准\nhttps://www.tdgarden.com/events
+URL:https://www.tdgarden.com/events
+END:VEVENT
+BEGIN:VEVENT
+UID:old-state-house-2026-11-16@noboringweekends
+DTSTAMP:20261113T000000Z
+DTSTART;VALUE=DATE:20261116
+DTEND;VALUE=DATE:20261117
+SUMMARY:旧州议会大厦《革命之路》
+LOCATION:Old State House\, 206 Washington St\, Boston\, MA 02109
+DESCRIPTION:🇺🇸 美国独立 250 周年:马萨诸塞革命第一年的
+ 故事\,11/16、17、19 有场次。\n费用:以官网为准\nhttps://www.
+ downtownboston.org/event/month/2026-11/
+URL:https://www.downtownboston.org/event/month/2026-11/
+END:VEVENT
 END:VCALENDAR

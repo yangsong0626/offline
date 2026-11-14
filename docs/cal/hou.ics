@@ -110,4 +110,54 @@ DESCRIPTION:🚀 太空主题节日灯光秀周六开幕!$15.95 起。\n费
 URL:https://www.houstononthecheap.com/top-events-in-houston-november-13-nov
  ember-15-2026/
 END:VEVENT
+BEGIN:VEVENT
+UID:cheap-skate-2026-11-16@noboringweekends
+DTSTAMP:20261113T000000Z
+DTSTART;VALUE=DATE:20261116
+DTEND;VALUE=DATE:20261117
+SUMMARY:Discovery Green 周一便宜溜冰夜
+LOCATION:Discovery Green\, 1500 McKinney St\, Houston\, TX 77010
+DESCRIPTION:⛸️ 市中心溜冰场周一折扣票\,放学去滑一圈~\n
+ 费用:以官网为准\nhttps://www.discoverygreen.com/events/
+URL:https://www.discoverygreen.com/events/
+END:VEVENT
+BEGIN:VEVENT
+UID:tyke-hikes-2026-11-16@noboringweekends
+DTSTAMP:20261113T000000Z
+DTSTART;VALUE=DATE:20261116
+DTEND;VALUE=DATE:20261117
+SUMMARY:休斯顿植物园幼儿徒步
+LOCATION:Houston Arboretum & Nature Center\, 4501 Woodway Dr\, Houston\, TX
+  77024
+DESCRIPTION:🌿 专给学龄前小朋友的自然徒步\,周一上午。\n
+ 费用:以官网为准\nhttps://www.jillbjarvis.com/things-to-do-in-housto
+ n-today-and-this-weekend-with-kids/
+URL:https://www.jillbjarvis.com/things-to-do-in-houston-today-and-this-week
+ end-with-kids/
+END:VEVENT
+BEGIN:VEVENT
+UID:buena-vista-2026-11-17@noboringweekends
+DTSTAMP:20261113T000000Z
+DTSTART;VALUE=DATE:20261117
+DTEND;VALUE=DATE:20261118
+SUMMARY:音乐剧《乐满哈瓦那》巡演
+LOCATION:Houston\, Houston\, TX (venue: see website)
+DESCRIPTION:🎺 古巴音乐剧巡演\,11/17-22\,场次以官网为准。\
+ n费用:以官网为准\nhttps://www.tripsapien.com/things-to-do/houston-u
+ s/november-2026
+URL:https://www.tripsapien.com/things-to-do/houston-us/november-2026
+END:VEVENT
+BEGIN:VEVENT
+UID:zoo-lights-hou-2026-11-19@noboringweekends
+DTSTAMP:20261113T000000Z
+DTSTART:20261119T233000Z
+DTEND:20261120T043000Z
+SUMMARY:休斯顿动物园 Zoo Lights
+LOCATION:Houston Zoo\, 6200 Hermann Park Dr\, Houston\, TX 77030
+DESCRIPTION:✨ 动物园节日灯光\,晚 5:30 到 10:30\,需购票。\n
+ 费用:以官网为准\nhttps://www.jillbjarvis.com/things-to-do-in-housto
+ n-today-and-this-weekend-with-kids/
+URL:https://www.jillbjarvis.com/things-to-do-in-houston-today-and-this-week
+ end-with-kids/
+END:VEVENT
 END:VCALENDAR

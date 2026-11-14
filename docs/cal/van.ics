@@ -45,6 +45,17 @@ DESCRIPTION:🎐 日裔手作市集\,和风小物和节日礼物~\n费用:
 URL:https://www.todocanada.ca/things-vancouver-weekend/
 END:VEVENT
 BEGIN:VEVENT
+UID:yuki-chiba-2026-11-16@noboringweekends
+DTSTAMP:20261113T000000Z
+DTSTART;VALUE=DATE:20261116
+DTEND;VALUE=DATE:20261117
+SUMMARY:千叶雄喜 Yuki Chiba 演唱会
+LOCATION:Hollywood Theatre\, 3123 W Broadway\, Vancouver\, BC V6K 2H2
+DESCRIPTION:🎤 日本说唱歌手千叶雄喜温哥华站!\n费用:以官
+ 网为准\nhttps://miss604.com/2026/10/events-in-vancouver-november-2026/
+URL:https://miss604.com/2026/10/events-in-vancouver-november-2026/
+END:VEVENT
+BEGIN:VEVENT
 UID:raffi-2026-11-14@noboringweekends
 DTSTAMP:20261113T000000Z
 DTSTART:20261114T210000Z
@@ -96,5 +107,28 @@ DESCRIPTION:🧣 40+ 本地摊位\,周日~\n费用:以官网为准\nhttps:/
  15/
 URL:https://miss604.com/2026/11/things-to-do-in-vancouver-this-weekend-even
  ts-nov-13-15/
+END:VEVENT
+BEGIN:VEVENT
+UID:xmas-market-van-2026-11-16@noboringweekends
+DTSTAMP:20261113T000000Z
+DTSTART;VALUE=DATE:20261116
+DTEND;VALUE=DATE:20261117
+SUMMARY:温哥华圣诞市集(开幕)
+LOCATION:Jack Poole Plaza\, 1055 Canada Pl\, Vancouver\, BC V6C 0C3
+DESCRIPTION:🎄 德式圣诞市集 11/16 开幕\,开到 12/24\,需网上
+ 买时段票。\n费用:以官网为准\nhttps://miss604.com/2026/10/event
+ s-in-vancouver-november-2026/
+URL:https://miss604.com/2026/10/events-in-vancouver-november-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:culture-crawl-2026-11-19@noboringweekends
+DTSTAMP:20261113T000000Z
+DTSTART;VALUE=DATE:20261119
+DTEND;VALUE=DATE:20261120
+SUMMARY:东区艺术家工作室开放 Culture Crawl(首日)
+LOCATION:East Vancouver\, East Vancouver\, BC
+DESCRIPTION:🎨 500+ 艺术家工作室免费开放\,11/19-22!\n费用:免
+ 费\nhttps://www.vancouvertourism.org/vancouver-events-and-festivals/
+URL:https://www.vancouvertourism.org/vancouver-events-and-festivals/
 END:VEVENT
 END:VCALENDAR

@@ -67,4 +67,37 @@ DESCRIPTION:🎅 周日下午 1:30\,免费。\n费用:免费\nhttps://www.t
  odocanada.ca/city/toronto/santa-claus-parades/
 URL:https://www.todocanada.ca/city/toronto/santa-claus-parades/
 END:VEVENT
+BEGIN:VEVENT
+UID:harbourfront-art-2026-11-17@noboringweekends
+DTSTAMP:20261113T000000Z
+DTSTART;VALUE=DATE:20261117
+DTEND;VALUE=DATE:20261118
+SUMMARY:Harbourfront Centre 免费展览
+LOCATION:Harbourfront Centre\, 235 Queens Quay W\, Toronto\, ON M5J 2G8
+DESCRIPTION:🖼️ 多伦多双年展期间\,湖滨中心展览每天免
+ 费~\n费用:免费\nhttps://harbourfrontcentre.com/whats-on/
+URL:https://harbourfrontcentre.com/whats-on/
+END:VEVENT
+BEGIN:VEVENT
+UID:jorja-smith-tor-2026-11-18@noboringweekends
+DTSTAMP:20261113T000000Z
+DTSTART;VALUE=DATE:20261118
+DTEND;VALUE=DATE:20261119
+SUMMARY:Jorja Smith 演唱会
+LOCATION:Massey Hall\, 178 Victoria St\, Toronto\, ON M5B 1T7
+DESCRIPTION:🎤 英国 R&B 歌手 Jorja Smith\,Massey Hall。\n费用:以
+ 官网为准\nhttps://onestowatch.com/live/best-concerts-toronto-november/
+URL:https://onestowatch.com/live/best-concerts-toronto-november/
+END:VEVENT
+BEGIN:VEVENT
+UID:shaw-carol-2026-11-19@noboringweekends
+DTSTAMP:20261113T000000Z
+DTSTART:20261119T190000Z
+DTEND:20261119T210000Z
+SUMMARY:Shaw 戏剧节《圣诞颂歌》(Harbourfront)
+LOCATION:Harbourfront Centre\, 235 Queens Quay W\, Toronto\, ON M5J 2G8
+DESCRIPTION:🎩 下午 2 点和晚 7:30 两场\,湖边看节日剧~\n费
+ 用:以官网为准\nhttps://harbourfrontcentre.com/whats-on/
+URL:https://harbourfrontcentre.com/whats-on/
+END:VEVENT
 END:VCALENDAR
