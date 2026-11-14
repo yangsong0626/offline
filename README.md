@@ -1,5 +1,5 @@
 # 周末不无聊 No Boring Weekends
-Static site: `docs/index.html` + `docs/events.json`. Update `docs/events.json` every Friday.
+Static site: `docs/index.html` + `docs/events.json`. Update `docs/events.json` every Friday with that weekend plus the following Mon–Thu: `weekend` is Fri–Sun, the optional `week` range (Fri–Thu) covers the weekday events. Events whose date has passed are hidden on the page.
 `editor_notes_zh` / `editor_notes_en` on each city are internal notes for editors and are not shown on the site.
 Each event has an `audience` of `family` (亲子), `adult` (大人) or `all` (both). Leave `start` empty when the time is not fixed; the page shows "时间见官网" and calendar exports become all-day events.
 Hosting: Cloudflare Pages — **build command `python3 tools/build.py`**, build output directory `docs`.
@@ -31,4 +31,9 @@ Recurring rules instead of dated events, so one entry keeps working every week. 
 
 Optional fields: `"months":[11,12,1]` limits a rule to a season, `"skip":["YYYY-MM-DD"]` drops a date the venue cancelled or moved, `"extra":["YYYY-MM-DD"]` adds a one-off date, and `nth` can be a list (`[1,2]` = first and second Sunday).
 
-City pages show a "💸 本周末能用的免费 / 优惠" box computed from these rules, and the build writes a guide per city at `/<city>/guides/free/` and `/en/<city>/guides/free/` with a 5-week free-day calendar. Re-check rules every few months and update `verified`. The rule logic is in `tools/deals.py` and mirrored in `docs/index.html` (`dealOn`); keep them in sync.
+City pages show a collapsed "💸 本周能用的免费 / 优惠" box computed from these rules, and the build writes a guide per city at `/<city>/guides/free/` and `/en/<city>/guides/free/` with a 5-week free-day calendar. Re-check rules every few months and update `verified`. The rule logic is in `tools/deals.py` and mirrored in `docs/index.html` (`dealOn`); keep them in sync.
+
+## Seasonal attractions (`docs/seasonal.json`)
+Long-running things (holiday lights, markets, rinks, holiday shows, exhibitions) live here instead of in `events.json`, so they are entered once per season. `season` names the current season (`slug` becomes the guide path, e.g. `winter`). Each item has `city`, `tier`, `cat` (`lights`, `market`, `rink`, `train`, `show`, `parade`, `exhibit`), `audience`, `start` (null = already open), `end`, optional `days` (open weekdays, 0 = Sunday; null = every day) and `closed` dates, bilingual title / hours / cost / description, `venue`, `address`, `url`.
+
+City pages show a collapsed "🎄 季节限定 · 本周开放" box: items open on a remaining day of this week, plus ones opening in the next three weeks, tagged 本周新开 / X 开幕 / X 结束. The build writes a season guide per city at `/<city>/guides/<slug>/` (and `/en/...`). Fill it at the start of each season, check for closures or date changes in the Friday update, and only list a seasonal item's opening night or special nights in `events.json`.

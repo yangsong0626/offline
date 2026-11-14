@@ -7,38 +7,38 @@
 Each city has a fixed weekend page that is replaced weekly, plus a subscribable .ics calendar. Check organizers' sites before going.
 
 ## 城市页（中文）
-- [纽约本周末活动](https://noboringweekends.pages.dev/nyc/): 12 个活动，MOCA 闽南语/客家话/潮州话方言角、亚洲协会:韩国单色画讲座、亚洲协会 70 周年夜场:灯光节
-- [新泽西本周末活动](https://noboringweekends.pages.dev/nj/): 10 个活动，South Plainfield 排灯节庆祝、Raritan 秋日餐车音乐节、Terhune 果园派品尝周末(周六/日)
+- [纽约本周末活动](https://noboringweekends.pages.dev/nyc/): 11 个活动，MOCA 闽南语/客家话/潮州话方言角、亚洲协会:韩国单色画讲座、亚洲协会 70 周年夜场:灯光节
+- [新泽西本周末活动](https://noboringweekends.pages.dev/nj/): 8 个活动，South Plainfield 排灯节庆祝、Raritan 秋日餐车音乐节、Terhune 果园派品尝周末(周六/日)
 - [洛杉矶本周末活动](https://noboringweekends.pages.dev/la/): 10 个活动，华埠图书馆:洛杉矶唐人街纪录片放映、格里菲斯天文台(周五开到晚 10 点)、自然历史博物馆 NightTales
 - [旧金山湾区本周末活动](https://noboringweekends.pages.dev/sf/): 11 个活动，华裔历史博物馆退伍军人节活动(圣何塞)、亚洲艺术博物馆假日手作市集+竹艺讲座、日本茶园免费一小时(周一/三/五)
-- [西雅图本周末活动](https://noboringweekends.pages.dev/sea/): 11 个活动，西雅图苗族新年、鹊桥艺术舞蹈节(O-Jak Bridge)、BOYNEXTDOOR 演唱会
-- [波士顿本周末活动](https://noboringweekends.pages.dev/bos/): 7 个活动，波士顿 Bhangra 舞蹈大赛、Victoria Monét 演唱会、Snowport 海港假日市集
-- [芝加哥本周末活动](https://noboringweekends.pages.dev/chi/): 10 个活动，华人互助会 × Haibayo 中秋晚会、亚裔艺术家沙龙 Permission to Fail、日裔服务会 Holiday Delight & 儿童节
-- [休斯顿本周末活动](https://noboringweekends.pages.dev/hou/): 12 个活动，吉卜力致敬艺术展(一晚限定)、亚洲协会德州中心建筑导览、Discovery Green 排灯节
+- [西雅图本周末活动](https://noboringweekends.pages.dev/sea/): 9 个活动，西雅图苗族新年、鹊桥艺术舞蹈节(O-Jak Bridge)、BOYNEXTDOOR 演唱会
+- [波士顿本周末活动](https://noboringweekends.pages.dev/bos/): 6 个活动，波士顿 Bhangra 舞蹈大赛、Victoria Monét 演唱会、《魔法坏女巫》波士顿最后一周
+- [芝加哥本周末活动](https://noboringweekends.pages.dev/chi/): 9 个活动，华人互助会 × Haibayo 中秋晚会、亚裔艺术家沙龙 Permission to Fail、日裔服务会 Holiday Delight & 儿童节
+- [休斯顿本周末活动](https://noboringweekends.pages.dev/hou/): 10 个活动，吉卜力致敬艺术展(一晚限定)、亚洲协会德州中心建筑导览、Discovery Green 排灯节
 - [达拉斯本周末活动](https://noboringweekends.pages.dev/dal/): 9 个活动，《KPop 猎魔女团》沉浸式体验、The Colony 美国英雄节、Little Elm 草坪电影《玩具总动员 5》
-- [华盛顿 DC本周末活动](https://noboringweekends.pages.dev/dc/): 9 个活动，国立亚洲艺术博物馆家庭工作坊、DowntownDC 假日市集(开幕)、Renwick 美术馆新展(免费)
-- [橙县 / 尔湾本周末活动](https://noboringweekends.pages.dev/oc/): 7 个活动，迪士尼乐园圣诞季开幕、尔湾 Spectrum 溜冰场、Heritage 博物馆原住民 Pow Wow
-- [圣地亚哥本周末活动](https://noboringweekends.pages.dev/sd/): 6 个活动，圣地亚哥亚洲电影节(收官)、巴尔博亚公园横滨节、Poway 火车歌谣节
+- [华盛顿 DC本周末活动](https://noboringweekends.pages.dev/dc/): 7 个活动，国立亚洲艺术博物馆家庭工作坊、Renwick 美术馆新展(免费)、CityCenterDC 圣诞树点灯
+- [橙县 / 尔湾本周末活动](https://noboringweekends.pages.dev/oc/): 6 个活动，迪士尼乐园圣诞季开幕、Heritage 博物馆原住民 Pow Wow、Tustin 老城书展
+- [圣地亚哥本周末活动](https://noboringweekends.pages.dev/sd/): 5 个活动，圣地亚哥亚洲电影节(收官)、巴尔博亚公园横滨节、Poway 火车歌谣节
 - [亚特兰大本周末活动](https://noboringweekends.pages.dev/atl/): 9 个活动，佐治亚水族馆 WinterTide(开幕)、木偶艺术中心《红鼻子驯鹿鲁道夫》、Duluth 母婴展 Babypalooza
 - [多伦多本周末活动](https://noboringweekends.pages.dev/tor/): 8 个活动，菲律宾圣诞村 Paskuhan Village、奥克维尔圣诞老人游行、酿酒厂区冬季村
-- [温哥华本周末活动](https://noboringweekends.pages.dev/van/): 10 个活动，华裔加拿大人博物馆《Momentum》体育展、温哥华亚洲电影节(收官周末)、日裔国家博物馆手作市集(周六/日)
+- [温哥华本周末活动](https://noboringweekends.pages.dev/van/): 8 个活动，温哥华亚洲电影节(收官周末)、日裔国家博物馆手作市集(周六/日)、千叶雄喜 Yuki Chiba 演唱会
 
 ## City pages (English)
-- [New York weekend events](https://noboringweekends.pages.dev/en/nyc/): 12 events, e.g. New York Transit Museum Holiday Train Show; Grand Central Holiday Fair; MoMA PS1 Free Saturday
-- [New Jersey weekend events](https://noboringweekends.pages.dev/en/nj/): 10 events, e.g. Raritan Borough Fall Food Truck & Music Fest; Diwali Celebration in South Plainfield; Pie Tasting Weekend at Terhune Orchards
+- [New York weekend events](https://noboringweekends.pages.dev/en/nyc/): 11 events, e.g. New York Transit Museum Holiday Train Show; MoMA PS1 Free Saturday; The Beatles and More for Kids
+- [New Jersey weekend events](https://noboringweekends.pages.dev/en/nj/): 8 events, e.g. Raritan Borough Fall Food Truck & Music Fest; Diwali Celebration in South Plainfield; Pie Tasting Weekend at Terhune Orchards
 - [Los Angeles weekend events](https://noboringweekends.pages.dev/en/la/): 10 events, e.g. Griffith Observatory; NightTales at the Natural History Museum; Documentary Screening on L.A. Chinatown
 - [SF Bay Area weekend events](https://noboringweekends.pages.dev/en/sf/): 11 events, e.g. Saturday Science at the Randall Museum; Veterans Day Program at the Chinese American Historical Museum; Holiday Artisan Market & Bamboo Artist Talk at the Asian Art Museum
-- [Seattle weekend events](https://noboringweekends.pages.dev/en/sea/): 11 events, e.g. Garth Brooks; Seattle International Auto Show; Gobble Up Seattle
-- [Boston weekend events](https://noboringweekends.pages.dev/en/bos/): 7 events, e.g. Victoria Monét; Boston Bhangra Competition; Snowport Holiday Market
-- [Chicago weekend events](https://noboringweekends.pages.dev/en/chi/): 10 events, e.g. Friday the 13th Family Night at Southside STEM Station; Lightscape at the Chicago Botanic Garden; Permission to Fail: Asian American Artists Salon
-- [Houston weekend events](https://noboringweekends.pages.dev/en/hou/): 12 events, e.g. Sunset Cinema: WALL-E; Studio Ghibli Tribute Art Show; Houston Ballet Nutcracker Market
+- [Seattle weekend events](https://noboringweekends.pages.dev/en/sea/): 9 events, e.g. Garth Brooks; Seattle International Auto Show; Gobble Up Seattle
+- [Boston weekend events](https://noboringweekends.pages.dev/en/bos/): 6 events, e.g. Victoria Monét; Boston Bhangra Competition; Wicked (final weekend)
+- [Chicago weekend events](https://noboringweekends.pages.dev/en/chi/): 9 events, e.g. Friday the 13th Family Night at Southside STEM Station; Permission to Fail: Asian American Artists Salon; Mid-Autumn Evening with Chinese Mutual Aid Association & Haibayo
+- [Houston weekend events](https://noboringweekends.pages.dev/en/hou/): 10 events, e.g. Sunset Cinema: WALL-E; Studio Ghibli Tribute Art Show; Houston Ballet Nutcracker Market
 - [Dallas weekend events](https://noboringweekends.pages.dev/en/dal/): 9 events, e.g. American Heroes Festival; Toy Story 5 on the Lawn; KPop Demon Hunters: The Immersive Experience
-- [Washington DC weekend events](https://noboringweekends.pages.dev/en/dc/): 9 events, e.g. DowntownDC Holiday Market; Renwick Gallery Reinstallation; Art Guardians: Painting Rescue at the National Museum of Asian Art
-- [Orange County weekend events](https://noboringweekends.pages.dev/en/oc/): 7 events, e.g. Holidays at the Disneyland Resort; Ice Skating at Irvine Spectrum Center; Free Powwow at the Heritage Museum of Orange County
-- [San Diego weekend events](https://noboringweekends.pages.dev/en/sd/): 6 events, e.g. San Diego Asian Film Festival; Train Song Festival; Yokohama Festival in Balboa Park
+- [Washington DC weekend events](https://noboringweekends.pages.dev/en/dc/): 7 events, e.g. Renwick Gallery Reinstallation; Art Guardians: Painting Rescue at the National Museum of Asian Art; CityCenterDC Tree Lighting with JoJo
+- [Orange County weekend events](https://noboringweekends.pages.dev/en/oc/): 6 events, e.g. Holidays at the Disneyland Resort; Free Powwow at the Heritage Museum of Orange County; OC Book Fair, Old Town Tustin
+- [San Diego weekend events](https://noboringweekends.pages.dev/en/sd/): 5 events, e.g. San Diego Asian Film Festival; Train Song Festival; Yokohama Festival in Balboa Park
 - [Atlanta weekend events](https://noboringweekends.pages.dev/en/atl/): 9 events, e.g. WinterTide at Georgia Aquarium; Rudolph the Red-Nosed Reindeer at the Center for Puppetry Arts; Atlanta Babypalooza Baby Expo
 - [Toronto weekend events](https://noboringweekends.pages.dev/en/tor/): 8 events, e.g. Oakville Santa Claus Parade; Kain Tayo sa Paskuhan Village; Distillery Winter Village
-- [Vancouver weekend events](https://noboringweekends.pages.dev/en/van/): 10 events, e.g. Vancouver Asian Film Festival; Momentum: Power and Identity in Sports, Chinese Canadian Museum; Raffi in Concert
+- [Vancouver weekend events](https://noboringweekends.pages.dev/en/van/): 8 events, e.g. Vancouver Asian Film Festival; Raffi in Concert; Nikkei Craft Fair
 
 ## 免费 / 优惠攻略 Free-day guides
 - [纽约免费博物馆日 & 优惠 / Free museum days in New York](https://noboringweekends.pages.dev/nyc/guides/free/)
@@ -56,6 +56,23 @@ Each city has a fixed weekend page that is replaced weekly, plus a subscribable 
 - [亚特兰大免费博物馆日 & 优惠 / Free museum days in Atlanta](https://noboringweekends.pages.dev/atl/guides/free/)
 - [多伦多免费博物馆日 & 优惠 / Free museum days in Toronto](https://noboringweekends.pages.dev/tor/guides/free/)
 - [温哥华免费博物馆日 & 优惠 / Free museum days in Vancouver](https://noboringweekends.pages.dev/van/guides/free/)
+
+## 冬季季节限定攻略 Winter guides
+- [纽约冬季灯光、市集、溜冰攻略 / New York winter lights, markets & skating](https://noboringweekends.pages.dev/nyc/guides/winter/)
+- [新泽西冬季灯光、市集、溜冰攻略 / New Jersey winter lights, markets & skating](https://noboringweekends.pages.dev/nj/guides/winter/)
+- [洛杉矶冬季灯光、市集、溜冰攻略 / Los Angeles winter lights, markets & skating](https://noboringweekends.pages.dev/la/guides/winter/)
+- [旧金山湾区冬季灯光、市集、溜冰攻略 / SF Bay Area winter lights, markets & skating](https://noboringweekends.pages.dev/sf/guides/winter/)
+- [西雅图冬季灯光、市集、溜冰攻略 / Seattle winter lights, markets & skating](https://noboringweekends.pages.dev/sea/guides/winter/)
+- [波士顿冬季灯光、市集、溜冰攻略 / Boston winter lights, markets & skating](https://noboringweekends.pages.dev/bos/guides/winter/)
+- [芝加哥冬季灯光、市集、溜冰攻略 / Chicago winter lights, markets & skating](https://noboringweekends.pages.dev/chi/guides/winter/)
+- [休斯顿冬季灯光、市集、溜冰攻略 / Houston winter lights, markets & skating](https://noboringweekends.pages.dev/hou/guides/winter/)
+- [达拉斯冬季灯光、市集、溜冰攻略 / Dallas winter lights, markets & skating](https://noboringweekends.pages.dev/dal/guides/winter/)
+- [华盛顿 DC冬季灯光、市集、溜冰攻略 / Washington DC winter lights, markets & skating](https://noboringweekends.pages.dev/dc/guides/winter/)
+- [橙县 / 尔湾冬季灯光、市集、溜冰攻略 / Orange County winter lights, markets & skating](https://noboringweekends.pages.dev/oc/guides/winter/)
+- [圣地亚哥冬季灯光、市集、溜冰攻略 / San Diego winter lights, markets & skating](https://noboringweekends.pages.dev/sd/guides/winter/)
+- [亚特兰大冬季灯光、市集、溜冰攻略 / Atlanta winter lights, markets & skating](https://noboringweekends.pages.dev/atl/guides/winter/)
+- [多伦多冬季灯光、市集、溜冰攻略 / Toronto winter lights, markets & skating](https://noboringweekends.pages.dev/tor/guides/winter/)
+- [温哥华冬季灯光、市集、溜冰攻略 / Vancouver winter lights, markets & skating](https://noboringweekends.pages.dev/van/guides/winter/)
 
 ## Calendar feeds
 - [New York (.ics)](https://noboringweekends.pages.dev/cal/nyc.ics)
@@ -76,3 +93,4 @@ Each city has a fixed weekend page that is replaced weekly, plus a subscribable 
 
 ## Data
 - [events.json](https://noboringweekends.pages.dev/events.json): all events with dates, times, venues, prices and official links
+- [seasonal.json](https://noboringweekends.pages.dev/seasonal.json): long-running seasonal attractions (lights, markets, rinks, shows) with date ranges and hours

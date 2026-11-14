@@ -34,19 +34,6 @@ URL:https://www.bostonglobe.com/2026/11/12/arts/things-to-do-boston-this-we
  ekend/
 END:VEVENT
 BEGIN:VEVENT
-UID:snowport-2026-11-14@noboringweekends
-DTSTAMP:20261113T000000Z
-DTSTART;VALUE=DATE:20261114
-DTEND;VALUE=DATE:20261115
-SUMMARY:Snowport 海港假日市集
-LOCATION:Seaport\, Seaport Blvd\, Boston\, MA 02210
-DESCRIPTION:❄️ 海港假日市集第六季\,开到 12/27\,免费逛~\n
- 费用:免费\nhttps://www.bostonglobe.com/2026/11/12/arts/things-to-do-bo
- ston-this-weekend/
-URL:https://www.bostonglobe.com/2026/11/12/arts/things-to-do-boston-this-we
- ekend/
-END:VEVENT
-BEGIN:VEVENT
 UID:wicked-boston-2026-11-14@noboringweekends
 DTSTAMP:20261113T000000Z
 DTSTART;VALUE=DATE:20261114

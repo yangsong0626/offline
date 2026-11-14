@@ -57,20 +57,6 @@ URL:https://www.hola.com/us/entertainment/20261104933167/nyc-november-2026-
  bucket-list-kids/
 END:VEVENT
 BEGIN:VEVENT
-UID:gct-holiday-fair-2026-11-13@noboringweekends
-DTSTAMP:20261113T000000Z
-DTSTART;VALUE=DATE:20261113
-DTEND;VALUE=DATE:20261114
-SUMMARY:中央车站假日市集
-LOCATION:Vanderbilt Hall\, Grand Central\, 89 E 42nd St\, New York\, NY 100
- 17
-DESCRIPTION:🎁 室内假日市集\,手作礼物和小店\,天冷也能逛
- ~\n费用:免费\nhttps://www.hola.com/us/entertainment/20261104933167/nyc
- -november-2026-bucket-list-kids/
-URL:https://www.hola.com/us/entertainment/20261104933167/nyc-november-2026-
- bucket-list-kids/
-END:VEVENT
-BEGIN:VEVENT
 UID:ps1-free-2026-11-14@noboringweekends
 DTSTAMP:20261113T000000Z
 DTSTART:20261114T150000Z

@@ -129,30 +129,4 @@ DESCRIPTION:🎸 美式摇滚乐队 Houndmouth\,周六晚 7 点。\n费用:
  以官网为准\nhttps://do206.com/events/weekend
 URL:https://do206.com/events/weekend
 END:VEVENT
-BEGIN:VEVENT
-UID:festival-of-trees-2026-11-16@noboringweekends
-DTSTAMP:20261113T000000Z
-DTSTART;VALUE=DATE:20261116
-DTEND;VALUE=DATE:20261117
-SUMMARY:Fairmont 酒店圣诞树节
-LOCATION:Fairmont Olympic Hotel\, 411 University St\, Seattle\, WA 98101
-DESCRIPTION:🎄 酒店大堂满满的设计师圣诞树\,免费参观(欢
- 迎捐款)\,开到 12/1。\n费用:免费\nhttps://www.seattleschild.com/f
- ree-kid-friendly-events-this-weekend-november-2026/
-URL:https://www.seattleschild.com/free-kid-friendly-events-this-weekend-nov
- ember-2026/
-END:VEVENT
-BEGIN:VEVENT
-UID:gingerbread-village-2026-11-19@noboringweekends
-DTSTAMP:20261113T000000Z
-DTSTART;VALUE=DATE:20261119
-DTEND;VALUE=DATE:20261120
-SUMMARY:Sheraton 姜饼村(开幕)
-LOCATION:Sheraton Grand Seattle\, 1400 6th Ave\, Seattle\, WA 98101
-DESCRIPTION:🍪 超大姜饼村 11/19 开幕\,展到 1/1!\n费用:以官
- 网为准\nhttps://www.seattleschild.com/free-kid-friendly-events-this-wee
- kend-november-2026/
-URL:https://www.seattleschild.com/free-kid-friendly-events-this-weekend-nov
- ember-2026/
-END:VEVENT
 END:VCALENDAR

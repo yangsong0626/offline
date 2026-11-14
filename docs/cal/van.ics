@@ -8,18 +8,6 @@ X-WR-TIMEZONE:America/Vancouver
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:ccm-momentum3-2026-11-14@noboringweekends
-DTSTAMP:20261113T000000Z
-DTSTART:20261114T170000Z
-DTEND:20261115T000000Z
-SUMMARY:华裔加拿大人博物馆《Momentum》体育展
-LOCATION:Chinese Canadian Museum\, 51 E Pender St\, Vancouver\, BC V6A 1S9
-DESCRIPTION:🏀 华裔加拿大运动员的故事\,唐人街博物馆\,周
- 三到周日 10-5 点~\n费用:以官网为准\nhttps://www.chinesecanadia
- nmuseum.ca/
-URL:https://www.chinesecanadianmuseum.ca/
-END:VEVENT
-BEGIN:VEVENT
 UID:vaff-2026-11-13@noboringweekends
 DTSTAMP:20261113T000000Z
 DTSTART;VALUE=DATE:20261113
@@ -107,18 +95,6 @@ DESCRIPTION:🧣 40+ 本地摊位\,周日~\n费用:以官网为准\nhttps:/
  15/
 URL:https://miss604.com/2026/11/things-to-do-in-vancouver-this-weekend-even
  ts-nov-13-15/
-END:VEVENT
-BEGIN:VEVENT
-UID:xmas-market-van-2026-11-16@noboringweekends
-DTSTAMP:20261113T000000Z
-DTSTART;VALUE=DATE:20261116
-DTEND;VALUE=DATE:20261117
-SUMMARY:温哥华圣诞市集(开幕)
-LOCATION:Jack Poole Plaza\, 1055 Canada Pl\, Vancouver\, BC V6C 0C3
-DESCRIPTION:🎄 德式圣诞市集 11/16 开幕\,开到 12/24\,需网上
- 买时段票。\n费用:以官网为准\nhttps://miss604.com/2026/10/event
- s-in-vancouver-november-2026/
-URL:https://miss604.com/2026/10/events-in-vancouver-november-2026/
 END:VEVENT
 BEGIN:VEVENT
 UID:culture-crawl-2026-11-19@noboringweekends

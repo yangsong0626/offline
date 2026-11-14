@@ -21,6 +21,7 @@ except ImportError:  # pragma: no cover
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import deals as D  # noqa: E402  (tools/deals.py)
+import seasonal as SZ  # noqa: E402  (tools/seasonal.py)
 DOCS = os.path.join(ROOT, "docs")
 SITE = json.load(open(os.path.join(ROOT, "tools", "site.json"), encoding="utf-8"))
 URL = (os.environ.get("SITE_URL") or SITE["url"]).rstrip("/")
@@ -228,7 +229,7 @@ def write(path, text, newline=None):
 
 def guide_url(cid, lang): return page_url(cid, lang) + "guides/free/"
 
-def llms_txt(data, guides=()):
+def llms_txt(data, guides=(), season_guides=(), season=None):
     cities, wk = data["cities"], data["weekend"]
     out = [f'# {SITE["name_zh"]} {SITE["name_en"]}', "",
            f'> 北美华人周末活动指南：{len(cities)} 个城市的亲子和大人周末活动，华人与亚裔社区活动优先，中英双语，每周更新（本期 {date_range(wk, "zh")}，更新于 {data["updated"]}）。',
@@ -245,8 +246,11 @@ def llms_txt(data, guides=()):
         out.append("")
     if guides:
         out += ["## 免费 / 优惠攻略 Free-day guides", *[f"- [{cities[cid]['zh']}免费博物馆日 & 优惠 / Free museum days in {cities[cid]['en']}]({guide_url(cid, 'zh')})" for cid in guides], ""]
+    if season_guides:
+        out += [f"## {season['zh']}季节限定攻略 {season['en']} guides", *[f"- [{cities[cid]['zh']}{season['zh']}灯光、市集、溜冰攻略 / {cities[cid]['en']} {season['en'].lower()} lights, markets & skating]({zh_url})" for cid, zh_url, _ in season_guides], ""]
     out += ["## Calendar feeds", *[f"- [{c['en']} (.ics)]({URL}/cal/{cid}.ics)" for cid, c in cities.items()], "",
-            "## Data", f"- [events.json]({URL}/events.json): all events with dates, times, venues, prices and official links", ""]
+            "## Data", f"- [events.json]({URL}/events.json): all events with dates, times, venues, prices and official links",
+            f"- [seasonal.json]({URL}/seasonal.json): long-running seasonal attractions (lights, markets, rinks, shows) with date ranges and hours", ""]
     return "\n".join(out)
 
 def not_found(cities):
@@ -288,6 +292,22 @@ def main():
             write(os.path.join(DOCS, *(["en"] if lang == "en" else []), cid, "guides", "free", "index.html"), out)
         guides.append(cid)
 
+    # Seasonal guides (docs/seasonal.json): one page per city for the current season.
+    sz_path = os.path.join(DOCS, "seasonal.json")
+    sz = json.load(open(sz_path, encoding="utf-8")) if os.path.exists(sz_path) else None
+    season_guides = []
+    if sz:
+        slug = sz["season"]["slug"]
+        surl = lambda cid, lang: SZ.guide_url_for(page_url, cid, lang, slug)
+        for cid, c in cities.items():
+            mine = SZ.for_city(sz["items"], cid, data["updated"])
+            if not mine: continue
+            alts = [("zh-CN", surl(cid, "zh")), ("en", surl(cid, "en")), ("x-default", surl(cid, "zh"))]
+            for lang in ("zh", "en"):
+                out = SZ.guide_html(cid, c, mine, lang, sz, sz["season"], page_url, f"{URL}/og/{cid}.png", alts)
+                write(os.path.join(DOCS, *(["en"] if lang == "en" else []), cid, "guides", slug, "index.html"), out)
+            season_guides.append((cid, surl(cid, "zh"), surl(cid, "en")))
+
     sm = ['<?xml version="1.0" encoding="UTF-8"?>',
           '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">']
     for cid in urls:
@@ -301,6 +321,10 @@ def main():
                        for h, l in (("zh-CN", "zh"), ("en", "en"), ("x-default", "zh")))
         for lang in ("zh", "en"):
             sm.append(f'  <url><loc>{guide_url(cid, lang)}</loc><lastmod>{deals_updated}</lastmod><changefreq>monthly</changefreq>{alts}</url>')
+    for cid, zh_url, en_url in season_guides:
+        alts = "".join(f'<xhtml:link rel="alternate" hreflang="{h}" href="{u}"/>' for h, u in (("zh-CN", zh_url), ("en", en_url), ("x-default", zh_url)))
+        for u in (zh_url, en_url):
+            sm.append(f'  <url><loc>{u}</loc><lastmod>{sz["updated"]}</lastmod><changefreq>weekly</changefreq>{alts}</url>')
     sm.append("</urlset>")
     write(os.path.join(DOCS, "sitemap.xml"), "\n".join(sm) + "\n")
     robots = ["# Search engines and AI assistants are welcome / 欢迎搜索引擎和 AI 搜索抓取",
@@ -308,9 +332,9 @@ def main():
     for bot in AI_BOTS: robots += [f"User-agent: {bot}", "Allow: /", "Disallow: /xhs.html", ""]
     robots.append(f"Sitemap: {URL}/sitemap.xml")
     write(os.path.join(DOCS, "robots.txt"), "\n".join(robots) + "\n")
-    write(os.path.join(DOCS, "llms.txt"), llms_txt(data, guides))
+    write(os.path.join(DOCS, "llms.txt"), llms_txt(data, guides, season_guides, sz and sz["season"]))
     write(os.path.join(DOCS, "404.html"), not_found(cities))
-    print(f"built {len(cities)} cities x 2 languages, {len(guides)} free-day guides, feeds, sitemap, robots and llms.txt for {URL}")
+    print(f"built {len(cities)} cities x 2 languages, {len(guides)} free-day guides, {len(season_guides)} seasonal guides, feeds, sitemap, robots and llms.txt for {URL}")
 
 if __name__ == "__main__":
     main()

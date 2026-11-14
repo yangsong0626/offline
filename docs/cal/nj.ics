@@ -97,30 +97,6 @@ DESCRIPTION:🍂 10:00、10:30、11:00 三个时段\,带娃去看晚秋树
 URL:https://www.njkidsonline.com/events
 END:VEVENT
 BEGIN:VEVENT
-UID:morven-trees-2026-11-18@noboringweekends
-DTSTAMP:20261113T000000Z
-DTSTART;VALUE=DATE:20261118
-DTEND;VALUE=DATE:20261119
-SUMMARY:Morven 博物馆圣诞树节(开幕)
-LOCATION:Morven Museum & Garden\, 55 Stockton St\, Princeton\, NJ 08540
-DESCRIPTION:🎄 普林斯顿老宅里的圣诞树展\,20 周年\,11/18 开
- 幕!\n费用:以官网为准\nhttps://www.newjerseystage.com/articles3/202
- 6/11/10/events-this-week-in-new-jersey-from-november-10-16-2026/
-URL:https://www.newjerseystage.com/articles3/2026/11/10/events-this-week-in
- -new-jersey-from-november-10-16-2026/
-END:VEVENT
-BEGIN:VEVENT
-UID:paper-mill-poppins-2026-11-18@noboringweekends
-DTSTAMP:20261113T000000Z
-DTSTART;VALUE=DATE:20261118
-DTEND;VALUE=DATE:20261119
-SUMMARY:Paper Mill 剧院《欢乐满人间》
-LOCATION:Paper Mill Playhouse\, 22 Brookside Dr\, Millburn\, NJ 07041
-DESCRIPTION:☂️ 节日季音乐剧\,11/18 开演\,带娃看玛丽阿姨~
- \n费用:以官网为准\nhttps://www.njpac.org/tickets-events/
-URL:https://www.njpac.org/tickets-events/
-END:VEVENT
-BEGIN:VEVENT
 UID:rutgers-telescope-2026-11-19@noboringweekends
 DTSTAMP:20261113T000000Z
 DTSTART;VALUE=DATE:20261119
