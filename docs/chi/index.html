@@ -153,6 +153,7 @@ details.cal summary::-webkit-details-marker{display:none}
 .subcal summary{list-style:none;cursor:pointer;display:inline-flex;align-items:center;gap:6px;font-size:14px;color:var(--accent);font-weight:600}
 .subcal summary::-webkit-details-marker{display:none}
 .subcal .menu{position:static;margin-top:8px;box-shadow:none;max-width:320px}
+.btn.invite{border-color:var(--accent);color:var(--accent);font-weight:600}
 button.link{border:0;background:none;padding:0;cursor:pointer;font:inherit;font-size:14px;color:var(--muted);text-decoration:underline;text-underline-offset:3px}
 .empty{padding:32px 8px;text-align:center;color:var(--muted)}
 .foot{margin-top:36px;padding-top:16px;border-top:1px solid var(--line);font-size:13px;color:var(--muted);display:grid;gap:4px}
@@ -250,7 +251,7 @@ var T={
   foot1:"更新于 {u}。活动时间、价格和是否需要报名可能变动,出发前请以主办方官网为准。",
   foot2:"天气来自公开预报,仅供安排行程参考。",
   eventsFail:"活动数据加载失败,请刷新页面重试。",
-  docTitle:"{c}周末去哪儿 · 周末不无聊",dealsTitle:"💸 本周能用的免费 / 优惠({n})",dealsAny:"随时",dealsMore:"📖 {c}免费博物馆日 & 优惠全攻略 →",szTitle:"🎄 季节限定 · 本周开放({n})",szSoon:"{d} 开幕",szNew:"本周新开",szLast:"本周结束",szEnds:"{d} 结束",szUntil:"至 {d}",szMore:"📖 {c}{s}灯光、市集、溜冰全攻略 →",share:"分享",shared:"链接已复制,发给朋友吧",
+  docTitle:"{c}周末去哪儿 · 周末不无聊",dealsTitle:"💸 本周能用的免费 / 优惠({n})",dealsAny:"随时",dealsMore:"📖 {c}免费博物馆日 & 优惠全攻略 →",szTitle:"🎄 季节限定 · 本周开放({n})",szSoon:"{d} 开幕",szNew:"本周新开",szLast:"本周结束",szEnds:"{d} 结束",szUntil:"至 {d}",szMore:"📖 {c}{s}灯光、市集、溜冰全攻略 →",share:"💌 约人一起去",shared:"邀请已复制,粘贴到微信发给 TA 吧",invite:"{w}，一起去「{t}」吗？",today:"今天",tomorrow:"明天",thisWk:"这",nextWk:"下",
   subTitle:"📅 订阅{c}活动到日历(每周自动更新)",subApple:"Apple 日历 / Outlook",subGoogle:"Google 日历",subCopy:"复制订阅链接",subCopied:"订阅链接已复制",
   instTitle:"把「周末不无聊」装到手机上",instText:"像 App 一样从主屏幕打开,没网也能看。",instIos:"点 Safari 底部的分享按钮 ⬆️,再选「添加到主屏幕」。",instGo:"安装"},
  en:{eyebrow:"Updated every Friday",headline:"Where to go this weekend",why:"✨ The moment",tips:"📝 Tips",cityHead:"Things to Do in {c} This Weekend",citySub:"Family-friendly and grown-up events in {c} this weekend and next week: festivals, shows, food, outdoors, free days and Asian community events.",sub:"Weekend and weekday picks for families and grown-ups: festivals, shows, food, outdoors and Asian community events, in date order.",
@@ -269,7 +270,7 @@ var T={
   foot1:"Updated {u}. Times, prices and sign-up rules can change. Check the organizer's site before you go.",
   foot2:"Weather comes from public forecasts and is a planning aid only.",
   eventsFail:"Could not load events. Please refresh.",
-  docTitle:"Things to do in {c} this weekend · No Boring Weekends",dealsTitle:"💸 Free & discount days this week ({n})",dealsAny:"Any day",dealsMore:"📖 Free museum days & discounts in {c} →",szTitle:"🎄 Seasonal · open this week ({n})",szSoon:"Opens {d}",szNew:"New this week",szLast:"Last week",szEnds:"Ends {d}",szUntil:"To {d}",szMore:"📖 {c} {s} guide: lights, markets & skating →",share:"Share",shared:"Link copied. Send it to a friend!",
+  docTitle:"Things to do in {c} this weekend · No Boring Weekends",dealsTitle:"💸 Free & discount days this week ({n})",dealsAny:"Any day",dealsMore:"📖 Free museum days & discounts in {c} →",szTitle:"🎄 Seasonal · open this week ({n})",szSoon:"Opens {d}",szNew:"New this week",szLast:"Last week",szEnds:"Ends {d}",szUntil:"To {d}",szMore:"📖 {c} {s} guide: lights, markets & skating →",share:"💌 Invite someone",shared:"Invite copied. Paste it into a message!",invite:"Want to go to {t} together {w}?",today:"today",tomorrow:"tomorrow",thisWk:"",nextWk:"",
   subTitle:"📅 Subscribe to {c} events (updates weekly)",subApple:"Apple Calendar / Outlook",subGoogle:"Google Calendar",subCopy:"Copy feed link",subCopied:"Feed link copied",
   instTitle:"Get No Boring Weekends on your phone",instText:"Open it from your home screen like an app, even offline.",instIos:"Tap Safari's Share button ⬆️, then \"Add to Home Screen\".",instGo:"Install"}
 };
@@ -429,7 +430,7 @@ function card(e,tz){
      '<button type="button" data-ics="'+esc(e.id)+'">'+esc(t("ics"))+'</button>'+
      '<button type="button" data-copy="'+esc(e.id)+'">'+esc(t("copy"))+'</button></div></details>'+
     '<a class="link" href="'+esc(e.url)+'" target="_blank" rel="noopener">'+esc(t("site"))+' ↗</a>'+
-    '<button type="button" class="link" data-share="'+esc(e.id)+'">'+esc(t("share"))+'</button>'+
+    '<button type="button" class="btn invite" data-share="'+esc(e.id)+'">'+esc(t("share"))+'</button>'+
    '</div></div></article>'
 }
 var NARROW=window.matchMedia?matchMedia("(max-width:600px)"):{matches:false};
@@ -528,12 +529,21 @@ function render(){
   $("foot").innerHTML='<span>'+esc(fmt(t("foot1"),{u:S.data.updated}))+'</span><span>'+esc(t("foot2"))+'</span>'
 }
 function copyText(s,ok){(navigator.clipboard&&navigator.clipboard.writeText?navigator.clipboard.writeText(s):Promise.reject()).then(function(){toast(ok)},function(){toast(t("copyFail"))})}
+/* "When" in the words you'd use with a friend: 今天 / 明天 / 这周六 / 下周三 (zh), today / tomorrow / on Sat, Nov 21 (en). */
+function whenWords(e){
+  var td=todayIn(S.data.cities[S.city].tz),days=Math.round((Date.parse(e.date)-Date.parse(td))/864e5),w=dow(e.date),zh=S.lang==="zh",tm=e.start?(zh?" ":" at ")+timeLabel(e.start):"";
+  if(days===0)return t("today")+tm;if(days===1)return t("tomorrow")+tm;
+  if(!zh)return "on "+WD.en[w]+", "+dateLabel(e.date)+tm;
+  var sameWeek=days>0&&days<7&&(w===0?7:w)>(dow(td)===0?7:dow(td));
+  return (days>0&&days<14?(sameWeek?t("thisWk"):t("nextWk"))+WD.zh[w]:"")+"("+parts(e.date).m+"/"+parts(e.date).d+")"+tm}
+/* Turns a card into a ready-to-send invitation: the point is getting people out together, not just passing a link around. */
 function shareEvent(id){
   var e=S.data.cities[S.city].events.filter(function(x){return x.id===id})[0];if(!e)return;
-  var url=new URL(cityPath(S.city)+"#e-"+id,ROOT).href,x=ev_text(e,S.lang);
-  var text=x.title+" · "+dateLabel(e.date)+(e.start?" "+timeLabel(e.start):"")+" · "+e.venue;
-  if(navigator.share)navigator.share({title:x.title,text:text,url:url}).catch(function(){});
-  else copyText(text+"\n"+url,t("shared"));
+  var L=S.lang==="zh"?"zh":"en",x=ev_text(e,S.lang),url=new URL(cityPath(S.city)+"?from=invite#e-"+id,ROOT).href;
+  var hook=(e["why_"+L]||e.why_zh||String(x.desc||"").split("\n")[0]).replace(/^[\p{Extended_Pictographic}\uFE0F\u200D\s]+/u,"");
+  var text=[fmt(t("invite"),{w:whenWords(e),t:x.title}),hook?"✨ "+hook:"","📍 "+e.venue+(e.area?" · "+e.area:""),"💵 "+(e.free?t("freeL"):x.cost)].filter(Boolean).join("\n");
+  if(navigator.share&&NARROW.matches)navigator.share({text:text+"\n👉 "+url}).catch(function(){});
+  else copyText(text+"\n👉 "+url,t("shared"));
 }
 function focusHash(){
   var m=location.hash.match(/^#e-([\w-]+)$/);if(!m)return;var el=document.getElementById("e-"+m[1]);if(!el)return;
