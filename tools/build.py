@@ -103,6 +103,13 @@ def city_links(cities, lang):
             + "".join(f'<a href="{pre}{cid}/">{esc(L[lang]["links"].format(c=cname(c, lang)))}</a>' for cid, c in cities.items())
             + "</nav><!--/citylinks-->")
 
+def pick_html(e, lang):
+    why, tips = tx(e, "why", lang), tx(e, "tips", lang)
+    if not why and not tips: return ""
+    lab = ("💡 推荐理由", "📝 小贴士") if lang == "zh" else ("💡 Why go", "📝 Tips")
+    return ('<p class="pick">' + (f"<b>{lab[0]}</b> {esc(why)}" if why else "") + ("<br>" if why and tips else "")
+            + (f"<b>{lab[1]}</b> {esc(tips)}" if tips else "") + "</p>")
+
 def card_html(e, lang):
     t = esc(e.get("start") or L[lang]["tbd"]) + (("<br>" + esc(e["end"])) if e.get("end") else "")
     cost = L[lang]["free"] if e.get("free") else tx(e, "cost", lang)
@@ -110,7 +117,7 @@ def card_html(e, lang):
             f'<span class="w">{weekday(e["date"], lang)}</span><span class="t">{t}</span></div><div class="body">'
             f'<h3>{esc(tx(e, "title", lang))}</h3><p class="where">{esc(e["venue"])} · {esc(e["address"])}</p>'
             f'<div class="meta"><span>{esc(cost)}</span><span>{L[lang]["ages"]} {esc(tx(e, "ages", lang))}</span></div>'
-            f'<p class="desc">{esc(tx(e, "desc", lang))}</p>'
+            f'<p class="desc">{esc(tx(e, "desc", lang))}</p>{pick_html(e, lang)}'
             f'<div class="actions"><a class="link" href="{esc(e["url"])}" rel="noopener">{L[lang]["site"]} ↗</a></div></div></article>')
 
 def event_ld(e, cid, tz, page, image, lang):

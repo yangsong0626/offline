@@ -41,7 +41,7 @@ textarea{width:100%;min-height:340px;border:1px solid var(--line);background:var
   <p class="muted">从本周活动或季节限定数据生成 3:4 轮播图（1080×1440）和笔记正文。手机上点「保存全部」可直接存到相册；也可以长按单张图片保存。</p>
 
   <div class="bar">
-    <label>内容 <select id="mode"><option value="weekend">周末精选</option><option value="season">季节攻略</option></select></label>
+    <label>内容 <select id="mode"><option value="weekend">周末精选</option><option value="season">季节攻略</option><option value="book">提前订票</option></select></label>
     <label>城市 <select id="city"></select></label>
     <label>人群 <select id="aud"><option value="all">全部活动</option><option value="family">亲子</option><option value="adult">大人</option></select></label>
     <label>每页 <select id="per"><option value="2">2 个活动</option><option value="1">1 个活动</option></select></label>
@@ -105,6 +105,13 @@ function seasonItems(id,a){
    .map(function(x){return Object.assign({_season:true},x)})
    .sort(function(x,y){return (x.tier>y.tier?1:x.tier<y.tier?-1:0)||(x.start||"").localeCompare(y.start||"")||x.end.localeCompare(y.end)})
 }
+/* Things to book ahead: seasonal items and this week's events that need tickets and carry a tip. */
+function bookItems(id,a){
+  var td=today(),cs=ids(id),wk=D.week||D.weekend;
+  var sz=(SZ?SZ.items:[]).filter(function(x){return cs.indexOf(x.city)>-1&&x.signup&&x.tips_zh&&x.end>=td&&forAud(x,a)}).map(function(x){return Object.assign({_season:true},x)});
+  var ev=[].concat.apply([],cs.map(function(k){return D.cities[k].events})).filter(function(e){return e.signup&&e.tips_zh&&e.date>=td&&e.date<=wk.end&&forAud(e,a)});
+  return sz.concat(ev).sort(function(x,y){return (x.start||x.date||"").localeCompare(y.start||y.date||"")})
+}
 function runText(x){return x.start?md(x.start)+"–"+md(x.end):"至 "+md(x.end)}
 function timeText(e){return e.start?(e.start+(e.end?"–"+e.end:"")):"时间见官网"}
 function costText(e){return e.free?"免费":e.cost_zh}
@@ -147,15 +154,15 @@ function brand(ctx,right){
 function drawSky(ctx,img,h){if(img)ctx.drawImage(img,0,H-h,W,h)}
 
 /* ---------- pages ---------- */
-function cover(id,list,sky,season){
+function cover(id,list,sky,season,book){
   var cv=canvas(),c=cv[0],ctx=cv[1],name=cityName(id),wk=D.weekend;
   drawSky(ctx,sky,W*220/1200);
   brand(ctx,"每周五更新");
-  ctx.fillStyle=C.accent;ctx.font=font("700",44,SANS);ctx.fillText(season?SZ.season.year+" "+SZ.season.zh+"限定":md(wk.start)+" – "+md(wk.end)+" 周末",PAD,300);
+  ctx.fillStyle=C.accent;ctx.font=font("700",44,SANS);ctx.fillText(book?"热门日期会售罄":season?SZ.season.year+" "+SZ.season.zh+"限定":md(wk.start)+" – "+md(wk.end)+" 周末",PAD,300);
   ctx.fillStyle=C.ink;ctx.font=font("900",name.length>4?120:150,SERIF);ctx.fillText(name,PAD,470);
-  ctx.font=font("900",120,SERIF);ctx.fillText(season?"灯光市集攻略":"周末去哪儿",PAD,620);
+  ctx.font=font("900",120,SERIF);ctx.fillText(book?"提前订票清单":season?"灯光市集攻略":"周末去哪儿",PAD,620);
   var free=list.filter(function(e){return e.free}).length,asian=list.filter(function(e){return e.tier!=="C"}).length;
-  var stats=[[(season?"精选 "+list.length+" 个好去处":"精选 "+list.length+" 个活动"),C.accent,"#fff",true]];
+  var stats=[[(book?list.length+" 个要早订":season?"精选 "+list.length+" 个好去处":"精选 "+list.length+" 个活动"),C.accent,"#fff",true]];
   if(free)stats.push(["免费 "+free+" 个",C.aBg,C.accent,true]);
   if(asian)stats.push(["华人 / 亚裔 "+asian+" 个",C.bBg,C.b,true]);
   var y=pills(ctx,PAD,680,W-2*PAD,stats,34)+60;
@@ -178,7 +185,8 @@ function card(ctx,e,x,y,w,h){
   ctx.fillStyle=C.muted;ctx.font=font("500",30,SANS);cy=lines(ctx,wrap(ctx,"📍 "+e.venue+(e.area?" · "+e.area:""),iw,1),ix,cy+4,42);
   cy=pills(ctx,ix,cy+4,iw,[[costText(e),e.free?C.aBg:C.chip,e.free?C.accent:C.ink,e.free]].concat(e.ages_zh?[["适合 "+e.ages_zh,C.chip,C.ink,false]]:[]).concat([[e.indoor?"室内":"户外",C.chip,C.ink,false]]).concat(e.signup?[["需报名 / 购票",C.chip,C.ink,false]]:[]),26)+52;
   var room=Math.floor((y+h-36-cy)/44)+1;
-  if(room>0){ctx.fillStyle=C.ink;ctx.font=font("400",31,SANS);lines(ctx,wrap(ctx,e.desc_zh,iw,room),ix,cy,44)}
+  [[e.why_zh,"💡 ",C.accent,"700"],[e.tips_zh,"📝 ",C.ink,"500"],[e.desc_zh,"",C.ink,"400"]].forEach(function(r){
+    if(!r[0]||room<1)return;ctx.fillStyle=r[2];ctx.font=font(r[3],31,SANS);var ls=wrap(ctx,r[1]+r[0],iw,room);lines(ctx,ls,ix,cy,44);cy+=ls.length*44+10;room-=ls.length})
 }
 function page(id,chunk,idx,total){
   var cv=canvas(),c=cv[0],ctx=cv[1];
@@ -209,6 +217,15 @@ function seasonCaptions(id,list){
   b.push(tagsOf(id).concat(["圣诞节","圣诞灯光","圣诞市集","冬季遛娃"]).concat(BASE_TAGS).map(function(x){return "#"+x}).join(" "));
   return {title:t,body:b.join("\n")}
 }
+function bookCaptions(id,list){
+  var city=cityName(id),sz=SZ?SZ.season.zh:"";
+  var t=city+sz+"提前订票清单｜"+list.length+"个";if([...t].length>20)t=city+"提前订票清单｜"+list.length+"个";
+  var b=["这些热门活动不提前订，到时候很可能没票😭 帮大家把"+city+"需要早订的整理好了👇",""];
+  list.forEach(function(x){b.push("▫️ "+(x._season?runText(x):md(x.date))+"｜"+x.title_zh);b.push("　"+x.tips_zh)});
+  b.push("");b.push("⚠️ 票价和余票以官网为准");b.push("📌 完整攻略在主页简介");b.push("⏰ 每周五更新，收藏关注不迷路～");b.push("");
+  b.push(tagsOf(id).concat(["提前订票","圣诞节","周末去哪儿"]).concat(BASE_TAGS.slice(1)).map(function(x){return "#"+x}).join(" "));
+  return {title:t,body:b.join("\n")}
+}
 function captions(id,list){
   var city=cityName(id),wk=D.weekend,s=parts(wk.start),e=parts(wk.end);
   var range=s.m+"/"+s.d+"-"+(s.m===e.m?e.d:e.m+"/"+e.d);
@@ -232,17 +249,18 @@ function counts(){
   $("bcount").textContent=bl+" / 1000";$("bcount").classList.toggle("over",bl>1000);
 }
 function build(){
-  var id=$("city").value,season=$("mode").value==="season",list=season?seasonItems(id,$("aud").value):events(id,$("aud").value),per=+$("per").value;
-  try{history.replaceState(null,"","?city="+id+(season?"&mode=season":""))}catch(e){}
+  var id=$("city").value,mode=$("mode").value,season=mode==="season",book=mode==="book",a=$("aud").value,
+      list=book?bookItems(id,a):season?seasonItems(id,a):events(id,a),per=+$("per").value;
+  try{history.replaceState(null,"","?city="+id+(mode!=="weekend"?"&mode="+mode:""))}catch(e){}
   return Promise.all([skyImage(ids(id)[0]),document.fonts?document.fonts.ready:null]).then(function(r){
-    var sky=r[0],pages=[cover(id,list,sky,season)],chunks=[];
+    var sky=r[0],pages=[cover(id,list,sky,season,book)],chunks=[];
     for(var i=0;i<list.length;i+=per)chunks.push(list.slice(i,i+per));
     chunks.forEach(function(ch,i){pages.push(page(id,ch,i+1,chunks.length))});
     pages.push(outro(id,sky));
-    shots=pages.map(function(c,i){return {name:id.replace("+","-")+"-"+(season?SZ.season.slug:D.weekend.start)+"-"+String(i+1).padStart(2,"0")+".png",url:c.toDataURL("image/png"),canvas:c}});
+    shots=pages.map(function(c,i){return {name:id.replace("+","-")+"-"+(book?"book-"+today():season?SZ.season.slug:D.weekend.start)+"-"+String(i+1).padStart(2,"0")+".png",url:c.toDataURL("image/png"),canvas:c}});
     $("grid").innerHTML=shots.map(function(s,i){return '<div class="shot"><img src="'+s.url+'" alt="第 '+(i+1)+' 张"><a href="'+s.url+'" download="'+s.name+'">下载第 '+(i+1)+' 张</a></div>'}).join("");
     if(shots.length>18)toast("共 "+shots.length+" 张，超过小红书 18 张上限，可改成每页 2 个活动");
-    var cap=season?seasonCaptions(id,list):captions(id,list);$("title").value=cap.title;$("body").value=cap.body;counts();
+    var cap=book?bookCaptions(id,list):season?seasonCaptions(id,list):captions(id,list);$("title").value=cap.title;$("body").value=cap.body;counts();
   })
 }
 function blobOf(s){return new Promise(function(res){s.canvas.toBlob(res,"image/png")})}
@@ -262,7 +280,7 @@ document.addEventListener("click",function(ev){var b=ev.target.closest("[data-co
 Promise.all([fetch("events.json",{cache:"no-cache"}).then(function(r){return r.json()}),
   fetch("seasonal.json",{cache:"no-cache"}).then(function(r){return r.ok?r.json():null}).catch(function(){return null})]).then(function(res){
   var d=res[0];D=d;SZ=res[1];var want=decodeURIComponent((location.search.match(/city=([\w+%]+)/)||[])[1]||""),combos=["nyc+nj","la+oc"];
-  if(/mode=season/.test(location.search))$("mode").value="season";
+  var m=(location.search.match(/mode=(\w+)/)||[])[1];if(m==="season"||m==="book")$("mode").value=m;
   $("city").innerHTML=combos.concat(Object.keys(d.cities)).map(function(k){return '<option value="'+k+'"'+(k===want?" selected":"")+'>'+cityName(k)+'</option>'}).join("");
   return build();
 }).catch(function(e){$("grid").textContent="活动数据加载失败："+e});
