@@ -185,7 +185,7 @@ function card(ctx,e,x,y,w,h){
   ctx.fillStyle=C.muted;ctx.font=font("500",30,SANS);cy=lines(ctx,wrap(ctx,"📍 "+e.venue+(e.area?" · "+e.area:""),iw,1),ix,cy+4,42);
   cy=pills(ctx,ix,cy+4,iw,[[costText(e),e.free?C.aBg:C.chip,e.free?C.accent:C.ink,e.free]].concat(e.ages_zh?[["适合 "+e.ages_zh,C.chip,C.ink,false]]:[]).concat([[e.indoor?"室内":"户外",C.chip,C.ink,false]]).concat(e.signup?[["需报名 / 购票",C.chip,C.ink,false]]:[]),26)+52;
   var room=Math.floor((y+h-36-cy)/44)+1;
-  [[e.why_zh,"💡 ",C.accent,"700"],[e.tips_zh,"📝 ",C.ink,"500"],[e.desc_zh,"",C.ink,"400"]].forEach(function(r){
+  [[e.why_zh,"✨ ",C.accent,"700"],[e.tips_zh,"📝 ",C.ink,"500"],[e.desc_zh,"",C.ink,"400"]].forEach(function(r){
     if(!r[0]||room<1)return;ctx.fillStyle=r[2];ctx.font=font(r[3],31,SANS);var ls=wrap(ctx,r[1]+r[0],iw,room);lines(ctx,ls,ix,cy,44);cy+=ls.length*44+10;room-=ls.length})
 }
 function page(id,chunk,idx,total){

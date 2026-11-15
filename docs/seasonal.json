@@ -33,7 +33,9 @@
    "desc_en": "Lantern and light displays with select animal houses open after dark; popular nights sell out.",
    "url": "https://bronxzoo.com/",
    "tips_zh": "热门夜晚常售罄，建议提前 1–2 周买票；12 月周末最挤，平日晚上通常人少些。",
-   "tips_en": "Popular nights sell out; book 1–2 weeks ahead. December weekends are busiest."
+   "tips_en": "Popular nights sell out; book 1–2 weeks ahead. December weekends are busiest.",
+   "why_zh": "天黑后整条步道的动物彩灯一起亮起来，孩子会拉着你一盏一盏认是什么动物。",
+   "why_en": "When the trail goes dark and the animal lanterns glow, kids race to name every animal."
   },
   {
    "id": "nybg-train-show",
@@ -61,7 +63,9 @@
    "desc_en": "Model trains run past NYC landmarks built from bark, leaves and seeds.",
    "url": "https://www.nybg.org/",
    "tips_zh": "按时段卖票，周末和节假日要提前订；可坐 Metro-North 到 Botanical Garden 站，不用找停车位。",
-   "tips_en": "Timed tickets; book weekends and holidays ahead. Metro-North to Botanical Garden station avoids parking."
+   "tips_en": "Timed tickets; book weekends and holidays ahead. Metro-North to Botanical Garden station avoids parking.",
+   "why_zh": "小火车从用树皮和松果做的纽约地标中间穿过，孩子会蹲下来找自己认识的楼。",
+   "why_en": "Trains wind past NYC landmarks made of bark and pinecones while kids crouch to spot buildings they know."
   },
   {
    "id": "bryant-park-village",
@@ -87,7 +91,9 @@
    "signup": false,
    "desc_zh": "⛸️ 曼哈顿中城免费溜冰+节日小店,逛完去纽约公共图书馆~",
    "desc_en": "Free-admission rink plus holiday shops in Midtown.",
-   "url": "https://bryantpark.org/"
+   "url": "https://bryantpark.org/",
+   "why_zh": "在摩天楼和图书馆中间滑冰，滑累了捧一杯热可可在小木屋之间慢慢逛。",
+   "why_en": "Skating between skyscrapers, then wandering the little shops with a hot cocoa."
   },
   {
    "id": "union-sq-market",
@@ -113,7 +119,9 @@
    "signup": false,
    "desc_zh": "🎁 纽约最老牌的露天节日市集之一,手作礼物和小吃~",
    "desc_en": "One of NYC's classic open-air holiday markets.",
-   "url": "https://www.newyorkbigevent.com/local-guides-tips/nyc-christmas-events-calendar-2026/"
+   "url": "https://www.newyorkbigevent.com/local-guides-tips/nyc-christmas-events-calendar-2026/",
+   "why_zh": "一家人在一排排小摊之间挑小礼物，顺手买点热乎乎的小吃边走边吃。",
+   "why_en": "Picking small gifts together between the stalls, snacks in hand."
   },
   {
    "id": "gct-fair",
@@ -139,7 +147,9 @@
    "signup": false,
    "desc_zh": "🎄 室内假日市集,天冷下雨都能逛~",
    "desc_en": "Indoor holiday market in Vanderbilt Hall.",
-   "url": "https://resident.com/new-york/2026/10/28/nycs-holiday-season-begins-with-these-15-things-to-do-in-november-2026"
+   "url": "https://resident.com/new-york/2026/10/28/nycs-holiday-season-begins-with-these-15-things-to-do-in-november-2026",
+   "why_zh": "逛完市集抬头看中央车站的星空穹顶，再告诉孩子这是全世界最有名的车站之一。",
+   "why_en": "After the market, look up at the starry ceiling of one of the world's most famous stations."
   },
   {
    "id": "macys-santaland",
@@ -167,7 +177,9 @@
    "desc_en": "Visit Santa at Macy's Herald Square; reservations recommended.",
    "url": "https://resident.com/new-york/2026/10/28/nycs-holiday-season-begins-with-these-15-things-to-do-in-november-2026",
    "tips_zh": "预约制，名额放出后很快约满，记得早点上官网抢时段。",
-   "tips_en": "Reservation slots fill quickly once released."
+   "tips_en": "Reservation slots fill quickly once released.",
+   "why_zh": "排到最后，孩子终于坐到圣诞老人旁边，小声说出今年的愿望。",
+   "why_en": "At the end of the line, kids finally whisper their wish to Santa."
   },
   {
    "id": "ocean-vuong-apa",
@@ -221,7 +233,9 @@
    "desc_en": "Drive-through light show; early online pricing before Nov 19.",
    "url": "https://njtoday.news/2026/10/29/magic-of-lights-drive-through-show-returns-to-holmdel-nov-20/",
    "tips_zh": "按车收费，11/19 前网上买有早鸟价；周五六晚上排车最久。",
-   "tips_en": "Priced per car with early online pricing before Nov 19; Fri–Sat nights have the longest lines."
+   "tips_en": "Priced per car with early online pricing before Nov 19; Fri–Sat nights have the longest lines.",
+   "why_zh": "一家人坐在车里放着圣诞歌，慢慢开过一条条灯光隧道，小宝宝也不怕冷。",
+   "why_en": "Holiday music on, the whole family rolls through tunnels of light, warm in the car."
   },
   {
    "id": "winter-wonderlights",
@@ -249,7 +263,9 @@
    "desc_en": "Animated drive-thru with Christmas, Hanukkah, Diwali and Kwanzaa displays; pets welcome.",
    "url": "https://winterwonderlightshows.com/",
    "tips_zh": "按车收费、风雨无阻，平日晚上排队短。",
-   "tips_en": "Per-car pricing, rain or shine; shorter lines on weeknights."
+   "tips_en": "Per-car pricing, rain or shine; shorter lines on weeknights.",
+   "why_zh": "车窗外是一个接一个会动的灯光场景，后座的孩子会一直喊「快看那个」。",
+   "why_en": "Animated scenes keep coming and the back seat keeps shouting \"look at that one!\""
   },
   {
    "id": "morven-trees-s",
@@ -303,7 +319,9 @@
    "desc_en": "Holiday-season musical.",
    "url": "https://www.njpac.org/tickets-events/",
    "tips_zh": "节日季周末场次最先卖完，平日场和日场更容易买到。",
-   "tips_en": "Holiday weekend shows sell first; weekday and matinee seats are easier."
+   "tips_en": "Holiday weekend shows sell first; weekday and matinee seats are easier.",
+   "why_zh": "玛丽阿姨撑着伞飞起来的那一刻，全场小朋友都会张大嘴巴。",
+   "why_en": "When Mary Poppins floats up with her umbrella, every child in the room gasps."
   },
   {
    "id": "la-zoo-lights",
@@ -1682,7 +1700,9 @@
    "desc_en": "New York's classic holiday ballet.",
    "tips_zh": "圣诞前后场次最抢手，越早订越好；适合大约 5 岁以上能坐得住的小朋友。",
    "tips_en": "Shows around Christmas go first; best for kids about 5+ who can sit through it.",
-   "url": "https://resident.com/new-york/2026/10/28/nycs-holiday-season-begins-with-these-15-things-to-do-in-november-2026"
+   "url": "https://resident.com/new-york/2026/10/28/nycs-holiday-season-begins-with-these-15-things-to-do-in-november-2026",
+   "why_zh": "第一幕结尾舞台上开始下雪，圣诞树越长越高，是很多纽约家庭每年的仪式。",
+   "why_en": "Act I ends with snow falling and the tree growing ever taller, a yearly ritual for many NYC families."
   }
  ]
 }
