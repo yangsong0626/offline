@@ -1,7 +1,7 @@
 # 周末不无聊 No Boring Weekends
 Static site: `docs/index.html` + `docs/events.json`. Update `docs/events.json` every Friday with that weekend plus the following Mon–Thu: `weekend` is Fri–Sun, the optional `week` range (Fri–Thu) covers the weekday events. Events whose date has passed are hidden on the page.
 `editor_notes_zh` / `editor_notes_en` on each city are internal notes for editors and are not shown on the site.
-Each event has an `audience` of `family` (亲子), `adult` (大人) or `all` (both). Top picks can carry `why_zh`/`why_en` (推荐理由) and `tips_zh`/`tips_en` (age fit, parking or transit, rain plan, crowds), shown in a highlighted box on the card and on Xiaohongshu cards. Leave `start` empty when the time is not fixed; the page shows "时间见官网" and calendar exports become all-day events.
+Each event has an `audience` of `family` (亲子), `adult` (大人) or `all` (both). Top picks can carry `why_zh`/`why_en` (值得期待的瞬间: describe the moment people will remember, e.g. the lights switching on, not just "has light displays") and `tips_zh`/`tips_en` (age fit, parking or transit, rain plan, crowds), shown in a highlighted box on the card and on Xiaohongshu cards. Leave `start` empty when the time is not fixed; the page shows "时间见官网" and calendar exports become all-day events.
 Hosting: Cloudflare Pages — **build command `python3 tools/build.py`**, build output directory `docs`.
 
 ## Build (SEO, share cards, calendar feeds)

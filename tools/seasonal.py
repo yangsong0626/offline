@@ -58,6 +58,7 @@ def guide_html(cid, city, items, lang, data, season, page_url, image, alt_urls):
         return (f'<article class="item" id="{esc(x["id"])}"><h3>{esc(t(x, "title"))}{tag}</h3>'
                 f'<p class="when">🗓 {esc(run_text(x, lang))}</p><p class="who">🕒 {esc(t(x, "hours"))} · 💵 {esc(cost)}</p>'
                 f'<p class="where">📍 {esc(x["venue"])} · {esc(x["address"])}</p><p>{esc(t(x, "desc"))}</p>'
+                + (f'<p class="tip">✨ {esc(t(x, "why"))}</p>' if t(x, "why") else "")
                 + (f'<p class="tip">📝 {esc(t(x, "tips"))}</p>' if t(x, "tips") else "")
                 + f'<p><a href="{esc(x["url"])}" target="_blank" rel="noopener">{"官网 / 详情" if zh else "Official info"} ↗</a></p></article>')
     sections = ""

@@ -106,7 +106,7 @@ def city_links(cities, lang):
 def pick_html(e, lang):
     why, tips = tx(e, "why", lang), tx(e, "tips", lang)
     if not why and not tips: return ""
-    lab = ("💡 推荐理由", "📝 小贴士") if lang == "zh" else ("💡 Why go", "📝 Tips")
+    lab = ("✨ 值得期待的瞬间", "📝 小贴士") if lang == "zh" else ("✨ The moment", "📝 Tips")
     return ('<p class="pick">' + (f"<b>{lab[0]}</b> {esc(why)}" if why else "") + ("<br>" if why and tips else "")
             + (f"<b>{lab[1]}</b> {esc(tips)}" if tips else "") + "</p>")
 
