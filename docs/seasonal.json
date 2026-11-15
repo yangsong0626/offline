@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-14",
+ "updated": "2026-11-15",
  "season": {
   "slug": "winter",
   "zh": "冬季",
@@ -31,7 +31,9 @@
    "signup": true,
    "desc_zh": "🦁 动物园夜间灯光秀,部分动物馆晚上也开放!热门日期常售罄,早点买票。",
    "desc_en": "Lantern and light displays with select animal houses open after dark; popular nights sell out.",
-   "url": "https://bronxzoo.com/"
+   "url": "https://bronxzoo.com/",
+   "tips_zh": "热门夜晚常售罄，建议提前 1–2 周买票；12 月周末最挤，平日晚上通常人少些。",
+   "tips_en": "Popular nights sell out; book 1–2 weeks ahead. December weekends are busiest."
   },
   {
    "id": "nybg-train-show",
@@ -57,7 +59,9 @@
    "signup": true,
    "desc_zh": "🚂 小火车穿过用树皮树叶做的纽约地标微缩景观,娃看了不想走!",
    "desc_en": "Model trains run past NYC landmarks built from bark, leaves and seeds.",
-   "url": "https://www.nybg.org/"
+   "url": "https://www.nybg.org/",
+   "tips_zh": "按时段卖票，周末和节假日要提前订；可坐 Metro-North 到 Botanical Garden 站，不用找停车位。",
+   "tips_en": "Timed tickets; book weekends and holidays ahead. Metro-North to Botanical Garden station avoids parking."
   },
   {
    "id": "bryant-park-village",
@@ -161,7 +165,9 @@
    "signup": true,
    "desc_zh": "🎅 梅西百货 8 楼见圣诞老人,需提前预约。",
    "desc_en": "Visit Santa at Macy's Herald Square; reservations recommended.",
-   "url": "https://resident.com/new-york/2026/10/28/nycs-holiday-season-begins-with-these-15-things-to-do-in-november-2026"
+   "url": "https://resident.com/new-york/2026/10/28/nycs-holiday-season-begins-with-these-15-things-to-do-in-november-2026",
+   "tips_zh": "预约制，名额放出后很快约满，记得早点上官网抢时段。",
+   "tips_en": "Reservation slots fill quickly once released."
   },
   {
    "id": "ocean-vuong-apa",
@@ -213,7 +219,9 @@
    "signup": true,
    "desc_zh": "🚗 坐在车里看灯,带小宝宝也方便!11/19 前网上买有早鸟价。",
    "desc_en": "Drive-through light show; early online pricing before Nov 19.",
-   "url": "https://njtoday.news/2026/10/29/magic-of-lights-drive-through-show-returns-to-holmdel-nov-20/"
+   "url": "https://njtoday.news/2026/10/29/magic-of-lights-drive-through-show-returns-to-holmdel-nov-20/",
+   "tips_zh": "按车收费，11/19 前网上买有早鸟价；周五六晚上排车最久。",
+   "tips_en": "Priced per car with early online pricing before Nov 19; Fri–Sat nights have the longest lines."
   },
   {
    "id": "winter-wonderlights",
@@ -239,7 +247,9 @@
    "signup": true,
    "desc_zh": "✨ 新泽西最大的动画灯光秀,有圣诞、光明节、排灯节和宽扎节主题,宠物也能一起来~",
    "desc_en": "Animated drive-thru with Christmas, Hanukkah, Diwali and Kwanzaa displays; pets welcome.",
-   "url": "https://winterwonderlightshows.com/"
+   "url": "https://winterwonderlightshows.com/",
+   "tips_zh": "按车收费、风雨无阻，平日晚上排队短。",
+   "tips_en": "Per-car pricing, rain or shine; shorter lines on weeknights."
   },
   {
    "id": "morven-trees-s",
@@ -291,7 +301,9 @@
    "signup": true,
    "desc_zh": "☂️ 节日季音乐剧,带娃看玛丽阿姨~",
    "desc_en": "Holiday-season musical.",
-   "url": "https://www.njpac.org/tickets-events/"
+   "url": "https://www.njpac.org/tickets-events/",
+   "tips_zh": "节日季周末场次最先卖完，平日场和日场更容易买到。",
+   "tips_en": "Holiday weekend shows sell first; weekday and matinee seats are easier."
   },
   {
    "id": "la-zoo-lights",
@@ -1643,6 +1655,34 @@
    "desc_zh": "🚂 原来斯坦利公园的灯光小火车搬到素里了!",
    "desc_en": "The former Stanley Park light train, now in Surrey.",
    "url": "https://fanvancouver.com/vancouver/christmas-lights/"
+  },
+  {
+   "id": "nycb-nutcracker",
+   "city": "nyc",
+   "tier": "C",
+   "cat": "show",
+   "audience": "family",
+   "start": "2026-11-27",
+   "end": "2026-12-31",
+   "days": null,
+   "closed": [],
+   "title_zh": "纽约城市芭蕾舞团《胡桃夹子》",
+   "title_en": "George Balanchine's The Nutcracker",
+   "venue": "David H. Koch Theater, Lincoln Center",
+   "address": "20 Lincoln Center Plaza, New York, NY 10023",
+   "area": "Upper West Side, Manhattan",
+   "hours_zh": "以官网为准",
+   "hours_en": "See website",
+   "free": false,
+   "cost_zh": "以官网为准",
+   "cost_en": "See website",
+   "indoor": true,
+   "signup": true,
+   "desc_zh": "🩰 纽约圣诞季最经典的芭蕾,带娃看一次是很多家庭的节日传统。",
+   "desc_en": "New York's classic holiday ballet.",
+   "tips_zh": "圣诞前后场次最抢手，越早订越好；适合大约 5 岁以上能坐得住的小朋友。",
+   "tips_en": "Shows around Christmas go first; best for kids about 5+ who can sit through it.",
+   "url": "https://resident.com/new-york/2026/10/28/nycs-holiday-season-begins-with-these-15-things-to-do-in-november-2026"
   }
  ]
 }

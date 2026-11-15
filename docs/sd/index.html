@@ -120,6 +120,8 @@ h3{margin:0;font-size:18px;line-height:1.3;font-weight:600;text-wrap:balance}
 .meta span{background:var(--chip);border-radius:6px;padding:2px 8px;font-size:12.5px}
 .meta .free{background:var(--a-bg);color:var(--accent);font-weight:600}
 .desc{margin:0;font-size:14.5px;white-space:pre-line}
+.pick{margin:8px 0 0;font-size:14px;line-height:1.5;background:var(--a-bg);border-radius:10px;padding:8px 10px}
+.pick b{color:var(--accent)}
 .actions{display:flex;flex-wrap:wrap;gap:8px;margin-top:4px;align-items:center}
 details.cal{position:relative}
 details.cal summary{list-style:none;cursor:pointer}
@@ -233,7 +235,7 @@ button.link{border:0;background:none;padding:0;cursor:pointer;font:inherit;font-
 // Site root, fixed at load. Relative URLs must not resolve against location: history.replaceState changes it.
 var ROOT=new URL("./",document.baseURI).href;
 var T={
- zh:{eyebrow:"每周五更新",headline:"这个周末,去哪儿玩",cityHead:"{c}周末去哪儿",citySub:"{c}本周末和下周的亲子、大人活动:节庆、演出、美食、户外和免费活动,华人与亚裔社区活动排在最前。",sub:"按你所在的城市整理周末和周中的亲子、大人活动,华人与亚裔社区活动排在最前。",
+ zh:{eyebrow:"每周五更新",headline:"这个周末,去哪儿玩",why:"💡 推荐理由",tips:"📝 小贴士",cityHead:"{c}周末去哪儿",citySub:"{c}本周末和下周的亲子、大人活动:节庆、演出、美食、户外和免费活动,华人与亚裔社区活动排在最前。",sub:"按你所在的城市整理周末和周中的亲子、大人活动,华人与亚裔社区活动排在最前。",
   audAll:"全部活动",audFamily:"亲子",audAdult:"大人",badgeFamily:"亲子",badgeAdult:"大人",badgeAll:"大人小孩都合适",tbd:"时间见官网",
   addrPh:"输入邮编、地址或城市,例如 11354 或 Edison, NJ",go:"切换城市",
   hintTz:"已按你的时区先选了 {c}。输入邮编或地址,可以切换到最近的城市。",
@@ -252,7 +254,7 @@ var T={
   docTitle:"{c}周末去哪儿 · 周末不无聊",dealsTitle:"💸 本周能用的免费 / 优惠({n})",dealsAny:"随时",dealsMore:"📖 {c}免费博物馆日 & 优惠全攻略 →",szTitle:"🎄 季节限定 · 本周开放({n})",szSoon:"{d} 开幕",szNew:"本周新开",szLast:"本周结束",szEnds:"{d} 结束",szUntil:"至 {d}",szMore:"📖 {c}{s}灯光、市集、溜冰全攻略 →",share:"分享",shared:"链接已复制,发给朋友吧",
   subTitle:"📅 订阅{c}活动到日历(每周自动更新)",subApple:"Apple 日历 / Outlook",subGoogle:"Google 日历",subCopy:"复制订阅链接",subCopied:"订阅链接已复制",
   instTitle:"把「周末不无聊」装到手机上",instText:"像 App 一样从主屏幕打开,没网也能看。",instIos:"点 Safari 底部的分享按钮 ⬆️,再选「添加到主屏幕」。",instGo:"安装"},
- en:{eyebrow:"Updated every Friday",headline:"Where to go this weekend",cityHead:"Things to Do in {c} This Weekend",citySub:"Family-friendly and grown-up events in {c} this weekend and next week: festivals, shows, food, outdoors, free days and Asian community events.",sub:"Weekend and weekday picks for families and grown-ups: festivals, shows, food, outdoors and Asian community events, in date order.",
+ en:{eyebrow:"Updated every Friday",headline:"Where to go this weekend",why:"💡 Why go",tips:"📝 Tips",cityHead:"Things to Do in {c} This Weekend",citySub:"Family-friendly and grown-up events in {c} this weekend and next week: festivals, shows, food, outdoors, free days and Asian community events.",sub:"Weekend and weekday picks for families and grown-ups: festivals, shows, food, outdoors and Asian community events, in date order.",
   audAll:"Everything",audFamily:"Family",audAdult:"Grown-ups",badgeFamily:"Family",badgeAdult:"Grown-ups",badgeAll:"All ages",tbd:"See site for times",
   addrPh:"ZIP, address or city, e.g. 11354 or Edison, NJ",go:"Switch city",
   hintTz:"Picked {c} from your time zone. Enter a ZIP or address to switch to the nearest city.",
@@ -400,6 +402,9 @@ function visible(c){
     if(S.indoor&&!e.indoor)return false;return true})
   .sort(function(a,b){return (S.lang==="zh"?(a.tier>b.tier?1:a.tier<b.tier?-1:0):0)||a.date.localeCompare(b.date)||(a.start||"99").localeCompare(b.start||"99")})
 }
+/* Editor's notes for top picks: why it's worth going, and practical tips (age, parking, rain plan, crowds). */
+function pickHtml(e){var L=S.lang==="zh"?"zh":"en",w=e["why_"+L]||e.why_zh,tp=e["tips_"+L]||e.tips_zh;if(!w&&!tp)return "";
+  return '<p class="pick">'+(w?'<b>'+esc(t("why"))+'</b> '+esc(w):'')+(w&&tp?'<br>':'')+(tp?'<b>'+esc(t("tips"))+'</b> '+esc(tp):'')+'</p>'}
 function card(e,tz){
   var x=ev_text(e,S.lang),en=endOf(e),wd=WD[S.lang][dow(e.date)],p=parts(e.date);
   var badge=(e.tier==="A"?'<span class="badge A">'+esc(t("tierA"))+'</span>':e.tier==="B"?'<span class="badge B">'+esc(t("tierB"))+'</span>':'')+
@@ -417,7 +422,7 @@ function card(e,tz){
    '<h3>'+esc(x.title)+'</h3>'+
    '<p class="where">'+esc(e.venue)+' · <a href="'+map+'" target="_blank" rel="noopener">'+esc(e.address)+'</a></p>'+
    '<div class="meta">'+meta.join("")+'</div>'+
-   '<p class="desc">'+esc(x.desc)+'</p>'+
+   '<p class="desc">'+esc(x.desc)+'</p>'+pickHtml(e)+
    '<div class="actions">'+
     '<details class="cal"><summary class="btn primary">'+esc(t("addCal"))+'</summary><div class="menu">'+
      '<a href="'+esc(gcalUrl(e,tz))+'" target="_blank" rel="noopener">'+esc(t("gcal"))+'</a>'+

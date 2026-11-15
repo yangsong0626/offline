@@ -58,7 +58,8 @@ def guide_html(cid, city, items, lang, data, season, page_url, image, alt_urls):
         return (f'<article class="item" id="{esc(x["id"])}"><h3>{esc(t(x, "title"))}{tag}</h3>'
                 f'<p class="when">🗓 {esc(run_text(x, lang))}</p><p class="who">🕒 {esc(t(x, "hours"))} · 💵 {esc(cost)}</p>'
                 f'<p class="where">📍 {esc(x["venue"])} · {esc(x["address"])}</p><p>{esc(t(x, "desc"))}</p>'
-                f'<p><a href="{esc(x["url"])}" target="_blank" rel="noopener">{"官网 / 详情" if zh else "Official info"} ↗</a></p></article>')
+                + (f'<p class="tip">📝 {esc(t(x, "tips"))}</p>' if t(x, "tips") else "")
+                + f'<p><a href="{esc(x["url"])}" target="_blank" rel="noopener">{"官网 / 详情" if zh else "Official info"} ↗</a></p></article>')
     sections = ""
     for key, hz, he in CATS:
         xs = [x for x in items if x["cat"] == key]
@@ -100,7 +101,7 @@ a{{color:var(--accent)}}header a{{text-decoration:none}}.brand{{font-weight:700;
 h1{{font:700 clamp(26px,5vw,36px)/1.25 'Noto Serif SC','Songti SC',serif;margin:18px 0 8px}}h2{{font-size:20px;margin:30px 0 10px}}
 .lead{{color:var(--muted);margin:0}}
 .item{{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:14px 16px;margin-bottom:12px}}.item h3{{margin:0 0 6px;font-size:17px}}.item p{{margin:4px 0}}
-.when{{font-weight:600}}.who,.where{{color:var(--muted);font-size:14px}}.tag{{font-size:12px;background:var(--a-bg);color:var(--accent);border-radius:999px;padding:1px 8px;margin-left:6px;vertical-align:2px}}
+.when{{font-weight:600}}.tip{{background:var(--a-bg);border-radius:10px;padding:6px 10px;font-size:14px}}.who,.where{{color:var(--muted);font-size:14px}}.tag{{font-size:12px;background:var(--a-bg);color:var(--accent);border-radius:999px;padding:1px 8px;margin-left:6px;vertical-align:2px}}
 .cta{{display:inline-block;margin-top:24px;padding:10px 16px;background:var(--accent);color:#fff;border-radius:10px;text-decoration:none;font-weight:600}}
 footer{{margin-top:32px;padding-top:14px;border-top:1px solid var(--line);font-size:13px;color:var(--muted)}}
 </style></head><body><div class="wrap">
