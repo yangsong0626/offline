@@ -16,6 +16,7 @@ Set the public site URL in `tools/site.json` (or the `SITE_URL` environment vari
 
 ## 小红书出图
 Open `/xhs.html` on the live site (not linked from the main page). Pick a city to get 3:4 carousel images (1080×1440: cover, event cards, closing page) plus a copy-ready title, caption and hashtags. "保存全部图片" uses the phone share sheet when available, otherwise downloads each PNG.
+The "内容" menu switches between this weekend's events and the seasonal guide (`seasonal.json`, exhibitions left out); `nyc+nj` and `la+oc` combine two cities into one carousel. To render without a browser: `NODE_PATH=$(npm root -g) node tools/render_xhs.js <out-dir> "city=nyc+nj" "city=nyc+nj&mode=season"` writes the PNGs and a `caption.txt` (title on the first line) per carousel.
 Landmark silhouettes live in `docs/sky.js` and are shared by both pages.
 
 ## App (PWA)
