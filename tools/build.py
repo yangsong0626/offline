@@ -31,10 +31,12 @@ AI_BOTS = ["OAI-SearchBot", "ChatGPT-User", "GPTBot", "Claude-SearchBot", "Claud
 L = {
  "zh": {"wd": ["周一", "周二", "周三", "周四", "周五", "周六", "周日"], "tbd": "时间见官网", "free": "免费", "ages": "适合",
         "site": "活动官网", "soon": "这个城市本周的活动还在整理中。", "locale": "zh_CN", "lang": "zh-CN",
-        "name": SITE["name_zh"], "links": "{c}周末活动", "weekend": "{c} · {r} 周末", "week": "{c} · {r} 周末 · 周中到 {w}"},
+        "name": SITE["name_zh"], "links": "{c}周末活动", "weekend": "{c} · {r} 周末", "h1": "{c}周末去哪儿",
+        "sub": "{c}本周末和下周的亲子、大人活动:节庆、演出、美食、户外和免费活动,华人与亚裔社区活动排在最前。", "week": "{c} · {r} 周末 · 周中到 {w}"},
  "en": {"wd": ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"], "tbd": "See site", "free": "Free", "ages": "Ages",
         "site": "Event site", "soon": "Events for this city are still being compiled.", "locale": "en_US", "lang": "en",
-        "name": SITE["name_en"], "links": "{c} weekend events", "weekend": "{c} · Weekend of {r}", "week": "{c} · Weekend of {r} · weekdays through {w}"},
+        "name": SITE["name_en"], "links": "{c} weekend events", "weekend": "{c} · Weekend of {r}", "h1": "Things to Do in {c} This Weekend",
+        "sub": "Family-friendly and grown-up events in {c} this weekend and next week: festivals, shows, food, outdoors, free days and Asian community events.", "week": "{c} · Weekend of {r} · weekdays through {w}"},
 }
 MON = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
 
@@ -199,6 +201,8 @@ def build_page(tpl, lang, cid, data):
                "dateModified": data["updated"], "isPartOf": {"@id": URL + "/#website"}, "breadcrumb": crumbs},
               *[event_ld(e, cid, c["tz"], page, image, lang) for e in evs]]}
         out = replace_block(out, "seo", seo_block(lang, title, desc, cid, image, ld))
+        out = out.replace('<h1 id="headline"></h1>', f'<h1 id="headline">{esc(L[lang]["h1"].format(c=cname(c, lang)))}</h1>', 1)
+        out = out.replace('<p class="sub" id="sub"></p>', f'<p class="sub" id="sub">{esc(L[lang]["sub"].format(c=cname(c, lang)))}</p>', 1)
         out = out.replace('<h2 id="weekend-title"></h2>',
                           f'<h2 id="weekend-title">{esc(heading(c, data, lang))}</h2>', 1)
         cards = "".join(card_html(e, lang) for e in evs) or f'<p class="empty">{L[lang]["soon"]}</p>'

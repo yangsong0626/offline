@@ -186,8 +186,8 @@ button.link{border:0;background:none;padding:0;cursor:pointer;font:inherit;font-
 
   <section class="hero">
     <div class="eyebrow" id="eyebrow"></div>
-    <h1 id="headline"></h1>
-    <p class="sub" id="sub"></p>
+    <h1 id="headline">Things to Do in Orange County This Weekend</h1>
+    <p class="sub" id="sub">Family-friendly and grown-up events in Orange County this weekend and next week: festivals, shows, food, outdoors, free days and Asian community events.</p>
   </section>
   <p class="skycap" id="skycap"></p>
  </div>
@@ -231,7 +231,7 @@ button.link{border:0;background:none;padding:0;cursor:pointer;font:inherit;font-
 // Site root, fixed at load. Relative URLs must not resolve against location: history.replaceState changes it.
 var ROOT=new URL("./",document.baseURI).href;
 var T={
- zh:{eyebrow:"每周五更新",headline:"这个周末,去哪儿玩",sub:"按你所在的城市整理周末和周中的亲子、大人活动,华人与亚裔社区活动排在最前。",
+ zh:{eyebrow:"每周五更新",headline:"这个周末,去哪儿玩",cityHead:"{c}周末去哪儿",citySub:"{c}本周末和下周的亲子、大人活动:节庆、演出、美食、户外和免费活动,华人与亚裔社区活动排在最前。",sub:"按你所在的城市整理周末和周中的亲子、大人活动,华人与亚裔社区活动排在最前。",
   audAll:"全部活动",audFamily:"亲子",audAdult:"大人",badgeFamily:"亲子",badgeAdult:"大人",badgeAll:"大人小孩都合适",tbd:"时间见官网",
   addrPh:"输入邮编、地址或城市,例如 11354 或 Edison, NJ",go:"切换城市",
   hintTz:"已按你的时区先选了 {c}。输入邮编或地址,可以切换到最近的城市。",
@@ -250,7 +250,7 @@ var T={
   docTitle:"{c}周末去哪儿 · 周末不无聊",dealsTitle:"💸 本周能用的免费 / 优惠({n})",dealsAny:"随时",dealsMore:"📖 {c}免费博物馆日 & 优惠全攻略 →",szTitle:"🎄 季节限定 · 本周开放({n})",szSoon:"{d} 开幕",szNew:"本周新开",szLast:"本周结束",szEnds:"{d} 结束",szUntil:"至 {d}",szMore:"📖 {c}{s}灯光、市集、溜冰全攻略 →",share:"分享",shared:"链接已复制,发给朋友吧",
   subTitle:"📅 订阅{c}活动到日历(每周自动更新)",subApple:"Apple 日历 / Outlook",subGoogle:"Google 日历",subCopy:"复制订阅链接",subCopied:"订阅链接已复制",
   instTitle:"把「周末不无聊」装到手机上",instText:"像 App 一样从主屏幕打开,没网也能看。",instIos:"点 Safari 底部的分享按钮 ⬆️,再选「添加到主屏幕」。",instGo:"安装"},
- en:{eyebrow:"Updated every Friday",headline:"Where to go this weekend",sub:"Weekend and weekday picks for families and grown-ups: festivals, shows, food, outdoors and Asian community events, in date order.",
+ en:{eyebrow:"Updated every Friday",headline:"Where to go this weekend",cityHead:"Things to Do in {c} This Weekend",citySub:"Family-friendly and grown-up events in {c} this weekend and next week: festivals, shows, food, outdoors, free days and Asian community events.",sub:"Weekend and weekday picks for families and grown-ups: festivals, shows, food, outdoors and Asian community events, in date order.",
   audAll:"Everything",audFamily:"Family",audAdult:"Grown-ups",badgeFamily:"Family",badgeAdult:"Grown-ups",badgeAll:"All ages",tbd:"See site for times",
   addrPh:"ZIP, address or city, e.g. 11354 or Edison, NJ",go:"Switch city",
   hintTz:"Picked {c} from your time zone. Enter a ZIP or address to switch to the nearest city.",
@@ -489,7 +489,10 @@ function seasonHtml(){
 function render(){
   document.documentElement.lang=S.lang==="zh"?"zh-CN":"en";
   $("lang-zh").setAttribute("aria-pressed",S.lang==="zh");$("lang-en").setAttribute("aria-pressed",S.lang==="en");
-  $("eyebrow").textContent=t("eyebrow");$("headline").textContent=t("headline");$("sub").textContent=t("sub");
+  var onCity=window.PAGE_CITY&&S.data;  /* city pages get a city-specific h1 that matches what people search for */
+  $("eyebrow").textContent=t("eyebrow");
+  $("headline").textContent=onCity?fmt(t("cityHead"),{c:cityName(S.city)}):t("headline");
+  $("sub").textContent=onCity?fmt(t("citySub"),{c:cityName(S.city)}):t("sub");
   $("addr").placeholder=t("addrPh");$("go").textContent=t("go");
   if(!S.data){return}
   drawSky();
