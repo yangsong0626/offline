@@ -8,93 +8,31 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:cmaa-midautumn-2026-11-14@noboringweekends
-DTSTAMP:20261113T000000Z
-DTSTART;VALUE=DATE:20261114
-DTEND;VALUE=DATE:20261115
-SUMMARY:华人互助会 × Haibayo 中秋晚会
-LOCATION:Chinese Mutual Aid Association\, 1016 W Argyle St\, Chicago\, IL 6
- 0640
-DESCRIPTION:🥮 华人互助会的晚秋中秋晚会!\n在北区 Argyle 
- 亚裔街区\,细节以官网为准。\n费用:以官网为准\nhttps://ww
- w.chicagoasiannetwork.com/event-tags/all
+UID:cpl-chinese-film-2026-11-20@noboringweekends
+DTSTAMP:20261117T000000Z
+DTSTART;VALUE=DATE:20261120
+DTEND;VALUE=DATE:20261121
+SUMMARY:芝加哥公共图书馆华语电影放映《机器之血》
+LOCATION:Chicago Public Library\, Chicago\, IL
+DESCRIPTION:🎬 图书馆免费华语电影放映(成龙主演)\,时间分
+ 馆以官网为准。\n费用:免费\nhttps://www.chicagoasiannetwork.com/
+ event-tags/all
 URL:https://www.chicagoasiannetwork.com/event-tags/all
 END:VEVENT
 BEGIN:VEVENT
-UID:permission-to-fail-2026-11-14@noboringweekends
-DTSTAMP:20261113T000000Z
-DTSTART:20261114T230000Z
-DTEND:20261115T040000Z
-SUMMARY:亚裔艺术家沙龙 Permission to Fail
-LOCATION:Chicago\, Chicago\, IL (venue: see website)
-DESCRIPTION:🎭 亚裔艺术家未完成作品沙龙:音乐、戏剧、脱
- 口秀、诗、电影…\n费用:以官网为准\nhttps://www.chicagoasian
- network.com/event-tags/all
+UID:paskong-pinoy-2026-11-21@noboringweekends
+DTSTAMP:20261117T000000Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+SUMMARY:菲律宾圣诞市集 Paskong Pinoy
+LOCATION:Chicago\, Chicago\, IL
+DESCRIPTION:🌟 菲律宾风味圣诞市集。\n费用:以官网为准\nht
+ tps://www.chicagoasiannetwork.com/event-tags/all
 URL:https://www.chicagoasiannetwork.com/event-tags/all
-END:VEVENT
-BEGIN:VEVENT
-UID:jasc-kodomo-2026-11-14@noboringweekends
-DTSTAMP:20261113T000000Z
-DTSTART;VALUE=DATE:20261114
-DTEND;VALUE=DATE:20261115
-SUMMARY:日裔服务会 Holiday Delight & 儿童节
-LOCATION:Japanese American Service Committee\, 4427 N Clark St\, Chicago\, 
- IL 60640
-DESCRIPTION:🎏 日裔美国人文化活动:节日手作+儿童祭!时间
- 以官网为准。\n费用:以官网为准\nhttps://www.chicagoparent.com/
- guides/weekend
-URL:https://www.chicagoparent.com/guides/weekend
-END:VEVENT
-BEGIN:VEVENT
-UID:stem-family-night-2026-11-13@noboringweekends
-DTSTAMP:20261113T000000Z
-DTSTART:20261113T223000Z
-DTEND:20261114T010000Z
-SUMMARY:海德公园 STEM 家庭之夜
-LOCATION:Southside STEM Station\, Hyde Park\, Chicago\, IL 60615
-DESCRIPTION:🧪 免费 STEM 动手活动+创意工坊+抽奖!\n费用:免
- 费\nhttps://mykidlist.com/weekend-planner/
-URL:https://mykidlist.com/weekend-planner/
-END:VEVENT
-BEGIN:VEVENT
-UID:fa-la-la-2026-11-14@noboringweekends
-DTSTAMP:20261113T000000Z
-DTSTART;VALUE=DATE:20261114
-DTEND;VALUE=DATE:20261115
-SUMMARY:Fa La La 假日市集
-LOCATION:Chicago\, Chicago\, IL (venue: see website)
-DESCRIPTION:🎁 本地手作假日市集\,细节以官网为准。\n费用
- :以官网为准\nhttps://blockclubchicago.org/2026/11/12/27-things-to-do-
- in-chicago-this-weekend-fa-la-la-holiday-market-art-book-fair-and-more/
-URL:https://blockclubchicago.org/2026/11/12/27-things-to-do-in-chicago-this
- -weekend-fa-la-la-holiday-market-art-book-fair-and-more/
-END:VEVENT
-BEGIN:VEVENT
-UID:wolves-family-2026-11-15@noboringweekends
-DTSTAMP:20261113T000000Z
-DTSTART:20261115T210000Z
-DTEND:20261116T000000Z
-SUMMARY:芝加哥狼队冰球家庭日
-LOCATION:Allstate Arena\, 6920 Mannheim Rd\, Rosemont\, IL 60018
-DESCRIPTION:🏒 小联盟冰球家庭日\,票价亲民~\n费用:以官网
- 为准\nhttps://mykidlist.com/weekend-planner/
-URL:https://mykidlist.com/weekend-planner/
-END:VEVENT
-BEGIN:VEVENT
-UID:maggie-daley-ribbon-2026-11-16@noboringweekends
-DTSTAMP:20261113T000000Z
-DTSTART:20261116T170000Z
-DTEND:20261117T040000Z
-SUMMARY:Maggie Daley 公园溜冰丝带
-LOCATION:Maggie Daley Park\, 337 E Randolph St\, Chicago\, IL 60601
-DESCRIPTION:⛸️ 绕着摩天楼滑的冰道!入场免费\,租鞋另付\,
- 开放时间以官网为准。\n费用:以官网为准\nhttps://chicagoont
- hecheap.com/events/
-URL:https://chicagoonthecheap.com/events/
 END:VEVENT
 BEGIN:VEVENT
 UID:mca-free-tue-2026-11-17@noboringweekends
-DTSTAMP:20261113T000000Z
+DTSTAMP:20261117T000000Z
 DTSTART;VALUE=DATE:20261117
 DTEND;VALUE=DATE:20261118
 SUMMARY:芝加哥当代艺术馆(伊州居民周二免费)
@@ -106,7 +44,7 @@ URL:https://chicagoonthecheap.com/events/
 END:VEVENT
 BEGIN:VEVENT
 UID:little-big-town-2026-11-19@noboringweekends
-DTSTAMP:20261113T000000Z
+DTSTAMP:20261117T000000Z
 DTSTART:20261120T013000Z
 DTEND:20261120T033000Z
 SUMMARY:Little Big Town 演唱会
@@ -114,5 +52,45 @@ LOCATION:The Chicago Theatre\, 175 N State St\, Chicago\, IL 60601
 DESCRIPTION:🎤 乡村乐团 Little Big Town\,周四晚 7:30。\n费用:
  以官网为准\nhttps://do312.com/events/2026/11/19
 URL:https://do312.com/events/2026/11/19
+END:VEVENT
+BEGIN:VEVENT
+UID:chi-tree-lighting-2026-11-20@noboringweekends
+DTSTAMP:20261117T000000Z
+DTSTART:20261120T230000Z
+DTEND:20261121T010000Z
+SUMMARY:芝加哥市圣诞树点灯(第 113 届)
+LOCATION:Millennium Park\, 201 E Randolph St\, Chicago\, IL 60602
+DESCRIPTION:🎄 千禧公园点灯+烟花\,芝加哥节日季正式开始
+ 。\n费用:免费\nhttps://mommypoppins.com/chicago-kids/things-to-do-in-
+ chicago-this-weekend-kids-families
+URL:https://mommypoppins.com/chicago-kids/things-to-do-in-chicago-this-week
+ end-kids-families
+END:VEVENT
+BEGIN:VEVENT
+UID:mag-mile-lights-2026-11-21@noboringweekends
+DTSTAMP:20261117T000000Z
+DTSTART:20261121T233000Z
+DTEND:20261122T013000Z
+SUMMARY:华丽一英里灯光节大游行
+LOCATION:Magnificent Mile\, N Michigan Ave\, Chicago\, IL 60611
+DESCRIPTION:✨ 第 35 届!密歇根大道灯光一路亮起+游行。\n费
+ 用:免费\nhttps://mommypoppins.com/chicago-kids/things-to-do-in-chicago-
+ this-weekend-kids-families
+URL:https://mommypoppins.com/chicago-kids/things-to-do-in-chicago-this-week
+ end-kids-families
+END:VEVENT
+BEGIN:VEVENT
+UID:chi-thanksgiving-parade-2026-11-26@noboringweekends
+DTSTAMP:20261117T000000Z
+DTSTART:20261126T134500Z
+DTEND:20261126T154500Z
+SUMMARY:芝加哥感恩节大游行
+LOCATION:State Street\, State St from Ida B. Wells Dr to Randolph St\, Chic
+ ago\, IL
+DESCRIPTION:🦃 第 92 届感恩节游行\,沿 State Street。\n费用:免
+ 费\nhttps://www.choosechicago.com/blog/special-events/chicago-thanksgivin
+ g-day-parade/
+URL:https://www.choosechicago.com/blog/special-events/chicago-thanksgiving-
+ day-parade/
 END:VEVENT
 END:VCALENDAR

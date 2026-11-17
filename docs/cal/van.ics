@@ -8,97 +8,21 @@ X-WR-TIMEZONE:America/Vancouver
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:vaff-2026-11-13@noboringweekends
-DTSTAMP:20261113T000000Z
-DTSTART;VALUE=DATE:20261113
-DTEND;VALUE=DATE:20261114
-SUMMARY:温哥华亚洲电影节(收官周末)
-LOCATION:Cineplex International Village\, 88 W Pender St\, Vancouver\, BC V
- 6B 6N9
-DESCRIPTION:🎞️ 温哥华亚洲电影节开到 11/15\,就在唐人街
- 旁边的国际村影院!片单以官网为准。\n费用:以官网为准\
- nhttps://www.todocanada.ca/things-vancouver-weekend/
-URL:https://www.todocanada.ca/things-vancouver-weekend/
-END:VEVENT
-BEGIN:VEVENT
-UID:nikkei-craft-2026-11-14@noboringweekends
-DTSTAMP:20261113T000000Z
-DTSTART;VALUE=DATE:20261114
-DTEND;VALUE=DATE:20261115
-SUMMARY:日裔国家博物馆手作市集(周六/日)
-LOCATION:Nikkei National Museum & Cultural Centre\, 6688 Southoaks Crescent
- \, Burnaby\, BC V5E 4M7
-DESCRIPTION:🎐 日裔手作市集\,和风小物和节日礼物~\n费用:
- 以官网为准\nhttps://www.todocanada.ca/things-vancouver-weekend/
-URL:https://www.todocanada.ca/things-vancouver-weekend/
-END:VEVENT
-BEGIN:VEVENT
-UID:yuki-chiba-2026-11-16@noboringweekends
-DTSTAMP:20261113T000000Z
-DTSTART;VALUE=DATE:20261116
-DTEND;VALUE=DATE:20261117
-SUMMARY:千叶雄喜 Yuki Chiba 演唱会
-LOCATION:Hollywood Theatre\, 3123 W Broadway\, Vancouver\, BC V6K 2H2
-DESCRIPTION:🎤 日本说唱歌手千叶雄喜温哥华站!\n费用:以官
- 网为准\nhttps://miss604.com/2026/10/events-in-vancouver-november-2026/
-URL:https://miss604.com/2026/10/events-in-vancouver-november-2026/
-END:VEVENT
-BEGIN:VEVENT
-UID:raffi-2026-11-14@noboringweekends
-DTSTAMP:20261113T000000Z
-DTSTART:20261114T210000Z
-DTEND:20261114T230000Z
-SUMMARY:Raffi 儿童音乐会(周六/日)
-LOCATION:Queen Elizabeth Theatre\, 630 Hamilton St\, Vancouver\, BC V6B 5N6
-DESCRIPTION:🐳 「Baby Beluga」的 Raffi!周六周日下午 2 点\,余
- 票不多。\n费用:以官网为准\nhttps://miss604.com/2026/11/things-t
- o-do-in-vancouver-this-weekend-events-nov-13-15/
-URL:https://miss604.com/2026/11/things-to-do-in-vancouver-this-weekend-even
- ts-nov-13-15/
-END:VEVENT
-BEGIN:VEVENT
-UID:circle-craft-2026-11-14@noboringweekends
-DTSTAMP:20261113T000000Z
-DTSTART;VALUE=DATE:20261114
-DTEND;VALUE=DATE:20261115
-SUMMARY:Circle Craft 假日市集
-LOCATION:Vancouver Convention Centre\, 1055 Canada Pl\, Vancouver\, BC V6C 
- 0C3
-DESCRIPTION:🎁 BC 最大的手作假日市集\,历史悠久~\n费用:以
- 官网为准\nhttps://miss604.com/2026/11/things-to-do-in-vancouver-this-w
- eekend-events-nov-13-15/
-URL:https://miss604.com/2026/11/things-to-do-in-vancouver-this-weekend-even
- ts-nov-13-15/
-END:VEVENT
-BEGIN:VEVENT
-UID:vimff-2026-11-14@noboringweekends
-DTSTAMP:20261113T000000Z
-DTSTART;VALUE=DATE:20261114
-DTEND;VALUE=DATE:20261115
-SUMMARY:温哥华国际山地电影节
-LOCATION:Vancouver\, Vancouver\, BC (venue: see website)
-DESCRIPTION:🏔️ 户外探险电影节\,片单以官网为准。\n费用
- :以官网为准\nhttps://miss604.com/2026/11/things-to-do-in-vancouver-th
- is-weekend-events-nov-13-15/
-URL:https://miss604.com/2026/11/things-to-do-in-vancouver-this-weekend-even
- ts-nov-13-15/
-END:VEVENT
-BEGIN:VEVENT
-UID:winter-market-heritage-2026-11-15@noboringweekends
-DTSTAMP:20261113T000000Z
-DTSTART;VALUE=DATE:20261115
-DTEND;VALUE=DATE:20261116
-SUMMARY:Heritage Hall 冬季市集
-LOCATION:Heritage Hall\, 3102 Main St\, Vancouver\, BC V5V 3M9
-DESCRIPTION:🧣 40+ 本地摊位\,周日~\n费用:以官网为准\nhttps:/
- /miss604.com/2026/11/things-to-do-in-vancouver-this-weekend-events-nov-13-
- 15/
-URL:https://miss604.com/2026/11/things-to-do-in-vancouver-this-weekend-even
- ts-nov-13-15/
+UID:steeped-in-sound-2026-11-21@noboringweekends
+DTSTAMP:20261117T000000Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+SUMMARY:中山公园:Steeped in Sound 茶与音乐
+LOCATION:Dr. Sun Yat-Sen Classical Chinese Garden\, 578 Carrall St\, Vancou
+ ver\, BC V6B 5K2
+DESCRIPTION:🍵 在唐人街的中式古典园林里听音乐\,细节以
+ 官网为准。\n费用:以官网为准\nhttps://604now.com/things-to-do-i
+ n-metro-vancouver-this-november/
+URL:https://604now.com/things-to-do-in-metro-vancouver-this-november/
 END:VEVENT
 BEGIN:VEVENT
 UID:culture-crawl-2026-11-19@noboringweekends
-DTSTAMP:20261113T000000Z
+DTSTAMP:20261117T000000Z
 DTSTART;VALUE=DATE:20261119
 DTEND;VALUE=DATE:20261120
 SUMMARY:东区艺术家工作室开放 Culture Crawl(首日)
@@ -106,5 +30,18 @@ LOCATION:East Vancouver\, East Vancouver\, BC
 DESCRIPTION:🎨 500+ 艺术家工作室免费开放\,11/19-22!\n费用:免
  费\nhttps://www.vancouvertourism.org/vancouver-events-and-festivals/
 URL:https://www.vancouvertourism.org/vancouver-events-and-festivals/
+END:VEVENT
+BEGIN:VEVENT
+UID:ukrainian-market-2026-11-22@noboringweekends
+DTSTAMP:20261117T000000Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+SUMMARY:乌克兰会馆冬季手作市集
+LOCATION:AUUC Vancouver Ukrainian Hall\, 805 E Pender St\, Vancouver\, BC V
+ 6A 1V9
+DESCRIPTION:🥟 手作市集+乌克兰饺子。\n费用:以官网为准\nh
+ ttps://vancouversbestplaces.com/events-calendar/vancouver-weekend-events/
+URL:https://vancouversbestplaces.com/events-calendar/vancouver-weekend-even
+ ts/
 END:VEVENT
 END:VCALENDAR

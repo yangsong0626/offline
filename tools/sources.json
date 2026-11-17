@@ -1,165 +1,908 @@
 {
- "note": "Where to look each week. type: roundup (weekend lists), family, chinese (Chinese community), asian, museum, parks, music, holiday, news. The weekly update runs WebSearch with allowed_domains set to these domains, city by city; tools/sources.py prints the plan.",
+ "note": "Where to look each week. type: roundup (weekend lists), family, chinese (Chinese community), asian, museum, parks, music, holiday, news. The weekly update runs WebSearch with allowed_domains set to these domains, city by city; tools/sources.py prints the plan. \"urls\" are pages tools/fetch_sources.py reads directly (hosts on the environment allowlist); {mon} {fri} {sun} {sunmon} {year} fill in the coming weekend.",
  "national": [
-  {"name": "Mommy Poppins (city editions)", "domain": "mommypoppins.com", "type": "family"},
-  {"name": "Time Out", "domain": "timeout.com", "type": "roundup"},
-  {"name": "OnesToWatch weekend guides", "domain": "onestowatch.com", "type": "music"},
-  {"name": "Axios Local", "domain": "axios.com", "type": "roundup"},
-  {"name": "Kids Out and About", "domain": "kidsoutandabout.com", "type": "family"},
-  {"name": "Resident monthly holiday guides", "domain": "resident.com", "type": "holiday"},
-  {"name": "Asia Society", "domain": "asiasociety.org", "type": "asian"},
-  {"name": "Asian American Arts Alliance calendar", "domain": "aaartsalliance.org", "type": "asian"}
+  {
+   "name": "Mommy Poppins (city editions)",
+   "domain": "mommypoppins.com",
+   "type": "family"
+  },
+  {
+   "name": "Time Out",
+   "domain": "timeout.com",
+   "type": "roundup"
+  },
+  {
+   "name": "OnesToWatch weekend guides",
+   "domain": "onestowatch.com",
+   "type": "music"
+  },
+  {
+   "name": "Axios Local",
+   "domain": "axios.com",
+   "type": "roundup"
+  },
+  {
+   "name": "Kids Out and About",
+   "domain": "kidsoutandabout.com",
+   "type": "family"
+  },
+  {
+   "name": "Resident monthly holiday guides",
+   "domain": "resident.com",
+   "type": "holiday"
+  },
+  {
+   "name": "Asia Society",
+   "domain": "asiasociety.org",
+   "type": "asian"
+  },
+  {
+   "name": "Asian American Arts Alliance calendar",
+   "domain": "aaartsalliance.org",
+   "type": "asian",
+   "urls": [
+    "https://www.aaartsalliance.org/events"
+   ]
+  }
  ],
  "cities": {
   "nyc": [
-   {"name": "New York Family", "domain": "newyorkfamily.com", "type": "family"},
-   {"name": "NYC Parks events", "domain": "nycgovparks.org", "type": "parks"},
-   {"name": "NYC Kids Week (free)", "domain": "nyckidsweek.com", "type": "family"},
-   {"name": "NYC for Free", "domain": "nycforfree.co", "type": "roundup"},
-   {"name": "Brooklyn Magazine weekend", "domain": "bkmag.com", "type": "roundup"},
-   {"name": "Times Square events", "domain": "timessquarenyc.org", "type": "roundup"},
-   {"name": "Museum of Chinese in America", "domain": "mocanyc.org", "type": "chinese"},
-   {"name": "ThinkChinatown", "domain": "thinkchinatown.org", "type": "chinese"},
-   {"name": "Chinatown NYC (BID)", "domain": "chinatown.nyc", "type": "chinese"},
-   {"name": "Flushing Town Hall", "domain": "flushingtownhall.org", "type": "chinese"},
-   {"name": "China Institute", "domain": "chinainstitute.org", "type": "chinese"},
-   {"name": "纽约华人资讯网 活动", "domain": "nychinaren.com", "type": "chinese", "lang": "zh"},
-   {"name": "Queens Night Market", "domain": "queensnightmarket.com", "type": "asian"}
+   {
+    "name": "New York Family",
+    "domain": "newyorkfamily.com",
+    "type": "family",
+    "urls": [
+     "https://events.newyorkfamily.com/"
+    ]
+   },
+   {
+    "name": "NYC Parks events",
+    "domain": "nycgovparks.org",
+    "type": "parks",
+    "urls": [
+     "https://www.nycgovparks.org/events/kids"
+    ]
+   },
+   {
+    "name": "NYC Kids Week (free)",
+    "domain": "nyckidsweek.com",
+    "type": "family",
+    "urls": [
+     "https://nyckidsweek.com/"
+    ]
+   },
+   {
+    "name": "NYC for Free",
+    "domain": "nycforfree.co",
+    "type": "roundup"
+   },
+   {
+    "name": "Brooklyn Magazine weekend",
+    "domain": "bkmag.com",
+    "type": "roundup"
+   },
+   {
+    "name": "Times Square events",
+    "domain": "timessquarenyc.org",
+    "type": "roundup"
+   },
+   {
+    "name": "Museum of Chinese in America",
+    "domain": "mocanyc.org",
+    "type": "chinese",
+    "urls": [
+     "https://www.mocanyc.org/calendar/"
+    ]
+   },
+   {
+    "name": "ThinkChinatown",
+    "domain": "thinkchinatown.org",
+    "type": "chinese",
+    "urls": [
+     "https://www.thinkchinatown.org/happenings"
+    ]
+   },
+   {
+    "name": "Chinatown NYC (BID)",
+    "domain": "chinatown.nyc",
+    "type": "chinese",
+    "urls": [
+     "https://chinatown.nyc/"
+    ]
+   },
+   {
+    "name": "Flushing Town Hall",
+    "domain": "flushingtownhall.org",
+    "type": "chinese",
+    "urls": [
+     "https://www.flushingtownhall.org/"
+    ]
+   },
+   {
+    "name": "China Institute",
+    "domain": "chinainstitute.org",
+    "type": "chinese",
+    "urls": [
+     "https://chinainstitute.org/upcoming-events/"
+    ]
+   },
+   {
+    "name": "纽约华人资讯网 活动",
+    "domain": "nychinaren.com",
+    "type": "chinese",
+    "lang": "zh"
+   },
+   {
+    "name": "Queens Night Market",
+    "domain": "queensnightmarket.com",
+    "type": "asian"
+   },
+   {
+    "name": "Mommy Poppins weekend",
+    "domain": "mommypoppins.com",
+    "type": "family",
+    "urls": [
+     "https://mommypoppins.com/new-york-city-kids/weekend-events/things-to-do-in-new-york-city-this-weekend-kids-families"
+    ]
+   },
+   {
+    "name": "Time Out weekend",
+    "domain": "timeout.com",
+    "type": "roundup",
+    "urls": [
+     "https://www.timeout.com/newyork/things-to-do/things-to-do-in-nyc-this-weekend"
+    ]
+   }
   ],
   "nj": [
-   {"name": "NJ Family", "domain": "njfamily.com", "type": "family"},
-   {"name": "NJ Kids Online calendar", "domain": "njkidsonline.com", "type": "family"},
-   {"name": "New Jersey Isn't Boring", "domain": "newjerseyisntboring.com", "type": "roundup"},
-   {"name": "The New Jersey Girl", "domain": "thelocalgirl.com", "type": "roundup"},
-   {"name": "New Jersey Stage (weekly list)", "domain": "newjerseystage.com", "type": "roundup"},
-   {"name": "NJ Today", "domain": "njtoday.news", "type": "news"},
-   {"name": "Suburban Jungle (NJ suburbs)", "domain": "suburbanjunglegroup.com", "type": "family"}
+   {
+    "name": "NJ Family",
+    "domain": "njfamily.com",
+    "type": "family",
+    "urls": [
+     "https://www.njfamily.com/things-to-do-this-weekend-in-nj-{mon}-{fri}-{sun}-{year}/"
+    ]
+   },
+   {
+    "name": "NJ Kids Online calendar",
+    "domain": "njkidsonline.com",
+    "type": "family",
+    "urls": [
+     "https://www.njkidsonline.com/events"
+    ]
+   },
+   {
+    "name": "New Jersey Isn't Boring",
+    "domain": "newjerseyisntboring.com",
+    "type": "roundup",
+    "urls": [
+     "https://newjerseyisntboring.com/"
+    ]
+   },
+   {
+    "name": "The New Jersey Girl",
+    "domain": "thelocalgirl.com",
+    "type": "roundup"
+   },
+   {
+    "name": "New Jersey Stage (weekly list)",
+    "domain": "newjerseystage.com",
+    "type": "roundup"
+   },
+   {
+    "name": "NJ Today",
+    "domain": "njtoday.news",
+    "type": "news"
+   },
+   {
+    "name": "Suburban Jungle (NJ suburbs)",
+    "domain": "suburbanjunglegroup.com",
+    "type": "family"
+   },
+   {
+    "name": "Mommy Poppins weekend",
+    "domain": "mommypoppins.com",
+    "type": "family",
+    "urls": [
+     "https://mommypoppins.com/new-jersey-kids/weekend-events/things-to-do-in-new-jersey-this-weekend-kids-families"
+    ]
+   }
   ],
   "la": [
-   {"name": "Discover Los Angeles weekend", "domain": "discoverlosangeles.com", "type": "roundup"},
-   {"name": "We Like L.A.", "domain": "welikela.com", "type": "roundup"},
-   {"name": "Fun with Kids in LA", "domain": "funwithkidsinla.com", "type": "family"},
-   {"name": "Los Angeles Magazine", "domain": "lamag.com", "type": "roundup"},
-   {"name": "Metro The Source", "domain": "thesource.metro.net", "type": "roundup"},
-   {"name": "Chinese American Museum", "domain": "camla.org", "type": "chinese"},
-   {"name": "Chinese Historical Society of Southern California", "domain": "chssc.org", "type": "chinese"},
-   {"name": "Chinatown LA", "domain": "chinatownla.com", "type": "chinese"},
-   {"name": "Japanese American National Museum", "domain": "janm.org", "type": "asian"},
-   {"name": "Asian Pacific Community Fund calendar", "domain": "apcf.org", "type": "asian"}
+   {
+    "name": "Discover Los Angeles weekend",
+    "domain": "discoverlosangeles.com",
+    "type": "roundup",
+    "urls": [
+     "https://www.discoverlosangeles.com/things-to-do/the-best-things-to-do-in-la-this-weekend"
+    ]
+   },
+   {
+    "name": "We Like L.A.",
+    "domain": "welikela.com",
+    "type": "roundup"
+   },
+   {
+    "name": "Fun with Kids in LA",
+    "domain": "funwithkidsinla.com",
+    "type": "family",
+    "urls": [
+     "https://www.funwithkidsinla.com/post/fun-things-to-do-this-weekend-in-los-angeles-near-me"
+    ]
+   },
+   {
+    "name": "Los Angeles Magazine",
+    "domain": "lamag.com",
+    "type": "roundup"
+   },
+   {
+    "name": "Metro The Source",
+    "domain": "thesource.metro.net",
+    "type": "roundup"
+   },
+   {
+    "name": "Chinese American Museum",
+    "domain": "camla.org",
+    "type": "chinese",
+    "urls": [
+     "https://camla.org/"
+    ]
+   },
+   {
+    "name": "Chinese Historical Society of Southern California",
+    "domain": "chssc.org",
+    "type": "chinese",
+    "urls": [
+     "https://chssc.org/events/"
+    ]
+   },
+   {
+    "name": "Chinatown LA",
+    "domain": "chinatownla.com",
+    "type": "chinese"
+   },
+   {
+    "name": "Japanese American National Museum",
+    "domain": "janm.org",
+    "type": "asian"
+   },
+   {
+    "name": "Asian Pacific Community Fund calendar",
+    "domain": "apcf.org",
+    "type": "asian"
+   },
+   {
+    "name": "Time Out weekend",
+    "domain": "timeout.com",
+    "type": "roundup",
+    "urls": [
+     "https://www.timeout.com/los-angeles/things-to-do/things-to-do-in-la-this-weekend"
+    ]
+   }
   ],
   "sf": [
-   {"name": "Funcheap SF", "domain": "sf.funcheap.com", "type": "roundup"},
-   {"name": "The SF Standard", "domain": "sfstandard.com", "type": "roundup"},
-   {"name": "Family Friendly SF", "domain": "familyfriendlysf.com", "type": "family"},
-   {"name": "Marin Mommies calendar", "domain": "marinmommies.com", "type": "family"},
-   {"name": "510 Families (East Bay)", "domain": "510families.com", "type": "family"},
-   {"name": "Project SF", "domain": "projectsf.com", "type": "roundup"},
-   {"name": "Asian Art Museum calendar", "domain": "calendar.asianart.org", "type": "asian"},
-   {"name": "Chinese Historical & Cultural Project (San Jose)", "domain": "chcp.org", "type": "chinese"},
-   {"name": "Community Youth Center SF", "domain": "cycsf.org", "type": "chinese"},
-   {"name": "Chinese Culture Center of SF", "domain": "c-c-c.org", "type": "chinese"},
-   {"name": "Chinese Historical Society of America", "domain": "chsa.org", "type": "chinese"},
-   {"name": "旧金山湾区华人资讯网 活动", "domain": "chineseinsfbay.com", "type": "chinese", "lang": "zh"}
+   {
+    "name": "Funcheap SF",
+    "domain": "sf.funcheap.com",
+    "type": "roundup",
+    "urls": [
+     "https://sf.funcheap.com/weekend/"
+    ]
+   },
+   {
+    "name": "The SF Standard",
+    "domain": "sfstandard.com",
+    "type": "roundup"
+   },
+   {
+    "name": "Family Friendly SF",
+    "domain": "familyfriendlysf.com",
+    "type": "family",
+    "urls": [
+     "https://familyfriendlysf.com/events"
+    ]
+   },
+   {
+    "name": "Marin Mommies calendar",
+    "domain": "marinmommies.com",
+    "type": "family"
+   },
+   {
+    "name": "510 Families (East Bay)",
+    "domain": "510families.com",
+    "type": "family"
+   },
+   {
+    "name": "Project SF",
+    "domain": "projectsf.com",
+    "type": "roundup"
+   },
+   {
+    "name": "Asian Art Museum calendar",
+    "domain": "calendar.asianart.org",
+    "type": "asian",
+    "urls": [
+     "https://calendar.asianart.org/"
+    ]
+   },
+   {
+    "name": "Chinese Historical & Cultural Project (San Jose)",
+    "domain": "chcp.org",
+    "type": "chinese",
+    "urls": [
+     "https://chcp.org/events"
+    ]
+   },
+   {
+    "name": "Community Youth Center SF",
+    "domain": "cycsf.org",
+    "type": "chinese",
+    "urls": [
+     "https://www.cycsf.org/"
+    ]
+   },
+   {
+    "name": "Chinese Culture Center of SF",
+    "domain": "c-c-c.org",
+    "type": "chinese",
+    "urls": [
+     "https://www.c-c-c.org/"
+    ]
+   },
+   {
+    "name": "Chinese Historical Society of America",
+    "domain": "chsa.org",
+    "type": "chinese",
+    "urls": [
+     "https://www.chsa.org/"
+    ]
+   },
+   {
+    "name": "旧金山湾区华人资讯网 活动",
+    "domain": "chineseinsfbay.com",
+    "type": "chinese",
+    "lang": "zh"
+   },
+   {
+    "name": "Mommy Poppins weekend",
+    "domain": "mommypoppins.com",
+    "type": "family",
+    "urls": [
+     "https://mommypoppins.com/san-francisco-bay-area-kids/weekend-events/things-to-do-in-san-francisco-this-weekend-san-jose-oakland-east-bay-kids-families"
+    ]
+   }
   ],
   "sea": [
-   {"name": "Seattle Refined weekend guide", "domain": "seattlerefined.com", "type": "roundup"},
-   {"name": "EverOut Seattle", "domain": "everout.com", "type": "roundup"},
-   {"name": "ParentMap", "domain": "parentmap.com", "type": "family"},
-   {"name": "Seattle's Child", "domain": "seattleschild.com", "type": "family"},
-   {"name": "Do206", "domain": "do206.com", "type": "music"},
-   {"name": "Seattle Parks (Parkways)", "domain": "parkways.seattle.gov", "type": "parks"},
-   {"name": "Wing Luke Museum", "domain": "wingluke.org", "type": "chinese"},
-   {"name": "Seattle Art Museum / Asian Art Museum", "domain": "seattleartmuseum.org", "type": "asian"},
-   {"name": "International Examiner calendar", "domain": "iexaminer.org", "type": "asian"},
-   {"name": "Town Hall Seattle", "domain": "townhallseattle.org", "type": "roundup"}
+   {
+    "name": "Seattle Refined weekend guide",
+    "domain": "seattlerefined.com",
+    "type": "roundup",
+    "urls": [
+     "https://seattlerefined.com/"
+    ]
+   },
+   {
+    "name": "EverOut Seattle",
+    "domain": "everout.com",
+    "type": "roundup",
+    "urls": [
+     "https://everout.com/seattle/top-events/"
+    ]
+   },
+   {
+    "name": "ParentMap",
+    "domain": "parentmap.com",
+    "type": "family",
+    "urls": [
+     "https://www.parentmap.com/"
+    ]
+   },
+   {
+    "name": "Seattle's Child",
+    "domain": "seattleschild.com",
+    "type": "family"
+   },
+   {
+    "name": "Do206",
+    "domain": "do206.com",
+    "type": "music"
+   },
+   {
+    "name": "Seattle Parks (Parkways)",
+    "domain": "parkways.seattle.gov",
+    "type": "parks"
+   },
+   {
+    "name": "Wing Luke Museum",
+    "domain": "wingluke.org",
+    "type": "chinese",
+    "urls": [
+     "https://www.wingluke.org/eventscalendar"
+    ]
+   },
+   {
+    "name": "Seattle Art Museum / Asian Art Museum",
+    "domain": "seattleartmuseum.org",
+    "type": "asian"
+   },
+   {
+    "name": "International Examiner calendar",
+    "domain": "iexaminer.org",
+    "type": "asian"
+   },
+   {
+    "name": "Town Hall Seattle",
+    "domain": "townhallseattle.org",
+    "type": "roundup"
+   }
   ],
   "bos": [
-   {"name": "Boston Globe weekend", "domain": "bostonglobe.com", "type": "roundup"},
-   {"name": "Meet Boston this weekend", "domain": "meetboston.com", "type": "roundup"},
-   {"name": "Boston Magazine", "domain": "bostonmagazine.com", "type": "roundup"},
-   {"name": "WBUR weekend picks", "domain": "wbur.org", "type": "roundup"},
-   {"name": "Boston Central (family)", "domain": "bostoncentral.com", "type": "family"},
-   {"name": "The Boston Calendar", "domain": "thebostoncalendar.com", "type": "roundup"},
-   {"name": "Chinese Culture Connection", "domain": "chinesecultureconnection.org", "type": "chinese"},
-   {"name": "Boston Asian American Film Festival", "domain": "baaff.org", "type": "asian"}
+   {
+    "name": "Boston Globe weekend",
+    "domain": "bostonglobe.com",
+    "type": "roundup"
+   },
+   {
+    "name": "Meet Boston this weekend",
+    "domain": "meetboston.com",
+    "type": "roundup",
+    "urls": [
+     "https://www.meetboston.com/events/this-weekend/"
+    ]
+   },
+   {
+    "name": "Boston Magazine",
+    "domain": "bostonmagazine.com",
+    "type": "roundup"
+   },
+   {
+    "name": "WBUR weekend picks",
+    "domain": "wbur.org",
+    "type": "roundup"
+   },
+   {
+    "name": "Boston Central (family)",
+    "domain": "bostoncentral.com",
+    "type": "family"
+   },
+   {
+    "name": "The Boston Calendar",
+    "domain": "thebostoncalendar.com",
+    "type": "roundup"
+   },
+   {
+    "name": "Chinese Culture Connection",
+    "domain": "chinesecultureconnection.org",
+    "type": "chinese",
+    "urls": [
+     "https://chinesecultureconnection.org/upcoming-events/"
+    ]
+   },
+   {
+    "name": "Boston Asian American Film Festival",
+    "domain": "baaff.org",
+    "type": "asian"
+   }
   ],
   "chi": [
-   {"name": "Block Club Chicago weekend", "domain": "blockclubchicago.org", "type": "roundup"},
-   {"name": "Chicago Parent", "domain": "chicagoparent.com", "type": "family"},
-   {"name": "Choose Chicago", "domain": "choosechicago.com", "type": "roundup"},
-   {"name": "Chicago Sun-Times things to do", "domain": "chicago.suntimes.com", "type": "roundup"},
-   {"name": "MyKidList weekend planner", "domain": "mykidlist.com", "type": "family"},
-   {"name": "Do312", "domain": "do312.com", "type": "music"},
-   {"name": "Chicago Asian Network", "domain": "chicagoasiannetwork.com", "type": "asian"},
-   {"name": "Chinese American Museum of Chicago", "domain": "ccamuseum.org", "type": "chinese"}
+   {
+    "name": "Block Club Chicago weekend",
+    "domain": "blockclubchicago.org",
+    "type": "roundup",
+    "urls": [
+     "https://blockclubchicago.org/"
+    ]
+   },
+   {
+    "name": "Chicago Parent",
+    "domain": "chicagoparent.com",
+    "type": "family",
+    "urls": [
+     "https://www.chicagoparent.com/guides/weekend"
+    ]
+   },
+   {
+    "name": "Choose Chicago",
+    "domain": "choosechicago.com",
+    "type": "roundup"
+   },
+   {
+    "name": "Chicago Sun-Times things to do",
+    "domain": "chicago.suntimes.com",
+    "type": "roundup"
+   },
+   {
+    "name": "MyKidList weekend planner",
+    "domain": "mykidlist.com",
+    "type": "family"
+   },
+   {
+    "name": "Do312",
+    "domain": "do312.com",
+    "type": "music"
+   },
+   {
+    "name": "Chicago Asian Network",
+    "domain": "chicagoasiannetwork.com",
+    "type": "asian",
+    "urls": [
+     "https://www.chicagoasiannetwork.com/event-tags/all"
+    ]
+   },
+   {
+    "name": "Chinese American Museum of Chicago",
+    "domain": "ccamuseum.org",
+    "type": "chinese"
+   },
+   {
+    "name": "Mommy Poppins weekend",
+    "domain": "mommypoppins.com",
+    "type": "family",
+    "urls": [
+     "https://mommypoppins.com/chicago-kids/things-to-do-in-chicago-this-weekend-kids-families"
+    ]
+   },
+   {
+    "name": "Time Out weekend",
+    "domain": "timeout.com",
+    "type": "roundup",
+    "urls": [
+     "https://www.timeout.com/chicago/things-to-do/best-things-to-do-this-weekend-in-chicago"
+    ]
+   }
   ],
   "hou": [
-   {"name": "Houston on the Cheap", "domain": "houstononthecheap.com", "type": "roundup"},
-   {"name": "Houston Mom", "domain": "houstonmom.com", "type": "family"},
-   {"name": "365 Things in Houston", "domain": "365thingsinhouston.com", "type": "roundup"},
-   {"name": "CultureMap Houston", "domain": "houston.culturemap.com", "type": "roundup"},
-   {"name": "Kids Houston", "domain": "kids-houston.com", "type": "family"},
-   {"name": "Discovery Green events", "domain": "discoverygreen.com", "type": "parks"},
-   {"name": "Gold Scene culture calendar (Houston)", "domain": "mygoldscene.com", "type": "asian"}
+   {
+    "name": "Houston on the Cheap",
+    "domain": "houstononthecheap.com",
+    "type": "roundup",
+    "urls": [
+     "https://www.houstononthecheap.com/top-events-in-houston-{mon}-{fri}-{sunmon}-{sun}-{year}/"
+    ]
+   },
+   {
+    "name": "Houston Mom",
+    "domain": "houstonmom.com",
+    "type": "family"
+   },
+   {
+    "name": "365 Things in Houston",
+    "domain": "365thingsinhouston.com",
+    "type": "roundup"
+   },
+   {
+    "name": "CultureMap Houston",
+    "domain": "houston.culturemap.com",
+    "type": "roundup",
+    "urls": [
+     "https://houston.culturemap.com/"
+    ]
+   },
+   {
+    "name": "Kids Houston",
+    "domain": "kids-houston.com",
+    "type": "family"
+   },
+   {
+    "name": "Discovery Green events",
+    "domain": "discoverygreen.com",
+    "type": "parks"
+   },
+   {
+    "name": "Gold Scene culture calendar (Houston)",
+    "domain": "mygoldscene.com",
+    "type": "asian"
+   },
+   {
+    "name": "Mommy Poppins weekend",
+    "domain": "mommypoppins.com",
+    "type": "family",
+    "urls": [
+     "https://mommypoppins.com/things-to-do-in-Houston-this-weekend-kids-families"
+    ]
+   }
   ],
   "dal": [
-   {"name": "CultureMap Dallas", "domain": "dallas.culturemap.com", "type": "roundup"},
-   {"name": "CultureMap Fort Worth", "domain": "fortworth.culturemap.com", "type": "roundup"},
-   {"name": "DFW Child", "domain": "dfwchild.com", "type": "family"},
-   {"name": "Plano Moms", "domain": "planomoms.com", "type": "family"},
-   {"name": "Dallas News things to do", "domain": "dallasnews.com", "type": "roundup"},
-   {"name": "Visit Dallas", "domain": "visitdallas.com", "type": "roundup"}
+   {
+    "name": "CultureMap Dallas",
+    "domain": "dallas.culturemap.com",
+    "type": "roundup",
+    "urls": [
+     "https://dallas.culturemap.com/"
+    ]
+   },
+   {
+    "name": "CultureMap Fort Worth",
+    "domain": "fortworth.culturemap.com",
+    "type": "roundup"
+   },
+   {
+    "name": "DFW Child",
+    "domain": "dfwchild.com",
+    "type": "family",
+    "urls": [
+     "https://dfwchild.com/things-to-do-this-weekend/"
+    ]
+   },
+   {
+    "name": "Plano Moms",
+    "domain": "planomoms.com",
+    "type": "family"
+   },
+   {
+    "name": "Dallas News things to do",
+    "domain": "dallasnews.com",
+    "type": "roundup"
+   },
+   {
+    "name": "Visit Dallas",
+    "domain": "visitdallas.com",
+    "type": "roundup"
+   }
   ],
   "dc": [
-   {"name": "Washingtonian weekly list", "domain": "washingtonian.com", "type": "roundup"},
-   {"name": "Washington Times weekend list", "domain": "washingtontimes.com", "type": "roundup"},
-   {"name": "Kid Friendly DC weekend round-up", "domain": "kidfriendlydc.com", "type": "family"},
-   {"name": "51st (DC events)", "domain": "51st.news", "type": "roundup"},
-   {"name": "Northern Virginia Magazine weekend", "domain": "northernvirginiamag.com", "type": "roundup"},
-   {"name": "Chinese American Museum DC", "domain": "chineseamericanmuseum.org", "type": "chinese"},
-   {"name": "National Museum of Asian Art", "domain": "asia.si.edu", "type": "asian"}
+   {
+    "name": "Washingtonian weekly list",
+    "domain": "washingtonian.com",
+    "type": "roundup",
+    "urls": [
+     "https://www.washingtonian.com/"
+    ]
+   },
+   {
+    "name": "Washington Times weekend list",
+    "domain": "washingtontimes.com",
+    "type": "roundup"
+   },
+   {
+    "name": "Kid Friendly DC weekend round-up",
+    "domain": "kidfriendlydc.com",
+    "type": "family",
+    "urls": [
+     "https://www.kidfriendlydc.com/"
+    ]
+   },
+   {
+    "name": "51st (DC events)",
+    "domain": "51st.news",
+    "type": "roundup"
+   },
+   {
+    "name": "Northern Virginia Magazine weekend",
+    "domain": "northernvirginiamag.com",
+    "type": "roundup"
+   },
+   {
+    "name": "Chinese American Museum DC",
+    "domain": "chineseamericanmuseum.org",
+    "type": "chinese",
+    "urls": [
+     "https://www.chineseamericanmuseum.org/upcomingevents"
+    ]
+   },
+   {
+    "name": "National Museum of Asian Art",
+    "domain": "asia.si.edu",
+    "type": "asian"
+   }
   ],
   "oc": [
-   {"name": "Enjoy Orange County", "domain": "enjoyorangecounty.com", "type": "roundup"},
-   {"name": "Sandy Toes & Popsicles (OC family)", "domain": "sandytoesandpopsicles.com", "type": "family"},
-   {"name": "Orange Coast weekly list", "domain": "orangecoast.com", "type": "roundup"},
-   {"name": "Visit Anaheim", "domain": "visitanaheim.org", "type": "roundup"},
-   {"name": "Chinese-American Association of Orange County", "domain": "caaoc.org", "type": "chinese", "lang": "zh"}
+   {
+    "name": "Enjoy Orange County",
+    "domain": "enjoyorangecounty.com",
+    "type": "roundup",
+    "urls": [
+     "https://enjoyorangecounty.com/whats-happening/"
+    ]
+   },
+   {
+    "name": "Sandy Toes & Popsicles (OC family)",
+    "domain": "sandytoesandpopsicles.com",
+    "type": "family",
+    "urls": [
+     "https://www.sandytoesandpopsicles.com/family-weekend-events-orange-county/"
+    ]
+   },
+   {
+    "name": "Orange Coast weekly list",
+    "domain": "orangecoast.com",
+    "type": "roundup"
+   },
+   {
+    "name": "Visit Anaheim",
+    "domain": "visitanaheim.org",
+    "type": "roundup"
+   },
+   {
+    "name": "Chinese-American Association of Orange County",
+    "domain": "caaoc.org",
+    "type": "chinese",
+    "lang": "zh",
+    "urls": [
+     "https://www.caaoc.org/"
+    ]
+   }
   ],
   "sd": [
-   {"name": "Times of San Diego weekend guide", "domain": "timesofsandiego.com", "type": "roundup"},
-   {"name": "San Diego Family", "domain": "sandiegofamily.com", "type": "family"},
-   {"name": "La Jolla Mom", "domain": "lajollamom.com", "type": "family"},
-   {"name": "There San Diego", "domain": "theresandiego.com", "type": "roundup"},
-   {"name": "San Diego Tourism events", "domain": "sandiego.org", "type": "roundup"},
-   {"name": "San Diego Chinese Historical Museum", "domain": "sdchm.org", "type": "chinese"},
-   {"name": "Pacific Arts Movement / SDAFF", "domain": "sdaff.org", "type": "asian"}
+   {
+    "name": "Times of San Diego weekend guide",
+    "domain": "timesofsandiego.com",
+    "type": "roundup",
+    "urls": [
+     "https://timesofsandiego.com/"
+    ]
+   },
+   {
+    "name": "San Diego Family",
+    "domain": "sandiegofamily.com",
+    "type": "family",
+    "urls": [
+     "https://www.sandiegofamily.com/"
+    ]
+   },
+   {
+    "name": "La Jolla Mom",
+    "domain": "lajollamom.com",
+    "type": "family"
+   },
+   {
+    "name": "There San Diego",
+    "domain": "theresandiego.com",
+    "type": "roundup"
+   },
+   {
+    "name": "San Diego Tourism events",
+    "domain": "sandiego.org",
+    "type": "roundup"
+   },
+   {
+    "name": "San Diego Chinese Historical Museum",
+    "domain": "sdchm.org",
+    "type": "chinese",
+    "urls": [
+     "https://sdchm.org/"
+    ]
+   },
+   {
+    "name": "Pacific Arts Movement / SDAFF",
+    "domain": "sdaff.org",
+    "type": "asian"
+   }
   ],
   "atl": [
-   {"name": "AJC Access Atlanta", "domain": "ajc.com", "type": "roundup"},
-   {"name": "Atlanta Parent", "domain": "atlantaparent.com", "type": "family"},
-   {"name": "Family Friendly ATL", "domain": "famfriendlyatl.substack.com", "type": "family"},
-   {"name": "Discover Atlanta events", "domain": "discoveratlanta.com", "type": "roundup"},
-   {"name": "Piedmont Park calendar", "domain": "piedmontpark.org", "type": "parks"}
+   {
+    "name": "AJC Access Atlanta",
+    "domain": "ajc.com",
+    "type": "roundup"
+   },
+   {
+    "name": "Atlanta Parent",
+    "domain": "atlantaparent.com",
+    "type": "family",
+    "urls": [
+     "https://www.atlantaparent.com/"
+    ]
+   },
+   {
+    "name": "Family Friendly ATL",
+    "domain": "famfriendlyatl.substack.com",
+    "type": "family"
+   },
+   {
+    "name": "Discover Atlanta events",
+    "domain": "discoveratlanta.com",
+    "type": "roundup"
+   },
+   {
+    "name": "Piedmont Park calendar",
+    "domain": "piedmontpark.org",
+    "type": "parks"
+   },
+   {
+    "name": "Mommy Poppins weekend",
+    "domain": "mommypoppins.com",
+    "type": "family",
+    "urls": [
+     "https://mommypoppins.com/things-to-do-in-Atlanta-this-weekend-kids-families"
+    ]
+   }
   ],
   "tor": [
-   {"name": "blogTO weekend", "domain": "blogto.com", "type": "roundup"},
-   {"name": "To Do Canada", "domain": "todocanada.ca", "type": "roundup"},
-   {"name": "Child's Life", "domain": "childslife.ca", "type": "family"},
-   {"name": "Streets of Toronto", "domain": "streetsoftoronto.com", "type": "roundup"},
-   {"name": "Harbourfront Centre", "domain": "harbourfrontcentre.com", "type": "roundup"},
-   {"name": "Destination Toronto", "domain": "destinationtoronto.com", "type": "roundup"},
-   {"name": "Chinese Cultural Centre of Greater Toronto", "domain": "cccgt.org", "type": "chinese"},
-   {"name": "Toronto Chinatown BIA", "domain": "chinatownbia.com", "type": "chinese"}
+   {
+    "name": "blogTO weekend",
+    "domain": "blogto.com",
+    "type": "roundup",
+    "urls": [
+     "https://www.blogto.com/events/"
+    ]
+   },
+   {
+    "name": "To Do Canada",
+    "domain": "todocanada.ca",
+    "type": "roundup",
+    "urls": [
+     "https://www.todocanada.ca/things-to-do-in-toronto-this-weekend/"
+    ]
+   },
+   {
+    "name": "Child's Life",
+    "domain": "childslife.ca",
+    "type": "family",
+    "urls": [
+     "https://childslife.ca/whats-on-this-weekend/"
+    ]
+   },
+   {
+    "name": "Streets of Toronto",
+    "domain": "streetsoftoronto.com",
+    "type": "roundup"
+   },
+   {
+    "name": "Harbourfront Centre",
+    "domain": "harbourfrontcentre.com",
+    "type": "roundup"
+   },
+   {
+    "name": "Destination Toronto",
+    "domain": "destinationtoronto.com",
+    "type": "roundup"
+   },
+   {
+    "name": "Chinese Cultural Centre of Greater Toronto",
+    "domain": "cccgt.org",
+    "type": "chinese",
+    "urls": [
+     "https://cccgt.org/"
+    ]
+   },
+   {
+    "name": "Toronto Chinatown BIA",
+    "domain": "chinatownbia.com",
+    "type": "chinese"
+   }
   ],
   "van": [
-   {"name": "Miss604 weekend events", "domain": "miss604.com", "type": "roundup"},
-   {"name": "Daily Hive Vancouver", "domain": "dailyhive.com", "type": "roundup"},
-   {"name": "604 Now", "domain": "604now.com", "type": "roundup"},
-   {"name": "Noms Magazine weekend", "domain": "nomsmagazine.com", "type": "roundup"},
-   {"name": "Healthy Family Living (Metro Vancouver)", "domain": "healthyfamilyliving.com", "type": "family"},
-   {"name": "Vancouver's Best Places", "domain": "vancouversbestplaces.com", "type": "roundup"},
-   {"name": "Chinese Canadian Museum", "domain": "chinesecanadianmuseum.ca", "type": "chinese"}
+   {
+    "name": "Miss604 weekend events",
+    "domain": "miss604.com",
+    "type": "roundup",
+    "urls": [
+     "https://miss604.com/"
+    ]
+   },
+   {
+    "name": "Daily Hive Vancouver",
+    "domain": "dailyhive.com",
+    "type": "roundup"
+   },
+   {
+    "name": "604 Now",
+    "domain": "604now.com",
+    "type": "roundup"
+   },
+   {
+    "name": "Noms Magazine weekend",
+    "domain": "nomsmagazine.com",
+    "type": "roundup"
+   },
+   {
+    "name": "Healthy Family Living (Metro Vancouver)",
+    "domain": "healthyfamilyliving.com",
+    "type": "family"
+   },
+   {
+    "name": "Vancouver's Best Places",
+    "domain": "vancouversbestplaces.com",
+    "type": "roundup"
+   },
+   {
+    "name": "Chinese Canadian Museum",
+    "domain": "chinesecanadianmuseum.ca",
+    "type": "chinese",
+    "urls": [
+     "https://www.chinesecanadianmuseum.ca/"
+    ]
+   }
   ]
  }
 }

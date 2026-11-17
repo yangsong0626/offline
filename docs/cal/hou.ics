@@ -8,123 +8,32 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:ghibli-tribute-2026-11-13@noboringweekends
-DTSTAMP:20261113T000000Z
-DTSTART;VALUE=DATE:20261113
-DTEND;VALUE=DATE:20261114
-SUMMARY:吉卜力致敬艺术展(一晚限定)
-LOCATION:The Insomnia Gallery\, Hardy St\, Houston\, TX
-DESCRIPTION:🌳 宫崎骏迷看过来!免费一晚限定的吉卜力同人
- 艺术展\,周五晚上。\n费用:免费\nhttps://www.houstononthecheap.c
- om/top-events-in-houston-november-13-november-15-2026/
-URL:https://www.houstononthecheap.com/top-events-in-houston-november-13-nov
- ember-15-2026/
-END:VEVENT
-BEGIN:VEVENT
-UID:asts-arch-tour2-2026-11-14@noboringweekends
-DTSTAMP:20261113T000000Z
-DTSTART:20261114T170000Z
-DTEND:20261114T180000Z
-SUMMARY:亚洲协会德州中心建筑导览
+UID:asts-amano-2026-11-21@noboringweekends
+DTSTAMP:20261117T000000Z
+DTSTART:20261121T170000Z
+DTEND:20261121T190000Z
+SUMMARY:亚洲协会德州中心:天野喜孝《Big Bang》导览
 LOCATION:Asia Society Texas Center\, 1370 Southmore Blvd\, Houston\, TX 770
  04
-DESCRIPTION:🏛️ 谷口吉生设计的建筑导览\,$10\,需预约。\n
- 费用:$10\,会员免费\nhttps://asiasociety.org/events
-URL:https://asiasociety.org/events
+DESCRIPTION:🎨《最终幻想》画师天野喜孝特展导览。\n费用
+ :以官网为准\nhttps://asiasociety.org/texas/events
+URL:https://asiasociety.org/texas/events
 END:VEVENT
 BEGIN:VEVENT
-UID:dg-diwali-2026-11-14@noboringweekends
-DTSTAMP:20261113T000000Z
-DTSTART;VALUE=DATE:20261114
-DTEND;VALUE=DATE:20261115
-SUMMARY:Discovery Green 排灯节
-LOCATION:Discovery Green\, 1500 McKinney St\, Houston\, TX 77010
-DESCRIPTION:🪔 市中心公园排灯节\,灯火、舞蹈、印度美食\,
- 免费!\n费用:免费\nhttps://www.houstononthecheap.com/top-events-in-ho
- uston-november-13-november-15-2026/
-URL:https://www.houstononthecheap.com/top-events-in-houston-november-13-nov
- ember-15-2026/
-END:VEVENT
-BEGIN:VEVENT
-UID:woodlands-wall-e-2026-11-13@noboringweekends
-DTSTAMP:20261113T000000Z
-DTSTART:20261114T000000Z
-DTEND:20261114T020000Z
-SUMMARY:The Woodlands 露天电影《机器人总动员》
-LOCATION:The Woodlands\, The Woodlands\, TX
-DESCRIPTION:🤖 免费露天电影\,周五 6 点开始~\n费用:免费\nht
- tps://www.houstononthecheap.com/top-events-in-houston-november-13-november
- -15-2026/
-URL:https://www.houstononthecheap.com/top-events-in-houston-november-13-nov
- ember-15-2026/
-END:VEVENT
-BEGIN:VEVENT
-UID:nutcracker-market-2026-11-13@noboringweekends
-DTSTAMP:20261113T000000Z
-DTSTART;VALUE=DATE:20261113
-DTEND;VALUE=DATE:20261114
-SUMMARY:休斯顿芭蕾胡桃夹子市集
-LOCATION:NRG Park\, 1 NRG Pkwy\, Houston\, TX 77054
-DESCRIPTION:🎄 休斯顿最大的节日购物市集!$46 起。\n费用:$4
- 6 起\nhttps://www.houstononthecheap.com/top-events-in-houston-november-13
- -november-15-2026/
-URL:https://www.houstononthecheap.com/top-events-in-houston-november-13-nov
- ember-15-2026/
-END:VEVENT
-BEGIN:VEVENT
-UID:disney-on-ice-hou-2026-11-13@noboringweekends
-DTSTAMP:20261113T000000Z
-DTSTART;VALUE=DATE:20261113
-DTEND;VALUE=DATE:20261114
-SUMMARY:迪士尼冰上世界
-LOCATION:NRG Stadium\, NRG Pkwy\, Houston\, TX 77054
-DESCRIPTION:⛸️ 迪士尼公主冰上表演\,11/13-15。\n费用:以官
- 网为准\nhttps://www.houstononthecheap.com/top-events-in-houston-novembe
- r-13-november-15-2026/
-URL:https://www.houstononthecheap.com/top-events-in-houston-november-13-nov
- ember-15-2026/
-END:VEVENT
-BEGIN:VEVENT
-UID:traders-powwow-2026-11-14@noboringweekends
-DTSTAMP:20261113T000000Z
-DTSTART:20261114T160000Z
-DTEND:20261114T230000Z
-SUMMARY:Traders Village 原住民 Pow Wow(周六/日)
-LOCATION:Traders Village\, 7979 N Eldridge Pkwy\, Houston\, TX 77041
-DESCRIPTION:🪶 原住民舞蹈和手工艺\,周六周日 10-5 点。\n费
- 用:以官网为准\nhttps://www.houstononthecheap.com/top-events-in-houst
- on-november-13-november-15-2026/
-URL:https://www.houstononthecheap.com/top-events-in-houston-november-13-nov
- ember-15-2026/
-END:VEVENT
-BEGIN:VEVENT
-UID:cheap-skate-2026-11-16@noboringweekends
-DTSTAMP:20261113T000000Z
-DTSTART;VALUE=DATE:20261116
-DTEND;VALUE=DATE:20261117
-SUMMARY:Discovery Green 周一便宜溜冰夜
-LOCATION:Discovery Green\, 1500 McKinney St\, Houston\, TX 77010
-DESCRIPTION:⛸️ 市中心溜冰场周一折扣票\,放学去滑一圈~\n
- 费用:以官网为准\nhttps://www.discoverygreen.com/events/
-URL:https://www.discoverygreen.com/events/
-END:VEVENT
-BEGIN:VEVENT
-UID:tyke-hikes-2026-11-16@noboringweekends
-DTSTAMP:20261113T000000Z
-DTSTART;VALUE=DATE:20261116
-DTEND;VALUE=DATE:20261117
-SUMMARY:休斯顿植物园幼儿徒步
-LOCATION:Houston Arboretum & Nature Center\, 4501 Woodway Dr\, Houston\, TX
-  77024
-DESCRIPTION:🌿 专给学龄前小朋友的自然徒步\,周一上午。\n
- 费用:以官网为准\nhttps://www.jillbjarvis.com/things-to-do-in-housto
- n-today-and-this-weekend-with-kids/
-URL:https://www.jillbjarvis.com/things-to-do-in-houston-today-and-this-week
- end-with-kids/
+UID:asts-yuhan-su-2026-11-21@noboringweekends
+DTSTAMP:20261117T000000Z
+DTSTART:20261122T010000Z
+DTEND:20261122T030000Z
+SUMMARY:Yuhan Su 三重奏《OVER the MOONs》
+LOCATION:Asia Society Texas Center\, 1370 Southmore Blvd\, Houston\, TX 770
+ 04
+DESCRIPTION:🎷 台湾爵士音乐人苏郁涵\,关于漂泊和归属的
+ 音乐。\n费用:以官网为准\nhttps://asiasociety.org/texas/events
+URL:https://asiasociety.org/texas/events
 END:VEVENT
 BEGIN:VEVENT
 UID:buena-vista-2026-11-17@noboringweekends
-DTSTAMP:20261113T000000Z
+DTSTAMP:20261117T000000Z
 DTSTART;VALUE=DATE:20261117
 DTEND;VALUE=DATE:20261118
 SUMMARY:音乐剧《乐满哈瓦那》巡演
@@ -133,5 +42,42 @@ DESCRIPTION:🎺 古巴音乐剧巡演\,11/17-22\,场次以官网为准。\
  n费用:以官网为准\nhttps://www.tripsapien.com/things-to-do/houston-u
  s/november-2026
 URL:https://www.tripsapien.com/things-to-do/houston-us/november-2026
+END:VEVENT
+BEGIN:VEVENT
+UID:doves-festival-2026-11-21@noboringweekends
+DTSTAMP:20261117T000000Z
+DTSTART:20261121T210000Z
+DTEND:20261122T020000Z
+SUMMARY:The Woodlands 和平鸽点灯节
+LOCATION:Town Green Park\, 2099 Lake Robbins Dr\, The Woodlands\, TX 77380
+DESCRIPTION:🕊️ The Woodlands 年度节日点灯。\n费用:以官网
+ 为准\nhttps://mommypoppins.com/things-to-do-in-Houston-this-weekend-kids
+ -families
+URL:https://mommypoppins.com/things-to-do-in-Houston-this-weekend-kids-fami
+ lies
+END:VEVENT
+BEGIN:VEVENT
+UID:river-oaks-lighting-2026-11-21@noboringweekends
+DTSTAMP:20261117T000000Z
+DTSTART:20261121T220000Z
+DTEND:20261122T010000Z
+SUMMARY:River Oaks District 圣诞点灯
+LOCATION:River Oaks District\, 4444 Westheimer Rd\, Houston\, TX 77027
+DESCRIPTION:🎄 点灯仪式+节日活动。\n费用:以官网为准\nhttp
+ s://mommypoppins.com/things-to-do-in-Houston-this-weekend-kids-families
+URL:https://mommypoppins.com/things-to-do-in-Houston-this-weekend-kids-fami
+ lies
+END:VEVENT
+BEGIN:VEVENT
+UID:heb-parade-2026-11-26@noboringweekends
+DTSTAMP:20261117T000000Z
+DTSTART;VALUE=DATE:20261126
+DTEND;VALUE=DATE:20261127
+SUMMARY:休斯顿 H-E-B 感恩节游行
+LOCATION:Downtown Houston\, Downtown Houston\, TX
+DESCRIPTION:🦃 第 77 届感恩节游行\,时间路线以官网为准。\
+ n费用:免费\nhttps://holidaytoday.org/how-to-watch-thanksgiving-day-par
+ ade-2026/
+URL:https://holidaytoday.org/how-to-watch-thanksgiving-day-parade-2026/
 END:VEVENT
 END:VCALENDAR

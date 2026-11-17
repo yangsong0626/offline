@@ -8,47 +8,8 @@ X-WR-TIMEZONE:America/Los_Angeles
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:hmong-new-year-2026-11-14@noboringweekends
-DTSTAMP:20261113T000000Z
-DTSTART;VALUE=DATE:20261114
-DTEND;VALUE=DATE:20261115
-SUMMARY:西雅图苗族新年
-LOCATION:Seattle Center Armory\, 305 Harrison St\, Seattle\, WA 98109
-DESCRIPTION:🎊 Seattle Center 文化节系列:苗族新年!\n传统服饰
- 、歌舞、美食\,免费~\n费用:免费\nhttps://everout.com/seattle/to
- p-events/
-URL:https://everout.com/seattle/top-events/
-END:VEVENT
-BEGIN:VEVENT
-UID:ojak-bridge-2026-11-14@noboringweekends
-DTSTAMP:20261113T000000Z
-DTSTART;VALUE=DATE:20261114
-DTEND;VALUE=DATE:20261115
-SUMMARY:鹊桥艺术舞蹈节(O-Jak Bridge)
-LOCATION:Seattle\, Seattle\, WA (venue: see website)
-DESCRIPTION:🌉 第 5 届鹊桥艺术舞蹈节\,100+ 艺术家!\n灵感来
- 自牛郎织女的鹊桥传说\,时间地点以官网为准。\n费用:以
- 官网为准\nhttps://seattlerefined.com/lifestyle/seattle-events-things-t
- o-do-november-2026-garth-brooks-tour-wildlanterns-holiday-lights-shopping-
- gobble-up-food-festival-dance-art-auto-show-ojak-bridge
-URL:https://seattlerefined.com/lifestyle/seattle-events-things-to-do-novemb
- er-2026-garth-brooks-tour-wildlanterns-holiday-lights-shopping-gobble-up-f
- ood-festival-dance-art-auto-show-ojak-bridge
-END:VEVENT
-BEGIN:VEVENT
-UID:boynextdoor-2026-11-15@noboringweekends
-DTSTAMP:20261113T000000Z
-DTSTART;VALUE=DATE:20261115
-DTEND;VALUE=DATE:20261116
-SUMMARY:BOYNEXTDOOR 演唱会
-LOCATION:Showbox SoDo\, 1700 1st Ave S\, Seattle\, WA 98134
-DESCRIPTION:💚 K-pop 男团 BOYNEXTDOOR 西雅图站!票务以官网为
- 准。\n费用:以官网为准\nhttps://allevents.in/seattle/this-weekend
-URL:https://allevents.in/seattle/this-weekend
-END:VEVENT
-BEGIN:VEVENT
 UID:katseye-2026-11-17@noboringweekends
-DTSTAMP:20261113T000000Z
+DTSTAMP:20261117T000000Z
 DTSTART;VALUE=DATE:20261117
 DTEND;VALUE=DATE:20261118
 SUMMARY:KATSEYE 演唱会
@@ -59,7 +20,7 @@ URL:https://everout.com/seattle/top-events/
 END:VEVENT
 BEGIN:VEVENT
 UID:butoh-fest-2026-11-19@noboringweekends
-DTSTAMP:20261113T000000Z
+DTSTAMP:20261117T000000Z
 DTSTART;VALUE=DATE:20261119
 DTEND;VALUE=DATE:20261120
 SUMMARY:西雅图国际舞踏节
@@ -71,62 +32,40 @@ URL:https://everout.com/seattle/articles/the-best-things-to-do-in-seattle-t
  his-month-november-2026/c6598/
 END:VEVENT
 BEGIN:VEVENT
-UID:garth-brooks-2026-11-13@noboringweekends
-DTSTAMP:20261113T000000Z
-DTSTART:20261114T040000Z
-DTEND:20261114T060000Z
-SUMMARY:Garth Brooks 演唱会(周五/六/日)
-LOCATION:Climate Pledge Arena\, 334 1st Ave N\, Seattle\, WA 98109
-DESCRIPTION:🤠 乡村天王 Garth Brooks 连唱多场!周五周六晚 8 
- 点\,周日下午 2 点。\n费用:以官网为准\nhttps://seattlerefined
- .com/lifestyle/seattle-events-things-to-do-november-2026-garth-brooks-tour
- -wildlanterns-holiday-lights-shopping-gobble-up-food-festival-dance-art-au
- to-show-ojak-bridge
-URL:https://seattlerefined.com/lifestyle/seattle-events-things-to-do-novemb
- er-2026-garth-brooks-tour-wildlanterns-holiday-lights-shopping-gobble-up-f
- ood-festival-dance-art-auto-show-ojak-bridge
+UID:wing-luke-holiday-market-2026-11-21@noboringweekends
+DTSTAMP:20261117T000000Z
+DTSTART:20261121T190000Z
+DTEND:20261122T000000Z
+SUMMARY:Wing Luke 博物馆节日市集(免费)
+LOCATION:Wing Luke Museum\, 719 S King St\, Seattle\, WA 98104
+DESCRIPTION:🎁 亚太裔艺术家的节日市集\,免费入场\,逛完在
+ 国际区吃点心~\n费用:免费\nhttps://www.seattleschild.com/free-kid
+ -friendly-events-this-weekend-november-2026/
+URL:https://www.seattleschild.com/free-kid-friendly-events-this-weekend-nov
+ ember-2026/
 END:VEVENT
 BEGIN:VEVENT
-UID:auto-show-2026-11-13@noboringweekends
-DTSTAMP:20261113T000000Z
-DTSTART;VALUE=DATE:20261113
-DTEND;VALUE=DATE:20261114
-SUMMARY:西雅图国际车展
-LOCATION:Lumen Field Events Center\, 800 Occidental Ave S\, Seattle\, WA 98
- 134
-DESCRIPTION:🚗 新车+免费讲座+儿童乐园\,11/13-15。\n费用:以
- 官网为准\nhttps://seattlerefined.com/lifestyle/seattle-events-things-t
- o-do-november-2026-garth-brooks-tour-wildlanterns-holiday-lights-shopping-
- gobble-up-food-festival-dance-art-auto-show-ojak-bridge
-URL:https://seattlerefined.com/lifestyle/seattle-events-things-to-do-novemb
- er-2026-garth-brooks-tour-wildlanterns-holiday-lights-shopping-gobble-up-f
- ood-festival-dance-art-auto-show-ojak-bridge
+UID:nordic-julefest-2026-11-20@noboringweekends
+DTSTAMP:20261117T000000Z
+DTSTART:20261120T180000Z
+DTEND:20261121T010000Z
+SUMMARY:北欧博物馆圣诞节 Julefest
+LOCATION:National Nordic Museum\, 2655 NW Market St\, Seattle\, WA 98107
+DESCRIPTION:🇳🇴 北欧圣诞传统、现场音乐和手工\,11/20–22
+ 。\n费用:12 岁以下免费\nhttps://www.seattleschild.com/family-holid
+ ay-fun-events/
+URL:https://www.seattleschild.com/family-holiday-fun-events/
 END:VEVENT
 BEGIN:VEVENT
-UID:gobble-up-2026-11-14@noboringweekends
-DTSTAMP:20261113T000000Z
-DTSTART:20261114T180000Z
-DTEND:20261114T200000Z
-SUMMARY:Gobble Up 本地美食假日市集
-LOCATION:Magnuson Park Hangar 30\, 7400 Sand Point Way NE\, Seattle\, WA 98
- 115
-DESCRIPTION:🦃 本地美食+节日购物\,感恩节食材一站买齐~\n
- 费用:以官网为准\nhttps://seattlerefined.com/lifestyle/seattle-event
- s-things-to-do-november-2026-garth-brooks-tour-wildlanterns-holiday-lights
- -shopping-gobble-up-food-festival-dance-art-auto-show-ojak-bridge
-URL:https://seattlerefined.com/lifestyle/seattle-events-things-to-do-novemb
- er-2026-garth-brooks-tour-wildlanterns-holiday-lights-shopping-gobble-up-f
- ood-festival-dance-art-auto-show-ojak-bridge
-END:VEVENT
-BEGIN:VEVENT
-UID:houndmouth-2026-11-14@noboringweekends
-DTSTAMP:20261113T000000Z
-DTSTART:20261115T030000Z
-DTEND:20261115T050000Z
-SUMMARY:Houndmouth 音乐会
-LOCATION:The Moore Theatre\, 1932 2nd Ave\, Seattle\, WA 98101
-DESCRIPTION:🎸 美式摇滚乐队 Houndmouth\,周六晚 7 点。\n费用:
- 以官网为准\nhttps://do206.com/events/weekend
-URL:https://do206.com/events/weekend
+UID:seattle-xmas-market-2026-11-20@noboringweekends
+DTSTAMP:20261117T000000Z
+DTSTART;VALUE=DATE:20261120
+DTEND;VALUE=DATE:20261121
+SUMMARY:Seattle Center 圣诞市集(开幕)
+LOCATION:Seattle Center\, 305 Harrison St\, Seattle\, WA 98109
+DESCRIPTION:🎠 德式圣诞市集开幕\,有旋转木马\,每天还会「
+ 下雪」。\n费用:$6.99 起\,6 岁以下免费\nhttps://www.seattleschi
+ ld.com/family-holiday-fun-events/
+URL:https://www.seattleschild.com/family-holiday-fun-events/
 END:VEVENT
 END:VCALENDAR

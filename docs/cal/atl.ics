@@ -8,107 +8,8 @@ X-WR-TIMEZONE:America/New_York
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:wintertide-2026-11-13@noboringweekends
-DTSTAMP:20261113T000000Z
-DTSTART;VALUE=DATE:20261113
-DTEND;VALUE=DATE:20261114
-SUMMARY:佐治亚水族馆 WinterTide(开幕)
-LOCATION:Georgia Aquarium\, 225 Baker St NW\, Atlanta\, GA 30313
-DESCRIPTION:🎅 水族馆节日季开幕:圣诞老人村+节日表演\,含
- 在门票里~\n费用:含在门票内\nhttps://famfriendlyatl.substack.com
- /p/family-friendly-things-to-do-this-7c6
-URL:https://famfriendlyatl.substack.com/p/family-friendly-things-to-do-this
- -7c6
-END:VEVENT
-BEGIN:VEVENT
-UID:puppetry-rudolph-2026-11-13@noboringweekends
-DTSTAMP:20261113T000000Z
-DTSTART;VALUE=DATE:20261113
-DTEND;VALUE=DATE:20261114
-SUMMARY:木偶艺术中心《红鼻子驯鹿鲁道夫》
-LOCATION:Center for Puppetry Arts\, 1404 Spring St NW\, Atlanta\, GA 30309
-DESCRIPTION:🦌 经典圣诞木偶剧\,11/13-15\,需购票。\n费用:以
- 官网为准\nhttps://famfriendlyatl.substack.com/p/family-friendly-things
- -to-do-this-7c6
-URL:https://famfriendlyatl.substack.com/p/family-friendly-things-to-do-this
- -7c6
-END:VEVENT
-BEGIN:VEVENT
-UID:babypalooza-2026-11-14@noboringweekends
-DTSTAMP:20261113T000000Z
-DTSTART:20261114T150000Z
-DTEND:20261114T190000Z
-SUMMARY:Duluth 母婴展 Babypalooza
-LOCATION:Gas South Convention Center\, 6400 Sugarloaf Pkwy\, Duluth\, GA 30
- 097
-DESCRIPTION:👶 免费母婴展\,就在华人多的 Duluth~\n费用:免费
- \nhttps://famfriendlyatl.substack.com/p/family-friendly-things-to-do-this-
- 7c6
-URL:https://famfriendlyatl.substack.com/p/family-friendly-things-to-do-this
- -7c6
-END:VEVENT
-BEGIN:VEVENT
-UID:sugar-hill-chili-2026-11-14@noboringweekends
-DTSTAMP:20261113T000000Z
-DTSTART:20261114T170000Z
-DTEND:20261114T220000Z
-SUMMARY:Sugar Hill 辣椒大赛
-LOCATION:Downtown Sugar Hill\, Sugar Hill\, GA 30518
-DESCRIPTION:🌶️ 辣椒汤试吃+餐车+艺术市集\,中午到 5 点。
- \n费用:以官网为准\nhttps://www.ajc.com/accessatl/2026/11/15-things-
- to-do-in-metro-atlanta/
-URL:https://www.ajc.com/accessatl/2026/11/15-things-to-do-in-metro-atlanta/
-END:VEVENT
-BEGIN:VEVENT
-UID:mannheim-2026-11-14@noboringweekends
-DTSTAMP:20261113T000000Z
-DTSTART:20261114T200000Z
-DTEND:20261114T220000Z
-SUMMARY:Mannheim Steamroller 圣诞音乐会
-LOCATION:Fox Theatre\, 660 Peachtree St NE\, Atlanta\, GA 30308
-DESCRIPTION:🎹 经典圣诞音乐会\,周六下午 3 点\,福克斯剧院
- 。\n费用:以官网为准\nhttps://www.ajc.com/accessatl/2026/11/15-thin
- gs-to-do-in-metro-atlanta/
-URL:https://www.ajc.com/accessatl/2026/11/15-things-to-do-in-metro-atlanta/
-END:VEVENT
-BEGIN:VEVENT
-UID:cumming-crafts-2026-11-14@noboringweekends
-DTSTAMP:20261113T000000Z
-DTSTART;VALUE=DATE:20261114
-DTEND;VALUE=DATE:20261115
-SUMMARY:Cumming 圣诞手作节(周六/日)
-LOCATION:Cumming Fairgrounds\, 235 Castleberry Rd\, Cumming\, GA 30040
-DESCRIPTION:🎁 80+ 手作摊位\,周六周日两天。\n费用:以官网
- 为准\nhttps://www.ajc.com/accessatl/2026/11/15-things-to-do-in-metro-atl
- anta/
-URL:https://www.ajc.com/accessatl/2026/11/15-things-to-do-in-metro-atlanta/
-END:VEVENT
-BEGIN:VEVENT
-UID:piedmont-meteorites-2026-11-16@noboringweekends
-DTSTAMP:20261113T000000Z
-DTSTART:20261116T230000Z
-DTEND:20261117T003000Z
-SUMMARY:Piedmont 公园陨石讲座
-LOCATION:Piedmont Park\, 400 Park Dr NE\, Atlanta\, GA 30306
-DESCRIPTION:☄️ 狮子座流星雨这周达到峰值\,先来听陨石讲
- 座!\n费用:以官网为准\nhttps://piedmontpark.org/calendar/
-URL:https://piedmontpark.org/calendar/
-END:VEVENT
-BEGIN:VEVENT
-UID:doja-cat-2026-11-16@noboringweekends
-DTSTAMP:20261113T000000Z
-DTSTART:20261117T010000Z
-DTEND:20261117T030000Z
-SUMMARY:Doja Cat 演唱会
-LOCATION:State Farm Arena\, 1 State Farm Dr\, Atlanta\, GA 30303
-DESCRIPTION:🐱 Doja Cat 亚特兰大站\,周一晚 8 点。\n费用:以
- 官网为准\nhttps://www.songkick.com/metro-areas/4120-us-atlanta/novembe
- r-2026
-URL:https://www.songkick.com/metro-areas/4120-us-atlanta/november-2026
-END:VEVENT
-BEGIN:VEVENT
 UID:kamasi-2026-11-18@noboringweekends
-DTSTAMP:20261113T000000Z
+DTSTAMP:20261117T000000Z
 DTSTART:20261119T023000Z
 DTEND:20261119T043000Z
 SUMMARY:Kamasi Washington 爵士
@@ -116,5 +17,56 @@ LOCATION:City Winery Atlanta\, 650 North Ave NE\, Atlanta\, GA 30308
 DESCRIPTION:🎷 爵士萨克斯 Kamasi Washington\,11/18-19 两晚。\n费
  用:以官网为准\nhttps://discoveratlanta.com/events/all/
 URL:https://discoveratlanta.com/events/all/
+END:VEVENT
+BEGIN:VEVENT
+UID:gwinnett-glows-2026-11-21@noboringweekends
+DTSTAMP:20261117T000000Z
+DTSTART:20261121T230000Z
+DTEND:20261122T010000Z
+SUMMARY:Gwinnett Glows 圣诞树点灯
+LOCATION:Gas South Convention Center\, 6400 Sugarloaf Pkwy\, Duluth\, GA 30
+ 097
+DESCRIPTION:🎄 华人多的 Duluth 点灯仪式\,同场还有乔治亚圣
+ 诞树节。\n费用:以官网为准\nhttps://mommypoppins.com/things-to-d
+ o-in-Atlanta-this-weekend-kids-families
+URL:https://mommypoppins.com/things-to-do-in-Atlanta-this-weekend-kids-fami
+ lies
+END:VEVENT
+BEGIN:VEVENT
+UID:light-the-station-2026-11-21@noboringweekends
+DTSTAMP:20261117T000000Z
+DTSTART:20261121T230000Z
+DTEND:20261122T000000Z
+SUMMARY:Atlantic Station 点灯
+LOCATION:Atlantic Station\, 1380 Atlantic Dr NW\, Atlanta\, GA 30363
+DESCRIPTION:✨ 商圈圣诞点灯。\n费用:免费\nhttps://mommypoppins.
+ com/things-to-do-in-Atlanta-this-weekend-kids-families
+URL:https://mommypoppins.com/things-to-do-in-Atlanta-this-weekend-kids-fami
+ lies
+END:VEVENT
+BEGIN:VEVENT
+UID:avalon-lighting-2026-11-22@noboringweekends
+DTSTAMP:20261117T000000Z
+DTSTART:20261122T190000Z
+DTEND:20261123T003000Z
+SUMMARY:Alpharetta Avalon 点灯
+LOCATION:Avalon\, 400 Avalon Blvd\, Alpharetta\, GA 30009
+DESCRIPTION:🎄 北郊华人家庭多的 Alpharetta\,下午开始节日活
+ 动\,晚上点灯。\n费用:免费\nhttps://mommypoppins.com/things-to-do
+ -in-Atlanta-this-weekend-kids-families
+URL:https://mommypoppins.com/things-to-do-in-Atlanta-this-weekend-kids-fami
+ lies
+END:VEVENT
+BEGIN:VEVENT
+UID:piedmont-light-up-2026-11-22@noboringweekends
+DTSTAMP:20261117T000000Z
+DTSTART:20261122T230000Z
+DTEND:20261123T010000Z
+SUMMARY:Piedmont 公园 Light Up the Season
+LOCATION:Piedmont Park\, 400 Park Dr NE\, Atlanta\, GA 30306
+DESCRIPTION:🌟 公园节日点灯。\n费用:免费\nhttps://mommypoppins
+ .com/things-to-do-in-Atlanta-this-weekend-kids-families
+URL:https://mommypoppins.com/things-to-do-in-Atlanta-this-weekend-kids-fami
+ lies
 END:VEVENT
 END:VCALENDAR
