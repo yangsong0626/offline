@@ -8,56 +8,21 @@ X-WR-TIMEZONE:America/Los_Angeles
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:chcp-veterans-2026-11-14@noboringweekends
-DTSTAMP:20261113T000000Z
-DTSTART:20261114T200000Z
-DTEND:20261114T234500Z
-SUMMARY:华裔历史博物馆退伍军人节活动(圣何塞)
+UID:cah-museum-open-2026-11-21@noboringweekends
+DTSTAMP:20261117T000000Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+SUMMARY:圣何塞华裔历史博物馆开放日(免费)
 LOCATION:Chinese American Historical Museum (Ng Shing Gung)\, History Park\
  , 1650 Senter Rd\, San Jose\, CA 95112
-DESCRIPTION:🎖️ 南湾华人历史文化项目主办\,纪念华裔退
- 伍军人的故事!\n在历史公园的五帝庙博物馆\,细节以官网
- 为准。\n费用:以官网为准\nhttps://chcp.org/events
+DESCRIPTION:🏮 南湾华人历史文化项目的五帝庙博物馆开放\
+ ,免费参观\,时间以官网为准。\n费用:免费\nhttps://chcp.org/e
+ vents
 URL:https://chcp.org/events
 END:VEVENT
 BEGIN:VEVENT
-UID:aam-artisan-market-2026-11-14@noboringweekends
-DTSTAMP:20261113T000000Z
-DTSTART;VALUE=DATE:20261114
-DTEND;VALUE=DATE:20261115
-SUMMARY:亚洲艺术博物馆假日手作市集+竹艺讲座
-LOCATION:Asian Art Museum\, 200 Larkin St\, San Francisco\, CA 94102
-DESCRIPTION:🎋 假日手作市集+下午 2 点竹艺大师生田敏江讲
- 座!\n还有韩国艺术家河钟贤回顾展导览\,门票以官网为准
- 。\n费用:以官网为准\nhttps://calendar.asianart.org/
-URL:https://calendar.asianart.org/
-END:VEVENT
-BEGIN:VEVENT
-UID:tea-garden-free-2026-11-16@noboringweekends
-DTSTAMP:20261113T000000Z
-DTSTART:20261116T170000Z
-DTEND:20261116T180000Z
-SUMMARY:日本茶园免费一小时(周一/三/五)
-LOCATION:Japanese Tea Garden\, 75 Hagiwara Tea Garden Dr\, San Francisco\, 
- CA 94118
-DESCRIPTION:🍁 周一、周三、周五早上 9-10 点免费!晚秋枫叶
- 正好~\n费用:免费\nhttps://sf.funcheap.com/2026/11/16/
-URL:https://sf.funcheap.com/2026/11/16/
-END:VEVENT
-BEGIN:VEVENT
-UID:monday-mukja-2026-11-16@noboringweekends
-DTSTAMP:20261113T000000Z
-DTSTART:20261117T020000Z
-DTEND:20261117T040000Z
-SUMMARY:Monday Mukja 韩国社区晚餐
-LOCATION:The Buoy\, San Francisco\, CA
-DESCRIPTION:🍲 周一晚上一起吃韩餐\,认识新朋友~地址以官
- 网为准。\n费用:以官网为准\nhttps://www.sfvibe.com/events
-URL:https://www.sfvibe.com/events
-END:VEVENT
-BEGIN:VEVENT
 UID:prateek-kuhad-2026-11-19@noboringweekends
-DTSTAMP:20261113T000000Z
+DTSTAMP:20261117T000000Z
 DTSTART;VALUE=DATE:20261119
 DTEND;VALUE=DATE:20261120
 SUMMARY:Prateek Kuhad 演唱会
@@ -68,57 +33,21 @@ DESCRIPTION:🎶 印度创作歌手 Prateek Kuhad\,卡斯特罗剧院\,票
 URL:https://allevents.in/san-francisco/november--december
 END:VEVENT
 BEGIN:VEVENT
-UID:randall-science-2026-11-14@noboringweekends
-DTSTAMP:20261113T000000Z
-DTSTART:20261114T190000Z
-DTEND:20261114T213000Z
-SUMMARY:Randall 博物馆周六科学
-LOCATION:Randall Museum\, 199 Museum Way\, San Francisco\, CA 94114
-DESCRIPTION:🔬 免费亲子科学活动\,上午 11 点到 1:30~\n费用:
- 免费\nhttps://familyfriendlysf.com/events
-URL:https://familyfriendlysf.com/events
-END:VEVENT
-BEGIN:VEVENT
-UID:sf-tea-festival-2026-11-14@noboringweekends
-DTSTAMP:20261113T000000Z
-DTSTART;VALUE=DATE:20261114
-DTEND;VALUE=DATE:20261115
-SUMMARY:旧金山茶节(周六/日)
-LOCATION:Ferry Building\, 1 Ferry Building\, San Francisco\, CA 94111
-DESCRIPTION:🍵 渡轮大厦茶节\,各国好茶试饮~\n费用:以官网
- 为准\nhttps://sf.funcheap.com/category/event/event-types/kids-families/
-URL:https://sf.funcheap.com/category/event/event-types/kids-families/
-END:VEVENT
-BEGIN:VEVENT
-UID:renegade-craft-sf-2026-11-14@noboringweekends
-DTSTAMP:20261113T000000Z
-DTSTART;VALUE=DATE:20261114
-DTEND;VALUE=DATE:20261115
-SUMMARY:Renegade 手作市集(周六/日)
-LOCATION:Fort Mason Center\, 2 Marina Blvd\, San Francisco\, CA 94123
-DESCRIPTION:🛍️ 几百家独立手作摊位\,提前买圣诞礼物!\n
- 费用:以官网为准\nhttps://sf.funcheap.com/category/event/event-types
- /kids-families/
-URL:https://sf.funcheap.com/category/event/event-types/kids-families/
-END:VEVENT
-BEGIN:VEVENT
-UID:union-sq-rink-2026-11-14@noboringweekends
-DTSTAMP:20261113T000000Z
-DTSTART;VALUE=DATE:20261114
-DTEND;VALUE=DATE:20261115
-SUMMARY:联合广场溜冰场
-LOCATION:Union Square\, 333 Post St\, San Francisco\, CA 94108
-DESCRIPTION:⛸️ 联合广场节日溜冰场开张了\,滑完逛街~\n费
- 用:以官网为准\nhttps://mommypoppins.com/san-francisco-bay-area-kids/
- weekend-events/things-to-do-in-san-francisco-this-weekend-san-jose-oakland
- -east-bay-kids-families
-URL:https://mommypoppins.com/san-francisco-bay-area-kids/weekend-events/thi
- ngs-to-do-in-san-francisco-this-weekend-san-jose-oakland-east-bay-kids-fam
- ilies
+UID:colma-night-market-2026-11-20@noboringweekends
+DTSTAMP:20261117T000000Z
+DTSTART:20261121T010000Z
+DTEND:20261121T040000Z
+SUMMARY:Colma 亚洲夜市+菲律宾星灯工作坊
+LOCATION:Colma\, Colma\, CA 94014
+DESCRIPTION:🌟 亚洲小吃夜市\,还能亲手做菲律宾圣诞星灯 P
+ arol。\n费用:以官网为准\nhttps://sf.funcheap.com/colmas-asian-nigh
+ t-market-parol-lantern-workshop/
+URL:https://sf.funcheap.com/colmas-asian-night-market-parol-lantern-worksho
+ p/
 END:VEVENT
 BEGIN:VEVENT
 UID:nutcracker-sweets-2026-11-18@noboringweekends
-DTSTAMP:20261113T000000Z
+DTSTAMP:20261117T000000Z
 DTSTART:20261118T190000Z
 DTEND:20261118T210000Z
 SUMMARY:列治文区图书馆:小朋友胡桃夹子
@@ -130,7 +59,7 @@ URL:https://projectsf.com/san-francisco-events-november-2026/
 END:VEVENT
 BEGIN:VEVENT
 UID:embarcadero-lighting-2026-11-18@noboringweekends
-DTSTAMP:20261113T000000Z
+DTSTAMP:20261117T000000Z
 DTSTART:20261119T000000Z
 DTEND:20261119T020000Z
 SUMMARY:Embarcadero Center 假日市集+大楼点灯
@@ -140,5 +69,18 @@ DESCRIPTION:💡 四栋大楼轮廓灯一起亮起!还有假日市集\,下
  午 4 点开始~\n费用:免费\nhttps://projectsf.com/san-francisco-event
  s-november-2026/
 URL:https://projectsf.com/san-francisco-events-november-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:excelsior-harvest-market-2026-11-20@noboringweekends
+DTSTAMP:20261117T000000Z
+DTSTART:20261121T003000Z
+DTEND:20261121T043000Z
+SUMMARY:Excelsior 丰收夜市
+LOCATION:Ocean Ave & Mission St\, Ocean Ave & Mission St\, San Francisco\, 
+ CA 94112
+DESCRIPTION:🌽 华人家庭多的 Excelsior 社区夜市\,小吃+手作+
+ 音乐。\n费用:免费\nhttps://sf.funcheap.com/from-the-e-harvest-night
+ -market-sf/
+URL:https://sf.funcheap.com/from-the-e-harvest-night-market-sf/
 END:VEVENT
 END:VCALENDAR

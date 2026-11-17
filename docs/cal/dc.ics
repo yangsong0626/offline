@@ -8,74 +8,8 @@ X-WR-TIMEZONE:America/New_York
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:nmaa-workshop-2026-11-14@noboringweekends
-DTSTAMP:20261113T000000Z
-DTSTART:20261114T160000Z
-DTEND:20261114T180000Z
-SUMMARY:国立亚洲艺术博物馆家庭工作坊
-LOCATION:National Museum of Asian Art\, 1050 Independence Ave SW\, Washingt
- on\, DC 20560
-DESCRIPTION:🖌️ 当一次「古画守护者」!上午 11 点和下午 1
- :30 两场\,免费\,博物馆永远免费~\n费用:免费\nhttps://asia.si
- .edu/
-URL:https://asia.si.edu/
-END:VEVENT
-BEGIN:VEVENT
-UID:renwick-reinstall-2026-11-13@noboringweekends
-DTSTAMP:20261113T000000Z
-DTSTART;VALUE=DATE:20261113
-DTEND;VALUE=DATE:20261114
-SUMMARY:Renwick 美术馆新展(免费)
-LOCATION:Renwick Gallery\, 1661 Pennsylvania Ave NW\, Washington\, DC 20006
-DESCRIPTION:🪡 手工艺术新展 11/13 开幕\,免费~\n费用:免费\nh
- ttps://www.washingtontimes.com/news/2026/nov/11/73-things-washington-dc-we
- ekend-november-13-15/
-URL:https://www.washingtontimes.com/news/2026/nov/11/73-things-washington-d
- c-weekend-november-13-15/
-END:VEVENT
-BEGIN:VEVENT
-UID:citycenter-lighting-2026-11-14@noboringweekends
-DTSTAMP:20261113T000000Z
-DTSTART:20261114T220000Z
-DTEND:20261115T000000Z
-SUMMARY:CityCenterDC 圣诞树点灯
-LOCATION:CityCenterDC\, 825 10th St NW\, Washington\, DC 20001
-DESCRIPTION:🎄 圣诞树点灯+JoJo 现场演唱\,免费!\n费用:免费\
- nhttps://www.washingtontimes.com/news/2026/nov/11/73-things-washington-dc-
- weekend-november-13-15/
-URL:https://www.washingtontimes.com/news/2026/nov/11/73-things-washington-d
- c-weekend-november-13-15/
-END:VEVENT
-BEGIN:VEVENT
-UID:saam-family-day-2026-11-15@noboringweekends
-DTSTAMP:20261113T000000Z
-DTSTART;VALUE=DATE:20261115
-DTEND;VALUE=DATE:20261116
-SUMMARY:美国艺术博物馆家庭日
-LOCATION:Smithsonian American Art Museum\, 8th St & G St NW\, Washington\, 
- DC 20004
-DESCRIPTION:🎨 免费家庭日\,手工+导览\,时间以官网为准。\n
- 费用:免费\nhttps://www.washingtontimes.com/news/2026/nov/11/73-things-
- washington-dc-weekend-november-13-15/
-URL:https://www.washingtontimes.com/news/2026/nov/11/73-things-washington-d
- c-weekend-november-13-15/
-END:VEVENT
-BEGIN:VEVENT
-UID:empanada-fest-2026-11-15@noboringweekends
-DTSTAMP:20261113T000000Z
-DTSTART;VALUE=DATE:20261115
-DTEND;VALUE=DATE:20261116
-SUMMARY:Empanada 美食节
-LOCATION:Washington\, DC\, Washington\, DC (venue: see website)
-DESCRIPTION:🥟 拉美馅饼美食节\,免费入场\,亲子友好~\n费用
- :免费\nhttps://www.washingtontimes.com/news/2026/nov/11/73-things-washin
- gton-dc-weekend-november-13-15/
-URL:https://www.washingtontimes.com/news/2026/nov/11/73-things-washington-d
- c-weekend-november-13-15/
-END:VEVENT
-BEGIN:VEVENT
 UID:hiphop-nutcracker-2026-11-17@noboringweekends
-DTSTAMP:20261113T000000Z
+DTSTAMP:20261117T000000Z
 DTSTART;VALUE=DATE:20261117
 DTEND;VALUE=DATE:20261118
 SUMMARY:嘻哈版《胡桃夹子》
@@ -89,7 +23,7 @@ URL:https://washingtonian.com/2026/10/29/november-culture-guide-things-to-d
 END:VEVENT
 BEGIN:VEVENT
 UID:harbour-rink-2026-11-19@noboringweekends
-DTSTAMP:20261113T000000Z
+DTSTAMP:20261117T000000Z
 DTSTART;VALUE=DATE:20261119
 DTEND;VALUE=DATE:20261120
 SUMMARY:乔治城 Washington Harbour 溜冰场开张
@@ -97,5 +31,43 @@ LOCATION:Washington Harbour\, 3050 K St NW\, Washington\, DC 20007
 DESCRIPTION:⛸️ 河边溜冰场 11/19 开张\,$10-12。\n费用:$10-12\n
  https://kidtownguide.com/november-2026-family-events-dc.html
 URL:https://kidtownguide.com/november-2026-family-events-dc.html
+END:VEVENT
+BEGIN:VEVENT
+UID:spirit-final-2026-11-21@noboringweekends
+DTSTAMP:20261117T000000Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+SUMMARY:华盛顿精神队 NWSL 总决赛
+LOCATION:Audi Field\, 100 Potomac Ave SW\, Washington\, DC 20024
+DESCRIPTION:⚽ 女足总决赛主场!\n费用:以官网为准\nhttps://was
+ hingtonian.com/2026/11/16/things-to-do-in-the-dc-area-november-16-22-2026/
+URL:https://washingtonian.com/2026/11/16/things-to-do-in-the-dc-area-novemb
+ er-16-22-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:blanchard-coltrane-2026-11-21@noboringweekends
+DTSTAMP:20261117T000000Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+SUMMARY:Terence Blanchard & Ravi Coltrane 爵士
+LOCATION:Strathmore\, 5301 Tuckerman Ln\, North Bethesda\, MD 20852
+DESCRIPTION:🎺 爵士大师同台。\n费用:以官网为准\nhttps://was
+ hingtonian.com/2026/11/16/things-to-do-in-the-dc-area-november-16-22-2026/
+URL:https://washingtonian.com/2026/11/16/things-to-do-in-the-dc-area-novemb
+ er-16-22-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:national-tree-100-2026-12-03@noboringweekends
+DTSTAMP:20261117T000000Z
+DTSTART;VALUE=DATE:20261203
+DTEND;VALUE=DATE:20261204
+SUMMARY:第 100 届国家圣诞树点灯
+LOCATION:The Ellipse\, President's Park\, The Ellipse\, Washington\, DC 205
+ 00
+DESCRIPTION:🎄 第 100 届!需要抽签拿票。\n费用:免费\,抽签
+ 取票\nhttps://www.tripster.com/travelguide/christmas-in-washington-dc-th
+ e-ultimate-holiday-guide/
+URL:https://www.tripster.com/travelguide/christmas-in-washington-dc-the-ult
+ imate-holiday-guide/
 END:VEVENT
 END:VCALENDAR

@@ -8,78 +8,73 @@ X-WR-TIMEZONE:America/New_York
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:bhangra-2026-11-14@noboringweekends
-DTSTAMP:20261113T000000Z
-DTSTART;VALUE=DATE:20261114
-DTEND;VALUE=DATE:20261115
-SUMMARY:波士顿 Bhangra 舞蹈大赛
-LOCATION:Strand Theatre\, 543 Columbia Rd\, Dorchester\, MA 02125
-DESCRIPTION:💃 北美最大的旁遮普 Bhangra 舞蹈比赛\,第 23 届!
- \n节奏超燃\,票务以官网为准。\n费用:以官网为准\nhttps://
- www.bostonglobe.com/2026/11/12/arts/things-to-do-boston-this-weekend/
-URL:https://www.bostonglobe.com/2026/11/12/arts/things-to-do-boston-this-we
- ekend/
+UID:ccc-tai-chi-2026-11-20@noboringweekends
+DTSTAMP:20261117T000000Z
+DTSTART:20261120T150000Z
+DTEND:20261120T160000Z
+SUMMARY:华人文化中心太极课
+LOCATION:Chinese Culture Connection\, Malden\, MA
+DESCRIPTION:☯️ 每周五上午的太极课\,适合爷爷奶奶。\n费
+ 用:以官网为准\nhttps://chinesecultureconnection.org/upcoming-events/
+URL:https://chinesecultureconnection.org/upcoming-events/
 END:VEVENT
 BEGIN:VEVENT
-UID:victoria-monet-2026-11-14@noboringweekends
-DTSTAMP:20261113T000000Z
-DTSTART:20261115T010000Z
-DTEND:20261115T030000Z
-SUMMARY:Victoria Monét 演唱会
-LOCATION:MGM Music Hall at Fenway\, 2 Lansdowne St\, Boston\, MA 02215
-DESCRIPTION:🎤 Victoria Monét 巡演波士顿站\,周六晚 8 点。\n
- 费用:$53 起\nhttps://www.bostonglobe.com/2026/11/12/arts/things-to-do-b
- oston-this-weekend/
-URL:https://www.bostonglobe.com/2026/11/12/arts/things-to-do-boston-this-we
- ekend/
+UID:ccc-busy-bookworms-2026-11-24@noboringweekends
+DTSTAMP:20261117T000000Z
+DTSTART:20261124T143000Z
+DTEND:20261124T153000Z
+SUMMARY:华人文化中心:小书虫故事会
+LOCATION:Chinese Culture Connection\, Malden\, MA
+DESCRIPTION:📚 华人文化中心的亲子故事会\,地址报名以官
+ 网为准。\n费用:以官网为准\nhttps://chinesecultureconnection.org
+ /upcoming-events/
+URL:https://chinesecultureconnection.org/upcoming-events/
 END:VEVENT
 BEGIN:VEVENT
-UID:wicked-boston-2026-11-14@noboringweekends
-DTSTAMP:20261113T000000Z
-DTSTART;VALUE=DATE:20261114
-DTEND;VALUE=DATE:20261115
-SUMMARY:《魔法坏女巫》波士顿最后一周
-LOCATION:Citizens Opera House\, 539 Washington St\, Boston\, MA 02111
-DESCRIPTION:🧹 音乐剧《Wicked》演到 11/15\,最后机会!\n费用:
- 以官网为准\nhttps://www.bostonglobe.com/2026/11/12/arts/things-to-do-
- boston-this-weekend/
-URL:https://www.bostonglobe.com/2026/11/12/arts/things-to-do-boston-this-we
- ekend/
+UID:ccc-bilingual-rhythm-2026-12-03@noboringweekends
+DTSTAMP:20261117T000000Z
+DTSTART:20261203T150000Z
+DTEND:20261203T154500Z
+SUMMARY:华人文化中心:中英双语节奏时光(幼儿)
+LOCATION:Chinese Culture Connection\, Malden\, MA
+DESCRIPTION:🎵 中英双语儿歌律动\,给小小孩的中文启蒙\,每
+ 两周一次\,地址以官网为准。\n费用:以官网为准\nhttps://ch
+ inesecultureconnection.org/upcoming-events/
+URL:https://chinesecultureconnection.org/upcoming-events/
 END:VEVENT
 BEGIN:VEVENT
-UID:athenaeum-free-2026-11-15@noboringweekends
-DTSTAMP:20261113T000000Z
-DTSTART:20261115T160000Z
-DTEND:20261115T220000Z
-SUMMARY:波士顿图书馆:华盛顿藏书展(周日免费)
-LOCATION:Boston Athenaeum\, 10½ Beacon St\, Boston\, MA 02108
-DESCRIPTION:📚 华盛顿私人藏书展\,周日免费\,11/15 是最后一
- 天!\n费用:免费\nhttps://www.bostonglobe.com/2026/11/12/arts/things-to
- -do-boston-this-weekend/
-URL:https://www.bostonglobe.com/2026/11/12/arts/things-to-do-boston-this-we
- ekend/
+UID:patriot-winter-skate-2026-11-20@noboringweekends
+DTSTAMP:20261117T000000Z
+DTSTART;VALUE=DATE:20261120
+DTEND;VALUE=DATE:20261121
+SUMMARY:Patriot Place 冬季溜冰场开幕
+LOCATION:Patriot Place\, Foxborough\, MA 02035
+DESCRIPTION:⛸️ 户外溜冰场开幕。\n费用:以官网为准\nhttps:
+ //www.meetboston.com/events/this-weekend/
+URL:https://www.meetboston.com/events/this-weekend/
 END:VEVENT
 BEGIN:VEVENT
-UID:celtics-magic-2026-11-16@noboringweekends
-DTSTAMP:20261113T000000Z
-DTSTART:20261117T000000Z
-DTEND:20261117T020000Z
-SUMMARY:凯尔特人 vs 魔术
-LOCATION:TD Garden\, 100 Legends Way\, Boston\, MA 02114
-DESCRIPTION:🏀 周一晚 7 点 NBA\,票务以官网为准。\n费用:以
- 官网为准\nhttps://www.tdgarden.com/events
-URL:https://www.tdgarden.com/events
+UID:faneuil-tree-2026-11-21@noboringweekends
+DTSTAMP:20261117T000000Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+SUMMARY:昆西市场圣诞树点灯
+LOCATION:Faneuil Hall Marketplace\, 4 S Market St\, Boston\, MA 02109
+DESCRIPTION:🎄 波士顿节日季的开场点灯。\n费用:免费\nhttps
+ ://www.meetboston.com/events/this-weekend/
+URL:https://www.meetboston.com/events/this-weekend/
 END:VEVENT
 BEGIN:VEVENT
-UID:old-state-house-2026-11-16@noboringweekends
-DTSTAMP:20261113T000000Z
-DTSTART;VALUE=DATE:20261116
-DTEND;VALUE=DATE:20261117
-SUMMARY:旧州议会大厦《革命之路》
-LOCATION:Old State House\, 206 Washington St\, Boston\, MA 02109
-DESCRIPTION:🇺🇸 美国独立 250 周年:马萨诸塞革命第一年的
- 故事\,11/16、17、19 有场次。\n费用:以官网为准\nhttps://www.
- downtownboston.org/event/month/2026-11/
-URL:https://www.downtownboston.org/event/month/2026-11/
+UID:boston-common-tree-2026-12-03@noboringweekends
+DTSTAMP:20261117T000000Z
+DTSTART:20261203T230000Z
+DTEND:20261204T010000Z
+SUMMARY:波士顿公园圣诞树点灯+烟花
+LOCATION:Boston Common\, Boston Common\, Boston\, MA 02108
+DESCRIPTION:🎆 新斯科舍送来的大圣诞树点灯\,Frog Pond 冰上
+ 表演+烟花。\n费用:免费\nhttps://www.meetboston.com/blog/post/holi
+ day-lighting-ceremonies-in-boston/
+URL:https://www.meetboston.com/blog/post/holiday-lighting-ceremonies-in-bos
+ ton/
 END:VEVENT
 END:VCALENDAR

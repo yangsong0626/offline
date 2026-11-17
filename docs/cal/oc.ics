@@ -8,68 +8,8 @@ X-WR-TIMEZONE:America/Los_Angeles
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:disneyland-holidays-2026-11-13@noboringweekends
-DTSTAMP:20261113T000000Z
-DTSTART;VALUE=DATE:20261113
-DTEND;VALUE=DATE:20261114
-SUMMARY:迪士尼乐园圣诞季开幕
-LOCATION:Disneyland Resort\, 1313 Disneyland Dr\, Anaheim\, CA 92802
-DESCRIPTION:🎄 迪士尼圣诞季 11/13 开始!需购票预约。\n费用
- :以官网为准\nhttps://www.visitanaheim.org/blog/post/things-to-do-in-a
- naheim-and-orange-county-this-november-2026/
-URL:https://www.visitanaheim.org/blog/post/things-to-do-in-anaheim-and-oran
- ge-county-this-november-2026/
-END:VEVENT
-BEGIN:VEVENT
-UID:heritage-powwow-2026-11-14@noboringweekends
-DTSTAMP:20261113T000000Z
-DTSTART;VALUE=DATE:20261114
-DTEND;VALUE=DATE:20261115
-SUMMARY:Heritage 博物馆原住民 Pow Wow
-LOCATION:Heritage Museum of Orange County\, 3101 W Harvard St\, Santa Ana\,
-  CA 92704
-DESCRIPTION:🪶 免费原住民舞蹈和文化活动~\n费用:免费\nhttp
- s://enjoyorangecounty.com/whats-happening/
-URL:https://enjoyorangecounty.com/whats-happening/
-END:VEVENT
-BEGIN:VEVENT
-UID:oc-book-fair-2026-11-14@noboringweekends
-DTSTAMP:20261113T000000Z
-DTSTART;VALUE=DATE:20261114
-DTEND;VALUE=DATE:20261115
-SUMMARY:Tustin 老城书展
-LOCATION:Old Town Tustin\, El Camino Real\, Tustin\, CA 92780
-DESCRIPTION:📚 老城区书展\,带娃去淘书~\n费用:免费\nhttps://
- enjoyorangecounty.com/whats-happening/
-URL:https://enjoyorangecounty.com/whats-happening/
-END:VEVENT
-BEGIN:VEVENT
-UID:water-elephants-2026-11-14@noboringweekends
-DTSTAMP:20261113T000000Z
-DTSTART;VALUE=DATE:20261114
-DTEND;VALUE=DATE:20261115
-SUMMARY:音乐剧《大象的眼泪》
-LOCATION:Segerstrom Hall\, 600 Town Center Dr\, Costa Mesa\, CA 92626
-DESCRIPTION:🐘 百老汇巡演\,演到 11/22\,票务以官网为准。\n
- 费用:以官网为准\nhttps://orangecoast.com/arts-culture/o-c-events/to
- p-things-to-do-in-o-c-this-week-november-11th-through-17th/
-URL:https://orangecoast.com/arts-culture/o-c-events/top-things-to-do-in-o-c
- -this-week-november-11th-through-17th/
-END:VEVENT
-BEGIN:VEVENT
-UID:dachshund-races-2026-11-15@noboringweekends
-DTSTAMP:20261113T000000Z
-DTSTART:20261115T180000Z
-DTEND:20261115T220000Z
-SUMMARY:亨廷顿海滩腊肠狗赛跑
-LOCATION:Old World Village\, 7561 Center Ave\, Huntington Beach\, CA 92647
-DESCRIPTION:🌭🐶 腊肠狗全国冠军赛+宠物展\,萌到犯规!\n费
- 用:以官网为准\nhttps://enjoyorangecounty.com/whats-happening/
-URL:https://enjoyorangecounty.com/whats-happening/
-END:VEVENT
-BEGIN:VEVENT
 UID:muzeo-disney-2026-11-18@noboringweekends
-DTSTAMP:20261113T000000Z
+DTSTAMP:20261117T000000Z
 DTSTART:20261118T190000Z
 DTEND:20261118T210000Z
 SUMMARY:Muzeo 迪士尼档案展
@@ -79,5 +19,39 @@ DESCRIPTION:🏰 迪士尼档案展\,周三周四上午 11 点有场次\,
  需购票。\n费用:以官网为准\nhttps://orangecounty.net/mobile/even
  ts.html
 URL:https://orangecounty.net/mobile/events.html
+END:VEVENT
+BEGIN:VEVENT
+UID:gifts-goodies-mv-2026-11-21@noboringweekends
+DTSTAMP:20261117T000000Z
+DTSTART:20261121T160000Z
+DTEND:20261122T000000Z
+SUMMARY:Mission Viejo 节日手作集市(第 55 届)
+LOCATION:Norman Murray Community & Senior Center\, 24932 Veterans Way\, Mis
+ sion Viejo\, CA 92692
+DESCRIPTION:🎁 免费入场、免费停车的老牌节日集市。\n费
+ 用:免费\nhttps://enjoyorangecounty.com/whats-happening/
+URL:https://enjoyorangecounty.com/whats-happening/
+END:VEVENT
+BEGIN:VEVENT
+UID:campfire-night-market-2026-11-21@noboringweekends
+DTSTAMP:20261117T000000Z
+DTSTART:20261122T010000Z
+DTEND:20261122T050000Z
+SUMMARY:Mission Viejo 秋日夜市(免费)
+LOCATION:North Paseo at Los Osos\, Mission Viejo\, CA 92691
+DESCRIPTION:🔥 免费夜市\,周六晚 5–9 点。\n费用:免费\nhttps
+ ://enjoyorangecounty.com/whats-happening/
+URL:https://enjoyorangecounty.com/whats-happening/
+END:VEVENT
+BEGIN:VEVENT
+UID:patchwork-tustin-2026-11-22@noboringweekends
+DTSTAMP:20261117T000000Z
+DTSTART:20261122T190000Z
+DTEND:20261123T010000Z
+SUMMARY:Old Town Tustin Patchwork 手作市集
+LOCATION:Old Town Tustin\, El Camino Real\, Tustin\, CA 92780
+DESCRIPTION:🧵 本地手作市集\,免费\,宠物友好。\n费用:免费
+ \nhttps://enjoyorangecounty.com/whats-happening/
+URL:https://enjoyorangecounty.com/whats-happening/
 END:VEVENT
 END:VCALENDAR

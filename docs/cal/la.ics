@@ -8,105 +8,21 @@ X-WR-TIMEZONE:America/Los_Angeles
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:chinatown-doc-2026-11-14@noboringweekends
-DTSTAMP:20261113T000000Z
-DTSTART:20261114T180000Z
-DTEND:20261114T200000Z
-SUMMARY:华埠图书馆:洛杉矶唐人街纪录片放映
-LOCATION:Chinatown Branch Library\, 639 N Hill St\, Los Angeles\, CA 90012
-DESCRIPTION:🎬 南加州华人历史学会主办\,免费放映洛杉矶
- 唐人街纪录片!\n看完去华埠喝个早茶🫖\n费用:免费\nhttps
- ://chssc.org/events/
-URL:https://chssc.org/events/
-END:VEVENT
-BEGIN:VEVENT
-UID:griffith-observatory-2026-11-13@noboringweekends
-DTSTAMP:20261113T000000Z
-DTSTART;VALUE=DATE:20261113
-DTEND;VALUE=DATE:20261114
-SUMMARY:格里菲斯天文台(周五开到晚 10 点)
-LOCATION:Griffith Observatory\, 2800 E Observatory Rd\, Los Angeles\, CA 90
- 027
-DESCRIPTION:🔭 免费入场\,周五开到晚 10 点\,看洛杉矶夜景+
- 星空~\n费用:免费\nhttps://onestowatch.com/live/los-angeles-weekend-n
- ovember-13/
-URL:https://onestowatch.com/live/los-angeles-weekend-november-13/
-END:VEVENT
-BEGIN:VEVENT
-UID:nhm-nighttales-2026-11-13@noboringweekends
-DTSTAMP:20261113T000000Z
-DTSTART;VALUE=DATE:20261113
-DTEND;VALUE=DATE:20261114
-SUMMARY:自然历史博物馆 NightTales
-LOCATION:Natural History Museum of Los Angeles County\, 900 Exposition Blvd
- \, Los Angeles\, CA 90007
-DESCRIPTION:🌙 博物馆夜间体验\,11/12 刚开幕\,票务以官网为
- 准。\n费用:以官网为准\nhttps://onestowatch.com/live/los-angeles-w
- eekend-november-13/
-URL:https://onestowatch.com/live/los-angeles-weekend-november-13/
-END:VEVENT
-BEGIN:VEVENT
-UID:camp-flog-gnaw-2026-11-14@noboringweekends
-DTSTAMP:20261113T000000Z
-DTSTART;VALUE=DATE:20261114
-DTEND;VALUE=DATE:20261115
-SUMMARY:Camp Flog Gnaw 音乐节(周六/日)
-LOCATION:Dodger Stadium\, 1000 Vin Scully Ave\, Los Angeles\, CA 90012
-DESCRIPTION:🎡 Tyler\, the Creator 的音乐节!Turnstile、Steve Lacy、
- Future…周六周日两天。\n费用:以官网为准\nhttps://onestowatc
- h.com/live/los-angeles-weekend-november-13/
-URL:https://onestowatch.com/live/los-angeles-weekend-november-13/
-END:VEVENT
-BEGIN:VEVENT
-UID:sparkle-dtla-2026-11-14@noboringweekends
-DTSTAMP:20261113T000000Z
-DTSTART;VALUE=DATE:20261114
-DTEND;VALUE=DATE:20261115
-SUMMARY:DTLA 免费节日灯光秀 SPARKLE(首演)
-LOCATION:The Bloc\, 700 S Flower St\, Los Angeles\, CA 90017
-DESCRIPTION:✨ 市中心免费节日灯光秀周六首演!\n费用:免费\
- nhttps://onestowatch.com/live/los-angeles-weekend-november-13/
-URL:https://onestowatch.com/live/los-angeles-weekend-november-13/
-END:VEVENT
-BEGIN:VEVENT
-UID:jackalope-pasadena-2026-11-14@noboringweekends
-DTSTAMP:20261113T000000Z
-DTSTART;VALUE=DATE:20261114
-DTEND;VALUE=DATE:20261115
-SUMMARY:Jackalope 艺术市集(老帕萨迪纳)
-LOCATION:Old Pasadena\, Old Pasadena\, Pasadena\, CA 91103
-DESCRIPTION:🎨 独立艺术家手作市集\,逛逛买节日礼物~\n费
- 用:免费\nhttps://onestowatch.com/live/los-angeles-weekend-november-13/
-URL:https://onestowatch.com/live/los-angeles-weekend-november-13/
-END:VEVENT
-BEGIN:VEVENT
-UID:ciclavia-pasadena-2026-11-15@noboringweekends
-DTSTAMP:20261113T000000Z
-DTSTART:20261115T170000Z
-DTEND:20261115T190000Z
-SUMMARY:CicLAvia 帕萨迪纳封街骑行
-LOCATION:Pasadena\, Colorado Blvd\, Pasadena\, CA
-DESCRIPTION:🚲 封街!骑车、滑板、散步都行\,早上 9 点开始\
- ,免费~\n费用:免费\nhttps://onestowatch.com/live/los-angeles-weekend-
- november-13/
-URL:https://onestowatch.com/live/los-angeles-weekend-november-13/
-END:VEVENT
-BEGIN:VEVENT
-UID:grove-lighting-2026-11-16@noboringweekends
-DTSTAMP:20261113T000000Z
-DTSTART;VALUE=DATE:20261116
-DTEND;VALUE=DATE:20261117
-SUMMARY:The Grove 第 25 届圣诞树点灯
-LOCATION:The Grove\, 189 The Grove Dr\, Los Angeles\, CA 90036
-DESCRIPTION:🎄 洛杉矶最热闹的圣诞点灯\,第 25 届!人多\,建
- 议早到。\n费用:免费\nhttps://resident.com/los-angeles/2026/11/03/l
- as-holiday-season-begins-with-these-15-things-to-do-in-november-2026
-URL:https://resident.com/los-angeles/2026/11/03/las-holiday-season-begins-w
- ith-these-15-things-to-do-in-november-2026
+UID:aop-autumn-festival-2026-11-21@noboringweekends
+DTSTAMP:20261117T000000Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+SUMMARY:太平洋水族馆亚洲秋日节(周六/日)
+LOCATION:Aquarium of the Pacific\, 100 Aquarium Way\, Long Beach\, CA 90802
+DESCRIPTION:🏮 11/21–22 两天\,亚洲文化表演、美食和海洋主
+ 题活动~\n费用:以官网为准\nhttps://www.funwithkidsinla.com/post/t
+ hings-to-do-with-kids-in-los-angeles-in-november
+URL:https://www.funwithkidsinla.com/post/things-to-do-with-kids-in-los-ange
+ les-in-november
 END:VEVENT
 BEGIN:VEVENT
 UID:teddy-swims-2026-11-18@noboringweekends
-DTSTAMP:20261113T000000Z
+DTSTAMP:20261117T000000Z
 DTSTART;VALUE=DATE:20261118
 DTEND;VALUE=DATE:20261119
 SUMMARY:Teddy Swims 演唱会
@@ -118,7 +34,7 @@ URL:https://onestowatch.com/live/best-concerts-los-angeles-november/
 END:VEVENT
 BEGIN:VEVENT
 UID:jackson-browne-2026-11-19@noboringweekends
-DTSTAMP:20261113T000000Z
+DTSTAMP:20261117T000000Z
 DTSTART:20261120T040000Z
 DTEND:20261120T060000Z
 SUMMARY:Jackson Browne 演唱会
@@ -128,5 +44,45 @@ DESCRIPTION:🎸 民谣摇滚传奇 Jackson Browne 好莱坞连演\,周四
  晚 8 点。\n费用:以官网为准\nhttps://onestowatch.com/live/best-co
  ncerts-los-angeles-november/
 URL:https://onestowatch.com/live/best-concerts-los-angeles-november/
+END:VEVENT
+BEGIN:VEVENT
+UID:burbank-holiday-park-2026-11-20@noboringweekends
+DTSTAMP:20261117T000000Z
+DTSTART:20261121T000000Z
+DTEND:20261121T060000Z
+SUMMARY:Burbank Magnolia Park 节日公园
+LOCATION:Magnolia Park\, Magnolia Blvd\, Burbank\, CA 91505
+DESCRIPTION:🎄 免费社区节日晚会。\n费用:免费\nhttps://www.fu
+ nwithkidsinla.com/post/fun-things-to-do-this-weekend-in-los-angeles-near-m
+ e
+URL:https://www.funwithkidsinla.com/post/fun-things-to-do-this-weekend-in-l
+ os-angeles-near-me
+END:VEVENT
+BEGIN:VEVENT
+UID:la-auto-show-2026-11-20@noboringweekends
+DTSTAMP:20261117T000000Z
+DTSTART;VALUE=DATE:20261120
+DTEND;VALUE=DATE:20261121
+SUMMARY:洛杉矶车展(到 11/29)
+LOCATION:Los Angeles Convention Center\, 1201 S Figueroa St\, Los Angeles\,
+  CA 90015
+DESCRIPTION:🚗 车展 11/20 开幕\,感恩节假期带娃去看新车。\
+ n费用:以官网为准\nhttps://www.funwithkidsinla.com/post/fun-things-t
+ o-do-this-weekend-in-los-angeles-near-me
+URL:https://www.funwithkidsinla.com/post/fun-things-to-do-this-weekend-in-l
+ os-angeles-near-me
+END:VEVENT
+BEGIN:VEVENT
+UID:doo-dah-love-in-2026-11-22@noboringweekends
+DTSTAMP:20261117T000000Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+SUMMARY:帕萨迪纳 Doo Dah 免费音乐下午
+LOCATION:Memorial Park Bandshell\, 85 E Holly St\, Pasadena\, CA 91103
+DESCRIPTION:🎸 老帕萨迪纳公园里的免费音乐下午。\n费用:
+ 免费\nhttps://www.funwithkidsinla.com/post/things-to-do-with-kids-in-los
+ -angeles-in-november
+URL:https://www.funwithkidsinla.com/post/things-to-do-with-kids-in-los-ange
+ les-in-november
 END:VEVENT
 END:VCALENDAR

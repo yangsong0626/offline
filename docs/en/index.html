@@ -17,7 +17,7 @@
 <meta property="og:image:height" content="630">
 <meta property="og:locale" content="en_US">
 <meta name="twitter:card" content="summary_large_image">
-<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "WebSite", "@id": "https://noboringweekends.pages.dev/#website", "url": "https://noboringweekends.pages.dev/", "name": "周末不无聊", "alternateName": "No Boring Weekends", "inLanguage": ["zh-CN", "en"]}, {"@type": "WebPage", "@id": "https://noboringweekends.pages.dev/en/", "url": "https://noboringweekends.pages.dev/en/", "name": "No Boring Weekends · Things to Do This Weekend in North America", "inLanguage": "en", "dateModified": "2026-11-13", "isPartOf": {"@id": "https://noboringweekends.pages.dev/#website"}}]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "WebSite", "@id": "https://noboringweekends.pages.dev/#website", "url": "https://noboringweekends.pages.dev/", "name": "周末不无聊", "alternateName": "No Boring Weekends", "inLanguage": ["zh-CN", "en"]}, {"@type": "WebPage", "@id": "https://noboringweekends.pages.dev/en/", "url": "https://noboringweekends.pages.dev/en/", "name": "No Boring Weekends · Things to Do This Weekend in North America", "inLanguage": "en", "dateModified": "2026-11-17", "isPartOf": {"@id": "https://noboringweekends.pages.dev/#website"}}]}</script>
 <!--/seo-->
 <link rel="manifest" href="manifest.webmanifest">
 <link rel="icon" type="image/png" sizes="192x192" href="icons/icon-192.png">
@@ -240,7 +240,7 @@ var T={
   hintTz:"已按你的时区先选了 {c}。输入邮编或地址,可以切换到最近的城市。",
   hintSaved:"已记住你上次选的城市:{c}。",hintFound:"已切换到 {c}。",
   hintNone:"暂时只覆盖下面 {n} 个城市,没有找到匹配,请从下面选一个最近的。",comingSoon:"这个城市本周的活动还在整理中,周五更新时补上。",
-  weekend:"{s}–{e} 周末",week:"{s}–{e} 周末 · 周中到 {w}",mid:"周中",wxPending:"天气预报在周五更新时补上",sat:"周六",sun:"周日",fri:"周五",
+  weekend:"{s}–{e} 周末",week:"{s}–{e} 周末 · 周中到 {w}",mid:"周中",later:"之后",wxPending:"天气预报在周五更新时补上",sat:"周六",sun:"周日",fri:"周五",
   all:"全部",asian:"华人 / 亚裔",free:"免费",indoor:"室内",
   count:"共 {n} 个活动,其中华人 / 亚裔 {a} 个",empty:"这个筛选下没有活动,换一个条件试试。",
   tierA:"华人社区",tierB:"亚裔文化",freeL:"免费",signup:"需报名 / 购票",indoorL:"室内",outdoorL:"户外",
@@ -259,7 +259,7 @@ var T={
   hintTz:"Picked {c} from your time zone. Enter a ZIP or address to switch to the nearest city.",
   hintSaved:"Remembered your last city: {c}.",hintFound:"Switched to {c}.",
   hintNone:"We cover the {n} cities below for now and found no match. Pick the closest one.",comingSoon:"Events for this city are still being compiled. Check back after Friday's update.",
-  weekend:"Weekend of {s}–{e}",week:"Weekend of {s}–{e} · weekdays through {w}",mid:"Weekdays",wxPending:"Forecast is added on Friday's update",sat:"Sat",sun:"Sun",fri:"Fri",
+  weekend:"Weekend of {s}–{e}",week:"Weekend of {s}–{e} · weekdays through {w}",mid:"Weekdays",later:"Later",wxPending:"Forecast is added on Friday's update",sat:"Sat",sun:"Sun",fri:"Fri",
   all:"All",asian:"Chinese / Asian",free:"Free",indoor:"Indoor",
   count:"{n} events, {a} Chinese / Asian community",empty:"Nothing matches these filters. Try another.",
   tierA:"Chinese community",tierB:"Asian culture",freeL:"Free",signup:"Sign-up / tickets",indoorL:"Indoor",outdoorL:"Outdoor",
@@ -391,7 +391,9 @@ function forAud(e){return S.aud==="all"||aud(e)==="all"||aud(e)===S.aud}
 function todayIn(tz){try{return new Intl.DateTimeFormat("en-CA",{timeZone:tz,year:"numeric",month:"2-digit",day:"2-digit"}).format(new Date())}catch(_){return ""}}
 /* Events that haven't happened yet; if the data is stale and nothing is left, show everything rather than an empty page. */
 function pool(c){var td=todayIn(c.tz),up=c.events.filter(function(e){return e.date>=td});return up.length?up:c.events}
-function onDay(e,k){var w=dow(e.date);return k==="all"||(k==="mid"?w>=1&&w<=4:w===({fri:5,sat:6,sun:0})[k])}
+/* Events past this issue's window (weekend + weekdays) live under 「之后」 so the default list stays about this week. */
+function winEnd(){return (S.data.week||S.data.weekend).end}
+function onDay(e,k){var w=dow(e.date);if(k==="later")return e.date>winEnd();if(e.date>winEnd())return false;return k==="all"||(k==="mid"?w>=1&&w<=4:w===({fri:5,sat:6,sun:0})[k])}
 function visible(c){
   return pool(c).filter(function(e){
     if(!forAud(e))return false;
@@ -508,12 +510,12 @@ function render(){
   var wk=S.data.weekend,full=S.data.week,mid=full&&full.end>wk.end;
   $("weekend-title").textContent=cityName(S.city)+" · "+fmt(t(mid?"week":"weekend"),{s:dateLabel(wk.start),e:dateLabel(wk.end),w:mid?dateLabel(full.end):""});
   $("wx").innerHTML=wxHtml(c);
-  var pl=pool(c),days=[["all",t("all")]].concat([["fri",t("fri")],["sat",t("sat")],["sun",t("sun")],["mid",t("mid")]].filter(function(d){return pl.some(function(e){return onDay(e,d[0])})}));
+  var pl=pool(c),days=[["all",t("all")]].concat([["fri",t("fri")],["sat",t("sat")],["sun",t("sun")],["mid",t("mid")],["later",t("later")]].filter(function(d){return pl.some(function(e){return onDay(e,d[0])})}));
   if(!days.some(function(d){return d[0]===S.day}))S.day="all";
   $("filters").innerHTML=days.map(function(d){return '<button type="button" class="chip" data-day="'+d[0]+'" aria-pressed="'+(S.day===d[0])+'">'+esc(d[1])+'</button>'}).join("")+'<span class="gap"></span>'+
    [["asian",t("asian")],["free",t("free")],["indoor",t("indoor")]].map(function(f){return '<button type="button" class="chip" data-flag="'+f[0]+'" aria-pressed="'+S[f[0]]+'">'+esc(f[1])+'</button>'}).join("");
   $("aud").innerHTML=[["all","audAll"],["family","audFamily"],["adult","audAdult"]].map(function(a){return '<button type="button" data-aud="'+a[0]+'" aria-pressed="'+(S.aud===a[0])+'">'+esc(t(a[1]))+'</button>'}).join("");
-  var all=c.events,base=pl.filter(forAud),as=base.filter(function(e){return e.tier!=="C"}).length,list=visible(c);
+  var all=c.events,base=pl.filter(function(e){return e.date<=winEnd()&&forAud(e)}),as=base.filter(function(e){return e.tier!=="C"}).length,list=visible(c);
   $("count").textContent=base.length?fmt(t("count"),{n:base.length,a:as}):"";
   var feed=new URL("cal/"+S.city+".ics",ROOT).href.replace(/^https?:/,"webcal:"),wasOpen=$("subcal").open;
   $("subcal").innerHTML='<summary>'+esc(fmt(t("subTitle"),{c:cityName(S.city)}))+'</summary><div class="menu">'+

@@ -8,21 +8,102 @@ X-WR-TIMEZONE:America/New_York
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:moca-dialect-2026-11-14@noboringweekends
-DTSTAMP:20261113T000000Z
-DTSTART:20261114T210000Z
-DTEND:20261114T230000Z
-SUMMARY:MOCA 闽南语/客家话/潮州话方言角
+UID:ci-mandarin-meetup-2026-11-20@noboringweekends
+DTSTAMP:20261117T000000Z
+DTSTART:20261120T230000Z
+DTEND:20261121T010000Z
+SUMMARY:华美协进社:书法、音乐和中文聚会
+LOCATION:China Institute\, 40 Rector St\, New York\, NY 10006
+DESCRIPTION:🖌️ 华美协进社每月一次的文化聚会:写书法、
+ 听音乐、说中文。下班直接去\,认识一群同样喜欢中华文
+ 化的朋友~\n费用:以官网为准\nhttps://chinainstitute.org/upcoming
+ -events/
+URL:https://chinainstitute.org/upcoming-events/
+END:VEVENT
+BEGIN:VEVENT
+UID:moca-chinatown-walk-2026-11-21@noboringweekends
+DTSTAMP:20261117T000000Z
+DTSTART:20261121T163000Z
+DTEND:20261121T180000Z
+SUMMARY:MOCA 华埠历史徒步导览
 LOCATION:Museum of Chinese in America\, 215 Centre St\, New York\, NY 10013
-DESCRIPTION:🗣️ 美国华人博物馆 × Accent Sisters 方言角!\n闽
- 南语、客家话、潮州话一起聊\,带爸妈一起来找回乡音~
- 费用报名以官网为准。\n费用:以官网为准\nhttps://www.mocany
- c.org/calendar/
+DESCRIPTION:🚶 跟着美国华人博物馆的导览走一圈华埠\,听
+ 老街巷背后的移民故事。走完正好去吃午饭🥟\n费用:以
+ 官网为准\nhttps://www.mocanyc.org/calendar/
 URL:https://www.mocanyc.org/calendar/
 END:VEVENT
 BEGIN:VEVENT
+UID:moca-yu-rong-2026-11-21@noboringweekends
+DTSTAMP:20261117T000000Z
+DTSTART:20261121T190000Z
+DTEND:20261121T210000Z
+SUMMARY:MOCACREATE:「用心写作」亲子创作工作坊
+LOCATION:Museum of Chinese in America\, 215 Centre St\, New York\, NY 10013
+DESCRIPTION:✂️ 美国华人博物馆的创作工作坊\,由教学艺术
+ 家 Yu Rong 带领\,和孩子一起写写画画~\n费用:以官网为准\n
+ https://www.mocanyc.org/calendar/
+URL:https://www.mocanyc.org/calendar/
+END:VEVENT
+BEGIN:VEVENT
+UID:ci-zhou-guoping-2026-11-21@noboringweekends
+DTSTAMP:20261117T000000Z
+DTSTART:20261121T210000Z
+DTEND:20261121T223000Z
+SUMMARY:华美协进社:对话周国平
+LOCATION:China Institute\, 40 Rector St\, New York\, NY 10006
+DESCRIPTION:📚 和作家、哲学学者周国平面对面聊人生和读
+ 书。喜欢他书的朋友不要错过~\n费用:以官网为准\nhttps://
+ chinainstitute.org/upcoming-events/
+URL:https://chinainstitute.org/upcoming-events/
+END:VEVENT
+BEGIN:VEVENT
+UID:moca-mahjong-2026-12-02@noboringweekends
+DTSTAMP:20261117T000000Z
+DTSTART:20261202T230000Z
+DTEND:20261203T020000Z
+SUMMARY:MOCA 节日麻将之夜
+LOCATION:Museum of Chinese in America\, 215 Centre St\, New York\, NY 10013
+DESCRIPTION:🀄 美国华人博物馆的节日麻将夜\,约上朋友去
+ 搓几圈~\n费用:以官网为准\nhttps://www.mocanyc.org/calendar/
+URL:https://www.mocanyc.org/calendar/
+END:VEVENT
+BEGIN:VEVENT
+UID:moca-chinatown-walk-dec-2026-12-05@noboringweekends
+DTSTAMP:20261117T000000Z
+DTSTART:20261205T163000Z
+DTEND:20261205T180000Z
+SUMMARY:MOCA 华埠历史徒步导览(12 月)
+LOCATION:Museum of Chinese in America\, 215 Centre St\, New York\, NY 10013
+DESCRIPTION:🚶 华埠历史导览 12 月场\,需预约。\n费用:以官
+ 网为准\nhttps://www.mocanyc.org/calendar/
+URL:https://www.mocanyc.org/calendar/
+END:VEVENT
+BEGIN:VEVENT
+UID:ci-chinese-tea-2026-12-05@noboringweekends
+DTSTAMP:20261117T000000Z
+DTSTART:20261205T190000Z
+DTEND:20261205T210000Z
+SUMMARY:华美协进社:中国茶的艺术
+LOCATION:China Institute\, 40 Rector St\, New York\, NY 10006
+DESCRIPTION:🍵 从古代茶道到现代生活\,边品边聊中国茶。\n
+ 费用:以官网为准\nhttps://chinainstitute.org/upcoming-events/
+URL:https://chinainstitute.org/upcoming-events/
+END:VEVENT
+BEGIN:VEVENT
+UID:ci-ancient-ensemble-2026-12-19@noboringweekends
+DTSTAMP:20261117T000000Z
+DTSTART:20261219T200000Z
+DTEND:20261219T230000Z
+SUMMARY:华美协进社:古乐雅集音乐会
+LOCATION:China Institute\, 40 Rector St\, New York\, NY 10006
+DESCRIPTION:🎶 中国古典雅乐演出\,圣诞前的一场中式音乐
+ 会。\n费用:以官网为准\nhttps://chinainstitute.org/upcoming-events
+ /
+URL:https://chinainstitute.org/upcoming-events/
+END:VEVENT
+BEGIN:VEVENT
 UID:asia-society-dansaekhwa-2026-11-17@noboringweekends
-DTSTAMP:20261113T000000Z
+DTSTAMP:20261117T000000Z
 DTSTART:20261117T233000Z
 DTEND:20261118T003000Z
 SUMMARY:亚洲协会:韩国单色画讲座
@@ -33,7 +114,7 @@ URL:https://asiasociety.org/new-york
 END:VEVENT
 BEGIN:VEVENT
 UID:asia-society-70-2026-11-19@noboringweekends
-DTSTAMP:20261113T000000Z
+DTSTAMP:20261117T000000Z
 DTSTART:20261120T000000Z
 DTEND:20261120T040000Z
 SUMMARY:亚洲协会 70 周年夜场:灯光节
@@ -43,96 +124,32 @@ DESCRIPTION:🏮 亚洲协会 70 周年夜间派对\,灯光主题!票务以
 URL:https://asiasociety.org/new-york
 END:VEVENT
 BEGIN:VEVENT
-UID:transit-train-show-2026-11-13@noboringweekends
-DTSTAMP:20261113T000000Z
-DTSTART;VALUE=DATE:20261113
-DTEND;VALUE=DATE:20261114
-SUMMARY:纽约交通博物馆假日火车展(开幕)
-LOCATION:Grand Central Terminal\, 89 E 42nd St\, New York\, NY 10017
-DESCRIPTION:🚂 第 22 届中央车站假日火车展 11/13 开幕!\n小
- 火车绕着纽约微缩景观跑\,免费\,娃看了不肯走~\n费用:免
- 费\nhttps://www.hola.com/us/entertainment/20261104933167/nyc-november-202
- 6-bucket-list-kids/
-URL:https://www.hola.com/us/entertainment/20261104933167/nyc-november-2026-
- bucket-list-kids/
+UID:asia-soc-jung-chang-2026-11-20@noboringweekends
+DTSTAMP:20261117T000000Z
+DTSTART:20261120T233000Z
+DTEND:20261121T010000Z
+SUMMARY:亚洲协会:张戎谈新回忆录
+LOCATION:Asia Society\, 725 Park Ave\, New York\, NY 10021
+DESCRIPTION:📖《鸿》的作者张戎谈她的新回忆录\,票务以官
+ 网为准。\n费用:以官网为准\nhttps://asiasociety.org/new-york/eve
+ nts
+URL:https://asiasociety.org/new-york/events
 END:VEVENT
 BEGIN:VEVENT
-UID:ps1-free-2026-11-14@noboringweekends
-DTSTAMP:20261113T000000Z
-DTSTART:20261114T150000Z
-DTEND:20261114T230000Z
-SUMMARY:MoMA PS1 免费周六
-LOCATION:MoMA PS1\, 22-25 Jackson Ave\, Long Island City\, NY 11101
-DESCRIPTION:🖼️ 当代艺术馆周六免费\,10 点到 6 点~\n费用:
- 免费\nhttps://missnycdeals.substack.com/p/november-2026-one-free-thing-t
- o-do
-URL:https://missnycdeals.substack.com/p/november-2026-one-free-thing-to-do
-END:VEVENT
-BEGIN:VEVENT
-UID:queens-theatre-beatles-2026-11-14@noboringweekends
-DTSTAMP:20261113T000000Z
-DTSTART:20261114T180000Z
-DTEND:20261114T200000Z
-SUMMARY:皇后剧院儿童音乐会:披头士
-LOCATION:Queens Theatre\, 14 United Nations Ave S\, Flushing Meadows\, NY 1
- 1368
-DESCRIPTION:🎸 8 岁以下小朋友的披头士音乐会\,就在法拉盛
- 草原公园~\n费用:以官网为准\nhttps://nyckidsweek.com/
-URL:https://nyckidsweek.com/
-END:VEVENT
-BEGIN:VEVENT
-UID:elf-experience-2026-11-14@noboringweekends
-DTSTAMP:20261113T000000Z
-DTSTART;VALUE=DATE:20261114
-DTEND;VALUE=DATE:20261115
-SUMMARY:洛克菲勒中心 Elf Experience(开幕)
-LOCATION:Rockefeller Center\, 45 Rockefeller Plaza\, New York\, NY 10111
-DESCRIPTION:🎄 走进《圣诞精灵》的北极:圣诞老人工坊、糖
- 果拐杖森林!\n11/14 开幕\,票务以官网为准。\n费用:以官网
- 为准\nhttps://www.newyorkfamily.com/fun-family-pop-ups-nyc-november/
-URL:https://www.newyorkfamily.com/fun-family-pop-ups-nyc-november/
-END:VEVENT
-BEGIN:VEVENT
-UID:momi-harry-sally-2026-11-14@noboringweekends
-DTSTAMP:20261113T000000Z
-DTSTART;VALUE=DATE:20261114
-DTEND;VALUE=DATE:20261115
-SUMMARY:移动影像博物馆《当哈利遇到莎莉》红酒奶酪场
-LOCATION:Museum of the Moving Image\, 36-01 35th Ave\, Astoria\, NY 11106
-DESCRIPTION:🧀🍷 经典爱情片+红酒奶酪\,约会好去处。\n费
- 用:以官网为准\nhttps://www.timeout.com/newyork/things-to-do/things-t
- o-do-in-nyc-this-weekend
-URL:https://www.timeout.com/newyork/things-to-do/things-to-do-in-nyc-this-w
- eekend
-END:VEVENT
-BEGIN:VEVENT
-UID:bagelfest-2026-11-15@noboringweekends
-DTSTAMP:20261113T000000Z
-DTSTART;VALUE=DATE:20261115
-DTEND;VALUE=DATE:20261116
-SUMMARY:纽约贝果节
-LOCATION:Citi Field\, 41 Seaver Way\, Queens\, NY 11368
-DESCRIPTION:🥯 25+ 家贝果店齐聚花旗球场\,免费入场\,狗狗
- 也欢迎!离法拉盛很近~\n费用:免费\nhttps://www.timeout.com/newy
- ork/things-to-do/things-to-do-in-nyc-this-weekend
-URL:https://www.timeout.com/newyork/things-to-do/things-to-do-in-nyc-this-w
- eekend
-END:VEVENT
-BEGIN:VEVENT
-UID:vessel-lighting-2026-11-16@noboringweekends
-DTSTAMP:20261113T000000Z
-DTSTART:20261116T230000Z
-DTEND:20261117T000000Z
-SUMMARY:Hudson Yards Vessel 节日点灯
-LOCATION:Hudson Yards\, 20 Hudson Yards\, New York\, NY 10001
-DESCRIPTION:✨ Anthony Ramos 献唱+鼓队表演\,Vessel 点亮节日灯!
- 免费\,下班直接去~\n费用:免费\nhttps://www.timessquarenyc.org/ev
- ents
-URL:https://www.timessquarenyc.org/events
+UID:rabbit-god-2026-11-20@noboringweekends
+DTSTAMP:20261117T000000Z
+DTSTART;VALUE=DATE:20261120
+DTEND;VALUE=DATE:20261121
+SUMMARY:华人奇幻音乐剧《Rabbit God》(到 11/22)
+LOCATION:Culture Lab LIC\, 5-25 46th Ave\, Long Island City\, NY 11101
+DESCRIPTION:🐰 取材自兔儿神传说的华人题材演出\,11/19–22\
+ ,场次以官网为准。\n费用:以官网为准\nhttps://www.aaartsallia
+ nce.org/events
+URL:https://www.aaartsalliance.org/events
 END:VEVENT
 BEGIN:VEVENT
 UID:harlem-lights-2026-11-17@noboringweekends
-DTSTAMP:20261113T000000Z
+DTSTAMP:20261117T000000Z
 DTSTART:20261117T230000Z
 DTEND:20261118T010000Z
 SUMMARY:哈林区节日灯光游行
@@ -140,5 +157,72 @@ LOCATION:125th Street\, Broadway & W 125th St\, New York\, NY 10027
 DESCRIPTION:🎄 从 125 街百老汇出发的免费节日游行\,晚 6 点
  ~\n费用:免费\nhttps://www.timessquarenyc.org/events
 URL:https://www.timessquarenyc.org/events
+END:VEVENT
+BEGIN:VEVENT
+UID:bryant-pillow-fort-2026-11-22@noboringweekends
+DTSTAMP:20261117T000000Z
+DTSTART:20261122T150000Z
+DTEND:20261122T230000Z
+SUMMARY:布莱恩特公园枕头城堡
+LOCATION:Winter Village at Bryant Park\, Bryant Park\, New York\, NY 10018
+DESCRIPTION:🏰 冬季村里的巨型枕头城堡\,溜完冰来这里放
+ 电~\n费用:以官网为准\nhttps://mommypoppins.com/new-york-city-kids/
+ weekend-events/things-to-do-in-new-york-city-this-weekend-kids-families
+URL:https://mommypoppins.com/new-york-city-kids/weekend-events/things-to-do
+ -in-new-york-city-this-weekend-kids-families
+END:VEVENT
+BEGIN:VEVENT
+UID:bk-childrens-book-fair-2026-11-22@noboringweekends
+DTSTAMP:20261117T000000Z
+DTSTART:20261122T160000Z
+DTEND:20261122T203000Z
+SUMMARY:布鲁克林博物馆儿童书展
+LOCATION:Brooklyn Museum Plaza\, 200 Eastern Pkwy\, Brooklyn\, NY 11238
+DESCRIPTION:📚 布鲁克林博物馆前的儿童书展\,挑绘本、听
+ 故事\,逛完进博物馆~\n费用:以官网为准\nhttps://mommypoppins.
+ com/new-york-city-kids/weekend-events/things-to-do-in-new-york-city-this-w
+ eekend-kids-families
+URL:https://mommypoppins.com/new-york-city-kids/weekend-events/things-to-do
+ -in-new-york-city-this-weekend-kids-families
+END:VEVENT
+BEGIN:VEVENT
+UID:wqxr-classical-kids-2026-11-22@noboringweekends
+DTSTAMP:20261117T000000Z
+DTSTART:20261122T170000Z
+DTEND:20261122T210000Z
+SUMMARY:WQXR 古典音乐儿童节
+LOCATION:Queens Theatre\, 14 United Nations Ave S\, Corona\, NY 11368
+DESCRIPTION:🎻 古典音乐电台办的儿童音乐节\,就在法拉盛
+ 草原公园的皇后剧院~\n费用:以官网为准\nhttps://mommypoppins
+ .com/new-york-city-kids/weekend-events/things-to-do-in-new-york-city-this-
+ weekend-kids-families
+URL:https://mommypoppins.com/new-york-city-kids/weekend-events/things-to-do
+ -in-new-york-city-this-weekend-kids-families
+END:VEVENT
+BEGIN:VEVENT
+UID:macys-parade-100-2026-11-26@noboringweekends
+DTSTAMP:20261117T000000Z
+DTSTART:20261126T133000Z
+DTEND:20261126T170000Z
+SUMMARY:第 100 届梅西感恩节大游行
+LOCATION:Central Park West → Herald Square\, W 77th St & Central Park Wes
+ t to Herald Square\, New York\, NY
+DESCRIPTION:🎈 百年一遇的第 100 届!巨型气球从中央公园西
+ 边出发\,沿 59 街和第六大道一路到先驱广场。\n费用:免
+ 费\nhttps://freetoursbyfoot.com/macys-thanksgiving-day-parade-route/
+URL:https://freetoursbyfoot.com/macys-thanksgiving-day-parade-route/
+END:VEVENT
+BEGIN:VEVENT
+UID:seaport-tree-lighting-2026-12-01@noboringweekends
+DTSTAMP:20261117T000000Z
+DTSTART;VALUE=DATE:20261201
+DTEND;VALUE=DATE:20261202
+SUMMARY:南街海港圣诞树点灯
+LOCATION:South Street Seaport\, South Street Seaport\, New York\, NY 10038
+DESCRIPTION:🎄 海港老街圣诞树点灯\,时间以官网为准。\n费
+ 用:免费\nhttps://resident.com/new-york/2026/10/28/nycs-holiday-season-b
+ egins-with-these-15-things-to-do-in-november-2026
+URL:https://resident.com/new-york/2026/10/28/nycs-holiday-season-begins-wit
+ h-these-15-things-to-do-in-november-2026
 END:VEVENT
 END:VCALENDAR
