@@ -16,7 +16,7 @@ Set the public site URL in `tools/site.json` (or the `SITE_URL` environment vari
 
 ## 小红书出图
 Open `/xhs.html` on the live site (not linked from the main page). Pick a city to get 3:4 carousel images (1080×1440: cover, event cards, closing page) plus a copy-ready title, caption and hashtags. "保存全部图片" uses the phone share sheet when available, otherwise downloads each PNG.
-The "内容" menu switches between this weekend's events, the seasonal guide (`seasonal.json`, exhibitions left out) and 提前订票 (seasonal items and this week's events that need tickets and have `tips_zh`); `nyc+nj` and `la+oc` combine two cities into one carousel. To render without a browser: `NODE_PATH=$(npm root -g) node tools/render_xhs.js <out-dir> "city=nyc+nj" "city=nyc+nj&mode=season"` writes the PNGs and a `caption.txt` (title on the first line) per carousel.
+The "内容" menu switches between this weekend's events, the seasonal guide (`seasonal.json`, exhibitions left out) and 提前订票 (seasonal items and this week's events that need tickets and have `tips_zh`); `nyc+nj` and `la+oc` combine two cities into one carousel. To render without a browser: `NODE_PATH=$(npm root -g) node tools/render_xhs.js <out-dir> "city=nyc+nj" "city=nyc+nj&mode=season"` writes the PNGs and a `caption.txt` (title on the first line) per carousel. For a single long-form post (长文) instead of a carousel, so nothing depends on image order: `python3 tools/xhs_article.py <out-file> nyc+nj` writes the title and a day-by-day article (time, cost, place, ✨ moment, 📝 tips) to paste into the 长文 editor.
 Landmark silhouettes live in `docs/sky.js` and are shared by both pages.
 
 ## App (PWA)
