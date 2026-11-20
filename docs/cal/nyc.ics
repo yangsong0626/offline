@@ -9,7 +9,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:ci-mandarin-meetup-2026-11-20@noboringweekends
-DTSTAMP:20261117T000000Z
+DTSTAMP:20261120T000000Z
 DTSTART:20261120T230000Z
 DTEND:20261121T010000Z
 SUMMARY:华美协进社:书法、音乐和中文聚会
@@ -22,7 +22,7 @@ URL:https://chinainstitute.org/upcoming-events/
 END:VEVENT
 BEGIN:VEVENT
 UID:moca-chinatown-walk-2026-11-21@noboringweekends
-DTSTAMP:20261117T000000Z
+DTSTAMP:20261120T000000Z
 DTSTART:20261121T163000Z
 DTEND:20261121T180000Z
 SUMMARY:MOCA 华埠历史徒步导览
@@ -34,7 +34,7 @@ URL:https://www.mocanyc.org/calendar/
 END:VEVENT
 BEGIN:VEVENT
 UID:moca-yu-rong-2026-11-21@noboringweekends
-DTSTAMP:20261117T000000Z
+DTSTAMP:20261120T000000Z
 DTSTART:20261121T190000Z
 DTEND:20261121T210000Z
 SUMMARY:MOCACREATE:「用心写作」亲子创作工作坊
@@ -46,7 +46,7 @@ URL:https://www.mocanyc.org/calendar/
 END:VEVENT
 BEGIN:VEVENT
 UID:ci-zhou-guoping-2026-11-21@noboringweekends
-DTSTAMP:20261117T000000Z
+DTSTAMP:20261120T000000Z
 DTSTART:20261121T210000Z
 DTEND:20261121T223000Z
 SUMMARY:华美协进社:对话周国平
@@ -58,7 +58,7 @@ URL:https://chinainstitute.org/upcoming-events/
 END:VEVENT
 BEGIN:VEVENT
 UID:moca-mahjong-2026-12-02@noboringweekends
-DTSTAMP:20261117T000000Z
+DTSTAMP:20261120T000000Z
 DTSTART:20261202T230000Z
 DTEND:20261203T020000Z
 SUMMARY:MOCA 节日麻将之夜
@@ -69,7 +69,7 @@ URL:https://www.mocanyc.org/calendar/
 END:VEVENT
 BEGIN:VEVENT
 UID:moca-chinatown-walk-dec-2026-12-05@noboringweekends
-DTSTAMP:20261117T000000Z
+DTSTAMP:20261120T000000Z
 DTSTART:20261205T163000Z
 DTEND:20261205T180000Z
 SUMMARY:MOCA 华埠历史徒步导览(12 月)
@@ -80,7 +80,7 @@ URL:https://www.mocanyc.org/calendar/
 END:VEVENT
 BEGIN:VEVENT
 UID:ci-chinese-tea-2026-12-05@noboringweekends
-DTSTAMP:20261117T000000Z
+DTSTAMP:20261120T000000Z
 DTSTART:20261205T190000Z
 DTEND:20261205T210000Z
 SUMMARY:华美协进社:中国茶的艺术
@@ -91,7 +91,7 @@ URL:https://chinainstitute.org/upcoming-events/
 END:VEVENT
 BEGIN:VEVENT
 UID:ci-ancient-ensemble-2026-12-19@noboringweekends
-DTSTAMP:20261117T000000Z
+DTSTAMP:20261120T000000Z
 DTSTART:20261219T200000Z
 DTEND:20261219T230000Z
 SUMMARY:华美协进社:古乐雅集音乐会
@@ -103,7 +103,7 @@ URL:https://chinainstitute.org/upcoming-events/
 END:VEVENT
 BEGIN:VEVENT
 UID:asia-society-dansaekhwa-2026-11-17@noboringweekends
-DTSTAMP:20261117T000000Z
+DTSTAMP:20261120T000000Z
 DTSTART:20261117T233000Z
 DTEND:20261118T003000Z
 SUMMARY:亚洲协会:韩国单色画讲座
@@ -114,7 +114,7 @@ URL:https://asiasociety.org/new-york
 END:VEVENT
 BEGIN:VEVENT
 UID:asia-society-70-2026-11-19@noboringweekends
-DTSTAMP:20261117T000000Z
+DTSTAMP:20261120T000000Z
 DTSTART:20261120T000000Z
 DTEND:20261120T040000Z
 SUMMARY:亚洲协会 70 周年夜场:灯光节
@@ -125,7 +125,7 @@ URL:https://asiasociety.org/new-york
 END:VEVENT
 BEGIN:VEVENT
 UID:asia-soc-jung-chang-2026-11-20@noboringweekends
-DTSTAMP:20261117T000000Z
+DTSTAMP:20261120T000000Z
 DTSTART:20261120T233000Z
 DTEND:20261121T010000Z
 SUMMARY:亚洲协会:张戎谈新回忆录
@@ -137,7 +137,7 @@ URL:https://asiasociety.org/new-york/events
 END:VEVENT
 BEGIN:VEVENT
 UID:rabbit-god-2026-11-20@noboringweekends
-DTSTAMP:20261117T000000Z
+DTSTAMP:20261120T000000Z
 DTSTART;VALUE=DATE:20261120
 DTEND;VALUE=DATE:20261121
 SUMMARY:华人奇幻音乐剧《Rabbit God》(到 11/22)
@@ -149,7 +149,7 @@ URL:https://www.aaartsalliance.org/events
 END:VEVENT
 BEGIN:VEVENT
 UID:harlem-lights-2026-11-17@noboringweekends
-DTSTAMP:20261117T000000Z
+DTSTAMP:20261120T000000Z
 DTSTART:20261117T230000Z
 DTEND:20261118T010000Z
 SUMMARY:哈林区节日灯光游行
@@ -159,8 +159,62 @@ DESCRIPTION:🎄 从 125 街百老汇出发的免费节日游行\,晚 6 点
 URL:https://www.timessquarenyc.org/events
 END:VEVENT
 BEGIN:VEVENT
+UID:gct-toybox-2026-11-20@noboringweekends
+DTSTAMP:20261120T000000Z
+DTSTART;VALUE=DATE:20261120
+DTEND;VALUE=DATE:20261121
+SUMMARY:中央车站 3D 打印玩具快闪(到 11/21)
+LOCATION:Grand Central Terminal\, 89 E 42nd St\, New York\, NY 10017
+DESCRIPTION:🖨️ 现场看 3D 打印机把玩具一点点打出来\,免
+ 费\,开到 11/21。\n费用:免费\nhttps://www.clubfreetime.com/new-york
+ -city-nyc/free-events-things-to-do/this-weekend
+URL:https://www.clubfreetime.com/new-york-city-nyc/free-events-things-to-do
+ /this-weekend
+END:VEVENT
+BEGIN:VEVENT
+UID:seth-low-scavenger-2026-11-21@noboringweekends
+DTSTAMP:20261120T000000Z
+DTSTART:20261121T160000Z
+DTEND:20261121T170000Z
+SUMMARY:Seth Low 游乐场自然寻宝(免费)
+LOCATION:Seth Low Playground\, Bay Pkwy & W 12th St\, Brooklyn\, NY 11204
+DESCRIPTION:🔍 跟着线索在公园里找宝藏\,NYC Parks 免费活动\
+ ,离 18 大道华人区很近。\n费用:免费\nhttps://mommypoppins.com/
+ newyorkcitykids/new-york-city-kids-free-weekend-events-for-november-21-22-
+ free-cheap-art-events-icky
+URL:https://mommypoppins.com/newyorkcitykids/new-york-city-kids-free-weeken
+ d-events-for-november-21-22-free-cheap-art-events-icky
+END:VEVENT
+BEGIN:VEVENT
+UID:lost-battalion-print-2026-11-21@noboringweekends
+DTSTAMP:20261120T000000Z
+DTSTART:20261121T160000Z
+DTEND:20261121T180000Z
+SUMMARY:Rego Park 版画工作坊(免费)
+LOCATION:Lost Battalion Hall Recreation Center\, 93-29 Queens Blvd\, Rego P
+ ark\, NY 11374
+DESCRIPTION:🎨 用泡沫板刻版、套色印刷\,免费\,适合大孩子
+ 。\n费用:免费\nhttps://mommypoppins.com/newyorkcitykids/new-york-city
+ -kids-free-weekend-events-for-november-21-22-free-cheap-art-events-icky
+URL:https://mommypoppins.com/newyorkcitykids/new-york-city-kids-free-weeken
+ d-events-for-november-21-22-free-cheap-art-events-icky
+END:VEVENT
+BEGIN:VEVENT
+UID:tamagotchi-ts-2026-11-22@noboringweekends
+DTSTAMP:20261120T000000Z
+DTSTART:20261122T140000Z
+DTEND:20261123T003000Z
+SUMMARY:时代广场拓麻歌子嘉年华(免费)
+LOCATION:Times Square\, Times Square\, New York\, NY 10036
+DESCRIPTION:🥚 电子宠物拓麻歌子免费嘉年华:互动游戏、拍
+ 照点\,大人小孩都有童年回忆~\n费用:免费\nhttps://www.clubfr
+ eetime.com/new-york-city-nyc/free-events-things-to-do/this-weekend
+URL:https://www.clubfreetime.com/new-york-city-nyc/free-events-things-to-do
+ /this-weekend
+END:VEVENT
+BEGIN:VEVENT
 UID:bryant-pillow-fort-2026-11-22@noboringweekends
-DTSTAMP:20261117T000000Z
+DTSTAMP:20261120T000000Z
 DTSTART:20261122T150000Z
 DTEND:20261122T230000Z
 SUMMARY:布莱恩特公园枕头城堡
@@ -173,35 +227,35 @@ URL:https://mommypoppins.com/new-york-city-kids/weekend-events/things-to-do
 END:VEVENT
 BEGIN:VEVENT
 UID:bk-childrens-book-fair-2026-11-22@noboringweekends
-DTSTAMP:20261117T000000Z
+DTSTAMP:20261120T000000Z
 DTSTART:20261122T160000Z
 DTEND:20261122T203000Z
 SUMMARY:布鲁克林博物馆儿童书展
 LOCATION:Brooklyn Museum Plaza\, 200 Eastern Pkwy\, Brooklyn\, NY 11238
 DESCRIPTION:📚 布鲁克林博物馆前的儿童书展\,挑绘本、听
- 故事\,逛完进博物馆~\n费用:以官网为准\nhttps://mommypoppins.
- com/new-york-city-kids/weekend-events/things-to-do-in-new-york-city-this-w
- eekend-kids-families
+ 故事\,逛完进博物馆~\n费用:免费\nhttps://mommypoppins.com/new-y
+ ork-city-kids/weekend-events/things-to-do-in-new-york-city-this-weekend-ki
+ ds-families
 URL:https://mommypoppins.com/new-york-city-kids/weekend-events/things-to-do
  -in-new-york-city-this-weekend-kids-families
 END:VEVENT
 BEGIN:VEVENT
 UID:wqxr-classical-kids-2026-11-22@noboringweekends
-DTSTAMP:20261117T000000Z
+DTSTAMP:20261120T000000Z
 DTSTART:20261122T170000Z
 DTEND:20261122T210000Z
 SUMMARY:WQXR 古典音乐儿童节
 LOCATION:Queens Theatre\, 14 United Nations Ave S\, Corona\, NY 11368
 DESCRIPTION:🎻 古典音乐电台办的儿童音乐节\,就在法拉盛
- 草原公园的皇后剧院~\n费用:以官网为准\nhttps://mommypoppins
- .com/new-york-city-kids/weekend-events/things-to-do-in-new-york-city-this-
- weekend-kids-families
+ 草原公园的皇后剧院~\n费用:免费\nhttps://mommypoppins.com/new-
+ york-city-kids/weekend-events/things-to-do-in-new-york-city-this-weekend-k
+ ids-families
 URL:https://mommypoppins.com/new-york-city-kids/weekend-events/things-to-do
  -in-new-york-city-this-weekend-kids-families
 END:VEVENT
 BEGIN:VEVENT
 UID:macys-parade-100-2026-11-26@noboringweekends
-DTSTAMP:20261117T000000Z
+DTSTAMP:20261120T000000Z
 DTSTART:20261126T133000Z
 DTEND:20261126T170000Z
 SUMMARY:第 100 届梅西感恩节大游行
@@ -214,7 +268,7 @@ URL:https://freetoursbyfoot.com/macys-thanksgiving-day-parade-route/
 END:VEVENT
 BEGIN:VEVENT
 UID:seaport-tree-lighting-2026-12-01@noboringweekends
-DTSTAMP:20261117T000000Z
+DTSTAMP:20261120T000000Z
 DTSTART;VALUE=DATE:20261201
 DTEND;VALUE=DATE:20261202
 SUMMARY:南街海港圣诞树点灯
