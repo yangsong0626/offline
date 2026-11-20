@@ -1,5 +1,6 @@
-"""Pull public-library events from BiblioCommons (gateway.bibliocommons.com) for the libraries in tools/sources.json
-("libraries": city -> [{name, slug, branches?}]). Library programs are free, small and mostly missing from weekend
+"""Pull public-library events for the libraries in tools/sources.json ("libraries": city -> [...]) from the two
+calendar platforms most of them use: BiblioCommons ({name, slug, branches?}, via gateway.bibliocommons.com) and
+Communico ({name, platform: "communico", host}, via the host's eeventcaldata JSON). Library programs are free, small and mostly missing from weekend
 roundups, so they need their own feed. Writes one JSON object per event to <out>/library_events.jsonl and prints a
 per-library count, flagging programs in Chinese (lang) so they can be tiered A.
 Usage: python3 tools/fetch_libraries.py <out-dir> [START YYYY-MM-DD] [DAYS] [city ...]   (defaults: today, 21 days)
@@ -18,7 +19,29 @@ def get_json(url):
 
 def plain(s): return re.sub(r"\s+", " ", html.unescape(re.sub(r"<[^>]+>", " ", s or ""))).strip()
 
+def pull_communico(lib, a, days):
+    req = json.dumps({"private": False, "date": a, "days": days, "locations": [], "ages": [], "types": []})
+    r = subprocess.run(["curl", "-s", "-G", "--max-time", "40", f"https://{lib['host']}/eeventcaldata",
+                        "--data-urlencode", "event_type=0", "--data-urlencode", f"req={req}"], capture_output=True)
+    try: rows = json.loads(r.stdout)
+    except ValueError: return [], False
+    out = []
+    for e in rows if isinstance(rows, list) else []:
+        title = (e.get("title") or "").strip()
+        if not title or "cancel" in title.lower() or e.get("changed_reason") or e.get("private_event") == "1": continue
+        desc = plain(e.get("long_description") or e.get("description"))
+        tags = e.get("tagsArray") or []
+        out.append({"library": lib["name"], "title": title, "start": (e.get("raw_start_time") or "")[:16].replace(" ", "T"),
+                    "end": (e.get("raw_end_time") or "")[:16].replace(" ", "T"), "branch": e.get("location") or "",
+                    "room": e.get("venues") or "", "audiences": e.get("agesArray") or [], "types": tags, "languages": [],
+                    "chinese": bool(CHINESE.search(" ".join([title, desc] + tags))),
+                    "signup": e.get("allow_reg") == "1" or e.get("third_party_reg") == "1",
+                    "url": e.get("url") or f"https://{lib['host']}/event/{e.get('id')}", "desc": desc[:400]})
+    return out, True
+
 def pull(lib, a, b):
+    if lib.get("platform") == "communico":
+        return pull_communico(lib, a, (date.fromisoformat(b) - date.fromisoformat(a)).days)
     out, page = [], 1
     while True:
         d = get_json(API.format(slug=lib["slug"], a=a, b=b, p=page))

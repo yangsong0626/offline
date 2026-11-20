@@ -1062,6 +1062,35 @@
     "name": "Richmond Public Library (BC)",
     "slug": "yourlibrary"
    }
+  ],
+  "nyc": [
+   {
+    "name": "Queens Public Library",
+    "platform": "communico",
+    "host": "connect.queenslibrary.org"
+   }
+  ],
+  "nj": [
+   {
+    "name": "Edison Public Library",
+    "platform": "communico",
+    "host": "edisonpubliclibrary.libnet.info"
+   },
+   {
+    "name": "Princeton Public Library",
+    "platform": "communico",
+    "host": "princetonlibrary.libnet.info"
+   },
+   {
+    "name": "Somerset County Library System (Bridgewater etc.)",
+    "platform": "communico",
+    "host": "sclsnj.libnet.info"
+   },
+   {
+    "name": "Franklin Township Public Library",
+    "platform": "communico",
+    "host": "franklintwp.libnet.info"
+   }
   ]
  }
 }
