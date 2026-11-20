@@ -215,6 +215,7 @@ button.link{border:0;background:none;padding:0;cursor:pointer;font:inherit;font-
   <details class="subcal" id="subcal"></details>
   <section class="deals" id="deals" hidden></section>
   <section class="deals" id="seasonal" hidden></section>
+  <section class="deals" id="library" hidden></section>
   <div class="list" id="list"><article class="card" id="e-katseye"><div class="when"><span class="d">11/17</span><span class="w">Tue</span><span class="t">See site</span></div><div class="body"><h3>KATSEYE</h3><p class="where">Climate Pledge Arena · 334 1st Ave N, Seattle, WA 98109</p><div class="meta"><span>See website</span><span>Ages All ages</span></div><p class="desc">Global girl group KATSEYE live.</p><div class="actions"><a class="link" href="https://everout.com/seattle/top-events/" rel="noopener">Event site ↗</a></div></div></article><article class="card" id="e-butoh-fest"><div class="when"><span class="d">11/19</span><span class="w">Thu</span><span class="t">See site</span></div><div class="body"><h3>Seattle International Butoh Festival</h3><p class="where">Yaw Theater · Seattle, WA</p><div class="meta"><span>See website</span><span>Ages Adults</span></div><p class="desc">International festival of Japanese butoh dance.</p><div class="actions"><a class="link" href="https://everout.com/seattle/articles/the-best-things-to-do-in-seattle-this-month-november-2026/c6598/" rel="noopener">Event site ↗</a></div></div></article><article class="card" id="e-nordic-julefest"><div class="when"><span class="d">11/20</span><span class="w">Fri</span><span class="t">10:00<br>17:00</span></div><div class="body"><h3>Julefest at the National Nordic Museum</h3><p class="where">National Nordic Museum · 2655 NW Market St, Seattle, WA 98107</p><div class="meta"><span>Kids under 12 free</span><span>Ages All ages</span></div><p class="desc">Nordic holiday traditions, music and crafts, Nov 20–22.</p><div class="actions"><a class="link" href="https://www.seattleschild.com/family-holiday-fun-events/" rel="noopener">Event site ↗</a></div></div></article><article class="card" id="e-seattle-xmas-market"><div class="when"><span class="d">11/20</span><span class="w">Fri</span><span class="t">See site</span></div><div class="body"><h3>Seattle Christmas Market</h3><p class="where">Seattle Center · 305 Harrison St, Seattle, WA 98109</p><div class="meta"><span>From $6.99; 6 and under free</span><span>Ages All ages</span></div><p class="desc">Opens Nov 20 with a carousel and daily &#x27;snow&#x27;.</p><div class="actions"><a class="link" href="https://www.seattleschild.com/family-holiday-fun-events/" rel="noopener">Event site ↗</a></div></div></article><article class="card" id="e-wing-luke-holiday-market"><div class="when"><span class="d">11/21</span><span class="w">Sat</span><span class="t">11:00<br>16:00</span></div><div class="body"><h3>Wing Luke Museum Holiday Market</h3><p class="where">Wing Luke Museum · 719 S King St, Seattle, WA 98104</p><div class="meta"><span>Free</span><span>Ages All ages</span></div><p class="desc">Free holiday market of Asian and Pacific Islander artists.</p><div class="actions"><a class="link" href="https://www.seattleschild.com/free-kid-friendly-events-this-weekend-november-2026/" rel="noopener">Event site ↗</a></div></div></article></div>
 
   <footer class="foot" id="foot"></footer>
@@ -250,7 +251,7 @@ var T={
   foot1:"更新于 {u}。活动时间、价格和是否需要报名可能变动,出发前请以主办方官网为准。",
   foot2:"天气来自公开预报,仅供安排行程参考。",
   eventsFail:"活动数据加载失败,请刷新页面重试。",
-  docTitle:"{c}周末去哪儿 · 周末不无聊",dealsTitle:"💸 本周能用的免费 / 优惠({n})",dealsAny:"随时",dealsMore:"📖 {c}免费博物馆日 & 优惠全攻略 →",szTitle:"🎄 季节限定 · 本周开放({n})",szSoon:"{d} 开幕",szNew:"本周新开",szLast:"本周结束",szEnds:"{d} 结束",szUntil:"至 {d}",szMore:"📖 {c}{s}灯光、市集、溜冰全攻略 →",share:"💌 约人一起去",shared:"邀请已复制,粘贴到微信发给 TA 吧",invite:"{w}，一起去「{t}」吗？",today:"今天",tomorrow:"明天",thisWk:"这",nextWk:"下",
+  docTitle:"{c}周末去哪儿 · 周末不无聊",dealsTitle:"💸 本周能用的免费 / 优惠({n})",dealsAny:"随时",dealsMore:"📖 {c}免费博物馆日 & 优惠全攻略 →",szTitle:"🎄 季节限定 · 本周开放({n})",szSoon:"{d} 开幕",szNew:"本周新开",szLast:"本周结束",szEnds:"{d} 结束",szUntil:"至 {d}",szMore:"📖 {c}{s}灯光、市集、溜冰全攻略 →",libTitle:"📚 图书馆免费活动({n})",libZh:"中文",libKids:"亲子",libMore:"{n} 个分馆",libLater:"之后的中文活动",libNote:"图书馆活动都免费,每周从各图书馆官网自动更新;名额和时间以官网为准。",share:"💌 约人一起去",shared:"邀请已复制,粘贴到微信发给 TA 吧",invite:"{w}，一起去「{t}」吗？",today:"今天",tomorrow:"明天",thisWk:"这",nextWk:"下",
   subTitle:"📅 订阅{c}活动到日历(每周自动更新)",subApple:"Apple 日历 / Outlook",subGoogle:"Google 日历",subCopy:"复制订阅链接",subCopied:"订阅链接已复制",
   instTitle:"把「周末不无聊」装到手机上",instText:"像 App 一样从主屏幕打开,没网也能看。",instIos:"点 Safari 底部的分享按钮 ⬆️,再选「添加到主屏幕」。",instGo:"安装"},
  en:{eyebrow:"Updated every Friday",headline:"Where to go this weekend",why:"✨ The moment",tips:"📝 Tips",cityHead:"Things to Do in {c} This Weekend",citySub:"Family-friendly and grown-up events in {c} this weekend and next week: festivals, shows, food, outdoors, free days and Asian community events.",sub:"Weekend and weekday picks for families and grown-ups: festivals, shows, food, outdoors and Asian community events, in date order.",
@@ -269,7 +270,7 @@ var T={
   foot1:"Updated {u}. Times, prices and sign-up rules can change. Check the organizer's site before you go.",
   foot2:"Weather comes from public forecasts and is a planning aid only.",
   eventsFail:"Could not load events. Please refresh.",
-  docTitle:"Things to do in {c} this weekend · No Boring Weekends",dealsTitle:"💸 Free & discount days this week ({n})",dealsAny:"Any day",dealsMore:"📖 Free museum days & discounts in {c} →",szTitle:"🎄 Seasonal · open this week ({n})",szSoon:"Opens {d}",szNew:"New this week",szLast:"Last week",szEnds:"Ends {d}",szUntil:"To {d}",szMore:"📖 {c} {s} guide: lights, markets & skating →",share:"💌 Invite someone",shared:"Invite copied. Paste it into a message!",invite:"Want to go to {t} together {w}?",today:"today",tomorrow:"tomorrow",thisWk:"",nextWk:"",
+  docTitle:"Things to do in {c} this weekend · No Boring Weekends",dealsTitle:"💸 Free & discount days this week ({n})",dealsAny:"Any day",dealsMore:"📖 Free museum days & discounts in {c} →",szTitle:"🎄 Seasonal · open this week ({n})",szSoon:"Opens {d}",szNew:"New this week",szLast:"Last week",szEnds:"Ends {d}",szUntil:"To {d}",szMore:"📖 {c} {s} guide: lights, markets & skating →",libTitle:"📚 Free library events ({n})",libZh:"Chinese",libKids:"Kids",libMore:"{n} branches",libLater:"Later, in Chinese",libNote:"Library programs are free and refreshed weekly from each library's site; check spots and times there.",share:"💌 Invite someone",shared:"Invite copied. Paste it into a message!",invite:"Want to go to {t} together {w}?",today:"today",tomorrow:"tomorrow",thisWk:"",nextWk:"",
   subTitle:"📅 Subscribe to {c} events (updates weekly)",subApple:"Apple Calendar / Outlook",subGoogle:"Google Calendar",subCopy:"Copy feed link",subCopied:"Feed link copied",
   instTitle:"Get No Boring Weekends on your phone",instText:"Open it from your home screen like an app, even offline.",instIos:"Tap Safari's Share button ⬆️, then \"Add to Home Screen\".",instGo:"Install"}
 };
@@ -308,7 +309,7 @@ var ZIP3=[ // [from,to,city]
 var FSA={v:"van",m:"tor",l:"tor"}; // Canadian postal code first letter
 var TZ_DEFAULT={"America/New_York":"nyc","America/Detroit":"nyc","America/Chicago":"chi","America/Los_Angeles":"la","America/Denver":"chi","America/Phoenix":"la","America/Toronto":"tor","America/Vancouver":"van"};
 
-var S={deals:[],season:null,lang:"zh",city:"nyc",aud:"all",day:"all",asian:false,free:false,indoor:false,data:null,hint:["tz"]};
+var S={deals:[],season:null,lib:null,lang:"zh",city:"nyc",aud:"all",day:"all",asian:false,free:false,indoor:false,data:null,hint:["tz"]};
 var $=function(id){return document.getElementById(id)};
 function esc(s){return String(s==null?"":s).replace(/[&<>"']/g,function(c){return {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]})}
 function fmt(s,o){return s.replace(/\{(\w+)\}/g,function(_,k){return o[k]})}
@@ -494,6 +495,21 @@ function seasonHtml(){
      (x.tier==="A"?' <span class="badge A">'+esc(t("tierA"))+'</span>':x.tier==="B"?' <span class="badge B">'+esc(t("tierB"))+'</span>':'')+
      '<br><span class="who">'+esc([x.venue,x["hours_"+L]||x.hours_zh,cost].filter(function(v,i,a){return v&&(i<2||v!==a[1])&&!/^(以官网为准|See website)$/.test(v)}).join(" · "))+'</span></span></li>'}).join("")+'</ul>'+more+'</details>'
 }
+/* ---------- library programs (docs/library.json, built by tools/fetch_libraries.py + library_digest.py) ---------- */
+function libHtml(){
+  var all=S.lib&&S.lib.cities[S.city];if(!all||!all.length)return "";
+  var td=todayIn(S.data.cities[S.city].tz),end=winEnd(),xs=all.filter(function(x){return x.start.slice(0,10)>=td});
+  var now=xs.filter(function(x){return x.start.slice(0,10)<=end}),later=xs.filter(function(x){return x.start.slice(0,10)>end});
+  if(S.lang==="zh")now.sort(function(a,b){return (b.zh-a.zh)||a.start.localeCompare(b.start)});  /* same rule as the event list: Chinese first on zh pages */
+  if(!now.length&&!later.length)return "";
+  function row(x){var d=x.start.slice(0,10);
+    return '<li><span class="dd">'+esc(shortDate(d)+" "+WD[S.lang][dow(d)])+'</span><span><a href="'+esc(x.url)+'" target="_blank" rel="noopener">'+esc(x.title)+'</a>'+
+     (x.zh?' <span class="badge A">'+esc(t("libZh"))+'</span>':'')+(x.kids?' <span class="badge aud">'+esc(t("libKids"))+'</span>':'')+
+     '<br><span class="who">'+esc([timeLabel(x.start.slice(11,16)),x.branch+(x.n>1?" · "+fmt(t("libMore"),{n:x.n}):""),x.signup?t("signup"):""].filter(Boolean).join(" · "))+'</span></span></li>'}
+  return '<details id="lib-box"><summary><h3>'+esc(fmt(t("libTitle"),{n:now.length}))+'</h3></summary><ul>'+now.map(row).join("")+'</ul>'+
+   (later.length?'<p class="who" style="margin:10px 0 6px">'+esc(t("libLater"))+'</p><ul>'+later.map(row).join("")+'</ul>':'')+
+   '<p class="who" style="margin-top:8px">'+esc(t("libNote"))+'</p></details>'
+}
 function render(){
   document.documentElement.lang=S.lang==="zh"?"zh-CN":"en";
   $("lang-zh").setAttribute("aria-pressed",S.lang==="zh");$("lang-en").setAttribute("aria-pressed",S.lang==="en");
@@ -524,6 +540,7 @@ function render(){
    '<button type="button" data-subcopy="'+esc(feed.replace(/^webcal:/,"https:"))+'">'+esc(t("subCopy"))+'</button></div>';
   $("subcal").open=wasOpen;$("subcal").hidden=!all.length;
   var dOpen=$("deals-box")&&$("deals-box").open,dh=dealsHtml();$("deals").innerHTML=dh;$("deals").hidden=!dh;if(dOpen&&$("deals-box"))$("deals-box").open=true;
+  var lOpen=$("lib-box")&&$("lib-box").open,lh=libHtml();$("library").innerHTML=lh;$("library").hidden=!lh;if(lOpen&&$("lib-box"))$("lib-box").open=true;
   var sOpen=$("season-box")&&$("season-box").open,sh=seasonHtml();$("seasonal").innerHTML=sh;$("seasonal").hidden=!sh;if(sOpen&&$("season-box"))$("season-box").open=true;
   document.title=fmt(t("docTitle"),{c:cityName(S.city)});
   $("list").innerHTML=list.length?list.map(function(e){return card(e,c.tz)}).join(""):all.length?'<p class="empty">'+esc(t("empty"))+'</p>':'<p class="empty">'+esc(t("comingSoon"))+'</p>';
@@ -603,6 +620,7 @@ $("inst-x").onclick=function(){$("install").hidden=true;store("kids.installHidde
 if("serviceWorker" in navigator)window.addEventListener("load",function(){navigator.serviceWorker.register(new URL("sw.js",ROOT).href).catch(function(){})});
 setTimeout(showInstall,4000);
 
+fetch(new URL("library.json",ROOT).href,{cache:"no-cache"}).then(function(r){return r.ok?r.json():null}).then(function(d){S.lib=d;if(S.data)render()}).catch(function(){});
 fetch(new URL("seasonal.json",ROOT).href,{cache:"no-cache"}).then(function(r){return r.ok?r.json():null}).then(function(d){S.season=d;if(S.data)render()}).catch(function(){});
 fetch(new URL("deals.json",ROOT).href,{cache:"no-cache"}).then(function(r){return r.ok?r.json():{deals:[]}}).then(function(d){S.deals=d.deals||[];if(S.data)render()}).catch(function(){});
 fetch("events.json",{cache:"no-cache"}).then(function(r){if(!r.ok)throw 0;return r.json()}).then(function(d){

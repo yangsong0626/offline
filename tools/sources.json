@@ -1,5 +1,5 @@
 {
- "note": "Where to look each week. type: roundup (weekend lists), family, chinese (Chinese community), asian, museum, parks, music, holiday, news. The weekly update runs WebSearch with allowed_domains set to these domains, city by city; tools/sources.py prints the plan. \"urls\" are pages tools/fetch_sources.py reads directly (hosts on the environment allowlist); {mon} {fri} {sun} {sunmon} {year} fill in the coming weekend.",
+ "note": "Where to look each week. type: roundup (weekend lists), family, chinese (Chinese community), asian, museum, parks, music, holiday, news. The weekly update runs WebSearch with allowed_domains set to these domains, city by city; tools/sources.py prints the plan. \"urls\" are pages tools/fetch_sources.py reads directly (hosts on the environment allowlist); {mon} {fri} {sun} {sunmon} {year} fill in the coming weekend. \"libraries\" lists BiblioCommons library systems that tools/fetch_libraries.py pulls through gateway.bibliocommons.com.",
  "national": [
   {
    "name": "Mommy Poppins (city editions)",
@@ -152,6 +152,26 @@
     "urls": [
      "https://www.timeout.com/newyork/things-to-do/things-to-do-in-nyc-this-weekend"
     ]
+   },
+   {
+    "name": "Club Free Time (NYC free events)",
+    "domain": "clubfreetime.com",
+    "type": "free"
+   },
+   {
+    "name": "NYPL events",
+    "domain": "nypl.org",
+    "type": "library"
+   },
+   {
+    "name": "Queens Public Library events",
+    "domain": "queenslibrary.org",
+    "type": "library"
+   },
+   {
+    "name": "Brooklyn Public Library events",
+    "domain": "bklynlibrary.org",
+    "type": "library"
    }
   ],
   "nj": [
@@ -206,6 +226,11 @@
     "urls": [
      "https://mommypoppins.com/new-jersey-kids/weekend-events/things-to-do-in-new-jersey-this-weekend-kids-families"
     ]
+   },
+   {
+    "name": "NJ Kids Online free stuff",
+    "domain": "njkidsonline.com",
+    "type": "free"
    }
   ],
   "la": [
@@ -278,6 +303,11 @@
     "urls": [
      "https://www.timeout.com/los-angeles/things-to-do/things-to-do-in-la-this-weekend"
     ]
+   },
+   {
+    "name": "LA Public Library events",
+    "domain": "lapl.org",
+    "type": "library"
    }
   ],
   "sf": [
@@ -370,6 +400,11 @@
     "urls": [
      "https://mommypoppins.com/san-francisco-bay-area-kids/weekend-events/things-to-do-in-san-francisco-this-weekend-san-jose-oakland-east-bay-kids-families"
     ]
+   },
+   {
+    "name": "SF Public Library events",
+    "domain": "sfpl.org",
+    "type": "library"
    }
   ],
   "sea": [
@@ -434,6 +469,16 @@
     "name": "Town Hall Seattle",
     "domain": "townhallseattle.org",
     "type": "roundup"
+   },
+   {
+    "name": "Greater Seattle on the Cheap",
+    "domain": "greaterseattleonthecheap.com",
+    "type": "free"
+   },
+   {
+    "name": "Seattle Public Library events",
+    "domain": "spl.org",
+    "type": "library"
    }
   ],
   "bos": [
@@ -549,6 +594,11 @@
     "urls": [
      "https://www.timeout.com/chicago/things-to-do/best-things-to-do-this-weekend-in-chicago"
     ]
+   },
+   {
+    "name": "Chicago on the Cheap",
+    "domain": "chicagoonthecheap.com",
+    "type": "free"
    }
   ],
   "hou": [
@@ -600,6 +650,16 @@
     "urls": [
      "https://mommypoppins.com/things-to-do-in-Houston-this-weekend-kids-families"
     ]
+   },
+   {
+    "name": "Kids Out and About Houston (free)",
+    "domain": "houston.kidsoutandabout.com",
+    "type": "free"
+   },
+   {
+    "name": "Houston Public Library events",
+    "domain": "houstonlibrary.org",
+    "type": "library"
    }
   ],
   "dal": [
@@ -638,6 +698,16 @@
     "name": "Visit Dallas",
     "domain": "visitdallas.com",
     "type": "roundup"
+   },
+   {
+    "name": "Kids Out and About Dallas (free)",
+    "domain": "dallas.kidsoutandabout.com",
+    "type": "free"
+   },
+   {
+    "name": "Dallas Public Library",
+    "domain": "dallaslibrary2.org",
+    "type": "library"
    }
   ],
   "dc": [
@@ -684,6 +754,11 @@
     "name": "National Museum of Asian Art",
     "domain": "asia.si.edu",
     "type": "asian"
+   },
+   {
+    "name": "DC Public Library",
+    "domain": "dclibrary.org",
+    "type": "library"
    }
   ],
   "oc": [
@@ -721,6 +796,11 @@
     "urls": [
      "https://www.caaoc.org/"
     ]
+   },
+   {
+    "name": "OC Public Libraries",
+    "domain": "ocpl.org",
+    "type": "library"
    }
   ],
   "sd": [
@@ -767,6 +847,11 @@
     "name": "Pacific Arts Movement / SDAFF",
     "domain": "sdaff.org",
     "type": "asian"
+   },
+   {
+    "name": "San Diego Public Library",
+    "domain": "sandiego.gov",
+    "type": "library"
    }
   ],
   "atl": [
@@ -902,6 +987,80 @@
     "urls": [
      "https://www.chinesecanadianmuseum.ca/"
     ]
+   }
+  ]
+ },
+ "libraries": {
+  "sf": [
+   {
+    "name": "Santa Clara County Library (Cupertino etc.)",
+    "slug": "sccl"
+   },
+   {
+    "name": "San José Public Library",
+    "slug": "sjpl"
+   },
+   {
+    "name": "Alameda County Library (Fremont etc.)",
+    "slug": "aclibrary"
+   },
+   {
+    "name": "San Mateo County Libraries",
+    "slug": "smcl"
+   },
+   {
+    "name": "Contra Costa County Library",
+    "slug": "ccclib"
+   }
+  ],
+  "sea": [
+   {
+    "name": "King County Library System (Bellevue etc.)",
+    "slug": "kcls"
+   }
+  ],
+  "bos": [
+   {
+    "name": "Boston Public Library",
+    "slug": "bpl"
+   }
+  ],
+  "chi": [
+   {
+    "name": "Chicago Public Library",
+    "slug": "chipublib"
+   }
+  ],
+  "hou": [
+   {
+    "name": "Harris County Public Library",
+    "slug": "hcpl"
+   }
+  ],
+  "atl": [
+   {
+    "name": "Fulton County Library System",
+    "slug": "fulcolibrary"
+   }
+  ],
+  "tor": [
+   {
+    "name": "Toronto Public Library",
+    "slug": "tpl"
+   },
+   {
+    "name": "Markham Public Library",
+    "slug": "markham"
+   }
+  ],
+  "van": [
+   {
+    "name": "Vancouver Public Library",
+    "slug": "vpl"
+   },
+   {
+    "name": "Richmond Public Library (BC)",
+    "slug": "yourlibrary"
    }
   ]
  }
