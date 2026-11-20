@@ -11,7 +11,7 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 FAMILY = re.compile(r"kid|child|famil|teen|toddler|baby|preschool|youth|all ages", re.I)
 SPECIAL = re.compile(r"festival|celebrat|holiday|perform|concert|music|film|movie|craft|stem|steam|lego|magic|puppet|dance|art|lunar|diwali|thanksgiving|gingerbread|santa", re.I)
 # Services rather than outings (often offered in Chinese, so they must outweigh the Chinese bonus).
-DULL = re.compile(r"computer|\besl\b|\bell\b|english (conversation|learn|level|class)|basic english|tax|job|resume|career|book club|meeting|tutor|homework|citizenship|tech (help|assist)|assistance|notary|blood|medicare|seminar|housing|legal|renter|tenant|navigator|drop-in hours|immigration|benefits|counsel|settlement|welcoming|resource|services|living skills|device|clinic", re.I)
+DULL = re.compile(r"computer|\besl\b|\bell\b|english (conversation|learn|level|class)|basic english|tax|job|resume|career|book club|meeting|tutor|homework|citizenship|tech (help|assist)|assistance|notary|blood|medicare|seminar|housing|legal|renter|tenant|navigator|drop-in hours|immigration|benefits|counsel|settlement|welcoming|resource|services|living skills|device|clinic|troop|girl scout", re.I)
 
 def score(e):
     s = 100 * e["chinese"]
