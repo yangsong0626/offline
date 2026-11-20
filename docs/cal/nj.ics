@@ -9,7 +9,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:rutgers-telescope-2026-11-19@noboringweekends
-DTSTAMP:20261117T000000Z
+DTSTAMP:20261120T000000Z
 DTSTART;VALUE=DATE:20261119
 DTEND;VALUE=DATE:20261120
 SUMMARY:罗格斯天文台公众观星
@@ -23,7 +23,7 @@ URL:https://njtoday.news/2026/10/30/coming-up-in-november-new-jersey-events
 END:VEVENT
 BEGIN:VEVENT
 UID:turtle-back-lights-2026-11-20@noboringweekends
-DTSTAMP:20261117T000000Z
+DTSTAMP:20261120T000000Z
 DTSTART:20261120T220000Z
 DTEND:20261121T020000Z
 SUMMARY:Turtle Back 动物园节日灯光(开幕)
@@ -37,7 +37,7 @@ URL:https://mommypoppins.com/new-jersey-kids/weekend-events/things-to-do-in
 END:VEVENT
 BEGIN:VEVENT
 UID:diggerland-holidig-2026-11-20@noboringweekends
-DTSTAMP:20261117T000000Z
+DTSTAMP:20261120T000000Z
 DTSTART:20261120T223000Z
 DTEND:20261121T023000Z
 SUMMARY:Diggerland 开车看灯 Holidig
@@ -49,8 +49,21 @@ URL:https://mommypoppins.com/new-jersey-kids/weekend-events/things-to-do-in
  -new-jersey-this-weekend-kids-families
 END:VEVENT
 BEGIN:VEVENT
+UID:lumc-harvest-fest-2026-11-21@noboringweekends
+DTSTAMP:20261120T000000Z
+DTSTART:20261121T140000Z
+DTEND:20261121T190000Z
+SUMMARY:Forked River 丰收集市+圣诞老人拍照
+LOCATION:Lacey United Methodist Church\, Forked River\, NJ 08731
+DESCRIPTION:🎄 免费入场的手作集市\,还能和圣诞老人合影
+ 。\n费用:免费\nhttps://mommypoppins.com/new-jersey-kids/weekend-event
+ s/things-to-do-in-new-jersey-this-weekend-kids-families
+URL:https://mommypoppins.com/new-jersey-kids/weekend-events/things-to-do-in
+ -new-jersey-this-weekend-kids-families
+END:VEVENT
+BEGIN:VEVENT
 UID:howell-farm-2026-11-21@noboringweekends
-DTSTAMP:20261117T000000Z
+DTSTAMP:20261120T000000Z
 DTSTART:20261121T150000Z
 DTEND:20261121T170000Z
 SUMMARY:Howell 历史农场免费周六活动
@@ -63,34 +76,61 @@ URL:https://www.njfamily.com/things-to-do-this-weekend-in-nj-november-20-22
  -2026/
 END:VEVENT
 BEGIN:VEVENT
+UID:leonardo-turkey-crafts-2026-11-21@noboringweekends
+DTSTAMP:20261120T000000Z
+DTSTART:20261121T150000Z
+DTEND:20261121T210000Z
+SUMMARY:Leonardo 州立码头自然中心感恩节手工(免费)
+LOCATION:Leonardo State Marina Nature Center\, Concord Ave\, Leonardo\, NJ 
+ 07737
+DESCRIPTION:🦃 做火鸡手工、涂色\,感恩节前的小活动\,免费
+ 。\n费用:免费\nhttps://mommypoppins.com/new-jersey-kids/weekend-event
+ s/things-to-do-in-new-jersey-this-weekend-kids-families
+URL:https://mommypoppins.com/new-jersey-kids/weekend-events/things-to-do-in
+ -new-jersey-this-weekend-kids-families
+END:VEVENT
+BEGIN:VEVENT
+UID:oc-carriage-rides-2026-11-21@noboringweekends
+DTSTAMP:20261120T000000Z
+DTSTART:20261121T170000Z
+DTEND:20261121T200000Z
+SUMMARY:Ocean City 免费马车游
+LOCATION:Downtown Ocean City\, 6th St & Asbury Ave\, Ocean City\, NJ 08226
+DESCRIPTION:🐴 坐马车逛海边小镇\,先到先得\,免费~\n费用:
+ 免费\nhttps://mommypoppins.com/new-jersey-kids/weekend-events/things-to-
+ do-in-new-jersey-this-weekend-kids-families
+URL:https://mommypoppins.com/new-jersey-kids/weekend-events/things-to-do-in
+ -new-jersey-this-weekend-kids-families
+END:VEVENT
+BEGIN:VEVENT
 UID:physick-tree-2026-11-21@noboringweekends
-DTSTAMP:20261117T000000Z
+DTSTAMP:20261120T000000Z
 DTSTART:20261121T220000Z
 DTEND:20261122T010000Z
 SUMMARY:Cape May 维多利亚老宅点灯
 LOCATION:Emlen Physick Estate\, 1048 Washington St\, Cape May\, NJ 08204
-DESCRIPTION:🏡 海边维多利亚老宅的圣诞点灯。\n费用:以官
- 网为准\nhttps://mommypoppins.com/new-jersey-kids/weekend-events/things-
- to-do-in-new-jersey-this-weekend-kids-families
+DESCRIPTION:🏡 海边维多利亚老宅的圣诞点灯。\n费用:免费\
+ nhttps://mommypoppins.com/new-jersey-kids/weekend-events/things-to-do-in-n
+ ew-jersey-this-weekend-kids-families
 URL:https://mommypoppins.com/new-jersey-kids/weekend-events/things-to-do-in
  -new-jersey-this-weekend-kids-families
 END:VEVENT
 BEGIN:VEVENT
 UID:marketfair-santa-2026-11-21@noboringweekends
-DTSTAMP:20261117T000000Z
+DTSTAMP:20261120T000000Z
 DTSTART:20261121T223000Z
 DTEND:20261122T003000Z
 SUMMARY:Princeton MarketFair 圣诞点灯+圣诞老人登场
 LOCATION:MarketFair\, 3535 US-1\, Princeton\, NJ 08540
 DESCRIPTION:🎅 普林斯顿商场的点灯仪式\,圣诞老人正式登
- 场~\n费用:以官网为准\nhttps://mommypoppins.com/new-jersey-kids/wee
- kend-events/things-to-do-in-new-jersey-this-weekend-kids-families
+ 场~\n费用:免费\nhttps://mommypoppins.com/new-jersey-kids/weekend-even
+ ts/things-to-do-in-new-jersey-this-weekend-kids-families
 URL:https://mommypoppins.com/new-jersey-kids/weekend-events/things-to-do-in
  -new-jersey-this-weekend-kids-families
 END:VEVENT
 BEGIN:VEVENT
 UID:cirque-musica-2026-11-21@noboringweekends
-DTSTAMP:20261117T000000Z
+DTSTAMP:20261120T000000Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261122
 SUMMARY:American Dream 马戏音乐会 Cirque Musica
@@ -104,7 +144,7 @@ URL:https://mommypoppins.com/new-jersey-kids/weekend-events/things-to-do-in
 END:VEVENT
 BEGIN:VEVENT
 UID:swedish-xmas-fair-nj-2026-11-22@noboringweekends
-DTSTAMP:20261117T000000Z
+DTSTAMP:20261120T000000Z
 DTSTART:20261122T150000Z
 DTEND:20261122T200000Z
 SUMMARY:Upper Montclair 瑞典圣诞市集
@@ -117,15 +157,15 @@ URL:https://mommypoppins.com/new-jersey-kids/weekend-events/things-to-do-in
 END:VEVENT
 BEGIN:VEVENT
 UID:gsp-big-santa-2026-11-22@noboringweekends
-DTSTAMP:20261117T000000Z
+DTSTAMP:20261120T000000Z
 DTSTART:20261122T210000Z
 DTEND:20261122T230000Z
 SUMMARY:Garden State Plaza 圣诞老人大派对
 LOCATION:Westfield Garden State Plaza\, 1 Garden State Plaza Blvd\, Paramus
  \, NJ 07652
 DESCRIPTION:🎅 北泽西最大商场之一的年度圣诞老人庆祝活
- 动。\n费用:以官网为准\nhttps://mommypoppins.com/new-jersey-kids/w
- eekend-events/things-to-do-in-new-jersey-this-weekend-kids-families
+ 动。\n费用:免费\nhttps://mommypoppins.com/new-jersey-kids/weekend-ev
+ ents/things-to-do-in-new-jersey-this-weekend-kids-families
 URL:https://mommypoppins.com/new-jersey-kids/weekend-events/things-to-do-in
  -new-jersey-this-weekend-kids-families
 END:VEVENT

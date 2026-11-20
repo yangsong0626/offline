@@ -9,7 +9,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:hiphop-nutcracker-2026-11-17@noboringweekends
-DTSTAMP:20261117T000000Z
+DTSTAMP:20261120T000000Z
 DTSTART;VALUE=DATE:20261117
 DTEND;VALUE=DATE:20261118
 SUMMARY:嘻哈版《胡桃夹子》
@@ -23,7 +23,7 @@ URL:https://washingtonian.com/2026/10/29/november-culture-guide-things-to-d
 END:VEVENT
 BEGIN:VEVENT
 UID:harbour-rink-2026-11-19@noboringweekends
-DTSTAMP:20261117T000000Z
+DTSTAMP:20261120T000000Z
 DTSTART;VALUE=DATE:20261119
 DTEND;VALUE=DATE:20261120
 SUMMARY:乔治城 Washington Harbour 溜冰场开张
@@ -33,8 +33,50 @@ DESCRIPTION:⛸️ 河边溜冰场 11/19 开张\,$10-12。\n费用:$10-12\n
 URL:https://kidtownguide.com/november-2026-family-events-dc.html
 END:VEVENT
 BEGIN:VEVENT
+UID:national-theatre-sat-live-2026-11-21@noboringweekends
+DTSTAMP:20261120T000000Z
+DTSTART:20261121T150000Z
+DTEND:20261121T170000Z
+SUMMARY:国家剧院周六早晨儿童演出(免费)
+LOCATION:The National Theatre\, 1321 Pennsylvania Ave NW\, Washington\, DC 
+ 20004
+DESCRIPTION:🎭 3–6 岁小朋友的免费剧场时光。\n费用:免费\
+ nhttps://www.kidfriendlydc.com/2026/11/19/the-weekend-round-up-november-20
+ -22-2/
+URL:https://www.kidfriendlydc.com/2026/11/19/the-weekend-round-up-november-
+ 20-22-2/
+END:VEVENT
+BEGIN:VEVENT
+UID:nmai-bison-2026-11-21@noboringweekends
+DTSTAMP:20261120T000000Z
+DTSTART:20261121T180000Z
+DTEND:20261121T220000Z
+SUMMARY:美国印第安人博物馆野牛日
+LOCATION:National Museum of the American Indian\, 4th St & Independence Ave
+  SW\, Washington\, DC 20560
+DESCRIPTION:🦬 电影+动手活动\,了解野牛\,免费。\n费用:免
+ 费\nhttps://www.kidfriendlydc.com/2026/11/19/the-weekend-round-up-novembe
+ r-20-22-2/
+URL:https://www.kidfriendlydc.com/2026/11/19/the-weekend-round-up-november-
+ 20-22-2/
+END:VEVENT
+BEGIN:VEVENT
+UID:capitol-hill-tree-2026-11-21@noboringweekends
+DTSTAMP:20261120T000000Z
+DTSTART:20261121T223000Z
+DTEND:20261122T003000Z
+SUMMARY:国会山圣诞树点灯
+LOCATION:Eastern Market Metro Plaza\, Eastern Market Metro Plaza\, Washingt
+ on\, DC 20003
+DESCRIPTION:🎄 唱圣诞歌、喝热可可的社区点灯\,免费。\n费
+ 用:免费\nhttps://www.kidfriendlydc.com/2026/11/19/the-weekend-round-up-
+ november-20-22-2/
+URL:https://www.kidfriendlydc.com/2026/11/19/the-weekend-round-up-november-
+ 20-22-2/
+END:VEVENT
+BEGIN:VEVENT
 UID:spirit-final-2026-11-21@noboringweekends
-DTSTAMP:20261117T000000Z
+DTSTAMP:20261120T000000Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261122
 SUMMARY:华盛顿精神队 NWSL 总决赛
@@ -46,7 +88,7 @@ URL:https://washingtonian.com/2026/11/16/things-to-do-in-the-dc-area-novemb
 END:VEVENT
 BEGIN:VEVENT
 UID:blanchard-coltrane-2026-11-21@noboringweekends
-DTSTAMP:20261117T000000Z
+DTSTAMP:20261120T000000Z
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261122
 SUMMARY:Terence Blanchard & Ravi Coltrane 爵士
@@ -57,8 +99,34 @@ URL:https://washingtonian.com/2026/11/16/things-to-do-in-the-dc-area-novemb
  er-16-22-2026/
 END:VEVENT
 BEGIN:VEVENT
+UID:dumbarton-oaks-free-2026-11-21@noboringweekends
+DTSTAMP:20261120T000000Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+SUMMARY:Dumbarton Oaks 花园(11–12 月免费)
+LOCATION:Dumbarton Oaks\, 1703 32nd St NW\, Washington\, DC 20007
+DESCRIPTION:🍂 乔治城的老庄园花园\,今年 11 月到 12/31 免费
+ 参观。\n费用:免费\nhttps://washingtonian.com/2026/11/16/things-to-d
+ o-in-the-dc-area-november-16-22-2026/
+URL:https://washingtonian.com/2026/11/16/things-to-do-in-the-dc-area-novemb
+ er-16-22-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:canstruction-nbm-2026-11-22@noboringweekends
+DTSTAMP:20261120T000000Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+SUMMARY:国家建筑博物馆 Canstruction 罐头雕塑展
+LOCATION:National Building Museum\, 401 F St NW\, Washington\, DC 20001
+DESCRIPTION:🥫 用食物罐头搭成的巨型雕塑\,免费参观\,罐头
+ 之后捐给食物银行。\n费用:免费\nhttps://www.kidfriendlydc.com/
+ 2026/11/19/the-weekend-round-up-november-20-22-2/
+URL:https://www.kidfriendlydc.com/2026/11/19/the-weekend-round-up-november-
+ 20-22-2/
+END:VEVENT
+BEGIN:VEVENT
 UID:national-tree-100-2026-12-03@noboringweekends
-DTSTAMP:20261117T000000Z
+DTSTAMP:20261120T000000Z
 DTSTART;VALUE=DATE:20261203
 DTEND;VALUE=DATE:20261204
 SUMMARY:第 100 届国家圣诞树点灯

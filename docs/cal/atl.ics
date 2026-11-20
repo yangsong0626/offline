@@ -9,7 +9,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:kamasi-2026-11-18@noboringweekends
-DTSTAMP:20261117T000000Z
+DTSTAMP:20261120T000000Z
 DTSTART:20261119T023000Z
 DTEND:20261119T043000Z
 SUMMARY:Kamasi Washington 爵士
@@ -19,8 +19,34 @@ DESCRIPTION:🎷 爵士萨克斯 Kamasi Washington\,11/18-19 两晚。\n费
 URL:https://discoveratlanta.com/events/all/
 END:VEVENT
 BEGIN:VEVENT
+UID:christkindl-lawrenceville-2026-11-20@noboringweekends
+DTSTAMP:20261120T000000Z
+DTSTART;VALUE=DATE:20261120
+DTEND;VALUE=DATE:20261121
+SUMMARY:Lawrenceville 德式圣诞市集(开幕)
+LOCATION:Lawrenceville Lawn\, 210 Luckie St\, Lawrenceville\, GA 30046
+DESCRIPTION:🥨 免费入场的德式圣诞市集\,圣诞老人在场拍
+ 照。\n费用:免费\nhttps://famfriendlyatl.substack.com/p/family-friend
+ ly-things-to-do-this-7c6
+URL:https://famfriendlyatl.substack.com/p/family-friendly-things-to-do-this
+ -7c6
+END:VEVENT
+BEGIN:VEVENT
+UID:fulton-thankful-tree-2026-11-21@noboringweekends
+DTSTAMP:20261120T000000Z
+DTSTART:20261121T150000Z
+DTEND:20261121T170000Z
+SUMMARY:Hapeville 图书馆「感恩树」手工
+LOCATION:Hapeville Branch Library\, 525 King Arnold St\, Hapeville\, GA 303
+ 54
+DESCRIPTION:🍂 写下感恩的话挂上感恩树\,免费。\n费用:免
+ 费\nhttps://fulcolibrary.bibliocommons.com/events/6ae12346fee2d21deb262cc
+ c
+URL:https://fulcolibrary.bibliocommons.com/events/6ae12346fee2d21deb262ccc
+END:VEVENT
+BEGIN:VEVENT
 UID:gwinnett-glows-2026-11-21@noboringweekends
-DTSTAMP:20261117T000000Z
+DTSTAMP:20261120T000000Z
 DTSTART:20261121T230000Z
 DTEND:20261122T010000Z
 SUMMARY:Gwinnett Glows 圣诞树点灯
@@ -34,7 +60,7 @@ URL:https://mommypoppins.com/things-to-do-in-Atlanta-this-weekend-kids-fami
 END:VEVENT
 BEGIN:VEVENT
 UID:light-the-station-2026-11-21@noboringweekends
-DTSTAMP:20261117T000000Z
+DTSTAMP:20261120T000000Z
 DTSTART:20261121T230000Z
 DTEND:20261122T000000Z
 SUMMARY:Atlantic Station 点灯
@@ -46,7 +72,7 @@ URL:https://mommypoppins.com/things-to-do-in-Atlanta-this-weekend-kids-fami
 END:VEVENT
 BEGIN:VEVENT
 UID:avalon-lighting-2026-11-22@noboringweekends
-DTSTAMP:20261117T000000Z
+DTSTAMP:20261120T000000Z
 DTSTART:20261122T190000Z
 DTEND:20261123T003000Z
 SUMMARY:Alpharetta Avalon 点灯
@@ -59,7 +85,7 @@ URL:https://mommypoppins.com/things-to-do-in-Atlanta-this-weekend-kids-fami
 END:VEVENT
 BEGIN:VEVENT
 UID:piedmont-light-up-2026-11-22@noboringweekends
-DTSTAMP:20261117T000000Z
+DTSTAMP:20261120T000000Z
 DTSTART:20261122T230000Z
 DTEND:20261123T010000Z
 SUMMARY:Piedmont 公园 Light Up the Season

@@ -9,7 +9,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:muzeo-disney-2026-11-18@noboringweekends
-DTSTAMP:20261117T000000Z
+DTSTAMP:20261120T000000Z
 DTSTART:20261118T190000Z
 DTEND:20261118T210000Z
 SUMMARY:Muzeo 迪士尼档案展
@@ -22,7 +22,7 @@ URL:https://orangecounty.net/mobile/events.html
 END:VEVENT
 BEGIN:VEVENT
 UID:gifts-goodies-mv-2026-11-21@noboringweekends
-DTSTAMP:20261117T000000Z
+DTSTAMP:20261120T000000Z
 DTSTART:20261121T160000Z
 DTEND:20261122T000000Z
 SUMMARY:Mission Viejo 节日手作集市(第 55 届)
@@ -34,7 +34,7 @@ URL:https://enjoyorangecounty.com/whats-happening/
 END:VEVENT
 BEGIN:VEVENT
 UID:campfire-night-market-2026-11-21@noboringweekends
-DTSTAMP:20261117T000000Z
+DTSTAMP:20261120T000000Z
 DTSTART:20261122T010000Z
 DTEND:20261122T050000Z
 SUMMARY:Mission Viejo 秋日夜市(免费)
@@ -45,7 +45,7 @@ URL:https://enjoyorangecounty.com/whats-happening/
 END:VEVENT
 BEGIN:VEVENT
 UID:patchwork-tustin-2026-11-22@noboringweekends
-DTSTAMP:20261117T000000Z
+DTSTAMP:20261120T000000Z
 DTSTART:20261122T190000Z
 DTEND:20261123T010000Z
 SUMMARY:Old Town Tustin Patchwork 手作市集
@@ -53,5 +53,32 @@ LOCATION:Old Town Tustin\, El Camino Real\, Tustin\, CA 92780
 DESCRIPTION:🧵 本地手作市集\,免费\,宠物友好。\n费用:免费
  \nhttps://enjoyorangecounty.com/whats-happening/
 URL:https://enjoyorangecounty.com/whats-happening/
+END:VEVENT
+BEGIN:VEVENT
+UID:bella-beats-2026-11-22@noboringweekends
+DTSTAMP:20261120T000000Z
+DTSTART:20261122T210000Z
+DTEND:20261123T000000Z
+SUMMARY:Bella Terra 花园音乐会(免费)
+LOCATION:Bella Terra\, 7777 Edinger Ave\, Huntington Beach\, CA 92647
+DESCRIPTION:🎶 周日下午免费户外音乐。\n费用:免费\nhttps://
+ timesofsandiego.com/san-diego-events/2026/11/19/san-diego-weekend-guide-no
+ v-20-22-lighting-up-night/
+URL:https://timesofsandiego.com/san-diego-events/2026/11/19/san-diego-weeke
+ nd-guide-nov-20-22-lighting-up-night/
+END:VEVENT
+BEGIN:VEVENT
+UID:nixon-duo-nova-2026-11-22@noboringweekends
+DTSTAMP:20261120T000000Z
+DTSTART:20261122T220000Z
+DTEND:20261123T000000Z
+SUMMARY:尼克松图书馆免费音乐会
+LOCATION:Richard Nixon Presidential Library\, 18001 Yorba Linda Blvd\, Yorb
+ a Linda\, CA 92886
+DESCRIPTION:🎻 总统图书馆的周日免费音乐会。\n费用:免费\
+ nhttps://timesofsandiego.com/san-diego-events/2026/11/19/san-diego-weekend
+ -guide-nov-20-22-lighting-up-night/
+URL:https://timesofsandiego.com/san-diego-events/2026/11/19/san-diego-weeke
+ nd-guide-nov-20-22-lighting-up-night/
 END:VEVENT
 END:VCALENDAR
