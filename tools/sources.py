@@ -1,8 +1,8 @@
 """Print this week's search plan from tools/sources.json: per city, the WebSearch queries to run and the
 allowed_domains to restrict each one to. Usage: python3 tools/sources.py [FRIDAY as YYYY-MM-DD] [city ...]
 
-Each city gets three searches: weekend roundups + family sites, Chinese/Asian community sites, and the
-following Mon-Thu. Searches restricted to a source list are far less noisy than open web searches.
+Each city gets four searches: weekend roundups + family sites, Chinese/Asian community sites, free events
+(free-event sites, parks, libraries without a feed), and the following Mon-Thu. Searches restricted to a source list are far less noisy than open web searches.
 """
 import json, os, sys
 from datetime import date, timedelta
@@ -22,14 +22,17 @@ def plan(friday, only=()):
     for cid, items in src["cities"].items():
         if only and cid not in only: continue
         by = lambda *types: [s["domain"] for s in items if s["type"] in types]
+        uniq = lambda xs: list(dict.fromkeys(xs))
         city = names.get(cid, cid)
         out.append({"city": cid, "searches": [
             {"query": f"{city} things to do this weekend {span(friday, sun)} family kids events",
-             "allowed_domains": by("roundup", "family", "parks", "news") + national["family"] + national["roundup"]},
+             "allowed_domains": uniq(by("roundup", "family", "parks", "news") + national["family"] + national["roundup"])},
             {"query": f"{city} Chinese Asian community event {span(friday, thu)}",
-             "allowed_domains": by("chinese", "asian") + national["asian"]},
+             "allowed_domains": uniq(by("chinese", "asian") + national["asian"])},
+            {"query": f"{city} free events this weekend {span(friday, sun)} free family library park",
+             "allowed_domains": uniq(by("free", "library", "parks", "family"))},
             {"query": f"{city} events {span(mon, thu)} weeknight",
-             "allowed_domains": by("roundup", "music", "parks") + national["music"]},
+             "allowed_domains": uniq(by("roundup", "music", "parks") + national["music"])},
         ]})
     return out
 
