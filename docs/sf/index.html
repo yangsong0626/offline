@@ -240,10 +240,10 @@ var T={
   audAll:"全部活动",audFamily:"亲子",audAdult:"大人",badgeFamily:"亲子",badgeAdult:"大人",badgeAll:"大人小孩都合适",tbd:"时间见官网",
   addrPh:"输入邮编、地址或城市,例如 11354 或 Edison, NJ",go:"切换城市",
   hintTz:"已按你的时区先选了 {c}。输入邮编或地址,可以切换到最近的城市。",
-  hintSaved:"已记住你上次选的城市:{c}。",hintFound:"已切换到 {c}。",
+  hintSaved:"已记住你上次选的城市:{c}。",hintFound:"已切换到 {c}。",hintZip:"{c} · 已按离 {z} 的距离排序(邮编只在你的设备上使用)。",nearZip:"📍 离 {z} 最近",zipSrc:"邮编坐标来自 GeoNames (CC BY 4.0)。",
   hintNone:"暂时只覆盖下面 {n} 个城市,没有找到匹配,请从下面选一个最近的。",comingSoon:"这个城市本周的活动还在整理中,周五更新时补上。",
   weekend:"{s}–{e} 周末",week:"{s}–{e} 周末 · 周中到 {w}",mid:"周中",later:"之后",wxPending:"天气预报在周五更新时补上",sat:"周六",sun:"周日",fri:"周五",
-  all:"全部",asian:"华人 / 亚裔",free:"免费",indoor:"室内",near:"📍 离我最近",distMi:"距你约 {n} 英里",distKm:"距你约 {n} 公里",locAsk:"正在获取位置…",locOk:"已按距离排序。位置只保存在你自己的设备上",locNo:"没拿到位置:请在浏览器设置里允许定位后再试",
+  all:"全部",asian:"华人 / 亚裔",free:"免费",indoor:"室内",near:"📍 离我最近",distMi:"距你约 {n} 英里",distKm:"距你约 {n} 公里",locAsk:"正在获取位置…",locOk:"已按距离排序。位置只保存在你自己的设备上",locNo:"没拿到位置:可以在上方输入邮编,或在浏览器设置里允许定位",
   count:"共 {n} 个活动,其中华人 / 亚裔 {a} 个",empty:"这个筛选下没有活动,换一个条件试试。",
   tierA:"华人社区",tierB:"亚裔文化",freeL:"免费",signup:"需报名 / 购票",indoorL:"室内",outdoorL:"户外",
   addCal:"加入日历",gcal:"Google 日历",outlook:"Outlook 日历",ics:"下载 .ics(Apple 日历)",copy:"复制活动信息",
@@ -259,10 +259,10 @@ var T={
   audAll:"Everything",audFamily:"Family",audAdult:"Grown-ups",badgeFamily:"Family",badgeAdult:"Grown-ups",badgeAll:"All ages",tbd:"See site for times",
   addrPh:"ZIP, address or city, e.g. 11354 or Edison, NJ",go:"Switch city",
   hintTz:"Picked {c} from your time zone. Enter a ZIP or address to switch to the nearest city.",
-  hintSaved:"Remembered your last city: {c}.",hintFound:"Switched to {c}.",
+  hintSaved:"Remembered your last city: {c}.",hintFound:"Switched to {c}.",hintZip:"{c} · sorted by distance from {z} (your postal code stays on this device).",nearZip:"📍 Nearest to {z}",zipSrc:"Postal code locations: GeoNames (CC BY 4.0).",
   hintNone:"We cover the {n} cities below for now and found no match. Pick the closest one.",comingSoon:"Events for this city are still being compiled. Check back after Friday's update.",
   weekend:"Weekend of {s}–{e}",week:"Weekend of {s}–{e} · weekdays through {w}",mid:"Weekdays",later:"Later",wxPending:"Forecast is added on Friday's update",sat:"Sat",sun:"Sun",fri:"Fri",
-  all:"All",asian:"Chinese / Asian",free:"Free",indoor:"Indoor",near:"📍 Nearest",distMi:"{n} mi away",distKm:"{n} km away",locAsk:"Finding your location…",locOk:"Sorted by distance. Your location stays on this device",locNo:"Couldn't get your location: allow location access in your browser and try again",
+  all:"All",asian:"Chinese / Asian",free:"Free",indoor:"Indoor",near:"📍 Nearest",distMi:"{n} mi away",distKm:"{n} km away",locAsk:"Finding your location…",locOk:"Sorted by distance. Your location stays on this device",locNo:"Couldn't get your location: enter your ZIP above, or allow location access in your browser",
   count:"{n} events, {a} Chinese / Asian community",empty:"Nothing matches these filters. Try another.",
   tierA:"Chinese community",tierB:"Asian culture",freeL:"Free",signup:"Sign-up / tickets",indoorL:"Indoor",outdoorL:"Outdoor",
   addCal:"Add to calendar",gcal:"Google Calendar",outlook:"Outlook Calendar",ics:"Download .ics (Apple Calendar)",copy:"Copy details",
@@ -310,7 +310,7 @@ var ZIP3=[ // [from,to,city]
 var FSA={v:"van",m:"tor",l:"tor"}; // Canadian postal code first letter
 var TZ_DEFAULT={"America/New_York":"nyc","America/Detroit":"nyc","America/Chicago":"chi","America/Los_Angeles":"la","America/Denver":"chi","America/Phoenix":"la","America/Toronto":"tor","America/Vancouver":"van"};
 
-var S={deals:[],season:null,lib:null,lang:"zh",city:"nyc",aud:"all",day:"all",asian:false,free:false,indoor:false,near:false,me:null,data:null,hint:["tz"]};
+var S={deals:[],season:null,lib:null,lang:"zh",city:"nyc",aud:"all",day:"all",asian:false,free:false,indoor:false,near:false,me:null,meZip:"",zips:null,data:null,hint:["tz"]};
 var $=function(id){return document.getElementById(id)};
 function esc(s){return String(s==null?"":s).replace(/[&<>"']/g,function(c){return {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]})}
 function fmt(s,o){return s.replace(/\{(\w+)\}/g,function(_,k){return o[k]})}
@@ -405,7 +405,7 @@ function locate(){
   if(!navigator.geolocation){toast(t("locNo"));return}
   toast(t("locAsk"));
   navigator.geolocation.getCurrentPosition(function(p){
-    S.me=[+p.coords.latitude.toFixed(3),+p.coords.longitude.toFixed(3)];S.near=true;store("kids.loc",S.me.join(","));toast(t("locOk"));render()},
+    S.me=[+p.coords.latitude.toFixed(3),+p.coords.longitude.toFixed(3)];S.near=true;S.meZip="";store("kids.loc",S.me.join(","));store("kids.zip","");toast(t("locOk"));render()},
    function(){toast(t("locNo"))},{maximumAge:6e5,timeout:15000})}
 function visible(c){
   return pool(c).filter(function(e){
@@ -535,7 +535,7 @@ function render(){
   if(!S.data){return}
   drawSky();
   var cs=S.data.cities,c=cs[S.city];
-  var h=S.hint;$("hint").textContent=h[0]==="page"?"":h[0]==="none"?fmt(t("hintNone"),{n:Object.keys(cs).length}):fmt(t(h[0]==="tz"?"hintTz":h[0]==="saved"?"hintSaved":"hintFound"),{c:cityName(S.city)});
+  var h=S.hint;$("hint").textContent=h[0]==="page"?"":h[0]==="none"?fmt(t("hintNone"),{n:Object.keys(cs).length}):h[0]==="zip"?fmt(t("hintZip"),{c:cityName(S.city),z:h[1]}):fmt(t(h[0]==="tz"?"hintTz":h[0]==="saved"?"hintSaved":"hintFound"),{c:cityName(S.city)});
   $("cities").innerHTML=Object.keys(cs).map(function(id){return '<button type="button" class="city" data-city="'+id+'" aria-pressed="'+(id===S.city)+'">'+esc(S.lang==="zh"?cs[id].zh:cs[id].en)+'</button>'}).join("");
   var wk=S.data.weekend,full=S.data.week,mid=full&&full.end>wk.end;
   $("weekend-title").textContent=cityName(S.city)+" · "+fmt(t(mid?"week":"weekend"),{s:dateLabel(wk.start),e:dateLabel(wk.end),w:mid?dateLabel(full.end):""});
@@ -544,7 +544,7 @@ function render(){
   if(!days.some(function(d){return d[0]===S.day}))S.day="all";
   $("filters").innerHTML=days.map(function(d){return '<button type="button" class="chip" data-day="'+d[0]+'" aria-pressed="'+(S.day===d[0])+'">'+esc(d[1])+'</button>'}).join("")+'<span class="gap"></span>'+
    [["asian",t("asian")],["free",t("free")],["indoor",t("indoor")]].map(function(f){return '<button type="button" class="chip" data-flag="'+f[0]+'" aria-pressed="'+S[f[0]]+'">'+esc(f[1])+'</button>'}).join("")+
-   (pl.some(function(e){return e.geo})?'<button type="button" class="chip" data-near="1" aria-pressed="'+(S.near&&!!S.me)+'">'+esc(t("near"))+'</button>':'');
+   (pl.some(function(e){return e.geo})?'<button type="button" class="chip" data-near="1" aria-pressed="'+(S.near&&!!S.me)+'">'+esc(S.me&&S.meZip?fmt(t("nearZip"),{z:S.meZip}):t("near"))+'</button>':'');
   $("aud").innerHTML=[["all","audAll"],["family","audFamily"],["adult","audAdult"]].map(function(a){return '<button type="button" data-aud="'+a[0]+'" aria-pressed="'+(S.aud===a[0])+'">'+esc(t(a[1]))+'</button>'}).join("");
   var all=c.events,base=pl.filter(function(e){return e.date<=winEnd()&&forAud(e)}),as=base.filter(function(e){return e.tier!=="C"}).length,list=visible(c);
   $("count").textContent=base.length?fmt(t("count"),{n:base.length,a:as}):"";
@@ -559,7 +559,7 @@ function render(){
   var sOpen=$("season-box")&&$("season-box").open,sh=seasonHtml();$("seasonal").innerHTML=sh;$("seasonal").hidden=!sh;if(sOpen&&$("season-box"))$("season-box").open=true;
   document.title=fmt(t("docTitle"),{c:cityName(S.city)});
   $("list").innerHTML=list.length?list.map(function(e){return card(e,c.tz)}).join(""):all.length?'<p class="empty">'+esc(t("empty"))+'</p>':'<p class="empty">'+esc(t("comingSoon"))+'</p>';
-  $("foot").innerHTML='<span>'+esc(fmt(t("foot1"),{u:S.data.updated}))+'</span><span>'+esc(t("foot2"))+'</span>'
+  $("foot").innerHTML='<span>'+esc(fmt(t("foot1"),{u:S.data.updated}))+'</span><span>'+esc(t("foot2"))+'</span>'+(S.meZip?'<span>'+esc(t("zipSrc"))+'</span>':'')
 }
 function copyText(s,ok){(navigator.clipboard&&navigator.clipboard.writeText?navigator.clipboard.writeText(s):Promise.reject()).then(function(){toast(ok)},function(){toast(t("copyFail"))})}
 /* "When" in the words you'd use with a friend: 今天 / 明天 / 这周六 / 下周三 (zh), today / tomorrow / on Sat, Nov 21 (en). */
@@ -610,13 +610,21 @@ document.addEventListener("click",function(ev){
 });
 $("lang-zh").onclick=function(){S.lang="zh";store("kids.lang","zh");if(onCityUrl())syncUrl();render()};
 $("lang-en").onclick=function(){S.lang="en";store("kids.lang","en");if(onCityUrl())syncUrl();render()};
+/* A US ZIP or Canadian postal code also sets the point distances are measured from, looked up in docs/zips.json
+   (tools/zips.py) in the browser, so the code is never sent anywhere. */
+function postal(q){var m=q.match(/\b(\d{5})(?:-\d{4})?\b/);if(m)return m[1];m=q.toUpperCase().match(/\b([A-Z]\d[A-Z])\s?(\d[A-Z]\d)?\b/);return m?m[1]:""}
+function zipsReady(){return S.zips?Promise.resolve(S.zips):fetch(new URL("zips.json",ROOT).href).then(function(r){return r.ok?r.json():{}}).then(function(z){S.zips=z;return z}).catch(function(){return {}})}
 $("finder").addEventListener("submit",function(ev){ev.preventDefault();
-  var id=resolveCity($("addr").value);
-  if(id)setCity(id,["found"]);else{S.hint=["none"];render()}
+  var q=$("addr").value,id=resolveCity(q),code=postal(q);
+  (code?zipsReady():Promise.resolve({})).then(function(z){
+    var g=code&&z[code];
+    if(g){S.me=g;S.meZip=code;S.near=true;store("kids.loc",g.join(","));store("kids.zip",code)}
+    if(id)setCity(id,g?["zip",code]:["found"]);else if(g){S.hint=["zip",code];render()}else{S.hint=["none"];render()}
+  })
 });
 
 /* ---------- boot ---------- */
-var saved=store("kids.lang"),sa=store("kids.aud"),sl=(store("kids.loc")||"").split(",").map(Number);if(sl.length===2&&sl.every(isFinite))S.me=sl;if(sa==="family"||sa==="adult")S.aud=sa;
+var saved=store("kids.lang"),sa=store("kids.aud"),sl=(store("kids.loc")||"").split(",").map(Number);if(sl.length===2&&sl.every(isFinite)){S.me=sl;S.meZip=store("kids.zip")||""}if(sa==="family"||sa==="adult")S.aud=sa;
 S.lang=window.PAGE_LANG||(saved==="en"||saved==="zh"?saved:((navigator.language||"").toLowerCase().indexOf("zh")===0?"zh":"en"));
 render();
 /* ---------- install as app ---------- */
