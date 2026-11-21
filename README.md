@@ -19,6 +19,10 @@ Open `/xhs.html` on the live site (not linked from the main page). Pick a city t
 The "内容" menu switches between this weekend's events, the seasonal guide (`seasonal.json`, exhibitions left out) and 提前订票 (seasonal items and this week's events that need tickets and have `tips_zh`); `nyc+nj` and `la+oc` combine two cities into one carousel. To render without a browser: `NODE_PATH=$(npm root -g) node tools/render_xhs.js <out-dir> "city=nyc+nj" "city=nyc+nj&mode=season"` writes the PNGs and a `caption.txt` (title on the first line) per carousel. For a single long-form post (长文) instead of a carousel, so nothing depends on image order: `python3 tools/xhs_article.py <out-file> nyc+nj` writes the title and a day-by-day article (time, cost, place, ✨ moment, 📝 tips) to paste into the 长文 editor.
 Landmark silhouettes live in `docs/sky.js` and are shared by both pages.
 
+## Distance from you
+
+Events and seasonal items carry `"geo": [lat, lng]`, added by `python3 tools/geocode.py` after each data update (US addresses via the Census geocoder, Canada and US misses via OpenStreetMap Nominatim; cached in `tools/geocache.json`; vague addresses like "Vancouver area" are skipped). On a city page the 📍 离我最近 / Nearest chip asks for the browser's location, shows straight-line distance on each card (miles in the US, km in Canada) and sorts by it. The location is rounded to ~100 m and kept only in the visitor's localStorage; nothing is sent anywhere.
+
 ## App (PWA)
 The site installs as an app: `docs/manifest.webmanifest`, icons in `docs/icons/`, and `docs/sw.js` for offline use. Pages and `events.json` load network-first, so weekly updates show up right away; other files are cached. If you change cached files such as `sky.js` or the icons, bump `VERSION` in `sw.js`.
 Android/Chrome visitors see an "安装" button; iPhone visitors get "分享 → 添加到主屏幕" instructions. Dismissing the banner hides it for that browser.

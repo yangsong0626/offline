@@ -35,7 +35,11 @@
    "tips_zh": "热门夜晚常售罄，建议提前 1–2 周买票；12 月周末最挤，平日晚上通常人少些。",
    "tips_en": "Popular nights sell out; book 1–2 weeks ahead. December weekends are busiest.",
    "why_zh": "天黑后整条步道的动物彩灯一起亮起来，孩子会拉着你一盏一盏认是什么动物。",
-   "why_en": "When the trail goes dark and the animal lanterns glow, kids race to name every animal."
+   "why_en": "When the trail goes dark and the animal lanterns glow, kids race to name every animal.",
+   "geo": [
+    40.85162,
+    -73.88209
+   ]
   },
   {
    "id": "nybg-train-show",
@@ -65,7 +69,11 @@
    "tips_zh": "按时段卖票，周末和节假日要提前订；可坐 Metro-North 到 Botanical Garden 站，不用找停车位。",
    "tips_en": "Timed tickets; book weekends and holidays ahead. Metro-North to Botanical Garden station avoids parking.",
    "why_zh": "小火车从用树皮和松果做的纽约地标中间穿过，孩子会蹲下来找自己认识的楼。",
-   "why_en": "Trains wind past NYC landmarks made of bark and pinecones while kids crouch to spot buildings they know."
+   "why_en": "Trains wind past NYC landmarks made of bark and pinecones while kids crouch to spot buildings they know.",
+   "geo": [
+    40.85972,
+    -73.88064
+   ]
   },
   {
    "id": "bryant-park-village",
@@ -93,7 +101,11 @@
    "desc_en": "Free-admission rink plus holiday shops in Midtown.",
    "url": "https://bryantpark.org/",
    "why_zh": "在摩天楼和图书馆中间滑冰，滑累了捧一杯热可可在小木屋之间慢慢逛。",
-   "why_en": "Skating between skyscrapers, then wandering the little shops with a hot cocoa."
+   "why_en": "Skating between skyscrapers, then wandering the little shops with a hot cocoa.",
+   "geo": [
+    40.75484,
+    -73.98412
+   ]
   },
   {
    "id": "union-sq-market",
@@ -121,7 +133,11 @@
    "desc_en": "One of NYC's classic open-air holiday markets.",
    "url": "https://www.newyorkbigevent.com/local-guides-tips/nyc-christmas-events-calendar-2026/",
    "why_zh": "一家人在一排排小摊之间挑小礼物，顺手买点热乎乎的小吃边走边吃。",
-   "why_en": "Picking small gifts together between the stalls, snacks in hand."
+   "why_en": "Picking small gifts together between the stalls, snacks in hand.",
+   "geo": [
+    40.73607,
+    -73.99019
+   ]
   },
   {
    "id": "gct-fair",
@@ -149,7 +165,11 @@
    "desc_en": "Indoor holiday market in Vanderbilt Hall.",
    "url": "https://resident.com/new-york/2026/10/28/nycs-holiday-season-begins-with-these-15-things-to-do-in-november-2026",
    "why_zh": "逛完市集抬头看中央车站的星空穹顶，再告诉孩子这是全世界最有名的车站之一。",
-   "why_en": "After the market, look up at the starry ceiling of one of the world's most famous stations."
+   "why_en": "After the market, look up at the starry ceiling of one of the world's most famous stations.",
+   "geo": [
+    40.75254,
+    -73.97851
+   ]
   },
   {
    "id": "macys-santaland",
@@ -179,7 +199,11 @@
    "tips_zh": "预约制，名额放出后很快约满，记得早点上官网抢时段。",
    "tips_en": "Reservation slots fill quickly once released.",
    "why_zh": "排到最后，孩子终于坐到圣诞老人旁边，小声说出今年的愿望。",
-   "why_en": "At the end of the line, kids finally whisper their wish to Santa."
+   "why_en": "At the end of the line, kids finally whisper their wish to Santa.",
+   "geo": [
+    40.75048,
+    -73.98927
+   ]
   },
   {
    "id": "ocean-vuong-apa",
@@ -205,7 +229,11 @@
    "signup": false,
    "desc_zh": "📖 越南裔作家王鸥行(Ocean Vuong)主题展,在 NYU 亚太裔研究所。",
    "desc_en": "Exhibition on writer Ocean Vuong.",
-   "url": "https://www.aaartsalliance.org/events"
+   "url": "https://www.aaartsalliance.org/events",
+   "geo": [
+    40.73152,
+    -73.99602
+   ]
   },
   {
    "id": "magic-of-lights-holmdel",
@@ -235,7 +263,11 @@
    "tips_zh": "按车收费，11/19 前网上买有早鸟价；周五六晚上排车最久。",
    "tips_en": "Priced per car with early online pricing before Nov 19; Fri–Sat nights have the longest lines.",
    "why_zh": "一家人坐在车里放着圣诞歌，慢慢开过一条条灯光隧道，小宝宝也不怕冷。",
-   "why_en": "Holiday music on, the whole family rolls through tunnels of light, warm in the car."
+   "why_en": "Holiday music on, the whole family rolls through tunnels of light, warm in the car.",
+   "geo": [
+    40.373,
+    -74.14598
+   ]
   },
   {
    "id": "winter-wonderlights",
@@ -291,7 +323,11 @@
    "signup": false,
    "desc_zh": "🎄 普林斯顿老宅里的主题圣诞树展,20 周年。",
    "desc_en": "20th annual festival of decorated trees.",
-   "url": "https://www.newjerseystage.com/articles3/2026/11/10/events-this-week-in-new-jersey-from-november-10-16-2026/"
+   "url": "https://www.newjerseystage.com/articles3/2026/11/10/events-this-week-in-new-jersey-from-november-10-16-2026/",
+   "geo": [
+    40.34656,
+    -74.66731
+   ]
   },
   {
    "id": "paper-mill-poppins-s",
@@ -321,7 +357,11 @@
    "tips_zh": "节日季周末场次最先卖完，平日场和日场更容易买到。",
    "tips_en": "Holiday weekend shows sell first; weekday and matinee seats are easier.",
    "why_zh": "玛丽阿姨撑着伞飞起来的那一刻，全场小朋友都会张大嘴巴。",
-   "why_en": "When Mary Poppins floats up with her umbrella, every child in the room gasps."
+   "why_en": "When Mary Poppins floats up with her umbrella, every child in the room gasps.",
+   "geo": [
+    40.7265,
+    -74.30892
+   ]
   },
   {
    "id": "la-zoo-lights",
@@ -347,7 +387,11 @@
    "signup": true,
    "desc_zh": "🦒 全新灯光+仿真溜冰场+见圣诞老人+烤棉花糖!需购票。",
    "desc_en": "New light displays, a faux-ice rink, Santa visits and s'mores.",
-   "url": "https://www.discoverlosangeles.com/things-to-do/the-best-holiday-lights-in-los-angeles"
+   "url": "https://www.discoverlosangeles.com/things-to-do/the-best-holiday-lights-in-los-angeles",
+   "geo": [
+    34.14729,
+    -118.28441
+   ]
   },
   {
    "id": "descanso-enchanted",
@@ -373,7 +417,11 @@
    "signup": true,
    "desc_zh": "🌲 10 周年!森林灯光步道,分时段入场,12 月周末最先卖光。",
    "desc_en": "10th anniversary; timed entry, December weekends sell out first.",
-   "url": "https://www.discoverlosangeles.com/things-to-do/the-best-holiday-lights-in-los-angeles"
+   "url": "https://www.discoverlosangeles.com/things-to-do/the-best-holiday-lights-in-los-angeles",
+   "geo": [
+    34.20091,
+    -118.20643
+   ]
   },
   {
    "id": "enchant-santa-anita",
@@ -399,7 +447,11 @@
    "signup": true,
    "desc_zh": "🎄 华人多的 Arcadia!超大圣诞灯光迷宫+溜冰+市集。",
    "desc_en": "Giant Christmas light maze in Arcadia.",
-   "url": "https://www.discoverlosangeles.com/things-to-do/the-best-holiday-lights-in-los-angeles"
+   "url": "https://www.discoverlosangeles.com/things-to-do/the-best-holiday-lights-in-los-angeles",
+   "geo": [
+    34.13558,
+    -118.03927
+   ]
   },
   {
    "id": "sj-christmas-park",
@@ -425,7 +477,11 @@
    "signup": false,
    "desc_zh": "🎄 南湾经典免费圣诞公园:圣诞树、小木屋、灯光,11/28 晚开幕仪式。",
    "desc_en": "Free holiday park with decorated trees and lights; opening night Nov 28.",
-   "url": "https://buzzymoment.com/entertainment/christmas-in-the-park-2026-san-jose-holiday-lights/"
+   "url": "https://buzzymoment.com/entertainment/christmas-in-the-park-2026-san-jose-holiday-lights/",
+   "geo": [
+    37.33617,
+    -121.89059
+   ]
   },
   {
    "id": "lightscape-ggp",
@@ -451,7 +507,11 @@
    "signup": true,
    "desc_zh": "✨ 夜晚灯光艺术步道,拍照超出片,需买时段票。",
    "desc_en": "Illuminated after-dark trail; timed tickets.",
-   "url": "https://secretsanfrancisco.com/sf-bay-area-holiday-light-displays/"
+   "url": "https://secretsanfrancisco.com/sf-bay-area-holiday-light-displays/",
+   "geo": [
+    37.76818,
+    -122.49276
+   ]
   },
   {
    "id": "exploratorium-glow",
@@ -477,7 +537,11 @@
    "signup": true,
    "desc_zh": "💡 科学馆的光影节,室内玩光、玩影子,下雨天好去处。",
    "desc_en": "Light-and-glow themed exhibits at the science museum.",
-   "url": "https://www.travelrealizations.com/christmas-lights-in-the-san-francisco-bay-area/"
+   "url": "https://www.travelrealizations.com/christmas-lights-in-the-san-francisco-bay-area/",
+   "geo": [
+    37.80162,
+    -122.39737
+   ]
   },
   {
    "id": "roaring-camp-train",
@@ -503,7 +567,11 @@
    "signup": true,
    "desc_zh": "🚂 坐老式蒸汽小火车穿过红杉林灯光,需提前订票。",
    "desc_en": "Steam-train ride through the redwoods with lights.",
-   "url": "https://www.travelrealizations.com/christmas-lights-in-the-san-francisco-bay-area/"
+   "url": "https://www.travelrealizations.com/christmas-lights-in-the-san-francisco-bay-area/",
+   "geo": [
+    37.04605,
+    -122.0599
+   ]
   },
   {
    "id": "wildlanterns",
@@ -529,7 +597,11 @@
    "signup": true,
    "desc_zh": "🏮 动物园大型彩灯展,动物造型花灯超壮观!分时段票。",
    "desc_en": "Large lantern displays of animals; timed tickets.",
-   "url": "https://explorewashingtonstate.com/seattle-christmas-lights/"
+   "url": "https://explorewashingtonstate.com/seattle-christmas-lights/",
+   "geo": [
+    47.66868,
+    -122.35432
+   ]
   },
   {
    "id": "seattle-winterfest",
@@ -555,7 +627,11 @@
    "signup": false,
    "desc_zh": "🚂 Armory 里的冬季小火车和小村庄,树上挂满灯,免费!",
    "desc_en": "Winterfest Train and Village in the Armory plus tree lights; free.",
-   "url": "https://explorewashingtonstate.com/seattle-christmas-lights/"
+   "url": "https://explorewashingtonstate.com/seattle-christmas-lights/",
+   "geo": [
+    47.62203,
+    -122.3505
+   ]
   },
   {
    "id": "garden-dlights",
@@ -583,7 +659,11 @@
    "signup": true,
    "desc_zh": "🌸 东区经典灯展,灯泡做成花和植物的样子,12/25 休息。",
    "desc_en": "Lights shaped like plants and flowers; closed Dec 25.",
-   "url": "https://explorewashingtonstate.com/seattle-christmas-lights/"
+   "url": "https://explorewashingtonstate.com/seattle-christmas-lights/",
+   "geo": [
+    47.60996,
+    -122.175
+   ]
   },
   {
    "id": "fairmont-trees",
@@ -609,7 +689,11 @@
    "signup": false,
    "desc_zh": "🎄 酒店大堂的设计师圣诞树,免费参观(欢迎捐款)。",
    "desc_en": "Designer trees in the lobby; free, donations welcome.",
-   "url": "https://www.seattleschild.com/free-kid-friendly-events-this-weekend-november-2026/"
+   "url": "https://www.seattleschild.com/free-kid-friendly-events-this-weekend-november-2026/",
+   "geo": [
+    47.60825,
+    -122.33465
+   ]
   },
   {
    "id": "sheraton-gingerbread",
@@ -635,7 +719,11 @@
    "signup": false,
    "desc_zh": "🍪 建筑师们做的超大姜饼村,每年主题不同~",
    "desc_en": "Architect-built gingerbread village.",
-   "url": "https://www.seattleschild.com/free-kid-friendly-events-this-weekend-november-2026/"
+   "url": "https://www.seattleschild.com/free-kid-friendly-events-this-weekend-november-2026/",
+   "geo": [
+    47.61023,
+    -122.33353
+   ]
   },
   {
    "id": "saam-kondo",
@@ -667,7 +755,11 @@
    "signup": false,
    "desc_zh": "🏺 日本京都近藤家三代四位陶艺家的作品展,展到 1/3。",
    "desc_en": "Four ceramic artists across three generations of a Japanese family.",
-   "url": "https://www.seattleartmuseum.org/whats-on/events"
+   "url": "https://www.seattleartmuseum.org/whats-on/events",
+   "geo": [
+    47.62847,
+    -122.31449
+   ]
   },
   {
    "id": "stone-zoolights",
@@ -693,7 +785,11 @@
    "signup": true,
    "desc_zh": "✨ 小动物园变冬季灯光乐园,适合小小孩。",
    "desc_en": "Winter light display at Stone Zoo.",
-   "url": "https://www.meetboston.com/blog/post/family-fun-in-boston-this-holiday-season/"
+   "url": "https://www.meetboston.com/blog/post/family-fun-in-boston-this-holiday-season/",
+   "geo": [
+    42.46351,
+    -71.09203
+   ]
   },
   {
    "id": "snowport-s",
@@ -719,7 +815,11 @@
    "signup": false,
    "desc_zh": "❄️ 海港区的大型节日市集,第六季。",
    "desc_en": "Seaport holiday market, sixth season.",
-   "url": "https://www.bostonglobe.com/2026/11/12/arts/things-to-do-boston-this-weekend/"
+   "url": "https://www.bostonglobe.com/2026/11/12/arts/things-to-do-boston-this-weekend/",
+   "geo": [
+    42.35103,
+    -71.04381
+   ]
   },
   {
    "id": "christkindlmarket",
@@ -745,7 +845,11 @@
    "signup": false,
    "desc_zh": "🥨 德式圣诞市集:热红酒、香肠、木头小玩意~Wrigleyville 还有一个带溜冰场的分会场。",
    "desc_en": "German-style market; a second location in Wrigleyville has skating.",
-   "url": "https://www.thesavvyglobetrotter.com/christmas-in-chicago-things-to-do/"
+   "url": "https://www.thesavvyglobetrotter.com/christmas-in-chicago-things-to-do/",
+   "geo": [
+    41.88327,
+    -87.62961
+   ]
   },
   {
    "id": "lpz-zoolights",
@@ -771,7 +875,11 @@
    "signup": false,
    "desc_zh": "🦓 芝加哥经典动物园灯光节,部分日期免费,以官网为准。",
    "desc_en": "Classic zoo light festival.",
-   "url": "https://www.thesavvyglobetrotter.com/christmas-in-chicago-things-to-do/"
+   "url": "https://www.thesavvyglobetrotter.com/christmas-in-chicago-things-to-do/",
+   "geo": [
+    41.91855,
+    -87.63608
+   ]
   },
   {
    "id": "cbg-lightscape",
@@ -797,7 +905,11 @@
    "signup": true,
    "desc_zh": "✨ 冬季灯光步道,湖面倒影超美,需买时段票。",
    "desc_en": "Illuminated after-dark trail; timed tickets.",
-   "url": "https://www.chicagoparent.com/guides/15-of-the-top-family-friendly-things-to-do-in-chicagoland-this-november-4917cdc7"
+   "url": "https://www.chicagoparent.com/guides/15-of-the-top-family-friendly-things-to-do-in-chicagoland-this-november-4917cdc7",
+   "geo": [
+    42.14908,
+    -87.78959
+   ]
   },
   {
    "id": "brookfield-holiday",
@@ -823,7 +935,11 @@
    "signup": true,
    "desc_zh": "🎄 西郊动物园节日灯光,部分夜晚开放。",
    "desc_en": "Holiday lights on select nights.",
-   "url": "https://www.thesavvyglobetrotter.com/christmas-in-chicago-things-to-do/"
+   "url": "https://www.thesavvyglobetrotter.com/christmas-in-chicago-things-to-do/",
+   "geo": [
+    41.83536,
+    -87.83224
+   ]
   },
   {
    "id": "hou-zoo-lights",
@@ -852,7 +968,11 @@
    "signup": true,
    "desc_zh": "✨ 动物园节日灯光,12/9 和平安夜休息,圣诞夜开放。",
    "desc_en": "Holiday lights; closed Dec 9 and Dec 24.",
-   "url": "https://houston.com/festivals/houston-zoo-lights-guide"
+   "url": "https://houston.com/festivals/houston-zoo-lights-guide",
+   "geo": [
+    29.71333,
+    -95.39159
+   ]
   },
   {
    "id": "galaxy-lights-s",
@@ -878,7 +998,11 @@
    "signup": true,
    "desc_zh": "🚀 太空主题节日灯光秀+亲子活动。",
    "desc_en": "Space-themed holiday light display.",
-   "url": "https://www.houstononthecheap.com/houston-holiday-season-preview/"
+   "url": "https://www.houstononthecheap.com/houston-holiday-season-preview/",
+   "geo": [
+    29.54881,
+    -95.09797
+   ]
   },
   {
    "id": "moody-gardens-lights",
@@ -904,7 +1028,11 @@
    "signup": true,
    "desc_zh": "🎡 海岛灯光节+溜冰,开幕日期各来源不一,以官网为准。",
    "desc_en": "Island light festival; opening date varies by source.",
-   "url": "https://www.houstononthecheap.com/houston-holiday-season-preview/"
+   "url": "https://www.houstononthecheap.com/houston-holiday-season-preview/",
+   "geo": [
+    29.27464,
+    -94.85241
+   ]
   },
   {
    "id": "dickinson-lights",
@@ -930,7 +1058,11 @@
    "signup": false,
    "desc_zh": "🎄 免费灯光公园,开车或散步都行。",
    "desc_en": "Free light park.",
-   "url": "https://www.houstononthecheap.com/houston-holiday-season-preview/"
+   "url": "https://www.houstononthecheap.com/houston-holiday-season-preview/",
+   "geo": [
+    29.46079,
+    -95.05132
+   ]
   },
   {
    "id": "dg-ice-rink",
@@ -956,7 +1088,11 @@
    "signup": false,
    "desc_zh": "⛸️ 市中心户外溜冰,周一有便宜溜冰夜。",
    "desc_en": "Downtown outdoor rink; discounted Monday nights.",
-   "url": "https://www.houstononthecheap.com/houston-holiday-season-preview/"
+   "url": "https://www.houstononthecheap.com/houston-holiday-season-preview/",
+   "geo": [
+    29.75428,
+    -95.36059
+   ]
   },
   {
    "id": "arboretum-holiday",
@@ -982,7 +1118,11 @@
    "signup": true,
    "desc_zh": "🎄 著名的「圣诞十二天」维多利亚小屋+夜间灯光。",
    "desc_en": "The Twelve Days of Christmas gazebos plus evening lights.",
-   "url": "https://familyeguide.com/holiday-lights-in-dfw/"
+   "url": "https://familyeguide.com/holiday-lights-in-dfw/",
+   "geo": [
+    32.82169,
+    -96.71624
+   ]
   },
   {
    "id": "dallas-zoo-lights",
@@ -1008,7 +1148,11 @@
    "signup": true,
    "desc_zh": "✨ 两百多万盏灯,第十年!",
    "desc_en": "10th year, 2 million+ lights.",
-   "url": "https://familyeguide.com/holiday-lights-in-dfw/"
+   "url": "https://familyeguide.com/holiday-lights-in-dfw/",
+   "geo": [
+    32.74512,
+    -96.8121
+   ]
   },
   {
    "id": "prairie-lights",
@@ -1034,7 +1178,11 @@
    "signup": true,
    "desc_zh": "🚗 湖边开车看灯,每晚开放。",
    "desc_en": "Nightly drive-thru lights by the lake.",
-   "url": "https://familyeguide.com/holiday-lights-in-dfw/"
+   "url": "https://familyeguide.com/holiday-lights-in-dfw/",
+   "geo": [
+    32.63488,
+    -97.04446
+   ]
   },
   {
    "id": "six-flags-holiday",
@@ -1060,7 +1208,11 @@
    "signup": true,
    "desc_zh": "🎢 游乐园圣诞版:灯光+游乐设施,部分日期开放。",
    "desc_en": "Holiday lights and rides on select dates.",
-   "url": "https://familyeguide.com/holiday-lights-in-dfw/"
+   "url": "https://familyeguide.com/holiday-lights-in-dfw/",
+   "geo": [
+    32.75254,
+    -97.06498
+   ]
   },
   {
    "id": "dc-holiday-market-s",
@@ -1088,7 +1240,11 @@
    "signup": false,
    "desc_zh": "🎁 国家肖像馆门前 100+ 本地摊位,旁边有儿童游乐区,感恩节休息。",
    "desc_en": "100+ vendors outside the National Portrait Gallery; closed Thanksgiving.",
-   "url": "https://www.kidfriendlydc.com/2026/11/04/2026holidayguide/"
+   "url": "https://www.kidfriendlydc.com/2026/11/04/2026holidayguide/",
+   "geo": [
+    38.89736,
+    -77.02652
+   ]
   },
   {
    "id": "nz-zoolights",
@@ -1114,7 +1270,11 @@
    "signup": true,
    "desc_zh": "🐼 国家动物园冬季灯光节,部分夜晚开放。",
    "desc_en": "Winter lights on select nights.",
-   "url": "https://www.kidfriendlydc.com/2026/11/04/2026holidayguide/"
+   "url": "https://www.kidfriendlydc.com/2026/11/04/2026holidayguide/",
+   "geo": [
+    38.92912,
+    -77.05468
+   ]
   },
   {
    "id": "usbg-greenings",
@@ -1140,7 +1300,11 @@
    "signup": false,
    "desc_zh": "🚂 用植物做的华府地标微缩景观+小火车,免费!",
    "desc_en": "Plant-built DC landmarks and model trains; free.",
-   "url": "https://www.kidfriendlydc.com/2026/11/04/2026holidayguide/"
+   "url": "https://www.kidfriendlydc.com/2026/11/04/2026holidayguide/",
+   "geo": [
+    38.88885,
+    -77.01263
+   ]
   },
   {
    "id": "enchant-nationals",
@@ -1166,7 +1330,11 @@
    "signup": true,
    "desc_zh": "🎄 球场变灯光迷宫+溜冰道+市集。",
    "desc_en": "Light maze, skating trail and market.",
-   "url": "https://www.kidfriendlydc.com/2026/11/04/2026holidayguide/"
+   "url": "https://www.kidfriendlydc.com/2026/11/04/2026holidayguide/",
+   "geo": [
+    38.87458,
+    -77.00894
+   ]
   },
   {
    "id": "fords-carol-s",
@@ -1192,7 +1360,11 @@
    "signup": true,
    "desc_zh": "🎩 华府节日传统剧目。",
    "desc_en": "D.C.'s holiday tradition.",
-   "url": "https://washingtonian.com/2026/10/29/november-culture-guide-things-to-do-in-the-dc-area-2/"
+   "url": "https://washingtonian.com/2026/10/29/november-culture-guide-things-to-do-in-the-dc-area-2/",
+   "geo": [
+    38.8963,
+    -77.02591
+   ]
   },
   {
    "id": "knotts-merry-farm",
@@ -1218,7 +1390,11 @@
    "signup": true,
    "desc_zh": "🎅 诺氏乐园圣诞版:雪景、表演、见圣诞老人。",
    "desc_en": "Holiday season at Knott's.",
-   "url": "https://enjoyorangecounty.com/knotts-merry-farm/"
+   "url": "https://enjoyorangecounty.com/knotts-merry-farm/",
+   "geo": [
+    33.84375,
+    -118.00057
+   ]
   },
   {
    "id": "irvine-park-train",
@@ -1244,7 +1420,11 @@
    "signup": true,
    "desc_zh": "🚂 坐小火车去见圣诞老人,需提前买票。",
    "desc_en": "Christmas train ride; advance tickets required.",
-   "url": "https://enjoyorangecounty.com/winter-events/"
+   "url": "https://enjoyorangecounty.com/winter-events/",
+   "geo": [
+    33.79631,
+    -117.76088
+   ]
   },
   {
    "id": "spectrum-rink-s",
@@ -1270,7 +1450,11 @@
    "signup": false,
    "desc_zh": "⛸️ 尔湾商场户外溜冰,滑完去吃饭逛街~",
    "desc_en": "Outdoor rink at Irvine Spectrum.",
-   "url": "https://orangecoast.com/arts-culture/o-c-events/top-things-to-do-in-o-c-this-week-november-11th-through-17th/"
+   "url": "https://orangecoast.com/arts-culture/o-c-events/top-things-to-do-in-o-c-this-week-november-11th-through-17th/",
+   "geo": [
+    33.64957,
+    -117.74139
+   ]
   },
   {
    "id": "newport-boat-parade",
@@ -1296,7 +1480,11 @@
    "signup": false,
    "desc_zh": "⛵ 第 118 届!上百艘挂满灯的游艇在港湾巡游,免费观看。",
    "desc_en": "118th edition; free to watch from the harbor.",
-   "url": "https://enjoyorangecounty.com/winter-events/"
+   "url": "https://enjoyorangecounty.com/winter-events/",
+   "geo": [
+    33.6232,
+    -117.91113
+   ]
   },
   {
    "id": "sd-lightscape",
@@ -1322,7 +1510,11 @@
    "signup": true,
    "desc_zh": "✨ 一英里灯光步道,票价随日期浮动。",
    "desc_en": "Mile-long light trail; prices vary by date.",
-   "url": "https://lajollamom.com/san-diego-holiday-events-christmas/"
+   "url": "https://lajollamom.com/san-diego-holiday-events-christmas/",
+   "geo": [
+    33.05531,
+    -117.27895
+   ]
   },
   {
    "id": "jungle-bells",
@@ -1350,7 +1542,11 @@
    "signup": false,
    "desc_zh": "🐘 动物园节日灯光,含在门票里,平安夜休息。",
    "desc_en": "Holiday lights included with admission; closed Dec 24.",
-   "url": "https://www.tripster.com/travelguide/event/san-diego-zoo-jungle-bells/"
+   "url": "https://www.tripster.com/travelguide/event/san-diego-zoo-jungle-bells/",
+   "geo": [
+    32.73786,
+    -117.14881
+   ]
   },
   {
    "id": "grinch-globe-s",
@@ -1376,7 +1572,11 @@
    "signup": true,
    "desc_zh": "💚 巴尔博亚公园年度节日剧,适合全家。",
    "desc_en": "Annual family holiday show.",
-   "url": "https://www.sandiego.org/article/top-november-events"
+   "url": "https://www.sandiego.org/article/top-november-events",
+   "geo": [
+    32.73226,
+    -117.15179
+   ]
   },
   {
    "id": "sd-parade-lights",
@@ -1404,7 +1604,11 @@
    "signup": false,
    "desc_zh": "⛵ 约 80 艘灯光船,12/13 和 12/20 两个周日晚上,免费。",
    "desc_en": "About 80 lit boats on Dec 13 and 20; free.",
-   "url": "https://lajollamom.com/san-diego-holiday-events-christmas/"
+   "url": "https://lajollamom.com/san-diego-holiday-events-christmas/",
+   "geo": [
+    32.71571,
+    -117.16383
+   ]
   },
   {
    "id": "abg-garden-lights",
@@ -1430,7 +1634,11 @@
    "signup": true,
    "desc_zh": "✨ 亚特兰大最受欢迎的灯光展,需买时段票。",
    "desc_en": "Atlanta's favorite garden light show; timed tickets.",
-   "url": "https://atlantabg.org/plan-your-visit/atlanta-garden-calendar/garden-lights-holiday-nights/"
+   "url": "https://atlantabg.org/plan-your-visit/atlanta-garden-calendar/garden-lights-holiday-nights/",
+   "geo": [
+    33.79032,
+    -84.37522
+   ]
   },
   {
    "id": "callaway-fantasy",
@@ -1456,7 +1664,11 @@
    "signup": true,
    "desc_zh": "🚗 一千万盏灯、七英里路线,开车或坐游览车看。",
    "desc_en": "10 million lights along a seven-mile route.",
-   "url": "https://exploregeorgia.org/things-to-do/article/georgias-signature-holiday-events"
+   "url": "https://exploregeorgia.org/things-to-do/article/georgias-signature-holiday-events",
+   "geo": [
+    32.82845,
+    -84.84354
+   ]
   },
   {
    "id": "stone-mtn-christmas",
@@ -1482,7 +1694,11 @@
    "signup": true,
    "desc_zh": "🎄 灯光、表演、雪地小火车,部分日期开放。",
    "desc_en": "Lights, shows and a snow train on select dates.",
-   "url": "https://paigemindsthegap.com/how-to-spend-christmas-in-atlanta/"
+   "url": "https://paigemindsthegap.com/how-to-spend-christmas-in-atlanta/",
+   "geo": [
+    33.81354,
+    -84.14185
+   ]
   },
   {
    "id": "cavalcade",
@@ -1508,7 +1724,11 @@
    "signup": false,
    "desc_zh": "🎄 11/28 开幕夜点树+演出,冬天在 TORONTO 字牌前溜冰,周六 16–22 点免费租鞋!",
    "desc_en": "Free; opening night Nov 28; free skate rentals Saturdays 4–10pm.",
-   "url": "https://www.destinationtoronto.com/events/annual-festivals-and-events/cavalcade-of-lights/"
+   "url": "https://www.destinationtoronto.com/events/annual-festivals-and-events/cavalcade-of-lights/",
+   "geo": [
+    43.6536,
+    -79.38401
+   ]
   },
   {
    "id": "casa-loma-xmas",
@@ -1534,7 +1754,11 @@
    "signup": true,
    "desc_zh": "🏰 城堡里的设计师圣诞树+圣诞老人工坊,晚上还有灯光游览。",
    "desc_en": "Decorated rooms, Santa's Workshop and an evening lights tour.",
-   "url": "https://www.destinationtoronto.com/leisure-blog/post/things-to-do-in-toronto-holiday-season/"
+   "url": "https://www.destinationtoronto.com/leisure-blog/post/things-to-do-in-toronto-holiday-season/",
+   "geo": [
+    43.6781,
+    -79.40942
+   ]
   },
   {
    "id": "ccm-momentum-s",
@@ -1566,7 +1790,11 @@
    "signup": false,
    "desc_zh": "🏀 华裔加拿大运动员的故事:足球、冰球、篮球、花滑…展到 2027 年 9 月。",
    "desc_en": "Chinese Canadian athletes across many sports, through Sept 2027.",
-   "url": "https://www.chinesecanadianmuseum.ca/"
+   "url": "https://www.chinesecanadianmuseum.ca/",
+   "geo": [
+    49.28069,
+    -123.10315
+   ]
   },
   {
    "id": "van-xmas-market",
@@ -1592,7 +1820,11 @@
    "signup": true,
    "desc_zh": "🎄 海边德式圣诞市集,需网上买时段票。",
    "desc_en": "German-style market by the water; timed tickets online.",
-   "url": "https://miss604.com/2026/10/events-in-vancouver-november-2026/"
+   "url": "https://miss604.com/2026/10/events-in-vancouver-november-2026/",
+   "geo": [
+    49.28951,
+    -123.1152
+   ]
   },
   {
    "id": "vandusen-lights",
@@ -1620,7 +1852,11 @@
    "signup": true,
    "desc_zh": "✨ 温哥华最经典的灯光节,圣诞节休息。",
    "desc_en": "Vancouver's classic light festival; closed Dec 25.",
-   "url": "https://fanvancouver.com/vancouver/vandusen-festival-of-lights/"
+   "url": "https://fanvancouver.com/vancouver/vandusen-festival-of-lights/",
+   "geo": [
+    49.23931,
+    -123.1288
+   ]
   },
   {
    "id": "canyon-lights",
@@ -1646,7 +1882,11 @@
    "signup": true,
    "desc_zh": "🌉 吊桥和雨林挂满灯,结束日期各来源不一,以官网为准。",
    "desc_en": "Lights on the bridge and rainforest; end date varies by source.",
-   "url": "https://fanvancouver.com/vancouver/christmas-lights/"
+   "url": "https://fanvancouver.com/vancouver/christmas-lights/",
+   "geo": [
+    49.32585,
+    -123.12068
+   ]
   },
   {
    "id": "bright-nights",
@@ -1672,7 +1912,11 @@
    "signup": true,
    "desc_zh": "🚂 原来斯坦利公园的灯光小火车搬到素里了!",
    "desc_en": "The former Stanley Park light train, now in Surrey.",
-   "url": "https://fanvancouver.com/vancouver/christmas-lights/"
+   "url": "https://fanvancouver.com/vancouver/christmas-lights/",
+   "geo": [
+    49.11271,
+    -122.73447
+   ]
   },
   {
    "id": "nycb-nutcracker",
@@ -1702,7 +1946,11 @@
    "tips_en": "Shows around Christmas go first; best for kids about 5+ who can sit through it.",
    "url": "https://resident.com/new-york/2026/10/28/nycs-holiday-season-begins-with-these-15-things-to-do-in-november-2026",
    "why_zh": "第一幕结尾舞台上开始下雪，圣诞树越长越高，是很多纽约家庭每年的仪式。",
-   "why_en": "Act I ends with snow falling and the tree growing ever taller, a yearly ritual for many NYC families."
+   "why_en": "Act I ends with snow falling and the tree growing ever taller, a yearly ritual for many NYC families.",
+   "geo": [
+    40.77113,
+    -73.98168
+   ]
   },
   {
    "id": "snug-lantern",
@@ -1732,7 +1980,11 @@
    "why_en": "Walking through a lantern tunnel as kids point at dragons and phoenixes and ask for the stories.",
    "tips_zh": "结束日期各来源不一(1/6 或 1/10),以官网为准;坐史坦顿岛渡轮过去也是一种体验。",
    "tips_en": "End date varies by source (Jan 6 or 10); the Staten Island Ferry is part of the fun.",
-   "url": "https://secretnyc.co/?p=407543"
+   "url": "https://secretnyc.co/?p=407543",
+   "geo": [
+    40.64483,
+    -74.10092
+   ]
   },
   {
    "id": "qcf-lantern",
@@ -1760,7 +2012,11 @@
    "desc_en": "Lanterns shaped like flowers, tractors and farm animals.",
    "why_zh": "小朋友在发光的拖拉机和小羊之间跑来跑去,每个都要合影。",
    "why_en": "Kids running between glowing tractors and sheep, wanting a photo with each.",
-   "url": "https://secretnyc.co/winter-lantern-festival-queens-county-farm-museum/"
+   "url": "https://secretnyc.co/winter-lantern-festival-queens-county-farm-museum/",
+   "geo": [
+    40.74812,
+    -73.71948
+   ]
   },
   {
    "id": "moca-ed-young",
@@ -1788,7 +2044,11 @@
    "desc_en": "Exhibition of Caldecott-winning picture-book artist Ed Young, through Jan 24.",
    "why_zh": "孩子认出床头那本绘本的原画,原来画画的爷爷也是华人。",
    "why_en": "Kids recognizing the original art from a bedtime book, by a Chinese American artist.",
-   "url": "https://www.mocanyc.org/calendar/"
+   "url": "https://www.mocanyc.org/calendar/",
+   "geo": [
+    40.71944,
+    -73.99889
+   ]
   },
   {
    "id": "adventure-aq-xmas",
@@ -1816,7 +2076,11 @@
    "desc_en": "Scuba Santa and the world's tallest underwater Christmas tree.",
    "why_zh": "圣诞老人在玻璃另一边吐着泡泡朝孩子挥手。",
    "why_en": "Santa waving at the kids from the other side of the glass, trailing bubbles.",
-   "url": "https://www.njfamily.com/things-to-do-this-weekend-in-nj-november-20-22-2026/"
+   "url": "https://www.njfamily.com/things-to-do-this-weekend-in-nj-november-20-22-2026/",
+   "geo": [
+    39.94337,
+    -75.13026
+   ]
   },
   {
    "id": "harbourfrost",
@@ -1842,7 +2106,11 @@
    "signup": false,
    "desc_zh": "❄️ 湖滨冬季市集和活动。",
    "desc_en": "Lakeside winter market and programming.",
-   "url": "https://childslife.ca/whats-on-this-weekend/"
+   "url": "https://childslife.ca/whats-on-this-weekend/",
+   "geo": [
+    43.6389,
+    -79.38284
+   ]
   },
   {
    "id": "sawdust-winter",
@@ -1872,7 +2140,11 @@
    "signup": false,
    "desc_zh": "🎨 拉古纳海滩的冬季艺术家市集,每周五到周日。",
    "desc_en": "Artist market Fridays–Sundays.",
-   "url": "https://enjoyorangecounty.com/whats-happening/"
+   "url": "https://enjoyorangecounty.com/whats-happening/",
+   "geo": [
+    33.55058,
+    -117.7792
+   ]
   },
   {
    "id": "north-pole-express-chi",
