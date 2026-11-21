@@ -118,6 +118,7 @@ h3{margin:0;font-size:18px;line-height:1.3;font-weight:600;text-wrap:balance}
 .where a{text-underline-offset:3px}
 .meta{display:flex;flex-wrap:wrap;gap:6px}
 .meta span{background:var(--chip);border-radius:6px;padding:2px 8px;font-size:12.5px}
+.meta .dist,.who .dist{color:var(--accent);font-weight:600}
 .meta .free{background:var(--a-bg);color:var(--accent);font-weight:600}
 .desc{margin:0;font-size:14.5px;white-space:pre-line}
 .pick{margin:8px 0 0;font-size:14px;line-height:1.5;background:var(--a-bg);border-radius:10px;padding:8px 10px}
@@ -242,7 +243,7 @@ var T={
   hintSaved:"已记住你上次选的城市:{c}。",hintFound:"已切换到 {c}。",
   hintNone:"暂时只覆盖下面 {n} 个城市,没有找到匹配,请从下面选一个最近的。",comingSoon:"这个城市本周的活动还在整理中,周五更新时补上。",
   weekend:"{s}–{e} 周末",week:"{s}–{e} 周末 · 周中到 {w}",mid:"周中",later:"之后",wxPending:"天气预报在周五更新时补上",sat:"周六",sun:"周日",fri:"周五",
-  all:"全部",asian:"华人 / 亚裔",free:"免费",indoor:"室内",
+  all:"全部",asian:"华人 / 亚裔",free:"免费",indoor:"室内",near:"📍 离我最近",distMi:"距你约 {n} 英里",distKm:"距你约 {n} 公里",locAsk:"正在获取位置…",locOk:"已按距离排序。位置只保存在你自己的设备上",locNo:"没拿到位置:请在浏览器设置里允许定位后再试",
   count:"共 {n} 个活动,其中华人 / 亚裔 {a} 个",empty:"这个筛选下没有活动,换一个条件试试。",
   tierA:"华人社区",tierB:"亚裔文化",freeL:"免费",signup:"需报名 / 购票",indoorL:"室内",outdoorL:"户外",
   addCal:"加入日历",gcal:"Google 日历",outlook:"Outlook 日历",ics:"下载 .ics(Apple 日历)",copy:"复制活动信息",
@@ -261,7 +262,7 @@ var T={
   hintSaved:"Remembered your last city: {c}.",hintFound:"Switched to {c}.",
   hintNone:"We cover the {n} cities below for now and found no match. Pick the closest one.",comingSoon:"Events for this city are still being compiled. Check back after Friday's update.",
   weekend:"Weekend of {s}–{e}",week:"Weekend of {s}–{e} · weekdays through {w}",mid:"Weekdays",later:"Later",wxPending:"Forecast is added on Friday's update",sat:"Sat",sun:"Sun",fri:"Fri",
-  all:"All",asian:"Chinese / Asian",free:"Free",indoor:"Indoor",
+  all:"All",asian:"Chinese / Asian",free:"Free",indoor:"Indoor",near:"📍 Nearest",distMi:"{n} mi away",distKm:"{n} km away",locAsk:"Finding your location…",locOk:"Sorted by distance. Your location stays on this device",locNo:"Couldn't get your location: allow location access in your browser and try again",
   count:"{n} events, {a} Chinese / Asian community",empty:"Nothing matches these filters. Try another.",
   tierA:"Chinese community",tierB:"Asian culture",freeL:"Free",signup:"Sign-up / tickets",indoorL:"Indoor",outdoorL:"Outdoor",
   addCal:"Add to calendar",gcal:"Google Calendar",outlook:"Outlook Calendar",ics:"Download .ics (Apple Calendar)",copy:"Copy details",
@@ -309,7 +310,7 @@ var ZIP3=[ // [from,to,city]
 var FSA={v:"van",m:"tor",l:"tor"}; // Canadian postal code first letter
 var TZ_DEFAULT={"America/New_York":"nyc","America/Detroit":"nyc","America/Chicago":"chi","America/Los_Angeles":"la","America/Denver":"chi","America/Phoenix":"la","America/Toronto":"tor","America/Vancouver":"van"};
 
-var S={deals:[],season:null,lib:null,lang:"zh",city:"nyc",aud:"all",day:"all",asian:false,free:false,indoor:false,data:null,hint:["tz"]};
+var S={deals:[],season:null,lib:null,lang:"zh",city:"nyc",aud:"all",day:"all",asian:false,free:false,indoor:false,near:false,me:null,data:null,hint:["tz"]};
 var $=function(id){return document.getElementById(id)};
 function esc(s){return String(s==null?"":s).replace(/[&<>"']/g,function(c){return {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]})}
 function fmt(s,o){return s.replace(/\{(\w+)\}/g,function(_,k){return o[k]})}
@@ -395,6 +396,17 @@ function pool(c){var td=todayIn(c.tz),up=c.events.filter(function(e){return e.da
 /* Events past this issue's window (weekend + weekdays) live under 「之后」 so the default list stays about this week. */
 function winEnd(){return (S.data.week||S.data.weekend).end}
 function onDay(e,k){var w=dow(e.date);if(k==="later")return e.date>winEnd();if(e.date>winEnd())return false;return k==="all"||(k==="mid"?w>=1&&w<=4:w===({fri:5,sat:6,sun:0})[k])}
+/* Straight-line distance from the visitor (only if they tapped 📍 and allowed location) to an event's "geo" (tools/geocode.py). */
+function distKm(g){if(!S.me||!g)return null;var r=Math.PI/180,a=Math.sin((g[0]-S.me[0])*r/2),b=Math.sin((g[1]-S.me[1])*r/2);
+  return 12742*Math.asin(Math.sqrt(a*a+Math.cos(S.me[0]*r)*Math.cos(g[0]*r)*b*b))}
+function distLabel(g){var k=distKm(g);if(k===null)return "";var metric=S.city==="tor"||S.city==="van",n=metric?k:k/1.609;
+  return fmt(t(metric?"distKm":"distMi"),{n:n<1?"<1":n<10?n.toFixed(1):Math.round(n)})}
+function locate(){
+  if(!navigator.geolocation){toast(t("locNo"));return}
+  toast(t("locAsk"));
+  navigator.geolocation.getCurrentPosition(function(p){
+    S.me=[+p.coords.latitude.toFixed(3),+p.coords.longitude.toFixed(3)];S.near=true;store("kids.loc",S.me.join(","));toast(t("locOk"));render()},
+   function(){toast(t("locNo"))},{maximumAge:6e5,timeout:15000})}
 function visible(c){
   return pool(c).filter(function(e){
     if(!forAud(e))return false;
@@ -402,7 +414,8 @@ function visible(c){
     if(S.asian&&e.tier==="C")return false;
     if(S.free&&!e.free)return false;
     if(S.indoor&&!e.indoor)return false;return true})
-  .sort(function(a,b){return (S.lang==="zh"?(a.tier>b.tier?1:a.tier<b.tier?-1:0):0)||a.date.localeCompare(b.date)||(a.start||"99").localeCompare(b.start||"99")})
+  .sort(function(a,b){if(S.near&&S.me){var da=distKm(a.geo),db=distKm(b.geo);if(da!==db)return da===null?1:db===null?-1:da-db}
+    return (S.lang==="zh"?(a.tier>b.tier?1:a.tier<b.tier?-1:0):0)||a.date.localeCompare(b.date)||(a.start||"99").localeCompare(b.start||"99")})
 }
 /* Editor's notes for top picks: why it's worth going, and practical tips (age, parking, rain plan, crowds). */
 function pickHtml(e){var L=S.lang==="zh"?"zh":"en",w=e["why_"+L]||e.why_zh,tp=e["tips_"+L]||e.tips_zh;if(!w&&!tp)return "";
@@ -416,6 +429,7 @@ function card(e,tz){
   meta.push('<span>'+esc(t("ages"))+" "+esc(x.ages)+'</span>');
   meta.push('<span>'+esc(e.indoor?t("indoorL"):t("outdoorL"))+'</span>');
   if(e.signup)meta.push('<span>'+esc(t("signup"))+'</span>');
+  var dl=distLabel(e.geo);if(dl)meta.unshift('<span class="dist">'+esc(dl)+'</span>');
   var map="https://www.google.com/maps/search/?api=1&query="+encodeURIComponent(e.venue+" "+e.address);
   return '<article class="card" id="e-'+esc(e.id)+'" data-id="'+esc(e.id)+'">'+
    '<div class="when"><span class="d">'+(S.lang==="zh"?p.m+"/"+p.d:p.d)+'</span><span class="w">'+esc(S.lang==="zh"?wd:wd+" · "+dateLabel(e.date).split(" ")[0])+'</span>'+
@@ -490,10 +504,10 @@ function seasonHtml(){
     return fmt(t("szUntil"),{d:shortDate(x.end,x.end>addMinutes(td,"00:00",120*1440).date)})}
   var more='<a class="more" href="'+esc(new URL(cityPath(S.city)+"guides/"+sz.season.slug+"/",ROOT).href)+'">'+esc(fmt(t("szMore"),{c:cityName(S.city),s:sz.season[L]}))+'</a>';
   return '<details id="season-box"><summary><h3>'+esc(fmt(t("szTitle"),{n:open.length}))+'</h3></summary><ul>'+open.concat(soon).map(function(x){
-    var cost=x.free?t("freeL"):(x["cost_"+L]||x.cost_zh);
+    var cost=x.free?t("freeL"):(x["cost_"+L]||x.cost_zh),dl=distLabel(x.geo);
     return '<li><span class="dd">'+esc(tag(x))+'</span><span><a href="'+esc(x.url)+'" target="_blank" rel="noopener">'+esc(x["title_"+L]||x.title_zh)+'</a>'+
      (x.tier==="A"?' <span class="badge A">'+esc(t("tierA"))+'</span>':x.tier==="B"?' <span class="badge B">'+esc(t("tierB"))+'</span>':'')+
-     '<br><span class="who">'+esc([x.venue,x["hours_"+L]||x.hours_zh,cost].filter(function(v,i,a){return v&&(i<2||v!==a[1])&&!/^(以官网为准|See website)$/.test(v)}).join(" · "))+'</span></span></li>'}).join("")+'</ul>'+more+'</details>'
+     '<br><span class="who">'+esc([x.venue,x["hours_"+L]||x.hours_zh,cost].filter(function(v,i,a){return v&&(i<2||v!==a[1])&&!/^(以官网为准|See website)$/.test(v)}).join(" · "))+(dl?' · <span class="dist">'+esc(dl)+'</span>':'')+'</span></span></li>'}).join("")+'</ul>'+more+'</details>'
 }
 /* ---------- library programs (docs/library.json, built by tools/fetch_libraries.py + library_digest.py) ---------- */
 function libHtml(){
@@ -529,7 +543,8 @@ function render(){
   var pl=pool(c),days=[["all",t("all")]].concat([["fri",t("fri")],["sat",t("sat")],["sun",t("sun")],["mid",t("mid")],["later",t("later")]].filter(function(d){return pl.some(function(e){return onDay(e,d[0])})}));
   if(!days.some(function(d){return d[0]===S.day}))S.day="all";
   $("filters").innerHTML=days.map(function(d){return '<button type="button" class="chip" data-day="'+d[0]+'" aria-pressed="'+(S.day===d[0])+'">'+esc(d[1])+'</button>'}).join("")+'<span class="gap"></span>'+
-   [["asian",t("asian")],["free",t("free")],["indoor",t("indoor")]].map(function(f){return '<button type="button" class="chip" data-flag="'+f[0]+'" aria-pressed="'+S[f[0]]+'">'+esc(f[1])+'</button>'}).join("");
+   [["asian",t("asian")],["free",t("free")],["indoor",t("indoor")]].map(function(f){return '<button type="button" class="chip" data-flag="'+f[0]+'" aria-pressed="'+S[f[0]]+'">'+esc(f[1])+'</button>'}).join("")+
+   (pl.some(function(e){return e.geo})?'<button type="button" class="chip" data-near="1" aria-pressed="'+(S.near&&!!S.me)+'">'+esc(t("near"))+'</button>':'');
   $("aud").innerHTML=[["all","audAll"],["family","audFamily"],["adult","audAdult"]].map(function(a){return '<button type="button" data-aud="'+a[0]+'" aria-pressed="'+(S.aud===a[0])+'">'+esc(t(a[1]))+'</button>'}).join("");
   var all=c.events,base=pl.filter(function(e){return e.date<=winEnd()&&forAud(e)}),as=base.filter(function(e){return e.tier!=="C"}).length,list=visible(c);
   $("count").textContent=base.length?fmt(t("count"),{n:base.length,a:as}):"";
@@ -571,11 +586,12 @@ function toast(msg){var el=$("toast");el.textContent=msg;el.classList.add("on");
 
 /* ---------- events ---------- */
 document.addEventListener("click",function(ev){
-  var b=ev.target.closest("[data-city],[data-aud],[data-day],[data-flag],[data-copy],[data-ics],[data-share],[data-subcopy]"),open=document.querySelectorAll("details.cal[open]");
+  var b=ev.target.closest("[data-near],[data-city],[data-aud],[data-day],[data-flag],[data-copy],[data-ics],[data-share],[data-subcopy]"),open=document.querySelectorAll("details.cal[open]");
   if(!ev.target.closest("details.cal"))open.forEach(function(d){d.removeAttribute("open")});
   else open.forEach(function(d){if(!d.contains(ev.target))d.removeAttribute("open")});
   if(!b)return;
-  if(b.dataset.share){shareEvent(b.dataset.share)}
+  if(b.dataset.near){if(S.me){S.near=!S.near;render()}else locate()}
+  else if(b.dataset.share){shareEvent(b.dataset.share)}
   else if(b.dataset.subcopy){copyText(b.dataset.subcopy,t("subCopied"))}
   else if(b.dataset.city){setCity(b.dataset.city,["found"])}
   else if(b.dataset.aud){S.aud=b.dataset.aud;store("kids.aud",S.aud);render()}
@@ -600,7 +616,7 @@ $("finder").addEventListener("submit",function(ev){ev.preventDefault();
 });
 
 /* ---------- boot ---------- */
-var saved=store("kids.lang"),sa=store("kids.aud");if(sa==="family"||sa==="adult")S.aud=sa;
+var saved=store("kids.lang"),sa=store("kids.aud"),sl=(store("kids.loc")||"").split(",").map(Number);if(sl.length===2&&sl.every(isFinite))S.me=sl;if(sa==="family"||sa==="adult")S.aud=sa;
 S.lang=window.PAGE_LANG||(saved==="en"||saved==="zh"?saved:((navigator.language||"").toLowerCase().indexOf("zh")===0?"zh":"en"));
 render();
 /* ---------- install as app ---------- */
