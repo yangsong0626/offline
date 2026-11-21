@@ -242,7 +242,7 @@ var T={
   hintTz:"已按你的时区先选了 {c}。输入邮编或地址,可以切换到最近的城市。",
   hintSaved:"已记住你上次选的城市:{c}。",hintFound:"已切换到 {c}。",hintZip:"{c} · 已按离 {z} 的距离排序(邮编只在你的设备上使用)。",nearZip:"📍 离 {z} 最近",zipSrc:"邮编坐标来自 GeoNames (CC BY 4.0)。",
   hintNone:"暂时只覆盖下面 {n} 个城市,没有找到匹配,请从下面选一个最近的。",comingSoon:"这个城市本周的活动还在整理中,周五更新时补上。",
-  weekend:"{s}–{e} 周末",week:"{s}–{e} 周末 · 周中到 {w}",mid:"周中",later:"之后",wxPending:"天气预报在周五更新时补上",sat:"周六",sun:"周日",fri:"周五",
+  weekend:"{s}–{e} 周末",week:"{s}–{e} 周末 · 周中到 {w}",mid:"周中",later:"之后",wxPending:"正在获取天气预报…",wxRain:"降水 {p}%",sat:"周六",sun:"周日",fri:"周五",
   all:"全部",asian:"华人 / 亚裔",free:"免费",indoor:"室内",near:"📍 离我最近",distMi:"距你约 {n} 英里",distKm:"距你约 {n} 公里",locAsk:"正在获取位置…",locOk:"已按距离排序。位置只保存在你自己的设备上",locNo:"没拿到位置:可以在上方输入邮编,或在浏览器设置里允许定位",
   count:"共 {n} 个活动,其中华人 / 亚裔 {a} 个",empty:"这个筛选下没有活动,换一个条件试试。",
   tierA:"华人社区",tierB:"亚裔文化",freeL:"免费",signup:"需报名 / 购票",indoorL:"室内",outdoorL:"户外",
@@ -250,7 +250,7 @@ var T={
   copied:"已复制,粘贴到日历的新建事件里即可",copyFail:"复制失败,请手动选择文字",
   site:"活动官网",map:"地图",ages:"适合",
   foot1:"更新于 {u}。活动时间、价格和是否需要报名可能变动,出发前请以主办方官网为准。",
-  foot2:"天气来自公开预报,仅供安排行程参考。",
+  foot2:"天气预报来自 Open-Meteo (CC BY 4.0),仅供安排行程参考。",
   eventsFail:"活动数据加载失败,请刷新页面重试。",
   docTitle:"{c}周末去哪儿 · 周末不无聊",dealsTitle:"💸 本周能用的免费 / 优惠({n})",dealsAny:"随时",dealsMore:"📖 {c}免费博物馆日 & 优惠全攻略 →",szTitle:"🎄 季节限定 · 本周开放({n})",szSoon:"{d} 开幕",szNew:"本周新开",szLast:"本周结束",szEnds:"{d} 结束",szUntil:"至 {d}",szMore:"📖 {c}{s}灯光、市集、溜冰全攻略 →",libTitle:"📚 图书馆免费活动({n})",libZh:"中文",libKids:"亲子",libMore:"{n} 个分馆",libLater:"之后的中文活动",libNote:"图书馆活动都免费,每周从各图书馆官网自动更新;名额和时间以官网为准。",share:"💌 约人一起去",shared:"邀请已复制,粘贴到微信发给 TA 吧",invite:"{w}，一起去「{t}」吗？",today:"今天",tomorrow:"明天",thisWk:"这",nextWk:"下",
   subTitle:"📅 订阅{c}活动到日历(每周自动更新)",subApple:"Apple 日历 / Outlook",subGoogle:"Google 日历",subCopy:"复制订阅链接",subCopied:"订阅链接已复制",
@@ -261,7 +261,7 @@ var T={
   hintTz:"Picked {c} from your time zone. Enter a ZIP or address to switch to the nearest city.",
   hintSaved:"Remembered your last city: {c}.",hintFound:"Switched to {c}.",hintZip:"{c} · sorted by distance from {z} (your postal code stays on this device).",nearZip:"📍 Nearest to {z}",zipSrc:"Postal code locations: GeoNames (CC BY 4.0).",
   hintNone:"We cover the {n} cities below for now and found no match. Pick the closest one.",comingSoon:"Events for this city are still being compiled. Check back after Friday's update.",
-  weekend:"Weekend of {s}–{e}",week:"Weekend of {s}–{e} · weekdays through {w}",mid:"Weekdays",later:"Later",wxPending:"Forecast is added on Friday's update",sat:"Sat",sun:"Sun",fri:"Fri",
+  weekend:"Weekend of {s}–{e}",week:"Weekend of {s}–{e} · weekdays through {w}",mid:"Weekdays",later:"Later",wxPending:"Loading the forecast…",wxRain:"{p}% precip",sat:"Sat",sun:"Sun",fri:"Fri",
   all:"All",asian:"Chinese / Asian",free:"Free",indoor:"Indoor",near:"📍 Nearest",distMi:"{n} mi away",distKm:"{n} km away",locAsk:"Finding your location…",locOk:"Sorted by distance. Your location stays on this device",locNo:"Couldn't get your location: enter your ZIP above, or allow location access in your browser",
   count:"{n} events, {a} Chinese / Asian community",empty:"Nothing matches these filters. Try another.",
   tierA:"Chinese community",tierB:"Asian culture",freeL:"Free",signup:"Sign-up / tickets",indoorL:"Indoor",outdoorL:"Outdoor",
@@ -269,7 +269,7 @@ var T={
   copied:"Copied. Paste it into a new calendar event.",copyFail:"Copy failed. Select the text manually.",
   site:"Event site",map:"Map",ages:"Ages",
   foot1:"Updated {u}. Times, prices and sign-up rules can change. Check the organizer's site before you go.",
-  foot2:"Weather comes from public forecasts and is a planning aid only.",
+  foot2:"Forecast by Open-Meteo (CC BY 4.0); a planning aid only.",
   eventsFail:"Could not load events. Please refresh.",
   docTitle:"Things to do in {c} this weekend · No Boring Weekends",dealsTitle:"💸 Free & discount days this week ({n})",dealsAny:"Any day",dealsMore:"📖 Free museum days & discounts in {c} →",szTitle:"🎄 Seasonal · open this week ({n})",szSoon:"Opens {d}",szNew:"New this week",szLast:"Last week",szEnds:"Ends {d}",szUntil:"To {d}",szMore:"📖 {c} {s} guide: lights, markets & skating →",libTitle:"📚 Free library events ({n})",libZh:"Chinese",libKids:"Kids",libMore:"{n} branches",libLater:"Later, in Chinese",libNote:"Library programs are free and refreshed weekly from each library's site; check spots and times there.",share:"💌 Invite someone",shared:"Invite copied. Paste it into a message!",invite:"Want to go to {t} together {w}?",today:"today",tomorrow:"tomorrow",thisWk:"",nextWk:"",
   subTitle:"📅 Subscribe to {c} events (updates weekly)",subApple:"Apple Calendar / Outlook",subGoogle:"Google Calendar",subCopy:"Copy feed link",subCopied:"Feed link copied",
@@ -310,7 +310,7 @@ var ZIP3=[ // [from,to,city]
 var FSA={v:"van",m:"tor",l:"tor"}; // Canadian postal code first letter
 var TZ_DEFAULT={"America/New_York":"nyc","America/Detroit":"nyc","America/Chicago":"chi","America/Los_Angeles":"la","America/Denver":"chi","America/Phoenix":"la","America/Toronto":"tor","America/Vancouver":"van"};
 
-var S={deals:[],season:null,lib:null,lang:"zh",city:"nyc",aud:"all",day:"all",asian:false,free:false,indoor:false,near:false,me:null,meZip:"",zips:null,data:null,hint:["tz"]};
+var S={deals:[],season:null,lib:null,lang:"zh",city:"nyc",aud:"all",day:"all",asian:false,free:false,indoor:false,near:false,me:null,wx:{},meZip:"",zips:null,data:null,hint:["tz"]};
 var $=function(id){return document.getElementById(id)};
 function esc(s){return String(s==null?"":s).replace(/[&<>"']/g,function(c){return {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]})}
 function fmt(s,o){return s.replace(/\{(\w+)\}/g,function(_,k){return o[k]})}
@@ -383,10 +383,33 @@ function onCityUrl(){return !!window.PAGE_CITY||(S.data&&new RegExp("/("+Object.
 
 /* ---------- render ---------- */
 function icon(k){return '<svg viewBox="0 0 24 24" aria-hidden="true">'+(ICON[k]||ICON.cloud)+'</svg>'}
+/* Live forecast, fetched by the visitor's browser from Open-Meteo for the middle of the city's events (no visitor
+   location involved), kept 3 hours in localStorage. Shows the days left in this issue, up to four. */
+var WMO=[[[0],"sun","晴","Sunny"],[[1],"sun","晴间多云","Mostly sunny"],[[2],"cloud","多云","Partly cloudy"],[[3],"cloud","阴","Overcast"],
+ [[45,48],"cloud","有雾","Fog"],[[51,53,55,56,57],"rain","毛毛雨","Drizzle"],[[61,63,66,80,81],"rain","有雨","Rain"],[[65,67,82],"rain","大雨","Heavy rain"],
+ [[71,73,77,85],"snow","有雪","Snow"],[[75,86],"snow","大雪","Heavy snow"],[[95,96,99],"storm","雷雨","Thunderstorms"]];
+function wmo(code){for(var i=0;i<WMO.length;i++)if(WMO[i][0].indexOf(code)>-1)return WMO[i];return [0,"cloud","多云","Cloudy"]}
+function median(xs){xs=xs.slice().sort(function(a,b){return a-b});var m=xs.length>>1;return xs.length%2?xs[m]:(xs[m-1]+xs[m])/2}
+function loadWx(cid){
+  var c=S.data.cities[cid],key="kids.wx."+cid;if(S.wx[cid])return;
+  try{var hit=JSON.parse(store(key)||"null");if(hit&&Date.now()-hit.at<108e5){S.wx[cid]=hit;return}}catch(_){}
+  var ps=c.events.filter(function(e){return e.geo}).map(function(e){return e.geo});if(!ps.length){S.wx[cid]={fail:1};return}
+  S.wx[cid]={loading:1};
+  var q="latitude="+median(ps.map(function(p){return p[0]})).toFixed(3)+"&longitude="+median(ps.map(function(p){return p[1]})).toFixed(3)+
+   "&timezone="+encodeURIComponent(c.tz)+"&forecast_days=10&temperature_unit=fahrenheit&daily=weather_code,temperature_2m_max,temperature_2m_min,precipitation_probability_max";
+  fetch("https://api.open-meteo.com/v1/forecast?"+q).then(function(r){if(!r.ok)throw 0;return r.json()}).then(function(j){
+    var d=j.daily,v={at:Date.now(),days:d.time.map(function(day,i){return {date:day,code:d.weather_code[i],hi:Math.round(d.temperature_2m_max[i]),lo:Math.round(d.temperature_2m_min[i]),pop:d.precipitation_probability_max[i]||0}})};
+    S.wx[cid]=v;store(key,JSON.stringify(v));if(S.city===cid)render()
+  }).catch(function(){S.wx[cid]={fail:1};if(S.city===cid)render()})}
 function wxHtml(c){
-  var w=c.weather;if(!w)return '<span>'+esc(t("wxPending"))+'</span>';
-  return ["sat","sun"].map(function(d){var x=w[d];if(!x)return "";
-    return '<span>'+icon(x.kind)+esc(t(d)+" "+(S.lang==="zh"?x.zh:x.en)+(x.hi!=null?" "+x.hi+"°F":""))+'</span>'}).join("")
+  loadWx(S.city);var w=S.wx[S.city]||{};
+  if(w.loading)return '<span>'+esc(t("wxPending"))+'</span>';
+  if(!w.days)return "";
+  var td=todayIn(c.tz),end=(S.data.week||S.data.weekend).end,metric=S.city==="tor"||S.city==="van";
+  var ds=w.days.filter(function(x){return x.date>=td&&x.date>=S.data.weekend.start&&x.date<=end}).slice(0,4);
+  return ds.map(function(x){var k=wmo(x.code),f=function(v){return metric?Math.round((v-32)*5/9):v},u=metric?"°C":"°F";
+    var tt=t("today"),day=x.date===td?tt.charAt(0).toUpperCase()+tt.slice(1):WD[S.lang][dow(x.date)]+" "+parts(x.date).m+"/"+parts(x.date).d;
+    return '<span>'+icon(k[1])+esc(day+" "+(S.lang==="zh"?k[2]:k[3])+" "+f(x.lo)+"–"+f(x.hi)+u+(x.pop>=30?" · "+fmt(t("wxRain"),{p:x.pop}):""))+'</span>'}).join("")
 }
 function aud(e){return e.audience||"family"}
 function forAud(e){return S.aud==="all"||aud(e)==="all"||aud(e)===S.aud}
