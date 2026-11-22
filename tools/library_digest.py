@@ -1,8 +1,8 @@
-"""Turn <dir>/library_events.jsonl (from tools/fetch_libraries.py) into docs/library.json, the per-city
-"图书馆免费活动" list on city pages. Libraries post hundreds of programs a week, so this keeps the ones worth
-showing: anything in or about Chinese first, then weekend and family programs, with the same program at several
-branches on one day folded into one row. Programs in Chinese further out (up to the fetch horizon) are kept too.
-Usage: python3 tools/library_digest.py <dir> [PER_CITY=25]
+"""Turn <dir>/library_events.jsonl (from tools/fetch_libraries.py) into docs/library/<city>.json, the per-city
+"图书馆免费活动" box on city pages. Nothing is dropped: every upcoming program is kept and ranked, anything in or about
+Chinese first, then weekend, family and special programs, with services (ESL, tech help, legal...) at the bottom;
+the same program at several branches on one day is folded into one row.
+Usage: python3 tools/library_digest.py <dir>
 """
 import json, os, re, sys
 from datetime import date
@@ -27,7 +27,6 @@ def score(e):
 
 def main():
     if len(sys.argv) < 2: sys.exit(__doc__)
-    per = int(sys.argv[2]) if len(sys.argv) > 2 else 25
     data = json.load(open(os.path.join(HERE, "..", "docs", "events.json"), encoding="utf-8"))
     win = data.get("week") or data["weekend"]
     today = date.today().isoformat()
@@ -36,29 +35,23 @@ def main():
     for e in rows:
         if not e.get("start") or e["start"][:10] < today: continue
         key = (e["city"], e["title"].lower().strip(), e["start"][:10])
-        g = groups.setdefault(key, {**e, "n": 0, "branches": []})
-        g["n"] += 1
+        g = groups.setdefault(key, {**e, "branches": []})
         if e["branch"] and e["branch"] not in g["branches"]: g["branches"].append(e["branch"])
         if e["start"] < g["start"]: g.update({k: e[k] for k in ("start", "end", "branch", "url")})
-    out = {}
-    for (city, _, _), g in groups.items():
-        out.setdefault(city, []).append(g)
+    out_dir = os.path.join(HERE, "..", "docs", "library")
+    os.makedirs(out_dir, exist_ok=True)
     cities = {}
-    for city, gs in out.items():
-        now = [g for g in gs if g["start"][:10] <= win["end"]]
-        later = [g for g in gs if g["start"][:10] > win["end"] and g["chinese"] and score(g) > 0]
-        now.sort(key=lambda g: (-score(g), g["start"]))
-        later.sort(key=lambda g: g["start"])
-        pick = [g for g in now if score(g) > 0][:per] + later[:10]
-        pick.sort(key=lambda g: g["start"])
-        cities[city] = [{"title": g["title"], "start": g["start"], "end": g.get("end") or "", "lib": g["library"],
-                         "branch": g["branch"], "n": len(g["branches"]) or 1, "zh": g["chinese"],
-                         "kids": bool(FAMILY.search(" ".join([g["title"]] + g["audiences"]))), "signup": g["signup"],
-                         "url": g["url"]} for g in pick]
-    path = os.path.join(HERE, "..", "docs", "library.json")
-    json.dump({"updated": today, "cities": cities}, open(path, "w", encoding="utf-8"), ensure_ascii=False, separators=(",", ":"))
-    for c, xs in cities.items():
-        print(f"{c}: {len(xs)} shown ({sum(x['zh'] for x in xs)} Chinese)")
+    for g in groups.values(): cities.setdefault(g["city"], []).append(g)
+    for cid in data["cities"]: cities.setdefault(cid, [])  # an empty file for cities without a library feed, so pages don't 404
+    for city, gs in sorted(cities.items()):
+        # This issue's window first, best first; then everything later, also best first.
+        gs.sort(key=lambda g: (g["start"][:10] > win["end"], -score(g), g["start"]))
+        events = [{"title": g["title"], "start": g["start"], "end": g.get("end") or "", "lib": g["library"], "branch": g["branch"],
+                   "n": len(g["branches"]) or 1, "zh": g["chinese"], "kids": bool(FAMILY.search(" ".join([g["title"]] + g["audiences"]))),
+                   "signup": g["signup"], "url": g["url"], "score": score(g)} for g in gs]
+        json.dump({"updated": today, "events": events}, open(os.path.join(out_dir, city + ".json"), "w", encoding="utf-8"),
+                  ensure_ascii=False, separators=(",", ":"))
+        print(f"{city}: {len(events)} programs ({sum(x['zh'] for x in events)} Chinese)")
 
 if __name__ == "__main__":
     main()
