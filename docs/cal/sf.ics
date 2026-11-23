@@ -8,117 +8,44 @@ X-WR-TIMEZONE:America/Los_Angeles
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:sjpl-tea-hour-2026-11-21@noboringweekends
-DTSTAMP:20261120T000000Z
-DTSTART:20261121T233000Z
-DTEND:20261122T013000Z
-SUMMARY:圣何塞 Calabazas 图书馆:茶时光
-LOCATION:Calabazas Branch Library\, 1230 S Blaney Ave\, San Jose\, CA 95129
-DESCRIPTION:🍵 图书馆里的中式茶时光\,周六下午\,免费。\n
- 费用:免费\nhttps://sjpl.bibliocommons.com/events/6a7380b9f213992f00c9c
- e35
-URL:https://sjpl.bibliocommons.com/events/6a7380b9f213992f00c9ce35
+UID:sf-botanical-free-thanksgiving-2026-2026-11-26@noboringweekends
+DTSTAMP:20261123T000000Z
+DTSTART:20261126T153000Z
+DTEND:20261127T010000Z
+SUMMARY:旧金山植物园感恩节全天免费
+LOCATION:San Francisco Botanical Garden\, 1199 9th Ave\, San Francisco\, CA
+  94122
+DESCRIPTION:🌿 感恩节全天免费\,7:30 开门\,最后入园 16:00。
+ 吃大餐前后去金门公园散步正好。\n费用:免费\nhttps://proj
+ ectsf.com/guides/thanksgiving-weekend-san-francisco-guide/
+URL:https://projectsf.com/guides/thanksgiving-weekend-san-francisco-guide/
 END:VEVENT
 BEGIN:VEVENT
-UID:cah-museum-open-2026-11-21@noboringweekends
-DTSTAMP:20261120T000000Z
-DTSTART;VALUE=DATE:20261121
-DTEND;VALUE=DATE:20261122
-SUMMARY:圣何塞华裔历史博物馆开放日(免费)
-LOCATION:Chinese American Historical Museum (Ng Shing Gung)\, History Park\
- , 1650 Senter Rd\, San Jose\, CA 95112
-DESCRIPTION:🏮 南湾华人历史文化项目的五帝庙博物馆开放\
- ,免费参观\,时间以官网为准。\n费用:免费\nhttps://chcp.org/e
- vents
-URL:https://chcp.org/events
+UID:sf-turkey-trot-2026-2026-11-26@noboringweekends
+DTSTAMP:20261123T000000Z
+DTSTART:20261126T160000Z
+DTEND:20261126T180000Z
+SUMMARY:金门公园感恩节火鸡跑(有儿童冲刺跑)
+LOCATION:Polo Field\, Golden Gate Park\, Polo Field\, Golden Gate Park\, Sa
+ n Francisco\, CA 94122
+DESCRIPTION:🦃 8 点开始\,先是 100 米儿童冲刺跑\,8:40 开始 5 
+ 英里跑和 3 英里走。\n费用:以官网为准\nhttps://projectsf.com
+ /guides/thanksgiving-weekend-san-francisco-guide/
+URL:https://projectsf.com/guides/thanksgiving-weekend-san-francisco-guide/
 END:VEVENT
 BEGIN:VEVENT
-UID:millbrae-mandarin-storytime-2026-11-22@noboringweekends
-DTSTAMP:20261120T000000Z
-DTSTART:20261122T183000Z
-DTEND:20261122T203000Z
-SUMMARY:Millbrae 图书馆国语/粤语故事会
-LOCATION:Millbrae Library\, 1 Library Ave\, Millbrae\, CA 94030
-DESCRIPTION:📚 国语+粤语双语故事会\,给小小孩的中文时光\
- ,免费。\n费用:免费\nhttps://smcl.bibliocommons.com/events/6ad26a011
- 1bbf300684c42f9
-URL:https://smcl.bibliocommons.com/events/6ad26a0111bbf300684c42f9
-END:VEVENT
-BEGIN:VEVENT
-UID:prateek-kuhad-2026-11-19@noboringweekends
-DTSTAMP:20261120T000000Z
-DTSTART;VALUE=DATE:20261119
-DTEND;VALUE=DATE:20261120
-SUMMARY:Prateek Kuhad 演唱会
-LOCATION:Castro Theatre\, 429 Castro St\, San Francisco\, CA 94114
-DESCRIPTION:🎶 印度创作歌手 Prateek Kuhad\,卡斯特罗剧院\,票
- 务以官网为准。\n费用:以官网为准\nhttps://allevents.in/san-fr
- ancisco/november--december
-URL:https://allevents.in/san-francisco/november--december
-END:VEVENT
-BEGIN:VEVENT
-UID:tea-garden-free-fri-2026-11-20@noboringweekends
-DTSTAMP:20261120T000000Z
-DTSTART:20261120T170000Z
-DTEND:20261120T180000Z
-SUMMARY:日本茶园免费一小时
-LOCATION:Japanese Tea Garden\, 75 Hagiwara Tea Garden Dr\, San Francisco\, 
- CA 94118
-DESCRIPTION:🍁 周一、三、五早上 9–10 点免费\,晚秋枫叶正
- 好~\n费用:免费\nhttps://sf.funcheap.com/japanese-tea-gardens-free-adm
- ission-hour-golden-gate-park-459/
-URL:https://sf.funcheap.com/japanese-tea-gardens-free-admission-hour-golden
- -gate-park-459/
-END:VEVENT
-BEGIN:VEVENT
-UID:colma-night-market-2026-11-20@noboringweekends
-DTSTAMP:20261120T000000Z
-DTSTART:20261121T010000Z
-DTEND:20261121T040000Z
-SUMMARY:Colma 亚洲夜市+菲律宾星灯工作坊
-LOCATION:Colma\, Colma\, CA 94014
-DESCRIPTION:🌟 亚洲小吃夜市\,还能亲手做菲律宾圣诞星灯 P
- arol。\n费用:以官网为准\nhttps://sf.funcheap.com/colmas-asian-nigh
- t-market-parol-lantern-workshop/
-URL:https://sf.funcheap.com/colmas-asian-night-market-parol-lantern-worksho
- p/
-END:VEVENT
-BEGIN:VEVENT
-UID:nutcracker-sweets-2026-11-18@noboringweekends
-DTSTAMP:20261120T000000Z
-DTSTART:20261118T190000Z
-DTEND:20261118T210000Z
-SUMMARY:列治文区图书馆:小朋友胡桃夹子
-LOCATION:Richmond Branch Library\, 351 9th Ave\, San Francisco\, CA 94118
-DESCRIPTION:🩰 华人多的列治文区图书馆\,小小孩的胡桃夹
- 子活动\,免费!\n费用:免费\nhttps://projectsf.com/san-francisco-eve
- nts-november-2026/
-URL:https://projectsf.com/san-francisco-events-november-2026/
-END:VEVENT
-BEGIN:VEVENT
-UID:embarcadero-lighting-2026-11-18@noboringweekends
-DTSTAMP:20261120T000000Z
-DTSTART:20261119T000000Z
-DTEND:20261119T020000Z
-SUMMARY:Embarcadero Center 假日市集+大楼点灯
-LOCATION:Embarcadero Center\, 4 Embarcadero Center\, San Francisco\, CA 941
- 11
-DESCRIPTION:💡 四栋大楼轮廓灯一起亮起!还有假日市集\,下
- 午 4 点开始~\n费用:免费\nhttps://projectsf.com/san-francisco-event
- s-november-2026/
-URL:https://projectsf.com/san-francisco-events-november-2026/
-END:VEVENT
-BEGIN:VEVENT
-UID:excelsior-harvest-market-2026-11-20@noboringweekends
-DTSTAMP:20261120T000000Z
-DTSTART:20261121T003000Z
-DTEND:20261121T043000Z
-SUMMARY:Excelsior 丰收夜市
-LOCATION:Ocean Ave & Mission St\, Ocean Ave & Mission St\, San Francisco\, 
- CA 94112
-DESCRIPTION:🌽 华人家庭多的 Excelsior 社区夜市\,小吃+手作+
- 音乐。\n费用:免费\nhttps://sf.funcheap.com/from-the-e-harvest-night
- -market-sf/
-URL:https://sf.funcheap.com/from-the-e-harvest-night-market-sf/
+UID:little-brothers-volunteer-2026-2026-11-26@noboringweekends
+DTSTAMP:20261123T000000Z
+DTSTART:20261126T180000Z
+DTEND:20261126T200000Z
+SUMMARY:感恩节志愿者:给长者送餐探访
+LOCATION:Little Brothers – Friends of the Elderly\, Downtown San Francisc
+ o\, CA
+DESCRIPTION:🤝 给独居长者送感恩节餐并上门探访\,上午 10
+ –12 点在市中心取餐。适合一家人一起做件暖心的事。
+ 需报名。\n费用:免费\nhttps://sf.funcheap.com/volunteer-thanksgivin
+ g-day-2026-deliver-meals-inhome-visits-sf/
+URL:https://sf.funcheap.com/volunteer-thanksgiving-day-2026-deliver-meals-i
+ nhome-visits-sf/
 END:VEVENT
 END:VCALENDAR

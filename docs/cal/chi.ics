@@ -8,92 +8,36 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:cpl-chinese-film-2026-11-20@noboringweekends
-DTSTAMP:20261120T000000Z
-DTSTART;VALUE=DATE:20261120
-DTEND;VALUE=DATE:20261121
-SUMMARY:芝加哥公共图书馆华语电影放映《机器之血》
-LOCATION:Chicago Public Library\, Chicago\, IL
-DESCRIPTION:🎬 图书馆免费华语电影放映(成龙主演)\,时间分
- 馆以官网为准。\n费用:免费\nhttps://www.chicagoasiannetwork.com/
- event-tags/all
-URL:https://www.chicagoasiannetwork.com/event-tags/all
+UID:zoolights-free-monday-1123-2026-11-23@noboringweekends
+DTSTAMP:20261123T000000Z
+DTSTART;VALUE=DATE:20261123
+DTEND;VALUE=DATE:20261124
+SUMMARY:林肯公园动物园 ZooLights 周一免费
+LOCATION:Lincoln Park Zoo\, 2001 N Clark St\, Chicago\, IL 60614
+DESCRIPTION:💡 周一免费(11/23、11/30、12/7、12/14)\,需要预约
+ 分时段票。\n费用:免费\nhttps://www.chicagoparent.com/holiday-guid
+ e/thanksgiving-chicago-family-activities
+URL:https://www.chicagoparent.com/holiday-guide/thanksgiving-chicago-family
+ -activities
 END:VEVENT
 BEGIN:VEVENT
-UID:paskong-pinoy-2026-11-21@noboringweekends
-DTSTAMP:20261120T000000Z
-DTSTART;VALUE=DATE:20261121
-DTEND;VALUE=DATE:20261122
-SUMMARY:菲律宾圣诞市集 Paskong Pinoy
-LOCATION:Chicago\, Chicago\, IL
-DESCRIPTION:🌟 菲律宾风味圣诞市集。\n费用:以官网为准\nht
- tps://www.chicagoasiannetwork.com/event-tags/all
-URL:https://www.chicagoasiannetwork.com/event-tags/all
-END:VEVENT
-BEGIN:VEVENT
-UID:mca-free-tue-2026-11-17@noboringweekends
-DTSTAMP:20261120T000000Z
-DTSTART;VALUE=DATE:20261117
-DTEND;VALUE=DATE:20261118
-SUMMARY:芝加哥当代艺术馆(伊州居民周二免费)
-LOCATION:Museum of Contemporary Art Chicago\, 220 E Chicago Ave\, Chicago\,
-  IL 60611
-DESCRIPTION:🖼️ 伊利诺伊州居民周二免费\,带上 ID~\n费用:
- 免费\nhttps://chicagoonthecheap.com/events/
-URL:https://chicagoonthecheap.com/events/
-END:VEVENT
-BEGIN:VEVENT
-UID:little-big-town-2026-11-19@noboringweekends
-DTSTAMP:20261120T000000Z
-DTSTART:20261120T013000Z
-DTEND:20261120T033000Z
-SUMMARY:Little Big Town 演唱会
-LOCATION:The Chicago Theatre\, 175 N State St\, Chicago\, IL 60601
-DESCRIPTION:🎤 乡村乐团 Little Big Town\,周四晚 7:30。\n费用:
- 以官网为准\nhttps://do312.com/events/2026/11/19
-URL:https://do312.com/events/2026/11/19
-END:VEVENT
-BEGIN:VEVENT
-UID:chi-tree-lighting-2026-11-20@noboringweekends
-DTSTAMP:20261120T000000Z
-DTSTART:20261120T230000Z
-DTEND:20261121T010000Z
-SUMMARY:芝加哥市圣诞树点灯(第 113 届)
-LOCATION:Millennium Park\, 201 E Randolph St\, Chicago\, IL 60602
-DESCRIPTION:🎄 千禧公园点灯+烟花\,芝加哥节日季正式开始
- 。\n费用:免费\nhttps://mommypoppins.com/chicago-kids/things-to-do-in-
- chicago-this-weekend-kids-families
-URL:https://mommypoppins.com/chicago-kids/things-to-do-in-chicago-this-week
- end-kids-families
-END:VEVENT
-BEGIN:VEVENT
-UID:cpl-msi-trip-2026-11-21@noboringweekends
-DTSTAMP:20261120T000000Z
-DTSTART:20261121T153000Z
-DTEND:20261121T173000Z
-SUMMARY:芝加哥图书馆亲子游科学与工业博物馆
-LOCATION:Logan Square Branch\, Chicago Public Library\, Chicago\, IL
-DESCRIPTION:🚀 图书馆组织的免费亲子博物馆之旅\,名额以
- 官网为准。\n费用:免费\nhttps://chipublib.bibliocommons.com/events
- /6aeca7e5377296003a51422e
-URL:https://chipublib.bibliocommons.com/events/6aeca7e5377296003a51422e
-END:VEVENT
-BEGIN:VEVENT
-UID:mag-mile-lights-2026-11-21@noboringweekends
-DTSTAMP:20261120T000000Z
-DTSTART:20261121T233000Z
-DTEND:20261122T013000Z
-SUMMARY:华丽一英里灯光节大游行
-LOCATION:Magnificent Mile\, N Michigan Ave\, Chicago\, IL 60611
-DESCRIPTION:✨ 第 35 届!密歇根大道灯光一路亮起+游行。\n费
- 用:免费\nhttps://mommypoppins.com/chicago-kids/things-to-do-in-chicago-
- this-weekend-kids-families
-URL:https://mommypoppins.com/chicago-kids/things-to-do-in-chicago-this-week
- end-kids-families
+UID:garfield-winter-show-2026-2026-11-25@noboringweekends
+DTSTAMP:20261123T000000Z
+DTSTART;VALUE=DATE:20261125
+DTEND;VALUE=DATE:20261126
+SUMMARY:加菲尔德公园温室冬季花展开幕
+LOCATION:Garfield Park Conservatory\, 300 N Central Park Ave\, Chicago\, IL
+  60624
+DESCRIPTION:🌺 温室里的冬季花展\,外面冷也能逛。芝加哥
+ 居民免费\,非居民 $10 起。\n费用:芝加哥居民免费\,其他 $
+ 10 起\nhttps://www.chicagoparent.com/holiday-guide/thanksgiving-chicago-f
+ amily-activities
+URL:https://www.chicagoparent.com/holiday-guide/thanksgiving-chicago-family
+ -activities
 END:VEVENT
 BEGIN:VEVENT
 UID:chi-thanksgiving-parade-2026-11-26@noboringweekends
-DTSTAMP:20261120T000000Z
+DTSTAMP:20261123T000000Z
 DTSTART:20261126T134500Z
 DTEND:20261126T154500Z
 SUMMARY:芝加哥感恩节大游行
@@ -104,5 +48,18 @@ DESCRIPTION:🦃 第 92 届感恩节游行\,沿 State Street。\n费用:免
  g-day-parade/
 URL:https://www.choosechicago.com/blog/special-events/chicago-thanksgiving-
  day-parade/
+END:VEVENT
+BEGIN:VEVENT
+UID:morton-arboretum-free-thanksgiving-2026-2026-11-26@noboringweekends
+DTSTAMP:20261123T000000Z
+DTSTART;VALUE=DATE:20261126
+DTEND;VALUE=DATE:20261127
+SUMMARY:莫顿植物园感恩节免费入园
+LOCATION:The Morton Arboretum\, 4100 Illinois Rte 53\, Lisle\, IL 60532
+DESCRIPTION:🍂 感恩节当天所有人免费入园。\n费用:免费\nht
+ tps://www.chicagoparent.com/holiday-guide/thanksgiving-chicago-family-acti
+ vities
+URL:https://www.chicagoparent.com/holiday-guide/thanksgiving-chicago-family
+ -activities
 END:VEVENT
 END:VCALENDAR

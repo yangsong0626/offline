@@ -8,34 +8,8 @@ X-WR-TIMEZONE:America/Vancouver
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:steeped-in-sound-2026-11-21@noboringweekends
-DTSTAMP:20261120T000000Z
-DTSTART;VALUE=DATE:20261121
-DTEND;VALUE=DATE:20261122
-SUMMARY:中山公园:Steeped in Sound 茶与音乐
-LOCATION:Dr. Sun Yat-Sen Classical Chinese Garden\, 578 Carrall St\, Vancou
- ver\, BC V6B 5K2
-DESCRIPTION:🍵 在唐人街的中式古典园林里听音乐\,细节以
- 官网为准。\n费用:以官网为准\nhttps://604now.com/things-to-do-i
- n-metro-vancouver-this-november/
-URL:https://604now.com/things-to-do-in-metro-vancouver-this-november/
-END:VEVENT
-BEGIN:VEVENT
-UID:ccm-comics-family-2026-11-21@noboringweekends
-DTSTAMP:20261120T000000Z
-DTSTART;VALUE=DATE:20261121
-DTEND;VALUE=DATE:20261122
-SUMMARY:华裔加拿大人博物馆:亲子漫画活动
-LOCATION:Chinese Canadian Museum\, 51 E Pender St\, Vancouver\, BC V6A 1S9
-DESCRIPTION:🎨 唐人街博物馆的亲子漫画活动\,细节以官网
- 为准。\n费用:以官网为准\nhttps://miss604.com/2026/11/things-to-d
- o-in-vancouver-this-weekend-events-nov-20-22/
-URL:https://miss604.com/2026/11/things-to-do-in-vancouver-this-weekend-even
- ts-nov-20-22/
-END:VEVENT
-BEGIN:VEVENT
 UID:rpl-chinese-toddler-2026-11-24@noboringweekends
-DTSTAMP:20261120T000000Z
+DTSTAMP:20261123T000000Z
 DTSTART:20261124T163000Z
 DTEND:20261124T183000Z
 SUMMARY:列治文图书馆中文幼儿时光
@@ -45,75 +19,36 @@ DESCRIPTION:🧸 图书馆免费亲子活动。\n费用:免费\nhttps://you
 URL:https://yourlibrary.bibliocommons.com/events/692b6b143df0e43700058df7
 END:VEVENT
 BEGIN:VEVENT
-UID:culture-crawl-2026-11-19@noboringweekends
-DTSTAMP:20261120T000000Z
-DTSTART;VALUE=DATE:20261119
-DTEND;VALUE=DATE:20261120
-SUMMARY:东区艺术家工作室开放 Culture Crawl(首日)
-LOCATION:East Vancouver\, East Vancouver\, BC
-DESCRIPTION:🎨 500+ 艺术家工作室免费开放\,11/19-22!\n费用:免
- 费\nhttps://www.vancouvertourism.org/vancouver-events-and-festivals/
-URL:https://www.vancouvertourism.org/vancouver-events-and-festivals/
+UID:disney-on-ice-van-2026-2026-11-25@noboringweekends
+DTSTAMP:20261123T000000Z
+DTSTART;VALUE=DATE:20261125
+DTEND;VALUE=DATE:20261126
+SUMMARY:迪士尼冰上世界(PNE\,11/25–29)
+LOCATION:Pacific Coliseum\, 100 N Renfrew St\, Vancouver\, BC V5K 3N7
+DESCRIPTION:⛸️ 迪士尼冰上演出\,11/25–29。\n费用:以官网
+ 为准\nhttps://dailyhive.com/vancouver/vancouver-events-november-23-29
+URL:https://dailyhive.com/vancouver/vancouver-events-november-23-29
 END:VEVENT
 BEGIN:VEVENT
-UID:vpl-stay-play-2026-11-21@noboringweekends
-DTSTAMP:20261120T000000Z
-DTSTART:20261121T163000Z
-DTEND:20261121T183000Z
-SUMMARY:温哥华图书馆亲子游戏时间
-LOCATION:Vancouver Public Library – West Point Grey Branch\, Vancouver ar
- ea\, BC
-DESCRIPTION:🧸 图书馆免费亲子活动。\n费用:免费\nhttps://vpl
- .bibliocommons.com/events/6a67b41c88e9bf280033ae56
-URL:https://vpl.bibliocommons.com/events/6a67b41c88e9bf280033ae56
+UID:burnaby-festive-village-2026-2026-11-25@noboringweekends
+DTSTAMP:20261123T000000Z
+DTSTART;VALUE=DATE:20261125
+DTEND;VALUE=DATE:20261126
+SUMMARY:本拿比村博物馆节日村庄
+LOCATION:Burnaby Village Museum\, 6501 Deer Lake Ave\, Burnaby\, BC V5G 3T6
+DESCRIPTION:🎄 老街村庄的节日季\,11/25–12/13。\n费用:以官
+ 网为准\nhttps://dailyhive.com/vancouver/vancouver-events-november-23-29
+URL:https://dailyhive.com/vancouver/vancouver-events-november-23-29
 END:VEVENT
 BEGIN:VEVENT
-UID:vpl-lego-2026-11-21@noboringweekends
-DTSTAMP:20261120T000000Z
-DTSTART:20261121T170000Z
-DTEND:20261121T190000Z
-SUMMARY:温哥华图书馆乐高积木派对
-LOCATION:Vancouver Public Library – Kensington Branch\, Vancouver area\, 
- BC
-DESCRIPTION:🧸 图书馆免费亲子活动。\n费用:免费\nhttps://vpl
- .bibliocommons.com/events/6a6139eb4523092f0031e7cf
-URL:https://vpl.bibliocommons.com/events/6a6139eb4523092f0031e7cf
-END:VEVENT
-BEGIN:VEVENT
-UID:rpl-family-storytime-2026-11-21@noboringweekends
-DTSTAMP:20261120T000000Z
-DTSTART:20261121T180000Z
-DTEND:20261121T200000Z
-SUMMARY:列治文图书馆亲子故事会
-LOCATION:Richmond Public Library – Britannia Branch\, Richmond\, BC
-DESCRIPTION:📚 列治文图书馆免费亲子故事会\,多个分馆都
- 有。\n费用:免费\nhttps://vpl.bibliocommons.com/events/6a84eeaaaafa61
- 00295d869c
-URL:https://vpl.bibliocommons.com/events/6a84eeaaaafa6100295d869c
-END:VEVENT
-BEGIN:VEVENT
-UID:surrey-tree-lighting-2026-11-21@noboringweekends
-DTSTAMP:20261120T000000Z
-DTSTART;VALUE=DATE:20261121
-DTEND;VALUE=DATE:20261122
-SUMMARY:素里圣诞点灯节(周六/日\,全免费)
-LOCATION:Surrey Civic Plaza\, 13450 104 Ave\, Surrey\, BC V3T 1V8
-DESCRIPTION:⛸️ 免费溜冰、游乐设施、和圣诞老人合影、
- 表演\,11/21–22。\n费用:免费\nhttps://www.todocanada.ca/things-van
- couver-weekend/
-URL:https://www.todocanada.ca/things-vancouver-weekend/
-END:VEVENT
-BEGIN:VEVENT
-UID:ukrainian-market-2026-11-22@noboringweekends
-DTSTAMP:20261120T000000Z
-DTSTART;VALUE=DATE:20261122
-DTEND;VALUE=DATE:20261123
-SUMMARY:乌克兰会馆冬季手作市集
-LOCATION:AUUC Vancouver Ukrainian Hall\, 805 E Pender St\, Vancouver\, BC V
- 6A 1V9
-DESCRIPTION:🥟 手作市集+乌克兰饺子。\n费用:以官网为准\nh
- ttps://vancouversbestplaces.com/events-calendar/vancouver-weekend-events/
-URL:https://vancouversbestplaces.com/events-calendar/vancouver-weekend-even
- ts/
+UID:langley-christmas-village-2026-2026-11-26@noboringweekends
+DTSTAMP:20261123T000000Z
+DTSTART;VALUE=DATE:20261126
+DTEND;VALUE=DATE:20261127
+SUMMARY:兰里圣诞村(免费)
+LOCATION:Langley Christmas Village\, Langley\, BC
+DESCRIPTION:🎅 免费圣诞村\,11/26–12/24。\n费用:免费\nhttps://
+ dailyhive.com/vancouver/vancouver-events-november-23-29
+URL:https://dailyhive.com/vancouver/vancouver-events-november-23-29
 END:VEVENT
 END:VCALENDAR
