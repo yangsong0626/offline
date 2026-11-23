@@ -31,6 +31,10 @@
 33.65838,
 -84.40492
 ],
+"atl|5383 New Peachtree Rd, Chamblee, GA 30341": [
+33.89053,
+-84.30055
+],
 "atl|6400 Sugarloaf Pkwy, Duluth, GA 30097": [
 33.99227,
 -84.09126
@@ -38,6 +42,10 @@
 "atl|650 North Ave NE, Atlanta, GA 30308": [
 33.77118,
 -84.36501
+],
+"atl|755 Hank Aaron Dr SE, Atlanta, GA 30315": [
+33.73432,
+-84.38798
 ],
 "bos|100 Seaport Blvd, Boston, MA 02210": [
 42.35103,
@@ -47,6 +55,10 @@
 42.46351,
 -71.09203
 ],
+"bos|338 Newbury St, Boston, MA 02115": [
+42.34856,
+-71.08624
+],
 "bos|35 Harvard Ave, Hyde Park, MA 02136": [
 42.2568,
 -71.12226
@@ -55,6 +67,10 @@
 42.35999,
 -71.05576
 ],
+"bos|64 Sleeper St, Boston, MA 02210": [
+42.353,
+-71.04857
+],
 "bos|646 E Broadway, South Boston, MA 02127": [
 42.33563,
 -71.0388
@@ -62,6 +78,10 @@
 "bos|690 Adams St, Dorchester, MA 02122": [
 42.28631,
 -71.05459
+],
+"bos|75 Pleasant St, Malden, MA 02148": [
+42.42683,
+-71.06857
 ],
 "bos|Boston Common, Boston, MA 02108": [
 42.35477,
@@ -99,6 +119,14 @@
 41.89683,
 -87.62176
 ],
+"chi|300 N Central Park Ave, Chicago, IL 60624": [
+41.88764,
+-87.71624
+],
+"chi|4100 Illinois Rte 53, Lisle, IL 60532": [
+41.80116,
+-88.07477
+],
 "chi|50 W Washington St, Chicago, IL 60602": [
 41.88327,
 -87.62961
@@ -123,6 +151,14 @@
 "dal|1313 Main St, Dallas, TX 75202": [
 32.78035,
 -96.80084
+],
+"dal|13350 Dallas Pkwy, Dallas, TX 75240": [
+32.93051,
+-96.821
+],
+"dal|1500 Marilla St, Dallas, TX 75201": [
+32.77666,
+-96.79584
 ],
 "dal|1902 Main St, Dallas, TX 75201": [
 32.78135,
@@ -192,6 +228,10 @@
 38.89556,
 -77.0299
 ],
+"dc|1455 Pennsylvania Ave NW, Washington, DC 20004": [
+38.8964,
+-77.03285
+],
 "dc|1500 S Capitol St SE, Washington, DC 20003": [
 38.87458,
 -77.00894
@@ -199,6 +239,10 @@
 "dc|1703 32nd St NW, Washington, DC 20007": [
 38.91372,
 -77.0642
+],
+"dc|1847 14th St NW, Washington, DC 20009": [
+38.91507,
+-77.03188
 ],
 "dc|3001 Connecticut Ave NW, Washington, DC 20008": [
 38.92912,
@@ -212,6 +256,10 @@
 38.8974,
 -77.01626
 ],
+"dc|4155 Linnean Ave NW, Washington, DC 20008": [
+38.94357,
+-77.05435
+],
 "dc|4th St & Independence Ave SW, Washington, DC 20560": [
 38.88744,
 -77.01756
@@ -224,9 +272,21 @@
 39.0302,
 -77.10137
 ],
+"dc|700 Constitution Ave NW, Washington, DC 20408": [
+38.89202,
+-77.02197
+],
+"dc|801 Mt Vernon Pl NW, Washington, DC 20001": [
+38.903,
+-77.02294
+],
 "dc|Eastern Market Metro Plaza, Washington, DC 20003": [
 38.8951,
 -77.03638
+],
+"dc|Edgewood, Washington, DC 20017": [
+38.92261,
+-77.00054
 ],
 "dc|F St NW, Washington, DC 20004": [
 38.89736,
@@ -240,9 +300,17 @@
 29.27464,
 -94.85241
 ],
+"hou|1001 Avenida de las Americas, Houston, TX 77010": [
+29.75263,
+-95.35854
+],
 "hou|1370 Southmore Blvd, Houston, TX 77004": [
 29.72656,
 -95.38429
+],
+"hou|1500 Binz St, Houston, TX 77004": [
+29.72314,
+-95.3853
 ],
 "hou|1500 McKinney St, Houston, TX 77010": [
 29.75428,
@@ -263,6 +331,10 @@
 "hou|6200 Hermann Park Dr, Houston, TX 77030": [
 29.71333,
 -95.39159
+],
+"hou|Buffalo Bayou Park, Houston, TX 77007": [
+29.76318,
+-95.39507
 ],
 "hou|Dickinson, TX 77539": [
 29.46079,
@@ -289,9 +361,17 @@
 34.20091,
 -118.20643
 ],
+"la|15825 Sierra Hwy, Santa Clarita, CA 91390": [
+34.46322,
+-118.41213
+],
 "la|17985 Pacific Coast Hwy, Pacific Palisades, CA 90272": [
 34.04147,
 -118.56432
+],
+"la|200 N Spring St, Los Angeles, CA 90012": [
+34.05162,
+-118.24559
 ],
 "la|285 W Huntington Dr, Arcadia, CA 91007": [
 34.13558,
@@ -325,6 +405,10 @@
 34.14771,
 -118.1481
 ],
+"la|Hollywood Blvd & Highland Ave, Los Angeles, CA 90028": [
+34.05369,
+-118.24277
+],
 "la|Magnolia Blvd, Burbank, CA 91505": [
 34.18069,
 -118.31431
@@ -336,6 +420,10 @@
 "nj|1 Garden State Plaza Blvd, Paramus, NJ 07652": [
 40.91969,
 -74.0754
+],
+"nj|1 N New York Rd, Galloway, NJ 08205": [
+39.49669,
+-74.45743
 ],
 "nj|1 Riverside Dr, Camden, NJ 08103": [
 39.94337,
@@ -369,6 +457,10 @@
 40.34656,
 -74.66731
 ],
+"nj|56 Main St, Clinton, NJ 08809": [
+40.63629,
+-74.9117
+],
 "nj|560 Northfield Ave, West Orange, NJ 07052": [
 40.76974,
 -74.2816
@@ -381,6 +473,10 @@
 40.34483,
 -74.90721
 ],
+"nj|Bayonne Park, Bayonne, NJ 07002": [
+40.66871,
+-74.11431
+],
 "nj|Concord Ave, Leonardo, NJ 07737": [
 40.41397,
 -74.06274
@@ -390,9 +486,33 @@
 39.83984,
 -74.19014
 ],
+"nj|Hillsborough, NJ 08844": [
+40.50523,
+-74.67329
+],
+"nj|Main St, Clinton, NJ 08809": [
+40.63652,
+-74.91098
+],
+"nj|Pier Village, Long Branch, NJ 07740": [
+40.30184,
+-73.97969
+],
+"nj|South Amboy, NJ 08879": [
+40.48211,
+-74.28288
+],
+"nj|Union, NJ 07083": [
+40.66523,
+-74.30453
+],
 "nj|Upper Montclair, NJ 07043": [
 40.84621,
 -74.20126
+],
+"nyc|1 Bowling Green, New York, NY 10004": [
+40.70406,
+-74.01375
 ],
 "nyc|1000 Richmond Terrace, Staten Island, NY 10301": [
 40.64483,
@@ -410,6 +530,10 @@
 40.77113,
 -73.98168
 ],
+"nyc|200 Central Park West, New York, NY 10024": [
+40.78342,
+-73.97079
+],
 "nyc|200 Eastern Pkwy, Brooklyn, NY 11238": [
 40.6711,
 -73.96136
@@ -417,6 +541,10 @@
 "nyc|215 Centre St, New York, NY 10013": [
 40.71944,
 -73.99889
+],
+"nyc|222 E 79th St, New York, NY 10075": [
+40.774,
+-73.95679
 ],
 "nyc|2300 Southern Blvd, Bronx, NY 10460": [
 40.85162,
@@ -470,6 +598,10 @@
 40.75422,
 -73.98457
 ],
+"nyc|Prospect Park, Brooklyn, NY 11225": [
+40.66161,
+-73.96225
+],
 "nyc|South Street Seaport, New York, NY 10038": [
 40.70575,
 -74.00291
@@ -486,6 +618,10 @@
 40.77948,
 -73.97357
 ],
+"oc|1 Hope Dr, Tustin, CA 92782": [
+33.71473,
+-117.83211
+],
 "oc|1 Irvine Park Rd, Orange, CA 92869": [
 33.79631,
 -117.76088
@@ -501,6 +637,14 @@
 "oc|24932 Veterans Way, Mission Viejo, CA 92692": [
 33.59838,
 -117.65011
+],
+"oc|5380 3/4 University Dr, Irvine, CA 92612": [
+33.65833,
+-117.8068
+],
+"oc|5500 Irvine Center Dr, Irvine, CA 92618": [
+33.67726,
+-117.7756
 ],
 "oc|670 Spectrum Center Dr, Irvine, CA 92618": [
 33.64957,
@@ -546,6 +690,10 @@
 32.73139,
 -117.14973
 ],
+"sd|2000 Mullinex Dr, Coronado, CA 92118": [
+32.69032,
+-117.16541
+],
 "sd|24402 Martin Way, Alpine, CA 91901": [
 32.81504,
 -116.62689
@@ -565,6 +713,10 @@
 "sd|300 Quail Gardens Dr, Encinitas, CA 92024": [
 33.05531,
 -117.27895
+],
+"sd|6461 El Apajo Rd, Rancho Santa Fe, CA 92067": [
+32.99822,
+-117.19692
 ],
 "sd|Balboa Park, San Diego, CA 92101": [
 32.729,
@@ -630,6 +782,14 @@
 47.59825,
 -122.32287
 ],
+"sea|Green Lake Park, Seattle, WA 98103": [
+47.67678,
+-122.32083
+],
+"sea|NE 65th St & Sand Point Way NE, Seattle, WA 98115": [
+47.67577,
+-122.26355
+],
 "sea|Renton, WA": [
 47.47991,
 -122.20345
@@ -641,6 +801,10 @@
 "sf|1 Library Ave, Millbrae, CA 94030": [
 37.60313,
 -122.39639
+],
+"sf|1199 9th Ave, San Francisco, CA 94122": [
+37.76642,
+-122.4665
 ],
 "sf|1230 S Blaney Ave, San Jose, CA 95129": [
 37.30199,
@@ -670,6 +834,10 @@
 37.67669,
 -122.45835
 ],
+"sf|Downtown San Francisco, CA": [
+37.78751,
+-122.40716
+],
 "sf|Golden Gate Park, San Francisco, CA 94122": [
 37.76818,
 -122.49276
@@ -690,6 +858,10 @@
 37.33617,
 -121.89059
 ],
+"sf|Polo Field, Golden Gate Park, San Francisco, CA 94122": [
+37.76818,
+-122.49276
+],
 "tor|1 Austin Terrace, Toronto, ON M5R 1X8": [
 43.6781,
 -79.40942
@@ -701,6 +873,10 @@
 "tor|178 Victoria St, Toronto, ON M5B 1T7": [
 43.65397,
 -79.37898
+],
+"tor|220 Yonge St, Toronto, ON M5B 2H1": [
+43.65363,
+-79.38073
 ],
 "tor|235 Queens Quay W, Toronto, ON M5J 2G8": [
 43.6389,
@@ -734,6 +910,10 @@
 43.65348,
 -79.38393
 ],
+"van|100 N Renfrew St, Vancouver, BC V5K 3N7": [
+49.28924,
+-123.04409
+],
 "van|1055 Canada Pl, Vancouver, BC V6C 0C3": [
 49.28951,
 -123.1152
@@ -762,6 +942,10 @@
 49.11271,
 -122.73447
 ],
+"van|6501 Deer Lake Ave, Burnaby, BC V5G 3T6": [
+49.23992,
+-122.96688
+],
 "van|805 E Pender St, Vancouver, BC V6A 1V9": [
 49.28041,
 -123.08697
@@ -769,6 +953,10 @@
 "van|East Vancouver, BC": [
 49.27944,
 -123.06667
+],
+"van|Langley, BC": [
+49.10393,
+-122.65705
 ],
 "van|Richmond, BC": [
 49.16317,

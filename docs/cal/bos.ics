@@ -8,19 +8,8 @@ X-WR-TIMEZONE:America/New_York
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:ccc-tai-chi-2026-11-20@noboringweekends
-DTSTAMP:20261120T000000Z
-DTSTART:20261120T150000Z
-DTEND:20261120T160000Z
-SUMMARY:华人文化中心太极课
-LOCATION:Chinese Culture Connection\, Malden\, MA
-DESCRIPTION:☯️ 每周五上午的太极课\,适合爷爷奶奶。\n费
- 用:以官网为准\nhttps://chinesecultureconnection.org/upcoming-events/
-URL:https://chinesecultureconnection.org/upcoming-events/
-END:VEVENT
-BEGIN:VEVENT
 UID:ccc-busy-bookworms-2026-11-24@noboringweekends
-DTSTAMP:20261120T000000Z
+DTSTAMP:20261123T000000Z
 DTSTART:20261124T143000Z
 DTEND:20261124T153000Z
 SUMMARY:华人文化中心:小书虫故事会
@@ -31,8 +20,33 @@ DESCRIPTION:📚 华人文化中心的亲子故事会\,地址报名以官
 URL:https://chinesecultureconnection.org/upcoming-events/
 END:VEVENT
 BEGIN:VEVENT
+UID:ccc-engineering-1124-2026-11-24@noboringweekends
+DTSTAMP:20261123T000000Z
+DTSTART:20261124T153000Z
+DTEND:20261124T173000Z
+SUMMARY:华人文化中心:工程与动手做(儿童)
+LOCATION:Chinese Culture Connection\, 75 Pleasant St\, Malden\, MA 02148
+DESCRIPTION:🔧 华人文化中心的儿童动手做时间\,搭一搭、
+ 拆一拆。\n费用:以官网为准\nhttps://chinesecultureconnection.org
+ /event/engineering-tinkering-3/
+URL:https://chinesecultureconnection.org/event/engineering-tinkering-3/
+END:VEVENT
+BEGIN:VEVENT
+UID:ccc-taichi-1127-2026-11-27@noboringweekends
+DTSTAMP:20261123T000000Z
+DTSTART:20261127T150000Z
+DTEND:20261127T170000Z
+SUMMARY:华人文化中心:太极课
+LOCATION:Chinese Culture Connection\, 75 Pleasant St\, Malden\, MA 02148
+DESCRIPTION:🥋 每周的太极课\,感恩节第二天也照常\,适合带
+ 长辈一起来。\n费用:以官网为准\nhttps://chinesecultureconnecti
+ on.org/event/tai-chi-class-%e5%a4%aa%e6%9e%81%e8%af%be-49/
+URL:https://chinesecultureconnection.org/event/tai-chi-class-%e5%a4%aa%e6%9
+ e%81%e8%af%be-49/
+END:VEVENT
+BEGIN:VEVENT
 UID:ccc-bilingual-rhythm-2026-12-03@noboringweekends
-DTSTAMP:20261120T000000Z
+DTSTAMP:20261123T000000Z
 DTSTART:20261203T150000Z
 DTEND:20261203T154500Z
 SUMMARY:华人文化中心:中英双语节奏时光(幼儿)
@@ -43,76 +57,33 @@ DESCRIPTION:🎵 中英双语儿歌律动\,给小小孩的中文启蒙\,每
 URL:https://chinesecultureconnection.org/upcoming-events/
 END:VEVENT
 BEGIN:VEVENT
-UID:bpl-tai-chi-2026-11-21@noboringweekends
-DTSTAMP:20261120T000000Z
-DTSTART:20261121T143000Z
-DTEND:20261121T163000Z
-SUMMARY:波士顿图书馆太极与气功
-LOCATION:Adams Street Branch\, 690 Adams St\, Dorchester\, MA 02122
-DESCRIPTION:☯️ 周六早上图书馆太极气功课\,免费。\n费用:
- 免费\nhttps://bpl.bibliocommons.com/events/6aeba47c96ec3a003adf60be
-URL:https://bpl.bibliocommons.com/events/6aeba47c96ec3a003adf60be
+UID:trident-friendsgiving-2026-2026-11-25@noboringweekends
+DTSTAMP:20261123T000000Z
+DTSTART;VALUE=DATE:20261125
+DTEND;VALUE=DATE:20261126
+SUMMARY:Trident 书店咖啡馆 Friendsgiving(免费)
+LOCATION:Trident Booksellers & Cafe\, 338 Newbury St\, Boston\, MA 02115
+DESCRIPTION:🎲 感恩节前夜的免费社区聚会\,一起玩桌游\,认
+ 识新朋友\;感恩节餐另外付费。\n费用:免费\nhttps://www.theb
+ ostoncalendar.com/events?utf8=%E2%9C%93&search=holiday
+URL:https://www.thebostoncalendar.com/events?utf8=%E2%9C%93&search=holiday
 END:VEVENT
 BEGIN:VEVENT
-UID:patriot-winter-skate-2026-11-20@noboringweekends
-DTSTAMP:20261120T000000Z
-DTSTART;VALUE=DATE:20261120
-DTEND;VALUE=DATE:20261121
-SUMMARY:Patriot Place 冬季溜冰场开幕
-LOCATION:Patriot Place\, Foxborough\, MA 02035
-DESCRIPTION:⛸️ 户外溜冰场开幕。\n费用:以官网为准\nhttps:
- //www.meetboston.com/events/this-weekend/
-URL:https://www.meetboston.com/events/this-weekend/
-END:VEVENT
-BEGIN:VEVENT
-UID:bpl-thanksgiving-crafts-2026-11-21@noboringweekends
-DTSTAMP:20261120T000000Z
-DTSTART:20261121T143000Z
-DTEND:20261121T163000Z
-SUMMARY:Hyde Park 图书馆感恩节手工
-LOCATION:Hyde Park Branch\, 35 Harvard Ave\, Hyde Park\, MA 02136
-DESCRIPTION:🦃 图书馆免费感恩节手工。\n费用:免费\nhttps://
- bpl.bibliocommons.com/events/6aba8a4c377296003a481c68
-URL:https://bpl.bibliocommons.com/events/6aba8a4c377296003a481c68
-END:VEVENT
-BEGIN:VEVENT
-UID:bpl-bach-2026-11-21@noboringweekends
-DTSTAMP:20261120T000000Z
-DTSTART:20261121T143000Z
-DTEND:20261121T163000Z
-SUMMARY:南波士顿图书馆巴赫音乐会
-LOCATION:South Boston Branch Library\, 646 E Broadway\, South Boston\, MA 0
- 2127
-DESCRIPTION:🎻 图书馆里的免费巴赫小音乐会。\n费用:免费\
- nhttps://bpl.bibliocommons.com/events/6af89890d7e98e002c52cfae
-URL:https://bpl.bibliocommons.com/events/6af89890d7e98e002c52cfae
-END:VEVENT
-BEGIN:VEVENT
-UID:faneuil-tree-2026-11-21@noboringweekends
-DTSTAMP:20261120T000000Z
-DTSTART;VALUE=DATE:20261121
-DTEND;VALUE=DATE:20261122
-SUMMARY:昆西市场圣诞树点灯
-LOCATION:Faneuil Hall Marketplace\, 4 S Market St\, Boston\, MA 02109
-DESCRIPTION:🎄 波士顿节日季的开场点灯。\n费用:免费\nhttps
- ://www.meetboston.com/events/this-weekend/
-URL:https://www.meetboston.com/events/this-weekend/
-END:VEVENT
-BEGIN:VEVENT
-UID:plymouth-thanksgiving-2026-11-21@noboringweekends
-DTSTAMP:20261120T000000Z
-DTSTART;VALUE=DATE:20261121
-DTEND;VALUE=DATE:20261122
-SUMMARY:Plymouth「美国故乡」感恩节庆典
-LOCATION:Plymouth waterfront\, Plymouth\, MA 02360
-DESCRIPTION:🦃 第一个感恩节的发生地\,免费庆典\,离波士顿
- 约一小时车程。\n费用:免费\nhttps://www.meetboston.com/blog/post
- /this-weekend/
-URL:https://www.meetboston.com/blog/post/this-weekend/
+UID:martins-park-ship-lighting-2026-2026-11-28@noboringweekends
+DTSTAMP:20261123T000000Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:Martin's Park 海盗船点灯
+LOCATION:Martin's Park\, 64 Sleeper St\, Boston\, MA 02210
+DESCRIPTION:⛵ 儿童公园里的大船亮灯。\n费用:以官网为准\n
+ https://www.bostonglobe.com/2026/11/06/arts/things-to-do-in-boston-holiday
+ s/
+URL:https://www.bostonglobe.com/2026/11/06/arts/things-to-do-in-boston-holi
+ days/
 END:VEVENT
 BEGIN:VEVENT
 UID:boston-common-tree-2026-12-03@noboringweekends
-DTSTAMP:20261120T000000Z
+DTSTAMP:20261123T000000Z
 DTSTART:20261203T230000Z
 DTEND:20261204T010000Z
 SUMMARY:波士顿公园圣诞树点灯+烟花

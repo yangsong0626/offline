@@ -8,85 +8,48 @@ X-WR-TIMEZONE:America/Los_Angeles
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:sd-env-film-fest-2026-11-20@noboringweekends
-DTSTAMP:20261120T000000Z
-DTSTART:20261121T020000Z
-DTEND:20261121T040000Z
-SUMMARY:圣地亚哥环境电影节开幕夜(免费)
-LOCATION:Panama 66\, Balboa Park\, 1450 El Prado\, San Diego\, CA 92101
-DESCRIPTION:🌍 环境电影节免费开幕。\n费用:免费\nhttps://tim
- esofsandiego.com/san-diego-events/2026/11/19/san-diego-weekend-guide-nov-2
- 0-22-lighting-up-night/
-URL:https://timesofsandiego.com/san-diego-events/2026/11/19/san-diego-weeke
- nd-guide-nov-20-22-lighting-up-night/
+UID:helen-woodward-camp-2026-2026-11-23@noboringweekends
+DTSTAMP:20261123T000000Z
+DTSTART;VALUE=DATE:20261123
+DTEND;VALUE=DATE:20261124
+SUMMARY:Helen Woodward 动物中心感恩节营(11/23–25)
+LOCATION:Helen Woodward Animal Center\, 6461 El Apajo Rd\, Rancho Santa Fe\
+ , CA 92067
+DESCRIPTION:🐾 感恩节假期的儿童动物营\,11/23–25\,需报名
+ 。\n费用:以官网为准\nhttps://www.sandiegofamily.com/things-to-do/s
+ easonal-happenings/november-seasonal-events-and-camps
+URL:https://www.sandiegofamily.com/things-to-do/seasonal-happenings/novembe
+ r-seasonal-events-and-camps
 END:VEVENT
 BEGIN:VEVENT
-UID:skating-del-2026-11-20@noboringweekends
-DTSTAMP:20261120T000000Z
-DTSTART;VALUE=DATE:20261120
-DTEND;VALUE=DATE:20261121
-SUMMARY:科罗纳多酒店海边溜冰场开幕
-LOCATION:Hotel del Coronado\, 1500 Orange Ave\, Coronado\, CA 92118
-DESCRIPTION:⛸️ 在海边的百年老酒店前溜冰。\n费用:以官
- 网为准\nhttps://lajollamom.com/san-diego-holiday-events-christmas/
-URL:https://lajollamom.com/san-diego-holiday-events-christmas/
+UID:father-joes-turkey-trot-2026-2026-11-26@noboringweekends
+DTSTAMP:20261123T000000Z
+DTSTART;VALUE=DATE:20261126
+DTEND;VALUE=DATE:20261127
+SUMMARY:巴尔博亚公园感恩节火鸡跑(Father Joe's)
+LOCATION:Balboa Park\, 1549 El Prado\, San Diego\, CA 92101
+DESCRIPTION:🦃 感恩节早上在巴尔博亚公园的 5K。\n费用:以
+ 官网为准\nhttps://timesofsandiego.com/san-diego-events/2026/11/11/san-
+ diego-thanksgiving-weekend-guide/
+URL:https://timesofsandiego.com/san-diego-events/2026/11/11/san-diego-thank
+ sgiving-weekend-guide/
 END:VEVENT
 BEGIN:VEVENT
-UID:doggie-street-fest-2026-11-21@noboringweekends
-DTSTAMP:20261120T000000Z
-DTSTART:20261121T180000Z
-DTEND:20261121T230000Z
-SUMMARY:Liberty Station 狗狗街头节
-LOCATION:NTC Park at Liberty Station\, 2455 Cushing Rd\, San Diego\, CA 921
- 06
-DESCRIPTION:🐶 免费狗狗节\,带不带狗都好玩。\n费用:免费\n
- https://timesofsandiego.com/san-diego-events/2026/11/19/san-diego-weekend-
- guide-nov-20-22-lighting-up-night/
-URL:https://timesofsandiego.com/san-diego-events/2026/11/19/san-diego-weeke
- nd-guide-nov-20-22-lighting-up-night/
-END:VEVENT
-BEGIN:VEVENT
-UID:point-loma-market-2026-11-21@noboringweekends
-DTSTAMP:20261120T000000Z
-DTSTART:20261121T180000Z
-DTEND:20261121T220000Z
-SUMMARY:Point Loma 艺术家节日市集
-LOCATION:St. Charles Borromeo Church\, 2808 Cadiz St\, San Diego\, CA 92110
-DESCRIPTION:🏺 手作陶瓷、绘画、摄影作品\,免费逛。\n费用
- :免费\nhttps://timesofsandiego.com/san-diego-events/2026/11/19/san-diego
- -weekend-guide-nov-20-22-lighting-up-night/
-URL:https://timesofsandiego.com/san-diego-events/2026/11/19/san-diego-weeke
- nd-guide-nov-20-22-lighting-up-night/
-END:VEVENT
-BEGIN:VEVENT
-UID:spreckels-organ-2026-11-22@noboringweekends
-DTSTAMP:20261120T000000Z
-DTSTART:20261122T220000Z
-DTEND:20261122T230000Z
-SUMMARY:巴尔博亚公园户外管风琴音乐会
-LOCATION:Spreckels Organ Pavilion\, 1549 El Prado\, San Diego\, CA 92101
-DESCRIPTION:🎹 世界最大户外管风琴之一的免费周日音乐会
- 。\n费用:免费\nhttps://timesofsandiego.com/san-diego-events/2026/11/1
- 9/san-diego-weekend-guide-nov-20-22-lighting-up-night/
-URL:https://timesofsandiego.com/san-diego-events/2026/11/19/san-diego-weeke
- nd-guide-nov-20-22-lighting-up-night/
-END:VEVENT
-BEGIN:VEVENT
-UID:encinitas-street-fair-2026-11-22@noboringweekends
-DTSTAMP:20261120T000000Z
-DTSTART;VALUE=DATE:20261122
-DTEND;VALUE=DATE:20261123
-SUMMARY:Encinitas 节日街头市集(第 22 届)
-LOCATION:Downtown Encinitas\, S Coast Hwy 101\, Encinitas\, CA 92024
-DESCRIPTION:🎁 海边小镇节日街头市集\,免费。\n费用:免费\n
- https://timesofsandiego.com/san-diego-events/2026/11/19/san-diego-weekend-
- guide-nov-20-22-lighting-up-night/
-URL:https://timesofsandiego.com/san-diego-events/2026/11/19/san-diego-weeke
- nd-guide-nov-20-22-lighting-up-night/
+UID:coronado-turkey-trot-2026-2026-11-26@noboringweekends
+DTSTAMP:20261123T000000Z
+DTSTART;VALUE=DATE:20261126
+DTEND;VALUE=DATE:20261127
+SUMMARY:科罗纳多感恩节 5K
+LOCATION:Tidelands Park\, 2000 Mullinex Dr\, Coronado\, CA 92118
+DESCRIPTION:🏃 海湾边的感恩节 5K。\n费用:以官网为准\nhttps
+ ://timesofsandiego.com/san-diego-events/2026/11/11/san-diego-thanksgiving-
+ weekend-guide/
+URL:https://timesofsandiego.com/san-diego-events/2026/11/11/san-diego-thank
+ sgiving-weekend-guide/
 END:VEVENT
 BEGIN:VEVENT
 UID:turkey-bash-2026-11-27@noboringweekends
-DTSTAMP:20261120T000000Z
+DTSTAMP:20261123T000000Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261128
 SUMMARY:Alpine 动物保护区 Turkey Bash
@@ -99,7 +62,7 @@ URL:https://timesofsandiego.com/san-diego-events/2026/11/11/san-diego-thank
 END:VEVENT
 BEGIN:VEVENT
 UID:december-nights-2026-12-04@noboringweekends
-DTSTAMP:20261120T000000Z
+DTSTAMP:20261123T000000Z
 DTSTART;VALUE=DATE:20261204
 DTEND;VALUE=DATE:20261205
 SUMMARY:巴尔博亚公园 December Nights(12/4–5)

@@ -8,101 +8,8 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:dso-park-concert-2026-11-19@noboringweekends
-DTSTAMP:20261120T000000Z
-DTSTART:20261119T233000Z
-DTEND:20261120T013000Z
-SUMMARY:达拉斯交响乐团公园免费室内乐
-LOCATION:Shirley & Bill McIntyre Park\, Dallas\, TX
-DESCRIPTION:🎻 每月第三个周四的免费户外室内乐\,下午 5:30
- ~\n费用:免费\nhttps://www.dallassymphony.org/concerts-and-events/calen
- dar/
-URL:https://www.dallassymphony.org/concerts-and-events/calendar/
-END:VEVENT
-BEGIN:VEVENT
-UID:art-after-dark-dal-2026-11-19@noboringweekends
-DTSTAMP:20261120T000000Z
-DTSTART;VALUE=DATE:20261119
-DTEND;VALUE=DATE:20261120
-SUMMARY:Art After Dark 艺术夜
-LOCATION:1313 Main St\, 1313 Main St\, Dallas\, TX 75202
-DESCRIPTION:🍸 讲座+现场舞蹈+鸡尾酒品鉴+DJ。\n费用:以官
- 网为准\nhttps://dallasdoinggood.com/events/
-URL:https://dallasdoinggood.com/events/
-END:VEVENT
-BEGIN:VEVENT
-UID:city-rink-lighting-2026-11-21@noboringweekends
-DTSTAMP:20261120T000000Z
-DTSTART;VALUE=DATE:20261121
-DTEND;VALUE=DATE:20261122
-SUMMARY:达拉斯市中心溜冰场开幕+点灯
-LOCATION:Main Street Garden\, 1902 Main St\, Dallas\, TX 75201
-DESCRIPTION:⛸️ 市中心溜冰场开幕\,当晚圣诞树点灯。\n费
- 用:免费\nhttps://dallas.culturemap.com/
-URL:https://dallas.culturemap.com/
-END:VEVENT
-BEGIN:VEVENT
-UID:highland-village-lighting-2026-11-21@noboringweekends
-DTSTAMP:20261120T000000Z
-DTSTART;VALUE=DATE:20261121
-DTEND;VALUE=DATE:20261122
-SUMMARY:Highland Village 音乐圣诞树点灯
-LOCATION:Highland Village\, Highland Village\, TX
-DESCRIPTION:🎄 35 英尺大树、15 万颗灯跟着音乐闪。\n费用:
- 免费\nhttps://dallas.culturemap.com/
-URL:https://dallas.culturemap.com/
-END:VEVENT
-BEGIN:VEVENT
-UID:turtle-creek-arts-2026-11-21@noboringweekends
-DTSTAMP:20261120T000000Z
-DTSTART;VALUE=DATE:20261121
-DTEND;VALUE=DATE:20261122
-SUMMARY:Turtle Creek 秋日艺术节(周六/日)
-LOCATION:Reverchon Park\, 3505 Maple Ave\, Dallas\, TX 75219
-DESCRIPTION:🎨 约 100 位本地艺术家+儿童游乐区\,免费入场
- 。\n费用:免费\nhttps://dfwchild.com/things-to-do-this-weekend/
-URL:https://dfwchild.com/things-to-do-this-weekend/
-END:VEVENT
-BEGIN:VEVENT
-UID:plano-holiday-market-2026-11-21@noboringweekends
-DTSTAMP:20261120T000000Z
-DTSTART;VALUE=DATE:20261121
-DTEND;VALUE=DATE:20261122
-SUMMARY:Plano 节日手作市集(周六/日)
-LOCATION:Carpenter Park Recreation Center\, 6701 Coit Rd\, Plano\, TX 75024
-DESCRIPTION:🎁 手作礼物、饰品、蜡烛\,免费入场\,华人多的
-  Plano~\n费用:免费\nhttps://planomoms.com/fun-activities-for-this-week
- end/
-URL:https://planomoms.com/fun-activities-for-this-weekend/
-END:VEVENT
-BEGIN:VEVENT
-UID:legacy-east-lights-2026-11-22@noboringweekends
-DTSTAMP:20261120T000000Z
-DTSTART:20261122T220000Z
-DTEND:20261123T010000Z
-SUMMARY:Plano Legacy East 点灯(免费小火车)
-LOCATION:Legacy East\, Plano\, TX 75024
-DESCRIPTION:🚂 免费小火车、充气城堡和表演\,周日下午 4–
- 7 点。\n费用:免费\nhttps://planomoms.com/fun-activities-for-this-wee
- kend/
-URL:https://planomoms.com/fun-activities-for-this-weekend/
-END:VEVENT
-BEGIN:VEVENT
-UID:fw-parade-lights-2026-11-22@noboringweekends
-DTSTAMP:20261120T000000Z
-DTSTART:20261123T000000Z
-DTEND:20261123T020000Z
-SUMMARY:沃斯堡灯光大游行
-LOCATION:Downtown Fort Worth\, Downtown Fort Worth\, TX
-DESCRIPTION:✨ 沃斯堡市中心的节日灯光游行。\n费用:免费\n
- https://www.cbsnews.com/texas/news/gm-financial-parade-of-lights-to-return
- -to-fort-worth-for-the-2026-holiday-season/
-URL:https://www.cbsnews.com/texas/news/gm-financial-parade-of-lights-to-ret
- urn-to-fort-worth-for-the-2026-holiday-season/
-END:VEVENT
-BEGIN:VEVENT
 UID:grapevine-carol-lights-2026-11-23@noboringweekends
-DTSTAMP:20261120T000000Z
+DTSTAMP:20261123T000000Z
 DTSTART;VALUE=DATE:20261123
 DTEND;VALUE=DATE:20261124
 SUMMARY:Grapevine 圣诞点灯(免费)
@@ -115,7 +22,7 @@ URL:https://resident.com/dallas/2026/11/05/dallasfort-worths-holiday-season
 END:VEVENT
 BEGIN:VEVENT
 UID:disney-ice-allen-2026-11-25@noboringweekends
-DTSTAMP:20261120T000000Z
+DTSTAMP:20261123T000000Z
 DTSTART;VALUE=DATE:20261125
 DTEND;VALUE=DATE:20261126
 SUMMARY:迪士尼冰上世界(Allen\,到 11/29)
@@ -126,8 +33,35 @@ DESCRIPTION:⛸️ 感恩节假期的迪士尼冰上演出\,11/25–29。\n
 URL:https://dallas.culturemap.com/
 END:VEVENT
 BEGIN:VEVENT
+UID:dallas-ymca-turkey-trot-2026-2026-11-26@noboringweekends
+DTSTAMP:20261123T000000Z
+DTSTART:20261126T143000Z
+DTEND:20261126T163000Z
+SUMMARY:达拉斯 YMCA 感恩节火鸡跑
+LOCATION:Dallas City Hall\, 1500 Marilla St\, Dallas\, TX 75201
+DESCRIPTION:🦃 达拉斯最大的火鸡跑\,环绕市中心和 Deep Ellum
+ \,有计时 5K、8 英里和不计时组。\n费用:成人约 $53.52、7
+ –12 岁约 $41.52\,以官网为准\nhttps://dfwchild.com/thanksgiving-ev
+ ents-dfw-family-activities/
+URL:https://dfwchild.com/thanksgiving-events-dfw-family-activities/
+END:VEVENT
+BEGIN:VEVENT
+UID:galleria-tree-lighting-2026-2026-11-27@noboringweekends
+DTSTAMP:20261123T000000Z
+DTSTART:20261127T180000Z
+DTEND:20261127T200000Z
+SUMMARY:Galleria Dallas 每日圣诞树点灯秀
+LOCATION:Galleria Dallas\, 13350 Dallas Pkwy\, Dallas\, TX 75240
+DESCRIPTION:🎄 11/27–12/24 每天 12、2、4、6 点各一场点灯秀
+ 。\n费用:以官网为准\nhttps://www.dallasnews.com/arts-entertainment
+ /things-to-do/article/north-texas-thanksgiving-events-kick-holiday-2252411
+ 6.php
+URL:https://www.dallasnews.com/arts-entertainment/things-to-do/article/nort
+ h-texas-thanksgiving-events-kick-holiday-22524116.php
+END:VEVENT
+BEGIN:VEVENT
 UID:tbt-nutcracker-2026-11-27@noboringweekends
-DTSTAMP:20261120T000000Z
+DTSTAMP:20261123T000000Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261128
 SUMMARY:德州芭蕾舞团《胡桃夹子》(达拉斯)

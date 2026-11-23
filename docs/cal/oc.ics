@@ -8,77 +8,39 @@ X-WR-TIMEZONE:America/Los_Angeles
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:muzeo-disney-2026-11-18@noboringweekends
-DTSTAMP:20261120T000000Z
-DTSTART:20261118T190000Z
-DTEND:20261118T210000Z
-SUMMARY:Muzeo 迪士尼档案展
-LOCATION:Muzeo Museum and Cultural Center\, 241 S Anaheim Blvd\, Anaheim\, 
- CA 92805
-DESCRIPTION:🏰 迪士尼档案展\,周三周四上午 11 点有场次\,
- 需购票。\n费用:以官网为准\nhttps://orangecounty.net/mobile/even
- ts.html
-URL:https://orangecounty.net/mobile/events.html
+UID:tanaka-hikari-2026-2026-11-27@noboringweekends
+DTSTAMP:20261123T000000Z
+DTSTART;VALUE=DATE:20261127
+DTEND;VALUE=DATE:20261128
+SUMMARY:Tanaka 农场 Hikari 灯光节开幕
+LOCATION:Tanaka Farms\, 5380 3/4 University Dr\, Irvine\, CA 92612
+DESCRIPTION:🏮 尔湾日裔家庭农场的灯光节\,预计感恩节第
+ 二天开幕\,结束日期待定。\n费用:以官网为准\nhttps://enjoy
+ orangecounty.com/hikari-festival-of-lights/
+URL:https://enjoyorangecounty.com/hikari-festival-of-lights/
 END:VEVENT
 BEGIN:VEVENT
-UID:gifts-goodies-mv-2026-11-21@noboringweekends
-DTSTAMP:20261120T000000Z
-DTSTART:20261121T160000Z
-DTEND:20261122T000000Z
-SUMMARY:Mission Viejo 节日手作集市(第 55 届)
-LOCATION:Norman Murray Community & Senior Center\, 24932 Veterans Way\, Mis
- sion Viejo\, CA 92692
-DESCRIPTION:🎁 免费入场、免费停车的老牌节日集市。\n费
- 用:免费\nhttps://enjoyorangecounty.com/whats-happening/
-URL:https://enjoyorangecounty.com/whats-happening/
+UID:irvine-turkey-trot-2026-2026-11-26@noboringweekends
+DTSTAMP:20261123T000000Z
+DTSTART:20261126T153000Z
+DTEND:20261126T173000Z
+SUMMARY:尔湾感恩节火鸡跑(有儿童跑)
+LOCATION:Irvine Valley College\, 5500 Irvine Center Dr\, Irvine\, CA 92618
+DESCRIPTION:🦃 5K、1 英里和儿童跑\;1 英里 7:30 起跑\,5K 8:00
+ 。\n费用:以官网为准\nhttps://enjoyorangecounty.com/orange-county-t
+ urkey-trots/
+URL:https://enjoyorangecounty.com/orange-county-turkey-trots/
 END:VEVENT
 BEGIN:VEVENT
-UID:campfire-night-market-2026-11-21@noboringweekends
-DTSTAMP:20261120T000000Z
-DTSTART:20261122T010000Z
-DTEND:20261122T050000Z
-SUMMARY:Mission Viejo 秋日夜市(免费)
-LOCATION:North Paseo at Los Osos\, Mission Viejo\, CA 92691
-DESCRIPTION:🔥 免费夜市\,周六晚 5–9 点。\n费用:免费\nhttps
- ://enjoyorangecounty.com/whats-happening/
-URL:https://enjoyorangecounty.com/whats-happening/
-END:VEVENT
-BEGIN:VEVENT
-UID:patchwork-tustin-2026-11-22@noboringweekends
-DTSTAMP:20261120T000000Z
-DTSTART:20261122T190000Z
-DTEND:20261123T010000Z
-SUMMARY:Old Town Tustin Patchwork 手作市集
-LOCATION:Old Town Tustin\, El Camino Real\, Tustin\, CA 92780
-DESCRIPTION:🧵 本地手作市集\,免费\,宠物友好。\n费用:免费
- \nhttps://enjoyorangecounty.com/whats-happening/
-URL:https://enjoyorangecounty.com/whats-happening/
-END:VEVENT
-BEGIN:VEVENT
-UID:bella-beats-2026-11-22@noboringweekends
-DTSTAMP:20261120T000000Z
-DTSTART:20261122T210000Z
-DTEND:20261123T000000Z
-SUMMARY:Bella Terra 花园音乐会(免费)
-LOCATION:Bella Terra\, 7777 Edinger Ave\, Huntington Beach\, CA 92647
-DESCRIPTION:🎶 周日下午免费户外音乐。\n费用:免费\nhttps://
- timesofsandiego.com/san-diego-events/2026/11/19/san-diego-weekend-guide-no
- v-20-22-lighting-up-night/
-URL:https://timesofsandiego.com/san-diego-events/2026/11/19/san-diego-weeke
- nd-guide-nov-20-22-lighting-up-night/
-END:VEVENT
-BEGIN:VEVENT
-UID:nixon-duo-nova-2026-11-22@noboringweekends
-DTSTAMP:20261120T000000Z
-DTSTART:20261122T220000Z
-DTEND:20261123T000000Z
-SUMMARY:尼克松图书馆免费音乐会
-LOCATION:Richard Nixon Presidential Library\, 18001 Yorba Linda Blvd\, Yorb
- a Linda\, CA 92886
-DESCRIPTION:🎻 总统图书馆的周日免费音乐会。\n费用:免费\
- nhttps://timesofsandiego.com/san-diego-events/2026/11/19/san-diego-weekend
- -guide-nov-20-22-lighting-up-night/
-URL:https://timesofsandiego.com/san-diego-events/2026/11/19/san-diego-weeke
- nd-guide-nov-20-22-lighting-up-night/
+UID:oc-rescue-mission-5k-2026-2026-11-26@noboringweekends
+DTSTAMP:20261123T000000Z
+DTSTART:20261126T160000Z
+DTEND:20261126T180000Z
+SUMMARY:Tustin 感恩节公益 5K(OC Rescue Mission)
+LOCATION:Orange County Rescue Mission\, 1 Hope Dr\, Tustin\, CA 92782
+DESCRIPTION:🏃 第 13 届感恩节早上 5K\,支持无家可归者服务
+ 。\n费用:以官网为准\nhttps://enjoyorangecounty.com/orange-county-t
+ urkey-trots/
+URL:https://enjoyorangecounty.com/orange-county-turkey-trots/
 END:VEVENT
 END:VCALENDAR

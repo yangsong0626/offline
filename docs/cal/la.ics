@@ -8,134 +8,45 @@ X-WR-TIMEZONE:America/Los_Angeles
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:aop-autumn-festival-2026-11-21@noboringweekends
-DTSTAMP:20261120T000000Z
-DTSTART;VALUE=DATE:20261121
-DTEND;VALUE=DATE:20261122
-SUMMARY:太平洋水族馆亚洲秋日节(周六/日)
-LOCATION:Aquarium of the Pacific\, 100 Aquarium Way\, Long Beach\, CA 90802
-DESCRIPTION:🏮 11/21–22 两天\,亚洲文化表演、美食和海洋主
- 题活动~\n费用:以官网为准\nhttps://www.funwithkidsinla.com/post/t
- hings-to-do-with-kids-in-los-angeles-in-november
-URL:https://www.funwithkidsinla.com/post/things-to-do-with-kids-in-los-ange
- les-in-november
+UID:gentle-barn-thanksgiving-2026-2026-11-26@noboringweekends
+DTSTAMP:20261123T000000Z
+DTSTART:20261126T180000Z
+DTEND:20261126T210000Z
+SUMMARY:Gentle Barn 动物农场「温柔的感恩节」
+LOCATION:The Gentle Barn\, 15825 Sierra Hwy\, Santa Clarita\, CA 91390
+DESCRIPTION:🐄 在动物救助农场过感恩节上午\,和获救的动
+ 物们待在一起。\n费用:以官网为准\nhttps://www.timeout.com/los
+ -angeles/things-to-do/thanksgiving-activities-and-events-for-los-angeles
+URL:https://www.timeout.com/los-angeles/things-to-do/thanksgiving-activitie
+ s-and-events-for-los-angeles
 END:VEVENT
 BEGIN:VEVENT
-UID:teddy-swims-2026-11-18@noboringweekends
-DTSTAMP:20261120T000000Z
-DTSTART;VALUE=DATE:20261118
-DTEND;VALUE=DATE:20261119
-SUMMARY:Teddy Swims 演唱会
-LOCATION:Kia Forum\, 3900 W Manchester Blvd\, Inglewood\, CA 90305
-DESCRIPTION:🎤 Teddy Swims 洛杉矶站\,票务以官网为准。\n费用
- :以官网为准\nhttps://onestowatch.com/live/best-concerts-los-angeles-n
- ovember/
-URL:https://onestowatch.com/live/best-concerts-los-angeles-november/
+UID:turkey-trot-la-2026-2026-11-26@noboringweekends
+DTSTAMP:20261123T000000Z
+DTSTART;VALUE=DATE:20261126
+DTEND;VALUE=DATE:20261127
+SUMMARY:洛杉矶市政厅感恩节火鸡跑(有儿童跑、狗狗跑)
+LOCATION:Los Angeles City Hall\, 200 N Spring St\, Los Angeles\, CA 90012
+DESCRIPTION:🦃 5K/10K 跑走\,另有 1/4 英里儿童「Widdle Wobble」
+ 和 1K 狗狗跑\,全家连狗一起参加。\n费用:以官网为准\nhtt
+ ps://www.funwithkidsinla.com/post/what-is-open-on-thanksgiving-day-near-me
+ -36-places-and-events-in-los-angeles-for-family-fun-and-tur
+URL:https://www.funwithkidsinla.com/post/what-is-open-on-thanksgiving-day-n
+ ear-me-36-places-and-events-in-los-angeles-for-family-fun-and-tur
 END:VEVENT
 BEGIN:VEVENT
-UID:jackson-browne-2026-11-19@noboringweekends
-DTSTAMP:20261120T000000Z
-DTSTART:20261120T040000Z
-DTEND:20261120T060000Z
-SUMMARY:Jackson Browne 演唱会
-LOCATION:Hollywood Pantages Theatre\, 6233 Hollywood Blvd\, Los Angeles\, C
- A 90028
-DESCRIPTION:🎸 民谣摇滚传奇 Jackson Browne 好莱坞连演\,周四
- 晚 8 点。\n费用:以官网为准\nhttps://onestowatch.com/live/best-co
- ncerts-los-angeles-november/
-URL:https://onestowatch.com/live/best-concerts-los-angeles-november/
-END:VEVENT
-BEGIN:VEVENT
-UID:burbank-holiday-park-2026-11-20@noboringweekends
-DTSTAMP:20261120T000000Z
-DTSTART:20261121T000000Z
-DTEND:20261121T060000Z
-SUMMARY:Burbank Magnolia Park 节日公园
-LOCATION:Magnolia Park\, Magnolia Blvd\, Burbank\, CA 91505
-DESCRIPTION:🎄 免费社区节日晚会。\n费用:免费\nhttps://www.fu
- nwithkidsinla.com/post/fun-things-to-do-this-weekend-in-los-angeles-near-m
- e
-URL:https://www.funwithkidsinla.com/post/fun-things-to-do-this-weekend-in-l
- os-angeles-near-me
-END:VEVENT
-BEGIN:VEVENT
-UID:la-auto-show-2026-11-20@noboringweekends
-DTSTAMP:20261120T000000Z
-DTSTART;VALUE=DATE:20261120
-DTEND;VALUE=DATE:20261121
-SUMMARY:洛杉矶车展(到 11/29)
-LOCATION:Los Angeles Convention Center\, 1201 S Figueroa St\, Los Angeles\,
-  CA 90015
-DESCRIPTION:🚗 车展 11/20 开幕\,感恩节假期带娃去看新车。\
- n费用:以官网为准\nhttps://www.funwithkidsinla.com/post/fun-things-t
- o-do-this-weekend-in-los-angeles-near-me
-URL:https://www.funwithkidsinla.com/post/fun-things-to-do-this-weekend-in-l
- os-angeles-near-me
-END:VEVENT
-BEGIN:VEVENT
-UID:ovation-tree-2026-11-21@noboringweekends
-DTSTAMP:20261120T000000Z
-DTSTART:20261122T003000Z
-DTEND:20261122T023000Z
-SUMMARY:Ovation Hollywood 圣诞点灯
-LOCATION:Ovation Hollywood\, 6801 Hollywood Blvd\, Los Angeles\, CA 90028
-DESCRIPTION:🎄 好莱坞大道上的免费点灯+亲子活动。\n费用:
- 免费\nhttps://www.welikela.com/things-to-do-this-weekend-in-los-angeles-
- 11-20-2026-to-11-22-2026/
-URL:https://www.welikela.com/things-to-do-this-weekend-in-los-angeles-11-20
- -2026-to-11-22-2026/
-END:VEVENT
-BEGIN:VEVENT
-UID:great-la-walk-2026-11-21@noboringweekends
-DTSTAMP:20261120T000000Z
-DTSTART;VALUE=DATE:20261121
-DTEND;VALUE=DATE:20261122
-SUMMARY:Great Los Angeles Walk 沿 Wilshire 走到海边
-LOCATION:Pershing Square\, 532 S Olive St\, Los Angeles\, CA 90013
-DESCRIPTION:🚶 从市中心沿 Wilshire 大道一路走到海边\,不用
- 报名\,走多少都行。\n费用:免费\nhttps://www.welikela.com/things
- -to-do-this-weekend-in-los-angeles-11-20-2026-to-11-22-2026/
-URL:https://www.welikela.com/things-to-do-this-weekend-in-los-angeles-11-20
- -2026-to-11-22-2026/
-END:VEVENT
-BEGIN:VEVENT
-UID:union-station-tree-2026-11-21@noboringweekends
-DTSTAMP:20261120T000000Z
-DTSTART;VALUE=DATE:20261121
-DTEND;VALUE=DATE:20261122
-SUMMARY:联合车站圣诞点灯
-LOCATION:Union Station\, 800 N Alameda St\, Los Angeles\, CA 90012
-DESCRIPTION:🚉 联合车站的免费点灯\,就在华埠旁边\,点完去
- 吃点心~\n费用:免费\nhttps://www.welikela.com/things-to-do-this-week
- end-in-los-angeles-11-20-2026-to-11-22-2026/
-URL:https://www.welikela.com/things-to-do-this-weekend-in-los-angeles-11-20
- -2026-to-11-22-2026/
-END:VEVENT
-BEGIN:VEVENT
-UID:doo-dah-love-in-2026-11-22@noboringweekends
-DTSTAMP:20261120T000000Z
-DTSTART;VALUE=DATE:20261122
-DTEND;VALUE=DATE:20261123
-SUMMARY:帕萨迪纳 Doo Dah 免费音乐下午
-LOCATION:Memorial Park Bandshell\, 85 E Holly St\, Pasadena\, CA 91103
-DESCRIPTION:🎸 老帕萨迪纳公园里的免费音乐下午。\n费用:
- 免费\nhttps://www.funwithkidsinla.com/post/things-to-do-with-kids-in-los
- -angeles-in-november
-URL:https://www.funwithkidsinla.com/post/things-to-do-with-kids-in-los-ange
- les-in-november
-END:VEVENT
-BEGIN:VEVENT
-UID:getty-villa-mosaic-2026-11-22@noboringweekends
-DTSTAMP:20261120T000000Z
-DTSTART;VALUE=DATE:20261122
-DTEND;VALUE=DATE:20261123
-SUMMARY:Getty Villa 马赛克亲子工作坊(免费\,需预约)
-LOCATION:Getty Villa\, 17985 Pacific Coast Hwy\, Pacific Palisades\, CA 902
- 72
-DESCRIPTION:🏛️ 在古罗马风的别墅博物馆做马赛克\,免费
- 但要提前预约入场。\n费用:免费\nhttps://www.welikela.com/thing
- s-to-do-this-weekend-in-los-angeles-11-20-2026-to-11-22-2026/
-URL:https://www.welikela.com/things-to-do-this-weekend-in-los-angeles-11-20
- -2026-to-11-22-2026/
+UID:hollywood-christmas-parade-2026-2026-11-29@noboringweekends
+DTSTAMP:20261123T000000Z
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+SUMMARY:好莱坞圣诞大游行
+LOCATION:Hollywood Boulevard\, Hollywood Blvd & Highland Ave\, Los Angeles\
+ , CA 90028
+DESCRIPTION:🎅 感恩节后的周日\,好莱坞大道上的圣诞游行
+ 。日期来自单一来源\,以官网为准。\n费用:以官网为准\nh
+ ttps://www.timeout.com/los-angeles/things-to-do/thanksgiving-activities-an
+ d-events-for-los-angeles
+URL:https://www.timeout.com/los-angeles/things-to-do/thanksgiving-activitie
+ s-and-events-for-los-angeles
 END:VEVENT
 END:VCALENDAR

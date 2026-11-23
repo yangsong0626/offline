@@ -8,128 +8,31 @@ X-WR-TIMEZONE:America/Los_Angeles
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:kcls-chinese-book-group-2026-11-21@noboringweekends
-DTSTAMP:20261120T000000Z
-DTSTART:20261121T220000Z
-DTEND:20261122T000000Z
-SUMMARY:贝尔维尤图书馆中文读书会
-LOCATION:Bellevue Library\, 1111 110th Ave NE\, Bellevue\, WA 98004
-DESCRIPTION:📖 用中文聊书\,认识东区爱读书的华人朋友\,免
- 费。\n费用:免费\nhttps://kcls.bibliocommons.com/events/6a1dcad643b41
- b3d006ac8f2
-URL:https://kcls.bibliocommons.com/events/6a1dcad643b41b3d006ac8f2
+UID:apple-cup-5k-2026-2026-11-26@noboringweekends
+DTSTAMP:20261123T000000Z
+DTSTART;VALUE=DATE:20261126
+DTEND;VALUE=DATE:20261127
+SUMMARY:绿湖感恩节 Apple Cup 5K
+LOCATION:Green Lake Park\, Green Lake Park\, Seattle\, WA 98103
+DESCRIPTION:🍎 绕绿湖跑 5K\,今年第 8 届\,把感恩节和华大 vs
+  华州的 Apple Cup 结合在一起。\n费用:以官网为准\nhttps://e
+ verout.com/seattle/articles/the-top-35-events-in-seattle-this-week-nov-23-
+ 29-2026/c6634/
+URL:https://everout.com/seattle/articles/the-top-35-events-in-seattle-this-
+ week-nov-23-29-2026/c6634/
 END:VEVENT
 BEGIN:VEVENT
-UID:katseye-2026-11-17@noboringweekends
-DTSTAMP:20261120T000000Z
-DTSTART;VALUE=DATE:20261117
-DTEND;VALUE=DATE:20261118
-SUMMARY:KATSEYE 演唱会
-LOCATION:Climate Pledge Arena\, 334 1st Ave N\, Seattle\, WA 98109
-DESCRIPTION:💛 HYBE 全球女团 KATSEYE 西雅图站!票务以官网为
- 准。\n费用:以官网为准\nhttps://everout.com/seattle/top-events/
-URL:https://everout.com/seattle/top-events/
-END:VEVENT
-BEGIN:VEVENT
-UID:butoh-fest-2026-11-19@noboringweekends
-DTSTAMP:20261120T000000Z
-DTSTART;VALUE=DATE:20261119
-DTEND;VALUE=DATE:20261120
-SUMMARY:西雅图国际舞踏节
-LOCATION:Yaw Theater\, Seattle\, WA
-DESCRIPTION:🌑 日本前卫舞踏(Butoh)国际节\,演出场次以官网
- 为准。\n费用:以官网为准\nhttps://everout.com/seattle/articles/th
- e-best-things-to-do-in-seattle-this-month-november-2026/c6598/
-URL:https://everout.com/seattle/articles/the-best-things-to-do-in-seattle-t
- his-month-november-2026/c6598/
-END:VEVENT
-BEGIN:VEVENT
-UID:wing-luke-holiday-market-2026-11-21@noboringweekends
-DTSTAMP:20261120T000000Z
-DTSTART:20261121T190000Z
-DTEND:20261122T000000Z
-SUMMARY:Wing Luke 博物馆节日市集(免费)
-LOCATION:Wing Luke Museum\, 719 S King St\, Seattle\, WA 98104
-DESCRIPTION:🎁 亚太裔艺术家的节日市集\,免费入场\,逛完在
- 国际区吃点心~\n费用:免费\nhttps://www.seattleschild.com/free-kid
- -friendly-events-this-weekend-november-2026/
-URL:https://www.seattleschild.com/free-kid-friendly-events-this-weekend-nov
- ember-2026/
-END:VEVENT
-BEGIN:VEVENT
-UID:kcls-paper-cutting-2026-11-21@noboringweekends
-DTSTAMP:20261120T000000Z
-DTSTART:20261121T190000Z
-DTEND:20261121T210000Z
-SUMMARY:Newcastle 图书馆亲子剪纸手工
-LOCATION:Newcastle Library\, 12901 Newcastle Way\, Newcastle\, WA 98056
-DESCRIPTION:✂️ 全家一起学剪纸做手工\,免费。\n费用:免费
- \nhttps://kcls.bibliocommons.com/events/6aa8a6ba3dd190003e71ffe3
-URL:https://kcls.bibliocommons.com/events/6aa8a6ba3dd190003e71ffe3
-END:VEVENT
-BEGIN:VEVENT
-UID:nordic-julefest-2026-11-20@noboringweekends
-DTSTAMP:20261120T000000Z
-DTSTART:20261120T180000Z
-DTEND:20261121T010000Z
-SUMMARY:北欧博物馆圣诞节 Julefest
-LOCATION:National Nordic Museum\, 2655 NW Market St\, Seattle\, WA 98107
-DESCRIPTION:🇳🇴 北欧圣诞传统、现场音乐和手工\,11/20–22
- 。\n费用:12 岁以下免费\nhttps://www.seattleschild.com/family-holid
- ay-fun-events/
-URL:https://www.seattleschild.com/family-holiday-fun-events/
-END:VEVENT
-BEGIN:VEVENT
-UID:seattle-xmas-market-2026-11-20@noboringweekends
-DTSTAMP:20261120T000000Z
-DTSTART;VALUE=DATE:20261120
-DTEND;VALUE=DATE:20261121
-SUMMARY:Seattle Center 圣诞市集(开幕)
-LOCATION:Seattle Center\, 305 Harrison St\, Seattle\, WA 98109
-DESCRIPTION:🎠 德式圣诞市集开幕\,有旋转木马\,每天还会「
- 下雪」。\n费用:$6.99 起\,6 岁以下免费\nhttps://www.seattleschi
- ld.com/family-holiday-fun-events/
-URL:https://www.seattleschild.com/family-holiday-fun-events/
-END:VEVENT
-BEGIN:VEVENT
-UID:renton-bazaar-2026-11-20@noboringweekends
-DTSTAMP:20261120T000000Z
-DTSTART;VALUE=DATE:20261120
-DTEND;VALUE=DATE:20261121
-SUMMARY:Renton 节日集市(到 11/21)
-LOCATION:Renton\, Renton\, WA
-DESCRIPTION:🎁 本地手作+小吃\,免费\,11/20–21。\n费用:免费\
- nhttps://www.seattleschild.com/free-kid-friendly-events-this-weekend-novem
- ber-2026/
-URL:https://www.seattleschild.com/free-kid-friendly-events-this-weekend-nov
- ember-2026/
-END:VEVENT
-BEGIN:VEVENT
-UID:story-walk-maple-valley-2026-11-21@noboringweekends
-DTSTAMP:20261120T000000Z
-DTSTART:20261121T183000Z
-DTEND:20261121T193000Z
-SUMMARY:Lake Wilderness 绘本步道共读
-LOCATION:Lake Wilderness Arboretum\, 22520 SE 248th St\, Maple Valley\, WA 
- 98038
-DESCRIPTION:🌲 在植物园里边走边读绘本\,免费。\n费用:免
- 费\nhttps://www.seattleschild.com/free-kid-friendly-events-this-weekend-n
- ovember-2026/
-URL:https://www.seattleschild.com/free-kid-friendly-events-this-weekend-nov
- ember-2026/
-END:VEVENT
-BEGIN:VEVENT
-UID:daybreak-native-market-2026-11-21@noboringweekends
-DTSTAMP:20261120T000000Z
-DTSTART;VALUE=DATE:20261121
-DTEND;VALUE=DATE:20261122
-SUMMARY:Daybreak Star 原住民艺术市集(周六/日)
-LOCATION:Daybreak Star Indian Cultural Center\, 5011 Bernie Whitebear Way\,
-  Seattle\, WA 98199
-DESCRIPTION:🪶 原住民艺术家节日市集\,免费入场\,11/21–22
- 。\n费用:免费\nhttps://www.seattleschild.com/free-kid-friendly-events
- -this-weekend-november-2026/
-URL:https://www.seattleschild.com/free-kid-friendly-events-this-weekend-nov
- ember-2026/
+UID:magnuson-turkey-trot-2026-2026-11-26@noboringweekends
+DTSTAMP:20261123T000000Z
+DTSTART;VALUE=DATE:20261126
+DTEND;VALUE=DATE:20261127
+SUMMARY:Magnuson 公园感恩节火鸡跑
+LOCATION:Magnuson Park\, NE 65th St & Sand Point Way NE\, Seattle\, WA 9811
+ 5
+DESCRIPTION:🦃 感恩节早上在 Magnuson 公园附近的火鸡跑。\n
+ 费用:以官网为准\nhttps://everout.com/seattle/articles/the-top-35-ev
+ ents-in-seattle-this-week-nov-23-29-2026/c6634/
+URL:https://everout.com/seattle/articles/the-top-35-events-in-seattle-this-
+ week-nov-23-29-2026/c6634/
 END:VEVENT
 END:VCALENDAR

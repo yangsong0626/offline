@@ -9,7 +9,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:cccgt-seniors-2026-11-23@noboringweekends
-DTSTAMP:20261120T000000Z
+DTSTAMP:20261123T000000Z
 DTSTART:20261123T150000Z
 DTEND:20261123T210000Z
 SUMMARY:多伦多华人文化中心长者活动中心(周一至周五)
@@ -20,117 +20,14 @@ DESCRIPTION:👵 给爷爷奶奶的长者活动中心\,周一到周五开
 URL:https://cccgt.org/
 END:VEVENT
 BEGIN:VEVENT
-UID:harbourfront-art-2026-11-17@noboringweekends
-DTSTAMP:20261120T000000Z
-DTSTART;VALUE=DATE:20261117
-DTEND;VALUE=DATE:20261118
-SUMMARY:Harbourfront Centre 免费展览
-LOCATION:Harbourfront Centre\, 235 Queens Quay W\, Toronto\, ON M5J 2G8
-DESCRIPTION:🖼️ 多伦多双年展期间\,湖滨中心展览每天免
- 费~\n费用:免费\nhttps://harbourfrontcentre.com/whats-on/
-URL:https://harbourfrontcentre.com/whats-on/
-END:VEVENT
-BEGIN:VEVENT
-UID:jorja-smith-tor-2026-11-18@noboringweekends
-DTSTAMP:20261120T000000Z
-DTSTART;VALUE=DATE:20261118
-DTEND;VALUE=DATE:20261119
-SUMMARY:Jorja Smith 演唱会
-LOCATION:Massey Hall\, 178 Victoria St\, Toronto\, ON M5B 1T7
-DESCRIPTION:🎤 英国 R&B 歌手 Jorja Smith\,Massey Hall。\n费用:以
- 官网为准\nhttps://onestowatch.com/live/best-concerts-toronto-november/
-URL:https://onestowatch.com/live/best-concerts-toronto-november/
-END:VEVENT
-BEGIN:VEVENT
-UID:shaw-carol-2026-11-19@noboringweekends
-DTSTAMP:20261120T000000Z
-DTSTART:20261119T190000Z
-DTEND:20261119T210000Z
-SUMMARY:Shaw 戏剧节《圣诞颂歌》(Harbourfront)
-LOCATION:Harbourfront Centre\, 235 Queens Quay W\, Toronto\, ON M5J 2G8
-DESCRIPTION:🎩 下午 2 点和晚 7:30 两场\,湖边看节日剧~\n费
- 用:以官网为准\nhttps://harbourfrontcentre.com/whats-on/
-URL:https://harbourfrontcentre.com/whats-on/
-END:VEVENT
-BEGIN:VEVENT
-UID:harbourfront-tree-2026-11-20@noboringweekends
-DTSTAMP:20261120T000000Z
-DTSTART;VALUE=DATE:20261120
-DTEND;VALUE=DATE:20261121
-SUMMARY:Harbourfront 33 英尺圣诞树点灯
-LOCATION:Harbourfront Centre\, 235 Queens Quay W\, Toronto\, ON M5J 2G8
-DESCRIPTION:🎄 湖边 33 英尺大圣诞树点灯\,免费。\n费用:免
- 费\nhttps://childslife.ca/whats-on-this-weekend/
-URL:https://childslife.ca/whats-on-this-weekend/
-END:VEVENT
-BEGIN:VEVENT
-UID:tbg-ecomarket-2026-11-20@noboringweekends
-DTSTAMP:20261120T000000Z
-DTSTART;VALUE=DATE:20261120
-DTEND;VALUE=DATE:20261121
-SUMMARY:多伦多植物园节日环保市集(到 11/22)
-LOCATION:Toronto Botanical Garden\, 777 Lawrence Ave E\, North York\, ON M3
- C 1P2
-DESCRIPTION:🌿 免费入场的环保手作市集\,11/20–22。\n费用:
- 免费\nhttps://childslife.ca/whats-on-this-weekend/
-URL:https://childslife.ca/whats-on-this-weekend/
-END:VEVENT
-BEGIN:VEVENT
-UID:tpl-crafturday-2026-11-21@noboringweekends
-DTSTAMP:20261120T000000Z
-DTSTART:20261121T143000Z
-DTEND:20261121T163000Z
-SUMMARY:多伦多图书馆周六手工
-LOCATION:Jones Branch\, Toronto\, ON
-DESCRIPTION:✂️ 周六图书馆免费手工。\n费用:免费\nhttps://t
- pl.bibliocommons.com/events/696ab9958b29ea2800c9ebbc
-URL:https://tpl.bibliocommons.com/events/696ab9958b29ea2800c9ebbc
-END:VEVENT
-BEGIN:VEVENT
-UID:markham-yoga-2026-11-21@noboringweekends
-DTSTAMP:20261120T000000Z
-DTSTART:20261121T143000Z
-DTEND:20261121T163000Z
-SUMMARY:万锦图书馆瑜伽冥想
-LOCATION:Markham Public Library\, Markham\, ON
-DESCRIPTION:🧘 华人多的万锦\,图书馆免费瑜伽冥想。\n费用
- :免费\nhttps://markham.bibliocommons.com/events/6a91ae51660e510bf4404c77
-URL:https://markham.bibliocommons.com/events/6a91ae51660e510bf4404c77
-END:VEVENT
-BEGIN:VEVENT
-UID:swedish-fair-tor-2026-11-21@noboringweekends
-DTSTAMP:20261120T000000Z
-DTSTART;VALUE=DATE:20261121
-DTEND;VALUE=DATE:20261122
-SUMMARY:瑞典圣诞市集(周六/日)
-LOCATION:George Brown College Waterfront Campus\, 51 Dockside Dr\, Toronto\
- , ON M5A 0B6
-DESCRIPTION:🇸🇪 北欧圣诞手作和点心\,11/21–22。\n费用:以
- 官网为准\nhttps://childslife.ca/whats-on-this-weekend/
-URL:https://childslife.ca/whats-on-this-weekend/
-END:VEVENT
-BEGIN:VEVENT
-UID:pride-in-stem-2026-11-21@noboringweekends
-DTSTAMP:20261120T000000Z
-DTSTART;VALUE=DATE:20261121
-DTEND;VALUE=DATE:20261122
-SUMMARY:安省科学中心 Pride in STEM 家庭日
-LOCATION:Evergreen Brick Works\, 550 Bayview Ave\, Toronto\, ON M4W 3X8
-DESCRIPTION:🔬 免费亲子科学活动。\n费用:免费\nhttps://childs
- life.ca/whats-on-this-weekend/
-URL:https://childslife.ca/whats-on-this-weekend/
-END:VEVENT
-BEGIN:VEVENT
-UID:santa-claus-parade-2026-11-22@noboringweekends
-DTSTAMP:20261120T000000Z
-DTSTART:20261122T173000Z
-DTEND:20261122T193000Z
-SUMMARY:多伦多圣诞老人大游行(第 122 届)
-LOCATION:Christie Pits to downtown\, Christie Pits\, Toronto\, ON
-DESCRIPTION:🎅 122 年历史的老传统\,12:30 从 Christie Pits 出发
- 。\n费用:免费\nhttps://childslife.ca/2026-santa-claus-parade-guide-fo
- r-toronto-and-southern-ontario/
-URL:https://childslife.ca/2026-santa-claus-parade-guide-for-toronto-and-sou
- thern-ontario/
+UID:lego-holiday-workshop-2026-2026-11-23@noboringweekends
+DTSTAMP:20261123T000000Z
+DTSTART;VALUE=DATE:20261123
+DTEND;VALUE=DATE:20261124
+SUMMARY:伊顿中心乐高节日工坊(到 11/29)
+LOCATION:CF Toronto Eaton Centre\, 220 Yonge St\, Toronto\, ON M5B 2H1
+DESCRIPTION:🧱 乐高节日工坊\,11/21–29。\n费用:以官网为准\
+ nhttps://www.todocanada.ca/things-to-do-in-toronto-kids-this-weekend/
+URL:https://www.todocanada.ca/things-to-do-in-toronto-kids-this-weekend/
 END:VEVENT
 END:VCALENDAR

@@ -8,165 +8,109 @@ X-WR-TIMEZONE:America/New_York
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:rutgers-telescope-2026-11-19@noboringweekends
-DTSTAMP:20261120T000000Z
-DTSTART;VALUE=DATE:20261119
-DTEND;VALUE=DATE:20261120
-SUMMARY:罗格斯天文台公众观星
-LOCATION:Schommer Astronomical Observatory\, 136 Frelinghuysen Rd\, Piscata
- way\, NJ 08854
-DESCRIPTION:🔭 免费上屋顶看望远镜!视天气开放\,时间以官
- 网为准。\n费用:免费\nhttps://njtoday.news/2026/10/30/coming-up-in-
- november-new-jersey-events-to-put-on-your-calendar/
-URL:https://njtoday.news/2026/10/30/coming-up-in-november-new-jersey-events
- -to-put-on-your-calendar/
+UID:union-turkey-trot-2026-2026-11-26@noboringweekends
+DTSTAMP:20261123T000000Z
+DTSTART:20261126T124500Z
+DTEND:20261126T150000Z
+SUMMARY:Union 感恩节火鸡跑 5K 跑/走
+LOCATION:Union Township\, Union\, NJ 07083
+DESCRIPTION:🏃 5K 趣味跑或走\,不求速度\,适合全家。报名看
+ 官网。\n费用:以官网为准\nhttps://thelocalgirl.com/newjersey/new-
+ jersey-turkey-trots-2026/
+URL:https://thelocalgirl.com/newjersey/new-jersey-turkey-trots-2026/
 END:VEVENT
 BEGIN:VEVENT
-UID:turtle-back-lights-2026-11-20@noboringweekends
-DTSTAMP:20261120T000000Z
-DTSTART:20261120T220000Z
-DTEND:20261121T020000Z
-SUMMARY:Turtle Back 动物园节日灯光(开幕)
-LOCATION:Turtle Back Zoo\, 560 Northfield Ave\, West Orange\, NJ 07052
-DESCRIPTION:✨ 动物园冬季灯光 11/20 开幕\,开到 1 月初\,票价
- 以官网为准。\n费用:以官网为准\nhttps://mommypoppins.com/new-j
- ersey-kids/weekend-events/things-to-do-in-new-jersey-this-weekend-kids-fam
- ilies
-URL:https://mommypoppins.com/new-jersey-kids/weekend-events/things-to-do-in
- -new-jersey-this-weekend-kids-families
+UID:bayonne-turkey-trot-2026-2026-11-26@noboringweekends
+DTSTAMP:20261123T000000Z
+DTSTART;VALUE=DATE:20261126
+DTEND;VALUE=DATE:20261127
+SUMMARY:Bayonne 感恩节火鸡跑(5K + 1 英里亲子跑)
+LOCATION:Bayonne County Park\, Bayonne Park\, Bayonne\, NJ 07002
+DESCRIPTION:🦃 感恩节早上 5K\,另有 1 英里亲子趣味跑\,全家
+ 一起跑完再回家吃大餐。报名和起跑时间看官网。\n费用
+ :以官网为准\nhttps://thelocalgirl.com/newjersey/new-jersey-turkey-tro
+ ts-2026/
+URL:https://thelocalgirl.com/newjersey/new-jersey-turkey-trots-2026/
 END:VEVENT
 BEGIN:VEVENT
-UID:diggerland-holidig-2026-11-20@noboringweekends
-DTSTAMP:20261120T000000Z
-DTSTART:20261120T223000Z
-DTEND:20261121T023000Z
-SUMMARY:Diggerland 开车看灯 Holidig
-LOCATION:Diggerland\, 100 Pinedge Dr\, West Berlin\, NJ 08091
-DESCRIPTION:🚜 挖掘机乐园的开车看灯\,按车收费\,票务以官
- 网为准。\n费用:以官网为准\nhttps://mommypoppins.com/new-jersey-
- kids/weekend-events/things-to-do-in-new-jersey-this-weekend-kids-families
-URL:https://mommypoppins.com/new-jersey-kids/weekend-events/things-to-do-in
- -new-jersey-this-weekend-kids-families
+UID:replenish-turkey-trot-2026-2026-11-26@noboringweekends
+DTSTAMP:20261123T000000Z
+DTSTART;VALUE=DATE:20261126
+DTEND;VALUE=DATE:20261127
+SUMMARY:South Amboy 海边感恩节 5K(可推婴儿车、带狗)
+LOCATION:South Amboy waterfront\, South Amboy\, NJ 08879
+DESCRIPTION:🌊 海边 5K\,可以推婴儿车、带狗。每人 $40\,11/25
+  前网上报名。\n费用:$40\nhttps://www.njfamily.com/events/replenish
+ -thanksgiving-day-turkey-trot-and-5k/
+URL:https://www.njfamily.com/events/replenish-thanksgiving-day-turkey-trot-
+ and-5k/
 END:VEVENT
 BEGIN:VEVENT
-UID:lumc-harvest-fest-2026-11-21@noboringweekends
-DTSTAMP:20261120T000000Z
-DTSTART:20261121T140000Z
-DTEND:20261121T190000Z
-SUMMARY:Forked River 丰收集市+圣诞老人拍照
-LOCATION:Lacey United Methodist Church\, Forked River\, NJ 08731
-DESCRIPTION:🎄 免费入场的手作集市\,还能和圣诞老人合影
- 。\n费用:免费\nhttps://mommypoppins.com/new-jersey-kids/weekend-event
- s/things-to-do-in-new-jersey-this-weekend-kids-families
-URL:https://mommypoppins.com/new-jersey-kids/weekend-events/things-to-do-in
- -new-jersey-this-weekend-kids-families
+UID:smithville-lights-2026-2026-11-27@noboringweekends
+DTSTAMP:20261123T000000Z
+DTSTART:20261127T223000Z
+DTEND:20261128T013000Z
+SUMMARY:Smithville 湖上圣诞树灯光秀(免费)
+LOCATION:Historic Smithville\, 1 N New York Rd\, Galloway\, NJ 08205
+DESCRIPTION:🎄 100 多棵圣诞树漂在湖面上\,配合音乐亮灯\,
+ 每晚 5:30–8:30\,风雨无阻\,免费。开幕日 11/26 或 11/27 各
+ 来源不一致\,以官网为准。\n费用:免费\nhttps://www.njfamily.c
+ om/events/holiday-light-show-in-historic-smithville/
+URL:https://www.njfamily.com/events/holiday-light-show-in-historic-smithvil
+ le/
 END:VEVENT
 BEGIN:VEVENT
-UID:howell-farm-2026-11-21@noboringweekends
-DTSTAMP:20261120T000000Z
-DTSTART:20261121T150000Z
-DTEND:20261121T170000Z
-SUMMARY:Howell 历史农场免费周六活动
-LOCATION:Howell Living History Farm\, 70 Woodens Ln\, Lambertville\, NJ 085
- 30
-DESCRIPTION:🐴 1900 年代风格的老农场\,周六免费开放\,带娃
- 看马、看农活~\n费用:免费\nhttps://www.njfamily.com/things-to-do-
- this-weekend-in-nj-november-20-22-2026/
-URL:https://www.njfamily.com/things-to-do-this-weekend-in-nj-november-20-22
- -2026/
+UID:clinton-dickens-days-2026-2026-11-27@noboringweekends
+DTSTAMP:20261123T000000Z
+DTSTART;VALUE=DATE:20261127
+DTEND;VALUE=DATE:20261128
+SUMMARY:Clinton 狄更斯节 + 小镇点灯(免费)
+LOCATION:Main Street\, Clinton\, Main St\, Clinton\, NJ 08809
+DESCRIPTION:🎩 小镇变身维多利亚村庄:马车、唱诗、讲故事
+ \,还有 Main St 的社区点灯。免费。11/27–29。\n费用:免费\n
+ https://newjerseyisntboring.com/njibs-guide-to-70-new-jersey-november-even
+ ts-festivals-2026/
+URL:https://newjerseyisntboring.com/njibs-guide-to-70-new-jersey-november-e
+ vents-festivals-2026/
 END:VEVENT
 BEGIN:VEVENT
-UID:leonardo-turkey-crafts-2026-11-21@noboringweekends
-DTSTAMP:20261120T000000Z
-DTSTART:20261121T150000Z
-DTEND:20261121T210000Z
-SUMMARY:Leonardo 州立码头自然中心感恩节手工(免费)
-LOCATION:Leonardo State Marina Nature Center\, Concord Ave\, Leonardo\, NJ 
- 07737
-DESCRIPTION:🦃 做火鸡手工、涂色\,感恩节前的小活动\,免费
- 。\n费用:免费\nhttps://mommypoppins.com/new-jersey-kids/weekend-event
- s/things-to-do-in-new-jersey-this-weekend-kids-families
-URL:https://mommypoppins.com/new-jersey-kids/weekend-events/things-to-do-in
- -new-jersey-this-weekend-kids-families
+UID:red-mill-winter-village-2026-2026-11-27@noboringweekends
+DTSTAMP:20261123T000000Z
+DTSTART;VALUE=DATE:20261127
+DTEND;VALUE=DATE:20261128
+SUMMARY:Red Mill 冬日村庄集市(Clinton)
+LOCATION:Red Mill Museum Village\, 56 Main St\, Clinton\, NJ 08809
+DESCRIPTION:🧣 有暖气的户外节日集市\,50 多个本地手作摊
+ 、餐车和活动\,和狄更斯节同一个周末。11/27–29。\n费用
+ :以官网为准\nhttps://www.njfamily.com/things-to-do-this-weekend-in-ne
+ w-jersey-november-27-29/
+URL:https://www.njfamily.com/things-to-do-this-weekend-in-new-jersey-novemb
+ er-27-29/
 END:VEVENT
 BEGIN:VEVENT
-UID:oc-carriage-rides-2026-11-21@noboringweekends
-DTSTAMP:20261120T000000Z
-DTSTART:20261121T170000Z
-DTEND:20261121T200000Z
-SUMMARY:Ocean City 免费马车游
-LOCATION:Downtown Ocean City\, 6th St & Asbury Ave\, Ocean City\, NJ 08226
-DESCRIPTION:🐴 坐马车逛海边小镇\,先到先得\,免费~\n费用:
- 免费\nhttps://mommypoppins.com/new-jersey-kids/weekend-events/things-to-
- do-in-new-jersey-this-weekend-kids-families
-URL:https://mommypoppins.com/new-jersey-kids/weekend-events/things-to-do-in
- -new-jersey-this-weekend-kids-families
+UID:norz-hill-hayride-2026-2026-11-27@noboringweekends
+DTSTAMP:20261123T000000Z
+DTSTART;VALUE=DATE:20261127
+DTEND;VALUE=DATE:20261128
+SUMMARY:Norz Hill 农场灯光拖拉机干草车
+LOCATION:Norz Hill Farm\, Hillsborough\, NJ 08844
+DESCRIPTION:🚜 坐拖拉机拉的干草车穿过节日灯光。周五到
+ 周日开放\,11/27–12/20。\n费用:以官网为准\nhttps://www.njfami
+ ly.com/things-to-do-this-weekend-in-new-jersey-november-27-29/
+URL:https://www.njfamily.com/things-to-do-this-weekend-in-new-jersey-novemb
+ er-27-29/
 END:VEVENT
 BEGIN:VEVENT
-UID:physick-tree-2026-11-21@noboringweekends
-DTSTAMP:20261120T000000Z
-DTSTART:20261121T220000Z
-DTEND:20261122T010000Z
-SUMMARY:Cape May 维多利亚老宅点灯
-LOCATION:Emlen Physick Estate\, 1048 Washington St\, Cape May\, NJ 08204
-DESCRIPTION:🏡 海边维多利亚老宅的圣诞点灯。\n费用:免费\
- nhttps://mommypoppins.com/new-jersey-kids/weekend-events/things-to-do-in-n
- ew-jersey-this-weekend-kids-families
-URL:https://mommypoppins.com/new-jersey-kids/weekend-events/things-to-do-in
- -new-jersey-this-weekend-kids-families
-END:VEVENT
-BEGIN:VEVENT
-UID:marketfair-santa-2026-11-21@noboringweekends
-DTSTAMP:20261120T000000Z
-DTSTART:20261121T223000Z
-DTEND:20261122T003000Z
-SUMMARY:Princeton MarketFair 圣诞点灯+圣诞老人登场
-LOCATION:MarketFair\, 3535 US-1\, Princeton\, NJ 08540
-DESCRIPTION:🎅 普林斯顿商场的点灯仪式\,圣诞老人正式登
- 场~\n费用:免费\nhttps://mommypoppins.com/new-jersey-kids/weekend-even
- ts/things-to-do-in-new-jersey-this-weekend-kids-families
-URL:https://mommypoppins.com/new-jersey-kids/weekend-events/things-to-do-in
- -new-jersey-this-weekend-kids-families
-END:VEVENT
-BEGIN:VEVENT
-UID:cirque-musica-2026-11-21@noboringweekends
-DTSTAMP:20261120T000000Z
-DTSTART;VALUE=DATE:20261121
-DTEND;VALUE=DATE:20261122
-SUMMARY:American Dream 马戏音乐会 Cirque Musica
-LOCATION:American Dream – Dream Live\, 1 American Dream Way\, East Ruther
- ford\, NJ 07073
-DESCRIPTION:🎪 节日马戏+交响乐\,场次票价以官网为准。\n
- 费用:以官网为准\nhttps://mommypoppins.com/new-jersey-kids/weekend-e
- vents/things-to-do-in-new-jersey-this-weekend-kids-families
-URL:https://mommypoppins.com/new-jersey-kids/weekend-events/things-to-do-in
- -new-jersey-this-weekend-kids-families
-END:VEVENT
-BEGIN:VEVENT
-UID:swedish-xmas-fair-nj-2026-11-22@noboringweekends
-DTSTAMP:20261120T000000Z
-DTSTART:20261122T150000Z
-DTEND:20261122T200000Z
-SUMMARY:Upper Montclair 瑞典圣诞市集
-LOCATION:Commonwealth Club\, Upper Montclair\, NJ 07043
-DESCRIPTION:🇸🇪 北欧风圣诞手作和点心。\n费用:以官网为
- 准\nhttps://mommypoppins.com/new-jersey-kids/weekend-events/things-to-do-
- in-new-jersey-this-weekend-kids-families
-URL:https://mommypoppins.com/new-jersey-kids/weekend-events/things-to-do-in
- -new-jersey-this-weekend-kids-families
-END:VEVENT
-BEGIN:VEVENT
-UID:gsp-big-santa-2026-11-22@noboringweekends
-DTSTAMP:20261120T000000Z
-DTSTART:20261122T210000Z
-DTEND:20261122T230000Z
-SUMMARY:Garden State Plaza 圣诞老人大派对
-LOCATION:Westfield Garden State Plaza\, 1 Garden State Plaza Blvd\, Paramus
- \, NJ 07652
-DESCRIPTION:🎅 北泽西最大商场之一的年度圣诞老人庆祝活
- 动。\n费用:免费\nhttps://mommypoppins.com/new-jersey-kids/weekend-ev
- ents/things-to-do-in-new-jersey-this-weekend-kids-families
-URL:https://mommypoppins.com/new-jersey-kids/weekend-events/things-to-do-in
- -new-jersey-this-weekend-kids-families
+UID:long-branch-tree-lighting-2026-2026-11-29@noboringweekends
+DTSTAMP:20261123T000000Z
+DTSTART:20261129T210000Z
+DTEND:20261129T230000Z
+SUMMARY:Long Branch Pier Village 圣诞点灯
+LOCATION:Pier Village\, Pier Village\, Long Branch\, NJ 07740
+DESCRIPTION:✨ 海边小镇的圣诞点灯。\n费用:以官网为准\nhtt
+ ps://www.njfamily.com/things-to-do-this-weekend-in-new-jersey-november-27-
+ 29/
+URL:https://www.njfamily.com/things-to-do-this-weekend-in-new-jersey-novemb
+ er-27-29/
 END:VEVENT
 END:VCALENDAR

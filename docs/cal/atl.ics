@@ -8,91 +8,30 @@ X-WR-TIMEZONE:America/New_York
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:kamasi-2026-11-18@noboringweekends
-DTSTAMP:20261120T000000Z
-DTSTART:20261119T023000Z
-DTEND:20261119T043000Z
-SUMMARY:Kamasi Washington 爵士
-LOCATION:City Winery Atlanta\, 650 North Ave NE\, Atlanta\, GA 30308
-DESCRIPTION:🎷 爵士萨克斯 Kamasi Washington\,11/18-19 两晚。\n费
- 用:以官网为准\nhttps://discoveratlanta.com/events/all/
-URL:https://discoveratlanta.com/events/all/
+UID:blooms-chinatown-market-2026-2026-11-28@noboringweekends
+DTSTAMP:20261123T000000Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:Chamblee 中国城 Blooms 市集
+LOCATION:Atlanta Chinatown Mall\, 5383 New Peachtree Rd\, Chamblee\, GA 303
+ 41
+DESCRIPTION:🏮 Chamblee 中国城的 Blooms 市集\,逛摊位、吃小吃
+ 。\n费用:以官网为准\nhttps://discoveratlanta.com/stories/things-to
+ -do/7-things-to-do-over-thanksgiving-weekend-in-atlanta/
+URL:https://discoveratlanta.com/stories/things-to-do/7-things-to-do-over-th
+ anksgiving-weekend-in-atlanta/
 END:VEVENT
 BEGIN:VEVENT
-UID:christkindl-lawrenceville-2026-11-20@noboringweekends
-DTSTAMP:20261120T000000Z
-DTSTART;VALUE=DATE:20261120
-DTEND;VALUE=DATE:20261121
-SUMMARY:Lawrenceville 德式圣诞市集(开幕)
-LOCATION:Lawrenceville Lawn\, 210 Luckie St\, Lawrenceville\, GA 30046
-DESCRIPTION:🥨 免费入场的德式圣诞市集\,圣诞老人在场拍
- 照。\n费用:免费\nhttps://famfriendlyatl.substack.com/p/family-friend
- ly-things-to-do-this-7c6
-URL:https://famfriendlyatl.substack.com/p/family-friendly-things-to-do-this
- -7c6
-END:VEVENT
-BEGIN:VEVENT
-UID:fulton-thankful-tree-2026-11-21@noboringweekends
-DTSTAMP:20261120T000000Z
-DTSTART:20261121T150000Z
-DTEND:20261121T170000Z
-SUMMARY:Hapeville 图书馆「感恩树」手工
-LOCATION:Hapeville Branch Library\, 525 King Arnold St\, Hapeville\, GA 303
- 54
-DESCRIPTION:🍂 写下感恩的话挂上感恩树\,免费。\n费用:免
- 费\nhttps://fulcolibrary.bibliocommons.com/events/6ae12346fee2d21deb262cc
- c
-URL:https://fulcolibrary.bibliocommons.com/events/6ae12346fee2d21deb262ccc
-END:VEVENT
-BEGIN:VEVENT
-UID:gwinnett-glows-2026-11-21@noboringweekends
-DTSTAMP:20261120T000000Z
-DTSTART:20261121T230000Z
-DTEND:20261122T010000Z
-SUMMARY:Gwinnett Glows 圣诞树点灯
-LOCATION:Gas South Convention Center\, 6400 Sugarloaf Pkwy\, Duluth\, GA 30
- 097
-DESCRIPTION:🎄 华人多的 Duluth 点灯仪式\,同场还有乔治亚圣
- 诞树节。\n费用:以官网为准\nhttps://mommypoppins.com/things-to-d
- o-in-Atlanta-this-weekend-kids-families
-URL:https://mommypoppins.com/things-to-do-in-Atlanta-this-weekend-kids-fami
- lies
-END:VEVENT
-BEGIN:VEVENT
-UID:light-the-station-2026-11-21@noboringweekends
-DTSTAMP:20261120T000000Z
-DTSTART:20261121T230000Z
-DTEND:20261122T000000Z
-SUMMARY:Atlantic Station 点灯
-LOCATION:Atlantic Station\, 1380 Atlantic Dr NW\, Atlanta\, GA 30363
-DESCRIPTION:✨ 商圈圣诞点灯。\n费用:免费\nhttps://mommypoppins.
- com/things-to-do-in-Atlanta-this-weekend-kids-families
-URL:https://mommypoppins.com/things-to-do-in-Atlanta-this-weekend-kids-fami
- lies
-END:VEVENT
-BEGIN:VEVENT
-UID:avalon-lighting-2026-11-22@noboringweekends
-DTSTAMP:20261120T000000Z
-DTSTART:20261122T190000Z
-DTEND:20261123T003000Z
-SUMMARY:Alpharetta Avalon 点灯
-LOCATION:Avalon\, 400 Avalon Blvd\, Alpharetta\, GA 30009
-DESCRIPTION:🎄 北郊华人家庭多的 Alpharetta\,下午开始节日活
- 动\,晚上点灯。\n费用:免费\nhttps://mommypoppins.com/things-to-do
- -in-Atlanta-this-weekend-kids-families
-URL:https://mommypoppins.com/things-to-do-in-Atlanta-this-weekend-kids-fami
- lies
-END:VEVENT
-BEGIN:VEVENT
-UID:piedmont-light-up-2026-11-22@noboringweekends
-DTSTAMP:20261120T000000Z
-DTSTART:20261122T230000Z
-DTEND:20261123T010000Z
-SUMMARY:Piedmont 公园 Light Up the Season
-LOCATION:Piedmont Park\, 400 Park Dr NE\, Atlanta\, GA 30306
-DESCRIPTION:🌟 公园节日点灯。\n费用:免费\nhttps://mommypoppins
- .com/things-to-do-in-Atlanta-this-weekend-kids-families
-URL:https://mommypoppins.com/things-to-do-in-Atlanta-this-weekend-kids-fami
- lies
+UID:atl-thanksgiving-half-2026-2026-11-26@noboringweekends
+DTSTAMP:20261123T000000Z
+DTSTART;VALUE=DATE:20261126
+DTEND;VALUE=DATE:20261127
+SUMMARY:亚特兰大感恩节半马 + 5K + 儿童跑
+LOCATION:Center Parc Stadium\, 755 Hank Aaron Dr SE\, Atlanta\, GA 30315
+DESCRIPTION:🦃 Atlanta Track Club 的感恩节赛事\,有半马、5K 和 
+ 1 英里/儿童冲刺跑\;起跑时间各来源不同\,以官网为准。\
+ n费用:以官网为准\nhttps://discoveratlanta.com/events/thanksgiving-d
+ ay-marathon/
+URL:https://discoveratlanta.com/events/thanksgiving-day-marathon/
 END:VEVENT
 END:VCALENDAR
