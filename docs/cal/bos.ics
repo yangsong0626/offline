@@ -8,32 +8,8 @@ X-WR-TIMEZONE:America/New_York
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:ccc-busy-bookworms-2026-11-24@noboringweekends
-DTSTAMP:20261123T000000Z
-DTSTART:20261124T143000Z
-DTEND:20261124T153000Z
-SUMMARY:华人文化中心:小书虫故事会
-LOCATION:Chinese Culture Connection\, Malden\, MA
-DESCRIPTION:📚 华人文化中心的亲子故事会\,地址报名以官
- 网为准。\n费用:以官网为准\nhttps://chinesecultureconnection.org
- /upcoming-events/
-URL:https://chinesecultureconnection.org/upcoming-events/
-END:VEVENT
-BEGIN:VEVENT
-UID:ccc-engineering-1124-2026-11-24@noboringweekends
-DTSTAMP:20261123T000000Z
-DTSTART:20261124T153000Z
-DTEND:20261124T173000Z
-SUMMARY:华人文化中心:工程与动手做(儿童)
-LOCATION:Chinese Culture Connection\, 75 Pleasant St\, Malden\, MA 02148
-DESCRIPTION:🔧 华人文化中心的儿童动手做时间\,搭一搭、
- 拆一拆。\n费用:以官网为准\nhttps://chinesecultureconnection.org
- /event/engineering-tinkering-3/
-URL:https://chinesecultureconnection.org/event/engineering-tinkering-3/
-END:VEVENT
-BEGIN:VEVENT
 UID:ccc-taichi-1127-2026-11-27@noboringweekends
-DTSTAMP:20261123T000000Z
+DTSTAMP:20261126T000000Z
 DTSTART:20261127T150000Z
 DTEND:20261127T170000Z
 SUMMARY:华人文化中心:太极课
@@ -45,8 +21,19 @@ URL:https://chinesecultureconnection.org/event/tai-chi-class-%e5%a4%aa%e6%9
  e%81%e8%af%be-49/
 END:VEVENT
 BEGIN:VEVENT
+UID:ccc-bookworms-1201-2026-12-01@noboringweekends
+DTSTAMP:20261126T000000Z
+DTSTART:20261201T143000Z
+DTEND:20261201T163000Z
+SUMMARY:华人文化中心:小书虫故事会
+LOCATION:Chinese Culture Connection\, 75 Pleasant St\, Malden\, MA 02148
+DESCRIPTION:📚 华人文化中心的幼儿故事会。\n费用:以官网
+ 为准\nhttps://chinesecultureconnection.org/event/busy-bookworms-4/
+URL:https://chinesecultureconnection.org/event/busy-bookworms-4/
+END:VEVENT
+BEGIN:VEVENT
 UID:ccc-bilingual-rhythm-2026-12-03@noboringweekends
-DTSTAMP:20261123T000000Z
+DTSTAMP:20261126T000000Z
 DTSTART:20261203T150000Z
 DTEND:20261203T154500Z
 SUMMARY:华人文化中心:中英双语节奏时光(幼儿)
@@ -57,33 +44,84 @@ DESCRIPTION:🎵 中英双语儿歌律动\,给小小孩的中文启蒙\,每
 URL:https://chinesecultureconnection.org/upcoming-events/
 END:VEVENT
 BEGIN:VEVENT
-UID:trident-friendsgiving-2026-2026-11-25@noboringweekends
-DTSTAMP:20261123T000000Z
-DTSTART;VALUE=DATE:20261125
-DTEND;VALUE=DATE:20261126
-SUMMARY:Trident 书店咖啡馆 Friendsgiving(免费)
-LOCATION:Trident Booksellers & Cafe\, 338 Newbury St\, Boston\, MA 02115
-DESCRIPTION:🎲 感恩节前夜的免费社区聚会\,一起玩桌游\,认
- 识新朋友\;感恩节餐另外付费。\n费用:免费\nhttps://www.theb
- ostoncalendar.com/events?utf8=%E2%9C%93&search=holiday
-URL:https://www.thebostoncalendar.com/events?utf8=%E2%9C%93&search=holiday
+UID:bpl-taichi-1128-2026-11-28@noboringweekends
+DTSTAMP:20261126T000000Z
+DTSTART:20261128T143000Z
+DTEND:20261128T163000Z
+SUMMARY:波士顿图书馆 Adams Street 分馆太极气功
+LOCATION:Boston Public Library – Adams Street\, 690 Adams St\, Dorchester
+ \, MA 02122
+DESCRIPTION:🥋 免费太极和气功。\n费用:免费\nhttps://bpl.bibli
+ ocommons.com/events/6aeba47c96ec3a003adf60bf
+URL:https://bpl.bibliocommons.com/events/6aeba47c96ec3a003adf60bf
+END:VEVENT
+BEGIN:VEVENT
+UID:wampanoag-jfk-2026-2026-11-27@noboringweekends
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20261127
+DTEND;VALUE=DATE:20261128
+SUMMARY:肯尼迪图书馆:万帕诺亚格族歌舞
+LOCATION:John F. Kennedy Presidential Library\, Columbia Point\, Boston\, M
+ A 02125
+DESCRIPTION:🪶 原住民万帕诺亚格族的传统歌舞。\n费用:以
+ 官网为准\nhttps://www.meetboston.com/event/wampanoag-nation-singers-%2
+ 6-dancers/94170/
+URL:https://www.meetboston.com/event/wampanoag-nation-singers-%26-dancers/9
+ 4170/
+END:VEVENT
+BEGIN:VEVENT
+UID:snowport-2026-2026-11-27@noboringweekends
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20261127
+DTEND;VALUE=DATE:20261128
+SUMMARY:Seaport Snowport 节日市集(免费入场)
+LOCATION:Seaport\, Seaport Blvd\, Boston\, MA 02210
+DESCRIPTION:🛍️ 130 多个摊位\,现场音乐\,免费入场\,开到 12
+ /27。\n费用:免费\nhttps://mommypoppins.com/things-to-do-in-boston-thi
+ s-weekend-kids-families
+URL:https://mommypoppins.com/things-to-do-in-boston-this-weekend-kids-famil
+ ies
 END:VEVENT
 BEGIN:VEVENT
 UID:martins-park-ship-lighting-2026-2026-11-28@noboringweekends
-DTSTAMP:20261123T000000Z
-DTSTART;VALUE=DATE:20261128
-DTEND;VALUE=DATE:20261129
+DTSTAMP:20261126T000000Z
+DTSTART:20261128T220000Z
+DTEND:20261128T230000Z
 SUMMARY:Martin's Park 海盗船点灯
 LOCATION:Martin's Park\, 64 Sleeper St\, Boston\, MA 02210
-DESCRIPTION:⛵ 儿童公园里的大船亮灯。\n费用:以官网为准\n
- https://www.bostonglobe.com/2026/11/06/arts/things-to-do-in-boston-holiday
- s/
+DESCRIPTION:⛵ 第 5 届海盗船点灯:圣诞老人坐船来\,有伯克
+ 利音乐学院的现场音乐、热饮和手工。\n费用:免费\nhttps:
+ //www.bostonglobe.com/2026/11/06/arts/things-to-do-in-boston-holidays/
 URL:https://www.bostonglobe.com/2026/11/06/arts/things-to-do-in-boston-holi
  days/
 END:VEVENT
 BEGIN:VEVENT
+UID:tuba-christmas-2026-2026-11-28@noboringweekends
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:波士顿大号圣诞音乐会
+LOCATION:Downtown Boston\, Downtown Crossing\, Boston\, MA 02111
+DESCRIPTION:🎺 一群大号一起吹圣诞歌。\n费用:以官网为准\
+ nhttps://www.meetboston.com/event/boston-tuba-christmas/94322/
+URL:https://www.meetboston.com/event/boston-tuba-christmas/94322/
+END:VEVENT
+BEGIN:VEVENT
+UID:santa-on-the-common-2026-2026-11-29@noboringweekends
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+SUMMARY:波士顿公园 Santa on the Common(免费)
+LOCATION:Boston Common\, Boston Common\, Boston\, MA 02108
+DESCRIPTION:🎅 波士顿公园的免费亲子活动。\n费用:免费\nht
+ tps://www.meetboston.com/event/santa-on-the-common-presented-by-boston-med
+ flight/94185/
+URL:https://www.meetboston.com/event/santa-on-the-common-presented-by-bosto
+ n-medflight/94185/
+END:VEVENT
+BEGIN:VEVENT
 UID:boston-common-tree-2026-12-03@noboringweekends
-DTSTAMP:20261123T000000Z
+DTSTAMP:20261126T000000Z
 DTSTART:20261203T230000Z
 DTEND:20261204T010000Z
 SUMMARY:波士顿公园圣诞树点灯+烟花

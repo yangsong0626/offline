@@ -8,8 +8,33 @@ X-WR-TIMEZONE:America/Los_Angeles
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
+UID:millbrae-storytime-1129-2026-11-29@noboringweekends
+DTSTAMP:20261126T000000Z
+DTSTART:20261129T183000Z
+DTEND:20261129T203000Z
+SUMMARY:Millbrae 图书馆国语/粤语故事会
+LOCATION:Millbrae Library\, 1 Library Ave\, Millbrae\, CA 94030
+DESCRIPTION:📖 国语和粤语双语故事会\,适合带小朋友。\n费
+ 用:免费\nhttps://smcl.bibliocommons.com/events/6ad26a0111bbf300684c42fa
+URL:https://smcl.bibliocommons.com/events/6ad26a0111bbf300684c42fa
+END:VEVENT
+BEGIN:VEVENT
+UID:tea-garden-free-hour-1127-2026-11-27@noboringweekends
+DTSTAMP:20261126T000000Z
+DTSTART:20261127T170000Z
+DTEND:20261127T180000Z
+SUMMARY:日本茶园免费开放时段
+LOCATION:Japanese Tea Garden\, 75 Hagiwara Tea Garden Dr\, San Francisco\, 
+ CA 94118
+DESCRIPTION:🍵 早上免费时段\,适合早起逛金门公园。\n费用
+ :免费\nhttps://sf.funcheap.com/japanese-tea-gardens-free-admission-hour-
+ golden-gate-park-470/
+URL:https://sf.funcheap.com/japanese-tea-gardens-free-admission-hour-golden
+ -gate-park-470/
+END:VEVENT
+BEGIN:VEVENT
 UID:sf-botanical-free-thanksgiving-2026-2026-11-26@noboringweekends
-DTSTAMP:20261123T000000Z
+DTSTAMP:20261126T000000Z
 DTSTART:20261126T153000Z
 DTEND:20261127T010000Z
 SUMMARY:旧金山植物园感恩节全天免费
@@ -22,7 +47,7 @@ URL:https://projectsf.com/guides/thanksgiving-weekend-san-francisco-guide/
 END:VEVENT
 BEGIN:VEVENT
 UID:sf-turkey-trot-2026-2026-11-26@noboringweekends
-DTSTAMP:20261123T000000Z
+DTSTAMP:20261126T000000Z
 DTSTART:20261126T160000Z
 DTEND:20261126T180000Z
 SUMMARY:金门公园感恩节火鸡跑(有儿童冲刺跑)
@@ -35,7 +60,7 @@ URL:https://projectsf.com/guides/thanksgiving-weekend-san-francisco-guide/
 END:VEVENT
 BEGIN:VEVENT
 UID:little-brothers-volunteer-2026-2026-11-26@noboringweekends
-DTSTAMP:20261123T000000Z
+DTSTAMP:20261126T000000Z
 DTSTART:20261126T180000Z
 DTEND:20261126T200000Z
 SUMMARY:感恩节志愿者:给长者送餐探访
@@ -47,5 +72,77 @@ DESCRIPTION:🤝 给独居长者送感恩节餐并上门探访\,上午 10
  g-day-2026-deliver-meals-inhome-visits-sf/
 URL:https://sf.funcheap.com/volunteer-thanksgiving-day-2026-deliver-meals-i
  nhome-visits-sf/
+END:VEVENT
+BEGIN:VEVENT
+UID:ghirardelli-tree-2026-2026-11-27@noboringweekends
+DTSTAMP:20261126T000000Z
+DTSTART:20261128T000000Z
+DTEND:20261128T030000Z
+SUMMARY:吉拉德利广场 46 英尺圣诞树点灯(免费糖果)
+LOCATION:Ghirardelli Square\, 900 North Point St\, San Francisco\, CA 94109
+DESCRIPTION:🍫 圣诞老人点亮 46 英尺大树\,还发免费糖果。\
+ n费用:免费\nhttps://sf.funcheap.com/santa-lights-46foot-christmas-tree
+ -free-candy-ghirardelli-square/
+URL:https://sf.funcheap.com/santa-lights-46foot-christmas-tree-free-candy-g
+ hirardelli-square/
+END:VEVENT
+BEGIN:VEVENT
+UID:east-bay-green-friday-2026-2026-11-27@noboringweekends
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20261127
+DTEND;VALUE=DATE:20261128
+SUMMARY:东湾区域公园 Green Friday 免费日
+LOCATION:East Bay Regional Parks\, East Bay Regional Park District\, Oaklan
+ d\, CA 94605
+DESCRIPTION:🌲 黑五不购物\,去东湾公园走走\,停车等费用全
+ 免。\n费用:免费\nhttps://sf.funcheap.com/east-bay-park-districts-fre
+ e-park-day/
+URL:https://sf.funcheap.com/east-bay-park-districts-free-park-day/
+END:VEVENT
+BEGIN:VEVENT
+UID:randall-saturday-science-1128-2026-11-28@noboringweekends
+DTSTAMP:20261126T000000Z
+DTSTART:20261128T190000Z
+DTEND:20261128T220000Z
+SUMMARY:Randall 博物馆周六科学(免费)
+LOCATION:Randall Museum\, 199 Museum Way\, San Francisco\, CA 94114
+DESCRIPTION:🔬 免费的周六亲子科学活动。\n费用:免费\nhttps
+ ://sf.funcheap.com/category/event/event-types/kids-families/
+URL:https://sf.funcheap.com/category/event/event-types/kids-families/
+END:VEVENT
+BEGIN:VEVENT
+UID:yerba-buena-lighting-2026-2026-11-28@noboringweekends
+DTSTAMP:20261126T000000Z
+DTSTART:20261129T003000Z
+DTEND:20261129T023000Z
+SUMMARY:芳草地花园点灯 + 旋转木马 + 免费溜冰
+LOCATION:Yerba Buena Gardens\, 750 Howard St\, San Francisco\, CA 94103
+DESCRIPTION:⛸️ 圣诞树和旋转木马点灯\,还能免费溜冰。\n
+ 费用:免费\nhttps://sf.funcheap.com/category/event/event-types/kids-fam
+ ilies/
+URL:https://sf.funcheap.com/category/event/event-types/kids-families/
+END:VEVENT
+BEGIN:VEVENT
+UID:sfmoma-family-colab-1129-2026-11-29@noboringweekends
+DTSTAMP:20261126T000000Z
+DTSTART:20261129T190000Z
+DTEND:20261129T220000Z
+SUMMARY:SFMOMA 亲子艺术共创(免费)
+LOCATION:SFMOMA\, 151 3rd St\, San Francisco\, CA 94103
+DESCRIPTION:🎨 现代美术馆的免费亲子艺术活动和艺术漫步
+ 。\n费用:免费\nhttps://sf.funcheap.com/category/event/event-types/kid
+ s-families/
+URL:https://sf.funcheap.com/category/event/event-types/kids-families/
+END:VEVENT
+BEGIN:VEVENT
+UID:fremont-tree-lighting-2026-2026-11-29@noboringweekends
+DTSTAMP:20261126T000000Z
+DTSTART:20261130T020000Z
+DTEND:20261130T040000Z
+SUMMARY:Fremont Pacific Commons 圣诞点灯 + 圣诞老人(免费)
+LOCATION:Pacific Commons\, 43456 Boscell Rd\, Fremont\, CA 94538
+DESCRIPTION:🎅 免费点灯\,圣诞老人到场。\n费用:免费\nhttps:
+ //sf.funcheap.com/category/event/event-types/kids-families/
+URL:https://sf.funcheap.com/category/event/event-types/kids-families/
 END:VEVENT
 END:VCALENDAR

@@ -8,36 +8,34 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:zoolights-free-monday-1123-2026-11-23@noboringweekends
-DTSTAMP:20261123T000000Z
-DTSTART;VALUE=DATE:20261123
-DTEND;VALUE=DATE:20261124
-SUMMARY:林肯公园动物园 ZooLights 周一免费
-LOCATION:Lincoln Park Zoo\, 2001 N Clark St\, Chicago\, IL 60614
-DESCRIPTION:💡 周一免费(11/23、11/30、12/7、12/14)\,需要预约
- 分时段票。\n费用:免费\nhttps://www.chicagoparent.com/holiday-guid
- e/thanksgiving-chicago-family-activities
-URL:https://www.chicagoparent.com/holiday-guide/thanksgiving-chicago-family
- -activities
+UID:cpl-multilingual-playgroup-1127-2026-11-27@noboringweekends
+DTSTAMP:20261126T000000Z
+DTSTART:20261127T153000Z
+DTEND:20261127T173000Z
+SUMMARY:芝加哥图书馆华埠分馆多语言游戏小组
+LOCATION:Chicago Public Library – Chinatown\, 2100 S Wentworth Ave\, Chic
+ ago\, IL 60616
+DESCRIPTION:🧸 华埠分馆的多语言(含中文)亲子游戏时间。\n
+ 费用:免费\nhttps://chipublib.bibliocommons.com/events/6a88816faafa6100
+ 295e2650
+URL:https://chipublib.bibliocommons.com/events/6a88816faafa6100295e2650
 END:VEVENT
 BEGIN:VEVENT
-UID:garfield-winter-show-2026-2026-11-25@noboringweekends
-DTSTAMP:20261123T000000Z
-DTSTART;VALUE=DATE:20261125
-DTEND;VALUE=DATE:20261126
-SUMMARY:加菲尔德公园温室冬季花展开幕
-LOCATION:Garfield Park Conservatory\, 300 N Central Park Ave\, Chicago\, IL
-  60624
-DESCRIPTION:🌺 温室里的冬季花展\,外面冷也能逛。芝加哥
- 居民免费\,非居民 $10 起。\n费用:芝加哥居民免费\,其他 $
- 10 起\nhttps://www.chicagoparent.com/holiday-guide/thanksgiving-chicago-f
- amily-activities
-URL:https://www.chicagoparent.com/holiday-guide/thanksgiving-chicago-family
- -activities
+UID:cpl-chinatown-reads-1128-2026-11-28@noboringweekends
+DTSTAMP:20261126T000000Z
+DTSTART:20261128T213000Z
+DTEND:20261128T233000Z
+SUMMARY:华埠文化读书会:Rachel Khong《My Dear You》
+LOCATION:Chicago Public Library – Chinatown\, 2100 S Wentworth Ave\, Chic
+ ago\, IL 60616
+DESCRIPTION:📖 华埠分馆的读书会\,认识同样爱读书的人。\n
+ 费用:免费\nhttps://chipublib.bibliocommons.com/events/6ab5541cf69b501a
+ 0e46470d
+URL:https://chipublib.bibliocommons.com/events/6ab5541cf69b501a0e46470d
 END:VEVENT
 BEGIN:VEVENT
 UID:chi-thanksgiving-parade-2026-11-26@noboringweekends
-DTSTAMP:20261123T000000Z
+DTSTAMP:20261126T000000Z
 DTSTART:20261126T134500Z
 DTEND:20261126T154500Z
 SUMMARY:芝加哥感恩节大游行
@@ -51,7 +49,7 @@ URL:https://www.choosechicago.com/blog/special-events/chicago-thanksgiving-
 END:VEVENT
 BEGIN:VEVENT
 UID:morton-arboretum-free-thanksgiving-2026-2026-11-26@noboringweekends
-DTSTAMP:20261123T000000Z
+DTSTAMP:20261126T000000Z
 DTSTART;VALUE=DATE:20261126
 DTEND;VALUE=DATE:20261127
 SUMMARY:莫顿植物园感恩节免费入园
@@ -59,6 +57,73 @@ LOCATION:The Morton Arboretum\, 4100 Illinois Rte 53\, Lisle\, IL 60532
 DESCRIPTION:🍂 感恩节当天所有人免费入园。\n费用:免费\nht
  tps://www.chicagoparent.com/holiday-guide/thanksgiving-chicago-family-acti
  vities
+URL:https://www.chicagoparent.com/holiday-guide/thanksgiving-chicago-family
+ -activities
+END:VEVENT
+BEGIN:VEVENT
+UID:mercado-navideno-2026-2026-11-27@noboringweekends
+DTSTAMP:20261126T000000Z
+DTSTART:20261127T160000Z
+DTEND:20261127T220000Z
+SUMMARY:Pilsen 墨西哥艺术博物馆圣诞市集(免费)
+LOCATION:National Museum of Mexican Art\, 1852 W 19th St\, Chicago\, IL 606
+ 08
+DESCRIPTION:🪅 免费节日市集\,周五到周日 10–4 点。\n费用:
+ 免费\nhttps://blockclubchicago.org/2026/11/25/21-things-to-do-in-chicago
+ -this-weekend-thanksgiving-parade-holiday-markets-and-more/
+URL:https://blockclubchicago.org/2026/11/25/21-things-to-do-in-chicago-this
+ -weekend-thanksgiving-parade-holiday-markets-and-more/
+END:VEVENT
+BEGIN:VEVENT
+UID:wreathing-lions-2026-2026-11-27@noboringweekends
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20261127
+DTEND;VALUE=DATE:20261128
+SUMMARY:芝加哥艺术博物馆狮子戴花环
+LOCATION:Art Institute of Chicago\, 111 S Michigan Ave\, Chicago\, IL 60603
+DESCRIPTION:🦁 门口两只铜狮戴上巨大花环\,芝加哥的节日
+ 开场。\n费用:免费\nhttps://blockclubchicago.org/2026/11/25/21-thing
+ s-to-do-in-chicago-this-weekend-thanksgiving-parade-holiday-markets-and-mo
+ re/
+URL:https://blockclubchicago.org/2026/11/25/21-things-to-do-in-chicago-this
+ -weekend-thanksgiving-parade-holiday-markets-and-more/
+END:VEVENT
+BEGIN:VEVENT
+UID:holly-jolly-trolley-2026-2026-11-28@noboringweekends
+DTSTAMP:20261126T000000Z
+DTSTART:20261128T180000Z
+DTEND:20261129T000000Z
+SUMMARY:Ravenswood 节日小电车(免费)
+LOCATION:Ravenswood\, Ravenswood\, Chicago\, IL 60640
+DESCRIPTION:🚋 免费坐节日小电车。\n费用:免费\nhttps://blockc
+ lubchicago.org/2026/11/25/21-things-to-do-in-chicago-this-weekend-thanksgi
+ ving-parade-holiday-markets-and-more/
+URL:https://blockclubchicago.org/2026/11/25/21-things-to-do-in-chicago-this
+ -weekend-thanksgiving-parade-holiday-markets-and-more/
+END:VEVENT
+BEGIN:VEVENT
+UID:lincoln-square-lighting-2026-2026-11-28@noboringweekends
+DTSTAMP:20261126T000000Z
+DTSTART:20261128T230000Z
+DTEND:20261128T233000Z
+SUMMARY:Lincoln Square 圣诞点灯
+LOCATION:Giddings Plaza\, 4730 N Lincoln Ave\, Chicago\, IL 60625
+DESCRIPTION:🎄 唱诗班和圣诞老人到场。\n费用:免费\nhttps://
+ blockclubchicago.org/2026/11/25/21-things-to-do-in-chicago-this-weekend-th
+ anksgiving-parade-holiday-markets-and-more/
+URL:https://blockclubchicago.org/2026/11/25/21-things-to-do-in-chicago-this
+ -weekend-thanksgiving-parade-holiday-markets-and-more/
+END:VEVENT
+BEGIN:VEVENT
+UID:zoolights-free-1130-2026-11-30@noboringweekends
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20261130
+DTEND;VALUE=DATE:20261201
+SUMMARY:林肯公园 ZooLights 周一免费
+LOCATION:Lincoln Park Zoo\, 2001 N Clark St\, Chicago\, IL 60614
+DESCRIPTION:💡 周一免费\,需预约分时段票。\n费用:免费\nhtt
+ ps://www.chicagoparent.com/holiday-guide/thanksgiving-chicago-family-activ
+ ities
 URL:https://www.chicagoparent.com/holiday-guide/thanksgiving-chicago-family
  -activities
 END:VEVENT

@@ -8,26 +8,72 @@ X-WR-TIMEZONE:America/Toronto
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:cccgt-seniors-2026-11-23@noboringweekends
-DTSTAMP:20261123T000000Z
-DTSTART:20261123T150000Z
-DTEND:20261123T210000Z
-SUMMARY:多伦多华人文化中心长者活动中心(周一至周五)
-LOCATION:Chinese Cultural Centre of Greater Toronto\, 5183 Sheppard Ave E\,
-  Scarborough\, ON M1B 5Z5
-DESCRIPTION:👵 给爷爷奶奶的长者活动中心\,周一到周五开
- 放\,课程以官网为准。\n费用:以官网为准\nhttps://cccgt.org/
-URL:https://cccgt.org/
+UID:tpl-samshu-1127-2026-11-27@noboringweekends
+DTSTAMP:20261126T000000Z
+DTSTART:20261127T233000Z
+DTEND:20261128T013000Z
+SUMMARY:多伦多图书馆讲座:「三烧」与唐人街的形成
+LOCATION:North York Central Library\, 5120 Yonge St\, North York\, ON M2N 5
+ N9
+DESCRIPTION:📜 讲唐人街历史的免费讲座。\n费用:免费\nhttps
+ ://tpl.bibliocommons.com/events/6ad1264696ec3a003adad3f0
+URL:https://tpl.bibliocommons.com/events/6ad1264696ec3a003adad3f0
 END:VEVENT
 BEGIN:VEVENT
-UID:lego-holiday-workshop-2026-2026-11-23@noboringweekends
-DTSTAMP:20261123T000000Z
-DTSTART;VALUE=DATE:20261123
-DTEND;VALUE=DATE:20261124
-SUMMARY:伊顿中心乐高节日工坊(到 11/29)
-LOCATION:CF Toronto Eaton Centre\, 220 Yonge St\, Toronto\, ON M5B 2H1
-DESCRIPTION:🧱 乐高节日工坊\,11/21–29。\n费用:以官网为准\
- nhttps://www.todocanada.ca/things-to-do-in-toronto-kids-this-weekend/
-URL:https://www.todocanada.ca/things-to-do-in-toronto-kids-this-weekend/
+UID:markham-festival-lights-2026-2026-11-27@noboringweekends
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20261127
+DTEND;VALUE=DATE:20261128
+SUMMARY:万锦 Main Street 灯光节 + 点灯(免费)
+LOCATION:Main Street Markham\, Main St N\, Markham\, ON L3P 1X3
+DESCRIPTION:🎄 万锦老街点灯、现场演出和亲子活动\,免费
+ 。\n费用:免费\nhttps://childslife.ca/free-family-events-in-the-gta/
+URL:https://childslife.ca/free-family-events-in-the-gta/
+END:VEVENT
+BEGIN:VEVENT
+UID:cavalcade-lights-2026-2026-11-28@noboringweekends
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:市政厅广场 Cavalcade of Lights 点灯(免费)
+LOCATION:Nathan Phillips Square\, 100 Queen St W\, Toronto\, ON M5H 2N2
+DESCRIPTION:✨ 多伦多市政厅广场的节日灯光\,11/28 起到 2027/
+ 1/7。\n费用:免费\nhttps://childslife.ca/free-family-events-in-the-gta
+ /
+URL:https://childslife.ca/free-family-events-in-the-gta/
+END:VEVENT
+BEGIN:VEVENT
+UID:gardiner-family-sunday-1129-2026-11-29@noboringweekends
+DTSTAMP:20261126T000000Z
+DTSTART:20261129T160000Z
+DTEND:20261129T200000Z
+SUMMARY:Gardiner 陶瓷博物馆亲子周日
+LOCATION:Gardiner Museum\, 111 Queens Park\, Toronto\, ON M5S 2C7
+DESCRIPTION:🏺 在创客空间玩陶土和动手做。\n费用:以官网
+ 为准\nhttps://childslife.ca/free-family-events-in-the-gta/
+URL:https://childslife.ca/free-family-events-in-the-gta/
+END:VEVENT
+BEGIN:VEVENT
+UID:vaughan-santafest-2026-2026-11-29@noboringweekends
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+SUMMARY:旺市 Santafest 圣诞游行(免费)
+LOCATION:Vaughan City Hall\, 2141 Major Mackenzie Dr\, Vaughan\, ON L6A 1T1
+DESCRIPTION:🎅 免费圣诞游行。\n费用:免费\nhttps://childslife.c
+ a/free-family-events-in-the-gta/
+URL:https://childslife.ca/free-family-events-in-the-gta/
+END:VEVENT
+BEGIN:VEVENT
+UID:riverside-holiday-market-2026-2026-11-29@noboringweekends
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+SUMMARY:Riverside 节日市集(免费见圣诞老人)
+LOCATION:Ralph Thornton Community Centre\, 765 Queen St E\, Toronto\, ON M4
+ M 1H3
+DESCRIPTION:☕ 免费见圣诞老人、手工、热可可和现场音乐
+ 。\n费用:免费\nhttps://childslife.ca/free-family-events-in-the-gta/
+URL:https://childslife.ca/free-family-events-in-the-gta/
 END:VEVENT
 END:VCALENDAR

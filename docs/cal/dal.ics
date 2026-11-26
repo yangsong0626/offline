@@ -8,33 +8,8 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:grapevine-carol-lights-2026-11-23@noboringweekends
-DTSTAMP:20261123T000000Z
-DTSTART;VALUE=DATE:20261123
-DTEND;VALUE=DATE:20261124
-SUMMARY:Grapevine 圣诞点灯(免费)
-LOCATION:Historic Downtown Grapevine\, Main St\, Grapevine\, TX 76051
-DESCRIPTION:🎄「圣诞之都」Grapevine 开季点灯。\n费用:免费\
- nhttps://resident.com/dallas/2026/11/05/dallasfort-worths-holiday-season-b
- egins-with-these-15-things-to-do-in-november-2026
-URL:https://resident.com/dallas/2026/11/05/dallasfort-worths-holiday-season
- -begins-with-these-15-things-to-do-in-november-2026
-END:VEVENT
-BEGIN:VEVENT
-UID:disney-ice-allen-2026-11-25@noboringweekends
-DTSTAMP:20261123T000000Z
-DTSTART;VALUE=DATE:20261125
-DTEND;VALUE=DATE:20261126
-SUMMARY:迪士尼冰上世界(Allen\,到 11/29)
-LOCATION:Credit Union of Texas Event Center\, 200 E Stacy Rd\, Allen\, TX 7
- 5002
-DESCRIPTION:⛸️ 感恩节假期的迪士尼冰上演出\,11/25–29。\n
- 费用:以官网为准\nhttps://dallas.culturemap.com/
-URL:https://dallas.culturemap.com/
-END:VEVENT
-BEGIN:VEVENT
 UID:dallas-ymca-turkey-trot-2026-2026-11-26@noboringweekends
-DTSTAMP:20261123T000000Z
+DTSTAMP:20261126T000000Z
 DTSTART:20261126T143000Z
 DTEND:20261126T163000Z
 SUMMARY:达拉斯 YMCA 感恩节火鸡跑
@@ -46,22 +21,34 @@ DESCRIPTION:🦃 达拉斯最大的火鸡跑\,环绕市中心和 Deep Ellum
 URL:https://dfwchild.com/thanksgiving-events-dfw-family-activities/
 END:VEVENT
 BEGIN:VEVENT
+UID:cowboy-santa-2026-2026-11-27@noboringweekends
+DTSTAMP:20261126T000000Z
+DTSTART:20261127T173000Z
+DTEND:20261127T193000Z
+SUMMARY:沃斯堡牧场区牛仔圣诞老人驾到
+LOCATION:Fort Worth Stockyards\, 131 E Exchange Ave\, Fort Worth\, TX 76164
+DESCRIPTION:🤠 11:30 牛仔圣诞老人坐驿马车跟着长角牛群沿 
+ E. Exchange Ave 进场\,之后拍照、听故事\,晚上 6 点在 Livestoc
+ k Exchange 草坪点灯。\n费用:免费\nhttps://dfwchild.com/things-to-
+ do-thanksgiving-weekend-dfw/
+URL:https://dfwchild.com/things-to-do-thanksgiving-weekend-dfw/
+END:VEVENT
+BEGIN:VEVENT
 UID:galleria-tree-lighting-2026-2026-11-27@noboringweekends
-DTSTAMP:20261123T000000Z
+DTSTAMP:20261126T000000Z
 DTSTART:20261127T180000Z
 DTEND:20261127T200000Z
 SUMMARY:Galleria Dallas 每日圣诞树点灯秀
 LOCATION:Galleria Dallas\, 13350 Dallas Pkwy\, Dallas\, TX 75240
 DESCRIPTION:🎄 11/27–12/24 每天 12、2、4、6 点各一场点灯秀
- 。\n费用:以官网为准\nhttps://www.dallasnews.com/arts-entertainment
- /things-to-do/article/north-texas-thanksgiving-events-kick-holiday-2252411
- 6.php
+ 。\n费用:免费\nhttps://www.dallasnews.com/arts-entertainment/things-t
+ o-do/article/north-texas-thanksgiving-events-kick-holiday-22524116.php
 URL:https://www.dallasnews.com/arts-entertainment/things-to-do/article/nort
  h-texas-thanksgiving-events-kick-holiday-22524116.php
 END:VEVENT
 BEGIN:VEVENT
 UID:tbt-nutcracker-2026-11-27@noboringweekends
-DTSTAMP:20261123T000000Z
+DTSTAMP:20261126T000000Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261128
 SUMMARY:德州芭蕾舞团《胡桃夹子》(达拉斯)
@@ -69,5 +56,63 @@ LOCATION:Winspear Opera House\, 2403 Flora St\, Dallas\, TX 75201
 DESCRIPTION:🩰 周末场 11/27–12/6\,之后在沃斯堡还有场次。\
  n费用:以官网为准\nhttps://dallas.culturemap.com/
 URL:https://dallas.culturemap.com/
+END:VEVENT
+BEGIN:VEVENT
+UID:northpark-holiday-2026-2026-11-27@noboringweekends
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20261127
+DTEND;VALUE=DATE:20261128
+SUMMARY:NorthPark 商场节日季(免费)
+LOCATION:NorthPark Center\, 8687 N Central Expy\, Dallas\, TX 75225
+DESCRIPTION:🎸 木偶剧和弹吉他的圣诞老人演出\,免费。\n费
+ 用:免费\nhttps://dfwchild.com/things-to-do-thanksgiving-weekend-dfw/
+URL:https://dfwchild.com/things-to-do-thanksgiving-weekend-dfw/
+END:VEVENT
+BEGIN:VEVENT
+UID:mckinney-holidays-2026-2026-11-27@noboringweekends
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20261127
+DTEND;VALUE=DATE:20261128
+SUMMARY:McKinney 老城圣诞节(免费)
+LOCATION:Historic Downtown McKinney\, Historic Downtown McKinney\, McKinney
+ \, TX 75069
+DESCRIPTION:🎄 老城区的户外圣诞节\,11/27–29\,免费。\n费用
+ :免费\nhttps://dfwchild.com/things-to-do-thanksgiving-weekend-dfw/
+URL:https://dfwchild.com/things-to-do-thanksgiving-weekend-dfw/
+END:VEVENT
+BEGIN:VEVENT
+UID:texas-christkindl-2026-2026-11-27@noboringweekends
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20261127
+DTEND;VALUE=DATE:20261128
+SUMMARY:阿灵顿德州圣诞市集(免费入场)
+LOCATION:Texas Live!\, 1650 E Randol Mill Rd\, Arlington\, TX 76011
+DESCRIPTION:🇩🇪 德式礼物和玩具、圣尼古拉斯、现场音乐
+ 和人造雪\,免费入场。\n费用:免费\nhttps://dfwchild.com/things-
+ to-do-thanksgiving-weekend-dfw/
+URL:https://dfwchild.com/things-to-do-thanksgiving-weekend-dfw/
+END:VEVENT
+BEGIN:VEVENT
+UID:pga-frisco-range-2026-2026-11-28@noboringweekends
+DTSTAMP:20261126T000000Z
+DTSTART:20261128T230000Z
+DTEND:20261129T020000Z
+SUMMARY:PGA Frisco 节日夜(无人机表演\,免费入场)
+LOCATION:PGA Frisco\, 3 PGA Pkwy\, Frisco\, TX 75034
+DESCRIPTION:🦌 小火车、真驯鹿\,11/28 是本季唯一有无人机
+ 表演的一晚\;部分项目另收费。\n费用:免费\nhttps://dfwchild
+ .com/things-to-do-thanksgiving-weekend-dfw/
+URL:https://dfwchild.com/things-to-do-thanksgiving-weekend-dfw/
+END:VEVENT
+BEGIN:VEVENT
+UID:vitruvian-tree-lighting-2026-2026-11-28@noboringweekends
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:Addison Vitruvian 公园圣诞点灯(免费)
+LOCATION:Vitruvian Park\, 3966 Vitruvian Way\, Addison\, TX 75001
+DESCRIPTION:🎄 免费点灯和演出\,一般活动免费停车。\n费用
+ :免费\nhttps://dfwchild.com/tree-lightings-dallas-fort-worth/
+URL:https://dfwchild.com/tree-lightings-dallas-fort-worth/
 END:VEVENT
 END:VCALENDAR
