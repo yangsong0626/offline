@@ -23,7 +23,7 @@ def article(data, ids):
     if len(title) > 20: title = f"{name}周末去哪儿｜{len(evs)}个活动"  # XHS title limit
     if len(title) > 20: title = f"{name.replace('·', '')}周末去哪｜{len(evs)}个"
     out = [f"这个周末（{md(wk['start'])}–{md(wk['end'])}）{name}有什么好玩的？一共 {len(evs)} 个活动，"
-           f"{free} 个免费，{zh} 个华人活动 🇨🇳，按日期排好了，收藏慢慢看👇", ""]
+           f"{free} 个免费，" + (f"{zh} 个华人活动 🇨🇳，" if zh else "") + "按日期排好了，收藏慢慢看👇", ""]
     day = None
     for e in evs:
         if e["date"] != day:
