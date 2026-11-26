@@ -8,58 +8,8 @@ X-WR-TIMEZONE:America/New_York
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:nga-ice-rink-open-2026-2026-11-23@noboringweekends
-DTSTAMP:20261123T000000Z
-DTSTART;VALUE=DATE:20261123
-DTEND;VALUE=DATE:20261124
-SUMMARY:国家美术馆雕塑花园溜冰场开幕
-LOCATION:National Gallery of Art Sculpture Garden\, 700 Constitution Ave NW
- \, Washington\, DC 20408
-DESCRIPTION:⛸️ 雕塑花园溜冰场今天开季。\n费用:以官网
- 为准\nhttps://51st.news/dc-events-things-to-do-over-week-of-thanksgiving
- /
-URL:https://51st.news/dc-events-things-to-do-over-week-of-thanksgiving/
-END:VEVENT
-BEGIN:VEVENT
-UID:feast-of-sharing-volunteer-2026-2026-11-23@noboringweekends
-DTSTAMP:20261123T000000Z
-DTSTART;VALUE=DATE:20261123
-DTEND;VALUE=DATE:20261124
-SUMMARY:Safeway Feast of Sharing 感恩节志愿者
-LOCATION:Walter E. Washington Convention Center\, 801 Mt Vernon Pl NW\, Was
- hington\, DC 20001
-DESCRIPTION:🤝 11/23–25 招志愿者\,帮忙备餐、做厨房助手\,
- 准备社区感恩节大餐。需报名。\n费用:免费\nhttps://51st.ne
- ws/dc-events-things-to-do-over-week-of-thanksgiving/
-URL:https://51st.news/dc-events-things-to-do-over-week-of-thanksgiving/
-END:VEVENT
-BEGIN:VEVENT
-UID:hillwood-woven-wonderland-2026-2026-11-24@noboringweekends
-DTSTAMP:20261123T000000Z
-DTSTART:20261124T150000Z
-DTEND:20261124T220000Z
-SUMMARY:Hillwood 庄园节日展「编织仙境」
-LOCATION:Hillwood Estate\, Museum & Gardens\, 4155 Linnean Ave NW\, Washing
- ton\, DC 20008
-DESCRIPTION:🎄 以馆藏纺织品为灵感装饰的圣诞树\,年度节
- 日展开幕。\n费用:$5–17\nhttps://51st.news/dc-events-things-to-do-
- over-week-of-thanksgiving/
-URL:https://51st.news/dc-events-things-to-do-over-week-of-thanksgiving/
-END:VEVENT
-BEGIN:VEVENT
-UID:comments-section-comedy-1125-2026-11-25@noboringweekends
-DTSTAMP:20261123T000000Z
-DTSTART:20261125T233000Z
-DTEND:20261126T013000Z
-SUMMARY:Cafe Saint-Ex 免费脱口秀
-LOCATION:Cafe Saint-Ex\, 1847 14th St NW\, Washington\, DC 20009
-DESCRIPTION:🎤 感恩节前夜的免费脱口秀。\n费用:免费\nhttps
- ://51st.news/dc-events-things-to-do-over-week-of-thanksgiving/
-URL:https://51st.news/dc-events-things-to-do-over-week-of-thanksgiving/
-END:VEVENT
-BEGIN:VEVENT
 UID:edgewood-orphansgiving-2026-2026-11-26@noboringweekends
-DTSTAMP:20261123T000000Z
+DTSTAMP:20261126T000000Z
 DTSTART:20261126T170000Z
 DTEND:20261126T220000Z
 SUMMARY:Edgewood 社区农场 Orphansgiving 百家宴
@@ -71,7 +21,7 @@ URL:https://51st.news/dc-events-things-to-do-over-week-of-thanksgiving/
 END:VEVENT
 BEGIN:VEVENT
 UID:usbg-holiday-show-2026-2026-11-26@noboringweekends
-DTSTAMP:20261123T000000Z
+DTSTAMP:20261126T000000Z
 DTSTART;VALUE=DATE:20261126
 DTEND;VALUE=DATE:20261127
 SUMMARY:美国植物园节日展开幕(国家公园主题小火车\,免费)
@@ -84,7 +34,7 @@ URL:https://51st.news/dc-events-things-to-do-over-week-of-thanksgiving/
 END:VEVENT
 BEGIN:VEVENT
 UID:dc-trot-for-hunger-2026-2026-11-26@noboringweekends
-DTSTAMP:20261123T000000Z
+DTSTAMP:20261126T000000Z
 DTSTART;VALUE=DATE:20261126
 DTEND;VALUE=DATE:20261127
 SUMMARY:DC 感恩节为饥饿而跑
@@ -95,8 +45,85 @@ DESCRIPTION:🏃 感恩节早上从自由广场出发的公益跑。\n费
 URL:https://51st.news/dc-events-things-to-do-over-week-of-thanksgiving/
 END:VEVENT
 BEGIN:VEVENT
+UID:nmai-heritage-day-2026-2026-11-27@noboringweekends
+DTSTAMP:20261126T000000Z
+DTSTART:20261127T163000Z
+DTEND:20261127T210000Z
+SUMMARY:美洲印第安人博物馆原住民传统日(免费)
+LOCATION:National Museum of the American Indian\, 4th St SW & Independence 
+ Ave SW\, Washington\, DC 20560
+DESCRIPTION:🪶 原住民传统日活动\,免费。\n费用:免费\nhttps:
+ //www.kidfriendlydc.com/2026/11/26/the-weekend-round-up-november-26-29/
+URL:https://www.kidfriendlydc.com/2026/11/26/the-weekend-round-up-november-
+ 26-29/
+END:VEVENT
+BEGIN:VEVENT
+UID:eastern-market-night-2026-2026-11-27@noboringweekends
+DTSTAMP:20261126T000000Z
+DTSTART:20261127T220000Z
+DTEND:20261128T020000Z
+SUMMARY:Eastern Market 节日夜市开幕(免费)
+LOCATION:Eastern Market North Hall\, 225 7th St SE\, Washington\, DC 20003
+DESCRIPTION:🏮 节日夜市开幕\,免费入场。\n费用:免费\nhttps:
+ //www.kidfriendlydc.com/2026/11/26/the-weekend-round-up-november-26-29/
+URL:https://www.kidfriendlydc.com/2026/11/26/the-weekend-round-up-november-
+ 26-29/
+END:VEVENT
+BEGIN:VEVENT
+UID:mosaic-tree-lighting-2026-2026-11-27@noboringweekends
+DTSTAMP:20261126T000000Z
+DTSTART:20261127T230000Z
+DTEND:20261128T010000Z
+SUMMARY:Mosaic District 圣诞点灯(免费)
+LOCATION:Mosaic District\, 2910 District Ave\, Fairfax\, VA 22031
+DESCRIPTION:🎄 6 点点灯\,之后圣诞老人到场。\n费用:免费\nh
+ ttps://www.kidfriendlydc.com/2026/11/26/the-weekend-round-up-november-26-2
+ 9/
+URL:https://www.kidfriendlydc.com/2026/11/26/the-weekend-round-up-november-
+ 26-29/
+END:VEVENT
+BEGIN:VEVENT
+UID:folger-frost-fair-2026-2026-11-27@noboringweekends
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20261127
+DTEND;VALUE=DATE:20261128
+SUMMARY:Folger 莎士比亚图书馆冰霜市集(免费)
+LOCATION:Folger Shakespeare Library\, 201 E Capitol St SE\, Washington\, DC
+  20003
+DESCRIPTION:❄️ 图书馆节日装饰\,免费\,到 1/3\;11/27 还有讲
+ 莎剧里的节庆的活动(建议捐 $10)。\n费用:免费\nhttps://www.
+ kidfriendlydc.com/2026/11/26/the-weekend-round-up-november-26-29/
+URL:https://www.kidfriendlydc.com/2026/11/26/the-weekend-round-up-november-
+ 26-29/
+END:VEVENT
+BEGIN:VEVENT
+UID:shipgarten-costume-2026-2026-11-28@noboringweekends
+DTSTAMP:20261126T000000Z
+DTSTART:20261128T180000Z
+DTEND:20261128T230000Z
+SUMMARY:Tysons Shipgarten 亲子变装节(免费)
+LOCATION:The Shipgarten\, Tysons\, VA 22102
+DESCRIPTION:🎭 免费亲子变装节。\n费用:免费\nhttps://www.kidfr
+ iendlydc.com/2026/11/26/the-weekend-round-up-november-26-29/
+URL:https://www.kidfriendlydc.com/2026/11/26/the-weekend-round-up-november-
+ 26-29/
+END:VEVENT
+BEGIN:VEVENT
+UID:yeti-parade-2026-2026-11-29@noboringweekends
+DTSTAMP:20261126T000000Z
+DTSTART:20261129T150000Z
+DTEND:20261129T170000Z
+SUMMARY:Eastern Market 雪怪大游行(免费)
+LOCATION:Eastern Market\, 225 7th St SE\, Washington\, DC 20003
+DESCRIPTION:👹 孩子先做雪怪面具\,再一起变装游行\,免费。
+ \n费用:免费\nhttps://www.kidfriendlydc.com/2026/11/26/the-weekend-roun
+ d-up-november-26-29/
+URL:https://www.kidfriendlydc.com/2026/11/26/the-weekend-round-up-november-
+ 26-29/
+END:VEVENT
+BEGIN:VEVENT
 UID:national-tree-100-2026-12-03@noboringweekends
-DTSTAMP:20261123T000000Z
+DTSTAMP:20261126T000000Z
 DTSTART;VALUE=DATE:20261203
 DTEND;VALUE=DATE:20261204
 SUMMARY:第 100 届国家圣诞树点灯

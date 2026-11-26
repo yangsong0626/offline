@@ -8,41 +8,22 @@ X-WR-TIMEZONE:America/Vancouver
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:rpl-chinese-toddler-2026-11-24@noboringweekends
-DTSTAMP:20261123T000000Z
-DTSTART:20261124T163000Z
-DTEND:20261124T183000Z
-SUMMARY:列治文图书馆中文幼儿时光
-LOCATION:Richmond Public Library (BC) – Brighouse\, Vancouver area\, BC
-DESCRIPTION:🧸 图书馆免费亲子活动。\n费用:免费\nhttps://you
- rlibrary.bibliocommons.com/events/692b6b143df0e43700058df7
-URL:https://yourlibrary.bibliocommons.com/events/692b6b143df0e43700058df7
-END:VEVENT
-BEGIN:VEVENT
-UID:disney-on-ice-van-2026-2026-11-25@noboringweekends
-DTSTAMP:20261123T000000Z
-DTSTART;VALUE=DATE:20261125
-DTEND;VALUE=DATE:20261126
-SUMMARY:迪士尼冰上世界(PNE\,11/25–29)
-LOCATION:Pacific Coliseum\, 100 N Renfrew St\, Vancouver\, BC V5K 3N7
-DESCRIPTION:⛸️ 迪士尼冰上演出\,11/25–29。\n费用:以官网
- 为准\nhttps://dailyhive.com/vancouver/vancouver-events-november-23-29
-URL:https://dailyhive.com/vancouver/vancouver-events-november-23-29
-END:VEVENT
-BEGIN:VEVENT
-UID:burnaby-festive-village-2026-2026-11-25@noboringweekends
-DTSTAMP:20261123T000000Z
-DTSTART;VALUE=DATE:20261125
-DTEND;VALUE=DATE:20261126
-SUMMARY:本拿比村博物馆节日村庄
-LOCATION:Burnaby Village Museum\, 6501 Deer Lake Ave\, Burnaby\, BC V5G 3T6
-DESCRIPTION:🎄 老街村庄的节日季\,11/25–12/13。\n费用:以官
- 网为准\nhttps://dailyhive.com/vancouver/vancouver-events-november-23-29
-URL:https://dailyhive.com/vancouver/vancouver-events-november-23-29
+UID:richmond-lecture-1128-2026-11-28@noboringweekends
+DTSTAMP:20261126T000000Z
+DTSTART:20261128T210000Z
+DTEND:20261128T230000Z
+SUMMARY:列治文图书馆中文讲座:海外华人之国籍认同与文化
+ 取向
+LOCATION:Richmond Public Library – Brighouse\, 7700 Minoru Gate\, Richmon
+ d\, BC V6Y 1R8
+DESCRIPTION:🗣️ 中文讲座\,聊海外华人的身份认同。\n费用
+ :免费\nhttps://yourlibrary.bibliocommons.com/events/6aac6ff919094f0c6938
+ c6b7
+URL:https://yourlibrary.bibliocommons.com/events/6aac6ff919094f0c6938c6b7
 END:VEVENT
 BEGIN:VEVENT
 UID:langley-christmas-village-2026-2026-11-26@noboringweekends
-DTSTAMP:20261123T000000Z
+DTSTAMP:20261126T000000Z
 DTSTART;VALUE=DATE:20261126
 DTEND;VALUE=DATE:20261127
 SUMMARY:兰里圣诞村(免费)
@@ -50,5 +31,83 @@ LOCATION:Langley Christmas Village\, Langley\, BC
 DESCRIPTION:🎅 免费圣诞村\,11/26–12/24。\n费用:免费\nhttps://
  dailyhive.com/vancouver/vancouver-events-november-23-29
 URL:https://dailyhive.com/vancouver/vancouver-events-november-23-29
+END:VEVENT
+BEGIN:VEVENT
+UID:van-tree-lighting-2026-2026-11-27@noboringweekends
+DTSTAMP:20261126T000000Z
+DTSTART:20261128T000000Z
+DTEND:20261128T020000Z
+SUMMARY:温哥华圣诞树点灯(免费)
+LOCATION:Vancouver Art Gallery plaza\, 750 Hornby St\, Vancouver\, BC V6Z 2
+ H7
+DESCRIPTION:🎄 免费户外点灯\;一说下午 5 点在美术馆\,一说
+  6 点在 šxʷƛ̓ənəq Xwtl’e7énḵ 广场\,以官网为准。\n费
+ 用:免费\nhttps://604now.com/things-to-do-in-metro-vancouver-this-weeken
+ d-nov-27-29/
+URL:https://604now.com/things-to-do-in-metro-vancouver-this-weekend-nov-27-
+ 29/
+END:VEVENT
+BEGIN:VEVENT
+UID:lights-at-lafarge-2026-2026-11-27@noboringweekends
+DTSTAMP:20261126T000000Z
+DTSTART:20261128T000000Z
+DTEND:20261128T030000Z
+SUMMARY:Lafarge 湖灯光节开幕(免费)
+LOCATION:Lafarge Lake\, 1299 Pinetree Way\, Coquitlam\, BC V3B 7S4
+DESCRIPTION:✨ 三联市的免费户外灯光。\n费用:免费\nhttps://6
+ 04now.com/things-to-do-in-metro-vancouver-this-weekend-nov-27-29/
+URL:https://604now.com/things-to-do-in-metro-vancouver-this-weekend-nov-27-
+ 29/
+END:VEVENT
+BEGIN:VEVENT
+UID:deep-winter-yaletown-2026-2026-11-27@noboringweekends
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20261127
+DTEND;VALUE=DATE:20261128
+SUMMARY:Yaletown「深冬」投影灯光秀(免费)
+LOCATION:Yaletown\, Yaletown\, Vancouver\, BC V6B
+DESCRIPTION:🌌 八个地点的免费投影灯光\,11/27 起到 2027/1/20
+ 。\n费用:免费\nhttps://604now.com/things-to-do-in-metro-vancouver-thi
+ s-weekend-nov-27-29/
+URL:https://604now.com/things-to-do-in-metro-vancouver-this-weekend-nov-27-
+ 29/
+END:VEVENT
+BEGIN:VEVENT
+UID:edmonds-festival-lights-2026-2026-11-28@noboringweekends
+DTSTAMP:20261126T000000Z
+DTSTART:20261128T213000Z
+DTEND:20261129T003000Z
+SUMMARY:本拿比 Edmonds 灯光节
+LOCATION:Edmonds\, Edmonds St & Kingsway\, Burnaby\, BC
+DESCRIPTION:🎅 圣诞老人和儿童手工。\n费用:免费\nhttps://604
+ now.com/things-to-do-in-metro-vancouver-this-weekend-nov-27-29/
+URL:https://604now.com/things-to-do-in-metro-vancouver-this-weekend-nov-27-
+ 29/
+END:VEVENT
+BEGIN:VEVENT
+UID:wonderland-drive-2026-2026-11-29@noboringweekends
+DTSTAMP:20261126T000000Z
+DTSTART:20261129T210000Z
+DTEND:20261130T000000Z
+SUMMARY:Commercial Drive 圣诞仙境(免费)
+LOCATION:Grandview Park\, 1657 Charles St\, Vancouver\, BC V5L 2T3
+DESCRIPTION:🐴 免费和圣诞老人合影、现场音乐、马车。\n
+ 费用:免费\nhttps://604now.com/things-to-do-in-metro-vancouver-this-wee
+ kend-nov-27-29/
+URL:https://604now.com/things-to-do-in-metro-vancouver-this-weekend-nov-27-
+ 29/
+END:VEVENT
+BEGIN:VEVENT
+UID:surrey-parade-lights-2026-2026-11-29@noboringweekends
+DTSTAMP:20261126T000000Z
+DTSTART:20261130T010000Z
+DTEND:20261130T030000Z
+SUMMARY:素里圣诞灯光游行(免费)
+LOCATION:176th Street\, 176 St & 60 Ave\, Surrey\, BC
+DESCRIPTION:🎆 晚上 6 点在 176 街开始的灯光游行。\n费用:
+ 免费\nhttps://604now.com/things-to-do-in-metro-vancouver-this-weekend-no
+ v-27-29/
+URL:https://604now.com/things-to-do-in-metro-vancouver-this-weekend-nov-27-
+ 29/
 END:VEVENT
 END:VCALENDAR

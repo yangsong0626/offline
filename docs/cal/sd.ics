@@ -8,22 +8,8 @@ X-WR-TIMEZONE:America/Los_Angeles
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:helen-woodward-camp-2026-2026-11-23@noboringweekends
-DTSTAMP:20261123T000000Z
-DTSTART;VALUE=DATE:20261123
-DTEND;VALUE=DATE:20261124
-SUMMARY:Helen Woodward 动物中心感恩节营(11/23–25)
-LOCATION:Helen Woodward Animal Center\, 6461 El Apajo Rd\, Rancho Santa Fe\
- , CA 92067
-DESCRIPTION:🐾 感恩节假期的儿童动物营\,11/23–25\,需报名
- 。\n费用:以官网为准\nhttps://www.sandiegofamily.com/things-to-do/s
- easonal-happenings/november-seasonal-events-and-camps
-URL:https://www.sandiegofamily.com/things-to-do/seasonal-happenings/novembe
- r-seasonal-events-and-camps
-END:VEVENT
-BEGIN:VEVENT
 UID:father-joes-turkey-trot-2026-2026-11-26@noboringweekends
-DTSTAMP:20261123T000000Z
+DTSTAMP:20261126T000000Z
 DTSTART;VALUE=DATE:20261126
 DTEND;VALUE=DATE:20261127
 SUMMARY:巴尔博亚公园感恩节火鸡跑(Father Joe's)
@@ -36,7 +22,7 @@ URL:https://timesofsandiego.com/san-diego-events/2026/11/11/san-diego-thank
 END:VEVENT
 BEGIN:VEVENT
 UID:coronado-turkey-trot-2026-2026-11-26@noboringweekends
-DTSTAMP:20261123T000000Z
+DTSTAMP:20261126T000000Z
 DTSTART;VALUE=DATE:20261126
 DTEND;VALUE=DATE:20261127
 SUMMARY:科罗纳多感恩节 5K
@@ -48,8 +34,34 @@ URL:https://timesofsandiego.com/san-diego-events/2026/11/11/san-diego-thank
  sgiving-weekend-guide/
 END:VEVENT
 BEGIN:VEVENT
+UID:liberty-station-lighting-2026-2026-11-27@noboringweekends
+DTSTAMP:20261126T000000Z
+DTSTART:20261128T010000Z
+DTEND:20261128T050000Z
+SUMMARY:Liberty Station 圣诞点灯 + 露天看《格林奇》
+LOCATION:Liberty Station\, 2640 Historic Decatur Rd\, San Diego\, CA 92106
+DESCRIPTION:🎄 点灯和节日活动\,还有露天电影\,带上草地椅
+ 。\n费用:免费\nhttps://www.sandiego.org/plan-your-trip/plan-by-season
+ /holidays/free-holiday-activities
+URL:https://www.sandiego.org/plan-your-trip/plan-by-season/holidays/free-ho
+ liday-activities
+END:VEVENT
+BEGIN:VEVENT
+UID:chula-vista-light-show-2026-2026-11-27@noboringweekends
+DTSTAMP:20261126T000000Z
+DTSTART:20261128T020000Z
+DTEND:20261128T040000Z
+SUMMARY:Chula Vista 炫彩灯光秀(免费)
+LOCATION:Chula Vista\, Chula Vista\, CA 91910
+DESCRIPTION:❄️ 人造雪、音乐灯光\,孩子领免费魔法眼镜。
+ 周五到周日 6 点和 7 点\,到 12/20。\n费用:免费\nhttps://www.s
+ andiego.org/plan-your-trip/plan-by-season/holidays/free-holiday-activities
+URL:https://www.sandiego.org/plan-your-trip/plan-by-season/holidays/free-ho
+ liday-activities
+END:VEVENT
+BEGIN:VEVENT
 UID:turkey-bash-2026-11-27@noboringweekends
-DTSTAMP:20261123T000000Z
+DTSTAMP:20261126T000000Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261128
 SUMMARY:Alpine 动物保护区 Turkey Bash
@@ -61,8 +73,48 @@ URL:https://timesofsandiego.com/san-diego-events/2026/11/11/san-diego-thank
  sgiving-weekend-guide/
 END:VEVENT
 BEGIN:VEVENT
+UID:julian-tree-lighting-2026-2026-11-28@noboringweekends
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:Julian 小镇圣诞树点灯
+LOCATION:Pioneer Park\, Pioneer Park\, Julian\, CA 92036
+DESCRIPTION:🌲 点亮小镇的大活树\,圣诞老人免费合影、消
+ 防车\,还放《格林奇》。\n费用:免费\nhttps://www.sandiego.org/
+ plan-your-trip/plan-by-season/holidays/free-holiday-activities
+URL:https://www.sandiego.org/plan-your-trip/plan-by-season/holidays/free-ho
+ liday-activities
+END:VEVENT
+BEGIN:VEVENT
+UID:balboa-line-dancing-1128-2026-11-28@noboringweekends
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:巴尔博亚公园免费排舞
+LOCATION:House of Pacific Relations International Cottages\, 2191 Pan Ameri
+ can Rd W\, San Diego\, CA 92101
+DESCRIPTION:🤠 不需要基础\,欢迎捐款。\n费用:免费\nhttps://w
+ ww.sandiego.org/plan-your-trip/plan-by-season/holidays/free-holiday-activi
+ ties
+URL:https://www.sandiego.org/plan-your-trip/plan-by-season/holidays/free-ho
+ liday-activities
+END:VEVENT
+BEGIN:VEVENT
+UID:bates-nut-farm-fair-1128-2026-11-28@noboringweekends
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:Bates 坚果农场圣诞手作市集(免费)
+LOCATION:Bates Nut Farm\, 15954 Woods Valley Rd\, Valley Center\, CA 92082
+DESCRIPTION:🌰 免费手作市集\,有现场音乐。\n费用:免费\nhtt
+ ps://www.sandiego.org/plan-your-trip/plan-by-season/holidays/free-holiday-
+ activities
+URL:https://www.sandiego.org/plan-your-trip/plan-by-season/holidays/free-ho
+ liday-activities
+END:VEVENT
+BEGIN:VEVENT
 UID:december-nights-2026-12-04@noboringweekends
-DTSTAMP:20261123T000000Z
+DTSTAMP:20261126T000000Z
 DTSTART;VALUE=DATE:20261204
 DTEND;VALUE=DATE:20261205
 SUMMARY:巴尔博亚公园 December Nights(12/4–5)

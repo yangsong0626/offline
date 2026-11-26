@@ -9,7 +9,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:tanaka-hikari-2026-2026-11-27@noboringweekends
-DTSTAMP:20261123T000000Z
+DTSTAMP:20261126T000000Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261128
 SUMMARY:Tanaka 农场 Hikari 灯光节开幕
@@ -21,7 +21,7 @@ URL:https://enjoyorangecounty.com/hikari-festival-of-lights/
 END:VEVENT
 BEGIN:VEVENT
 UID:irvine-turkey-trot-2026-2026-11-26@noboringweekends
-DTSTAMP:20261123T000000Z
+DTSTAMP:20261126T000000Z
 DTSTART:20261126T153000Z
 DTEND:20261126T173000Z
 SUMMARY:尔湾感恩节火鸡跑(有儿童跑)
@@ -33,7 +33,7 @@ URL:https://enjoyorangecounty.com/orange-county-turkey-trots/
 END:VEVENT
 BEGIN:VEVENT
 UID:oc-rescue-mission-5k-2026-2026-11-26@noboringweekends
-DTSTAMP:20261123T000000Z
+DTSTAMP:20261126T000000Z
 DTSTART:20261126T160000Z
 DTEND:20261126T180000Z
 SUMMARY:Tustin 感恩节公益 5K(OC Rescue Mission)
@@ -42,5 +42,80 @@ DESCRIPTION:🏃 第 13 届感恩节早上 5K\,支持无家可归者服务
  。\n费用:以官网为准\nhttps://enjoyorangecounty.com/orange-county-t
  urkey-trots/
 URL:https://enjoyorangecounty.com/orange-county-turkey-trots/
+END:VEVENT
+BEGIN:VEVENT
+UID:spectrum-santa-selfies-2026-2026-11-27@noboringweekends
+DTSTAMP:20261126T000000Z
+DTSTART:20261127T200000Z
+DTEND:20261128T000000Z
+SUMMARY:Irvine Spectrum 和圣诞老人自拍(免费)
+LOCATION:Irvine Spectrum Center\, 670 Spectrum Center Dr\, Irvine\, CA 9261
+ 8
+DESCRIPTION:🤳 周末免费和圣诞老人自拍\,在 SunWheel Court。\n
+ 费用:免费\nhttps://enjoyorangecounty.com/whats-happening/
+URL:https://enjoyorangecounty.com/whats-happening/
+END:VEVENT
+BEGIN:VEVENT
+UID:lighting-of-the-bay-2026-2026-11-27@noboringweekends
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20261127
+DTEND;VALUE=DATE:20261128
+SUMMARY:Newport Dunes 海湾点灯
+LOCATION:Newport Dunes\, 1131 Back Bay Dr\, Newport Beach\, CA 92660
+DESCRIPTION:🎅 傍晚活动\,圣诞老人大约 6 点点亮海湾\;灯光
+ 周四到周日开到 1/3。\n费用:免费\nhttps://www.funwithkidsinla.c
+ om/post/free-christmas-events-los-angeles-2026
+URL:https://www.funwithkidsinla.com/post/free-christmas-events-los-angeles-
+ 2026
+END:VEVENT
+BEGIN:VEVENT
+UID:irvine-park-santas-village-2026-2026-11-27@noboringweekends
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20261127
+DTEND;VALUE=DATE:20261128
+SUMMARY:尔湾公园 Santa's Village(免费)
+LOCATION:Irvine Regional Park\, 1 Irvine Park Rd\, Orange\, CA 92869
+DESCRIPTION:🎄 免费圣诞村\,11/27–12/30(12/24–25 休息)\;火车
+ 等项目可能另收费。\n费用:免费\nhttps://www.funwithkidsinla.co
+ m/post/free-christmas-events-los-angeles-2026
+URL:https://www.funwithkidsinla.com/post/free-christmas-events-los-angeles-
+ 2026
+END:VEVENT
+BEGIN:VEVENT
+UID:christmas-market-oc-2026-2026-11-27@noboringweekends
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20261127
+DTEND;VALUE=DATE:20261128
+SUMMARY:亨廷顿海滩 Christmas Market OC(免费入场)
+LOCATION:Christmas Market OC\, Huntington Beach\, CA 92648
+DESCRIPTION:🎄 免费入场的圣诞市集\,11/15 开到 2027/1/3\;周末
+ 开放时间以官网为准。\n费用:免费\nhttps://enjoyorangecounty.c
+ om/whats-happening/
+URL:https://enjoyorangecounty.com/whats-happening/
+END:VEVENT
+BEGIN:VEVENT
+UID:atomic-ballroom-open-house-2026-2026-11-28@noboringweekends
+DTSTAMP:20261126T000000Z
+DTSTART:20261128T180000Z
+DTEND:20261129T010000Z
+SUMMARY:尔湾 Atomic Ballroom 节日开放日(免费舞蹈课)
+LOCATION:Atomic Ballroom\, Irvine\, CA 92614
+DESCRIPTION:💃 免费入门舞蹈课、摊位和点心\,需 RSVP。认识
+ 新朋友的好机会。\n费用:免费\nhttps://enjoyorangecounty.com/wha
+ ts-happening/
+URL:https://enjoyorangecounty.com/whats-happening/
+END:VEVENT
+BEGIN:VEVENT
+UID:nixon-messiah-2026-2026-11-29@noboringweekends
+DTSTAMP:20261126T000000Z
+DTSTART:20261129T180000Z
+DTEND:20261129T200000Z
+SUMMARY:尼克松图书馆《弥赛亚》大合唱
+LOCATION:Richard Nixon Presidential Library\, 18001 Yorba Linda Blvd\, Yorb
+ a Linda\, CA 92886
+DESCRIPTION:🎶 一起唱亨德尔《弥赛亚》\,10 点和 12 点两场
+ 。\n费用:以官网为准\nhttps://enjoyorangecounty.com/whats-happening
+ /
+URL:https://enjoyorangecounty.com/whats-happening/
 END:VEVENT
 END:VCALENDAR

@@ -9,7 +9,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:union-turkey-trot-2026-2026-11-26@noboringweekends
-DTSTAMP:20261123T000000Z
+DTSTAMP:20261126T000000Z
 DTSTART:20261126T124500Z
 DTEND:20261126T150000Z
 SUMMARY:Union 感恩节火鸡跑 5K 跑/走
@@ -21,7 +21,7 @@ URL:https://thelocalgirl.com/newjersey/new-jersey-turkey-trots-2026/
 END:VEVENT
 BEGIN:VEVENT
 UID:bayonne-turkey-trot-2026-2026-11-26@noboringweekends
-DTSTAMP:20261123T000000Z
+DTSTAMP:20261126T000000Z
 DTSTART;VALUE=DATE:20261126
 DTEND;VALUE=DATE:20261127
 SUMMARY:Bayonne 感恩节火鸡跑(5K + 1 英里亲子跑)
@@ -34,7 +34,7 @@ URL:https://thelocalgirl.com/newjersey/new-jersey-turkey-trots-2026/
 END:VEVENT
 BEGIN:VEVENT
 UID:replenish-turkey-trot-2026-2026-11-26@noboringweekends
-DTSTAMP:20261123T000000Z
+DTSTAMP:20261126T000000Z
 DTSTART;VALUE=DATE:20261126
 DTEND;VALUE=DATE:20261127
 SUMMARY:South Amboy 海边感恩节 5K(可推婴儿车、带狗)
@@ -47,21 +47,22 @@ URL:https://www.njfamily.com/events/replenish-thanksgiving-day-turkey-trot-
 END:VEVENT
 BEGIN:VEVENT
 UID:smithville-lights-2026-2026-11-27@noboringweekends
-DTSTAMP:20261123T000000Z
+DTSTAMP:20261126T000000Z
 DTSTART:20261127T223000Z
 DTEND:20261128T013000Z
 SUMMARY:Smithville 湖上圣诞树灯光秀(免费)
 LOCATION:Historic Smithville\, 1 N New York Rd\, Galloway\, NJ 08205
 DESCRIPTION:🎄 100 多棵圣诞树漂在湖面上\,配合音乐亮灯\,
- 每晚 5:30–8:30\,风雨无阻\,免费。开幕日 11/26 或 11/27 各
- 来源不一致\,以官网为准。\n费用:免费\nhttps://www.njfamily.c
- om/events/holiday-light-show-in-historic-smithville/
+ 每晚 5:30–8:30\,风雨无阻\,免费。开幕日各来源说法不一(
+ 11/26、27 或 28)\,一份指南说只在周四到周日开放\,以官网
+ 为准。\n费用:免费\nhttps://www.njfamily.com/events/holiday-light-sh
+ ow-in-historic-smithville/
 URL:https://www.njfamily.com/events/holiday-light-show-in-historic-smithvil
  le/
 END:VEVENT
 BEGIN:VEVENT
 UID:clinton-dickens-days-2026-2026-11-27@noboringweekends
-DTSTAMP:20261123T000000Z
+DTSTAMP:20261126T000000Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261128
 SUMMARY:Clinton 狄更斯节 + 小镇点灯(免费)
@@ -75,7 +76,7 @@ URL:https://newjerseyisntboring.com/njibs-guide-to-70-new-jersey-november-e
 END:VEVENT
 BEGIN:VEVENT
 UID:red-mill-winter-village-2026-2026-11-27@noboringweekends
-DTSTAMP:20261123T000000Z
+DTSTAMP:20261126T000000Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261128
 SUMMARY:Red Mill 冬日村庄集市(Clinton)
@@ -89,7 +90,7 @@ URL:https://www.njfamily.com/things-to-do-this-weekend-in-new-jersey-novemb
 END:VEVENT
 BEGIN:VEVENT
 UID:norz-hill-hayride-2026-2026-11-27@noboringweekends
-DTSTAMP:20261123T000000Z
+DTSTAMP:20261126T000000Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261128
 SUMMARY:Norz Hill 农场灯光拖拉机干草车
@@ -101,15 +102,99 @@ URL:https://www.njfamily.com/things-to-do-this-weekend-in-new-jersey-novemb
  er-27-29/
 END:VEVENT
 BEGIN:VEVENT
+UID:fairy-tale-forest-winter-2026-2026-11-27@noboringweekends
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20261127
+DTEND;VALUE=DATE:20261128
+SUMMARY:Fairy Tale Forest 冬季仙境步道
+LOCATION:Fairy Tale Forest\, 140 Oak Ridge Rd\, Oak Ridge\, NJ 07438
+DESCRIPTION:❄️ 童话森林的冬季步道\,可以见到圣诞老人和
+ 朋友们。11/27–12/27。\n费用:以官网为准\nhttps://www.njfamily
+ .com/things-to-do-this-thanksgiving-weekend-in-nj/
+URL:https://www.njfamily.com/things-to-do-this-thanksgiving-weekend-in-nj/
+END:VEVENT
+BEGIN:VEVENT
+UID:scls-saturday-fun-1128-2026-11-28@noboringweekends
+DTSTAMP:20261126T000000Z
+DTSTART:20261128T160000Z
+DTEND:20261128T180000Z
+SUMMARY:Hillsborough 图书馆周六亲子时光
+LOCATION:Somerset County Library – Hillsborough\, 379 S Branch Rd\, Hills
+ borough\, NJ 08844
+DESCRIPTION:🎨 周六上午的免费亲子活动。\n费用:免费\nhttps
+ ://sclsnj.libnet.info/event/17503773
+URL:https://sclsnj.libnet.info/event/17503773
+END:VEVENT
+BEGIN:VEVENT
+UID:princeton-math-circle-1128-2026-11-28@noboringweekends
+DTSTAMP:20261126T000000Z
+DTSTART:20261128T190000Z
+DTEND:20261128T210000Z
+SUMMARY:普林斯顿图书馆儿童数学圈
+LOCATION:Princeton Public Library\, 65 Witherspoon St\, Princeton\, NJ 0854
+ 2
+DESCRIPTION:🧮 图书馆的儿童数学游戏小组\,免费。\n费用:
+ 免费\nhttps://princetonlibrary.libnet.info/event/17734165
+URL:https://princetonlibrary.libnet.info/event/17734165
+END:VEVENT
+BEGIN:VEVENT
+UID:morristown-green-festival-2026-2026-11-28@noboringweekends
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:Morristown Green 圣诞节(免费\,有小火车)
+LOCATION:Morristown Green\, Morristown Green\, Morristown\, NJ 07960
+DESCRIPTION:🚂 免费的小镇圣诞节\,有手工和迷你小火车\;和
+ 圣诞老人见面另收费。11/28–12/20。\n费用:免费\nhttps://www
+ .njfamily.com/things-to-do-this-thanksgiving-weekend-in-nj/
+URL:https://www.njfamily.com/things-to-do-this-thanksgiving-weekend-in-nj/
+END:VEVENT
+BEGIN:VEVENT
+UID:morris-county-farms-xmas-2026-2026-11-28@noboringweekends
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:Denville 农场圣诞嘉年华(圣诞老人、充气城堡)
+LOCATION:Morris County Farms\, Denville\, NJ 07834
+DESCRIPTION:🎅 11/28–29\,和圣诞老人见面、充气城堡和滑梯
+ 、节日小吃。\n费用:以官网为准\nhttps://www.njfamily.com/thing
+ s-to-do-this-thanksgiving-weekend-in-nj/
+URL:https://www.njfamily.com/things-to-do-this-thanksgiving-weekend-in-nj/
+END:VEVENT
+BEGIN:VEVENT
+UID:edison-salsa-1129-2026-11-29@noboringweekends
+DTSTAMP:20261126T000000Z
+DTSTART:20261129T190000Z
+DTEND:20261129T210000Z
+SUMMARY:Edison 图书馆萨尔萨舞课
+LOCATION:Edison Public Library – Main\, 340 Plainfield Ave\, Edison\, NJ 
+ 08817
+DESCRIPTION:💃 免费萨尔萨舞课\,一个人去也能认识新朋友
+ 。\n费用:免费\nhttps://edisonpubliclibrary.libnet.info/event/17666167
+URL:https://edisonpubliclibrary.libnet.info/event/17666167
+END:VEVENT
+BEGIN:VEVENT
+UID:princeton-jazz-1129-2026-11-29@noboringweekends
+DTSTAMP:20261126T000000Z
+DTSTART:20261129T200000Z
+DTEND:20261129T220000Z
+SUMMARY:普林斯顿图书馆爵士四重奏音乐会
+LOCATION:Princeton Public Library\, 65 Witherspoon St\, Princeton\, NJ 0854
+ 2
+DESCRIPTION:🎷 图书馆里的免费音乐会。\n费用:免费\nhttps://
+ princetonlibrary.libnet.info/event/17671602
+URL:https://princetonlibrary.libnet.info/event/17671602
+END:VEVENT
+BEGIN:VEVENT
 UID:long-branch-tree-lighting-2026-2026-11-29@noboringweekends
-DTSTAMP:20261123T000000Z
+DTSTAMP:20261126T000000Z
 DTSTART:20261129T210000Z
 DTEND:20261129T230000Z
 SUMMARY:Long Branch Pier Village 圣诞点灯
 LOCATION:Pier Village\, Pier Village\, Long Branch\, NJ 07740
-DESCRIPTION:✨ 海边小镇的圣诞点灯。\n费用:以官网为准\nhtt
- ps://www.njfamily.com/things-to-do-this-weekend-in-new-jersey-november-27-
- 29/
+DESCRIPTION:✨ 海边小镇的圣诞点灯。日期各来源不一(11/29 
+ 或 11/30)\,以官网为准。\n费用:以官网为准\nhttps://www.njfami
+ ly.com/things-to-do-this-weekend-in-new-jersey-november-27-29/
 URL:https://www.njfamily.com/things-to-do-this-weekend-in-new-jersey-novemb
  er-27-29/
 END:VEVENT

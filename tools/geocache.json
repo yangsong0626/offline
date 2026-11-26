@@ -19,6 +19,10 @@
 33.95494,
 -83.98839
 ],
+"atl|2757 Main St, East Point, GA 30344": [
+33.68001,
+-84.44018
+],
 "atl|400 Avalon Blvd, Alpharetta, GA 30009": [
 34.07075,
 -84.2765
@@ -43,9 +47,21 @@
 33.77118,
 -84.36501
 ],
+"atl|660 Peachtree St NE, Atlanta, GA 30308": [
+33.77248,
+-84.38496
+],
 "atl|755 Hank Aaron Dr SE, Atlanta, GA 30315": [
 33.73432,
 -84.38798
+],
+"atl|800 Battery Ave SE, Atlanta, GA 30339": [
+33.89173,
+-84.46863
+],
+"atl|Roswell, GA 30075": [
+34.02332,
+-84.36002
 ],
 "bos|100 Seaport Blvd, Boston, MA 02210": [
 42.35103,
@@ -87,6 +103,14 @@
 42.35477,
 -71.06813
 ],
+"bos|Columbia Point, Boston, MA 02125": [
+42.3321,
+-71.02849
+],
+"bos|Downtown Crossing, Boston, MA 02111": [
+42.35545,
+-71.06058
+],
 "bos|Foxborough, MA 02035": [
 42.06538,
 -71.24783
@@ -99,13 +123,25 @@
 41.95838,
 -70.66739
 ],
+"bos|Seaport Blvd, Boston, MA 02210": [
+42.35152,
+-71.04481
+],
 "chi|1000 Lake Cook Rd, Glencoe, IL 60022": [
 42.14908,
 -87.78959
 ],
+"chi|111 S Michigan Ave, Chicago, IL 60603": [
+41.88065,
+-87.62417
+],
 "chi|175 N State St, Chicago, IL 60601": [
 41.88528,
 -87.62785
+],
+"chi|1852 W 19th St, Chicago, IL 60608": [
+41.85594,
+-87.67234
 ],
 "chi|2001 N Clark St, Chicago, IL 60614": [
 41.91855,
@@ -114,6 +150,10 @@
 "chi|201 E Randolph St, Chicago, IL 60602": [
 41.88429,
 -87.62385
+],
+"chi|2100 S Wentworth Ave, Chicago, IL 60616": [
+41.85425,
+-87.63189
 ],
 "chi|220 E Chicago Ave, Chicago, IL 60611": [
 41.89683,
@@ -126,6 +166,10 @@
 "chi|4100 Illinois Rte 53, Lisle, IL 60532": [
 41.80116,
 -88.07477
+],
+"chi|4730 N Lincoln Ave, Chicago, IL 60625": [
+41.96743,
+-87.68788
 ],
 "chi|50 W Washington St, Chicago, IL 60602": [
 41.88327,
@@ -144,9 +188,17 @@
 41.8947,
 -87.62435
 ],
+"chi|Ravenswood, Chicago, IL 60640": [
+41.96792,
+-87.67448
+],
 "chi|State St from Ida B. Wells Dr to Randolph St, Chicago, IL": [
 41.87556,
 -87.62442
+],
+"dal|131 E Exchange Ave, Fort Worth, TX 76164": [
+32.78894,
+-97.34741
 ],
 "dal|1313 Main St, Dallas, TX 75202": [
 32.78035,
@@ -159,6 +211,10 @@
 "dal|1500 Marilla St, Dallas, TX 75201": [
 32.77666,
 -96.79584
+],
+"dal|1650 E Randol Mill Rd, Arlington, TX 76011": [
+32.75019,
+-97.08636
 ],
 "dal|1902 Main St, Dallas, TX 75201": [
 32.78135,
@@ -176,9 +232,17 @@
 32.78988,
 -96.79769
 ],
+"dal|3 PGA Pkwy, Frisco, TX 75034": [
+33.20891,
+-96.8201
+],
 "dal|3505 Maple Ave, Dallas, TX 75219": [
 32.80267,
 -96.8127
+],
+"dal|3966 Vitruvian Way, Addison, TX 75001": [
+32.9375,
+-96.84927
 ],
 "dal|5700 Lake Ridge Pkwy, Grand Prairie, TX 75052": [
 32.63488,
@@ -196,6 +260,10 @@
 32.82169,
 -96.71624
 ],
+"dal|8687 N Central Expy, Dallas, TX 75225": [
+32.86946,
+-96.77078
+],
 "dal|Dallas, TX": [
 32.77627,
 -96.79686
@@ -207,6 +275,10 @@
 "dal|Highland Village, TX": [
 33.09179,
 -97.04668
+],
+"dal|Historic Downtown McKinney, McKinney, TX 75069": [
+33.19765,
+-96.61545
 ],
 "dal|Main St, Grapevine, TX 76051": [
 32.9337,
@@ -244,6 +316,18 @@
 38.91507,
 -77.03188
 ],
+"dc|201 E Capitol St SE, Washington, DC 20003": [
+38.88975,
+-77.00322
+],
+"dc|225 7th St SE, Washington, DC 20003": [
+38.88703,
+-76.99627
+],
+"dc|2910 District Ave, Fairfax, VA 22031": [
+38.87238,
+-77.2299
+],
 "dc|3001 Connecticut Ave NW, Washington, DC 20008": [
 38.92912,
 -77.05468
@@ -261,6 +345,10 @@
 -77.05435
 ],
 "dc|4th St & Independence Ave SW, Washington, DC 20560": [
+38.88744,
+-77.01756
+],
+"dc|4th St SW & Independence Ave SW, Washington, DC 20560": [
 38.88744,
 -77.01756
 ],
@@ -296,6 +384,10 @@
 38.8951,
 -77.03638
 ],
+"dc|Tysons, VA 22102": [
+38.91859,
+-77.23147
+],
 "hou|1 Hope Blvd, Galveston, TX 77554": [
 29.27464,
 -94.85241
@@ -303,6 +395,10 @@
 "hou|1001 Avenida de las Americas, Houston, TX 77010": [
 29.75263,
 -95.35854
+],
+"hou|11200 Broadway St, Pearland, TX 77584": [
+29.55563,
+-95.39263
 ],
 "hou|1370 Southmore Blvd, Houston, TX 77004": [
 29.72656,
@@ -320,9 +416,17 @@
 29.54881,
 -95.09797
 ],
+"hou|2000 Edwards St, Houston, TX 77007": [
+29.77077,
+-95.37818
+],
 "hou|2099 Lake Robbins Dr, The Woodlands, TX 77380": [
 30.16259,
 -95.46655
+],
+"hou|401 Franklin St, Houston, TX 77201": [
+29.76538,
+-95.36623
 ],
 "hou|4444 Westheimer Rd, Houston, TX 77027": [
 29.74147,
@@ -349,9 +453,25 @@
 -95.3677
 ],
 "hou|Houston, TX (venue: see website)": null,
+"hou|The Woodlands Waterway, The Woodlands, TX 77380": [
+30.16025,
+-95.45932
+],
 "la|100 Aquarium Way, Long Beach, CA 90802": [
 33.763,
 -118.19557
+],
+"la|100 Terranea Way, Rancho Palos Verdes, CA 90275": [
+33.7403,
+-118.39644
+],
+"la|1000 Vin Scully Ave, Los Angeles, CA 90012": [
+34.07238,
+-118.24802
+],
+"la|10899 Wilshire Blvd, Los Angeles, CA 90024": [
+34.05886,
+-118.44379
 ],
 "la|1201 S Figueroa St, Los Angeles, CA 90015": [
 34.04191,
@@ -372,6 +492,14 @@
 "la|200 N Spring St, Los Angeles, CA 90012": [
 34.05162,
 -118.24559
+],
+"la|200 Santa Monica Pier, Santa Monica, CA 90401": [
+34.0149,
+-118.49696
+],
+"la|250 Central Ave, Fillmore, CA 93015": [
+34.39849,
+-118.91326
 ],
 "la|285 W Huntington Dr, Arcadia, CA 91007": [
 34.13558,
@@ -396,6 +524,10 @@
 "la|6801 Hollywood Blvd, Los Angeles, CA 90028": [
 34.1016,
 -118.33876
+],
+"la|777 S Alameda St, Los Angeles, CA 90021": [
+34.03047,
+-118.23896
 ],
 "la|800 N Alameda St, Los Angeles, CA 90012": [
 34.05616,
@@ -445,13 +577,25 @@
 40.52084,
 -74.47356
 ],
+"nj|140 Oak Ridge Rd, Oak Ridge, NJ 07438": [
+41.05178,
+-74.46676
+],
 "nj|22 Brookside Dr, Millburn, NJ 07041": [
 40.7265,
 -74.30892
 ],
+"nj|340 Plainfield Ave, Edison, NJ 08817": [
+40.51771,
+-74.40796
+],
 "nj|3535 US-1, Princeton, NJ 08540": [
 40.31791,
 -74.65467
+],
+"nj|379 S Branch Rd, Hillsborough, NJ 08844": [
+40.50973,
+-74.68519
 ],
 "nj|55 Stockton St, Princeton, NJ 08540": [
 40.34656,
@@ -464,6 +608,10 @@
 "nj|560 Northfield Ave, West Orange, NJ 07052": [
 40.76974,
 -74.2816
+],
+"nj|65 Witherspoon St, Princeton, NJ 08542": [
+40.35127,
+-74.66035
 ],
 "nj|6th St & Asbury Ave, Ocean City, NJ 08226": [
 39.28214,
@@ -481,6 +629,10 @@
 40.41397,
 -74.06274
 ],
+"nj|Denville, NJ 07834": [
+40.89227,
+-74.47743
+],
 "nj|East Brunswick, NJ (venue: see website)": null,
 "nj|Forked River, NJ 08731": [
 39.83984,
@@ -493,6 +645,10 @@
 "nj|Main St, Clinton, NJ 08809": [
 40.63652,
 -74.91098
+],
+"nj|Morristown Green, Morristown, NJ 07960": [
+40.79704,
+-74.48099
 ],
 "nj|Pier Village, Long Branch, NJ 07740": [
 40.30184,
@@ -518,6 +674,10 @@
 40.64483,
 -74.10092
 ],
+"nyc|11 Wall St, New York, NY 10005": [
+40.70711,
+-74.01078
+],
 "nyc|14 United Nations Ave S, Corona, NY 11368": [
 40.74419,
 -73.84526
@@ -525,6 +685,10 @@
 "nyc|151 W 34th St, New York, NY 10001": [
 40.75048,
 -73.98927
+],
+"nyc|20 Hudson Yards, New York, NY 10001": [
+40.75591,
+-74.00053
 ],
 "nyc|20 Lincoln Center Plaza, New York, NY 10023": [
 40.77113,
@@ -594,9 +758,33 @@
 40.81569,
 -73.95829
 ],
+"nyc|Brooklyn, NY 11225": [
+40.6526,
+-73.94972
+],
 "nyc|Bryant Park, New York, NY 10018": [
 40.75422,
 -73.98457
+],
+"nyc|Captain Roscoe Brown Plaza, Bronx, NY 10453": [
+40.84665,
+-73.87859
+],
+"nyc|Charles A. Dana Discovery Center, Central Park, New York, NY 10029": [
+40.79708,
+-73.95146
+],
+"nyc|Chelsea, New York, NY 10011": [
+40.74649,
+-74.00153
+],
+"nyc|Park Slope, Brooklyn, NY 11215": [
+40.6701,
+-73.98597
+],
+"nyc|Pearl St & Water St, Brooklyn, NY 11201": [
+40.6526,
+-73.94972
 ],
 "nyc|Prospect Park, Brooklyn, NY 11225": [
 40.66161,
@@ -625,6 +813,10 @@
 "oc|1 Irvine Park Rd, Orange, CA 92869": [
 33.79631,
 -117.76088
+],
+"oc|1131 Back Bay Dr, Newport Beach, CA 92660": [
+33.61574,
+-117.88986
 ],
 "oc|18001 Yorba Linda Blvd, Yorba Linda, CA 92886": [
 33.88862,
@@ -666,6 +858,14 @@
 33.73751,
 -117.82127
 ],
+"oc|Huntington Beach, CA 92648": [
+33.67833,
+-118.00002
+],
+"oc|Irvine, CA 92614": [
+33.6857,
+-117.82598
+],
 "oc|Mission Viejo, CA 92691": [
 33.59657,
 -117.65941
@@ -690,9 +890,17 @@
 32.73139,
 -117.14973
 ],
+"sd|15954 Woods Valley Rd, Valley Center, CA 92082": [
+33.20543,
+-116.98698
+],
 "sd|2000 Mullinex Dr, Coronado, CA 92118": [
 32.69032,
 -117.16541
+],
+"sd|2191 Pan American Rd W, San Diego, CA 92101": [
+32.72892,
+-117.15303
 ],
 "sd|24402 Martin Way, Alpine, CA 91901": [
 32.81504,
@@ -701,6 +909,10 @@
 "sd|2455 Cushing Rd, San Diego, CA 92106": [
 32.73483,
 -117.21422
+],
+"sd|2640 Historic Decatur Rd, San Diego, CA 92106": [
+32.73844,
+-117.21256
 ],
 "sd|2808 Cadiz St, San Diego, CA 92110": [
 32.74376,
@@ -722,6 +934,14 @@
 32.729,
 -117.15363
 ],
+"sd|Chula Vista, CA 91910": [
+32.64005,
+-117.08419
+],
+"sd|Pioneer Park, Julian, CA 92036": [
+33.0786,
+-116.60232
+],
 "sd|S Coast Hwy 101, Encinitas, CA 92024": [
 33.04859,
 -117.29411
@@ -729,6 +949,10 @@
 "sd|Shelter Island to Downtown, San Diego, CA": [
 32.71571,
 -117.16383
+],
+"sea|100 Mill Ave S, Renton, WA 98057": [
+47.48209,
+-122.2029
 ],
 "sea|1111 110th Ave NE, Bellevue, WA 98004": [
 47.62024,
@@ -766,6 +990,14 @@
 47.62216,
 -122.35534
 ],
+"sea|345 NE 175th St, Shoreline, WA 98155": [
+47.75583,
+-122.32555
+],
+"sea|401 Pine St, Seattle, WA 98101": [
+47.61119,
+-122.33748
+],
 "sea|411 University St, Seattle, WA 98101": [
 47.60825,
 -122.33465
@@ -778,9 +1010,17 @@
 47.66868,
 -122.35432
 ],
+"sea|575 Bellevue Square, Bellevue, WA 98004": [
+47.61606,
+-122.20177
+],
 "sea|719 S King St, Seattle, WA 98104": [
 47.59825,
 -122.32287
+],
+"sea|85 Pike St, Seattle, WA 98101": [
+47.60869,
+-122.34039
 ],
 "sea|Green Lake Park, Seattle, WA 98103": [
 47.67678,
@@ -810,6 +1050,14 @@
 37.30199,
 -122.02358
 ],
+"sf|151 3rd St, San Francisco, CA 94103": [
+37.78608,
+-122.4017
+],
+"sf|199 Museum Way, San Francisco, CA 94114": [
+37.76349,
+-122.43899
+],
 "sf|351 9th Ave, San Francisco, CA 94118": [
 37.78185,
 -122.46763
@@ -822,6 +1070,10 @@
 37.76214,
 -122.43504
 ],
+"sf|43456 Boscell Rd, Fremont, CA 94538": [
+37.50275,
+-121.97524
+],
 "sf|5401 Graham Hill Rd, Felton, CA 95018": [
 37.04605,
 -122.0599
@@ -830,6 +1082,14 @@
 37.77053,
 -122.4687
 ],
+"sf|750 Howard St, San Francisco, CA 94103": [
+37.78417,
+-122.40166
+],
+"sf|900 North Point St, San Francisco, CA 94109": [
+37.80554,
+-122.42209
+],
 "sf|Colma, CA 94014": [
 37.67669,
 -122.45835
@@ -837,6 +1097,10 @@
 "sf|Downtown San Francisco, CA": [
 37.78751,
 -122.40716
+],
+"sf|East Bay Regional Park District, Oakland, CA 94605": [
+37.80446,
+-122.27136
 ],
 "sf|Golden Gate Park, San Francisco, CA 94122": [
 37.76818,
@@ -870,9 +1134,17 @@
 43.6536,
 -79.38401
 ],
+"tor|111 Queens Park, Toronto, ON M5S 2C7": [
+43.65348,
+-79.38393
+],
 "tor|178 Victoria St, Toronto, ON M5B 1T7": [
 43.65397,
 -79.37898
+],
+"tor|2141 Major Mackenzie Dr, Vaughan, ON L6A 1T1": [
+43.85559,
+-79.50747
 ],
 "tor|220 Yonge St, Toronto, ON M5B 2H1": [
 43.65363,
@@ -886,6 +1158,10 @@
 43.64414,
 -79.36574
 ],
+"tor|5120 Yonge St, North York, ON M2N 5N9": [
+43.76813,
+-79.4148
+],
 "tor|5183 Sheppard Ave E, Scarborough, ON M1B 5Z5": [
 43.79446,
 -79.23406
@@ -894,6 +1170,10 @@
 43.68378,
 -79.36563
 ],
+"tor|765 Queen St E, Toronto, ON M4M 1H3": [
+43.65914,
+-79.34754
+],
 "tor|777 Lawrence Ave E, North York, ON M3C 1P2": [
 43.73434,
 -79.35866
@@ -901,6 +1181,10 @@
 "tor|Christie Pits, Toronto, ON": [
 43.66717,
 -79.42348
+],
+"tor|Main St N, Markham, ON L3P 1X3": [
+43.87941,
+-79.26114
 ],
 "tor|Markham, ON": [
 43.85637,
@@ -918,10 +1202,23 @@
 49.28951,
 -123.1152
 ],
+"van|1299 Pinetree Way, Coquitlam, BC V3B 7S4": [
+49.28911,
+-122.78999
+],
 "van|13450 104 Ave, Surrey, BC V3T 1V8": [
 49.19135,
 -122.84923
 ],
+"van|1657 Charles St, Vancouver, BC V5L 2T3": [
+49.27306,
+-123.0705
+],
+"van|176 St & 60 Ave, Surrey, BC": [
+49.1913,
+-122.84914
+],
+"van|176 St, Surrey, BC V3S": null,
 "van|3735 Capilano Rd, North Vancouver, BC V7R 4J1": [
 49.32585,
 -123.12068
@@ -946,6 +1243,14 @@
 49.23992,
 -122.96688
 ],
+"van|750 Hornby St, Vancouver, BC V6Z 2H7": [
+49.28285,
+-123.12062
+],
+"van|7700 Minoru Gate, Richmond, BC V6Y 1R8": [
+49.16408,
+-123.14134
+],
 "van|805 E Pender St, Vancouver, BC V6A 1V9": [
 49.28041,
 -123.08697
@@ -954,6 +1259,11 @@
 49.27944,
 -123.06667
 ],
+"van|Edmonds St & Kingsway, Burnaby, BC": [
+49.2175,
+-122.95306
+],
+"van|Edmonds St, Burnaby, BC V3N": null,
 "van|Langley, BC": [
 49.10393,
 -122.65705
@@ -962,5 +1272,9 @@
 49.16317,
 -123.13741
 ],
-"van|Vancouver area, BC": null
+"van|Vancouver area, BC": null,
+"van|Yaletown, Vancouver, BC V6B": [
+49.28128,
+-123.11799
+]
 }

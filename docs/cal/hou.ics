@@ -8,46 +8,8 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:cmh-gobbler-fest-2026-2026-11-23@noboringweekends
-DTSTAMP:20261123T000000Z
-DTSTART;VALUE=DATE:20261123
-DTEND;VALUE=DATE:20261124
-SUMMARY:休斯顿儿童博物馆 Great Gobbler Fest
-LOCATION:Children's Museum of Houston\, 1500 Binz St\, Houston\, TX 77004
-DESCRIPTION:🦃 感恩节周的儿童博物馆主题活动\,11/23–29\,
- 含在门票里。\n费用:含在门票内\nhttps://www.houstononthecheap.
- com/houston-picks-november-23-november-26-2026/
-URL:https://www.houstononthecheap.com/houston-picks-november-23-november-26
- -2026/
-END:VEVENT
-BEGIN:VEVENT
-UID:discovery-green-yoga-1124-2026-11-24@noboringweekends
-DTSTAMP:20261123T000000Z
-DTSTART;VALUE=DATE:20261124
-DTEND;VALUE=DATE:20261125
-SUMMARY:Discovery Green 舒缓瑜伽 + 颂钵(免费)
-LOCATION:Discovery Green\, 1500 McKinney St\, Houston\, TX 77010
-DESCRIPTION:🧘 市中心公园里的免费舒缓瑜伽和颂钵。\n费
- 用:免费\nhttps://www.houstononthecheap.com/things-to-do-houston-thanksg
- iving-week/
-URL:https://www.houstononthecheap.com/things-to-do-houston-thanksgiving-wee
- k/
-END:VEVENT
-BEGIN:VEVENT
-UID:buffalo-bayou-walk-1125-2026-11-25@noboringweekends
-DTSTAMP:20261123T000000Z
-DTSTART;VALUE=DATE:20261125
-DTEND;VALUE=DATE:20261126
-SUMMARY:Buffalo Bayou 健康步行(免费)
-LOCATION:Buffalo Bayou Park\, Buffalo Bayou Park\, Houston\, TX 77007
-DESCRIPTION:🚶 沿河的免费健康步行。\n费用:免费\nhttps://www
- .houstononthecheap.com/things-to-do-houston-thanksgiving-week/
-URL:https://www.houstononthecheap.com/things-to-do-houston-thanksgiving-wee
- k/
-END:VEVENT
-BEGIN:VEVENT
 UID:city-wide-super-feast-2026-2026-11-26@noboringweekends
-DTSTAMP:20261123T000000Z
+DTSTAMP:20261126T000000Z
 DTSTART:20261126T130000Z
 DTEND:20261126T200000Z
 SUMMARY:City Wide Club 感恩节大餐(免费\,可当志愿者)
@@ -61,7 +23,7 @@ URL:https://www.houstononthecheap.com/things-to-do-houston-thanksgiving-wee
 END:VEVENT
 BEGIN:VEVENT
 UID:heb-parade-2026-11-26@noboringweekends
-DTSTAMP:20261123T000000Z
+DTSTAMP:20261126T000000Z
 DTSTART;VALUE=DATE:20261126
 DTEND;VALUE=DATE:20261127
 SUMMARY:休斯顿 H-E-B 感恩节游行
@@ -70,5 +32,71 @@ DESCRIPTION:🦃 第 77 届感恩节游行\,时间路线以官网为准。\
  n费用:免费\nhttps://holidaytoday.org/how-to-watch-thanksgiving-day-par
  ade-2026/
 URL:https://holidaytoday.org/how-to-watch-thanksgiving-day-parade-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:post-movie-night-1127-2026-11-27@noboringweekends
+DTSTAMP:20261126T000000Z
+DTSTART:20261128T010000Z
+DTEND:20261128T030000Z
+SUMMARY:POST Houston 露天电影《圣诞夜惊魂》(免费)
+LOCATION:POST Houston\, 401 Franklin St\, Houston\, TX 77201
+DESCRIPTION:🎬 免费露天电影\,需要 RSVP\,带毯子\,不能带外
+ 食和折叠椅。\n费用:免费\nhttps://www.houstononthecheap.com/top-e
+ vents-in-houston-november-27-november-29-2026/
+URL:https://www.houstononthecheap.com/top-events-in-houston-november-27-nov
+ ember-29-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:winter-vibe-art-fair-2026-2026-11-28@noboringweekends
+DTSTAMP:20261126T000000Z
+DTSTART:20261128T170000Z
+DTEND:20261128T230000Z
+SUMMARY:Houston Winter Vibe 手作艺术市集(免费)
+LOCATION:Silver Street Studios\, 2000 Edwards St\, Houston\, TX 77007
+DESCRIPTION:🎨 120 多位手作艺术家\,周六周日 11–5 点\,免费
+ 。\n费用:免费\nhttps://www.houstononthecheap.com/top-events-in-housto
+ n-november-27-november-29-2026/
+URL:https://www.houstononthecheap.com/top-events-in-houston-november-27-nov
+ ember-29-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:woodlands-waterway-2026-2026-11-28@noboringweekends
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:The Woodlands 水道百万灯光(免费)
+LOCATION:The Woodlands Waterway\, The Woodlands Waterway\, The Woodlands\, 
+ TX 77380
+DESCRIPTION:✨ 沿水道走过一百多万盏灯\,还能免费坐小电车
+ 。\n费用:免费\nhttps://www.houstononthecheap.com/top-events-in-housto
+ n-november-27-november-29-2026/
+URL:https://www.houstononthecheap.com/top-events-in-houston-november-27-nov
+ ember-29-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:pearland-tree-lighting-2026-2026-11-28@noboringweekends
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:Pearland Town Center 圣诞点灯(免费)
+LOCATION:Pearland Town Center\, 11200 Broadway St\, Pearland\, TX 77584
+DESCRIPTION:🎄 免费点灯\,节日活动到 12/20。\n费用:免费\nhtt
+ ps://www.houstononthecheap.com/top-events-in-houston-november-27-november-
+ 29-2026/
+URL:https://www.houstononthecheap.com/top-events-in-houston-november-27-nov
+ ember-29-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:post-holiday-hula-1129-2026-11-29@noboringweekends
+DTSTAMP:20261126T000000Z
+DTSTART:20261129T203000Z
+DTEND:20261129T213000Z
+SUMMARY:POST Houston 节日草裙舞课(免费)
+LOCATION:POST Houston\, 401 Franklin St\, Houston\, TX 77201
+DESCRIPTION:🌺 免费草裙舞课\,全年龄。\n费用:免费\nhttps://w
+ ww.houstononthecheap.com/top-events-in-houston-november-27-november-29-202
+ 6/
+URL:https://www.houstononthecheap.com/top-events-in-houston-november-27-nov
+ ember-29-2026/
 END:VEVENT
 END:VCALENDAR

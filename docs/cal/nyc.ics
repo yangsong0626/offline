@@ -9,7 +9,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:moca-mahjong-2026-12-02@noboringweekends
-DTSTAMP:20261123T000000Z
+DTSTAMP:20261126T000000Z
 DTSTART:20261202T230000Z
 DTEND:20261203T020000Z
 SUMMARY:MOCA 节日麻将之夜
@@ -20,7 +20,7 @@ URL:https://www.mocanyc.org/calendar/
 END:VEVENT
 BEGIN:VEVENT
 UID:moca-chinatown-walk-dec-2026-12-05@noboringweekends
-DTSTAMP:20261123T000000Z
+DTSTAMP:20261126T000000Z
 DTSTART:20261205T163000Z
 DTEND:20261205T180000Z
 SUMMARY:MOCA 华埠历史徒步导览(12 月)
@@ -31,7 +31,7 @@ URL:https://www.mocanyc.org/calendar/
 END:VEVENT
 BEGIN:VEVENT
 UID:ci-chinese-tea-2026-12-05@noboringweekends
-DTSTAMP:20261123T000000Z
+DTSTAMP:20261126T000000Z
 DTSTART:20261205T190000Z
 DTEND:20261205T210000Z
 SUMMARY:华美协进社:中国茶的艺术
@@ -42,7 +42,7 @@ URL:https://chinainstitute.org/upcoming-events/
 END:VEVENT
 BEGIN:VEVENT
 UID:ci-ancient-ensemble-2026-12-19@noboringweekends
-DTSTAMP:20261123T000000Z
+DTSTAMP:20261126T000000Z
 DTSTART:20261219T200000Z
 DTEND:20261219T230000Z
 SUMMARY:华美协进社:古乐雅集音乐会
@@ -53,23 +53,8 @@ DESCRIPTION:🎶 中国古典雅乐演出\,圣诞前的一场中式音乐
 URL:https://chinainstitute.org/upcoming-events/
 END:VEVENT
 BEGIN:VEVENT
-UID:macys-balloon-inflation-2026-2026-11-25@noboringweekends
-DTSTAMP:20261123T000000Z
-DTSTART:20261125T180000Z
-DTEND:20261125T230000Z
-SUMMARY:梅西游行气球充气参观(感恩节前夜)
-LOCATION:American Museum of Natural History (surrounding streets)\, 200 Cen
- tral Park West\, New York\, NY 10024
-DESCRIPTION:🎈 游行前一天\,在自然历史博物馆周边看巨型
- 气球一点点鼓起来。免费\;各来源给的时间不一致\,出发
- 前看官网。\n费用:免费\nhttps://mommypoppins.com/newyorkcitykids/t
- hanksgiving-day-whats-open-and-things-to-do-in-new-york-city-with-kids
-URL:https://mommypoppins.com/newyorkcitykids/thanksgiving-day-whats-open-an
- d-things-to-do-in-new-york-city-with-kids
-END:VEVENT
-BEGIN:VEVENT
 UID:macys-parade-100-2026-11-26@noboringweekends
-DTSTAMP:20261123T000000Z
+DTSTAMP:20261126T000000Z
 DTSTART:20261126T133000Z
 DTEND:20261126T170000Z
 SUMMARY:第 100 届梅西感恩节大游行
@@ -82,7 +67,7 @@ URL:https://freetoursbyfoot.com/macys-thanksgiving-day-parade-route/
 END:VEVENT
 BEGIN:VEVENT
 UID:nmai-thanksgiving-2026-2026-11-26@noboringweekends
-DTSTAMP:20261123T000000Z
+DTSTAMP:20261126T000000Z
 DTSTART:20261126T150000Z
 DTEND:20261126T220000Z
 SUMMARY:美洲印第安人国家博物馆感恩节开放(免费)
@@ -96,8 +81,22 @@ URL:https://mommypoppins.com/newyorkcitykids/thanksgiving-day-whats-open-an
  d-things-to-do-in-new-york-city-with-kids
 END:VEVENT
 BEGIN:VEVENT
+UID:bluey-sand-globe-2026-2026-11-27@noboringweekends
+DTSTAMP:20261126T000000Z
+DTSTART:20261127T170000Z
+DTEND:20261128T010000Z
+SUMMARY:Hudson Yards Bluey 澳洲圣诞沙球快闪(免费)
+LOCATION:Hudson Yards\, 20 Hudson Yards\, New York\, NY 10001
+DESCRIPTION:🐶 以《Bluey》圣诞集为灵感的免费快闪\,有游戏
+ 和拍照亭\,适合 8 岁以下\,拍照亭送纪念品。11/27–29。\n
+ 费用:免费\nhttps://www.newyorkfamily.com/things-to-do-in-nyc-this-week
+ end-with-kids/
+URL:https://www.newyorkfamily.com/things-to-do-in-nyc-this-weekend-with-kid
+ s/
+END:VEVENT
+BEGIN:VEVENT
 UID:nyc-rangers-hike-1127-2026-11-27@noboringweekends
-DTSTAMP:20261123T000000Z
+DTSTAMP:20261126T000000Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261128
 SUMMARY:城市公园护林员感恩节后徒步(免费)
@@ -110,8 +109,21 @@ DESCRIPTION:🥾 感恩节第二天\,NYC Parks 护林员在 Van Cortlandt
 URL:https://www.nycgovparks.org/events/thanksgiving
 END:VEVENT
 BEGIN:VEVENT
+UID:macys-santaland-2026-2026-11-27@noboringweekends
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20261127
+DTEND;VALUE=DATE:20261128
+SUMMARY:梅西百货 Santaland 开放(免费)
+LOCATION:Macy's Herald Square\, 151 W 34th St\, New York\, NY 10001
+DESCRIPTION:🎅 梅西百货的圣诞老人乐园 11/27 开放\,免费入
+ 场。\n费用:免费\nhttps://www.newyorkfamily.com/things-to-do-in-nyc-t
+ his-weekend-with-kids/
+URL:https://www.newyorkfamily.com/things-to-do-in-nyc-this-weekend-with-kid
+ s/
+END:VEVENT
+BEGIN:VEVENT
 UID:yorkville-storytime-1128-2026-11-28@noboringweekends
-DTSTAMP:20261123T000000Z
+DTSTAMP:20261126T000000Z
 DTSTART:20261128T160000Z
 DTEND:20261128T170000Z
 SUMMARY:Yorkville 图书馆感恩节故事会(5 岁以下)
@@ -124,8 +136,58 @@ URL:https://mommypoppins.com/new-york-city-kids/weekend-events/things-to-do
  -in-new-york-city-this-weekend-kids-families
 END:VEVENT
 BEGIN:VEVENT
+UID:park-slope-tree-lighting-2026-2026-11-28@noboringweekends
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:Park Slope 社区圣诞点灯(热可可+圣诞老人)
+LOCATION:Park Slope\, Park Slope\, Brooklyn\, NY 11215
+DESCRIPTION:🎄 社区点灯\,有热可可、音乐和圣诞老人\,免费
+ 。\n费用:免费\nhttps://www.newyorkfamily.com/things-to-do-in-nyc-this
+ -weekend-with-kids/
+URL:https://www.newyorkfamily.com/things-to-do-in-nyc-this-weekend-with-kid
+ s/
+END:VEVENT
+BEGIN:VEVENT
+UID:caribbean-holiday-market-2026-2026-11-28@noboringweekends
+DTSTAMP:20261126T000000Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:布鲁克林加勒比节日集市(免费入场)
+LOCATION:Brooklyn\, Brooklyn\, NY 11225
+DESCRIPTION:🌴 免费入场的加勒比节日集市\,11/28–12/24。\n
+ 费用:免费\nhttps://www.newyorkfamily.com/things-to-do-in-nyc-this-week
+ end-with-kids/
+URL:https://www.newyorkfamily.com/things-to-do-in-nyc-this-weekend-with-kid
+ s/
+END:VEVENT
+BEGIN:VEVENT
+UID:chelsea-popup-market-2026-2026-11-29@noboringweekends
+DTSTAMP:20261126T000000Z
+DTSTART:20261129T180000Z
+DTEND:20261130T000000Z
+SUMMARY:Chelsea 节日快闪市集(免费入场)
+LOCATION:Chelsea\, Chelsea\, New York\, NY 10011
+DESCRIPTION:🛍️ 本地小摊的节日市集\,免费入场。\n费用:
+ 免费\nhttps://www.newyorkfamily.com/things-to-do-in-nyc-this-weekend-wit
+ h-kids/
+URL:https://www.newyorkfamily.com/things-to-do-in-nyc-this-weekend-with-kid
+ s/
+END:VEVENT
+BEGIN:VEVENT
+UID:bryant-park-tree-lighting-2026-2026-12-01@noboringweekends
+DTSTAMP:20261126T000000Z
+DTSTART:20261201T223000Z
+DTEND:20261202T003000Z
+SUMMARY:布莱恩特公园冬季村圣诞点灯(免费)
+LOCATION:Bryant Park\, Bryant Park\, New York\, NY 10018
+DESCRIPTION:🎄 免费\,名额有限\,下午 3:30 起先到先入场。\n
+ 费用:免费\nhttps://www.nycforfree.co/nyc/free-tree-lighting-ceremonies
+URL:https://www.nycforfree.co/nyc/free-tree-lighting-ceremonies
+END:VEVENT
+BEGIN:VEVENT
 UID:seaport-tree-lighting-2026-12-01@noboringweekends
-DTSTAMP:20261123T000000Z
+DTSTAMP:20261126T000000Z
 DTSTART;VALUE=DATE:20261201
 DTEND;VALUE=DATE:20261202
 SUMMARY:南街海港圣诞树点灯
@@ -135,5 +197,54 @@ DESCRIPTION:🎄 海港老街圣诞树点灯\,时间以官网为准。\n费
  egins-with-these-15-things-to-do-in-november-2026
 URL:https://resident.com/new-york/2026/10/28/nycs-holiday-season-begins-wit
  h-these-15-things-to-do-in-november-2026
+END:VEVENT
+BEGIN:VEVENT
+UID:roscoe-brown-tree-lighting-2026-2026-12-02@noboringweekends
+DTSTAMP:20261126T000000Z
+DTSTART:20261202T210000Z
+DTEND:20261202T230000Z
+SUMMARY:布朗克斯 Captain Roscoe Brown 广场点灯(免费)
+LOCATION:Captain Roscoe Brown Plaza\, Captain Roscoe Brown Plaza\, Bronx\, 
+ NY 10453
+DESCRIPTION:🎄 NYC Parks 的社区点灯\,免费\,不用报名。\n费用
+ :免费\nhttps://www.nycgovparks.org/events/2026/12/02/holiday-tree-lighti
+ ng
+URL:https://www.nycgovparks.org/events/2026/12/02/holiday-tree-lighting
+END:VEVENT
+BEGIN:VEVENT
+UID:nyse-tree-lighting-2026-2026-12-03@noboringweekends
+DTSTAMP:20261126T000000Z
+DTSTART:20261203T203000Z
+DTEND:20261203T233000Z
+SUMMARY:纽交所第 103 届圣诞点灯
+LOCATION:New York Stock Exchange\, 11 Wall St\, New York\, NY 10005
+DESCRIPTION:🎄 华尔街圣诞树点灯\,演出和活动对公众开放\,
+ 有点心饮料。\n费用:免费\nhttps://www.nycforfree.co/events/nyse-1
+ 03rd-annual-tree-lighting
+URL:https://www.nycforfree.co/events/nyse-103rd-annual-tree-lighting
+END:VEVENT
+BEGIN:VEVENT
+UID:dumbo-holiday-lighting-2026-2026-12-03@noboringweekends
+DTSTAMP:20261126T000000Z
+DTSTART:20261203T210000Z
+DTEND:20261204T000000Z
+SUMMARY:DUMBO 节日点灯(免费)
+LOCATION:DUMBO Archway & Plaza\, Pearl St & Water St\, Brooklyn\, NY 11201
+DESCRIPTION:✨ 曼哈顿桥下的拱门广场\,5:30 点灯。\n费用:免
+ 费\nhttps://www.nycforfree.co/nyc/free-tree-lighting-ceremonies
+URL:https://www.nycforfree.co/nyc/free-tree-lighting-ceremonies
+END:VEVENT
+BEGIN:VEVENT
+UID:harlem-meer-lighting-2026-2026-12-03@noboringweekends
+DTSTAMP:20261126T000000Z
+DTSTART:20261203T223000Z
+DTEND:20261204T003000Z
+SUMMARY:中央公园 Harlem Meer 湖上树灯(第 30 届\,免费)
+LOCATION:Harlem Meer\, Central Park\, Charles A. Dana Discovery Center\, Ce
+ ntral Park\, New York\, NY 10029
+DESCRIPTION:🌲 湖面上漂着一排点亮的小树\,社区免费活动
+ 。\n费用:免费\nhttps://www.nycforfree.co/nyc/free-tree-lighting-cerem
+ onies
+URL:https://www.nycforfree.co/nyc/free-tree-lighting-ceremonies
 END:VEVENT
 END:VCALENDAR
