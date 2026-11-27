@@ -8,45 +8,8 @@ X-WR-TIMEZONE:America/New_York
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:edgewood-orphansgiving-2026-2026-11-26@noboringweekends
-DTSTAMP:20261126T000000Z
-DTSTART:20261126T170000Z
-DTEND:20261126T220000Z
-SUMMARY:Edgewood 社区农场 Orphansgiving 百家宴
-LOCATION:Edgewood Community Farm\, Edgewood\, Washington\, DC 20017
-DESCRIPTION:🥧 农场提供火鸡\,大家各带一道菜或饮料来分
- 享。一个人过节也能在这里认识新朋友。\n费用:带一道
- 菜\nhttps://51st.news/dc-events-things-to-do-over-week-of-thanksgiving/
-URL:https://51st.news/dc-events-things-to-do-over-week-of-thanksgiving/
-END:VEVENT
-BEGIN:VEVENT
-UID:usbg-holiday-show-2026-2026-11-26@noboringweekends
-DTSTAMP:20261126T000000Z
-DTSTART;VALUE=DATE:20261126
-DTEND;VALUE=DATE:20261127
-SUMMARY:美国植物园节日展开幕(国家公园主题小火车\,免费)
-LOCATION:United States Botanic Garden\, 100 Maryland Ave SW\, Washington\, 
- DC 20001
-DESCRIPTION:🚂 今年主题是国家公园\,模型小火车穿过植物
- 做的风景\,孩子能看很久。免费\,展到 1 月。\n费用:免费\
- nhttps://51st.news/dc-events-things-to-do-over-week-of-thanksgiving/
-URL:https://51st.news/dc-events-things-to-do-over-week-of-thanksgiving/
-END:VEVENT
-BEGIN:VEVENT
-UID:dc-trot-for-hunger-2026-2026-11-26@noboringweekends
-DTSTAMP:20261126T000000Z
-DTSTART;VALUE=DATE:20261126
-DTEND;VALUE=DATE:20261127
-SUMMARY:DC 感恩节为饥饿而跑
-LOCATION:Freedom Plaza\, 1455 Pennsylvania Ave NW\, Washington\, DC 20004
-DESCRIPTION:🏃 感恩节早上从自由广场出发的公益跑。\n费
- 用:以官网为准\nhttps://51st.news/dc-events-things-to-do-over-week-of
- -thanksgiving/
-URL:https://51st.news/dc-events-things-to-do-over-week-of-thanksgiving/
-END:VEVENT
-BEGIN:VEVENT
 UID:nmai-heritage-day-2026-2026-11-27@noboringweekends
-DTSTAMP:20261126T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART:20261127T163000Z
 DTEND:20261127T210000Z
 SUMMARY:美洲印第安人博物馆原住民传统日(免费)
@@ -59,7 +22,7 @@ URL:https://www.kidfriendlydc.com/2026/11/26/the-weekend-round-up-november-
 END:VEVENT
 BEGIN:VEVENT
 UID:eastern-market-night-2026-2026-11-27@noboringweekends
-DTSTAMP:20261126T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART:20261127T220000Z
 DTEND:20261128T020000Z
 SUMMARY:Eastern Market 节日夜市开幕(免费)
@@ -71,7 +34,7 @@ URL:https://www.kidfriendlydc.com/2026/11/26/the-weekend-round-up-november-
 END:VEVENT
 BEGIN:VEVENT
 UID:mosaic-tree-lighting-2026-2026-11-27@noboringweekends
-DTSTAMP:20261126T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART:20261127T230000Z
 DTEND:20261128T010000Z
 SUMMARY:Mosaic District 圣诞点灯(免费)
@@ -84,7 +47,7 @@ URL:https://www.kidfriendlydc.com/2026/11/26/the-weekend-round-up-november-
 END:VEVENT
 BEGIN:VEVENT
 UID:folger-frost-fair-2026-2026-11-27@noboringweekends
-DTSTAMP:20261126T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261128
 SUMMARY:Folger 莎士比亚图书馆冰霜市集(免费)
@@ -98,7 +61,7 @@ URL:https://www.kidfriendlydc.com/2026/11/26/the-weekend-round-up-november-
 END:VEVENT
 BEGIN:VEVENT
 UID:shipgarten-costume-2026-2026-11-28@noboringweekends
-DTSTAMP:20261126T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART:20261128T180000Z
 DTEND:20261128T230000Z
 SUMMARY:Tysons Shipgarten 亲子变装节(免费)
@@ -110,7 +73,7 @@ URL:https://www.kidfriendlydc.com/2026/11/26/the-weekend-round-up-november-
 END:VEVENT
 BEGIN:VEVENT
 UID:yeti-parade-2026-2026-11-29@noboringweekends
-DTSTAMP:20261126T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART:20261129T150000Z
 DTEND:20261129T170000Z
 SUMMARY:Eastern Market 雪怪大游行(免费)
@@ -123,7 +86,7 @@ URL:https://www.kidfriendlydc.com/2026/11/26/the-weekend-round-up-november-
 END:VEVENT
 BEGIN:VEVENT
 UID:national-tree-100-2026-12-03@noboringweekends
-DTSTAMP:20261126T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;VALUE=DATE:20261203
 DTEND;VALUE=DATE:20261204
 SUMMARY:第 100 届国家圣诞树点灯

@@ -9,7 +9,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:ccc-taichi-1127-2026-11-27@noboringweekends
-DTSTAMP:20261126T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART:20261127T150000Z
 DTEND:20261127T170000Z
 SUMMARY:华人文化中心:太极课
@@ -22,7 +22,7 @@ URL:https://chinesecultureconnection.org/event/tai-chi-class-%e5%a4%aa%e6%9
 END:VEVENT
 BEGIN:VEVENT
 UID:ccc-bookworms-1201-2026-12-01@noboringweekends
-DTSTAMP:20261126T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART:20261201T143000Z
 DTEND:20261201T163000Z
 SUMMARY:华人文化中心:小书虫故事会
@@ -33,7 +33,7 @@ URL:https://chinesecultureconnection.org/event/busy-bookworms-4/
 END:VEVENT
 BEGIN:VEVENT
 UID:ccc-bilingual-rhythm-2026-12-03@noboringweekends
-DTSTAMP:20261126T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART:20261203T150000Z
 DTEND:20261203T154500Z
 SUMMARY:华人文化中心:中英双语节奏时光(幼儿)
@@ -45,7 +45,7 @@ URL:https://chinesecultureconnection.org/upcoming-events/
 END:VEVENT
 BEGIN:VEVENT
 UID:bpl-taichi-1128-2026-11-28@noboringweekends
-DTSTAMP:20261126T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART:20261128T143000Z
 DTEND:20261128T163000Z
 SUMMARY:波士顿图书馆 Adams Street 分馆太极气功
@@ -57,7 +57,7 @@ URL:https://bpl.bibliocommons.com/events/6aeba47c96ec3a003adf60bf
 END:VEVENT
 BEGIN:VEVENT
 UID:wampanoag-jfk-2026-2026-11-27@noboringweekends
-DTSTAMP:20261126T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261128
 SUMMARY:肯尼迪图书馆:万帕诺亚格族歌舞
@@ -71,7 +71,7 @@ URL:https://www.meetboston.com/event/wampanoag-nation-singers-%26-dancers/9
 END:VEVENT
 BEGIN:VEVENT
 UID:snowport-2026-2026-11-27@noboringweekends
-DTSTAMP:20261126T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261128
 SUMMARY:Seaport Snowport 节日市集(免费入场)
@@ -84,7 +84,7 @@ URL:https://mommypoppins.com/things-to-do-in-boston-this-weekend-kids-famil
 END:VEVENT
 BEGIN:VEVENT
 UID:martins-park-ship-lighting-2026-2026-11-28@noboringweekends
-DTSTAMP:20261126T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART:20261128T220000Z
 DTEND:20261128T230000Z
 SUMMARY:Martin's Park 海盗船点灯
@@ -97,7 +97,7 @@ URL:https://www.bostonglobe.com/2026/11/06/arts/things-to-do-in-boston-holi
 END:VEVENT
 BEGIN:VEVENT
 UID:tuba-christmas-2026-2026-11-28@noboringweekends
-DTSTAMP:20261126T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:波士顿大号圣诞音乐会
@@ -108,7 +108,7 @@ URL:https://www.meetboston.com/event/boston-tuba-christmas/94322/
 END:VEVENT
 BEGIN:VEVENT
 UID:santa-on-the-common-2026-2026-11-29@noboringweekends
-DTSTAMP:20261126T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
 SUMMARY:波士顿公园 Santa on the Common(免费)
@@ -121,7 +121,7 @@ URL:https://www.meetboston.com/event/santa-on-the-common-presented-by-bosto
 END:VEVENT
 BEGIN:VEVENT
 UID:boston-common-tree-2026-12-03@noboringweekends
-DTSTAMP:20261126T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART:20261203T230000Z
 DTEND:20261204T010000Z
 SUMMARY:波士顿公园圣诞树点灯+烟花

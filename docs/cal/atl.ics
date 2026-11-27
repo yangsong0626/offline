@@ -9,7 +9,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:blooms-chinatown-market-2026-2026-11-28@noboringweekends
-DTSTAMP:20261126T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:Chamblee 中国城 Blooms 市集
@@ -22,21 +22,8 @@ URL:https://discoveratlanta.com/stories/things-to-do/7-things-to-do-over-th
  anksgiving-weekend-in-atlanta/
 END:VEVENT
 BEGIN:VEVENT
-UID:atl-thanksgiving-half-2026-2026-11-26@noboringweekends
-DTSTAMP:20261126T000000Z
-DTSTART;VALUE=DATE:20261126
-DTEND;VALUE=DATE:20261127
-SUMMARY:亚特兰大感恩节半马 + 5K + 儿童跑
-LOCATION:Center Parc Stadium\, 755 Hank Aaron Dr SE\, Atlanta\, GA 30315
-DESCRIPTION:🦃 Atlanta Track Club 的感恩节赛事\,有半马、5K 和 
- 1 英里/儿童冲刺跑\;起跑时间各来源不同\,以官网为准。\
- n费用:以官网为准\nhttps://discoveratlanta.com/events/thanksgiving-d
- ay-marathon/
-URL:https://discoveratlanta.com/events/thanksgiving-day-marathon/
-END:VEVENT
-BEGIN:VEVENT
 UID:roswell-holiday-expo-2026-2026-11-27@noboringweekends
-DTSTAMP:20261126T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART:20261127T210000Z
 DTEND:20261128T000000Z
 SUMMARY:Roswell 节日博览会(免费)
@@ -50,7 +37,7 @@ URL:https://www.ajc.com/accessatl/2026/11/atlanta-weekend-things-to-do-nov-
 END:VEVENT
 BEGIN:VEVENT
 UID:piedmont-holiday-market-2026-2026-11-28@noboringweekends
-DTSTAMP:20261126T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART:20261128T150000Z
 DTEND:20261128T220000Z
 SUMMARY:皮埃蒙特公园节日市集(免费)
@@ -63,7 +50,7 @@ URL:https://www.ajc.com/accessatl/2026/11/atlanta-weekend-things-to-do-nov-
 END:VEVENT
 BEGIN:VEVENT
 UID:hapeville-thankful-tree-1128-2026-11-28@noboringweekends
-DTSTAMP:20261126T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART:20261128T150000Z
 DTEND:20261128T170000Z
 SUMMARY:Hapeville 图书馆感恩树手工
@@ -75,7 +62,7 @@ URL:https://fulcolibrary.bibliocommons.com/events/6ae12346fee2d21deb262cd3
 END:VEVENT
 BEGIN:VEVENT
 UID:east-point-kids-movie-1128-2026-11-28@noboringweekends
-DTSTAMP:20261126T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART:20261128T203000Z
 DTEND:20261128T223000Z
 SUMMARY:East Point 图书馆儿童感恩节电影
@@ -87,7 +74,7 @@ URL:https://fulcolibrary.bibliocommons.com/events/6ae54838377296003a4fde71
 END:VEVENT
 BEGIN:VEVENT
 UID:battery-tree-lighting-2026-2026-11-28@noboringweekends
-DTSTAMP:20261126T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART:20261128T220000Z
 DTEND:20261129T010000Z
 SUMMARY:The Battery 圣诞点灯(免费)
@@ -99,7 +86,7 @@ URL:https://www.ajc.com/accessatl/2026/11/atlanta-weekend-things-to-do-nov-
 END:VEVENT
 BEGIN:VEVENT
 UID:fox-mighty-mo-2026-2026-11-29@noboringweekends
-DTSTAMP:20261126T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART:20261129T210000Z
 DTEND:20261129T230000Z
 SUMMARY:福克斯剧院 Merry Mighty Mo(免费\,需预约)

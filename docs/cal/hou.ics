@@ -8,34 +8,8 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:city-wide-super-feast-2026-2026-11-26@noboringweekends
-DTSTAMP:20261126T000000Z
-DTSTART:20261126T130000Z
-DTEND:20261126T200000Z
-SUMMARY:City Wide Club 感恩节大餐(免费\,可当志愿者)
-LOCATION:George R. Brown Convention Center\, 1001 Avenida de las Americas\,
-  Houston\, TX 77010
-DESCRIPTION:🍽️ 第 48 届感恩节社区大餐\,免费开放\;也是
- 全家一起当志愿者的好机会。\n费用:免费\nhttps://www.housto
- nonthecheap.com/things-to-do-houston-thanksgiving-week/
-URL:https://www.houstononthecheap.com/things-to-do-houston-thanksgiving-wee
- k/
-END:VEVENT
-BEGIN:VEVENT
-UID:heb-parade-2026-11-26@noboringweekends
-DTSTAMP:20261126T000000Z
-DTSTART;VALUE=DATE:20261126
-DTEND;VALUE=DATE:20261127
-SUMMARY:休斯顿 H-E-B 感恩节游行
-LOCATION:Downtown Houston\, Downtown Houston\, TX
-DESCRIPTION:🦃 第 77 届感恩节游行\,时间路线以官网为准。\
- n费用:免费\nhttps://holidaytoday.org/how-to-watch-thanksgiving-day-par
- ade-2026/
-URL:https://holidaytoday.org/how-to-watch-thanksgiving-day-parade-2026/
-END:VEVENT
-BEGIN:VEVENT
 UID:post-movie-night-1127-2026-11-27@noboringweekends
-DTSTAMP:20261126T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART:20261128T010000Z
 DTEND:20261128T030000Z
 SUMMARY:POST Houston 露天电影《圣诞夜惊魂》(免费)
@@ -48,7 +22,7 @@ URL:https://www.houstononthecheap.com/top-events-in-houston-november-27-nov
 END:VEVENT
 BEGIN:VEVENT
 UID:winter-vibe-art-fair-2026-2026-11-28@noboringweekends
-DTSTAMP:20261126T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART:20261128T170000Z
 DTEND:20261128T230000Z
 SUMMARY:Houston Winter Vibe 手作艺术市集(免费)
@@ -61,7 +35,7 @@ URL:https://www.houstononthecheap.com/top-events-in-houston-november-27-nov
 END:VEVENT
 BEGIN:VEVENT
 UID:woodlands-waterway-2026-2026-11-28@noboringweekends
-DTSTAMP:20261126T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:The Woodlands 水道百万灯光(免费)
@@ -75,7 +49,7 @@ URL:https://www.houstononthecheap.com/top-events-in-houston-november-27-nov
 END:VEVENT
 BEGIN:VEVENT
 UID:pearland-tree-lighting-2026-2026-11-28@noboringweekends
-DTSTAMP:20261126T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:Pearland Town Center 圣诞点灯(免费)
@@ -88,7 +62,7 @@ URL:https://www.houstononthecheap.com/top-events-in-houston-november-27-nov
 END:VEVENT
 BEGIN:VEVENT
 UID:post-holiday-hula-1129-2026-11-29@noboringweekends
-DTSTAMP:20261126T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART:20261129T203000Z
 DTEND:20261129T213000Z
 SUMMARY:POST Houston 节日草裙舞课(免费)

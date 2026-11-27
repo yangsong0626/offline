@@ -8,34 +8,8 @@ X-WR-TIMEZONE:America/Los_Angeles
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:father-joes-turkey-trot-2026-2026-11-26@noboringweekends
-DTSTAMP:20261126T000000Z
-DTSTART;VALUE=DATE:20261126
-DTEND;VALUE=DATE:20261127
-SUMMARY:巴尔博亚公园感恩节火鸡跑(Father Joe's)
-LOCATION:Balboa Park\, 1549 El Prado\, San Diego\, CA 92101
-DESCRIPTION:🦃 感恩节早上在巴尔博亚公园的 5K。\n费用:以
- 官网为准\nhttps://timesofsandiego.com/san-diego-events/2026/11/11/san-
- diego-thanksgiving-weekend-guide/
-URL:https://timesofsandiego.com/san-diego-events/2026/11/11/san-diego-thank
- sgiving-weekend-guide/
-END:VEVENT
-BEGIN:VEVENT
-UID:coronado-turkey-trot-2026-2026-11-26@noboringweekends
-DTSTAMP:20261126T000000Z
-DTSTART;VALUE=DATE:20261126
-DTEND;VALUE=DATE:20261127
-SUMMARY:科罗纳多感恩节 5K
-LOCATION:Tidelands Park\, 2000 Mullinex Dr\, Coronado\, CA 92118
-DESCRIPTION:🏃 海湾边的感恩节 5K。\n费用:以官网为准\nhttps
- ://timesofsandiego.com/san-diego-events/2026/11/11/san-diego-thanksgiving-
- weekend-guide/
-URL:https://timesofsandiego.com/san-diego-events/2026/11/11/san-diego-thank
- sgiving-weekend-guide/
-END:VEVENT
-BEGIN:VEVENT
 UID:liberty-station-lighting-2026-2026-11-27@noboringweekends
-DTSTAMP:20261126T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART:20261128T010000Z
 DTEND:20261128T050000Z
 SUMMARY:Liberty Station 圣诞点灯 + 露天看《格林奇》
@@ -48,7 +22,7 @@ URL:https://www.sandiego.org/plan-your-trip/plan-by-season/holidays/free-ho
 END:VEVENT
 BEGIN:VEVENT
 UID:chula-vista-light-show-2026-2026-11-27@noboringweekends
-DTSTAMP:20261126T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART:20261128T020000Z
 DTEND:20261128T040000Z
 SUMMARY:Chula Vista 炫彩灯光秀(免费)
@@ -61,7 +35,7 @@ URL:https://www.sandiego.org/plan-your-trip/plan-by-season/holidays/free-ho
 END:VEVENT
 BEGIN:VEVENT
 UID:turkey-bash-2026-11-27@noboringweekends
-DTSTAMP:20261126T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261128
 SUMMARY:Alpine 动物保护区 Turkey Bash
@@ -74,7 +48,7 @@ URL:https://timesofsandiego.com/san-diego-events/2026/11/11/san-diego-thank
 END:VEVENT
 BEGIN:VEVENT
 UID:julian-tree-lighting-2026-2026-11-28@noboringweekends
-DTSTAMP:20261126T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:Julian 小镇圣诞树点灯
@@ -87,7 +61,7 @@ URL:https://www.sandiego.org/plan-your-trip/plan-by-season/holidays/free-ho
 END:VEVENT
 BEGIN:VEVENT
 UID:balboa-line-dancing-1128-2026-11-28@noboringweekends
-DTSTAMP:20261126T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:巴尔博亚公园免费排舞
@@ -101,7 +75,7 @@ URL:https://www.sandiego.org/plan-your-trip/plan-by-season/holidays/free-ho
 END:VEVENT
 BEGIN:VEVENT
 UID:bates-nut-farm-fair-1128-2026-11-28@noboringweekends
-DTSTAMP:20261126T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:Bates 坚果农场圣诞手作市集(免费)
@@ -114,7 +88,7 @@ URL:https://www.sandiego.org/plan-your-trip/plan-by-season/holidays/free-ho
 END:VEVENT
 BEGIN:VEVENT
 UID:december-nights-2026-12-04@noboringweekends
-DTSTAMP:20261126T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;VALUE=DATE:20261204
 DTEND;VALUE=DATE:20261205
 SUMMARY:巴尔博亚公园 December Nights(12/4–5)
