@@ -8,35 +8,8 @@ X-WR-TIMEZONE:America/Los_Angeles
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:gentle-barn-thanksgiving-2026-2026-11-26@noboringweekends
-DTSTAMP:20261126T000000Z
-DTSTART:20261126T180000Z
-DTEND:20261126T210000Z
-SUMMARY:Gentle Barn 动物农场「温柔的感恩节」
-LOCATION:The Gentle Barn\, 15825 Sierra Hwy\, Santa Clarita\, CA 91390
-DESCRIPTION:🐄 在动物救助农场过感恩节上午\,和获救的动
- 物们待在一起。\n费用:以官网为准\nhttps://www.timeout.com/los
- -angeles/things-to-do/thanksgiving-activities-and-events-for-los-angeles
-URL:https://www.timeout.com/los-angeles/things-to-do/thanksgiving-activitie
- s-and-events-for-los-angeles
-END:VEVENT
-BEGIN:VEVENT
-UID:turkey-trot-la-2026-2026-11-26@noboringweekends
-DTSTAMP:20261126T000000Z
-DTSTART;VALUE=DATE:20261126
-DTEND;VALUE=DATE:20261127
-SUMMARY:洛杉矶市政厅感恩节火鸡跑(有儿童跑、狗狗跑)
-LOCATION:Los Angeles City Hall\, 200 N Spring St\, Los Angeles\, CA 90012
-DESCRIPTION:🦃 5K/10K 跑走\,另有 1/4 英里儿童「Widdle Wobble」
- 和 1K 狗狗跑\,全家连狗一起参加。\n费用:以官网为准\nhtt
- ps://www.funwithkidsinla.com/post/what-is-open-on-thanksgiving-day-near-me
- -36-places-and-events-in-los-angeles-for-family-fun-and-tur
-URL:https://www.funwithkidsinla.com/post/what-is-open-on-thanksgiving-day-n
- ear-me-36-places-and-events-in-los-angeles-for-family-fun-and-tur
-END:VEVENT
-BEGIN:VEVENT
 UID:swiss-winter-village-2026-2026-11-27@noboringweekends
-DTSTAMP:20261126T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART:20261127T190000Z
 DTEND:20261128T060000Z
 SUMMARY:圣塔莫尼卡码头瑞士冬日村庄
@@ -50,7 +23,7 @@ URL:https://www.discoverlosangeles.com/things-to-do/the-best-things-to-do-i
 END:VEVENT
 BEGIN:VEVENT
 UID:hammer-art-lab-1128-2026-11-28@noboringweekends
-DTSTAMP:20261126T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART:20261128T210000Z
 DTEND:20261129T000000Z
 SUMMARY:Hammer 美术馆亲子 Art Lab(免费)
@@ -62,7 +35,7 @@ URL:https://www.funwithkidsinla.com/post/free-christmas-events-los-angeles-
 END:VEVENT
 BEGIN:VEVENT
 UID:home-alone-dodger-2026-2026-11-28@noboringweekends
-DTSTAMP:20261126T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART:20261129T000000Z
 DTEND:20261129T040000Z
 SUMMARY:道奇体育场露天看《小鬼当家》
@@ -75,7 +48,7 @@ URL:https://www.funwithkidsinla.com/post/free-christmas-events-los-angeles-
 END:VEVENT
 BEGIN:VEVENT
 UID:terranea-tree-lighting-2026-2026-11-28@noboringweekends
-DTSTAMP:20261126T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART:20261129T003000Z
 DTEND:20261129T023000Z
 SUMMARY:Terranea 海边度假村圣诞点灯
@@ -88,7 +61,7 @@ URL:https://www.funwithkidsinla.com/post/free-christmas-events-los-angeles-
 END:VEVENT
 BEGIN:VEVENT
 UID:smorgasburg-holiday-2026-2026-11-29@noboringweekends
-DTSTAMP:20261126T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART:20261129T180000Z
 DTEND:20261130T000000Z
 SUMMARY:Smorgasburg 节日市集开幕(免费入场)
@@ -101,7 +74,7 @@ URL:https://www.funwithkidsinla.com/post/free-christmas-events-los-angeles-
 END:VEVENT
 BEGIN:VEVENT
 UID:fillmore-tree-lighting-2026-2026-11-29@noboringweekends
-DTSTAMP:20261126T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART:20261130T010000Z
 DTEND:20261130T040000Z
 SUMMARY:Fillmore 小镇点灯 + 夜市
@@ -113,7 +86,7 @@ URL:https://www.funwithkidsinla.com/post/free-christmas-events-los-angeles-
 END:VEVENT
 BEGIN:VEVENT
 UID:hollywood-christmas-parade-2026-2026-11-29@noboringweekends
-DTSTAMP:20261126T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART:20261130T013000Z
 DTEND:20261130T033000Z
 SUMMARY:好莱坞圣诞大游行

@@ -1,44 +1,44 @@
 # 周末不无聊 No Boring Weekends
 
-> 北美华人周末活动指南：15 个城市的亲子和大人周末活动，华人与亚裔社区活动优先，中英双语，每周更新（本期 11/27–11/29，更新于 2026-11-26）。
+> 北美华人周末活动指南：15 个城市的亲子和大人周末活动，华人与亚裔社区活动优先，中英双语，每周更新（本期 11/27–11/29，更新于 2026-11-27）。
 > Weekend events for families and grown-ups in 15 North American cities (festivals, shows, family outings, Chinese/Asian community events), bilingual, updated weekly.
 
 每个城市有固定网址的「本周末」页面，内容每周替换；每个城市还有可订阅的日历（.ics）。活动信息以主办方官网为准。
 Each city has a fixed weekend page that is replaced weekly, plus a subscribable .ics calendar. Check organizers' sites before going.
 
 ## 城市页（中文）
-- [纽约本周末活动](https://noboringweekends.pages.dev/nyc/): 19 个活动，MOCA 节日麻将之夜、MOCA 华埠历史徒步导览(12 月)、华美协进社:中国茶的艺术
-- [新泽西本周末活动](https://noboringweekends.pages.dev/nj/): 15 个活动，Union 感恩节火鸡跑 5K 跑/走、Bayonne 感恩节火鸡跑(5K + 1 英里亲子跑)、South Amboy 海边感恩节 5K(可推婴儿车、带狗)
-- [洛杉矶本周末活动](https://noboringweekends.pages.dev/la/): 9 个活动，Gentle Barn 动物农场「温柔的感恩节」、洛杉矶市政厅感恩节火鸡跑(有儿童跑、狗狗跑)、圣塔莫尼卡码头瑞士冬日村庄
-- [旧金山湾区本周末活动](https://noboringweekends.pages.dev/sf/): 11 个活动，Millbrae 图书馆国语/粤语故事会、日本茶园免费开放时段、旧金山植物园感恩节全天免费
-- [西雅图本周末活动](https://noboringweekends.pages.dev/sea/): 9 个活动，绿湖感恩节 Apple Cup 5K、Magnuson 公园感恩节火鸡跑、西雅图中心 Winterfest(免费看模型火车)
+- [纽约本周末活动](https://noboringweekends.pages.dev/nyc/): 17 个活动，MOCA 节日麻将之夜、MOCA 华埠历史徒步导览(12 月)、华美协进社:中国茶的艺术
+- [新泽西本周末活动](https://noboringweekends.pages.dev/nj/): 12 个活动，Smithville 湖上圣诞树灯光秀(免费)、Clinton 狄更斯节 + 小镇点灯(免费)、Red Mill 冬日村庄集市(Clinton)
+- [洛杉矶本周末活动](https://noboringweekends.pages.dev/la/): 7 个活动，圣塔莫尼卡码头瑞士冬日村庄、Hammer 美术馆亲子 Art Lab(免费)、道奇体育场露天看《小鬼当家》
+- [旧金山湾区本周末活动](https://noboringweekends.pages.dev/sf/): 8 个活动，Millbrae 图书馆国语/粤语故事会、日本茶园免费开放时段、吉拉德利广场 46 英尺圣诞树点灯(免费糖果)
+- [西雅图本周末活动](https://noboringweekends.pages.dev/sea/): 7 个活动，西雅图中心 Winterfest(免费看模型火车)、Bellevue Snowflake Lane 雪花大道(每晚,免费)、派克市场 Magic in the Market(免费)
 - [波士顿本周末活动](https://noboringweekends.pages.dev/bos/): 10 个活动，华人文化中心:太极课、华人文化中心:小书虫故事会、华人文化中心:中英双语节奏时光(幼儿)
-- [芝加哥本周末活动](https://noboringweekends.pages.dev/chi/): 9 个活动，芝加哥图书馆华埠分馆多语言游戏小组、华埠文化读书会:Rachel Khong《My Dear You》、芝加哥感恩节大游行
-- [休斯顿本周末活动](https://noboringweekends.pages.dev/hou/): 7 个活动，City Wide Club 感恩节大餐(免费,可当志愿者)、休斯顿 H-E-B 感恩节游行、POST Houston 露天电影《圣诞夜惊魂》(免费)
-- [达拉斯本周末活动](https://noboringweekends.pages.dev/dal/): 9 个活动，达拉斯 YMCA 感恩节火鸡跑、沃斯堡牧场区牛仔圣诞老人驾到、Galleria Dallas 每日圣诞树点灯秀
-- [华盛顿 DC本周末活动](https://noboringweekends.pages.dev/dc/): 10 个活动，Edgewood 社区农场 Orphansgiving 百家宴、美国植物园节日展开幕(国家公园主题小火车,免费)、DC 感恩节为饥饿而跑
-- [橙县 / 尔湾本周末活动](https://noboringweekends.pages.dev/oc/): 9 个活动，Tanaka 农场 Hikari 灯光节开幕、尔湾感恩节火鸡跑(有儿童跑)、Tustin 感恩节公益 5K(OC Rescue Mission)
-- [圣地亚哥本周末活动](https://noboringweekends.pages.dev/sd/): 9 个活动，巴尔博亚公园感恩节火鸡跑(Father Joe's)、科罗纳多感恩节 5K、Liberty Station 圣诞点灯 + 露天看《格林奇》
-- [亚特兰大本周末活动](https://noboringweekends.pages.dev/atl/): 8 个活动，Chamblee 中国城 Blooms 市集、亚特兰大感恩节半马 + 5K + 儿童跑、Roswell 节日博览会(免费)
+- [芝加哥本周末活动](https://noboringweekends.pages.dev/chi/): 7 个活动，芝加哥图书馆华埠分馆多语言游戏小组、华埠文化读书会:Rachel Khong《My Dear You》、Pilsen 墨西哥艺术博物馆圣诞市集(免费)
+- [休斯顿本周末活动](https://noboringweekends.pages.dev/hou/): 5 个活动，POST Houston 露天电影《圣诞夜惊魂》(免费)、Houston Winter Vibe 手作艺术市集(免费)、The Woodlands 水道百万灯光(免费)
+- [达拉斯本周末活动](https://noboringweekends.pages.dev/dal/): 8 个活动，沃斯堡牧场区牛仔圣诞老人驾到、Galleria Dallas 每日圣诞树点灯秀、德州芭蕾舞团《胡桃夹子》(达拉斯)
+- [华盛顿 DC本周末活动](https://noboringweekends.pages.dev/dc/): 7 个活动，美洲印第安人博物馆原住民传统日(免费)、Eastern Market 节日夜市开幕(免费)、Mosaic District 圣诞点灯(免费)
+- [橙县 / 尔湾本周末活动](https://noboringweekends.pages.dev/oc/): 7 个活动，Tanaka 农场 Hikari 灯光节开幕、Irvine Spectrum 和圣诞老人自拍(免费)、Newport Dunes 海湾点灯
+- [圣地亚哥本周末活动](https://noboringweekends.pages.dev/sd/): 7 个活动，Liberty Station 圣诞点灯 + 露天看《格林奇》、Chula Vista 炫彩灯光秀(免费)、Alpine 动物保护区 Turkey Bash
+- [亚特兰大本周末活动](https://noboringweekends.pages.dev/atl/): 7 个活动，Chamblee 中国城 Blooms 市集、Roswell 节日博览会(免费)、皮埃蒙特公园节日市集(免费)
 - [多伦多本周末活动](https://noboringweekends.pages.dev/tor/): 6 个活动，多伦多图书馆讲座:「三烧」与唐人街的形成、万锦 Main Street 灯光节 + 点灯(免费)、市政厅广场 Cavalcade of Lights 点灯(免费)
-- [温哥华本周末活动](https://noboringweekends.pages.dev/van/): 8 个活动，列治文图书馆中文讲座:海外华人之国籍认同与文化取向、兰里圣诞村(免费)、温哥华圣诞树点灯(免费)
+- [温哥华本周末活动](https://noboringweekends.pages.dev/van/): 7 个活动，列治文图书馆中文讲座:海外华人之国籍认同与文化取向、温哥华圣诞树点灯(免费)、Lafarge 湖灯光节开幕(免费)
 
 ## City pages (English)
-- [New York weekend events](https://noboringweekends.pages.dev/en/nyc/): 19 events, e.g. 100th Macy's Thanksgiving Day Parade; National Museum of the American Indian open on Thanksgiving; Bluey's Aussie Christmas Sand Globe at Hudson Yards
-- [New Jersey weekend events](https://noboringweekends.pages.dev/en/nj/): 15 events, e.g. Union Township Turkey Trot 5K; Bayonne Turkey Trot; REPLENISH Thanksgiving Day Turkey Trot & 5K
-- [Los Angeles weekend events](https://noboringweekends.pages.dev/en/la/): 9 events, e.g. A Gentle Thanksgiving at The Gentle Barn; Turkey Trot LA; Swiss Winter Village at the Santa Monica Pier
-- [SF Bay Area weekend events](https://noboringweekends.pages.dev/en/sf/): 11 events, e.g. SF Botanical Garden free on Thanksgiving; Golden Gate Park Turkey Trot; Volunteer on Thanksgiving: deliver meals to older adults
-- [Seattle weekend events](https://noboringweekends.pages.dev/en/sea/): 9 events, e.g. Thanksgiving Day Apple Cup 5K; Magnuson Turkey Trot; Winterfest at Seattle Center
+- [New York weekend events](https://noboringweekends.pages.dev/en/nyc/): 17 events, e.g. Bluey's Aussie Christmas Sand Globe at Hudson Yards; Urban Park Rangers post-Thanksgiving hikes; Macy's Santaland opens
+- [New Jersey weekend events](https://noboringweekends.pages.dev/en/nj/): 12 events, e.g. Holiday Light Show in Historic Smithville; Dickens Days & tree lighting in Clinton; Red Mill Winter Village
+- [Los Angeles weekend events](https://noboringweekends.pages.dev/en/la/): 7 events, e.g. Swiss Winter Village at the Santa Monica Pier; Hammer Museum Art Lab; Home Alone Under the Stars at Dodger Stadium
+- [SF Bay Area weekend events](https://noboringweekends.pages.dev/en/sf/): 8 events, e.g. Japanese Tea Garden free admission hour; Santa lights the 46-foot tree at Ghirardelli Square; East Bay Regional Parks free park day
+- [Seattle weekend events](https://noboringweekends.pages.dev/en/sea/): 7 events, e.g. Winterfest at Seattle Center; Snowflake Lane in Bellevue; Magic in the Market at Pike Place
 - [Boston weekend events](https://noboringweekends.pages.dev/en/bos/): 10 events, e.g. Tai Chi Class at Chinese Culture Connection; Wampanoag Nation Singers & Dancers at the JFK Library; Snowport Holiday Market
-- [Chicago weekend events](https://noboringweekends.pages.dev/en/chi/): 9 events, e.g. Chicago Thanksgiving Parade; Morton Arboretum free on Thanksgiving; Multilingual Playgroup at CPL Chinatown
-- [Houston weekend events](https://noboringweekends.pages.dev/en/hou/): 7 events, e.g. City Wide Club Thanksgiving Super Feast; H-E-B Thanksgiving Day Parade; Movie night at POST Houston
-- [Dallas weekend events](https://noboringweekends.pages.dev/en/dal/): 9 events, e.g. Dallas YMCA Turkey Trot; Cowboy Santa's Grand Arrival Parade; Galleria Dallas daily tree lighting
-- [Washington DC weekend events](https://noboringweekends.pages.dev/en/dc/): 10 events, e.g. Orphansgiving potluck at Edgewood Community Farm; U.S. Botanic Garden holiday show opens; DC Trot for Hunger
-- [Orange County weekend events](https://noboringweekends.pages.dev/en/oc/): 9 events, e.g. Irvine / OC Turkey Trot; Turkey Trot OC 5K at the Orange County Rescue Mission; Selfies with Santa at Irvine Spectrum
-- [San Diego weekend events](https://noboringweekends.pages.dev/en/sd/): 9 events, e.g. Father Joe's Turkey Trot at Balboa Park; Coronado Turkey Trot 5K; Liberty Station Tree Lighting
-- [Atlanta weekend events](https://noboringweekends.pages.dev/en/atl/): 8 events, e.g. Atlanta Thanksgiving Day Half Marathon, 5K, Mile & Dash; Roswell Holiday Expo; Piedmont Park Holiday Market
+- [Chicago weekend events](https://noboringweekends.pages.dev/en/chi/): 7 events, e.g. Multilingual Playgroup at CPL Chinatown; Mercado Navideño at the National Museum of Mexican Art; Wreathing of the Lions at the Art Institute
+- [Houston weekend events](https://noboringweekends.pages.dev/en/hou/): 5 events, e.g. Movie night at POST Houston; Houston Winter Vibe Art Fair; Holiday on The Waterway
+- [Dallas weekend events](https://noboringweekends.pages.dev/en/dal/): 8 events, e.g. Cowboy Santa's Grand Arrival Parade; Galleria Dallas daily tree lighting; Texas Ballet Theater's The Nutcracker
+- [Washington DC weekend events](https://noboringweekends.pages.dev/en/dc/): 7 events, e.g. Native American Heritage Day at the American Indian Museum; Eastern Market holiday night market; Mosaic District tree lighting
+- [Orange County weekend events](https://noboringweekends.pages.dev/en/oc/): 7 events, e.g. Selfies with Santa at Irvine Spectrum; Tanaka Farms Hikari Festival of Lights; Lighting of the Bay at Newport Dunes
+- [San Diego weekend events](https://noboringweekends.pages.dev/en/sd/): 7 events, e.g. Liberty Station Tree Lighting; Dazzling Holiday Light Show in Chula Vista; Turkey Bash at Lions, Tigers & Bears
+- [Atlanta weekend events](https://noboringweekends.pages.dev/en/atl/): 7 events, e.g. Roswell Holiday Expo; Piedmont Park Holiday Market; Our Thankfulness Tree at Hapeville Library
 - [Toronto weekend events](https://noboringweekends.pages.dev/en/tor/): 6 events, e.g. The Myth of “Samshu”: Smell, Race, and the Making of Chinatown; Markham Festival of Lights; Cavalcade of Lights at Nathan Phillips Square
-- [Vancouver weekend events](https://noboringweekends.pages.dev/en/van/): 8 events, e.g. Langley Christmas Village; Vancouver Christmas Tree Lighting; Lights at Lafarge kick-off
+- [Vancouver weekend events](https://noboringweekends.pages.dev/en/van/): 7 events, e.g. Vancouver Christmas Tree Lighting; Lights at Lafarge kick-off; Deep Winter in Yaletown
 
 ## 免费 / 优惠攻略 Free-day guides
 - [纽约免费博物馆日 & 优惠 / Free museum days in New York](https://noboringweekends.pages.dev/nyc/guides/free/)

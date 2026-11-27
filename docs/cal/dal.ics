@@ -8,21 +8,8 @@ X-WR-TIMEZONE:America/Chicago
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:dallas-ymca-turkey-trot-2026-2026-11-26@noboringweekends
-DTSTAMP:20261126T000000Z
-DTSTART:20261126T143000Z
-DTEND:20261126T163000Z
-SUMMARY:达拉斯 YMCA 感恩节火鸡跑
-LOCATION:Dallas City Hall\, 1500 Marilla St\, Dallas\, TX 75201
-DESCRIPTION:🦃 达拉斯最大的火鸡跑\,环绕市中心和 Deep Ellum
- \,有计时 5K、8 英里和不计时组。\n费用:成人约 $53.52、7
- –12 岁约 $41.52\,以官网为准\nhttps://dfwchild.com/thanksgiving-ev
- ents-dfw-family-activities/
-URL:https://dfwchild.com/thanksgiving-events-dfw-family-activities/
-END:VEVENT
-BEGIN:VEVENT
 UID:cowboy-santa-2026-2026-11-27@noboringweekends
-DTSTAMP:20261126T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART:20261127T173000Z
 DTEND:20261127T193000Z
 SUMMARY:沃斯堡牧场区牛仔圣诞老人驾到
@@ -35,7 +22,7 @@ URL:https://dfwchild.com/things-to-do-thanksgiving-weekend-dfw/
 END:VEVENT
 BEGIN:VEVENT
 UID:galleria-tree-lighting-2026-2026-11-27@noboringweekends
-DTSTAMP:20261126T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART:20261127T180000Z
 DTEND:20261127T200000Z
 SUMMARY:Galleria Dallas 每日圣诞树点灯秀
@@ -48,7 +35,7 @@ URL:https://www.dallasnews.com/arts-entertainment/things-to-do/article/nort
 END:VEVENT
 BEGIN:VEVENT
 UID:tbt-nutcracker-2026-11-27@noboringweekends
-DTSTAMP:20261126T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261128
 SUMMARY:德州芭蕾舞团《胡桃夹子》(达拉斯)
@@ -59,7 +46,7 @@ URL:https://dallas.culturemap.com/
 END:VEVENT
 BEGIN:VEVENT
 UID:northpark-holiday-2026-2026-11-27@noboringweekends
-DTSTAMP:20261126T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261128
 SUMMARY:NorthPark 商场节日季(免费)
@@ -70,7 +57,7 @@ URL:https://dfwchild.com/things-to-do-thanksgiving-weekend-dfw/
 END:VEVENT
 BEGIN:VEVENT
 UID:mckinney-holidays-2026-2026-11-27@noboringweekends
-DTSTAMP:20261126T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261128
 SUMMARY:McKinney 老城圣诞节(免费)
@@ -82,7 +69,7 @@ URL:https://dfwchild.com/things-to-do-thanksgiving-weekend-dfw/
 END:VEVENT
 BEGIN:VEVENT
 UID:texas-christkindl-2026-2026-11-27@noboringweekends
-DTSTAMP:20261126T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261128
 SUMMARY:阿灵顿德州圣诞市集(免费入场)
@@ -94,7 +81,7 @@ URL:https://dfwchild.com/things-to-do-thanksgiving-weekend-dfw/
 END:VEVENT
 BEGIN:VEVENT
 UID:pga-frisco-range-2026-2026-11-28@noboringweekends
-DTSTAMP:20261126T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART:20261128T230000Z
 DTEND:20261129T020000Z
 SUMMARY:PGA Frisco 节日夜(无人机表演\,免费入场)
@@ -106,7 +93,7 @@ URL:https://dfwchild.com/things-to-do-thanksgiving-weekend-dfw/
 END:VEVENT
 BEGIN:VEVENT
 UID:vitruvian-tree-lighting-2026-2026-11-28@noboringweekends
-DTSTAMP:20261126T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:Addison Vitruvian 公园圣诞点灯(免费)

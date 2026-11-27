@@ -9,7 +9,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:moca-mahjong-2026-12-02@noboringweekends
-DTSTAMP:20261126T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART:20261202T230000Z
 DTEND:20261203T020000Z
 SUMMARY:MOCA 节日麻将之夜
@@ -20,7 +20,7 @@ URL:https://www.mocanyc.org/calendar/
 END:VEVENT
 BEGIN:VEVENT
 UID:moca-chinatown-walk-dec-2026-12-05@noboringweekends
-DTSTAMP:20261126T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART:20261205T163000Z
 DTEND:20261205T180000Z
 SUMMARY:MOCA 华埠历史徒步导览(12 月)
@@ -31,7 +31,7 @@ URL:https://www.mocanyc.org/calendar/
 END:VEVENT
 BEGIN:VEVENT
 UID:ci-chinese-tea-2026-12-05@noboringweekends
-DTSTAMP:20261126T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART:20261205T190000Z
 DTEND:20261205T210000Z
 SUMMARY:华美协进社:中国茶的艺术
@@ -42,7 +42,7 @@ URL:https://chinainstitute.org/upcoming-events/
 END:VEVENT
 BEGIN:VEVENT
 UID:ci-ancient-ensemble-2026-12-19@noboringweekends
-DTSTAMP:20261126T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART:20261219T200000Z
 DTEND:20261219T230000Z
 SUMMARY:华美协进社:古乐雅集音乐会
@@ -53,36 +53,8 @@ DESCRIPTION:🎶 中国古典雅乐演出\,圣诞前的一场中式音乐
 URL:https://chinainstitute.org/upcoming-events/
 END:VEVENT
 BEGIN:VEVENT
-UID:macys-parade-100-2026-11-26@noboringweekends
-DTSTAMP:20261126T000000Z
-DTSTART:20261126T133000Z
-DTEND:20261126T170000Z
-SUMMARY:第 100 届梅西感恩节大游行
-LOCATION:Central Park West → Herald Square\, W 77th St & Central Park Wes
- t to Herald Square\, New York\, NY
-DESCRIPTION:🎈 百年一遇的第 100 届!巨型气球从中央公园西
- 边出发\,沿 59 街和第六大道一路到先驱广场。\n费用:免
- 费\nhttps://freetoursbyfoot.com/macys-thanksgiving-day-parade-route/
-URL:https://freetoursbyfoot.com/macys-thanksgiving-day-parade-route/
-END:VEVENT
-BEGIN:VEVENT
-UID:nmai-thanksgiving-2026-2026-11-26@noboringweekends
-DTSTAMP:20261126T000000Z
-DTSTART:20261126T150000Z
-DTEND:20261126T220000Z
-SUMMARY:美洲印第安人国家博物馆感恩节开放(免费)
-LOCATION:National Museum of the American Indian\, 1 Bowling Green\, New Yor
- k\, NY 10004
-DESCRIPTION:🪶 感恩节当天照常开放\,免费入场\,看完游行可
- 以来这里了解原住民的历史和文化。\n费用:免费\nhttps://m
- ommypoppins.com/newyorkcitykids/thanksgiving-day-whats-open-and-things-to-
- do-in-new-york-city-with-kids
-URL:https://mommypoppins.com/newyorkcitykids/thanksgiving-day-whats-open-an
- d-things-to-do-in-new-york-city-with-kids
-END:VEVENT
-BEGIN:VEVENT
 UID:bluey-sand-globe-2026-2026-11-27@noboringweekends
-DTSTAMP:20261126T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART:20261127T170000Z
 DTEND:20261128T010000Z
 SUMMARY:Hudson Yards Bluey 澳洲圣诞沙球快闪(免费)
@@ -96,7 +68,7 @@ URL:https://www.newyorkfamily.com/things-to-do-in-nyc-this-weekend-with-kid
 END:VEVENT
 BEGIN:VEVENT
 UID:nyc-rangers-hike-1127-2026-11-27@noboringweekends
-DTSTAMP:20261126T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261128
 SUMMARY:城市公园护林员感恩节后徒步(免费)
@@ -110,7 +82,7 @@ URL:https://www.nycgovparks.org/events/thanksgiving
 END:VEVENT
 BEGIN:VEVENT
 UID:macys-santaland-2026-2026-11-27@noboringweekends
-DTSTAMP:20261126T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261128
 SUMMARY:梅西百货 Santaland 开放(免费)
@@ -123,7 +95,7 @@ URL:https://www.newyorkfamily.com/things-to-do-in-nyc-this-weekend-with-kid
 END:VEVENT
 BEGIN:VEVENT
 UID:yorkville-storytime-1128-2026-11-28@noboringweekends
-DTSTAMP:20261126T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART:20261128T160000Z
 DTEND:20261128T170000Z
 SUMMARY:Yorkville 图书馆感恩节故事会(5 岁以下)
@@ -137,7 +109,7 @@ URL:https://mommypoppins.com/new-york-city-kids/weekend-events/things-to-do
 END:VEVENT
 BEGIN:VEVENT
 UID:park-slope-tree-lighting-2026-2026-11-28@noboringweekends
-DTSTAMP:20261126T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:Park Slope 社区圣诞点灯(热可可+圣诞老人)
@@ -150,7 +122,7 @@ URL:https://www.newyorkfamily.com/things-to-do-in-nyc-this-weekend-with-kid
 END:VEVENT
 BEGIN:VEVENT
 UID:caribbean-holiday-market-2026-2026-11-28@noboringweekends
-DTSTAMP:20261126T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:布鲁克林加勒比节日集市(免费入场)
@@ -163,7 +135,7 @@ URL:https://www.newyorkfamily.com/things-to-do-in-nyc-this-weekend-with-kid
 END:VEVENT
 BEGIN:VEVENT
 UID:chelsea-popup-market-2026-2026-11-29@noboringweekends
-DTSTAMP:20261126T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART:20261129T180000Z
 DTEND:20261130T000000Z
 SUMMARY:Chelsea 节日快闪市集(免费入场)
@@ -176,7 +148,7 @@ URL:https://www.newyorkfamily.com/things-to-do-in-nyc-this-weekend-with-kid
 END:VEVENT
 BEGIN:VEVENT
 UID:bryant-park-tree-lighting-2026-2026-12-01@noboringweekends
-DTSTAMP:20261126T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART:20261201T223000Z
 DTEND:20261202T003000Z
 SUMMARY:布莱恩特公园冬季村圣诞点灯(免费)
@@ -187,7 +159,7 @@ URL:https://www.nycforfree.co/nyc/free-tree-lighting-ceremonies
 END:VEVENT
 BEGIN:VEVENT
 UID:seaport-tree-lighting-2026-12-01@noboringweekends
-DTSTAMP:20261126T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;VALUE=DATE:20261201
 DTEND;VALUE=DATE:20261202
 SUMMARY:南街海港圣诞树点灯
@@ -200,7 +172,7 @@ URL:https://resident.com/new-york/2026/10/28/nycs-holiday-season-begins-wit
 END:VEVENT
 BEGIN:VEVENT
 UID:roscoe-brown-tree-lighting-2026-2026-12-02@noboringweekends
-DTSTAMP:20261126T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART:20261202T210000Z
 DTEND:20261202T230000Z
 SUMMARY:布朗克斯 Captain Roscoe Brown 广场点灯(免费)
@@ -213,7 +185,7 @@ URL:https://www.nycgovparks.org/events/2026/12/02/holiday-tree-lighting
 END:VEVENT
 BEGIN:VEVENT
 UID:nyse-tree-lighting-2026-2026-12-03@noboringweekends
-DTSTAMP:20261126T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART:20261203T203000Z
 DTEND:20261203T233000Z
 SUMMARY:纽交所第 103 届圣诞点灯
@@ -225,7 +197,7 @@ URL:https://www.nycforfree.co/events/nyse-103rd-annual-tree-lighting
 END:VEVENT
 BEGIN:VEVENT
 UID:dumbo-holiday-lighting-2026-2026-12-03@noboringweekends
-DTSTAMP:20261126T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART:20261203T210000Z
 DTEND:20261204T000000Z
 SUMMARY:DUMBO 节日点灯(免费)
@@ -236,7 +208,7 @@ URL:https://www.nycforfree.co/nyc/free-tree-lighting-ceremonies
 END:VEVENT
 BEGIN:VEVENT
 UID:harlem-meer-lighting-2026-2026-12-03@noboringweekends
-DTSTAMP:20261126T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART:20261203T223000Z
 DTEND:20261204T003000Z
 SUMMARY:中央公园 Harlem Meer 湖上树灯(第 30 届\,免费)

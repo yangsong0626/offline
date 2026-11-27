@@ -8,36 +8,8 @@ X-WR-TIMEZONE:America/Los_Angeles
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:apple-cup-5k-2026-2026-11-26@noboringweekends
-DTSTAMP:20261126T000000Z
-DTSTART;VALUE=DATE:20261126
-DTEND;VALUE=DATE:20261127
-SUMMARY:绿湖感恩节 Apple Cup 5K
-LOCATION:Green Lake Park\, Green Lake Park\, Seattle\, WA 98103
-DESCRIPTION:🍎 绕绿湖跑 5K\,今年第 8 届\,把感恩节和华大 vs
-  华州的 Apple Cup 结合在一起。\n费用:以官网为准\nhttps://e
- verout.com/seattle/articles/the-top-35-events-in-seattle-this-week-nov-23-
- 29-2026/c6634/
-URL:https://everout.com/seattle/articles/the-top-35-events-in-seattle-this-
- week-nov-23-29-2026/c6634/
-END:VEVENT
-BEGIN:VEVENT
-UID:magnuson-turkey-trot-2026-2026-11-26@noboringweekends
-DTSTAMP:20261126T000000Z
-DTSTART;VALUE=DATE:20261126
-DTEND;VALUE=DATE:20261127
-SUMMARY:Magnuson 公园感恩节火鸡跑
-LOCATION:Magnuson Park\, NE 65th St & Sand Point Way NE\, Seattle\, WA 9811
- 5
-DESCRIPTION:🦃 感恩节早上在 Magnuson 公园附近的火鸡跑。\n
- 费用:以官网为准\nhttps://everout.com/seattle/articles/the-top-35-ev
- ents-in-seattle-this-week-nov-23-29-2026/c6634/
-URL:https://everout.com/seattle/articles/the-top-35-events-in-seattle-this-
- week-nov-23-29-2026/c6634/
-END:VEVENT
-BEGIN:VEVENT
 UID:seattle-winterfest-2026-2026-11-27@noboringweekends
-DTSTAMP:20261126T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART:20261127T180000Z
 DTEND:20261128T020000Z
 SUMMARY:西雅图中心 Winterfest(免费看模型火车)
@@ -53,7 +25,7 @@ URL:https://seattlerefined.com/lifestyle/thanksgiving-weekend-holiday-event
 END:VEVENT
 BEGIN:VEVENT
 UID:snowflake-lane-2026-2026-11-27@noboringweekends
-DTSTAMP:20261126T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART:20261128T030000Z
 DTEND:20261128T050000Z
 SUMMARY:Bellevue Snowflake Lane 雪花大道(每晚\,免费)
@@ -68,7 +40,7 @@ URL:https://seattlerefined.com/lifestyle/thanksgiving-weekend-holiday-event
 END:VEVENT
 BEGIN:VEVENT
 UID:pike-place-magic-2026-2026-11-28@noboringweekends
-DTSTAMP:20261126T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART:20261128T190000Z
 DTEND:20261129T020000Z
 SUMMARY:派克市场 Magic in the Market(免费)
@@ -84,7 +56,7 @@ URL:https://seattlerefined.com/lifestyle/thanksgiving-weekend-holiday-event
 END:VEVENT
 BEGIN:VEVENT
 UID:kcls-dinos-1128-2026-11-28@noboringweekends
-DTSTAMP:20261126T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART:20261128T191500Z
 DTEND:20261128T211500Z
 SUMMARY:Shoreline 图书馆:和 Mikey 科学家一起挖恐龙
@@ -95,7 +67,7 @@ URL:https://kcls.bibliocommons.com/events/6aa1f647101eb7003f2ee2b9
 END:VEVENT
 BEGIN:VEVENT
 UID:westlake-tree-lighting-2026-2026-11-28@noboringweekends
-DTSTAMP:20261126T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART:20261129T010000Z
 DTEND:20261129T030000Z
 SUMMARY:Westlake 公园圣诞点灯
@@ -111,7 +83,7 @@ URL:https://seattlerefined.com/lifestyle/thanksgiving-weekend-holiday-event
 END:VEVENT
 BEGIN:VEVENT
 UID:garden-dlights-2026-2026-11-28@noboringweekends
-DTSTAMP:20261126T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:Bellevue 植物园 Garden d'Lights
@@ -127,7 +99,7 @@ URL:https://seattlerefined.com/lifestyle/thanksgiving-weekend-holiday-event
 END:VEVENT
 BEGIN:VEVENT
 UID:kcls-pokemon-1129-2026-11-29@noboringweekends
-DTSTAMP:20261126T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART:20261129T210000Z
 DTEND:20261129T230000Z
 SUMMARY:Renton 图书馆宝可梦俱乐部

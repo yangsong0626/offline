@@ -8,46 +8,8 @@ X-WR-TIMEZONE:America/New_York
 REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
-UID:union-turkey-trot-2026-2026-11-26@noboringweekends
-DTSTAMP:20261126T000000Z
-DTSTART:20261126T124500Z
-DTEND:20261126T150000Z
-SUMMARY:Union 感恩节火鸡跑 5K 跑/走
-LOCATION:Union Township\, Union\, NJ 07083
-DESCRIPTION:🏃 5K 趣味跑或走\,不求速度\,适合全家。报名看
- 官网。\n费用:以官网为准\nhttps://thelocalgirl.com/newjersey/new-
- jersey-turkey-trots-2026/
-URL:https://thelocalgirl.com/newjersey/new-jersey-turkey-trots-2026/
-END:VEVENT
-BEGIN:VEVENT
-UID:bayonne-turkey-trot-2026-2026-11-26@noboringweekends
-DTSTAMP:20261126T000000Z
-DTSTART;VALUE=DATE:20261126
-DTEND;VALUE=DATE:20261127
-SUMMARY:Bayonne 感恩节火鸡跑(5K + 1 英里亲子跑)
-LOCATION:Bayonne County Park\, Bayonne Park\, Bayonne\, NJ 07002
-DESCRIPTION:🦃 感恩节早上 5K\,另有 1 英里亲子趣味跑\,全家
- 一起跑完再回家吃大餐。报名和起跑时间看官网。\n费用
- :以官网为准\nhttps://thelocalgirl.com/newjersey/new-jersey-turkey-tro
- ts-2026/
-URL:https://thelocalgirl.com/newjersey/new-jersey-turkey-trots-2026/
-END:VEVENT
-BEGIN:VEVENT
-UID:replenish-turkey-trot-2026-2026-11-26@noboringweekends
-DTSTAMP:20261126T000000Z
-DTSTART;VALUE=DATE:20261126
-DTEND;VALUE=DATE:20261127
-SUMMARY:South Amboy 海边感恩节 5K(可推婴儿车、带狗)
-LOCATION:South Amboy waterfront\, South Amboy\, NJ 08879
-DESCRIPTION:🌊 海边 5K\,可以推婴儿车、带狗。每人 $40\,11/25
-  前网上报名。\n费用:$40\nhttps://www.njfamily.com/events/replenish
- -thanksgiving-day-turkey-trot-and-5k/
-URL:https://www.njfamily.com/events/replenish-thanksgiving-day-turkey-trot-
- and-5k/
-END:VEVENT
-BEGIN:VEVENT
 UID:smithville-lights-2026-2026-11-27@noboringweekends
-DTSTAMP:20261126T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART:20261127T223000Z
 DTEND:20261128T013000Z
 SUMMARY:Smithville 湖上圣诞树灯光秀(免费)
@@ -62,7 +24,7 @@ URL:https://www.njfamily.com/events/holiday-light-show-in-historic-smithvil
 END:VEVENT
 BEGIN:VEVENT
 UID:clinton-dickens-days-2026-2026-11-27@noboringweekends
-DTSTAMP:20261126T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261128
 SUMMARY:Clinton 狄更斯节 + 小镇点灯(免费)
@@ -76,7 +38,7 @@ URL:https://newjerseyisntboring.com/njibs-guide-to-70-new-jersey-november-e
 END:VEVENT
 BEGIN:VEVENT
 UID:red-mill-winter-village-2026-2026-11-27@noboringweekends
-DTSTAMP:20261126T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261128
 SUMMARY:Red Mill 冬日村庄集市(Clinton)
@@ -90,7 +52,7 @@ URL:https://www.njfamily.com/things-to-do-this-weekend-in-new-jersey-novemb
 END:VEVENT
 BEGIN:VEVENT
 UID:norz-hill-hayride-2026-2026-11-27@noboringweekends
-DTSTAMP:20261126T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261128
 SUMMARY:Norz Hill 农场灯光拖拉机干草车
@@ -103,7 +65,7 @@ URL:https://www.njfamily.com/things-to-do-this-weekend-in-new-jersey-novemb
 END:VEVENT
 BEGIN:VEVENT
 UID:fairy-tale-forest-winter-2026-2026-11-27@noboringweekends
-DTSTAMP:20261126T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261128
 SUMMARY:Fairy Tale Forest 冬季仙境步道
@@ -115,7 +77,7 @@ URL:https://www.njfamily.com/things-to-do-this-thanksgiving-weekend-in-nj/
 END:VEVENT
 BEGIN:VEVENT
 UID:scls-saturday-fun-1128-2026-11-28@noboringweekends
-DTSTAMP:20261126T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART:20261128T160000Z
 DTEND:20261128T180000Z
 SUMMARY:Hillsborough 图书馆周六亲子时光
@@ -127,7 +89,7 @@ URL:https://sclsnj.libnet.info/event/17503773
 END:VEVENT
 BEGIN:VEVENT
 UID:princeton-math-circle-1128-2026-11-28@noboringweekends
-DTSTAMP:20261126T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART:20261128T190000Z
 DTEND:20261128T210000Z
 SUMMARY:普林斯顿图书馆儿童数学圈
@@ -139,7 +101,7 @@ URL:https://princetonlibrary.libnet.info/event/17734165
 END:VEVENT
 BEGIN:VEVENT
 UID:morristown-green-festival-2026-2026-11-28@noboringweekends
-DTSTAMP:20261126T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:Morristown Green 圣诞节(免费\,有小火车)
@@ -151,7 +113,7 @@ URL:https://www.njfamily.com/things-to-do-this-thanksgiving-weekend-in-nj/
 END:VEVENT
 BEGIN:VEVENT
 UID:morris-county-farms-xmas-2026-2026-11-28@noboringweekends
-DTSTAMP:20261126T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
 SUMMARY:Denville 农场圣诞嘉年华(圣诞老人、充气城堡)
@@ -163,7 +125,7 @@ URL:https://www.njfamily.com/things-to-do-this-thanksgiving-weekend-in-nj/
 END:VEVENT
 BEGIN:VEVENT
 UID:edison-salsa-1129-2026-11-29@noboringweekends
-DTSTAMP:20261126T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART:20261129T190000Z
 DTEND:20261129T210000Z
 SUMMARY:Edison 图书馆萨尔萨舞课
@@ -175,7 +137,7 @@ URL:https://edisonpubliclibrary.libnet.info/event/17666167
 END:VEVENT
 BEGIN:VEVENT
 UID:princeton-jazz-1129-2026-11-29@noboringweekends
-DTSTAMP:20261126T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART:20261129T200000Z
 DTEND:20261129T220000Z
 SUMMARY:普林斯顿图书馆爵士四重奏音乐会
@@ -187,7 +149,7 @@ URL:https://princetonlibrary.libnet.info/event/17671602
 END:VEVENT
 BEGIN:VEVENT
 UID:long-branch-tree-lighting-2026-2026-11-29@noboringweekends
-DTSTAMP:20261126T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART:20261129T210000Z
 DTEND:20261129T230000Z
 SUMMARY:Long Branch Pier Village 圣诞点灯

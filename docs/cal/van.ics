@@ -9,7 +9,7 @@ REFRESH-INTERVAL;VALUE=DURATION:PT12H
 X-PUBLISHED-TTL:PT12H
 BEGIN:VEVENT
 UID:richmond-lecture-1128-2026-11-28@noboringweekends
-DTSTAMP:20261126T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART:20261128T210000Z
 DTEND:20261128T230000Z
 SUMMARY:列治文图书馆中文讲座:海外华人之国籍认同与文化
@@ -22,19 +22,8 @@ DESCRIPTION:🗣️ 中文讲座\,聊海外华人的身份认同。\n费用
 URL:https://yourlibrary.bibliocommons.com/events/6aac6ff919094f0c6938c6b7
 END:VEVENT
 BEGIN:VEVENT
-UID:langley-christmas-village-2026-2026-11-26@noboringweekends
-DTSTAMP:20261126T000000Z
-DTSTART;VALUE=DATE:20261126
-DTEND;VALUE=DATE:20261127
-SUMMARY:兰里圣诞村(免费)
-LOCATION:Langley Christmas Village\, Langley\, BC
-DESCRIPTION:🎅 免费圣诞村\,11/26–12/24。\n费用:免费\nhttps://
- dailyhive.com/vancouver/vancouver-events-november-23-29
-URL:https://dailyhive.com/vancouver/vancouver-events-november-23-29
-END:VEVENT
-BEGIN:VEVENT
 UID:van-tree-lighting-2026-2026-11-27@noboringweekends
-DTSTAMP:20261126T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART:20261128T000000Z
 DTEND:20261128T020000Z
 SUMMARY:温哥华圣诞树点灯(免费)
@@ -49,7 +38,7 @@ URL:https://604now.com/things-to-do-in-metro-vancouver-this-weekend-nov-27-
 END:VEVENT
 BEGIN:VEVENT
 UID:lights-at-lafarge-2026-2026-11-27@noboringweekends
-DTSTAMP:20261126T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART:20261128T000000Z
 DTEND:20261128T030000Z
 SUMMARY:Lafarge 湖灯光节开幕(免费)
@@ -61,7 +50,7 @@ URL:https://604now.com/things-to-do-in-metro-vancouver-this-weekend-nov-27-
 END:VEVENT
 BEGIN:VEVENT
 UID:deep-winter-yaletown-2026-2026-11-27@noboringweekends
-DTSTAMP:20261126T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261128
 SUMMARY:Yaletown「深冬」投影灯光秀(免费)
@@ -74,7 +63,7 @@ URL:https://604now.com/things-to-do-in-metro-vancouver-this-weekend-nov-27-
 END:VEVENT
 BEGIN:VEVENT
 UID:edmonds-festival-lights-2026-2026-11-28@noboringweekends
-DTSTAMP:20261126T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART:20261128T213000Z
 DTEND:20261129T003000Z
 SUMMARY:本拿比 Edmonds 灯光节
@@ -86,7 +75,7 @@ URL:https://604now.com/things-to-do-in-metro-vancouver-this-weekend-nov-27-
 END:VEVENT
 BEGIN:VEVENT
 UID:wonderland-drive-2026-2026-11-29@noboringweekends
-DTSTAMP:20261126T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART:20261129T210000Z
 DTEND:20261130T000000Z
 SUMMARY:Commercial Drive 圣诞仙境(免费)
@@ -99,7 +88,7 @@ URL:https://604now.com/things-to-do-in-metro-vancouver-this-weekend-nov-27-
 END:VEVENT
 BEGIN:VEVENT
 UID:surrey-parade-lights-2026-2026-11-29@noboringweekends
-DTSTAMP:20261126T000000Z
+DTSTAMP:20261127T000000Z
 DTSTART:20261130T010000Z
 DTEND:20261130T030000Z
 SUMMARY:素里圣诞灯光游行(免费)
